@@ -32,8 +32,10 @@ doc_cookies = nlp(cookies_policy)
 tokens = [t for t in doc_cookies.text.split()]
 
 freq = nltk.FreqDist(tokens)
-print('Size of Lexicon:' + len(freq))
+print('Size of Lexicon:', len(freq))
+#freq.values.sort()
+
 
 for key, val in freq.items():
     print(str(key) + ':' + str(val))
-
+freq.plot(20, cumulative=False)
