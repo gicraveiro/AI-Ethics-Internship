@@ -4,6 +4,16 @@ import pdfx
 import spacy
 import nltk
 
+# extracted from the lab, git repository: https://github.com/esrel/NLU.Lab.2021/blob/master/notebooks/corpus.ipynb
+def nbest(d, n=5):
+    """
+    get n max values from a dict
+    :param d: input dict (values are numbers, keys are stings)
+    :param n: number of values to get (int)
+    :return: dict of top n key-value pairs
+    """
+    return dict(sorted(d.items(), key=lambda item: item[1], reverse=True)[:n])
+
 def compute_stats(file):
 
     doc = nlp(file)
@@ -22,6 +32,7 @@ def compute_stats(file):
                 print(str(key) + ':' + str(val))
 
     freq.plot(20, cumulative=False)
+    print(nbest(freq,len(freq)))
 
 nlp = spacy.load('en_core_web_sm')
 
