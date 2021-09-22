@@ -33,8 +33,7 @@ tokens = [t for t in doc_cookies.text.split()]
 
 freq = nltk.FreqDist(tokens)
 print('Size of Lexicon:' + len(freq))
-i = 0
+
 for key, val in freq.items():
     print(str(key) + ':' + str(val))
-    i +=1
-print(i)
+
