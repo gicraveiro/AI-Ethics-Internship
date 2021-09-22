@@ -39,3 +39,9 @@ print('Size of Lexicon:', len(freq))
 for key, val in freq.items():
     print(str(key) + ':' + str(val))
 freq.plot(20, cumulative=False)
+
+
+keywords = open('data/Keywords/Privacy KeyWords Formatted.docx.txt', "r", encoding='utf-8-sig')
+keywords = keywords.read()
+keywords = keywords.split(", ")
+print(keywords)
