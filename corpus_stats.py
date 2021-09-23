@@ -31,7 +31,8 @@ def compute_stats(file,filename, path):
     
     plt.ion()
     graph = freq.plot(20, cumulative=False) # TO DO: ADD GRAPHS TO FILE
-    plt.savefig('output/'+filename+'Graph.png')
+    plt.savefig('output/Privacy/FacebookSourced/'+filename+'/Graph.png') # TO DO: GENERALIZE ETHIC THEME + SOURCE 
+    # TO DO: CLEAN GRAPH
     plt.ioff()
 
     freq = nbest(freq,len(freq)) 
@@ -78,31 +79,31 @@ cookies_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/CookiesPolicy.pdf
 cookies_policy = cookies_policy.get_text()
 #print(cookies_policy)
 #print("\nCookie Policy Stats\n", file=output_file)
-compute_stats(cookies_policy, 'CookiesPolicy', 'output/Privacy/FacebookSourced/CookiesPolicy.txt')
+compute_stats(cookies_policy, 'CookiesPolicy', 'output/Privacy/FacebookSourced/CookiesPolicy/Stats.txt')
 
 data_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/DataPolicy.pdf')
 data_policy = data_policy.get_text()
 #print(data_policy)
 #print("\nData Policy Stats\n", file=output_file)
-compute_stats(data_policy,'DataPolicy', 'output/Privacy/FacebookSourced/DataPolicy.txt')
+compute_stats(data_policy,'DataPolicy', 'output/Privacy/FacebookSourced/DataPolicy/Stats.txt')
 
 gen_info_privacy = pdfx.PDFx('data/Facebook/TargetCompanySourced/General Info ProtectingPrivacyAndSecurity.pdf')
 gen_info_privacy = gen_info_privacy.get_text()
 #print(gen_info_privacy)
 #print("\nGeneral Info on Privacy Stats\n", file=output_file)
-compute_stats(gen_info_privacy, 'General Info ProtectingPrivacyAndSecurity', 'output/Privacy/FacebookSourced/General Info ProtectingPrivacyAndSecurity.txt')
+compute_stats(gen_info_privacy, 'General Info ProtectingPrivacyAndSecurity', 'output/Privacy/FacebookSourced/General Info ProtectingPrivacyAndSecurity/Stats.txt')
 
 open_source_privacy_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/OpenSourcePrivacyPolicy.pdf')
 open_source_privacy_policy = open_source_privacy_policy.get_text()
 #print(open_source_privacy_policy)
 #print("\nOpen Source Privacy Policy Stats\n", file=output_file)
-compute_stats(open_source_privacy_policy, 'OpenSourcePrivacyPolicy', 'output/Privacy/FacebookSourced/OpenSourcePrivacyPolicy.txt')
+compute_stats(open_source_privacy_policy, 'OpenSourcePrivacyPolicy', 'output/Privacy/FacebookSourced/OpenSourcePrivacyPolicy/Stats.txt')
 
 terms_of_service = pdfx.PDFx('data/Facebook/TargetCompanySourced/TermsOfService.pdf')
 terms_of_service = terms_of_service.get_text()
 #print(terms_of_service)
 #print("\nTerms of Service Stats\n", file=output_file)
-compute_stats(terms_of_service, 'TermsOfService', 'output/Privacy/FacebookSourced/TermsOfService.txt')
+compute_stats(terms_of_service, 'TermsOfService', 'output/Privacy/FacebookSourced/TermsOfService/Stats.txt')
 
 # TO DO: REMOVE STOP WORDS FUNCTION
 # TO DO: SEPARATE OUTPUT OF EACH FILE INTO ITS OWN OUTPUT FILE 
