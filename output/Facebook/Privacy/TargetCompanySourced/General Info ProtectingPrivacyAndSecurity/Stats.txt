@@ -4,6 +4,10 @@ General Info ProtectingPrivacyAndSecurity
 Total number of tokens: 1022
 Size of Lexicon: 423
 
+With stop word removal 
+Size of original corpus: 1022 
+Size of filtered corpus: 362
+
 Tokens that appear in the file, alongside with their frequencies:
 Facebook:24
 Privacy:19

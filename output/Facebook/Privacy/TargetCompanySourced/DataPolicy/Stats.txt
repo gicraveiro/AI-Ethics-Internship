@@ -4,6 +4,10 @@ DataPolicy
 Total number of tokens: 4615
 Size of Lexicon: 1205
 
+With stop word removal 
+Size of original corpus: 4615 
+Size of filtered corpus: 1053
+
 Tokens that appear in the file, alongside with their frequencies:
 information:89
 Facebook:77

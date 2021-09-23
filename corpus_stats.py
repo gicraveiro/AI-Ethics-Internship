@@ -25,8 +25,6 @@ def stop_words_removal(tokens,output_file_path):
     stop_word_f=open(stop_word_file,'r', encoding='utf-8')
 
     stop_words = (stop_word_f.read()).split()
-    #doc = nlp(corpus)
-    #tokens = [t for t in doc.text.split()]
 
     filtered_lexicon = (set(tokens).difference(stop_words))
     
@@ -41,61 +39,37 @@ def stop_words_removal(tokens,output_file_path):
     return tokens
     #return filtered_lexicon
 
-def stop_words_removal_dict(dict,output_file_path):
-    output_file = open(output_file_path, 'w')
-    stop_word_file="extras/english.stop.txt"
-    stop_word_f=open(stop_word_file,'r', encoding='utf-8')
-
-    stop_words = (stop_word_f.read()).split()
-    #doc = nlp(corpus)
-    #tokens = [t for t in doc.text.split()]
-
-    print(type(dict))
-    print(dict)
-
-    #filtered_lexicon = (set(dict).difference(stop_words))
-    
-    #print("Stop word removal\n","Size of original lexicon:", len(dict), "\nSize of filtered lexicon:",len(filtered_lexicon))#, file=output_file)
-
-    #for word in filtered_lexicon:
-    #    print(word)#, file=output_file)
-
-    stop_word_f.close()
-    output_file.close()
-
-    return dict
-    #return filtered_lexicon
-
-
 def compute_stats(tokens,filename, path):
    
     output_file = open(path, 'w')
     print("\n"+filename+"\n", file=output_file)
 
     keywords_present = []
+    stop_word_file="extras/english.stop.txt"
+    stop_word_f=open(stop_word_file,'r', encoding='utf-8') 
+    stopwords = (stop_word_f.read()).split()
 
     freq = nltk.FreqDist(tokens)
     print('Total number of tokens:', len(tokens), file=output_file)
     # TO DO: TOTAL NUMBER OF UTTERANCES (SENTENCES)
     print('Size of Lexicon:', len(freq), file=output_file)
+    filtered_lexicon = (set(tokens).difference(stopwords))
+    print("\nWith stop word removal","\nSize of original corpus:", len(tokens), "\nSize of filtered corpus:",len(filtered_lexicon), file=output_file)
     
-    #freq = stop_words_removal_dict(freq, 'output/'+file_input_path_general+'/'+filename+'/Stats.txt')
-
     plt.ion()
-    graph = freq.plot(20, cumulative=False)#.invert_xaxis()
+    graph = freq.plot(20, cumulative=False) # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
     plt.savefig('output/'+file_input_path_general+filename+'/Graph.png')  
     plt.clf() # cleans previous graph
     plt.ioff()
+    #print(freq.tabulate(),'output/'+file_input_path_general+filename+'/Chart')
 
     freq = nbest(freq,len(freq))
-    stop_word_file="extras/english.stop.txt"
-    stop_word_f=open(stop_word_file,'r', encoding='utf-8') 
-    stopwords = (stop_word_f.read()).split()
+    
 
     print('\nTokens that appear in the file, alongside with their frequencies:', file=output_file)
     for key, val in freq.items():
         flag = 0
-        for stopword in stopwords:
+        for stopword in stopwords: # TO DO: OPTIMIZE, ACTUALLY FILTERING CORPUS INSTEAD OF FILTERING OUTPUT
             if (key.lower() == stopword.lower()):
                 flag = 1
         if(flag != 1): 

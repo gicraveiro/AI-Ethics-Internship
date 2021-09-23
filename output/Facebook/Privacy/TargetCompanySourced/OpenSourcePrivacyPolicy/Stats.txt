@@ -4,6 +4,10 @@ OpenSourcePrivacyPolicy
 Total number of tokens: 1386
 Size of Lexicon: 543
 
+With stop word removal 
+Size of original corpus: 1386 
+Size of filtered corpus: 442
+
 Tokens that appear in the file, alongside with their frequencies:
 information:32
 Privacy:19

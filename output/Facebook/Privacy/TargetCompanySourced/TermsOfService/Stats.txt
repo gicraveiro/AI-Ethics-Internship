@@ -4,6 +4,10 @@ TermsOfService
 Total number of tokens: 4246
 Size of Lexicon: 1176
 
+With stop word removal 
+Size of original corpus: 4246 
+Size of filtered corpus: 1000
+
 Tokens that appear in the file, alongside with their frequencies:
 Facebook:59
 •:39

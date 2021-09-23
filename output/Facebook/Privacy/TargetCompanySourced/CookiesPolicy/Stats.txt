@@ -4,6 +4,10 @@ CookiesPolicy
 Total number of tokens: 2234
 Size of Lexicon: 665
 
+With stop word removal 
+Size of original corpus: 2234 
+Size of filtered corpus: 551
+
 Tokens that appear in the file, alongside with their frequencies:
 Facebook:57
 cookies:43
