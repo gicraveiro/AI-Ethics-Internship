@@ -29,15 +29,43 @@ def stop_words_removal(tokens,output_file_path):
     #tokens = [t for t in doc.text.split()]
 
     filtered_lexicon = (set(tokens).difference(stop_words))
-    print("Stop word removal\n","Size of original lexicon:", len(tokens), "\nSize of filtered lexicon:",len(filtered_lexicon), file=output_file)
+    
+    print("Stop word removal\n","Size of original lexicon:", len(tokens), "\nSize of filtered lexicon:",len(filtered_lexicon))#, file=output_file)
 
     for word in filtered_lexicon:
-        print(word, file=output_file)
+        print(word)#, file=output_file)
 
     stop_word_f.close()
     output_file.close()
 
-    return filtered_lexicon
+    return tokens
+    #return filtered_lexicon
+
+def stop_words_removal_dict(dict,output_file_path):
+    output_file = open(output_file_path, 'w')
+    stop_word_file="extras/english.stop.txt"
+    stop_word_f=open(stop_word_file,'r', encoding='utf-8')
+
+    stop_words = (stop_word_f.read()).split()
+    #doc = nlp(corpus)
+    #tokens = [t for t in doc.text.split()]
+
+    print(type(dict))
+    print(dict)
+
+    #filtered_lexicon = (set(dict).difference(stop_words))
+    
+    #print("Stop word removal\n","Size of original lexicon:", len(dict), "\nSize of filtered lexicon:",len(filtered_lexicon))#, file=output_file)
+
+    #for word in filtered_lexicon:
+    #    print(word)#, file=output_file)
+
+    stop_word_f.close()
+    output_file.close()
+
+    return dict
+    #return filtered_lexicon
+
 
 def compute_stats(tokens,filename, path):
    
@@ -51,17 +79,27 @@ def compute_stats(tokens,filename, path):
     # TO DO: TOTAL NUMBER OF UTTERANCES (SENTENCES)
     print('Size of Lexicon:', len(freq), file=output_file)
     
+    #freq = stop_words_removal_dict(freq, 'output/'+file_input_path_general+'/'+filename+'/Stats.txt')
+
     plt.ion()
-    graph = freq.plot(20, cumulative=False).invert_xaxis()
+    graph = freq.plot(20, cumulative=False)#.invert_xaxis()
     plt.savefig('output/'+file_input_path_general+filename+'/Graph.png')  
     plt.clf() # cleans previous graph
     plt.ioff()
 
-    freq = nbest(freq,len(freq)) 
+    freq = nbest(freq,len(freq))
+    stop_word_file="extras/english.stop.txt"
+    stop_word_f=open(stop_word_file,'r', encoding='utf-8') 
+    stopwords = (stop_word_f.read()).split()
 
     print('\nTokens that appear in the file, alongside with their frequencies:', file=output_file)
     for key, val in freq.items():
-        print(str(key) + ':' + str(val), file=output_file)
+        flag = 0
+        for stopword in stopwords:
+            if (key.lower() == stopword.lower()):
+                flag = 1
+        if(flag != 1): 
+            print(str(key) + ':' + str(val), file=output_file)
         for keyword in keywords:
             if (keyword.lower() == key.lower()):
                 keywords_present.append(str(key) + ':' + str(val))
@@ -115,5 +153,8 @@ process_document('TermsOfService')
 # TO DO: TITLE TO THE GRAPHS
 # TO DO: N GRAMS
 # TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI?
+# TO DO: MODIFY GRAPH SO THAT THE FULL WORDS CAN BE READ
+
+# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN
 
 #output_file.close()
