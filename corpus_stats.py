@@ -110,8 +110,12 @@ stop_word_f=open(stop_word_file,'r', encoding='utf-8')
 stop_words = (stop_word_f.read()).split()
 print(stop_words)
 #print(cookies_policy)
-print(set(cookies_policy))
-filtered_lexicon = (set(cookies_policy).difference(stop_words))
+doc = nlp(cookies_policy)
+tokens = [t for t in doc.text.split()]
+#print(type(cookies_policy))
+print(tokens)
+
+filtered_lexicon = (set(tokens).difference(stop_words))
 print(filtered_lexicon, len(filtered_lexicon))
 stop_word_f.close()
 # TO DO: PUT COUNT OF THE SHOWN WORDS UP IN THE FILE
