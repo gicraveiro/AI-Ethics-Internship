@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 #from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS as SKLEARN_STOP_WORDS
 #from nltk.corpus import stopwords
 #nltk.download('stopwords')
-
+file_input_path_general = 'Facebook/Privacy/TargetCompanySourced/' # global
 # extracted from the lab, git repository: https://github.com/esrel/NLU.Lab.2021/blob/master/notebooks/corpus.ipynb
 def nbest(d, n=5):
     """
@@ -17,6 +17,27 @@ def nbest(d, n=5):
     :return: dict of top n key-value pairs
     """
     return dict(sorted(d.items(), key=lambda item: item[1], reverse=True)[:n])
+
+# REMOVE STOP WORDS FUNCTION
+def stop_words_removal(corpus,output_file_path):
+    output_file = open(output_file_path, 'w')
+    stop_word_file="extras/english.stop.txt"
+    stop_word_f=open(stop_word_file,'r', encoding='utf-8')
+
+    stop_words = (stop_word_f.read()).split()
+    doc = nlp(corpus)
+    tokens = [t for t in doc.text.split()]
+
+    filtered_lexicon = (set(tokens).difference(stop_words))
+    print("Stop word removal\n","Size of original lexicon:", len(tokens), "\nSize of filtered lexicon:",len(filtered_lexicon), file=output_file)
+
+    for word in filtered_lexicon:
+        print(word, file=output_file)
+
+    stop_word_f.close()
+    output_file.close()
+
+    return filtered_lexicon
 
 def compute_stats(file,filename, path):
    
@@ -34,7 +55,7 @@ def compute_stats(file,filename, path):
     
     plt.ion()
     graph = freq.plot(20, cumulative=False) 
-    plt.savefig('output/Privacy/FacebookSourced/'+filename+'/Graph.png') # TO DO: GENERALIZE ETHIC THEME + SOURCE 
+    plt.savefig('output/'+file_input_path_general+filename+'/Graph.png') # TO DO: GENERALIZE ETHIC THEME + SOURCE 
     plt.clf() # cleans previous graph
     plt.ioff()
 
@@ -52,7 +73,12 @@ def compute_stats(file,filename, path):
         print(keyword, file=output_file)
     
     output_file.close()
-    
+
+def process_document(title):
+    input_file = pdfx.PDFx('data/'+file_input_path_general+title+'.pdf')
+    input_file = input_file.get_text()
+    #print(cookies_policy)
+    compute_stats(input_file,title, 'output/'+file_input_path_general+'/'+title+'/Stats.txt') 
 #####
 #  MAIN 
 #####
@@ -60,10 +86,10 @@ def compute_stats(file,filename, path):
 nlp = spacy.load('en_core_web_sm')
 
 # CREATING GENERAL OUTPUT FILE
-#output_file = open('output/PrivacyFacebookSourcedStats.txt', 'w')
+#output_file = open('output/PrivacyTargetCompanySourcedStats.txt', 'w')
 
 # KEYWORDS 
-output_file = open('output/Privacy/Keywords.txt', 'w')
+output_file = open('output/Facebook/Privacy/Keywords.txt', 'w')
 keywords_file = open('data/Keywords/Privacy KeyWords Formatted.docx.txt', "r", encoding='utf-8-sig')
 keywords = keywords_file.read()
 keywords = keywords.split(", ")
@@ -77,48 +103,34 @@ for keyword in keywords:
 
 # TRANSFORMING ALL PDFS INTO TEXT AND COMPUTING STATS
 
-cookies_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/CookiesPolicy.pdf')
-cookies_policy = cookies_policy.get_text()
-#print(cookies_policy)
-compute_stats(cookies_policy, 'CookiesPolicy', 'output/Privacy/FacebookSourced/CookiesPolicy/Stats.txt')
 
-data_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/DataPolicy.pdf')
-data_policy = data_policy.get_text()
+#data_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/DataPolicy.pdf')
+#data_policy = data_policy.get_text()
 #print(data_policy)
-compute_stats(data_policy,'DataPolicy', 'output/Privacy/FacebookSourced/DataPolicy/Stats.txt')
+#compute_stats(data_policy,'DataPolicy', 'output/Privacy/TargetCompanySourced/DataPolicy/Stats.txt')
 
-gen_info_privacy = pdfx.PDFx('data/Facebook/TargetCompanySourced/General Info ProtectingPrivacyAndSecurity.pdf')
-gen_info_privacy = gen_info_privacy.get_text()
+#gen_info_privacy = pdfx.PDFx('data/Facebook/TargetCompanySourced/General Info ProtectingPrivacyAndSecurity.pdf')
+#gen_info_privacy = gen_info_privacy.get_text()
 #print(gen_info_privacy)
-compute_stats(gen_info_privacy, 'General Info ProtectingPrivacyAndSecurity', 'output/Privacy/FacebookSourced/General Info ProtectingPrivacyAndSecurity/Stats.txt')
+#compute_stats(gen_info_privacy, 'General Info ProtectingPrivacyAndSecurity', 'output/Privacy/TargetCompanySourced/General Info ProtectingPrivacyAndSecurity/Stats.txt')
 
-open_source_privacy_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/OpenSourcePrivacyPolicy.pdf')
-open_source_privacy_policy = open_source_privacy_policy.get_text()
+#open_source_privacy_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/OpenSourcePrivacyPolicy.pdf')
+#open_source_privacy_policy = open_source_privacy_policy.get_text()
 #print(open_source_privacy_policy)
-compute_stats(open_source_privacy_policy, 'OpenSourcePrivacyPolicy', 'output/Privacy/FacebookSourced/OpenSourcePrivacyPolicy/Stats.txt')
+#compute_stats(open_source_privacy_policy, 'OpenSourcePrivacyPolicy', 'output/Privacy/TargetCompanySourced/OpenSourcePrivacyPolicy/Stats.txt')
 
-terms_of_service = pdfx.PDFx('data/Facebook/TargetCompanySourced/TermsOfService.pdf')
-terms_of_service = terms_of_service.get_text()
+#terms_of_service = pdfx.PDFx('data/Facebook/TargetCompanySourced/TermsOfService.pdf')
+#terms_of_service = terms_of_service.get_text()
 #print(terms_of_service)
-compute_stats(terms_of_service, 'TermsOfService', 'output/Privacy/FacebookSourced/TermsOfService/Stats.txt')
+#compute_stats(terms_of_service, 'TermsOfService', 'output/Privacy/TargetCompanySourced/TermsOfService/Stats.txt')
 
-# TO DO: REMOVE STOP WORDS FUNCTION
 
-stop_word_file="extras/english.stop.txt"
-stop_word_f=open(stop_word_file,'r', encoding='utf-8')
+process_document('CookiesPolicy') 
+process_document('DataPolicy')
+process_document('General Info ProtectingPrivacyAndSecurity')
+process_document('OpenSourcePrivacyPolicy')
+process_document('TermsOfService')
 
-stop_words = (stop_word_f.read()).split()
-print(stop_words)
-#print(cookies_policy)
-doc = nlp(cookies_policy)
-tokens = [t for t in doc.text.split()]
-#print(type(cookies_policy))
-#print(len(tokens))
-
-filtered_lexicon = (set(tokens).difference(stop_words))
-print(filtered_lexicon, len(filtered_lexicon), len(tokens))
-
-stop_word_f.close()
 # TO DO: PUT COUNT OF THE SHOWN WORDS UP IN THE FILE
 
 # MEETING: ASK WHAT KINDS OF INFO/DESCRIPTIVE STATISTICS WE WANT TO OBTAIN THAT WE DONT ALREADY HAVE
