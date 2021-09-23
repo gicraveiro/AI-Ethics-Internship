@@ -30,9 +30,9 @@ def compute_stats(file,filename, path):
     print('Size of Lexicon:', len(freq), file=output_file)
     
     plt.ion()
-    graph = freq.plot(20, cumulative=False) # TO DO: ADD GRAPHS TO FILE
+    graph = freq.plot(20, cumulative=False) 
     plt.savefig('output/Privacy/FacebookSourced/'+filename+'/Graph.png') # TO DO: GENERALIZE ETHIC THEME + SOURCE 
-    # TO DO: CLEAN GRAPH
+    plt.clf() # cleans previous graph
     plt.ioff()
 
     freq = nbest(freq,len(freq)) 
