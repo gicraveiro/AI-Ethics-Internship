@@ -4,6 +4,9 @@ import pdfx
 import spacy
 import nltk
 import matplotlib.pyplot as plt
+#from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS as SKLEARN_STOP_WORDS
+#from nltk.corpus import stopwords
+#nltk.download('stopwords')
 
 # extracted from the lab, git repository: https://github.com/esrel/NLU.Lab.2021/blob/master/notebooks/corpus.ipynb
 def nbest(d, n=5):
@@ -56,8 +59,7 @@ def compute_stats(file,filename, path):
 
 nlp = spacy.load('en_core_web_sm')
 
-# CREATING OUTPUT FILE
-
+# CREATING GENERAL OUTPUT FILE
 #output_file = open('output/PrivacyFacebookSourcedStats.txt', 'w')
 
 # KEYWORDS 
@@ -78,34 +80,49 @@ for keyword in keywords:
 cookies_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/CookiesPolicy.pdf')
 cookies_policy = cookies_policy.get_text()
 #print(cookies_policy)
-#print("\nCookie Policy Stats\n", file=output_file)
 compute_stats(cookies_policy, 'CookiesPolicy', 'output/Privacy/FacebookSourced/CookiesPolicy/Stats.txt')
 
 data_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/DataPolicy.pdf')
 data_policy = data_policy.get_text()
 #print(data_policy)
-#print("\nData Policy Stats\n", file=output_file)
 compute_stats(data_policy,'DataPolicy', 'output/Privacy/FacebookSourced/DataPolicy/Stats.txt')
 
 gen_info_privacy = pdfx.PDFx('data/Facebook/TargetCompanySourced/General Info ProtectingPrivacyAndSecurity.pdf')
 gen_info_privacy = gen_info_privacy.get_text()
 #print(gen_info_privacy)
-#print("\nGeneral Info on Privacy Stats\n", file=output_file)
 compute_stats(gen_info_privacy, 'General Info ProtectingPrivacyAndSecurity', 'output/Privacy/FacebookSourced/General Info ProtectingPrivacyAndSecurity/Stats.txt')
 
 open_source_privacy_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/OpenSourcePrivacyPolicy.pdf')
 open_source_privacy_policy = open_source_privacy_policy.get_text()
 #print(open_source_privacy_policy)
-#print("\nOpen Source Privacy Policy Stats\n", file=output_file)
 compute_stats(open_source_privacy_policy, 'OpenSourcePrivacyPolicy', 'output/Privacy/FacebookSourced/OpenSourcePrivacyPolicy/Stats.txt')
 
 terms_of_service = pdfx.PDFx('data/Facebook/TargetCompanySourced/TermsOfService.pdf')
 terms_of_service = terms_of_service.get_text()
 #print(terms_of_service)
-#print("\nTerms of Service Stats\n", file=output_file)
 compute_stats(terms_of_service, 'TermsOfService', 'output/Privacy/FacebookSourced/TermsOfService/Stats.txt')
 
 # TO DO: REMOVE STOP WORDS FUNCTION
-# TO DO: SEPARATE OUTPUT OF EACH FILE INTO ITS OWN OUTPUT FILE 
+
+stop_word_file="extras/english.stop.txt"
+stop_word_f=open(stop_word_file,'r', encoding='utf-8')
+
+stop_words = (stop_word_f.read()).split()
+print(stop_words)
+#print(cookies_policy)
+print(set(cookies_policy))
+filtered_lexicon = (set(cookies_policy).difference(stop_words))
+print(filtered_lexicon, len(filtered_lexicon))
+stop_word_f.close()
+# TO DO: PUT COUNT OF THE SHOWN WORDS UP IN THE FILE
+
+# MEETING: ASK WHAT KINDS OF INFO/DESCRIPTIVE STATISTICS WE WANT TO OBTAIN THAT WE DONT ALREADY HAVE
+# COULD APPLY FREQUENCY CUT-OFF - IS IT WORTH IT? GIVEN THAT PRIVACY IS SAID ONCE MAYBE, I COULD SAY NO BUT TITLE MAYBE SHOULDNT COUNT, BUT ALSO HOW TO RULE OUT/MAKE SURE IT IS THE TITLE THAT IS BEING CUT OFF
+# TO DO: PLOT ALL OF THE GRAPHS TOGETHER TOO BUT READABLY
+# TO DO: TITLE TO THE GRAPHS
+# TO DO: ADD THE TRANSFORMATION OF FILES TO A FUNCTION
+# TO DO: N GRAMS
+# TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI?
+
 
 #output_file.close()
