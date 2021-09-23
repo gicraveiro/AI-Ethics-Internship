@@ -19,14 +19,14 @@ def nbest(d, n=5):
     return dict(sorted(d.items(), key=lambda item: item[1], reverse=True)[:n])
 
 # REMOVE STOP WORDS FUNCTION
-def stop_words_removal(corpus,output_file_path):
+def stop_words_removal(tokens,output_file_path):
     output_file = open(output_file_path, 'w')
     stop_word_file="extras/english.stop.txt"
     stop_word_f=open(stop_word_file,'r', encoding='utf-8')
 
     stop_words = (stop_word_f.read()).split()
-    doc = nlp(corpus)
-    tokens = [t for t in doc.text.split()]
+    #doc = nlp(corpus)
+    #tokens = [t for t in doc.text.split()]
 
     filtered_lexicon = (set(tokens).difference(stop_words))
     print("Stop word removal\n","Size of original lexicon:", len(tokens), "\nSize of filtered lexicon:",len(filtered_lexicon), file=output_file)
@@ -39,13 +39,11 @@ def stop_words_removal(corpus,output_file_path):
 
     return filtered_lexicon
 
-def compute_stats(file,filename, path):
+def compute_stats(tokens,filename, path):
    
     output_file = open(path, 'w')
     print("\n"+filename+"\n", file=output_file)
 
-    doc = nlp(file)
-    tokens = [t for t in doc.text.split()]
     keywords_present = []
 
     freq = nltk.FreqDist(tokens)
@@ -54,8 +52,8 @@ def compute_stats(file,filename, path):
     print('Size of Lexicon:', len(freq), file=output_file)
     
     plt.ion()
-    graph = freq.plot(20, cumulative=False) 
-    plt.savefig('output/'+file_input_path_general+filename+'/Graph.png') # TO DO: GENERALIZE ETHIC THEME + SOURCE 
+    graph = freq.plot(20, cumulative=False).invert_xaxis()
+    plt.savefig('output/'+file_input_path_general+filename+'/Graph.png')  
     plt.clf() # cleans previous graph
     plt.ioff()
 
@@ -77,8 +75,11 @@ def compute_stats(file,filename, path):
 def process_document(title):
     input_file = pdfx.PDFx('data/'+file_input_path_general+title+'.pdf')
     input_file = input_file.get_text()
-    #print(cookies_policy)
-    compute_stats(input_file,title, 'output/'+file_input_path_general+'/'+title+'/Stats.txt') 
+    doc = nlp(input_file)
+    tokens = [t for t in doc.text.split()]
+    #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
+    compute_stats(tokens,title, 'output/'+file_input_path_general+'/'+title+'/Stats.txt') 
+
 #####
 #  MAIN 
 #####
@@ -100,31 +101,6 @@ print("\nKeywords:\n",file=output_file)
 for keyword in keywords:
     print(keyword, file=output_file)
 
-
-# TRANSFORMING ALL PDFS INTO TEXT AND COMPUTING STATS
-
-
-#data_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/DataPolicy.pdf')
-#data_policy = data_policy.get_text()
-#print(data_policy)
-#compute_stats(data_policy,'DataPolicy', 'output/Privacy/TargetCompanySourced/DataPolicy/Stats.txt')
-
-#gen_info_privacy = pdfx.PDFx('data/Facebook/TargetCompanySourced/General Info ProtectingPrivacyAndSecurity.pdf')
-#gen_info_privacy = gen_info_privacy.get_text()
-#print(gen_info_privacy)
-#compute_stats(gen_info_privacy, 'General Info ProtectingPrivacyAndSecurity', 'output/Privacy/TargetCompanySourced/General Info ProtectingPrivacyAndSecurity/Stats.txt')
-
-#open_source_privacy_policy = pdfx.PDFx('data/Facebook/TargetCompanySourced/OpenSourcePrivacyPolicy.pdf')
-#open_source_privacy_policy = open_source_privacy_policy.get_text()
-#print(open_source_privacy_policy)
-#compute_stats(open_source_privacy_policy, 'OpenSourcePrivacyPolicy', 'output/Privacy/TargetCompanySourced/OpenSourcePrivacyPolicy/Stats.txt')
-
-#terms_of_service = pdfx.PDFx('data/Facebook/TargetCompanySourced/TermsOfService.pdf')
-#terms_of_service = terms_of_service.get_text()
-#print(terms_of_service)
-#compute_stats(terms_of_service, 'TermsOfService', 'output/Privacy/TargetCompanySourced/TermsOfService/Stats.txt')
-
-
 process_document('CookiesPolicy') 
 process_document('DataPolicy')
 process_document('General Info ProtectingPrivacyAndSecurity')
@@ -137,9 +113,7 @@ process_document('TermsOfService')
 # COULD APPLY FREQUENCY CUT-OFF - IS IT WORTH IT? GIVEN THAT PRIVACY IS SAID ONCE MAYBE, I COULD SAY NO BUT TITLE MAYBE SHOULDNT COUNT, BUT ALSO HOW TO RULE OUT/MAKE SURE IT IS THE TITLE THAT IS BEING CUT OFF
 # TO DO: PLOT ALL OF THE GRAPHS TOGETHER TOO BUT READABLY
 # TO DO: TITLE TO THE GRAPHS
-# TO DO: ADD THE TRANSFORMATION OF FILES TO A FUNCTION
 # TO DO: N GRAMS
 # TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI?
-
 
 #output_file.close()
