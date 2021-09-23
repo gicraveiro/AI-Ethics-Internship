@@ -113,10 +113,11 @@ print(stop_words)
 doc = nlp(cookies_policy)
 tokens = [t for t in doc.text.split()]
 #print(type(cookies_policy))
-print(tokens)
+#print(len(tokens))
 
 filtered_lexicon = (set(tokens).difference(stop_words))
-print(filtered_lexicon, len(filtered_lexicon))
+print(filtered_lexicon, len(filtered_lexicon), len(tokens))
+
 stop_word_f.close()
 # TO DO: PUT COUNT OF THE SHOWN WORDS UP IN THE FILE
 
