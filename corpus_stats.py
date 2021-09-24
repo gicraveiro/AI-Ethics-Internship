@@ -48,9 +48,10 @@ def compute_stats(tokens,filename): #, path):
     print("\n"+filename+"\n", file=output_file)
 
     keywords_present = []
-    stop_word_file="extras/english.stop.txt"
+    stop_word_file="data/Utils/english.stopwords.txt"
     stop_word_f=open(stop_word_file,'r', encoding='utf-8') 
     stopwords = (stop_word_f.read()).split()
+    stop_word_f.close()
 
     freq = nltk.FreqDist(tokens)
     print('Total number of tokens:', len(tokens), file=output_file)
@@ -90,10 +91,17 @@ def compute_stats(tokens,filename): #, path):
 def process_document(title, source):
     input_file = pdfx.PDFx('data/'+file_input_path_general+source+title+'.pdf') # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
+
     doc = nlp(input_file)
     tokens = [t for t in doc.text.split()]
     #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
     compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
+
+def analyse_folder(source):
+    path='data/'+file_input_path_general+source
+    for filename in os.listdir(path):
+        file_name, file_extension = os.path.splitext(filename)
+        process_document(file_name, source)
 
 #####
 #  MAIN 
@@ -103,7 +111,7 @@ nlp = spacy.load('en_core_web_sm')
 
 # KEYWORDS 
 output_file = open('output/Facebook/Privacy/Keywords.txt', 'w')
-keywords_file = open('data/Keywords/Privacy KeyWords Formatted.docx.txt', "r", encoding='utf-8-sig')
+keywords_file = open('data/Utils/PrivacyKeyWords.txt', "r", encoding='utf-8-sig')
 keywords = keywords_file.read()
 keywords = keywords.split(", ")
 keywords_file.close()
@@ -113,40 +121,14 @@ print("\nKeywords:\n",file=output_file)
 for keyword in keywords:
     print(keyword, file=output_file)
 
-# Facebook-sourced
-file_input_path_source_target_company = 'TargetCompanySourced/'
-source = file_input_path_source_target_company
-path='data/'+file_input_path_general+source
-for filename in os.listdir(path):
-    file_name, file_extension = os.path.splitext(filename)
-    process_document(file_name, source)
+#### PERFORM DESCRIPTIVE STATISTICS ON ALL DATA
+for foldername in os.listdir('data/'+file_input_path_general):
+    print(foldername)
+    analyse_folder(foldername+'/')
 
-# Academic Papers about facebook's privacy
 
-file_input_path_source_academic_articles = 'Academic Articles Facebook/'
-source = file_input_path_source_academic_articles
-path='data/'+file_input_path_general+source
-for filename in os.listdir(path):
-    file_name, file_extension = os.path.splitext(filename)
-    process_document(file_name, source)
-
-# News
-
-file_input_path_source_news = 'news/'
-source = file_input_path_source_news
-path='data/'+file_input_path_general+source
-for filename in os.listdir(path):
-    file_name, file_extension = os.path.splitext(filename)
-    process_document(file_name, source)
-
-# Independent reports
-
-file_input_path_source_academic_articles = 'IndependentReports/'
-source = file_input_path_source_academic_articles
-path='data/'+file_input_path_general+source
-for filename in os.listdir(path):
-    file_name, file_extension = os.path.splitext(filename)
-    process_document(file_name, source)
+#################
+## COMMENTS ON PROJECT PROGRESS
 
 # SOLVE PROBLEM - KEYWORDS ARE NOT APPEARING
 
