@@ -88,7 +88,7 @@ def compute_stats(tokens,filename): #, path):
     output_file.close()
 
 def process_document(title, source):
-    input_file = pdfx.PDFx('data/'+file_input_path_general+source+title+'.pdf')
+    input_file = pdfx.PDFx('data/'+file_input_path_general+source+title+'.pdf') # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
     doc = nlp(input_file)
     tokens = [t for t in doc.text.split()]
@@ -117,7 +117,8 @@ for keyword in keywords:
 source = file_input_path_source_target_company
 path='data/'+file_input_path_general+source
 for filename in os.listdir(path):
-    print(filename)
+    file_name, file_extension = os.path.splitext(filename)
+    process_document(file_name, source)
 
 #process_document('CookiesPolicy', source) 
 #process_document('DataPolicy', source)
@@ -130,7 +131,7 @@ for filename in os.listdir(path):
 source = file_input_path_source_academic_articles
 path='data/'+file_input_path_general+source
 for filename in os.listdir(path):
-    print(filename)
+    
 
 
 # SOLVE PROBLEM - KEYWORDS ARE NOT APPEARING
