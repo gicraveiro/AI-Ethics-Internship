@@ -12,8 +12,10 @@ data minimization
 encryption
 logging data access
 oversight mechanisms for data processing
-Data Protection Impact Assessment (DPIA)
-Data Protection Officer (DPO)
+Data Protection Impact Assessment
+DPIA
+Data Protection Officer
+DPO
 right to withdraw consent
 right to object
 right to be forgotten
