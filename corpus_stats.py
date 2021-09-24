@@ -4,12 +4,9 @@ import pdfx
 import spacy
 import nltk
 import matplotlib.pyplot as plt
-#from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS as SKLEARN_STOP_WORDS
-#from nltk.corpus import stopwords
-#nltk.download('stopwords')
+
 file_input_path_general = 'Facebook/Privacy/' # global
-file_input_path_source_target_company = 'TargetCompanySourced/'
-file_input_path_source_academic_articles = 'other sources/Academic Articles Facebook'
+
 # extracted from the lab, git repository: https://github.com/esrel/NLU.Lab.2021/blob/master/notebooks/corpus.ipynb
 def nbest(d, n=5):
     """
@@ -20,8 +17,9 @@ def nbest(d, n=5):
     """
     return dict(sorted(d.items(), key=lambda item: item[1], reverse=True)[:n])
 
-# REMOVE STOP WORDS FUNCTION
-def stop_words_removal(tokens,output_file_path):
+# REMOVE STOP WORDS FUNCTION 
+
+""" def stop_words_removal(tokens,output_file_path):
     output_file = open(output_file_path, 'w')
     stop_word_file="extras/english.stop.txt"
     stop_word_f=open(stop_word_file,'r', encoding='utf-8')
@@ -41,9 +39,11 @@ def stop_words_removal(tokens,output_file_path):
     return tokens
     #return filtered_lexicon
 
+ """
 def compute_stats(tokens,filename): #, path):
    
     stats_path = 'output/'+file_input_path_general+filename+'/Stats.txt'
+    os.makedirs(os.path.dirname(stats_path), exist_ok=True)
     output_file = open(stats_path, 'w')
     print("\n"+filename+"\n", file=output_file)
 
@@ -114,25 +114,39 @@ for keyword in keywords:
     print(keyword, file=output_file)
 
 # Facebook-sourced
+file_input_path_source_target_company = 'TargetCompanySourced/'
 source = file_input_path_source_target_company
 path='data/'+file_input_path_general+source
 for filename in os.listdir(path):
     file_name, file_extension = os.path.splitext(filename)
     process_document(file_name, source)
 
-#process_document('CookiesPolicy', source) 
-#process_document('DataPolicy', source)
-#process_document('General Info ProtectingPrivacyAndSecurity', source)
-#process_document('OpenSourcePrivacyPolicy', source)
-#process_document('TermsOfService', source)
-
 # Academic Papers about facebook's privacy
 
+file_input_path_source_academic_articles = 'Academic Articles Facebook/'
 source = file_input_path_source_academic_articles
 path='data/'+file_input_path_general+source
 for filename in os.listdir(path):
-    
+    file_name, file_extension = os.path.splitext(filename)
+    process_document(file_name, source)
 
+# News
+
+file_input_path_source_news = 'news/'
+source = file_input_path_source_news
+path='data/'+file_input_path_general+source
+for filename in os.listdir(path):
+    file_name, file_extension = os.path.splitext(filename)
+    process_document(file_name, source)
+
+# Independent reports
+
+file_input_path_source_academic_articles = 'IndependentReports/'
+source = file_input_path_source_academic_articles
+path='data/'+file_input_path_general+source
+for filename in os.listdir(path):
+    file_name, file_extension = os.path.splitext(filename)
+    process_document(file_name, source)
 
 # SOLVE PROBLEM - KEYWORDS ARE NOT APPEARING
 
@@ -142,11 +156,11 @@ for filename in os.listdir(path):
 # EXPANDING ABBREVIATIONS?
 # TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN
 
-# B - TEST WITH DIFFERENT FILES
+# B - TEST WITH DIFFERENT FILES -> DONE, NOT MUCH HELP...
 
-# ACADEMIC PAPERS
-# NEWS
-# EVALUATIONS FROM OTHER SOURCES
+# ACADEMIC PAPERS check
+# NEWS check
+# EVALUATIONS FROM OTHER SOURCES check
 
 # C - IMPROVE KEYWORDS LIST
 
