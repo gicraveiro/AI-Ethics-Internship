@@ -93,9 +93,11 @@ def process_document(title, source):
     input_file = input_file.get_text()
 
     doc = nlp(input_file)
-    tokens = [t for t in doc.text.split()]
+    #tokens = [t for t in doc.text.split()]
+    tokens = [token.text for token in doc]
+    print(tokens)
     #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
-    compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
+    #compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
 
 def analyse_folder(source):
     path='data/'+file_input_path_general+source
@@ -108,10 +110,12 @@ def analyse_folder(source):
 #####
 
 nlp = spacy.load('en_core_web_sm')
+nlp.add_pipe("merge_noun_chunks")
+nlp.add_pipe("merge_entities")
 
 # KEYWORDS 
 output_file = open('output/Facebook/Privacy/Keywords.txt', 'w')
-keywords_file = open('data/Utils/PrivacyKeyWords.txt', "r", encoding='utf-8-sig')
+keywords_file = open('data/Utils/PrivacyKeyWords2.txt', "r", encoding='utf-8-sig')
 keywords = keywords_file.read()
 keywords = keywords.split(", ")
 keywords_file.close()
@@ -146,6 +150,7 @@ for foldername in os.listdir('data/'+file_input_path_general):
 
 # C - IMPROVE KEYWORDS LIST
 
+# CONSIDER MORE THAN ONE-WORD TOKENS!!!
 # PREPROCESSING LIKE LEMMATIZATION AND STEMMING
 # INCLUDING MORE RELEVANT TERMS BY:
         # FREQUENCY ANALYSIS AT DIFFERENT DOCUMENTS
@@ -154,7 +159,7 @@ for foldername in os.listdir('data/'+file_input_path_general):
 
 # EXTRAS TO-DOS TO MAKE STATS PRETTIER/MORE COMPLETE
 
-# TO DO: PLOT ALL OF THE GRAPHS TOGETHER TOO BUT READABLY
+# TO DO: PLOT ALL OF THE GRAPHS TOGETHER TOO BUT READABLY and with no stop words!!!!
 # TO DO: TITLE TO THE GRAPHS
 # TO DO: N GRAMS
 # TO DO: MODIFY GRAPH SO THAT THE FULL WORDS CAN BE READ
@@ -166,6 +171,6 @@ for foldername in os.listdir('data/'+file_input_path_general):
 # NUMBERS TO WORDS? REMOVE NUMBERS? probably not needed
 # EXPANDING ABBREVIATIONS? 
 # READING OUT DATES? probably not needed
-# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN
+# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN!!!!
 # TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI?
 # AFTER ORGANIZING THIS ALL -> MOVE ON TO DEPENDENCY PARSING
