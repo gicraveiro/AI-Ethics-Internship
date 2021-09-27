@@ -94,7 +94,7 @@ def process_document(title, source):
 
     doc = nlp(input_file)
     #tokens = [t for t in doc.text.split()]
-    tokens = [token.text for token in doc]
+    tokens = [token.text for token in doc if not token.is_space]
     print(tokens)
     #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
     #compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
