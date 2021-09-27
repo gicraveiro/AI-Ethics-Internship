@@ -1,604 +1,585 @@
 
 news/Facebook to pay record $5bn to settle privacy concerns - BBC News
 
-Total number of tokens: 1756
-Size of Lexicon: 835
-
-With stop word removal 
-Size of original corpus: 1756 
-Size of filtered corpus: 697
+Total number of tokens: 841
+Size of Lexicon: 588
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:32
-privacy:21
+Facebook:28
 settle:15
 pay:14
-$5bn:14
-record:13
+privacy concerns:14
+record:12
+$5bn:12
 11:12
-data:12
-concerns...:11
 https://www.bbc.com/news/business-49099364:11
-20/09/2021,:11
-15:12:11
-BBC:11
-Cambridge:9
-ﬁne:8
-FTC:7
-Analytica:7
-Facebook's:6
-2019:5
-personal:5
-settlement:5
-News:4
-Business:4
-social:4
-network:4
-chief:4
-company:4
-information:4
--:4
+20/09/2021:8
+15:12:8
+said:7
+used:5
+the data:4
+the US:4
+the FTC:4
+would:4
+the BBC:4
+us:3
+know:3
 agree:3
-online:3
-Home:3
 Sport:3
-UK:3
-Economy:3
-July:3
-executive:3
-Zuckerberg:3
-users:3
-tech:3
-2:3
+1:3
+could:3
+wrong:3
+20/09/2021, 15:12
+
+Facebook:3
 harvested:3
-people:3
-3:3
+Cambridge Analytica:3
+may:3
 found:3
-external:3
-user:3
-apps:3
+the ﬁne:3
+user data:3
 restricting:3
-data,:3
-7:3
-charges:3
-ago:3
+data:3
+need:3
 birth:3
 cookies:2
+Home:2
+News:2
 Reel:2
-Tech:2
-Stories:2
-Companies:2
-Technology:2
-Global:2
-24:2
-1:2
-Commission:2
-said.:2
-Mark:2
+24 July 2019:2
+The social network:2
 control:2
+The FTC:2
+Cambridge:2
+Analytica:2
 improperly:2
-million:2
-users.:2
-facial:2
 imposed:2
-consumers':2
-•:2
 break:2
-giants?:2
-violations".:2
+the tech giants:2
+US:2
+added:2
 customers:2
-wrong?:2
-FTC's:2
+mainly:2
+2:2
 investigating:2
-aer:2
-quiz:2
-election:2
-users,:2
-US,:2
-networks.:2
+without:2
+3:2
 4:2
-ﬁrm:2
 access:2
-users':2
-role:2
-scandal:2
-government:2
-deceptive:2
-Democrat:2
+taken:2
+the violations:2
+collected:2
 voted:2
-Rohit:2
-Chopra:2
+although:2
+go:2
 5:2
 announced:2
-billion:2
+a lot:2
+the settlement:2
 Tweet:2
+The BBC:2
 responsible:2
-content:2
-sites.:2
-"a:2
-years,:2
+the content:2
+external sites:2
+still:2
+trust:2
+apps:2
+the company:2
+get:2
 6:2
-Alexander:2
-Nix:2
 agreed:2
 required:2
-Facebook,:2
-products:2
+7:2
+possible
+privacy risks:2
+going:2
+forward:2
 expect:2
 8:2
-questions:2
-form:2
-mobile:2
-Privacy:2
+see:2
+your question:2
+n't:2
 9:2
-Hotel:2
-Rwanda:2
-hero:2
+Hotel Rwanda hero:2
 convicted:2
-terror:2
 Gunman:2
 kills:2
-Russian:2
-university:2
-hours:2
-Crown:2
-Ted:2
-Lasso:2
+six:2
+The Crown:2
+Ted Lasso:2
 dominate:2
-Emmy:2
-Awards:2
 Giving:2
-Taliban:2
-South:2
-African:2
-Contact:2
+Get:2
 10:2
-Read:2
+Let:1
+use:1
 give:1
-experience.:1
-cookies.:1
-Yes,:1
-No,:1
+the best online experience:1
+Please:1
+let:1
+these cookies:1
+Yes:1
 settings:1
 Search:1
-Coronavirus:1
-Climate:1
-Video:1
-World:1
-Science:1
-Entertainment:1
-&:1
+Home Coronavirus Climate Video World UK Business Tech:1
+Science Stories Entertainment:1
 Arts:1
-Market:1
-Data:1
-Entrepreneurship:1
-Education:1
-Car:1
-Industry:1
-concerns:1
-GETTY:1
-IMAGES:1
-concerns,:1
-Federal:1
-Trade:1
-(FTC):1
+Business Market Data New Economy New Tech Economy Companies:1
+Entrepreneurship Technology:1
+Business Global Education Economy:1
+Global Car Industry Business:1
+GETTY IMAGES:1
+a record:1
+$5bn ﬁne:1
+the US
+Federal Trade Commission:1
+(FTC:1
+must:1
 establish:1
-independent:1
-committee:1
-over.:1
+an independent privacy committee:1
+Facebook's chief executive Mark Zuckerberg:1
 probing:1
 allegations:1
-political:1
-consultancy:1
+political consultancy:1
 obtained:1
-87:1
-probe:1
+up to 87 million Facebook users:1
+The probe:1
 widened:1
 include:1
-issues:1
-recognition.:1
+other issues:1
+facial recognition:1
+The $5bn ﬁne:1
 believed:1
 biggest:1
+ever:1
+any company:1
 violating:1
-privacy.:1
-"Despite:1
-repeated:1
-promises:1
-billions:1
+consumers' privacy:1
+Despite:1
+repeated promises:1
+its billions:1
+users:1
 worldwide:1
-shared,:1
+their personal information:1
+shared:1
 undermined:1
-choices,":1
-chairman:1
-Joe:1
-Simons.:1
-giants':1
-power:1
+
+consumers' choices:1
+FTC chairman Joe Simons:1
+Technology giants' power:1
 probed:1
-added:1
-heavy:1
+the heavy ﬁne:1
 designed:1
-"to:1
 change:1
-entire:1
-culture:1
+Facebook's entire
+privacy culture:1
 decrease:1
-likelihood:1
-continued:1
-ﬁnancial:1
-results:1
+the likelihood:1
+continued violations:1
+Facebook's ﬁnancial results:1
 reported:1
 Wednesday:1
 reﬂect:1
-move:1
+any move:1
 shun:1
-concerns.:1
+the network:1
 monthly:1
-active:1
+active users:1
 risen:1
 8%:1
-quarter.:1
-Revenues,:1
+the second quarter:1
+Revenues:1
 advertising:1
-sales,:1
+
+sales:1
 rose:1
-28%,:1
+28%:1
 beating:1
-analysts':1
-forecasts.:1
-Bureau:1
-Consumer:1
-Protection:1
+analysts' forecasts:1
+The FTC's Bureau of Consumer Protection:1
 began:1
-March:1
-2018:1
+March 2018 aer:1
 revealed:1
+personal data:1
 illegally:1
-personality:1
+an online personality quiz:1
 sold:1
-Analytica,:1
-analytics:1
-ﬁrm.:1
-subsequent:1
-claims:1
+a data
+analytics ﬁrm:1
+subsequent claims:1
+try:1
 inﬂuence:1
-outcome:1
-2016:1
-presidential:1
-Brexit:1
-referendum.:1
-270,000:1
-quiz,:1
+the outcome:1
+the 2016 US presidential election:1
+the UK Brexit
+referendum:1
+Although:1
+only 270,000 people:1
+took:1
+the quiz:1
 whistleblower:1
-Christopher:1
-Wylie:1
+Christopher Wylie:1
 alleges:1
-50:1
-explicit:1
-consent:1
-friend:1
+some 50 million users:1
+their explicit consent:1
+via:1
+their friend networks:1
+the only ﬁrm:1
+users'
+personal data:1
 gathered:1
-infrastructure:1
-time,:1
-developers:1
+using:1
+Facebook's infrastructure:1
+that
+time:1
+many other developers:1
 advantage:1
-authorisation.:1
+authorisation:1
 ﬁned:1
-£500,000:1
-UK's:1
-protection:1
-watchdog:1
-October.:1
-violations?:1
+£:1
+500,000:1
+the UK's data protection watchdog:1
+its
+role:1
+the Cambridge Analytica data scandal:1
+October:1
+the US government:1
+say:1
 Conﬁrming:1
-previous:1
-reports,:1
-policies:1
+previous reports:1
+certain Facebook policies:1
 violated:1
 rules:1
-practices.:1
-instance,:1
+deceptive practices:1
+instance:1
+Facebook's data
 policy:1
-recognition:1
-tool.:1
+deceptive:1
+people:1
+its facial recognition tool:1
 fell:1
 foul:1
-regulator:1
+the regulator:1
 revealing:1
-phone:1
+that phone
 numbers:1
-collected:1
-two-factor:1
-authentication:1
-advertising.:1
-representatives:1
-Republican:1
-parties:1
-deal:1
-through,:1
-dissented,:1
+two-factor authentication:1
+
+advertising:1
+FTC representatives:1
+both the Democrat and Republican parties:1
+the
+settlement deal:1
+dissented:1
 arguing:1
-enough.:1
+far:1
+enough:1
+Democrat Rohit Chopra:1
 tweeted:1
 stop:1
-"engaging:1
-surveillance":1
-executives:1
-"blanket:1
-immunity:1
+engaging:1
+surveillance:1
+Mark Zuckerberg:1
+other executives:1
+got:1
+blanket immunity:1
+their role:1
+Rohit Chopra:1
 @chopraftc:1
+The government:1
 proposed:1
-failures.:1
-$5:1
-sounds:1
-lot,:1
-print:1
-lot:1
+settlement:1
+its privacy failures:1
+$5 billion sounds:1
+like:1
+the ﬁne print:1
 $FB:1
-celebrate.:1
-no.:1
+celebrate:1
 Here’s:1
-why.:1
-2:49:1
-PM:1
-·:1
+2:49 PM:1
 Jul:1
-24,:1
-1K:1
+24, 2019:1
 43:1
-Copy:1
-link:1
-reply:1
+Copy link:1
+your reply:1
 View:1
-original:1
-tweet:1
+original tweet:1
 Twitter:1
-matter?:1
-Analysis::1
-Chris:1
-Baraniuk,:1
-technology:1
-reporter:1
-deep:1
-pockets:1
-ﬁrm's:1
-annual:1
-revenue:1
-year:1
-$55bn.:1
-However,:1
+matter:1
+Analysis:1
+Chris Baraniuk, BBC
+technology reporter:1
+deep pockets:1
+the ﬁrm's annual revenue:1
+last year:1
+$55bn:1
+However:1
+the FTC's ﬁne:1
 irritate:1
-giant.:1
-press:1
-release,:1
+the tech giant:1
+a press release:1
+the
+company:1
 acknowledged:1
 unequivocally:1
-involvement:1
-breach:1
-trust":1
-regulatory:1
-action:1
-general:1
-sign:1
+its involvement:1
+the Cambridge
+Analytica scandal:1
+a breach:1
+its users:1
+The regulatory action:1
+a general sign:1
 mishandling:1
 incur:1
-real:1
-consequences:1
-authorities.:1
+real consequences:1
+US authorities:1
+years:1
+
 websites:1
 casually:1
-murky:1
-ends.:1
+personal information:1
+murky ends:1
 undoubtedly:1
 continue:1
-quarters,:1
-crackdown,:1
+many quarters:1
+every crackdown:1
+such
 activity:1
-contentious.:1
-further.:1
-one,:1
-Alex:1
-Stamos,:1
-security:1
-oﬃcer,:1
+becomes:1
+contentious:1
+think:1
+gone:1
+Alex
+Stamos:1
+Facebook's former chief security oﬃcer:1
 thinks:1
+actually:1
 beneﬁts:1
-company.:1
-ﬂow:1
+the ﬂow:1
 eﬀectively:1
 hoard:1
-2.4:1
-argues,:1
-party:1
-competing:1
+its 2.4 billion users:1
+argues:1
+rather:1
+allow:1
+third party apps:1
+competing social networks:1
+Former Cambridge Analytica chief executive Alexander Nix
+
 REUTERS:1
 happened:1
-Analytica?:1
-2018,:1
+May 2018:1
 ﬁled:1
 bankruptcy:1
 blaming:1
+a
 "siege:1
-media:1
-coverage":1
+media coverage:1
 driving:1
+away:1
 forcing:1
-closure.:1
+its closure:1
 part:1
-separate:1
-FTC,:1
-defendants:1
-app:1
-developer:1
-Aleksandr:1
-Kogan:1
-administrative:1
-orders:1
+a separate settlement:1
+two:1
+the defendants:1
+former
+Cambridge Analytica chief executive Alexander Nix:1
+app developer
+Aleksandr Kogan - have:1
+administrative orders:1
 conduct:1
-business:1
-future.:1
-pair:1
+any business:1
+the future:1
+The pair:1
 delete:1
 destroy:1
-collected.:1
+any personal information:1
 launched:1
-lawsuit:1
-bankrupt:1
-company,:1
-agency's:1
-allegations.:1
+a lawsuit:1
+the bankrupt company:1
+yet:1
+the agency's allegations:1
+What changes:1
 promised:1
-make?:1
-post:1
-Mr:1
-responsibility:1
+make:1
+a post:1
+Mr Zuckerberg:1
+the ﬁrm:1
+a responsibility:1
 protect:1
-people's:1
-privacy":1
+people's privacy:1
 changing:1
+its products:1
 developed:1
-run.:1
+run:1
 reviewing:1
-technical:1
-systems:1
+its technical systems:1
 identify:1
-risks,:1
-forward,:1
+whenever:1
+the social network:1
 built:1
+a new
 product:1
-feature:1
+a feature:1
 changed:1
-risks:1
-addressed.:1
+way:1
+addressed:1
 AFP:1
-"Overall,:1
-law:1
-today,":1
-"We:1
+Overall:1
+these changes:1
+beyond:1
+anything:1
+US law:1
+today:1
 hundreds:1
 engineers:1
-thousand:1
-important:1
-work.:1
+more than a thousand
+people:1
+across:1
+our company:1
+this important work:1
 longer:1
 build:1
-process:1
-forward,":1
-added.:1
+new products:1
+following:1
+this process:1
 facing:1
-investigations?:1
-time:1
+other
+investigations:1
+the same time:1
 made:1
-announcement,:1
-Securities:1
-Exchange:1
-(SEC):1
-making:1
-misleading:1
-disclosures:1
-handling:1
-data.:1
-result,:1
-$100m:1
-claims.:1
+its announcement:1
+the US Securities and
+Exchange Commission:1
 SEC:1
+charges:1
+making:1
+
+misleading disclosures:1
+regarding:1
+its handling:1
+a result:1
+$:1
+100:1
+the claims:1
+The SEC:1
 discovered:1
-misuse:1
-2015,:1
+the misuse:1
+its users'
+information:1
+2015:1
 clarify:1
+two years:1
+instead:1
 telling:1
+
 investors:1
-"may":1
-accessed.:1
-Department:1
-Justice:1
-(DoJ):1
-leading:1
+accessed:1
+The US Department of Justice:1
+(DoJ:1
+leading online
 platforms:1
+whether:1
 unfairly:1
-competition.:1
-DoJ:1
-ﬁrms,:1
+competition:1
+The DoJ:1
+any ﬁrms:1
 giants:1
-Google,:1
+Facebook, Google:1
 Amazon:1
 Apple:1
+likely:1
 scrutinised:1
-wide-ranging:1
-probe.:1
-Facebook?:1
+the wide-ranging probe:1
+any questions:1
 Submit:1
-selection:1
+your questions:1
+a selection:1
 investigated:1
-journalists.:1
-question::1
+BBC journalists:1
+Use:1
+this form:1
+ask:1
 reading:1
-page:1
+this page:1
+the form:1
 visit:1
-version:1
-website:1
+the
+mobile version:1
+the BBC website:1
 submit:1
-question.:1
-Related:1
-Topics:1
-Social:1
-networks:1
-Internet:1
-United:1
-States:1
-story:1
+Related Topics
+
+Companies:1
+Social networks:1
+Privacy:1
+Internet privacy:1
+United States:1
+this story:1
+Maybe:1
 punished:1
+aer:1
+Facebook users:1
 rise:1
-scandals:1
-18:1
-30:1
-January:1
-Top:1
-Rwandan:1
-court:1
+despite:1
+privacy scandals:1
+18 July 2019:1
+30 January 2019:1
+Top Stories:1
+
+terror charges:1
+Russian
+university:1
+A Rwandan court:1
 ﬁnds:1
-Paul:1
-Rusesabagina:1
+Paul Rusesabagina:1
 guilty:1
 supporting:1
-terrorist:1
-group.:1
-minutes:1
+a terrorist group:1
+2 hours ago:1
+7 minutes ago:1
+3 hours ago:1
+
+Emmy Awards:1
 Features:1
 manage:1
-chronic:1
-health:1
-conditions?:1
+our
+chronic health
+conditions:1
 Canadaʼs:1
+election:1
 Biden:1
 banning:1
 Britons:1
-US?:1
+the
+Taliban:1
 Kerry:1
 failed:1
-emission:1
-pledge:1
+
+emission pledge:1
 India:1
-whistle-:1
-blower::1
+South African:1
+whistle-
+blower:1
 feel:1
 safe:1
-dad,:1
-Iran:1
-Services:1
+dad:1
+the Iran
+BBC News Services
 hostage:1
 Street:1
-dreams::1
+dreams:1
 Dancing:1
 survive:1
-smart:1
-speakers:1
+mobile:1
+smart speakers:1
 understanding:1
-'Survival:1
-Fittest':1
-wrong:1
-news:1
-alerts:1
+
+'Survival of the Fittest':1
+news alerts:1
+Contact BBC News:1
+Elsewhere:1
 Travel:1
 Future:1
 Culture:1
@@ -608,64 +589,62 @@ Worklife:1
 Music:1
 Weather:1
 Terms:1
-Lyrics:1
-songs:1
+Use
+Lyrics quiz:1
+Contact:1
+getting:1
+these songs:1
 AdChoices:1
-/:1
 Sell:1
-Info:1
-Policy:1
+My Info:1
+Privacy Policy:1
 Cookies:1
-Accessibility:1
-Parental:1
-Guidance:1
-Personalised:1
-Newsletters:1
-trust:1
+Accessibility Help:1
+Parental Guidance:1
+Personalised Newsletters:1
 Advertise:1
-body:1
-extreme:1
-heat?:1
+happens:1
+your body:1
+extreme heat:1
 Feeling:1
 hot:1
-©:1
-2021:1
-BBC.:1
-approach:1
-linking.:1
+© 2021 BBC:1
+Read:1
+our approach:1
+external:1
+Most Read
+linking:1
+terror charges:1
+Russian university:1
 Body:1
 search:1
 missing:1
-Gabby:1
-Petito:1
+Gabby Petito:1
 Lava:1
 destroys:1
 homes:1
-volcano:1
-erupts:1
+volcano erupts:1
 Canaries:1
-Princess:1
-Beatrice:1
-girl:1
+Princess Beatrice:1
+gives:1
+a girl:1
 Embattled:1
 China:1
 property:1
 giant:1
 sparks:1
-economy:1
-fears:1
+economy fears:1
 Bees:1
 kill:1
-endangered:1
-penguins:1
+endangered South African penguins:1
 France:1
 pulls:1
-defence:1
-talks:1
+UK defence talks:1
 amid:1
 row:1
+the Taliban:1
+Emmy Awards:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:21
-Privacy:2
-consent:1
+Privacy:1
+Privacy Policy:1

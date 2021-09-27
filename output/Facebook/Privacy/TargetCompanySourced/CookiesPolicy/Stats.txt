@@ -1,537 +1,585 @@
 
 TargetCompanySourced/CookiesPolicy
 
-Total number of tokens: 2234
-Size of Lexicon: 665
-
-With stop word removal 
-Size of original corpus: 2234 
-Size of filtered corpus: 551
+Total number of tokens: 1052
+Size of Lexicon: 544
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:57
-cookies:43
-Cookies:21
-information:16
-▪:16
-Products:13
+use:53
+cookies:41
+us:27
+the Facebook Products:19
+help:19
+example:19
+Cookies:18
+Facebook:14
+provide:13
 ads:13
-provide:12
-ad:12
+may:12
+▪:12
+including:11
 apps:11
-example::11
-people:10
-including:9
+information:9
 show:9
-companies:9
-browser:8
-example,:8
-cookie:8
-websites:7
-cookies,:7
-account:7
-Products.:7
-content:7
-set:7
+set:8
+used:7
 store:6
-data:6
-device:6
-Products,:6
 understand:6
+whether:6
 improve:6
-services:6
+your browser:6
+allow:6
 measure:6
-Digital:6
-Advertising:6
-Alliance:6
+a Facebook account:5
 logged:5
-ads,:5
+content:5
 make:5
-experience:5
-lifespan:5
-site:5
-businesses:5
-features:5
-oﬀ:5
-controls:5
+websites:5
+people:5
+services:5
+seeing:5
 control:5
+receive:4
+data:4
+device:4
+your account:4
+features:4
+a lifespan:4
 identify:4
-diﬀerent:4
-activity:4
 prevent:4
-advertisers:4
-relevant:4
-you.:4
-sites:4
-Policy:3
-technologies:3
-receive:3
-apps,:3
+businesses:4
+oﬀ:4
+other companies:4
+computers:3
+visit:3
 enable:3
-in.:3
-safer:3
-them.:3
-third-party:3
-websites.:3
-days.:3
-additional:3
+oﬀer:3
+a safer experience:3
+keep:3
 helps:3
-browsers:3
-purposes:3
-advertising:3
-analytics:3
-Page:3
+deliver:3
+see:3
 Learn:3
+the controls:3
+available:3
 2:3
-business:3
 share:3
-Facebook's:3
-activity,:3
+analytics:3
 review:3
-Canada:3
+using:3
+advertisers:3
 work:3
 https://www.facebook.com/policy/cookies/printable:2
 Sign:2
 Log:2
-web:2
 identiﬁers:2
-similar:2
-policy,:2
-account,:2
-visit:2
-(including:2
-oﬀer:2
-choices:2
+this policy:2
+other websites:2
+the information:2
+your use:2
+the choices:2
+otherwise:2
 collect:2
-cookies?:2
+via:2
 providing:2
-browser,:2
 delete:2
 change:2
 time:2
 determine:2
-you’re:2
+’re:2
 access:2
-features.:2
-security:2
-instance,:2
-computers:2
-accounts.:2
-cookie,:2
+without:2
+instance:2
+activity:2
+recommendations:2
 insights:2
-organisations:2
+measurement:2
 interested:2
-deliver:2
-products:2
 based:2
-number:2
+the number:2
 times:2
-90:2
-performance:2
-ads.:2
+an ad:2
+n’t:2
+the same ad:2
+90 days:2
+things:2
+advertising:2
 serve:2
-devices:2
-use.:2
+across:2
+the people:2
+like:2
+their apps:2
 opt:2
-you’ve:2
+your activity:2
+which ads:2
+know:2
+’ve:2
 support:2
 Messenger:2
-parts:2
+windows:2
+relevant:2
 ﬁnd:2
-20/09/2021,:2
-14:36:2
-partners:2
+useful:2
+20/09/2021:2
 choose:2
-domains,:2
+'re:2
+visiting:2
 personalise:2
 provided:2
-apps.:2
 connection:2
 marketing:2
-companies’:2
-Facebook.:2
-tools:2
-below.:2
+other companies’ cookies:2
+the
+Facebook Products:2
 manage:2
-preferences:2
+your ad preferences:2
 learn:2
-Company:2
-settings.:2
-Audience:2
-Network:2
-online:2
-European:2
-Interactive:2
+your ad settings:2
+iOS:2
+Please:2
 generally:2
-settings:2
-23:2
-June:2
-Safari:2
-2021:2
-Create:2
-Ad:2
+23 June 2021:2
+Cookies Policy:1
 Email:1
 Phone:1
 Password:1
-Forgot:1
-account?:1
-&:1
-storage:1
-small:1
-pieces:1
+Forgot account:1
+other storage technologies:1
+small pieces:1
 text:1
-browsers.:1
-computers,:1
+web browsers:1
+other information:1
 phones:1
-devices.:1
-technologies,:1
-device,:1
-software,:1
-purposes.:1
+
+other devices:1
+Other technologies:1
+your web browser:1
+associated:1
+your device:1
+other software:1
+similar
+purposes:1
 refer:1
-“cookies”.:1
-website:1
-button:1
-Technologies).:1
-you,:1
+these technologies:1
+“cookies:1
+our website:1
+the Facebook Products
+:1
+the Like button:1
+other Facebook Technologies:1
 registered:1
-policy:1
+This policy:1
 explains:1
-have.:1
+Except:1
 stated:1
-Data:1
+the Data Policy:1
 apply:1
-processing:1
-cookies.:1
-provide,:1
+our processing:1
+the data:1
 protect:1
 personalising:1
-content,:1
 tailoring:1
 measuring:1
-experience.:1
+The
+cookies:1
 include:1
-session:1
+session cookies:1
 deleted:1
 close:1
-persistent:1
+persistent cookies:1
 stay:1
 expire:1
+the cookies:1
 update:1
-purposes::1
+the following purposes:1
 Authentication:1
 verify:1
 easier:1
+the appropriate
+experience:1
 navigate:1
-Pages.:1
+Facebook Pages:1
 remember:1
+n't:1
 logging:1
 easily:1
 log:1
-"c_user":1
-"xs":1
-purpose,:1
-365:1
-Security,:1
+third-party apps:1
+the "c_user:1
+"xs" cookies:1
+this purpose:1
+365 days:1
+Security:1
+site:1
 product:1
 integrity:1
 safe:1
-secure.:1
+secure:1
 impose:1
-measures:1
+additional security measures:1
+someone:1
 attempting:1
-authorisation,:1
+
+authorisation:1
 rapidly:1
 guessing:1
-passwords.:1
+diﬀerent passwords:1
+allows:1
 recover:1
-event:1
+the event:1
 forget:1
-password:1
+your password:1
 require:1
-authentication:1
-hacked.:1
-includes,:1
-"sb":1
-"dbln":1
-securely.:1
+additional authentication:1
+tell:1
+hacked:1
+includes:1
+sb:1
+dbln:1
+
+cookies:1
+securely:1
 combat:1
 violates:1
-policies:1
+our policies:1
 degrades:1
-ability:1
-ﬁght:1
-spam:1
-phishing:1
-attacks:1
+our ability:1
+ﬁght spam:1
+phishing attacks:1
 enabling:1
 create:1
-large:1
-numbers:1
-fake:1
+large numbers:1
+fake Facebook
+accounts:1
 detect:1
 infected:1
 malware:1
 steps:1
 causing:1
-harm.:1
-"csrf":1
-cross-site:1
-request:1
-forgery:1
-attacks.:1
-underage:1
+further harm:1
+Our "csrf" cookie:1
+cross-site request forgery attacks:1
+underage people:1
 registering:1
-Advertising,:1
-recommendations,:1
-measurement:1
-recommendations:1
-products,:1
-promote.:1
+Facebook accounts:1
+Advertising:1
+other organisations:1
+the products:1
+causes:1
+promote:1
 previously:1
 visited:1
-business’s:1
-website,:1
+a business’s website:1
 purchased:1
+its products:1
+its apps:1
 recommend:1
-activity.:1
+products:1
+that activity:1
 limit:1
-don’t:1
-again.:1
-"fr":1
-deliver,:1
-relevancy:1
-campaigns:1
+the "fr" cookie:1
+the relevancy:1
+the performance:1
+ad campaigns:1
 count:1
 shown:1
 calculate:1
-cost:1
-things,:1
-purchase:1
-impression.:1
-"_fbp":1
-identiﬁes:1
-person.:1
+the cost:1
+those ads:1
+often:1
+
+people:1
+a purchase:1
+following:1
+an ad impression:1
+the "_fbp" cookie identiﬁes browsers:1
+the purposes:1
+site analytics services:1
+diﬀerent browsers:1
+devices:1
+the same person:1
+the diﬀerent devices:1
+well:1
 interact:1
-kinds:1
+the ads:1
+our advertisers:1
+the businesses:1
+the kinds:1
+their Facebook Page:1
+more
+relevant content:1
 develop:1
+likely:1
 interesting:1
-customers.:1
-"oo":1
-ﬁve:1
-years,:1
-receive,:1
+their customers:1
+our "oo" cookie:1
+a lifespan of ﬁve years:1
+third-party websites:1
 decide:1
-Site:1
-functionality:1
-preferences,:1
+Site features:1
+the functionality:1
+preferences:1
+seen:1
 interacted:1
-Products’:1
-customised:1
-experiences.:1
+Facebook Products’ content:1
+customised content:1
+experiences:1
 suggestions:1
-others,:1
+others:1
 customise:1
+third-party sites:1
 integrate:1
-social:1
-plugins.:1
-administrator,:1
+our social
+plugins:1
+a Page administrator:1
 switch:1
 posting:1
-personal:1
-Page.:1
-session-based:1
-"presence":1
+your personal Facebook account:1
+the Page:1
+the session-based "presence" cookie:1
 chat:1
-windows.:1
-locale.:1
-preferred:1
-language.:1
+your locale:1
+a cookie:1
+placed:1
+the site:1
+your preferred language:1
 Performance:1
-possible.:1
+the best experience:1
+possible:1
 route:1
 traﬃc:1
 servers:1
 quickly:1
+Facebook Products:1
 load:1
-people.:1
+diﬀerent people:1
 record:1
-ratio:1
+the ratio:1
 dimensions:1
-screen:1
-windows:1
+your screen:1
 enabled:1
-high-contrast:1
-mode,:1
+high-contrast mode:1
 render:1
-correctly.:1
-"dpr":1
-"wd":1
-7:1
-days,:1
-optimal:1
-device’s:1
-screen.:1
+our sites:1
+correctly:1
+the "dpr:1
+"wd" cookies:1
+7 days:1
+purposes:1
+an optimal experience:1
+your device’s screen:1
 Analytics:1
 research:1
-service,:1
+better:1
+the Facebook service:1
 analyse:1
+parts:1
+the Facebook Products people:1
 1:1
-engaging,:1
-improved.:1
-Third-party:1
-websites':1
-Speciﬁcally,:1
+14:36
+
+Cookies Policy:1
+engaging:1
+could:1
+improved:1
+Third-party websites:1
+Our business partners:1
+their own websites' domains:1
+Speciﬁcally:1
 named:1
-_fbc:1
+fbc:1
 _fbp:1
-domain:1
-partner:1
-visiting.:1
+the domain:1
+the Facebook business partner:1
+whose site:1
 Unlike:1
-aren’t:1
+Facebook's own domains:1
+these cookies:1
 accessible:1
-set,:1
-domains.:1
-domain,:1
-ads),:1
+a site:1
+the one:1
+our
+domains:1
+the same purposes:1
+Facebook's own domain:1
 produce:1
-experience,:1
-Policy.:1
+this Cookies Policy:1
 place:1
-computer:1
+your computer:1
 stored:1
-visit::1
-Products;:1
-members:1
-Companies;:1
-Websites:1
+The Facebook Products:1
+
+▪ Products:1
+other members:1
+the Facebook Companies:1
+▪ Websites:1
+companies:1
 incorporate:1
-Technologies:1
+the Facebook Technologies:1
+their websites:1
+
+apps:1
+uses:1
 receives:1
-action:1
+those sites:1
+device information:1
+any
+further action:1
 occurs:1
-Companies:1
-Products?:1
-Yes,:1
-advertising,:1
-measurement,:1
-us,:1
-tailor:1
-Facebook,:1
+other Companies:1
+Yes:1
+certain features:1
+our services:1
+tailor ads:1
+their performance:1
 eﬀectiveness:1
-analytics.:1
-function,:1
-maps,:1
+Certain features:1
+function:1
+certain maps:1
 payment:1
-party:1
-policies.:1
-Information?:1
-services,:1
+security:1
+the companies:1
+Third party companies:1
+their own sites:1
+please:1
+their policies:1
+your Information:1
+the tools:1
+described:1
 Manage:1
-primary:1
-browser.:1
-account::1
-ways:1
+your cookies:1
+Facebook's primary advertising cookie:1
+this browser:1
+a particular ad:1
+better ads:1
+other partners:1
+your activity oﬀ Facebook Company Products:1
+this data:1
+The Facebook Audience Network:1
+a way:1
+the Facebook Company Products:1
+the ways:1
+Audience Network:1
 shows:1
-seeing.:1
-Oﬀ-Facebook:1
-summary:1
-interactions:1
-them,:1
-visiting:1
-tools,:1
-pixel,:1
-us.:1
-things:1
+relevant ads:1
+your Oﬀ-Facebook activity:1
+a summary:1
+organisations:1
+your interactions:1
+our business tools:1
+Facebook pixel:1
+this information:1
 give:1
-personalised:1
-oﬀ-Facebook:1
-it.:1
-Everyone::1
-interest-based:1
-participating:1
-US,:1
+a more personalised
+experience:1
+oﬀ-Facebook activity:1
+Everyone:1
+online interest-based ads:1
+other participating companies:1
+the Digital Advertising Alliance:1
+the US:1
+the Digital Advertising
+Alliance of Canada:1
+Canada:1
+the European Interactive Digital Advertising Alliance:1
 Europe:1
-mobile:1
-settings,:1
-available,:1
-Android,:1
-iOS:1
+your mobile device settings:1
+Android:1
 13:1
-earlier:1
-version:1
-iOS.:1
+an earlier version:1
 note:1
-blockers:1
+ad blockers:1
+tools:1
 restrict:1
+our cookie use:1
 interfere:1
-controls.:1
-advertising::1
+these controls:1
+More information:1
+online advertising:1
+The advertising companies:1
+similar technologies:1
 part:1
-services.:1
-oﬀer,:1
-resources::1
+their services:1
+the following resources:1
+Digital Advertising Alliance:1
+Digital Advertising Alliance of Canada:1
+▪ European Interactive Digital Advertising Alliance
+
 Browser:1
-controls::1
-addition,:1
+cookie:1
+controls:1
+addition:1
+settings:1
+browser cookies:1
+These controls:1
 vary:1
+browser:1
+
 manufacturers:1
-time.:1
-2021,:1
+both the settings:1
+any time:1
+additional information:1
 oﬀered:1
-popular:1
-links:1
+popular browsers:1
+the links:1
+Certain parts:1
 properly:1
 disabled:1
+browser cookie use:1
 aware:1
+these
+controls:1
 distinct:1
 oﬀers:1
-Google:1
-Chrome:1
-Internet:1
-Explorer:1
+Google Chrome:1
+Internet Explorer:1
 Firefox:1
-Mobile:1
-Opera:1
+Safari:1
+Safari Mobile:1
+▪ Opera:1
 Date:1
-revision::1
+last revision:1
 ©:1
+2021:1
 English:1
-(US):1
-Italiano:1
-Română:1
-Français:1
-(France):1
+(US:1
+Italiano Română Français:1
+France:1
 Sardu:1
-Deutsch:1
-Español:1
-Shqip:1
+Deutsch Español Shqip:1
 ﺍﻟﻌﺮﺑﻴﺔ:1
 Português:1
-(Brasil):1
-िह�दी:1
-Lite:1
-Watch:1
+Brasil:1
+िह:1
+�:1
+दी:1
+Facebook Lite Watch:1
 Places:1
 Games:1
 Marketplace:1
 Pay:1
 Jobs:1
-Oculus:1
-Portal:1
+Oculus
+
+Portal
+
 Instagram:1
-Local:1
+Local
+
 Fundraisers:1
 Services:1
-Voting:1
-Information:1
-Center:1
+Voting Information Center:1
+Create Ad:1
+Create:1
+Page:1
 Developers:1
 Careers:1
 Privacy:1
 Choices:1
 Terms:1
+Help:1
+14:36:1
 
 Keywords that appear in the file, alongside with their frequencies:
+hacked:1
 Privacy:1

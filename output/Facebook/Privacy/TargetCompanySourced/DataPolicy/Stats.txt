@@ -1,1040 +1,1133 @@
 
 TargetCompanySourced/DataPolicy
 
-Total number of tokens: 4615
-Size of Lexicon: 1205
-
-With stop word removal 
-Size of original corpus: 4615 
-Size of filtered corpus: 1053
+Total number of tokens: 2000
+Size of Lexicon: 1033
 
 Tokens that appear in the file, alongside with their frequencies:
-information:89
-Facebook:77
-share:32
-Instagram:30
-•:28
-provide:27
-Products,:27
-data:26
-people:20
-Products:19
-content:19
-example,:18
-Products.:17
-including:16
+use:56
+information:47
+our Products:40
+share:33
+provide:32
+including:25
+Facebook:23
+example:18
+others:17
+people:15
 receive:15
+collect:14
 Learn:13
-Information:12
-choose:12
-account:12
-public:12
-collect:11
-partners:11
-oﬀ:11
-services:11
-legal:10
-access:9
-contact:9
+choose:13
+content:12
+see:12
+us:12
+Instagram:11
+Information:10
+oﬀ:10
+the information:9
+like:9
+using:9
 accounts:9
-ads:9
-third-party:9
-things:8
+features:8
+access:8
+make:8
+ads:8
+help:8
 7:8
+data:8
 prevent:8
-https://www.facebook.com/about/privacy/update/printable:7
-Data:7
-process:7
-Settings:7
-Settings.:7
-you.:7
+n't:8
 learn:7
 delete:7
 communicate:7
-(such:7
+things:7
+described:7
+may:7
 personalize:7
-(including:7
-20/09/2021,:7
-14:35:7
-Facebook,:6
-features:6
-content,:6
+20/09/2021:7
+necessary:7
+process:6
+Messenger:6
+the Facebook Settings:6
+Instagram Settings:6
 control:6
-device:6
-make:6
-you,:6
-Terms:6
-research:6
-terms:6
-friends:6
+across:6
+contact:6
+send:6
+whether:6
+websites:6
+your information:6
+your data:6
+the data:6
+shared:6
+your account:6
 support:5
-types:5
+the content:5
 include:5
 interact:5
 part:5
-game:5
-send:5
-Device:5
-devices:5
-diﬀerent:5
-phone:5
-app:5
-Company:5
-Cookies:5
-social:5
-websites:5
-rights:5
+used:5
+  information:5
+includes:5
+visit:5
 providing:5
-interests:5
-technology:5
+Facebook Products:5
+businesses:5
+research:5
 understand:5
-shared:5
-audience:5
-search:5
-law:5
-Messenger:4
+policies:5
+the audience:5
+the right:5
+this policy:5
 create:4
-photo:4
-below.:4
-special:4
-proﬁle:4
-log:4
-actions:4
-purchases:4
-purchase:4
-comment:4
-device,:4
-response:4
-unique:4
-use,:4
-partners.:4
-activities:4
-business:4
-Partners:4
-visit:4
+our   Products:4
+this information:4
+apps:4
+Products:4
+partners:4
 work:4
 improve:4
-consistent:4
-businesses:4
-sponsored:4
 select:4
-activity:4
-violations:4
-policies,:4
-post:4
-service:4
-Companies:4
-processing:4
-data.:4
+services:4
+anyone:4
+legal requests:4
 exercise:4
-Ireland:4
-Policy:3
-policy:3
-Instagram,:3
-ﬁnd:3
-provide.:3
 communications:3
-message:3
-location:3
+an account:3
 give:3
-systems:3
 analyze:3
-purposes:3
-share.:3
+special protections:3
+interested:3
 subject:3
-protections:3
-groups:3
-connected:3
-address:3
-time,:3
-posts,:3
+connections:3
+the people:3
+know:3
+'re:3
 videos:3
 made:3
-includes:3
-number:3
 collected:3
-action:3
+your phone:3
+response:3
+unique:3
+14:35
+
+Facebook
+
+https://www.facebook.com/about/privacy/update/printable
+
+:3
+account:3
 cookies:3
-Business:3
+Facebook Business Tools:3
+their services:3
 require:3
 review:3
-topics:3
-experience:3
-them.:3
-ads,:3
-interests,:3
-services.:3
+relevant:3
+let:3
 advertisers:3
-services,:3
-websites,:3
-apps,:3
-harmful:3
+their ads:3
+detect:3
+violations:3
+our terms:3
 respond:3
 innovation:3
-general:3
 People:3
-Instagram.:3
-active:3
+your friends:3
+seen:3
+public:3
+third-party partners:3
 operate:3
-Page:3
-enforcement:3
-requests:3
-users:3
-Protection:3
+unless:3
+the Facebook Companies:3
+any time:3
 object:3
-good-faith:3
-belief:3
+deleted:3
+a good-faith belief:3
 Sign:2
 Log:2
-products:2
-tools:2
-kinds:2
+ﬁnd:2
+the Facebook Products:2
 Things:2
+other information:2
 sign:2
-account,:2
-others.:2
-ﬁle:2
-provide,:2
+our camera:2
 suggest:2
 automatically:2
-views,:2
-EU:2
-law.:2
-people,:2
-Pages,:2
-accounts,:2
-upload,:2
+'s:2
+Data:2
+EU law:2
+Pages:2
+groups:2
+connected:2
+upload:2
 sync:2
 import:2
+log:2
+the types:2
 view:2
-with;:2
-transactions:2
-ﬁnancial:2
-card:2
-information;:2
+last:2
+other content:2
+purchases:2
 shipping:2
-details.:2
-information.:2
+
+information:2
+comment:2
+a photo:2
+a message:2
 integrate:2
-use.:2
-ads):2
+better:2
 measure:2
-ad:2
-includes::2
-operating:2
-software:2
-plugins.:2
-(which:2
-identiﬁers,:2
-apps:2
-IDs:2
-(or:2
-nearby:2
-on,:2
-location,:2
-camera:2
-mobile:2
-time:2
-IP:2
-connection:2
+an action:2
+an ad:2
+device settings:2
+photos:2
 stored:2
-cookie:2
-Policy.:2
-Tools:2
-Login,:2
-Facebook.:2
-developer:2
-oﬄine:2
-providers:2
-parties:2
-with.:2
-collect,:2
-us.:2
-choices:2
-related:2
-Feed,:2
+Advertisers:2
+your   activities:2
+the ads:2
+could:2
+tell:2
+play:2
+a purchase:2
+Partners:2
+third parties:2
+these partners:2
+the
+types:2
+Provide:2
 events:2
-interested:2
-relevant:2
+topics:2
+follow:2
+interests:2
 based:2
-Products;:2
-experience,:2
 connect:2
-Messenger.:2
-Product:2
-Location-related:2
-conducting:2
-face:2
-recognition:2
-face-recognition:2
-2:2
-integrity:2
-detect:2
-spam:2
-Security:2
-Center:2
-marketing:2
-conduct:2
-welfare,:2
-technological:2
-advancement,:2
-interest,:2
-health:2
-well-being.:2
-Sharing:2
-post,:2
-list:2
-businesses,:2
-content.:2
-Public:2
-anyone,:2
-account.:2
-reshare:2
-with,:2
-3:2
-person:2
-Also,:2
-later.:2
-status:2
-website:2
-link:2
-followers:2
-them,:2
-request:2
-email:2
-transfer:2
-owner.:2
-companies:2
+a group:2
+Location-related information:2
+live:2
+face recognition technology:2
+this technology:2
+Facebook Settings:2
+ﬁrst:2
+other sponsored content:2
 analytics:2
-to,:2
-aggregate:2
-demographic:2
-reports:2
-identiﬁes:2
-interest:2
-4:2
-seller:2
-WhatsApp:2
-innovative,:2
-relevant,:2
-purposes,:2
-accordance:2
-ways:2
-protect:2
-legitimate:2
-access,:2
-rights,:2
-deletion:2
-deleted:2
-6:2
-copy:2
-jurisdiction,:2
-fraud,:2
-investigations:2
-harm.:2
+your activity:2
+safety:2
+security:2
+spam:2
+needs:2
+terms:2
+conduct:2
+health:2
+well-being:2
+Sharing:2
+post:2
+viewed:2
+any information:2
+your public proﬁle:2
+Page:2
+Facebook and Instagram:2
+APIs:2
+accessed:2
+search:2
+other services:2
+reshare:2
+outside:2
+a post:2
+download:2
+later:2
+active:2
+Apps:2
+your Facebook friends:2
+able:2
 abuse:2
-policy.:2
-United:2
-States:2
-transfers:2
-European:2
+address:2
+transfer:2
+around:2
+their posts:2
+number:2
+well:2
+performing:2
+identiﬁes:2
+something:2
+service providers:2
+academics:2
+our business:2
+law enforcement:2
+WhatsApp:2
+accordance:2
+the ways:2
+Instagram Terms:2
+consistent:2
+protect:2
+the public interest:2
+your rights:2
+our processing:2
+deletion:2
+case:2
+processed:2
+within:2
+otherwise:2
+the Products:2
+harm:2
+a legal request:2
+that jurisdiction:2
+fraud:2
+investigations:2
+globally:2
+Facebook Ireland:2
+other countries:2
 notify:2
+changes:2
 questions:2
-Ltd.:2
-Grand:2
-Canal:2
-supervisory:2
-Create:2
-Ad:2
+https://www.facebook.com/about/privacy/update/printable:1
 Email:1
 Phone:1
 Password:1
-Forgot:1
-account?:1
+Forgot account:1
+Data Policy:1
+This policy:1
 describes:1
+other products:1
 oﬀered:1
-(Facebook:1
-Products).:1
-additional:1
+Facebook (Facebook Products or Products:1
+additional tools:1
+Settings:1
 I.:1
-collect?:1
+What kinds:1
+must:1
+The types:1
 depend:1
 visiting:1
-(like:1
-metadata),:1
-date:1
-created.:1
-camera,:1
+share content:1
+message:1
+metadata:1
+the location:1
+a
+photo:1
+the date:1
+a ﬁle:1
+created:1
 masks:1
 ﬁlters:1
-like,:1
+might:1
 tips:1
-portrait:1
-mode.:1
+portrait mode:1
+Our systems:1
 context:1
-protections::1
+the
+purposes:1
+the things:1
+your Facebook proﬁle:1
 ﬁelds:1
-Life:1
-Events:1
-religious:1
-political:1
-"interested:1
-in,":1
-health.:1
+Life Events:1
+your religious views:1
+political views:1
+your health:1
 racial:1
-ethnic:1
-origin,:1
-philosophical:1
-beliefs:1
-trade:1
-union:1
-membership):1
+ethnic origin:1
+philosophical beliefs:1
+trade union membership:1
 Networks:1
-connections.:1
 hashtags:1
-of.:1
-book:1
+the most or
+groups:1
+contact information:1
+a device:1
+an address book:1
 call:1
 SMS:1
-history),:1
+log history:1
 helping:1
+ﬁnd people:1
+the other purposes:1
 listed:1
-usage.:1
+Your usage:1
 engage:1
-use;:1
-take;:1
+the actions:1
+the time:1
 frequency:1
 duration:1
-activities.:1
-camera.:1
-donation),:1
-transaction.:1
-payment:1
-information,:1
-credit:1
-debit:1
-authentication:1
-billing,:1
-below,:1
-computers,:1
-phones,:1
-TVs:1
-web-connected:1
+your activities:1
+what posts:1
+  transactions:1
+other   ﬁnancial
+transactions:1
+  a   purchase:1
+game:1
+donation:1
+the
+purchase:1
+transaction:1
+payment information:1
+your credit:1
+debit card number:1
+other card
+
+information:1
+other account:1
+authentication information:1
+billing:1
+details:1
+other people:1
+your contact information:1
+Device Information:1
+the computers:1
+phones:1
+connected TVs:1
+other web-connected
+
+devices:1
 combine:1
-laptop:1
-tablet,:1
+diﬀerent devices:1
+your use:1
+another device:1
+your laptop:1
+tablet:1
+took:1
 showed:1
-device.:1
+a diﬀerent device:1
 obtain:1
-attributes::1
-system,:1
+these devices:1
+Device:1
+attributes:1
+operating:1
+  system:1
 hardware:1
-versions,:1
+software   versions:1
 battery:1
-level,:1
+level:1
 signal:1
-strength,:1
-storage:1
-space,:1
-browser:1
-type,:1
+strength:1
+available storage space:1
+browser type:1
+app:1
+ﬁle:1
 names:1
-types,:1
-operations::1
+types:1
+plugins:1
+Device operations:1
 operations:1
 behaviors:1
 performed:1
-window:1
+the device:1
+a window:1
 foregrounded:1
-backgrounded,:1
-mouse:1
-movements:1
+backgrounded:1
+mouse movements:1
 distinguish:1
 humans:1
-bots).:1
-Identiﬁers::1
-IDs,:1
-games,:1
-Family:1
-identiﬁers:1
-1:1
-account).:1
-signals::1
-Bluetooth:1
-signals,:1
-Wi-Fi:1
-points,:1
-beacons,:1
-cell:1
-towers.:1
-settings::1
-settings:1
-turn:1
-GPS:1
-photos.:1
-Network:1
-connections::1
-operator:1
-ISP,:1
-language,:1
-zone,:1
-number,:1
-address,:1
-speed:1
-and,:1
-cases,:1
-network,:1
-stream:1
-video:1
-TV.:1
-Cookie:1
-data::1
-settings.:1
-Advertisers,:1
-developers,:1
-publishers:1
-plug-ins:1
-button),:1
-APIs:1
-SDKs,:1
-pixel.:1
-Facebook—including:1
-visit,:1
-make,:1
-see,:1
-services—whether:1
-logged:1
-API:1
+bots:1
+Identiﬁers:1
+unique identiﬁers:1
+device IDs:1
+other identiﬁers:1
 games:1
-play,:1
-store.:1
-online:1
-lawful:1
-from.:1
-Tools,:1
-II.:1
-information?:1
-(subject:1
-make):1
-Terms.:1
-how::1
-Provide,:1
+
+Family:1
+  Device:1
+IDs:1
+  other   identiﬁers:1
+Company:1
+associated:1
+device:1
+1:1
+
+
+• Device signals:1
+Bluetooth signals:1
+nearby Wi-Fi access points:1
+beacons:1
+cell towers:1
+allow:1
+turn:1
+your GPS location:1
+camera:1
+Network:1
+the name:1
+your mobile operator:1
+ISP:1
+language:1
+time zone:1
+mobile
+phone number:1
+IP address:1
+connection speed:1
+some cases:1
+other devices:1
+nearby:1
+your network:1
+stream:1
+a video:1
+your TV:1
+Cookie data:1
+your device:1
+cookie IDs:1
+settings:1
+the Facebook Cookies Policy and Instagram Cookies Policy:1
+app developers:1
+publishers:1
+our social plug-ins:1
+the Like button:1
+Facebook Login:1
+our APIs:1
+SDKs:1
+the Facebook pixel:1
+These partners:1
+your   device:1
+
+purchases:1
+a Facebook account:1
+logged:1
+a game developer:1
+our API:1
+what games:1
+a business:1
+its store:1
+your online and oﬄine actions:1
+
+
+purchases:1
+third-party data providers:1
+the rights:1
+lawful rights:1
+any data:1
+connection:1
+the Facebook Cookies Policy
+
+and:1
+Instagram Cookies Policy:1
+choices:1
+the Facebook Products
+:1
+related services:1
+the Facebook Terms and Instagram Terms:1
 deliver:1
-News:1
-Stories:1
+News
+
+Feed:1
+Instagram Feed:1
+Instagram Stories:1
 suggestions:1
-follow):1
-personalized:1
-connections,:1
-preferences,:1
-explicit:1
-consent);:1
-places,:1
-features,:1
-recommendations:1
-see.:1
-devices::1
-tailored:1
-join:1
-group:1
-follow:1
-seamless,:1
-ﬁlling:1
-registration:1
-number):1
-Product.:1
-information::1
-location-related:1
-information-such:1
-current:1
-live,:1
+personalized Products:1
+your connections:1
+preferences:1
+activities:1
+any   data:1
+  special   protections:1
+given:1
+your   explicit
+consent:1
 places:1
-go,:1
-near-to:1
-precise:1
-(if:1
+  oﬀ:1
+Instagram experience:1
+recommendations:1
+  devices:1
+  diﬀerent
+Facebook Products:1
+devices:1
+a more tailored and consistent experience:1
+all Facebook Products:1
+wherever:1
+join:1
+your experience:1
+seamless:1
+ﬁlling:1
+your registration information:1
+your phone number:1
+one Facebook Product:1
+a diﬀerent Product:1
+location-related information:1
+current   location:1
+  the
+places:1
+go:1
+near:1
+precise device location:1
+'ve:1
 allowed:1
-it),:1
-addresses,:1
-others':1
-check-ins:1
-attend).:1
-development::1
-develop,:1
+IP addresses:1
+others' use:1
+check:1
+attend:1
+Product:1
+development:1
+the   information:1
+develop:1
 test:1
+conducting:1
 surveys:1
-research,:1
 testing:1
 troubleshooting:1
-features.:1
-Face:1
-recognition::1
+new products:1
+recognition:1
 turned:1
 recognize:1
-photos,:1
-experiences.:1
-templates:1
-technology,:1
+
+camera experiences:1
+The face-recognition templates:1
+our use:1
 introduce:1
-ﬁrst,:1
+2:1
+14:35
+
+Facebook
+
+:1
+https://www.facebook.com/about/privacy/update/printable
+
+face-recognition technology:1
+your Instagram experience:1
 Ads:1
-content::1
-you-including:1
-connections-to:1
+your interests:1
+
+actions:1
 oﬀers:1
 show:1
-Provide:1
-measurement,:1
-analytics,:1
-see):1
-eﬀectiveness:1
+your choices:1
+other sponsored
+content:1
+measurement:1
+other business services:1
+the websites:1
+other partners:1
+the eﬀectiveness:1
 distribution:1
+their websites:1
+
+
 Promote:1
-safety,:1
-security.:1
+integrity:1
 verify:1
-activity,:1
+activity:1
 combat:1
-conduct,:1
-bad:1
-experiences,:1
+harmful conduct:1
+bad experiences:1
 maintain:1
+the integrity:1
 promote:1
-safety:1
-security:1
 investigate:1
-suspicious:1
-help.:1
-more,:1
-Tips.:1
+suspicious activity:1
+someone:1
+the Facebook Security Help:1
+Center:1
+Instagram Security Tips:1
 Communicate:1
-communications,:1
-policies:1
-terms.:1
+marketing communications:1
+our policies:1
 Research:1
 innovate:1
-good.:1
+social good:1
+research partners:1
 collaborate:1
-with):1
-migration:1
-patterns:1
+  topics:1
+  general   social   welfare:1
+  technological   advancement:1
+  public   interest:1
+migration patterns:1
 crises:1
 aid:1
-relief:1
-eﬀorts.:1
-programs.:1
-III.:1
-shared?:1
-ways::1
-group,:1
-friends,:1
-public,:1
-customized:1
-people.:1
-Similarly,:1
-send.:1
-network:1
+relief eﬀorts:1
+our
+research programs:1
+III:1
+Your information:1
+the following ways:1
+the post:1
+the public:1
+a customized list:1
+Similarly:1
+those people:1
+Your network:1
+actions:1
+taken:1
 engagement:1
-viewed:1
-Stories.:1
-username;:1
-audience;:1
-Facebook;:1
-Page,:1
-forum,:1
-Marketplace.:1
-You,:1
-results,:1
-APIs.:1
-seen,:1
-accessed,:1
+sponsored content:1
+other accounts:1
+their Facebook or Instagram
+
+Stories:1
+Public information:1
+your Instagram username:1
+a public audience:1
+other   public   forum:1
+  Facebook
+
+Marketplace:1
+, other people:1
+public information:1
+other Facebook Company Products:1
+search results:1
+tools:1
+Public   information:1
 reshared:1
 downloaded:1
-engines,:1
-APIs,:1
-media:1
-TV,:1
-visibility:1
-Content:1
+third:1
+party:1
+engines:1
+oﬄine media:1
+TV:1
+what information:1
+your visibility:1
+Content others:1
+consider:1
+3:1
 speciﬁc:1
-download,:1
-screenshot,:1
-virtual:1
-reality:1
-experiences:1
-Spaces.:1
-else's:1
+friends:1
+screenshot:1
+that content:1
+person:1
+virtual reality experiences:1
+Facebook
+
+Spaces:1
+someone else's post:1
 react:1
+their content:1
+your comment:1
 reaction:1
 visible:1
-person's:1
+the other person's content:1
+that person:1
 change:1
-choose.:1
-Story,:1
+a Story:1
 mention:1
 tag:1
+a location:1
+their
+
 posts:1
-messages.:1
+messages:1
 uncomfortable:1
 report:1
+your active status:1
 presence:1
-networks:1
+your networks:1
 signals:1
 telling:1
-Apps,:1
-integrations:1
+currently:1
+third-party integrations:1
+third-party apps:1
 integrated:1
-play:1
-Comment:1
-Share:1
-button:1
-website,:1
-download:1
-Apps:1
-(although:1
-may,:1
-course,:1
-themselves).:1
-one.:1
+a game:1
+Facebook Comment or Share button:1
+a website:1
+the game developer:1
+website:1
+your
+activities:1
+the game:1
+a comment:1
+link:1
+the website:1
+such third-party services:1
+your list:1
+Facebook friends:1
+any other information:1
+your Instagram followers:1
+although:1
+followers:1
+course:1
+these third-party services:1
+their own terms:1
 Devices:1
-native:1
-versions:1
-(i.e.:1
+operating systems:1
+native versions:1
+Facebook and Instagram (:1
+i.e.:1
 developed:1
-ﬁrst-party:1
-apps):1
-core:1
-functionality:1
-Note::1
+ﬁrst-party apps:1
+all information:1
+our core functionality:1
+Note:1
+the process:1
 restricting:1
-developers’:1
-abuse.:1
+developers’ data access:1
+even:1
 remove:1
-developers':1
-months,:1
+developers' access:1
+your Facebook and Instagram data:1
+their app:1
+3 months:1
 changing:1
-version,:1
+Login:1
+the next version:1
 reduce:1
-name,:1
+an app:1
+request:1
+without:1
+app review:1
+only   name:1
 username:1
-bio,:1
-address.:1
+bio:1
+proﬁle:1
+photo:1
+email:1
 Requesting:1
-ownership:1
-assets:1
-changes,:1
-approval.:1
-Third-Party:1
+any   other   data:1
+the ownership:1
+their assets changes:1
+new:1
+approval:1
+New owner:1
+
+
+owner:1
+Third-Party Partners:1
 grow:1
+their businesses:1
 makes:1
-free:1
-world.:1
+possible:1
+our companies:1
+free services:1
+world:1
 sell:1
-will.:1
+never:1
 impose:1
-strict:1
-restrictions:1
+strict restrictions:1
+our
+
+partners:1
 disclose:1
-with::1
-aggregated:1
-statistics:1
+our analytics services:1
+aggregated statistics:1
 insights:1
 engaging:1
-listings,:1
-admins:1
+listings:1
+Page admins:1
+business:1
 proﬁles:1
-viewed,:1
+  people:1
 reacted:1
 commented:1
+aggregate demographic and other information:1
 helps:1
 interactions:1
-Advertisers.:1
-Measurement:1
-performing,:1
+their Page:1
+Measurement partners:1
+reports:1
+the kinds:1
+seeing:1
 personally:1
-(information:1
-are):1
-permission.:1
-(for:1
-woman:1
-ages:1
-25:1
-34:1
+your name:1
+email address:1
+permission:1
+general:1
+demographic:1
+interest information:1
+a woman:1
+between the ages of 25 and 34:1
 lives:1
 Madrid:1
 likes:1
-engineering):1
-audience.:1
+software:1
+  engineering:1
+their   audience:1
 conﬁrm:1
+
+
+Facebook ads:1
 led:1
-advertiser.:1
-measurement:1
+an advertiser:1
+companies:1
+aggregate:1
+measurement reports:1
+4:1
+14:35
+
+Facebook
+
+https://www.facebook.com/about/privacy/update/printable
+
+Partners:1
 oﬀering:1
 goods:1
 subscribe:1
-premium:1
+premium content:1
 buy:1
+a seller:1
 creator:1
+seller:1
+  other   information:1
 needed:1
 complete:1
-transaction,:1
+the transaction:1
+contact details:1
 Vendors:1
-providers.:1
 Researchers:1
-academics.:1
 vendors:1
-business,:1
-technical:1
-infrastructure:1
+technical infrastructure services:1
 analyzing:1
-used,:1
-customer:1
-service,:1
+customer service:1
 facilitating:1
 payments:1
-surveys.:1
-academics:1
+
+conducting surveys:1
 advances:1
 scholarship:1
-mission,:1
+mission:1
 enhances:1
 discovery:1
-Law:1
-requests.:1
-circumstances:1
+general social
+
+welfare:1
+technological advancement:1
+public interest:1
+Law enforcement:1
+the circumstances:1
 outlined:1
-IV.:1
-together?:1
-infrastructure,:1
-Oculus):1
-safe:1
+IV:1
+together:1
+Facebook and Instagram share infrastructure:1
+systems:1
+technology:1
+other Facebook Companies:1
+
+Oculus:1
+an innovative, relevant, consistent and safe experience:1
+all Facebook Company Products:1
+these purposes:1
 permitted:1
-applicable:1
-policies.:1
+applicable law:1
+their terms:1
 sending:1
+its service:1
+appropriate action:1
+those accounts:1
+Facebook   Company   Products:1
 understanding:1
+  users:1
+diﬀerent   Facebook
+
+Company Products:1
 V.:1
-basis:1
-data?:1
-above::1
+our legal basis:1
+processing:1
 fulﬁll:1
-Service:1
-Use;:1
-consent,:1
+our Facebook Terms of Service:1
+Use:1
+your consent:1
 revoke:1
-Settings;:1
 comply:1
-obligations:1
-vital:1
-others;:1
-interest;:1
-others'):1
-personalized,:1
-safe,:1
+our legal obligations:1
+your vital interests:1
+  others:1
+  legitimate   interests:1
+our   interests:1
+innovative:1
+personalized:1
+safe:1
 proﬁtable:1
-partners,:1
+service:1
+our   users:1
+  partners:1
 overridden:1
-fundamental:1
+your   interests:1
+  fundamental   rights:1
 freedoms:1
 protection:1
-personal:1
-bases:1
+personal data:1
+these legal bases:1
 relate:1
-VI.:1
+
+
+VI:1
 provided:1
-GDPR?:1
-General:1
-Regulation,:1
-rectify,:1
+the GDPR:1
+the General Data Protection Regulation:1
+rectify:1
 port:1
 erase:1
+rights:1
 restrict:1
-direct:1
-marketing,:1
-"unsubscribe":1
-communications;:1
-performing:1
-task:1
+certain processing:1
+direct marketing:1
+the "unsubscribe" link:1
+such
+
+marketing communications:1
+a task:1
 pursuing:1
-party.:1
-VII.:1
-retention,:1
-deactivation:1
+our legitimate
+
+interests:1
+a third party:1
+this right:1
+VII:1
+Data retention:1
+account deactivation:1
 store:1
 longer:1
--:1
+our services:1
 whichever:1
 5:1
-ﬁrst.:1
-case-by-case:1
+comes:1
 determination:1
 depends:1
-nature:1
-data,:1
-processed,:1
-operational:1
-retention:1
-needs.:1
-query:1
-history:1
-months.:1
+the nature:1
+legal or operational retention:1
+that query:1
+your search history:1
+the log:1
+that search:1
+6 months:1
 submit:1
-government-issued:1
-ID:1
-veriﬁcation:1
-30:1
-days:1
-review,:1
-stated.:1
+a copy:1
+your government-issued ID:1
+account veriﬁcation purposes:1
+copy:1
+30 days:1
+stated:1
+cookie data:1
 obtained:1
-posted,:1
-photos:1
-updates,:1
+social plugins:1
+posted:1
+your photos:1
+status:1
+updates:1
 recover:1
-deleted.:1
+that information:1
 temporarily:1
 stop:1
 deactivate:1
-instead.:1
-VIII.:1
-harm?:1
+instead:1
+your
+account:1
+please:1
+VIII:1
 preserve:1
-regulators,:1
-others::1
-request,:1
+regulators:1
+the law:1
 requires:1
-so.:1
+the response:1
 required:1
+law:1
 aﬀects:1
-internationally:1
-recognized:1
-standards.:1
-to::1
-detect,:1
-unauthorized:1
-illegal:1
-activity;:1
+users:1
+internationally recognized standards:1
+unauthorized use:1
+other harmful or illegal activity:1
+our rights:1
 property:1
-Products),:1
-others,:1
-regulatory:1
-inquiries;:1
+regulatory inquiries:1
 death:1
-imminent:1
-bodily:1
-reliability:1
-transaction:1
-Facebook):1
-accessed:1
+imminent bodily harm:1
+the reliability:1
+other harmful activity:1
+ﬁnancial transaction data:1
+related:1
 preserved:1
-extended:1
-period:1
-obligation,:1
-governmental:1
-investigation,:1
+an extended period:1
+the subject:1
+obligation:1
+governmental investigation:1
+possible violations:1
 retain:1
 disabled:1
-year:1
-repeat:1
-term:1
-violations.:1
-IX.:1
-global:1
-services?:1
-globally,:1
+at least a year:1
+repeat abuse:1
+other term violations:1
+IX:1
+our global services:1
 internally:1
 externally:1
-world:1
+our partners:1
+the world:1
 controlled:1
 transferred:1
 transmitted:1
-processed:1
-in,:1
-countries:1
-live:1
+the United States:1
+the purposes:1
+These data transfers:1
+the services:1
 set:1
-globally:1
+forth:1
+the Facebook Terms:1
 utilize:1
-standard:1
-contractual:1
-clauses:1
+standard contractual clauses:1
 approved:1
-Commission:1
+the European Commission:1
 rely:1
-Commission's:1
-adequacy:1
-decisions:1
-countries,:1
-applicable,:1
-EEA:1
-countries.:1
+the European Commission's adequacy decisions:1
+certain countries:1
+applicable:1
+data transfers:1
+the EEA:1
+United States:1
 X.:1
-policy?:1
-opportunity:1
-revised:1
+'ll:1
+the opportunity:1
+the revised policy:1
 continue:1
-XI.:1
+XI:1
 privacy:1
 works:1
-policy,:1
-controller:1
+The data controller:1
 responsible:1
-Ireland,:1
-online,:1
+online:1
 mail:1
-at::1
-Square:1
-Harbour:1
-Dublin:1
+Ireland:1
+Ltd.:1
+4 Grand Canal Square:1
+Grand Canal Harbour:1
+Dublin 2 Ireland:1
 Contact:1
-Oﬃcer:1
+the Data Protection Oﬃcer:1
+Facebook Ireland Ltd.:1
 lodge:1
-complaint:1
-Ireland's:1
-lead:1
-authority,:1
-Irish:1
-Commissioner,:1
-local:1
-authority.:1
-Date:1
-Revision::1
-August:1
-21,:1
-2020:1
+a complaint:1
+Facebook Ireland's lead supervisory authority:1
+the Irish Data Protection Commissioner:1
+your local supervisory authority:1
+6:1
+14:35
+
+Facebook
+
+https://www.facebook.com/about/privacy/update/printable
+
+Date of Last Revision:1
+August 21, 2020:1
 English:1
-(US):1
-Italiano:1
-Română:1
-Français:1
-(France):1
+(US:1
+Italiano Română Français:1
+France:1
 Sardu:1
-Deutsch:1
-Español:1
-Shqip:1
+Deutsch Español Shqip:1
 ﺍﻟﻌﺮﺑﻴﺔ:1
 Português:1
-(Brasil):1
-िह�दी:1
-Lite:1
-Watch:1
+Brasil:1
+िह:1
+�:1
+दी:1
+Facebook Lite Watch:1
 Places:1
 Games:1
 Marketplace:1
 Pay:1
 Jobs:1
-Oculus:1
-Portal:1
-Local:1
+Oculus
+
+Portal
+
+Instagram:1
+Local
+
 Fundraisers:1
 Services:1
-Voting:1
+Voting Information Center:1
+Create Ad:1
+Create:1
 Developers:1
 Careers:1
 Privacy:1
+Cookies:1
 Choices:1
+Terms:1
+Help:1
 ©:1
 2021:1
+14:35:1
 
 Keywords that appear in the file, alongside with their frequencies:
 privacy:1

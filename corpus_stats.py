@@ -4,6 +4,8 @@ import pdfx
 import spacy
 import nltk
 import matplotlib.pyplot as plt
+from nltk.corpus import stopwords
+nltk.download('stopwords')
 
 file_input_path_general = 'Facebook/Privacy/' # global
 
@@ -48,17 +50,17 @@ def compute_stats(tokens,filename): #, path):
     print("\n"+filename+"\n", file=output_file)
 
     keywords_present = []
-    stop_word_file="data/Utils/english.stopwords.txt"
-    stop_word_f=open(stop_word_file,'r', encoding='utf-8') 
-    stopwords = (stop_word_f.read()).split()
-    stop_word_f.close()
+    #stop_word_file="data/Utils/english.stopwords.txt"
+    #stop_word_f=open(stop_word_file,'r', encoding='utf-8') 
+    #stopwords = (stop_word_f.read()).split()
+    #stop_word_f.close()
 
     freq = nltk.FreqDist(tokens)
     print('Total number of tokens:', len(tokens), file=output_file)
     # TO DO: TOTAL NUMBER OF UTTERANCES (SENTENCES)
     print('Size of Lexicon:', len(freq), file=output_file)
-    filtered_lexicon = (set(tokens).difference(stopwords))
-    print("\nWith stop word removal","\nSize of original corpus:", len(tokens), "\nSize of filtered corpus:",len(filtered_lexicon), file=output_file)
+    #filtered_lexicon = (set(tokens).difference(stopwords))
+    #print("\nWith stop word removal","\nSize of original corpus:", len(tokens), "\nSize of filtered corpus:",len(filtered_lexicon), file=output_file)
     
     plt.ion()
     graph = freq.plot(20, cumulative=False) # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
@@ -73,9 +75,9 @@ def compute_stats(tokens,filename): #, path):
     print('\nTokens that appear in the file, alongside with their frequencies:', file=output_file)
     for key, val in freq.items():
         flag = 0
-        for stopword in stopwords: # TO DO: OPTIMIZE, ACTUALLY FILTERING CORPUS INSTEAD OF FILTERING OUTPUT
-            if (key.lower() == stopword.lower()):
-                flag = 1
+        #for stopword in stopwords: # TO DO: OPTIMIZE, ACTUALLY FILTERING CORPUS INSTEAD OF FILTERING OUTPUT
+        #    if (key.lower() == stopword.lower()):
+        #        flag = 1
         if(flag != 1): 
             print(str(key) + ':' + str(val), file=output_file)
         for keyword in keywords:
@@ -94,10 +96,10 @@ def process_document(title, source):
 
     doc = nlp(input_file)
     #tokens = [t for t in doc.text.split()]
-    tokens = [token.text for token in doc if not token.is_space]
-    print(tokens)
+    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text.lower() in stopwords.words()]
+    #print(tokens)
     #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
-    #compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
+    compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
 
 def analyse_folder(source):
     path='data/'+file_input_path_general+source
@@ -150,7 +152,7 @@ for foldername in os.listdir('data/'+file_input_path_general):
 
 # C - IMPROVE KEYWORDS LIST
 
-# CONSIDER MORE THAN ONE-WORD TOKENS!!!
+# CONSIDER MORE THAN ONE-WORD TOKENS!!! check
 # PREPROCESSING LIKE LEMMATIZATION AND STEMMING
 # INCLUDING MORE RELEVANT TERMS BY:
         # FREQUENCY ANALYSIS AT DIFFERENT DOCUMENTS

@@ -1,521 +1,520 @@
 
 IndependentReports/CommonSensePrivacyEvaluation
 
-Total number of tokens: 3839
-Size of Lexicon: 1142
-
-With stop word removal 
-Size of original corpus: 3839 
-Size of filtered corpus: 1021
+Total number of tokens: 1916
+Size of Lexicon: 995
 
 Tokens that appear in the file, alongside with their frequencies:
-:98
-Unclear:70
-information:57
-Facebook:56
-data:40
-users:39
-Privacy:34
-DATA:33
-:29
-:29
-product:26
-terms:24
-state:23
-Data:21
-Full:20
-user:20
-vendor:19
-personal:18
-content:17
-15:17
--:16
-Report:16
+whether:67
+ Unclear:49
+users:34
+Facebook:28
+:25
+collected:24
+this product:22
+use:21
+:21
+Unclear:21
+data:18
+available:16
+15:16
 https://privacy.commonsense.org/privacy-report/Facebook:15
-20/09/2021,:15
-15:10:15
-policies:14
-collected:14
-privacy:14
+information:15
+may:14
+20/09/2021:14
 shared:13
-third-party:13
-user's:12
-Users:12
-collected.:12
-THIRD-PARTY:12
-Score:11
-13:10
-years:10
-consent:10
-social:9
-•:9
-parties:9
-Personal:9
-available.:9
-indicated.:9
-evaluation:8
-POLICY:8
-information.:8
-parental:8
-service:7
-people:7
-account:7
-addition,:7
-access:7
-data.:7
-service,:6
-provide:6
-practices:6
-party.:6
-notice:6
-share:5
-Facebook,:5
-including:5
-actions:5
-content.:5
-Facebook's:5
-ads:5
-Basic:5
-categories:5
-policies.:5
-parties.:5
-and/or:5
+the vendor:13
+a user:12
+state:11
+third parties:11
+state Facebook:10
+the terms:10
+15:10:10
+indicated:10
+Facebook - Full Privacy Report:9
+used:9
+personal information:9
+provides:9
+ Users:9
+The terms:8
+including:7
+ads:7
+addition:7
+the service:7
+content:7
+provide:7
+share:6
+access:6
+the policies:6
+students:6
+ Data:6
+:6
+people:5
+collect:5
+see:5
+indicate:5
+15:10
+
+Facebook - Full Privacy Report:5
+parents:5
+DATA:5
 provided:5
+required:5
+Privacy:4
+allows:4
 communicate:4
-posts.:4
-example,:4
+example:4
 select:4
-users':4
 includes:4
-collect:4
-sponsored:4
-age:4
-legal:4
-public:4
-types:4
+like:4
+the content:4
+actions:4
+consent:4
+others:4
+Facebook's terms:4
 interact:4
-advertising:4
 protect:4
-additional:4
-limited:4
 Protecting:4
-statute:4
-Protection:4
-Act:4
-identiﬁable:4
-PARTIES:4
+Privacy policies:4
+and/or:4
+ Personal information:4
+a third party:4
 deleted:4
-limits:4
-USER:4
-time:4
-Processes:4
-students:4
-friends,:3
+whether notice:4
+opt:4
+displayed:4
+know:3
 messages:3
-user’s:3
-However,:3
+other users:3
+However:3
 personalize:3
-ads,:3
-Policy:3
+offers:3
+an account:3
 made:3
+publicly:3
 prior:3
-application:3
-service.:3
+service:3
 Security:3
-Safety:3
-businesses:3
-accounts:3
-report:3
-Facebook.:3
-inappropriate:3
-behavioral:3
-websites:3
-collection:3
+user:3
 support:3
-security:3
-event:3
-ability:3
+the event:3
+the ability:3
+adults:3
+delete:3
 create:3
-services.:3
-score:3
-process:3
-questions:3
+Basic Score:3
+children:3
 75:3
-speciﬁc:3
-Online:3
-policy:3
+regulation:3
 notiﬁed:3
-material:3
-method:3
-consent.:3
+indicates:3
 Intended:3
 intended:3
-students.:3
-education:3
-purpose:3
+The categories:3
+limited:3
 receive:3
-combined:3
-federated:3
-login:3
-opt:3
-copyright:3
-school,:3
-parents,:3
+their data:3
+ Processes:3
+the school:3
 modify:3
-period:3
-delete:3
-required:3
-displayed.:3
-ADVERTISING:3
+social interactions:3
+The vendor:3
+parental consent:3
+updated:2
 connect:2
-videos,:2
+photos:2
+videos:2
 send:2
+posts:2
 post:2
-audience:2
-post,:2
-group,:2
-public,:2
-customized:2
-list:2
-people.:2
+the audience:2
+the post:2
+a group:2
+their friends:2
+the public:2
+a customized list:2
+terms:2
 sell:2
+users' data:2
 advertisers:2
-interests,:2
-offers:2
+personal
+
+information:2
+a user’s name:2
+their Facebook posts:2
+the information:2
+their interests:2
+connections:2
+
+
+other sponsored content:2
 broadly:2
-everyone,:2
-child:2
+everyone:2
 register:2
-old.:2
-old,:2
-18:2
+under 13 years old:2
+under 18 years of age:2
+must:2
 obtain:2
-parent:2
-guardian.:2
-website,:2
+their parent:2
+legal guardian:2
 download:2
-iOS:2
-App:2
-Store,:2
-Google:2
-Play:2
-Store.:2
+the Google Play Store:2
 found:2
-publicly:2
-Page:2
-Ads:2
-Shield:2
-Instagram:2
-proﬁle:2
+policies:2
+using:2
+the application:2
+Safety:2
+1:2
+businesses:2
+taken:2
+any information:2
+report:2
 block:2
-others.:2
-action:2
-law:2
-enforcement.:2
+the types:2
 collects:2
+'s:2
 contact:2
-log:2
 displaying:2
+the people:2
 groups:2
-connected:2
+across:2
+uses:2
 engage:2
-with;:2
-activities.:2
+the time:2
+duration:2
+their activities:2
+2:2
 track:2
+other websites:2
 purchases:2
-users.:2
-Lastly,:2
+make:2
+services:2
+logged:2
+Lastly:2
+state users:2
+need:2
 disclose:2
 notiﬁcation:2
-breach.:2
+a data breach:2
 Compliance:2
-adults:2
+13:2
+minors:2
 longer:2
-decision:2
-product.:2
+necessary:2
+Score:2
+Basic Score Full Score:2
+3:2
 47:2
+evaluation questions:2
 calculate:2
 scores:2
-rights:2
-sale:2
-laws:2
+Full Score:2
 50:2
 33:2
 20:2
 10:2
-regulation:2
+associated:2
 Statute:2
-Information:2
-version:2
+4:2
 effective:2
-NOTICE:2
-children:2
-parents:2
-COLLECTION:2
-personally:2
-Behavioral:2
-SHARED:2
-research:2
+any material changes:2
+ Privacy policies:2
+POLICY:2
+5:2
+PII:2
+education records:2
+under 13 years of age:2
+6:2
+DATA USE:2
+The purpose:2
+THIRD PARTIES:2
+ Data:2
 links:2
-ACCESS:2
-authorized:2
-providers.:2
-providers:2
-COMBINATION:2
-purposes.:2
-deidentiﬁed:2
-CONTRACTUAL:2
-OBLIGATIONS:2
-contractual:2
-CONTENT:2
-CONSENT:2
+third-party service providers:2
+7:2
+combined:2
+third
+parties:2
+social or federated login providers:2
+user information:2
+user
+information:2
+8:2
+ Users:2
 control:2
-request:2
-license:2
+their information:2
+a user's data:2
 review:2
-controls:2
-inaccurate:2
+9:2
+inaccurate data:2
+upon:2
+user data:2
 transferred:2
-transfer:2
-transfers:2
-creation:2
-required.:2
+a third
+party:2
+limits:2
 encrypts:2
-interactions.:2
-user-created:2
-vendor.:2
-interactions:2
-safe:2
-COMMUNICATIONS:2
-advertisements:2
-targeted:2
-advertisements.:2
-marketing:2
-opt-out:2
-children's:2
+all data:2
+11:2
+user-created content:2
+this vendor:2
 restricts:2
-age.:2
-COPPA:2
-school:2
-exceptions.:2
-jurisdiction:2
+under 13
+years of age:2
 waive:2
-Program:1
+the right:2
+Privacy Program:1
 Standard:1
-updated:1
-25,:1
-2021:1
+Report:1
+Last:1
+May 25, 2021:1
 47%:1
-Warning:1
+Warning
+
 Overview:1
-media:1
-networking:1
+a social media:1
+social networking service:1
+friends:1
 family:1
-photos:1
-updates.:1
-connections:1
+other people:1
+get:1
+updates:1
+a
+
+child:1
+13 years old:1
 accessed:1
-Terms:1
-Facebook’s:1
+its website:1
+the iOS App
+Store:1
+The Privacy Policy and Terms of Use:1
+this
+
+evaluation:1
+Facebook’s website:1
+iOS App Store:1
+This evaluation:1
 considers:1
+an
+
 individual:1
-Additionally,:1
-include::1
-Principles:1
+Additionally:1
+other policies:1
+this evaluation:1
+include:1
+Facebook Principles:1
 Basics:1
 Minors:1
-Community:1
-Standards:1
-Cookies:1
-EU-U.S.:1
-Swiss-U.S.:1
-Notice:1
-1:1
-Similarly,:1
-Messenger:1
-businesses,:1
-share.:1
-network:1
+Page:1
+Facebook Safety Page:1
+Community Standards:1
+Facebook Ads:1
+• Cookies Policy
+• EU-U.S. Privacy Shield and Swiss-U.S. Privacy Shield Notice:1
+Similarly:1
+Facebook's Messenger:1
+Instagram:1
+those people:1
+a user's social network:1
 engagement:1
+sponsored content:1
 lets:1
+other accounts:1
 viewed:1
-stories.:1
-anyone,:1
-account.:1
-username,:1
-audience,:1
-Page.:1
+their Facebook or Instagram stories:1
+public:1
+seen:1
+anyone:1
+n't:1
+a user's username:1
+a public audience:1
+their public proﬁle:1
+any content:1
+a Facebook Page:1
 uncomfortable:1
-Moreover,:1
+that content:1
+Moreover:1
 moderate:1
-harmful:1
-conduct:1
+harmful conduct:1
+towards:1
 learns:1
-conduct,:1
+inappropriate:1
+conduct:1
+appropriate action:1
 offering:1
-help,:1
+help:1
 removing:1
-content,:1
 blocking:1
-features,:1
+certain features:1
 disabling:1
-account,:1
 contacting:1
+law:1
+enforcement:1
 amount:1
 depend:1
 choose:1
-upload,:1
+upload:1
 sync:1
 import:1
-device:1
-address:1
-book:1
+a device:1
+an
+
+address book:1
 call:1
+log:1
 SMS:1
-history,:1
+log history:1
 things:1
 helping:1
-ﬁnd:1
-know.:1
-location-related:1
-current:1
-location,:1
-live,:1
+ﬁnd people:1
+location-related information:1
+their current location:1
+live:1
 places:1
-go,:1
-near-to:1
-provide,:1
+go:1
+the businesses:1
+near:1
 improve:1
-Also,:1
+their service:1
 turned:1
-on,:1
-face:1
-recognition:1
-technology:1
+face recognition technology:1
 recognize:1
-photos,:1
-camera:1
-experiences:1
-people,:1
-pages:1
+camera experiences:1
+Facebook pages:1
+connected:1
 part:1
-of.:1
+behavioral information:1
 view:1
-features:1
-use;:1
-take;:1
-time,:1
+the features:1
+the actions:1
+accounts:1
 frequency:1
-duration:1
 combine:1
-devices:1
-applications.:1
-2:1
-user-including:1
-connections-to:1
-Third-party:1
-partners:1
-activities:1
-Facebook—including:1
-device,:1
-visit,:1
-make,:1
-see,:1
-services—whether:1
-logged:1
+this behavioral information:1
+other personal
+
+information:1
+different devices:1
+applications:1
+Third-party partners:1
+a user's device:1
+visit:1
+the ads:1
+a Facebook account:1
+could:1
 served:1
-websites,:1
 apps:1
-TVs:1
-products.:1
-Audience:1
-Network:1
-publishers:1
+connected TVs:1
+our advertising products:1
+The Facebook Audience Network:1
+collection:1
+third-party publishers:1
+their businesses:1
+Facebook users:1
 give:1
 permission:1
-picture:1
-offers,:1
+proﬁle picture:1
+other sponsored content:1
 display:1
-reasonable:1
-encryption.:1
+reasonable security practices:1
+users' personal
+
+information:1
+encryption:1
 order:1
 operate:1
-global:1
+global service:1
 store:1
 distribute:1
+a user's content:1
+our data:1
 centers:1
 systems:1
-world.:1
+around:1
+the world:1
+any additional
+
 details:1
-minors,:1
+their security practices:1
+a child:1
+account:1
+years old:1
 put:1
-special:1
-safeguards:1
+special safeguards:1
 place:1
-(such:1
 placing:1
 restrictions:1
-them),:1
 recognizing:1
-minors:1
-experience:1
-access,:1
-rectify,:1
-delete,:1
+a more limited experience:1
+rectify:1
 export:1
 visiting:1
-Settings.:1
-stores:1
-rating:1
-score.:1
-higher:1
-(up:1
-100%):1
+their Facebook Settings:1
+the service stores data:1
+the services:1
+Overall:1
+Every privacy rating:1
+an overall score:1
+A higher score:1
+up to 100%:1
 means:1
-transparent:1
-indicator:1
-work:1
-person:1
-make:1
-informed:1
-3:1
-Comprehensive:1
-Assessment:1
+the
+
+product:1
+more transparent privacy policies:1
+better practices:1
+user
+
+data:1
+The score:1
+best:1
+an indicator:1
+how much additional work:1
+a person:1
+an informed decision:1
+a product:1
+Comprehensive Assessment:1
 Concerns:1
+The privacy evaluation process:1
 summarizes:1
-concern:1
+an application:1
+concern categories:1
 based:1
-subset:1
+a subset:1
 quickly:1
 identify:1
-vendor’s:1
-concerns:1
+particular practices:1
+a vendor’s policies:1
+These concerns:1
 composed:1
 relative:1
-concern.:1
+that concern:1
 Concern:1
-Collection::1
-Sharing::1
-Security::1
+Data Collection:1
+Data Sharing:1
+Data Security:1
 unauthorized:1
-Rights::1
+Data Rights:1
 Controlling:1
-Sold::1
+rights:1
+Data Sold:1
 Preventing:1
-Safety::1
+Data Safety:1
 Promoting:1
-responsible:1
-&:1
-Tracking::1
+responsible use:1
+Ads:1
+Tracking:1
 Prohibiting:1
-exploitation:1
-making:1
-Parental:1
-Consent::1
-children’s:1
-School:1
-Purpose::1
-student:1
+the exploitation:1
+users'
+
+decision making process:1
+Parental Consent:1
+’s:1
+personal:1
+School Purpose:1
+Following:1
+student data privacy laws:1
 Statutes:1
 25:1
 100:1
@@ -530,477 +529,568 @@ Statutes:1
 71:1
 42:1
 28:1
-questions.:1
-such,:1
-regulation.:1
-regulation's:1
+Each statute:1
+one or more evaluation questions:1
+each statute:1
+only those questions:1
+the statute:1
+Each speciﬁc statute:1
+regulation's score:1
 serves:1
-indirect:1
-proxy:1
+an
+
+indirect proxy:1
 indicating:1
-likelihood:1
+the likelihood:1
 satisfying:1
-compliance:1
-obligations.:1
-California:1
-(CalOPPA):1
-Children's:1
-(COPPA):1
-Family:1
-Educational:1
-Rights:1
-(FERPA):1
-4:1
-Student:1
-(SOPIPA):1
-General:1
-Regulation:1
-(GDPR):1
+its
+
+compliance obligations:1
+California Online Privacy Protection Act:1
+CalOPPA:1
+Children's Online Privacy Protection Act:1
+COPPA:1
+Family Educational Rights and Privacy Act:1
+FERPA:1
+Full:1
+Student Online Personal Information Protection Act:1
+SOPIPA:1
+General Data Protection Regulation:1
+GDPR:1
 46:1
 43:1
 41:1
 48:1
-date.:1
-changelog:1
-past:1
+a version:1
+date:1
+a changelog or past policy version:1
+the method:1
 notify:1
+ Changes:1
 immediately:1
 continued:1
-products:1
+the
+product:1
+the products:1
 covered:1
-questions,:1
-complaints,:1
-principles,:1
-layered:1
-notices,:1
-table:1
-Details:1
-1::1
+any privacy policy questions:1
+complaints:1
+material changes:1
+any privacy principles:1
+layered notices:1
+a table:1
+Privacy Policy Details:1
 Transparency:1
-1.1::1
-VERSION:1
-1.2::1
-updated.:1
-1.3::1
-1.4::1
-COVERAGE:1
-1.5::1
-CONTACT:1
-1.6::1
+1.1:1
+POLICY VERSION:1
+1.2:1
+NOTICE:1
+1.3:1
+POLICY CHANGES:1
+1.4:1
+POLICY COVERAGE:1
+1.5:1
+POLICY CONTACT:1
+1.6:1
 PRINCIPLES:1
-contents.:1
-1.7::1
-LANGUAGE:1
-1.8::1
-INTENDED:1
-multiple:1
-languages.:1
-5:1
-13.:1
-teens.:1
-18.:1
-guardians.:1
-teachers.:1
-2::1
+contents:1
+1.7:1
+POLICY LANGUAGE:1
+1.8:1
+INTENDED USE:1
+multiple languages:1
+under 13:1
+teens:1
+18:1
+guardians:1
+teachers:1
 Focused:1
 Collection:1
-2.1::1
-Personally:1
-(PII):1
-Geolocation:1
-Biometric:1
-health:1
-Sensitive:1
-Non-personally:1
+2.1:1
+COLLECTION:1
+Personally identiﬁable information:1
+collected personally identiﬁable information:1
+ Geolocation data:1
+ Biometric or health data:1
+ Behavioral data:1
+Sensitive data:1
+ Non-personally identiﬁable information:1
 free:1
 reduced:1
-lunch:1
-status:1
-2.2::1
-SOURCE:1
-records:1
-preK-12:1
-online.:1
-2.3::1
-EXCLUSION:1
+lunch status:1
+2.2:1
+DATA SOURCE:1
+
+preK-12 students:1
+
+ Personal information:1
+online:1
+2.3:1
+DATA EXCLUSION:1
+speciﬁc:1
+types:1
+speciﬁc types:1
+collected information:1
 excluded:1
-policy.:1
-2.4::1
-LIMITATION:1
-requirements.:1
-3::1
+the
+privacy policy:1
+2.4:1
+DATA LIMITATION:1
+the collection:1
+product
+requirements:1
+Data:1
 Sharing:1
-3.1::1
+3.1:1
+DATA SHARED WITH THIRD:1
+PARTIES:1
 Collected:1
-6:1
-3.2::1
+3.2:1
+BY THIRD PARTIES:1
 sharing:1
-analytics.:1
-improvement.:1
-marketing.:1
-3.3::1
-Speciﬁc:1
-3.4::1
+a user's personal information:1
+analytics:1
+research and/or product improvement:1
+third-party advertising:1
+marketing:1
+3.3:1
+SHARED:1
+ Speciﬁc categories:1
+3.4:1
 SOLD:1
 sold:1
 rented:1
-3.5::1
-ACQUISITION:1
+3.5:1
+THIRD-PARTY DATA ACQUISITION:1
 acquired:1
-3.6::1
-LINKS:1
-external:1
-age-appropriate.:1
-3.7::1
-3.8::1
-3.9::1
-MISUSE:1
-party:1
-misused.:1
-3.10::1
-SERVICE:1
-PROVIDERS:1
-roles:1
-3.11::1
-AFFILIATES:1
-7:1
-3.12::1
-POLICIES:1
+
+
+3.6: THIRD-PARTY LINKS:1
+third-party external websites:1
+age:1
+appropriate:1
+3.7:1
+THIRD-PARTY DATA ACCESS
+
+:1
+Third parties:1
+authorized:1
+a user's information:1
+3.8:1
+THIRD-PARTY DATA COLLECTION
+
+:1
+3.9:1
+THIRD-PARTY DATA MISUSE:1
+ Personal information:1
+misused:1
+3.10:1
+THIRD-PARTY SERVICE PROVIDERS:1
+ Data:1
+The roles:1
+3.11:1
+THIRD-PARTY AFFILIATES:1
+3.12:1
+THIRD-PARTY POLICIES:1
 Links:1
-companies:1
-3.13::1
-sources.:1
-3.14::1
-AUTHENTICATION:1
-Social:1
-supported.:1
-3.15::1
-DE-IDENTIFIED:1
-ANONYMIZED:1
-anonymous:1
-format.:1
+privacy policies:1
+third-party companies:1
+3.13:1
+THIRD-PARTY DATA COMBINATION:1
+third-party sources:1
+their own purposes:1
+3.14:1
+THIRD-PARTY AUTHENTICATION:1
+ Social:1
+federated login:1
+supported:1
+ Personal Information:1
+3.15:1
+DE-IDENTIFIED OR ANONYMIZED DATA:1
+an anonymous or deidentiﬁed
+format:1
 describes:1
-deidentiﬁcation:1
-3.16::1
-Contractual:1
-use.:1
+their deidentiﬁcation process:1
+3.16:1
+THIRD-PARTY CONTRACTUAL OBLIGATIONS:1
+ Contractual limits:1
+placed:1
+third-party data use:1
+contractual limits:1
 prohibit:1
 reidentifying:1
-4::1
+
+deidentiﬁed information:1
 Respect:1
 Context:1
-4.1::1
+4.1:1
+the purpose:1
 atr:1
-4.2::1
+4.2:1
+DATA COMBINATION:1
 treats:1
-(PII).:1
-4.3::1
+combined information:1
+personally:1
+identiﬁable information:1
+
+
+4.3: DATA NOTICE:1
 context:1
-changes.:1
-4.4::1
-8:1
+
+changes:1
+4.4:1
+DATA CHANGES:1
+
+
+Facebook - Full Privacy Report:1
+whether consent:1
 obtained:1
-change.:1
-4.5::1
-ENFORCEMENT:1
-Accounts:1
+practices:1
+change:1
+4.5:1
+POLICY ENFORCEMENT
+
+ Accounts:1
 terminated:1
-prohibited:1
-5::1
-Individual:1
-Control:1
-5.1::1
-5.2::1
-upload:1
-Opt-in:1
+any prohibited activities:1
+Individual Control:1
+5.1:1
+USER CONTENT:1
+5.2:1
+USER CONSENT:1
+upload content:1
+ Opt-in consent:1
 requested:1
-5.3::1
-REMEDY:1
-PROCESS:1
-grievance:1
-remedy:1
-mechanism:1
+5.3:1
+REMEDY PROCESS:1
+A grievance or remedy mechanism:1
 ﬁle:1
-complaint.:1
-5.4::1
-SETTINGS:1
-settings.:1
-5.5::1
-DISCLOSURE:1
-disclosure:1
-commercial:1
+a complaint:1
+5.4:1
+DATA SETTINGS:1
+privacy settings:1
+5.5:1
+DATA DISCLOSURE:1
+the disclosure:1
+a
+third party:1
+request:1
+what personal information:1
+commercial purposes:1
 receives:1
+a
 government:1
-5.6::1
+legal request:1
+a user’s information:1
+5.6:1
 INTELLECTUAL:1
 PROPERTY:1
 retain:1
 ownership:1
+A copyright license:1
 claimed:1
-user.:1
+any copyright license:1
 scope:1
-duration.:1
+their content:1
 removed:1
 disabled:1
-alleged:1
-violation.:1
-6::1
+an alleged copyright violation:1
 Access:1
 Accuracy:1
-6.1::1
-9:1
-permissions,:1
-roles,:1
+6.1:1
+DATA ACCESS:1
+permissions:1
+roles:1
+access controls:1
 restrict:1
-6.2::1
-INTEGRITY:1
+6.2:1
+DATA INTEGRITY:1
 maintains:1
-accuracy:1
-collect.:1
-6.3::1
-CORRECTION:1
-6.4::1
-RETENTION:1
-data-retention:1
-retention:1
+the accuracy:1
+6.3:1
+DATA CORRECTION:1
+the time period:1
+6.4:1
+DATA RETENTION:1
+A data-retention policy:1
+The retention time period:1
 changed:1
-valid:1
-inspection:1
-request.:1
-6.5::1
-DELETION:1
-necessary.:1
-cancellation:1
-termination.:1
-6.6::1
+a valid
+inspection request:1
+6.5:1
+DATA DELETION:1
+ A user's data:1
+account cancellation:1
+termination:1
+
+ Processes:1
+The time period:1
+to delete data:1
+6.6:1
 PORTABILITY:1
+A user:1
 assign:1
-manager:1
-legacy:1
-contact.:1
-7::1
-Transfer:1
-7.1::1
-HANDLING:1
-User:1
+an authorized account manager:1
+legacy contact:1
+: Data Transfer:1
+7.1:1
+DATA HANDLING:1
+ User information:1
 assigns:1
+its rights:1
 delegates:1
-duties:1
-company.:1
-7.2::1
-TRANSFER:1
-REQUEST:1
-7.3::1
-ONWARD:1
+its duties:1
+another company:1
+10 of 15
+
+20/09/2021:1
+7.2:1
+TRANSFER REQUEST:1
+its transfer:1
+7.3:1
+ONWARD CONTRACTUAL OBLIGATIONS
+
+:1
+third-party transfers:1
 contractually:1
-practices.:1
-8::1
-8.1::1
-IDENTITY:1
+the
+same privacy practices:1
+8.1:1
+USER IDENTITY
+
+ A:1
 identity:1
 veriﬁed:1
-8.2::1
+additional personal information:1
+8.2:1
+USER:1
 ACCOUNT:1
-Account:1
-managed:1
-two-factor:1
-protection:1
-8.3::1
-SECURITY:1
-protections:1
-8.4::1
-CONFIDENTIALITY:1
-industry:1
+ Account creation:1
+parental controls:1
+managed accounts:1
+two-factor account protection:1
+8.3:1
+THIRD-PARTY SECURITY:1
+third-party contractual security protections:1
+8.4:1
+DATA CONFIDENTIALITY:1
+industry best practices:1
 employee:1
-physical:1
-8.5::1
-TRANSMISSION:1
-transit.:1
-8.6::1
-STORAGE:1
-rest.:1
+physical access:1
+8.5:1
+DATA TRANSMISSION:1
+transit:1
+8.6:1
+DATA STORAGE:1
+rest:1
+Personal information:1
 stored:1
-8.7::1
-BREACH:1
-8.8::1
+notice:1
+8.7:1
+DATA BREACH:1
+8.8:1
 OVERSIGHT:1
 performs:1
-data-privacy:1
-security-compliance:1
-audits.:1
-11:1
-9::1
+data-privacy and security-compliance
+audits:1
 Responsible:1
-9.1::1
-SOCIAL:1
-INTERACTIONS:1
-trusted:1
-untrusted:1
-users,:1
+Use:1
+9.1:1
+SOCIAL INTERACTIONS:1
+ Users:1
+trusted users:1
+untrusted users:1
 strangers:1
-adults.:1
-Proﬁle:1
-9.2::1
-VISIBILITY:1
-displayed:1
-publicly.:1
-9.3::1
+ Proﬁle information:1
+9.2:1
+DATA VISIBILITY:1
+9.3:1
 MONITOR:1
 REVIEW:1
-reviewed,:1
-screened,:1
+reviewed:1
+screened:1
 monitored:1
 ﬁltered:1
-visible.:1
-moderated.:1
-logged.:1
-9.4::1
+visible:1
+moderated:1
+9.4:1
 REPORT:1
+CONTENT:1
 ﬁlter:1
+inappropriate content:1
 abuse:1
-cyberbullying.:1
-9.5::1
+cyberbullying:1
+9.5:1
 INTERNET:1
 SAFETY:1
 tools:1
 processes:1
-10::1
+safe:1
+appropriate social interactions:1
 Advertising:1
-10.1::1
-VENDOR:1
-service-:1
-administrative-related:1
-communications:1
-10.2::1
-TRADITIONAL:1
-Traditional:1
-contextual:1
-10.3::1
-BEHAVIORAL:1
+10.1:1
+VENDOR COMMUNICATIONS
+
+ A user:1
+service- or administrative-related communications:1
+the
+vendor:1
+10.2:1
+TRADITIONAL ADVERTISING:1
+ Traditional or contextual advertisements:1
+10.3:1
+BEHAVIORAL ADVERTISING:1
+ Behavioral:1
+targeted advertising:1
 12:1
-10.4::1
-AD:1
-TRACKING:1
-tracking:1
+10.4:1
+AD TRACKING:1
+third-party advertising or tracking services:1
 target:1
-proﬁles:1
+advertisements:1
+other third-party
+websites:1
+ Data proﬁles:1
 created:1
-enhancement,:1
-10.5::1
+data enhancement:1
+targeted:1
+
+advertisements:1
+10.5:1
 FILTERED:1
-Children:1
-10.6::1
-MARKETING:1
-messages.:1
-promotional:1
-sweepstakes,:1
-contests,:1
-surveys.:1
-10.7::1
+ADVERTISING:1
+ Children:1
+any inappropriate advertisements:1
+10.6:1
+MARKETING COMMUNICATIONS:1
+marketing messages:1
+promotional sweepstakes:1
+contests:1
+
+surveys:1
+10.7:1
 UNSUBSCRIBE:1
-traditional,:1
-contextual,:1
-advertising.:1
+traditional, contextual, or behavioral advertising:1
 unsubscribe:1
-communications.:1
-10.8::1
+marketing communications:1
+10.8:1
 TRACK:1
 responds:1
 Track:1
-mechanisms.:1
-tracking.:1
-11::1
-11.1::1
+other opt-out
+mechanisms:1
+a method:1
+third:1
+party:1
+tracking:1
+11.1:1
 CHILDREN:1
-actual:1
-knowledge:1
-applicable.:1
-in-app:1
+UNDER 13:1
+vendor:1
+actual knowledge:1
+children's privacy:1
+applicable:1
+account creation:1
+app:1
 participates:1
-FTC-approved:1
-harbor:1
-program.:1
-11.2::1
+an FTC-approved COPPA safe
+harbor program:1
+11.2:1
 STUDENTS:1
 K–12:1
 primarily:1
-by,:1
 designed:1
-for,:1
 marketed:1
+toward:1
 grades:1
-preK–12.:1
-Product:1
-records.:1
-contract:1
-rights.:1
+preK–12:1
+ Product:1
+a contract:1
+additional
+rights:1
 designates:1
-ofﬁcial.:1
-11.3::1
-PARENTAL:1
+a school ofﬁcial:1
+11.3:1
+PARENTAL CONSENT:1
 requires:1
 respect:1
 withdraw:1
-child's:1
+the
+further collection:1
+their child's information:1
 deletes:1
-submission.:1
-“internal:1
-operations”:1
-FERPA:1
+children's personal information:1
+without:1
+parental consent notice:1
+method:1
+
+submission:1
+the
+“internal operations:1
+the product:1
+COPPA parental consent exceptions:1
+FERPA parental consent exceptions:1
 discloses:1
-directory:1
-obligations:1
-district.:1
-11.4::1
-LEGAL:1
-REQUIREMENTS:1
+directory information:1
+transfers:1
+parental consent obligations:1
+the
+school:1
+district:1
+11.4:1
+LEGAL REQUIREMENTS:1
+The legal jurisdiction:1
 applies:1
+the laws:1
 governing:1
-dispute:1
-jury:1
-trial,:1
+any dispute:1
+a jury trial:1
 settle:1
-disputes:1
-arbitration.:1
+any disputes:1
+arbitration:1
 join:1
-class:1
-lawsuit.:1
-11.5::1
-CERTIFICATION:1
+a class action
+lawsuit:1
+A vendor:1
+law enforcement:1
+
+
+11.5: CERTIFICATION:1
 signed:1
-pledge:1
+a privacy pledge:1
 received:1
-certiﬁcation.:1
-11.6::1
-INTERNATIONAL:1
-LAWS:1
+a privacy
+certiﬁcation:1
+11.6:1
+INTERNATIONAL LAWS:1
 14:1
+A user's data:1
 subject:1
-International:1
-laws,:1
-GDPR.:1
-Controller:1
-Processor.:1
+International data transfer:1
+jurisdiction laws:1
+the GDPR:1
+a Data Controller:1
+Data Processor:1
 Return:1
-Evaluation:1
-Common:1
-Sense:1
-Media:1
-standard:1
-general:1
-purposes:1
-only.:1
-accuracy,:1
-completeness,:1
+Privacy Evaluation:1
+Common Sense Media:1
+this standard privacy report:1
+the general public:1
+research:1
+education purposes:1
+The accuracy:1
+completeness:1
 adequacy:1
+evaluation:1
 results:1
 derived:1
-product’s:1
+a product’s policies:1
 warranted:1
-guaranteed.:1
+guaranteed:1
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:34
-privacy:14
-consent:10
-CONSENT:2
+Privacy:4
+consent:4
+encryption:1
+Data Security:1
+DATA BREACH:1

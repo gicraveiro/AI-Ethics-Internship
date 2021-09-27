@@ -1,1530 +1,1747 @@
 
 Academic Articles Facebook/1 Facebook Loses the First Round of Its Battle with the Belgian Privacy Commission
 
-Total number of tokens: 4938
-Size of Lexicon: 1734
-
-With stop word removal 
-Size of original corpus: 4938 
-Size of filtered corpus: 1555
+Total number of tokens: 2362
+Size of Lexicon: 1562
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:78
-data:50
-Belgian:40
-Privacy:37
-social:23
-cookie:20
-EU:20
-Data:18
-Commission:18
-'datr':18
-Court:18
-protection:17
-processing:15
-Protection:14
-13:14
-tracking:14
-Facebook's:13
-activities:13
-European:12
-service:12
-legal:11
-users:11
-personal:11
-BDPA:11
-Art:11
-non-users:10
-website:10
-Directive:10
-Article:10
-Member:10
-De:9
-con-:9
-Smedt,:8
-no.:8
-consent:8
-case:8
-controller:8
-Internet:8
-Loses:7
-Round:7
-Battle:7
-ed.:7
+Facebook:51
+users:21
+13:15
+2015:14
+data:14
+1:13
+would:12
+'s:11
+use:9
+Belgian:9
+cookie:9
+See:9
+293:8
+EDPL:8
+Privacy:8
+datr:8
+already:8
+Art:8
 4:7
-plug-ins:7
-Face-:7
-information:7
-consent.:7
-users.:7
-law:7
-advertising:7
-territory:7
-that,:7
-interests:7
-29:7
-1:6
-EDPL:6
+plug:7
+2:7
+subject:7
+con-:7
+apply:7
 4|2015:6
-Belgium:6
 Reports:6
 |:6
 re-:6
-terms:6
-establishment:6
-national:6
-Inc.:6
-case,:6
-WP:6
-IP:6
-Stephanie:5
-Commission,:5
-privacy:5
-Law:5
-(2015):5
-2015,:5
-2015.:5
-book:5
-network:5
-valid:5
+social:6
+tracking:6
+activities:6
+found:6
+processing:6
+Stephanie De Smedt:5
+cookies:5
+able:5
+even:5
+information:5
 clear:5
 accessed:5
-security:5
-order:5
 relating:5
-Ireland:5
-9:5
-subject:5
-judgment:5
-application:5
-apply:5
-permanent:5
-ly:5
-Facebook,:5
-found:5
+must:5
+the  Court:5
 Opinion:5
-meaning:5
-cook-:5
+Internet:5
 held:5
-293:4
-Review:4
+European Data Protection Law Review:4
 obtain:4
-1.:4
-report:4
-ap-:4
 non-:4
-activities,:4
-non-compliance:4
-users':4
-conditions:4
-ground:4
-President:4
-Brussels:4
-2:4
-December:4
-addition,:4
-non-user:4
+Commission:4
+3:4
+could:4
+user:4
 visits:4
-purpose:4
-cookies:4
-Irish:4
-(the:4
-pro-:4
+8:4
 made:4
-international:4
-purposes:4
-States,:4
-applicable:4
+however:4
+the judgment:4
+BDPA:4
+5:4
+this  case:4
+used:4
+ly:4
 argued:4
 offered:4
-claim:4
-fundamental:4
-(i.e.:4
+Court:4
+therefore:4
+limited:4
+website:4
+order:4
+i.e.:4
+May:4
+11:4
+29 WP:4
 CJEU:4
 identify:4
-plug-in:4
-(2015).:3
-(cid:9):3
-"Facebook:3
-1,:3
---:3
-search:3
-article:3
-scope:3
+Facebook Loses:3
+the First Round:3
+Its Battle:3
+cid:9:3
+De Smedt:3
+1(4:3
+298:3
+Facebook Loses the First Round of Its Battle with the Belgian
+Privacy Commission:3
+available:3
+Belgium:3
+First:3
+the  Belgian  Privacy
+Commission:3
+report:3
+ap-:3
 track:3
-academic:3
-2.:3
-formal:3
+devices:3
+using:3
+May 2015:3
+the Privacy Commission:3
 requested:3
-large:3
-3.:3
+ Face-
+book:3
+President:3
 relief:3
-Instance:3
-plug-:3
-request:3
+without:3
+<:3
+>:3
+Belgian  Privacy Commission:3
 ber:3
+sent:3
 visited:3
+logged:3
+ users:3
+addition:3
 linked:3
-Facebook.:3
-8:3
-Additionally,:3
-129:3
+Data:3
+Additionally:3
+ECA:3
+12:3
 ing:3
-SPRL/BVBA:3
-Bel-:3
+personal:3
+Facebook  Inc.:3
+BVBA:3
+9:3
+pro-:3
+within:3
 en-:3
-3bis:3
-actual:3
-place:3
-public:3
-20:3
+the BDPA:3
+Article  :3
+the  BDPA:3
+carried:3
+law:3
 on-:3
-troller:3
-measures:3
-establishments:3
-services:3
-main:3
+the territory:3
+6:3
+the  Facebook  service:3
 promote:3
-therefore,:3
-5:3
-limited:3
+cf:3
 respect:3
-Commission's:3
+the use:3
+ place:3
+7:3
+yet:3
+excessive:3
 intended:3
-operator:3
-court:3
-establishment,:3
-company:3
 pursuant:3
-State:3
 21:3
 vs.:3
-(CJEU,:3
-tion:3
-rights:3
-alleged:3
-address:3
-,:3
-prior:3
-express:3
-cookie.:3
+the CJEU:3
+always:3
+according:3
+controller:3
+consent:3
+never:3
 time:3
-placing:3
+since:3
 achieve:3
+placed:3
 actively:3
-facebook.com:3
-relevant:3
-(which:3
-16:3
-com-:3
-Cf:3
-companies:3
+the  EU:3
+well:3
+meaning:3
+US:3
 Google:3
-owners:3
+compliance:3
 HeinOnline:2
-L.:2
 S.:2
 loses:2
-round:2
-battle:2
-belgian:2
-1(4):2
-(EDPL),:2
-293-298.:2
-(EDPL):2
-Eur:2
-Prot:2
-Rev:2
-293.:2
-4th:2
-'Facebook:2
-Commission':2
-PDF:2
+the first round:2
+its battle:2
+the Belgian
+Privacy Commission':2
+this article:2
 started:2
-law,:2
+Belgian  law:2
 revised:2
-January:2
-websites:2
+terms:2
+both users:2
 concluded:2
+issued:2
+According:2
+indeed:2
 surfing:2
 behaviour:2
-websites,:2
-link:2
-real:2
 collection:2
-plug-ins,:2
-in-:2
-howev-:2
+ Facebook:2
+upon:2
+
+users:2
+consequently:2
 sued:2
-non-users,:2
-sufficient:2
+Instance:2
+first:2
 adequate:2
-'From:2
-media:2
-network::2
-critical:2
-analysis:2
-Revised:2
-Policies:2
-Terms',:2
-version:2
-1.3:2
+including:2
+privacy:2
+academic:2
+ advertising
+network:2
+Terms:2
+facebook:2
+social plug-
+ins:2
+long:2
 uniquely:2
-logged-out:2
+social  plug-ins:2
 deactivated:2
-alike.:2
-page:2
-page,:2
-third-party:2
-website,:2
+alike:2
+Personal:2
 implements:2
-95/46/EC:2
-24:2
-October:2
-June:2
-12:2
+Data  Protection  :2
 July:2
+Directive  2002/58/EC:2
 Recommendation:2
 04/2015:2
-2015:2
-par:2
-Inc.,:2
-subsidiary,:2
-4.:2
-November:2
+English:2
+Facebook  Ireland  Ltd.:2
+Belgium  SPRL:2
+Brussels  Court:2
 nounced:2
-judgment.:2
 sided:2
-appeal:2
-not,:2
+the  Belgian  Privacy  Commission:2
+Bel-:2
+the  service:2
 suspend:2
-Territorial:2
-Application:2
-territo-:2
-Di-:2
-rective:2
-carried:2
-context:2
-effective:2
-Community,:2
-pur:2
-equip-:2
-ment,:2
+3bis:2
+the
+BDPA:2
+rective  9 5/46/EC:2
+the context:2
+the  controller:2
+personal data:2
+the  European  Community:2
+the  processing  use:2
+equip-
+ment:2
 automated:2
-otherwise,:2
+otherwise:2
 situated:2
-gian:2
-territory,:2
-equipment:2
+unless:2
 transit:2
-4(1)(a):2
 makes:2
 established:2
-obligations:2
-law.:2
 located:2
-Ltd.:2
-legislation:2
-cases:2
-ment:2
+disagreed:2
+application:2
 deemed:2
 serve:2
-commercial:2
-entire:2
-Group:2
-are,:2
 inextricably:2
-(cf:2
-6:2
+The  Privacy Commission:2
+the  tracking:2
+request:2
 injunctive:2
-procedure:2
-merits:2
+the  'datr'  cookie:2
+the tracking:2
+Facebook  users:2
+the merits:2
 extend:2
-7:2
-date:2
-implementation:2
-Commission.:2
+the  date:2
+submitted:2
+still:2
 considers:2
-implemented:2
-access:2
-excessive:2
-individual's:2
-information.:2
+public:2
+contrary:2
+fundamental:2
+given:2
+taken:2
+
+
+EDPL:2
+ground:2
 authori-:2
-ties:2
-argument:2
+the  activities:2
+The  court:2
+whether:2
+the  purpose:2
 determining:2
-Belgium,:2
-interim:2
+Facebook  Group:2
+Right:2
 demonstrate:2
-Belgium's:2
-Moreover,:2
-space:2
+Moreover:2
 recital:2
 19:2
-activity:2
-branch:2
-subsidiary:2
+Member:2
+State:2
 10:2
-11:2
-1990:2
-1990-91,:2
-Working:2
--:2
-Case:2
+(Arr.Cass:2
+1990-91:2
+29:2
+search:2
+line:2
+2011:2
+question:2
 ferred:2
-German:2
 requires:2
-Court,:2
+the Court:2
+rights:2
 freedoms:2
 concerned:2
 addresses:2
-would,:2
-data':2
-BDPA.:2
-col-:2
+computers:2
+the  meaning:2
 lected:2
-single:2
-user:2
+possible:2
 based:2
-In-:2
-ternet:2
+The Court:2
 confirmed:2
+Directive:2
 Tracking:2
 Non-Users:2
-First,:2
+personal  data:2
 autho-:2
 rised:2
-legitimate:2
-fact:2
-party,:2
-necessity:2
-contested:2
-sub-:2
-placement:2
+the  fact:2
+cessing:2
+prior:2
+Article  129:2
 ies:2
-computers:2
-devices:2
-unambiguous:2
+the  case:2
 accepted:2
-general:2
-obligation:2
+every:2
+a non:2
+actually:2
+necessary:2
 ensure:2
-services,:2
-ed:2
+especially:2
+the placing:2
+thus:2
+The  Court:2
 pre-:2
-Finally,:2
+Finally:2
+conditions:2
+the 'datr' cook-:2
+ie:2
 explicitly:2
 interact:2
-domain:2
-debate:2
-ban-:2
 ner:2
-EU,:2
-registered:2
-banner:2
 leaves:2
-cookies,:2
-placed.:2
-Commis-:2
-sion's:2
-use,:2
-recently:2
-Secondly,:2
+Facebook's  terms:2
+Secondly:2
+relevant:2
+enough:2
 processed:2
+com-:2
+service:2
 provider:2
-definition:2
-11.:2
-multiple:2
-laws:2
-17:2
-view,:2
-recommendation:2
-Spain:2
-(Case:2
-de:2
-State,:2
+14:2
+15:2
+establishments:2
+protection:2
+the  territory:2
+Cf:2
+this case:2
 engine:2
-cf:2
-comment:2
+that Member
+State:2
 EdpL:2
-broad:2
-Weltimmo:2
 representative:2
 suffice:2
-(n:2
-es-:2
+applicable:2
+though:2
 implement:2
-mechanism:2
-present:2
-types:2
-DATE:1
-DOWNLOADED::1
-Thu:1
-Sep:1
+GDPR:2
+its claim:2
+likely:2
+following:2
+DATE DOWNLOADED:1
+Thu Sep:1
 23:1
 18:12:49:1
 2021:1
-SOURCE::1
+SOURCE:1
 Content:1
 Downloaded:1
-Citations::1
+Citations:1
 Bluebook:1
 21st:1
-ed.(cid:10):1
-EUR.:1
-DATA:1
-PROT.:1
-REV.:1
-ALWD:1
-6th:1
-.,:1
-commission,:1
-Eur.:1
-Prot.:1
-Rev.:1
-APA:1
-7th:1
-commission.:1
-1(4),:1
-Chicago:1
-17th:1
-Commission,":1
-(2015)::1
-293-298:1
-McGill:1
-Guide:1
+ed.(cid:10:1
+the Belgian
+Privacy Commission:1
+1 EUR:1
+DATA PROT:1
+L. REV:1
+ALWD 6th ed:1
+the belgian privacy
+commission:1
+Eur:1
+Data Prot:1
+L. Rev.:1
+APA 7th ed:1
+the belgian
+privacy commission:1
+      
+
+Chicago 17th ed:1
+293-298                                                                              
+
+McGill Guide:1
 9th:1
-Commission":1
-1:4:1
+1:4 Eur Data Prot L Rev:1
 AGLC:1
-MLA:1
-8th:1
-Stephanie.:1
-Commission.":1
-vol.:1
-4,:1
+4th:1
+     
+
+MLA 8th ed:1
+Stephanie:1
+vol:1
+4, 2015:1
 p.:1
-HeinOnline.:1
-OSCOLA:1
+OSCOLA 4th ed:1
+1 Eur Data Prot L Rev:1
 Provided:1
-by::1
-Pace:1
-Library:1
-acceptance:1
-HeinOnline's:1
-Terms:1
-Conditions:1
-license:1
-agreement:1
+
+Pace Law Library:1
+Your use:1
+this HeinOnline PDF:1
+indicates:1
+your acceptance:1
+HeinOnline's Terms:1
+
+   Conditions:1
+the license agreement:1
 https://heinonline.org/HOL/License:1
-text:1
+The search text:1
+this PDF:1
 generated:1
-uncorrected:1
-OCR:1
-text.:1
+uncorrected OCR text:1
 permission:1
-license,:1
-use::1
-Copyright:1
-Information:1
-Stdphanie:1
-Smedt*:1
+beyond:1
+the scope:1
+your  license:1
+please:1
+Copyright Information:1
+Loses:1
+Round:1
+Its  Battle:1
+Stdphanie De Smedt:1
 Background:1
 February:1
 University:1
-searchers,:1
+searchers:1
 commissioned:1
 published:1
-analysis,:1
-policy.:1
+containing:1
+a legal
+analysis:1
+privacy  policy:1
 plied:1
 30:1
-2015.':1
+January  2015:1
 allowed:1
-devices,:1
-cookies.:1
-particular,:1
+across:1
+websites:1
+particular:1
 so-:1
 called:1
-cookie,:1
+ 'datr'  cookie:1
 monitor:1
 variety:1
-ways,:1
+ways:1
 Facebook.2:1
-research:1
-'tracking':1
+The  academic  research  report:1
 violated:1
-legislation.':1
-issued:1
-recommendation.:1
+European:1
+Belgian  data  protection
+legislation:1
+a  formal  recommendation:1
 criticised:1
+Facebook's
+tracking  activities:1
 formally:1
 cease:1
-activities.4:1
+these  activities.4:1
+Although:1
 recommen-:1
 dations:1
 legally:1
-binding,:1
+binding:1
 defacto:1
 obeyed:1
-der:1
 avoid:1
-issues.:1
+non-compliance  issues:1
+Facebook's
+tracking activities:1
 intrusive:1
-cas-:1
-es:1
-so-called:1
-'third-party:1
-tracking'.:1
-number:1
-identity,:1
+other cas-:1
+so-called  'third-party tracking:1
+a  large  number:1
+
+websites:1
+link:1
+real  identity:1
+network:1
 interactions:1
 medical:1
-religious,:1
+religious:1
 sexual:1
-political:1
-preferences.:1
+
+political preferences:1
 justify:1
+social plug-ins:1
 relies:1
-dividual's:1
-er,:1
-(free:1
-informed):1
-met,:1
-months:1
-negotiations,:1
-amicable:1
-solution:1
-found.:1
-summary:1
-proceedings.:1
+the in-
+dividual's consent:1
+The Privacy Commission:1
+howev-:1
+the  conditions  for valid  (free and
+informed)  consent:1
+no  legal  ground:1
+Facebook's  tracking  activities:1
+particularly:1
+came:1
+several  months:1
+ negotiations:1
+no amicable  solution:1
+The
+Privacy  Commission:1
+Brussels  Court of  First
+in  summary  proceedings:1
 sought:1
-injunction:1
+an  injunction:1
 prohibiting:1
+social  plug-
 ins:1
 giving:1
+sufficient:1
 Associate:1
 Loyens:1
-&:1
 Loeff:1
-(Belgium),:1
+Brussels:1
+(Belgium:1
 specialising:1
 intellectual:1
 property:1
-technology:1
-(including:1
-protection).:1
-correspondence::1
-<stephanie.de:1
-.smedt@loyensloeff.com>.:1
-https://www.law.kuleu-:1
-ven.be/icri/en/news/item/icri-cir-advises-belgian-privacy-com-:1
-mission-in-facebook-investigation:1
-technical:1
-'report:1
-ins',:1
+information technology:1
+ law:1
+data  protection:1
+correspondence:1
+stephanie.de:1
+.smedt@loyensloeff.com:1
+social media service:1
+critical:1
+analysis:1
+Revised Policies:1
+version:1
+1.3  https://www.law.kuleu-:1
+ven.be/icri/en/news/item/icri-cir-advises-belgian-privacy-com-
+mission:1
+-investigation:1
+December
+2015:1
+ technical 'report:1
 written:1
 KULeuven:1
-Minds:1
-researchers:1
+Minds  researchers:1
+the request:1
 https://secure-:1
-homes.esat.kuleuven.bet-gacar/fbjracking/:1
+homes.esat.kuleuven.bet:1
+gacar:1
+fbjracking/:1
 Decem-:1
-long-term:1
-(lifespan:1
-years),:1
+term:1
+lifespan:1
+2  years:1
 identifying:1
-site:1
-logged-in,:1
-(event:1
-fan:1
-etc.),:1
-opts-out:1
-interest-based:1
-Digital:1
-Advertising:1
-Alliance:1
-set.:1
-sites:1
+tracking cookie:1
+a  site:1
+page:1
+event page:1
+ fan  page:1
+etc:1
+certain  third-party websites:1
+opts:1
+interest-based
+advertising:1
+the European  Digital  Advertising Alliance website:1
+the 'datr'  cookie:1
+set:1
+later:1
+ sites:1
 include:1
+Face-
+book  social plug-ins:1
 tracked:1
+
+Facebook:1
 proclaimed:1
-integrity:1
-maintenance.:1
-3:1
-1992:1
+purpose:1
+ website
+security and  integrity maintenance:1
+The  Belgian  law:1
+December  1992:1
+Privacy Protection:1
+
 relation:1
 Processing:1
-Personal:1
-(BDPA):1
-1995:1
-order.:1
-Electronic:1
-Communications:1
-Act:1
-2005:1
-(ECA):1
-provisions:1
-2002/58/EC:1
+(BDPA:1
+Directive 95/46/EC  of 24  October  1995  in  the
+Belgian  legal  order:1
+ Article  129:1
+the  Electronic
+Communications  Act:1
+June 2005:1
+the
+Belgian  legal  order:1
+the  provisions:1
+ cookies:1
+
+EU  Directive  2002/58/EC:1
 2002:1
+concerning:1
 process-:1
+the  protection:1
 electron-:1
 ic:1
 communications:1
 sector:1
-(e-Privacy:1
-2002/58/EC).:1
-(in:1
-English):1
-<http://www.privacycommission.be/sites/privacycommission/files/:1
-documents/recommendation04201:1
-50.pdf>:1
+http://www.privacycommission.be/sites/privacycommission/files/
+documents:1
+recommendation04201:1
+50.pdf:1
 De-:1
-cember:1
+cember 2015:1
 294:1
 spect.s:1
-ent:1
-company,:1
-Ltd.,:1
-(together:1
-'Face-:1
-book').:1
-Court):1
-long-awaited:1
+The  Privacy  Commission  :1
+US  par:1
+ent  company:1
+ its  Irish  subsidiary:1
+ its  Belgian  subsidiary:1
+together  'Face-
+book:1
+November  2015:1
+(the  Court:1
+its long-awaited  judgment:1
 ordered:1
 stop:1
 gium:1
-48:1
-hours:1
-penalty:1
-payments:1
-(250.000:1
-day:1
-tinued:1
-infringement.:1
+48  hours:1
+the
+judgment:1
+penalty payments:1
+250.000:1
+each  day:1
+
+tinued  infringement:1
 an-:1
-judgment.7:1
+appeal:1
+this judgment.7:1
+The ap-
 peal:1
-however,:1
-penalties:1
-due.:1
+any penalties:1
+becoming:1
+due:1
 immediately:1
 forceable:1
 officially:1
 served:1
-II.:1
-Key:1
-Findings:1
+Key  Findings:1
+the  President:1
+First  Instance:1
+Territorial:1
 Scope:1
-5.:1
-debated:1
-issue:1
-rial:1
-ju-:1
+Application:1
+A  much debated issue:1
+the  territo-
+rial application:1
+the international  ju-
 risdiction:1
-courts.:1
-(implementing:1
-5/46/EC):1
+the  Belgian  courts:1
+implementing:1
+Article  4:1
+Data Protection Di-:1
 defines:1
-territorial:1
+the territorial  scope:1
 plication:1
-follows::1
-to::1
-1':1
+follows:1
+This law:1
+shall:1
+ personal  data:1
+effective:1
+actual  activities:1
+a  permanent  establishment:1
+
+Belgian  territory:1
+a place:1
 applies:1
 virtue:1
-law;:1
-ter:1
+international  public law:1
+20 the  processing:1
+a controller:1
+no permanent  establishment:1
+the ter:1
 ritory:1
+pur:1
 poses:1
-terri-:1
-tory.:1
-(...):1
-5/46/EC:1
-Mem-:1
+Bel-
+gian territory:1
+such equipment:1
+purposes:1
+Belgian  terri-:1
+tory:1
+Article 4(1)(a:1
+EU Data Protection Di-:1
+a data:1
+troller:1
+several Mem-:1
+States:1
+the necessary measures:1
+sure:1
+those establishments:1
 complies:1
+the obligations:1
 laid:1
-6.:1
-headquarters:1
-Ire-:1
-land,:1
-entity,:1
+the applicable  national
+law:1
+its European headquarters:1
+Ire-
+land:1
+ the  Irish  entity:1
+ Face-
+book Ireland Ltd.:1
 regarded:1
-cerned.:1
-Ireland,:1
+the  data con-
+troller:1
+far:1
+European  data processing:1
+cerned:1
+Facebook Ireland:1
+not Facebook Inc.:1
 ac-:1
 tually:1
 offers:1
+EU  users:1
 Ac-:1
 cording:1
 meaningful:1
 differ:1
+
 ences:1
-United:1
-States:1
-Canada,:1
-rest:1
-world.:1
-Consequently,:1
-courts:1
+the services:1
+ Facebook Inc.:1
+United  States:1
+ Canada:1
+ Ireland:1
+the  rest:1
+the
+world:1
+Consequently:1
+only the  Irish data protection
+legislation:1
+the  Irish  courts:1
 jurisdiction:1
-mat-:1
-ters.:1
-disagreed,:1
+non-compliance  mat-
+ters:1
+certain  cases:1
+an  international
 group:1
-establish-:1
-Belgium.:1
+its  main  European  establish-:1
+
+ment:1
 triggered:1
-finding:1
-establishment):1
-net-:1
-working:1
-only.:1
-(at:1
-stage):1
-subsequent:1
+the finding:1
+the activities:1
+Facebook  Belgium  SPRL:1
+permanent:1
+Facebook  establishment:1
+the commercial  interests:1
+the  entire Facebook Group:1
+its social net-
+working and advertising activities:1
+claim:1
+this  stage:1
+the  subsequent  procedure:1
 introductory:1
 hearing:1
 scheduled:1
-early:1
-2016),:1
-(and:1
-probably):1
-claim,:1
-prohibition:1
-(unofficial):1
-English:1
+early January
+2016:1
+the  Privacy Commission:1
+probably:1
+its
+claim:1
+the  prohibition:1
+An  (unofficial:1
 translation:1
-link::1
-<https://www.privacycommission.be/en/news/j:1
-udgment-facebook:1
--case>:1
-submitted:1
-author,:1
-introduced,:1
-yet.:1
+via:1
+the following  link:1
+https://www.privacycommission.be/en/news/j:1
+udgment:1
+-case:1
+December:1
+this  article:1
+the author:1
+no appeal:1
+introduced:1
 negotiating:1
-(provision-:1
-al):1
+the (provision-
+al:1
+implementation:1
+The Privacy  Commission:1
 announced:1
 provisional:1
-(blocking:1
-pages:1
+measures:1
+meanwhile:1
+implemented:1
+blocking:1
+access:1
+ pages:1
 requiring:1
 log:1
 view:1
-pages):1
-and,:1
-turn,:1
-contrary:1
+Facebook  pages:1
+their turn:1
+individual:1
+right:1
 instructions:1
 proceed:1
-entities:1
-involved.:1
-submitted,:1
-place.:1
+the different  Face-
+book  entities:1
+involved:1
+the
+service:1
 295:1
-':1
-above).8:1
-Incidentally,:1
+ ' above).8:1
+Incidentally:1
+the
 opinion:1
 ensuring:1
 relations:1
+ties:1
 lobbying:1
+a Belgian
+establishment:1
 make:1
-network,:1
+the service:1
+a social network:1
 prof:1
-itable,:1
-definition,:1
-foreign:1
-site.:1
+itable:1
+definition:1
+the  foreign  operator:1
+the
+social  network  site:1
 agreed:1
-irrelevant,:1
-Ltd,:1
+the  Privacy  Commission's
+argument:1
+irrelevant:1
+Facebook  Ireland
+Ltd:1
+the  applicable
+law:1
 part:1
-Group,:1
-SPRL/BV-:1
+the
+Belgian  establishment:1
+Facebook  :1
+Belgium  SPRL/BV-
+:1
 BA.9:1
-country:1
+the  country:1
+actual  processing:1
 takes:1
-place,:1
 importance:1
-respect.:1
-Condition:1
+this  respect:1
+The  Condition:1
 Urgency:1
 Deemed:1
 Automatically:1
-Met:1
-Cases:1
+Met  in  Cases:1
 Violation:1
 Fundamental:1
-7.:1
-judgment,:1
-claimants:1
-'urgency':1
-situation:1
-fear:1
-limited-liability:1
+an  interim  judgment:1
+ claimants:1
+ 'urgency:1
+a situation:1
+the fear:1
+a  limited-liability company:1
 incorporated:1
-2001.:1
-annual:1
-financial:1
-statement,:1
+2001:1
+Facebook  Belgium's
+annual  financial  statement:1
+Facebook  Inc.  :1
 mentioned:1
-'consolidating:1
-parent:1
-company'.:1
+consolidating:1
+parent company:1
 deed:1
-incorporation,:1
-activities.:1
-members:1
+incorporation:1
+ Belgium's activities:1
+commercial:1
+interests:1
+entire:1
+its  social  network:1
+advertising  activities:1
+ two  members:1
 staff:1
+Facebook
+Belgium:1
 contact:1
-enterprises:1
+ Belgian  enterprises:1
 provide:1
 support:1
+services:1
 marketing:1
-sale:1
-preamble:1
-95/46/EC::1
-'establishment:1
+advertising  space:1
+the preamble:1
+EU  Data  Protection  Directive
+:1
+95/46/EC:1
+ 'establishment:1
 implies:1
-exercise:1
-stable:1
+the effective and  real  exercise:1
+activity:1
+stable
 arrangements:1
-(...).:1
-form:1
+The  legal form:1
+such  an  establishment:1
 simply:1
-personality,:1
+branch:1
+a subsidiary:1
+a  legal  personality:1
 factor:1
-respect'.:1
-Cassation,:1
+this respect:1
+ Belgian  Court:1
+Cassation:1
 judgments:1
 March:1
 1985:1
-(Arr.Cass.,:1
-1984-85,:1
-1008),:1
+1984-85:1
+1008:1
 1987:1
-(Arr.Cass.:1
-1986-87,:1
-1287),:1
-(R.W:1
-987),:1
-September:1
-(Arr.:1
-Cass.:1
-42).:1
+1986-87:1
+1287:1
+1990:1
+R.W:1
+987:1
+September
+1990:1
+(Arr:1
+Cass:1
+42:1
+WP:1
 4/2007:1
+of 20 June  :1
 2007:1
 concept:1
 1/2008:1
-April:1
-2008:1
-issues:1
+April  2008:1
+data  protection  issues:1
 related:1
-engines.:1
-Document:1
-2000,:1
-'Privacy:1
-integrated:1
-Approach:1
-On-line:1
-Protection'.:1
-C-70/10:1
-Scarlet:1
-Extended:1
-SA.:1
+engines:1
+Working  Document:1
+November  2000:1
+An  integrated  EU  Approach:1
+Protection:1
+Case  C-70/10 Scarlet Extended SA:1
 SABAM:1
+24:1
 Novem-:1
-2011):1
-51.:1
-preliminary:1
-reference:1
+51:1
+the preliminary  reference:1
+currently:1
 pending:1
-CJEU,:1
+ Case:1
 C-582/14:1
 Breyer:1
-(question:1
-Federal:1
-Supreme:1
-Court::1
-'Must:1
+German:1
+Federal  Supreme Court:1
+Must:1
 damage:1
-scope,:1
-inconve-:1
-nience,:1
-decision).:1
-viola-:1
+a certain  scope:1
+serious  inconve-:1
+nience:1
+an immediate  decision:1
+a claim:1
+a viola-
+tion:1
 basic:1
-(fundamental:1
-rights):1
-defendant,:1
-urgent.:1
-violation:1
+fundamental
+rights:1
+the  defendant:1
+urgent:1
+the  alleged violation:1
 lated:1
-rights,:1
-swathe:1
-population,:1
+an individual's fundamental  rights:1
+a large  swathe:1
+the population:1
 potentially:1
 highly:1
 sensitive:1
-Addresses:1
-'Personal:1
-Data':1
-8.:1
-computers,:1
-individu-:1
-als.:1
+IP  Addresses:1
+IP:1
+individu-
+als:1
 constitute:1
-'personal:1
+ 'personal
+data:1
+The data col-:1
+the 'datr' cookie:1
+contain:1
 anony-:1
-mous:1
-details.:1
-indi-:1
-vidual:1
-non-registered:1
-alone.:1
-absence:1
-'person-:1
-al:1
-data,:1
-apply.:1
+mous  IP address  details:1
+ operator:1
+single:1
+an indi-
+vidual non-registered user:1
+this information:1
+alone:1
+the  absence:1
+person-:1
+
+al data:1
 refuted:1
-argument.:1
+this argument:1
+the
+'datr' cookie:1
 identifies:1
-browser:1
-user,:1
+the browser:1
+an In-
+ternet user:1
 enabling:1
 directly:1
 indirect-:1
 individuals:1
 means:1
-computer.:1
-opinions:1
+the IP:1
+ address:1
+their computer:1
+Following:1
+the  opinions:1
 Arti-:1
 cle:1
-Party:1
-line:1
-jurispru-:1
+Working Party:1
+the jurispru-
 dence:1
 Justice:1
-EU1:1
+the  EU1:1
 expressly:1
-visitors':1
-ins,:1
+website
+visitors' IP:1
 qualifies:1
 the'processing:1
 with-:1
-BPDA:1
-/46/EC.:1
+the  BPDA:1
+EU  Data Protection
+:1
+9 5:1
+/46:1
+EC:1
 Adequate:1
-Legal:1
-Basis:1
-9.:1
+ Legal  Basis:1
+the processing:1
+the  data  controller:1
 rely:1
-basis",:1
-(i):1
+a legitimate
+basis:1
+the  processing:1
 nec-:1
 essary:1
-performance:1
-contract:1
-(ii):1
-cessing:1
+the performance:1
+a contract:1
+the
+data:1
+a party:1
+the  necessity:1
 meet:1
-obligation,:1
-(iii):1
-(except:1
+a legal  obligation:1
+iii:1
+the
+necessity:1
+the contested processing:1
+the
+legitimate  interests:1
+except:1
+such interests:1
 overridden:1
+the interests:1
 296:1
-ject),:1
-(iv):1
-subject's:1
-ECA:1
-legal-:1
+the data sub-:1
+
+ject:1
+iv:1
+express:1
+the legal-
 ity:1
-systematic:1
-non-technical:1
+the systematic placement:1
+non-technical cook-:1
 plugins:1
-prior,:1
-free,:1
+free:1
 informed:1
-hand,:1
-contractual:1
-relationship:1
-(who:1
+
+unambiguous  consent:1
+hand:1
+a  contractual  relationship:1
 created:1
-account:1
-condi-:1
-tions).:1
-'legitimate:1
-interest':1
-argument,:1
+a Facebook  account:1
+general  terms:1
+condi-
+tions:1
+no  legal
+obligation:1
+any  law:1
+the  'legitimate  interest:1
+ argument:1
 credible:1
 request-:1
 loading:1
-book,:1
-criminals:1
+a website:1
+the  security:1
+Facebook  services:1
+ criminals:1
 easily:1
 circumvent:1
-blocker:1
-software.:1
+this cookie:1
+cookie  blocker  software:1
+contested:1
 lack:1
-efficacy:1
-purpose.:1
+the  necessary  efficacy:1
+alleged:1
+security purpose:1
 cluded:1
+the  interests:1
 weighed:1
-affect-:1
-latter's:1
+the fundamental  rights:1
+the affect-:1
+,  the  latter's  interests:1
 undeniably:1
-vail.:1
+vail:1
 alternative:1
+legal:1
 basis:1
-consent,:1
-consent":1
-met.:1
+ consent:1
+ the  Court:1
+Privacy  Commission:1
+
+valid consent:1
 choose:1
 visit:1
-website).:1
+a
+website:1
+facebook.com  domain:1
+a Facebook:1
+a third-party website:1
 claimed:1
-subjects.:1
+a third party:1
+the express:1
+the  relevant  data subjects:1
+The debate:1
 showed:1
-summons:1
-issued,:1
+the summons:1
 deploy:1
-including:1
-was,:1
+a cookie:1
+ban-:1
+throughout:1
+ Belgium:1
+registered  users:1
+The  cookie  banner:1
 deployed:1
 enhance:1
 granted:1
+ Internet:1
 inter:1
+
 act:1
-service.:1
 stated:1
+the non:1
+the Facebook page:1
 senting:1
+the  placement:1
+merely:1
 fol-:1
 lows:1
+the  link:1
 learn:1
+these
+cookies:1
 conse-:1
 quently:1
-contrary.:1
+adequate  prior  data:1
+placing:1
+the  'datr' cookie:1
+followed:1
+the Privacy  Commis-
+sion's  argument:1
+the
+case:1
+registered:1
 validly:1
+
+use:1
 landed:1
+facebook.com:1
 do-:1
+main:1
 resulted:1
-ie),:1
 failed:1
 show:1
+place:1
+this  cookie:1
 considered:1
+the recently implemented cookie banner:1
 amount:1
+valid:1
+ unambiguous  consent:1
 More-:1
-over,:1
+the facebook.com domain:1
 hard-:1
 qualified:1
-'user':1
+a  'user:1
 requests:1
-he/she:1
-third-par:1
+a
+Facebook service:1
+a third-par:1
 ty:1
-io.:1
-rule,:1
-adequate,:1
+ a general rule:1
+Article
+:1
+4 BDPA:1
+16:1
+data processing  activities:1
 strictly:1
-spe-:1
-cific:1
-purpose(s)).:1
+spe-
+cific  purpose(s:1
+col-:1
 disputed:1
-period:1
-long:1
-security.:1
+kept:1
+a period:1
+sure  security:1
+The  'datr' cookie:1
 play:1
-crucial:1
+a  crucial
 role:1
-series:1
-threats,:1
+the protection:1
+the Facebook  service:1
+a whole  series:1
+security  threats:1
 benefit:1
-non-users.:1
-disagreed.:1
-complete:1
-information,:1
-generally:1
+the
+personal  data:1
+complete
+information:1
+wish:1
+the  social
+plug-in:1
+generally the Facebook services:1
+ this
+data:1
 seemingly:1
 fairly:1
-lawfully,:1
+lawfully:1
 obtained:1
-specified,:1
+specified:1
 explicit:1
 legit-:1
-imate:1
-purposes.:1
-trusive:1
-methods:1
+imate purposes:1
+appear:1
+less in-
+trusive methods:1
 desired:1
-pose,:1
+security  pur
+pose:1
 result:1
 plained:1
 fails:1
 proportionality:1
 test:1
-well.:1
-2(a):1
+Article 2(a:1
 95/46/:1
-[...]:1
 interpreted:1
 Protocol:1
-([P:1
-address):1
+address:1
+([P address:1
 stores:1
+his  website:1
 constitutes:1
+personal
+data:1
+third:1
 party:1
-(an:1
-provider):1
-additional:1
-knowledge:1
+an  access  provider:1
+the additional  knowledge:1
 required:1
-subject?').:1
-95/46/EC).:1
-14:1
+cf Art:1
+Directive 95/46/EC:1
 Implementing:1
-5(3)(e):1
-2002/58/EC.:1
-15:1
+5(3)(e:1
 requirements:1
+valid  consent:1
+described:1
+Art  29  WP:1
 15/2011:1
-2011:1
-95/46/EC.:1
+the definition:1
+16  :1
+Cf Art:1
+EU  Data  Protection  Directive  95/46/EC:1
 297:1
 Comments:1
-Broad:1
-Legislation:1
+Broad  Territorial  Application:1
+Data  Protection  Legislation
+
+:1
 ry:1
-judg-:1
+
+
+gian  territory:1
+equipment:1
+ly  for  purposes:1
+territo-:1
+other international  companies:1
+multiple:1
+this  judg-
+ment:1
 confirms:1
-apply,:1
+that multiple national data protection
+laws:1
+may:1
 complied:1
-with,:1
-group's:1
-Eu-:1
-ropean:1
-establishment.:1
+laws:1
+the  group's main  Eu-
+ropean establishment:1
 reaching:1
-decision,:1
+its  decision:1
 relied:1
-(1'):1
-(activities:1
-above).:1
+a
+permanent  establishment:1
+territory:1
+see:1
+17:1
+our view:1
 put:1
 forward:1
-Pri-:1
+the Belgian  Pri-:1
+
 vacy:1
+its formal  recommendation:1
 alternatively:1
 lied:1
-(2'):1
-BDPA::1
+the  second ground:1
+3bis  BDPA:1
+a  data  con-
+troller:1
+no  permanent  establishment:1
+
+purposes:1
+17  :1
+the Google Spain case:1
+(Case:1
 C-131/12:1
+Spain:1
 SL:1
-Agencia:1
-Espatiola:1
-Protecci6n:1
-Datos:1
+Inc.:1
+Agencia  Espatiola de  Protecci6n  de Datos:1
 Mario:1
-Costeja:1
-Gonzalez:1
-2014)).:1
+Costeja  Gonzalez:1
+May 2014:1
+4(1)(a:1
+Directive  95/46/EC:1
 interpret-:1
-'carried:1
-provision,:1
+an  establishment:1
+the controller:1
+a Member  State:1
+that
+provision:1
+the operator:1
 sets:1
-up,:1
+a
+Member  State:1
+a branch  or  subsidiary:1
 mote:1
 sell:1
+advertising space:1
 orientates:1
-inhabitants:1
-State;:1
+ its  activity:1
+towards:1
+the  inhabitants:1
 detailed:1
-Kranenborg,:1
-'Google:1
-Forgotten':1
-70.:1
-C-230/14:1
+comment:1
+Kranenborg:1
+Forgotten:1
+70:1
+broad:1
+scope:1
+the EU:1
+legislation:1
+recently:1
+the Weltimmo  case:1
+(Case C-230/14:1
+Weltimmo:1
 s.:1
 r.:1
 o.:1
-Nemzeti:1
-Adatv6delmi:1
-6s:1
+Nemzeti Adatv6delmi 6s:1
 Informici6szabadsd:1
+g:1
 Hatdsig:1
-2015)).:1
+(CJEU:1
+October 2015:1
 presence:1
-can,:1
+only one:1
+a  Member State:1
 cir-:1
-cumstances,:1
+cumstances:1
 trigger:1
-applicability:1
-State's:1
-legislation,:1
+the  applicability:1
+national  data  protection  legislation:1
 acts:1
-degree:1
+a  sufficient degree:1
 stability:1
-provision:1
-question;:1
-extensive:1
+the provision:1
+the
+services:1
+extensive
+case comment:1
 Cole:1
-Giurgiu,:1
-'The:1
-'Minimal':1
-Approach::1
-Concept:1
-'Establishment':1
+ Giurgiu:1
+The  'Minimal'  :1
+Approach:1
+the Concept:1
+'Establishment:1
 Triggering:1
 Jurisdiction:1
 DPAs:1
 Limitations:1
 Sanctioning:1
-Powers':1
-310.:1
-18:1
+Powers:1
+310:1
+18  :1
 8/2010:1
+16 December:1
 2010:1
 8/2014:1
 Recent:1
 Developments:1
-Things,:1
+Things:1
 applying:1
-term:1
-'equipment'.:1
-2):1
-5).:1
-fact,:1
-US,:1
-cessing,:1
-'equipment':1
+a very  broad
+definition:1
+the term:1
+ 'equipment:1
+ social media  service:1
+A critical  analysis:1
+Facebook's  Revised  Policies and
+:1
+ version:1
+1.3:1
+fact:1
+the  US:1
+
+Facebook Inc.:1
+the purpose:1
+data pro-:1
+'equipment:1
+the  computers:1
 stored:1
-):1
 lo-:1
 cated:1
-territory.:1
-12.:1
-current:1
-regime,:1
+the  Belgian  territory:1
+the  current  EU  data protection regime:1
 perfectly:1
+a company:1
+es-:1
+
 tablishments:1
-"equipment":1
-regulatory:1
-powers:1
-authorities.:1
+several  Member  States:1
+a
+company:1
+no  EU  establishment:1
+uses:1
+
+"equipment:1
+Member  States:1
+the  regulatory  powers:1
+several  national  data  protection  authorities:1
+latter:1
 offer:1
-level:1
-protection,:1
-Directive.:1
-International:1
-groups:1
+the  same  level:1
+ protection:1
+the same EU  Directive:1
+International  groups:1
 advised:1
+the necessary  measures:1
 meets:1
+the  obligations:1
 imposed:1
-legisla-:1
-tion.:1
+ national  data  protection  legisla-
+tion:1
 aim:1
 proposed:1
 General:1
+ Data Protection:1
 Regulation:1
-(GDPR):1
 accommodate:1
-un-:1
+this  legal  un-
 certainty:1
 creating:1
+a single  EU  data protection:1
 harmonising:1
-stronger:1
-cross-border:1
-cooperation.:1
+its national application:1
+stronger
+cross-border  cooperation:1
 ongoing:1
-'one-stop:1
-shop':1
+debate:1
+the  'one-stop  shop' mechanism:1
 ticularly:1
-multinational:1
+large  multinational  companies:1
+like:1
+such  mechanism:1
 enables:1
 deal:1
+only  one  data protection:1
 authority:1
 simplify:1
-risk:1
-assessments.:1
+their non-compliance  risk assessments:1
 Reasoning:1
 Applies:1
-13.:1
-proceed-:1
-ings,:1
-initiated):1
-principles:1
+present:1
+ interim proceed-
+ings:1
+the
+tracking:1
+the procedure:1
+initiated:1
+the
+Privacy Commission:1
+our  view:1
+the  same  principles:1
+Even:1
 subscribed:1
-service,:1
+ service:1
 easy:1
-opt-in:1
-met.":1
-298:1
+the  conditions  for  a
+valid opt-in consent:1
+First, data sub-:1
 jects:1
-'real:1
-choice'.:1
-dominant:1
-position:1
-market:1
-choices:1
-limited,:1
+a 'real  choice:1
+Both  Facebook's
+dominant  position:1
+the social network:1
+ market:1
+ choices:1
+
 mine:1
-element:1
-'free:1
-choice',:1
+the  element:1
+free  choice:1
 essential:1
-need.:1
-'specific':1
-mercial:1
-profiling:1
-(users':1
-gen-:1
-eral:1
+the  consent:1
+need:1
+no
+'specific'  consent:1
+Facebook's  com-
+mercial profiling activities:1
+(users' consent:1
+the gen-:1
+eral  terms:1
+rather:1
 vague:1
-gener:1
+gener
 ally:1
-worded).:1
-Thirdly,:1
+worded:1
+Thirdly:1
+the  present  case:1
 subjects:1
 received:1
 insuf:1
 ficient:1
+ information:1
 give:1
-'informed':1
-settings:1
+their 'informed'  consent:1
+, settings:1
 preconfigured:1
+way:1
+
+personal  data:1
 unnecessarily:1
-disclosed,:1
+disclosed:1
+the
+user:1
 consented:1
-'opt-out':1
-proach),:1
+an  'opt-out:1
+proach:1
 arguably:1
 satisfy:1
-requirement:1
-'unambiguous':1
+the  requirement:1
+
+'unambiguous'  consent:1
+The  Privacy  Commission
+:1
 pointed:1
-book's:1
-excessive,:1
+Face-:1
+book:1
+Facebook
+users:1
 Companies:1
 Careful:1
+Using:1
 Social:1
 Plug-Ins:1
 Company:1
 Websites:1
-14.:1
+Many  website owners:1
 realise:1
-moment:1
-(allow-:1
-website's:1
-visitors,:1
-others,:1
-share:1
+the  moment:1
+allow-:1
+their  website's  visitors:1
+among:1
+others:1
+ share:1
+
 content:1
+their  social network:1
 posting:1
 reac-:1
-'liking':1
-article):1
+tion:1
+liking:1
+an  article:1
 collect:1
-addresses,:1
-legislation.:1
+ IP  addresses:1
+the  application:1
+European  data
+protection  legislation:1
+its formal recommendation:1
+the
+Belgian  Privacy  Commission:1
 warned:1
+
+website owners:1
 webmasters:1
+Facebook's
+social  plug-ins:1
+their  legal  obligation:1
 properly:1
 inform:1
 visitors:1
-using,:1
-collecting,:1
-informa-:1
-used,:1
-length:1
+their websites:1
+the types:1
+cook-:1
+the information:1
+collecting:1
+the purposes:1
+this  informa-
+tion:1
+the  length:1
 storage:1
+the  cook-
 ie/plug-in:1
-computer/device.:1
-(in-:1
+the Internet users' computer/device:1
+
+addition:1
+most types:1
+in-:1
 cluding:1
-plug-ins),:1
-ob-:1
-tain:1
-activated.:1
-generic:1
+Facebook plug-ins:1
+owners:1
+ob-
+tain Internet users  prior express  consent:1
+activated:1
+The  implementation:1
+a generic ban-:1
 room:1
 ambiguity:1
-intentions,:1
+In-:1
+ternet:1
+actual:1
+intentions:1
+ es-
 cape:1
-liability:1
-ECA.:1
-IV.:1
+ liability:1
+IV:1
 Outlook:1
-15.:1
-Previously,:1
+Previously:1
 stay:1
-background.:1
-er:1
+the background:1
+now  howev-:1
 bring:1
-proceedings:1
-giant:1
+court  proceedings:1
+ giant:1
+Commis-:1
+sion:1
 decision:1
 pursue:1
 one-:1
-showcase:1
-initiative,:1
+showcase  initiative:1
 prompted:1
-specific:1
-na-:1
+the  specific  na-:1
+
 ture:1
-infringer:1
+the alleged  infringer:1
+its  activities:1
 beginning:1
-era:1
-active:1
-enforcement.:1
-0:1
+a new  era:1
+active  enforcement:1
+2 0  :1
 largely:1
 depend:1
-government's:1
+government:1
 fur:1
-ther:1
-commitments:1
+ther commitments:1
 budget:1
 human:1
 sources:1
-compliance,:1
 monitoring:1
 prosecution:1
 purpos-:1
-es.:1
-event,:1
+any  event:1
+judgment:1
 simi-:1
-lar:1
+lar cases:1
+other EU  Member States:1
 showing:1
-trend:1
+a trend:1
+become:1
 marked:1
+the
 adoption:1
-GDPR:1
-increase:1
+the increase:1
 sanctions:1
-non-compliance),:1
+ companies:1
 ad-:1
 vised:1
+thoroughly:1
 review:1
-pliance:1
-status.:1
+their data protection:1
+
+pliance  status:1
+20:1
+any  case:1
+soon:1
 confronted:1
-again,:1
 Max:1
 Schrems:1
-Irish,:1
+the Irish:1
+ German  data  protection:1
+
+ties:1
 investigate:1
-transfers:1
-invalidation:1
-EU-US:1
-Safe:1
-Harbour:1
-framework.:1
+Facebook's  data transfers:1
+the  invalidation:1
+the  EU-US:1
+Safe  Harbour  framework:1
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:37
-consent:8
-privacy:5
+Privacy:8
+consent:3
+privacy:2

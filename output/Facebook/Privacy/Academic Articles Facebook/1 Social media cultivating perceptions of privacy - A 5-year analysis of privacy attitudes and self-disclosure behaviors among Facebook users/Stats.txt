@@ -1,1471 +1,1562 @@
 
 Academic Articles Facebook/1 Social media cultivating perceptions of privacy - A 5-year analysis of privacy attitudes and self-disclosure behaviors among Facebook users
 
-Total number of tokens: 9094
-Size of Lexicon: 2685
-
-With stop word removal 
-Size of original corpus: 9094 
-Size of filtered corpus: 2497
+Total number of tokens: 4719
+Size of Lexicon: 2548
 
 Tokens that appear in the file, alongside with their frequencies:
-privacy:163
-=:113
+p:77
 <:76
-online:69
-Facebook:62
-self-disclosure:50
-information:49
-social:47
-threat:47
-personal:46
-users:44
-disclosure:43
-β:40
-perceptions:37
-media:33
-privacy,:29
-attitudes:28
-support:28
-offline:28
-general:27
-governmental:26
-.05;:26
-al.,:25
-significant:25
-light:24
-2010:24
-research:24
-heavy:23
-al.:22
-SNSs:22
-.05:22
-behaviors:20
-Year:20
-&:18
-(β:17
-analysis:16
-exchange:16
-effects:16
-SD:16
-×:16
-study:15
-impact:15
-protection:15
-cultivation:14
-SNS:14
-Threat:14
-relationships:13
-Research:13
-data:13
-common:13
-privacy.:13
-.01;:13
-Tsay-Vogel:12
-Privacy:12
-years:12
+=:67
+.05:66
+privacy:45
+SNSs:35
+Facebook:34
+2015:31
+self-disclosure:30
+.01:29
+2010:28
+2012:26
+et al:25
+β:23
+users:22
+threat:22
+2011:22
+support:21
+2013:21
+general privacy:20
+privacy perceptions:19
+may:18
+online privacy:17
+online:17
+Facebook use:15
+governmental privacy protection:15
+2014:15
+use:14
+disclosure:14
+year:14
+’s:14
+SD:14
+among:13
 time:12
-Figure:12
+2009:12
+associated:12
+information:12
 .06:12
-Social:11
+new media:11
 society:11
-20(1):11
-2015.:11
-risk:11
-users,:11
-concerns:11
-self-disclosure.:11
-patterns:11
-Therefore,:11
-pri-:11
-virtual:10
-trends:10
-negative:10
-theory:10
-context:10
-greater:10
-perceptions,:10
-vacy:10
-differ:10
-Table:10
-In::10
-Journal:10
-Communication:10
-5-year:9
-However,:9
-longitudinal:9
-perceived:9
-Specifically,:9
-risks:9
-environment:9
-people:9
-year:9
-interaction:9
-F(5,:9
-case:9
-role:8
-increased:8
-television:8
-reality:8
-users’:8
-2015).:8
+20(1:11
+across:11
+personal information:11
+attitudes:11
+Therefore:11
+Figure:11
+Research:10
+between 2010 and 2015:10
+significant:10
+Threat:10
+offline:9
+However:9
+toward:9
+others:9
+1996:9
+2:9
+F(5:9
+within:9
+light:8
+self:8
+2007:8
+impact:8
+perceptions:8
 include:8
-(2010::8
-2011::8
-2012::8
-2013::8
-2014::8
-2015::8
-2012:8
-2013:8
+online disclosure:8
+.001:8
 means:8
-lower:8
-subscript:8
-network:8
-Media:8
-privacy::7
-networking:7
-practices:7
-SNSs,:7
-perspective:7
-information.:7
-1:7
-exposure:7
-weaker:7
-2015:7
+common differ:8
+risk perceptions:7
+light users:7
+see:7
+television:7
+
+
+Tsay-Vogel:7
+research:7
+2002:7
 revealed:7
-self-:7
-Trends:7
-trend:7
-items:7
-(1996):7
-Support:7
-Online:7
-.05.:7
+using:7
+1:7
 yielded:7
-difference:7
-interaction.:7
-SE:7
-pp.:7
-Behavior:7
-relaxed:6
-world:6
-factors:6
-(e.g.:6
-potential:6
-recent:6
-years,:6
+Table:7
+became:7
+our study:7
+pp:7
+perceived:6
+2006:6
+less:6
+theory:6
+heavy:6
 found:6
 share:6
 related:6
 potentially:6
-specifically:6
-(a):6
-(b):6
-individuals:6
-protection,:6
-(2009):6
-5:6
-standard:6
-(see:6
-−.14,:6
-2011:6
-.01):6
-Moreover,:6
-predictor:6
-consumption:6
-(2015):6
-Human:6
-Shanahan:5
-University:5
-period:5
-users.:5
-time.:5
-self-disclosure,:5
-one’s:5
-implications:5
-similar:5
-conceptions:5
-mediated:5
-threats:5
-communication:5
+social media:6
+become:6
+disclose:6
+could:6
+Trends:6
+possible:6
+Support:6
+vacy:6
+Using:6
+× Year interaction:6
+Moreover:6
+Computers:6
+increased:5
+heavy users:5
+boyd:5
+relationships:5
+behaviors:5
+cultivation:5
 suggest:5
-cues:5
-message:5
-content:5
-notion:5
-tion:5
-SNSs.:5
+people:5
+Vitak:5
+Although:5
 freely:5
-(c):5
-protection.:5
-domains:5
-per-:5
-years.:5
-frame:5
-levels:5
-variables:5
+individuals:5
+concerns:5
 address:5
-average:5
-individuals’:5
-(Cronbach’s:5
+personal:5
+(Cronbach:5
 α:5
-2014:5
-Holm’s:5
-sequential:5
-Bonferroni:5
-post:5
-hoc:5
-comparisons,:5
-rows,:5
-disclosure.:5
-2:5
-change:5
-.05).:5
-important:5
-future:5
-trust:5
-(2010):5
-Press.:5
-at::5
-Computers:5
-Signorielli:4
-omnipresence:4
-global:4
-socializing:4
-attitudes,:4
-Furthermore,:4
-year-to-year:4
-Facebook,:4
-profiles:4
-2010).:4
-questions:4
-shared:4
-concerns.:4
-serve:4
-themes:4
-meaningful:4
-offer:4
-2012).:4
-researchers:4
-relational:4
-benefits:4
-practices.:4
-activities:4
-idea:4
-2002).:4
-ing:4
-employed:4
-Debatin:4
-Vitak:4
-due:4
-Hence,:4
-identity:4
-sonal:4
-nature:4
-2015?:4
-number:4
-hours:4
-day:4
-variance:4
-Smith:4
-following::4
-public:4
-Internet:4
-disclose:4
-rate:4
-perception:4
-−.20,:4
-−.18,:4
-Likewise,:4
-2783):4
-higher:4
-positive:4
-linear:4
-earlier:4
-increase:4
-boyd:4
-(2013):4
-Center:4
-Facebook.:4
-York::4
-(2007):4
-sites::4
+offline disclosure:5
+Holm’s sequential Bonferroni post hoc comparisons:5
+rows:5
+no lower case subscript:5
+consider:5
+Available:5
+USA:4
+Furthermore:4
+the impact:4
 Ellison:4
-(2011):4
-(eds):4
+Specifically:4
+security:4
+privacy concerns:4
+reality:4
+Given:4
+serve:4
+self-disclosure behaviors:4
+offer:4
+ users:4
+mediated:4
+Whereas:4
+employed:4
+personal data:4
+protection:4
+(b) threat:4
+(c) support:4
+1975:4
+due:4
+Hence:4
+this study:4
+the time frame:4
+us:4
+online  privacy:4
+personal 
+information:4
+= −.20:4
+β = −.14:4
+Year:4
+2783:4
+indicated:4
+Facebook Use:4
+4:4
+The analysis:4
+× Year:4
+change:4
+light and heavy users:4
+whereas:4
+Use:4
+a  weaker  negative  predictor:4
+privacy safeguards:4
+important:4
+trust:4
+Marwick:4
 cultivating:3
-Mina:3
-Boston:3
-University,:3
-USA:3
-James:3
+
+behaviors:3
+Facebook users:3
+2016:3
+Signorielli:3
+personal information exchange:3
+the effects:3
 subsequently:3
-increasing:3
-relationship:3
-application:3
-Department:3
-Mass:3
-Boston,:3
-2007),:3
-(Nosko:3
-sharing:3
+changes:3
+privacy attitudes:3
+Boston:3
+social networking sites:3
+Nosko:3
 reveal:3
-shows:3
-(Acquisti:3
-Gross,:3
-revelation:3
-theme:3
-boundary:3
+Acquisti:3
+Gross:3
+shared:3
+implications:3
+perhaps:3
 regulated:3
+This study:3
+a cultivation perspective:3
 examine:3
-behaviors.:3
+self-disclosure  behaviors:3
+the  context:3
 suggests:3
-storytelling:3
-viewers:3
+1994:3
+likely:3
 perceive:3
-ways:3
-(Morgan:3
-long-term:3
-active:3
-relevant:3
+particularly:3
+self-expression:3
+greater self-disclosure:3
 test:3
 assess:3
-use,:3
+these trends:3
 contributes:3
-understanding:3
-usage:3
-(Derlega:3
+recent years:3
+Derlega:3
 order:3
-computer-mediated:3
-2009),:3
-CMC:3
-interactions,:3
-prolonged:3
+commonly:3
+FTF:3
 cultivate:3
-symbolic:3
-boundaries:3
-points:3
+social:3
+media:3
+the notion:3
 issues:3
-attention:3
 informed:3
-people’s:3
+occurs:3
+beliefs:3
+their privacy:3
 largely:3
-decreased:3
-particular,:3
-based:3
-process:3
-strategies:3
-work:3
+H1:3
+specifically:3
+1977:3
+ing:3
 predict:3
-words,:3
+other words:3
 suggesting:3
-domains.:3
 compared:3
-psychological:3
-interpersonal:3
-adults:3
-age:3
+Privacy perceptions:3
+online 
+privacy:3
+H3:3
+online self-disclosure:3
+this research:3
+point:3
+the disclosure:3
+although:3
 aware:3
-safeguards:3
 reporting:3
-high:3
-behaviors,:3
-previous:3
+the nature:3
+the relationships:3
 proposed:3
 examining:3
+self-disclosure practices:3
 Participants:3
-design:3
-questionnaire:3
-use.:3
-al.’s:3
-procedures:3
-participants:3
+standard deviation:3
 asked:3
-measure:3
 reported:3
-statistically:3
 7:3
-attitude:3
+strongly:3
 adapted:3
 pertaining:3
-scale:3
-online,:3
-access:3
-unauthorized:3
-Offline:3
-FTF:3
-extent:3
-.31,:3
+reverse:3
+coded:3
+following:3
+Internet:3
+governmental  privacy  protection:3
+.31:3
+RMSEA:3
 determine:3
-vacy,:3
-.001),:3
-.01),:3
-−.16,:3
-.05):3
+online pri-:3
+β = −.18:3
 mediating:3
-−.19,:3
-indirect:3
-paths:3
+variance:3
 showed:3
-differences:3
+3:3
+emerged:3
 changed:3
-median:3
+Facebook 
+use:3
 Light:3
-Heavy:3
-SE::3
-error.:3
-columns,:3
-upper:3
-.01:3
+standard error:3
+columns:3
+no upper case subscript:3
+the years:3
 illustrates:3
-effect,:3
-2709):3
-.01,:3
+2709:3
 ηp:3
-Yet,:3
-significant,:3
-onward.:3
-−.02,:3
-−.13,:3
+Yet:3
+onward:3
 supports:3
-results:3
+These results:3
 highly:3
+ privacy:3
+thus:3
 generally:3
-security:3
+First:3
+SNS:3
+alternatively:3
+2003:3
 explain:3
-knowledge:3
 show:3
-Marwick:3
+the way:3
+pri-:3
 Pew:3
-study.:3
-sites.:3
+Center:3
+Cambridge:3
 Proceedings:3
-conference:3
-systems,:3
-MA::3
-NB:3
-(2012):3
-Technology:3
-J,:3
+New York:3
+(eds:3
 Theory:3
-Research.:3
-Morgan:3
-M,:3
-Society:3
-vs.:3
-(2002):3
-(accessed:3
-interests:3
-effects,:3
-Indiana:2
-Nancy:2
-world,:2
-level:2
-contexts.:2
+Shanahan J:3
+Human Behavior:3
+Morgan M:3
+accessed:3
+media effects:3
+privacy 
+attitudes:2
+161:2
+James Shanahan:2
+Indiana University:2
+the omnipresence:2
+the virtual world:2
+5-year:2
+period:2
+more relaxed privacy attitudes:2
+increasing:2
 remained:2
 stable:2
 weakened:2
-Communication,:2
-Advertising:2
-Public:2
-today’s:2
-digital:2
-vir-:2
-tual:2
-influx:2
-sites:2
-networks:2
-(boyd:2
-Ellison,:2
-maintenance:2
-photos:2
-(Fogel:2
-Nehmad,:2
-2009).:2
-security,:2
-pervasive:2
+Mina Tsay-Vogel:2
+Boston University:2
+sharing:2
+Fogel:2
+Nehmad:2
+shows:2
+factors:2
+transparency:2
 leading:2
 uniquely:2
 applies:2
+
+privacy:2
+1969:2
+storytelling:2
 elements:2
-programs:2
+television programs:2
 cultivates:2
-(Gerbner:2
-1994).:2
-television.:2
-theoretical:2
-assumptions:2
-cultivation,:2
+conceptions:2
+ways:2
+socializing:2
 inundated:2
-con-:2
-estimated:2
-self-expression.:2
-(2016):2
+
+SNSs:2
+users’ attitudes:2
+uses:2
 investigate:2
-turn,:2
 collected:2
-(i.e.:2
-gov-:2
-behavioral:2
-SNSs::2
+online  self-disclosure:2
+social media use:2
+information exchange:2
 makes:2
+1987:2
 features:2
-(Nguyen:2
-non-verbal:2
-contact:2
-certainty:2
-commonly:2
-interactions:2
+Nguyen:2
+available:2
+computer:2
+communication:2
+High:2
+Caplan:2
 compensate:2
-absence:2
-2011).:2
+Gibbs:2
+social interactions:2
+long:2
+term:2
 account:2
 reasonable:2
-Cultivation:2
-link:2
-perceptions.:2
-heavier:2
-tendency:2
+prolonged:2
+disclosure practices:2
 showing:2
-evidence:2
+ perceptions:2
 crime:2
-gender:2
-2011),:2
-collective:2
+1999:2
+1992:2
+science:2
+Shrum:2
+1998:2
+a collective symbolic environment:2
 conveying:2
-visible:2
-user:2
+turn:2
 consistently:2
 exposed:2
-cumulative:2
-domain:2
-media.:2
-extensive:2
-barriers:2
-minimal:2
-2006;:2
-Davis:2
+outside:2
+points:2
+the  idea:2
+privacy settings:2
+Debatin:2
 taking:2
-occurs:2
-environment,:2
-culti-:2
-beliefs:2
-vein,:2
+engage:2
+a similar vein:2
 safeguarding:2
-desire:2
-1996).:2
+decreased:2
 predicting:2
-association:2
+driven:2
+particular:2
+privacy  attitudes:2
 explained:2
-control:2
-mechanisms:2
-Petronio,:2
+Petronio:2
 Disclosure:2
-regulation:2
-Chaikin,:2
-safety,:2
-Recent:2
-(Fishbein:2
-Ajzen,:2
-1975):2
-attitude–behavior:2
+knowledge:2
+self-:2
+Chaikin:2
+risk:2
+Stutzman et al:2
+Ajzen:2
+the attitude:2
+behavior link:2
 Applying:2
-TRA:2
-views:2
-stronger:2
-reduced:2
+might:2
 enrich:2
-disclosures:2
-(Walther,:2
-frequent:2
-rich:2
-(Lampe:2
-hypotheses:2
+2008:2
+context:2
+Lampe:2
+H2:2
+specifically (a) threat:2
 negatively:2
 associ-:2
 ated:2
-consideration:2
-18:2
-(Pew:2
-Center,:2
-dissemination:2
-large:2
-quantities:2
-body:2
-hand,:2
-scholars:2
-point:2
-theft,:2
-harassment,:2
-bullying,:2
-rumors:2
+online adults:2
+age:2
+the  trends:2
+
+self-disclosure behaviors:2
+the virtual 
+environment:2
+identity theft:2
 gossip:2
 report:2
-risks,:2
-familiarity:2
-diversification:2
-media,:2
+privacy risks:2
+Debatin et al:2
+previous:2
+5 years:2
+the following research questions:2
+RQ1:2
+significant changes:2
+governmental privacy 
+protection:2
+RQ2:2
 growing:2
 relied:2
-current:2
 offers:2
-comprehensive:2
-SNSs’:2
+disclosure behaviors:2
+these variables:2
 forecast:2
-questions.:2
-samples:2
-differ-:2
-respondents:2
-population:2
-students:2
-racial:2
-composition:2
-sample:2
+RQ3:2
+ general  privacy:2
+(b:2
+differ:2
+the three hypotheses:2
+captured:2
+the sample:2
 measuring:2
-respondents’:2
-Shrum:2
-(1998):2
-weekday:2
-weekend:2
-factor:2
+
+participants:2
+the number:2
+a factor:2
+hours:2
+day:2
+the 5-year period:2
+an analysis:2
+ year:2
 assessed:2
-7-point:2
-Likert:2
-scales:2
 ranging:2
-(strongly:2
-measures:2
-Stone:2
-(1983):2
+
+threat:2
+used:2
+1983:2
 tapped:2
-caution:2
+risks:2
 People:2
 cautious:2
+The idea:2
 pay:2
-concern:2
+less attention:2
+0.75:2
+measure:2
+scale:2
+Smith:2
+0.70:2
+Three  items:2
+ personal  information:2
 make:2
-types:2
-(reverse-coded),:2
-1.:2
-χ2(6):2
-5.15,:2
-1.0,:2
-comparative:2
-fit:2
-root:2
-square:2
-error:2
-hypotheses,:2
-respectively.:2
-−.28,:2
-−.21,:2
+0.90:2
+much:2
+Offline self-disclosure:2
+my personal information:2
+the Internet:2
+5.15:2
+CFI:2
+1.0:2
+root mean square error:2
+approximation:2
+per-:2
+respectively:2
+, threat:2
+β = −.21:2
 asso-:2
 ciated:2
-−.26,:2
-.001;:2
-−.12,:2
-intervals:2
+β = −.12:2
+= −.19:2
+governmental:2
 0.87:2
 0.81:2
 4.78ab:2
 0.80:2
 0.79:2
 4.76ab:2
-0.78:2
 0.68:2
 0.82:2
 0.72:2
-0.71:2
-SD::2
-deviation.:2
-2.:2
-−.27,:2
-one-way:2
-Post-hoc:2
-comparisons:2
-significantly:2
+β = −.27:2
+a one-way analysis:2
+Specifically, threat:2
+Post-hoc comparisons:2
+
+disclosure:2
 0.74:2
-3.:2
-3).:2
-.001,:2
 steadily:2
-series:2
-6:2
+no significant difference:2
+Changes:2
 analyses:2
-period.:2
-hours/day:2
+the median hours/day:2
 categorized:2
-4.:2
-interest:2
-effects.:2
+Heavy
+
+ 
+
+M
+SE
+M
+SE:2
 interac-:2
-2011,:2
+a significant positive linear trend:2
+the earlier years of 2010:2
+the difference:2
 .04:2
-5.:2
-2012,:2
-protection::2
-multiple:2
-General:2
-−.32,:2
-Similar:2
-emerged:2
-−.10,:2
-−.03,:2
-Governmental:2
-Protection:2
+5:2
+6:2
+a significant Threat:2
+General Privacy × Year 
+interaction:2
+progressed:2
+
+tion:2
+β = −.03:2
+Likewise:2
+β = −.02:2
+online  disclosure:2
+interaction:2
+expected:2
+routinized:2
 learn:2
-existing:2
-level,:2
-finding:2
-noticeable:2
-trends.:2
-First,:2
-formation:2
-data.:2
-outcomes:2
-opportunities:2
-invasion:2
-computer:2
+light and heavy Facebook users:2
+the global level:2
+general and online privacy:2
+This finding:2
+light consumption:2
+higher levels:2
+anxiety:2
+Hinduja:2
+Patchin:2
+hacking:2
+common:2
+years:2
 sensitivity:2
-Bureau:2
-Second,:2
-convergence:2
-alternatively:2
+data:2
+awareness:2
 adopt:2
-(Rogers,:2
-adopters:2
-technology,:2
-skills:2
-platform,:2
-initial:2
-study,:2
+(Rogers:2
+meaning:2
 limited:2
-site:2
-acquisition:2
+active:2
+future research:2
+certainly:2
+better:2
 naturally:2
-faster:2
-duration:2
 contributed:2
 explaining:2
 main-:2
-example,:2
-Stutzman:2
-risk.:2
-Alternatively,:2
-findings:2
-disclosures.:2
-Baym:2
-identities:2
-decline:2
-past:2
-2014.:2
-Additionally,:2
-gratifications:2
-research,:2
+example:2
+Lin:2
+2005:2
+the role:2
+need:2
+Alternatively:2
+the use:2
+profiles:2
+help:2
+Additionally:2
+patterns:2
 received:2
-college:2
-external:2
-job:2
-audience:2
-actual:2
-effect:2
-Gross:2
-(2006):2
-communities::2
-Cambridge,:2
-(1975):2
-communication.:2
-(ed.):2
-SIGCHI:2
-human:2
-computing:2
-MA,:2
-networked:2
-Digital:2
-Press,:2
-Computer-Mediated:2
-38(1)::2
-Derlega:2
-VJ:2
-A,:2
-C,:2
-Gerbner:2
-cultural:2
-Review:2
-G,:2
-Lyon:2
-Zureik:2
-Surveillance,:2
-Cultural:2
-http://www.pewinternet.:2
-young:2
-27::2
-SJ:2
-Information:2
-E,:2
-Applied:2
-Psychology:2
-International:2
-S,:2
-professor:2
-University.:2
-2018,:1
-Vol.:1
+future:2
+SNS users:2
+SNS use:2
+social network sites:2
+human factors:2
+computing systems:2
+38(1:2
+Derlega VJ:2
+Privacy:2
+Gerbner G:2
+NB:2
+comes:2
+Social:2
+Lyon D:2
+Surveillance:2
+http://www.pewinternet:2
+27:2
+Her research interests:2
+Social media:1
+
+perceptions:1
+A 5-year analysis:1
+2018:1
+Vol:1
 141:1
-–161:1
-©:1
-Author(s):1
-2016:1
+© The Author(s:1
 Reprints:1
-permissions::1
+permissions:1
 sagepub.co.uk/journalsPermissions.nav:1
-DOI::1
 10.1177/1461444816660731:1
 https://doi.org/10.1177/1461444816660731:1
 journals.sagepub.com/home/nms:1
-660731:1
-NMS0010.1177/1461444816660731new:1
-societyTsay-Vogel:1
-research-article2016:1
+660731 NMS0010.1177/1461444816660731new media &:1
+societyTsay-Vogel et al:1
+
+
+research-article2016
+
 Article:1
-Delaware,:1
+Mina Tsay-Vogel
+Boston University:1
+Nancy:1
+University:1
+Delaware:1
 Abstract:1
+this 
+study:1
 examines:1
 Findings:1
+global:1
+level:1
+the socializing role:1
+online  contexts:1
+
+longitudinal trends:1
+indicate:1
+the negative relationship:1
+privacy 
+concerns:1
 Implications:1
-contemporary:1
-discussed.:1
-Keywords:1
-Cultivation,:1
-author::1
-Tsay-Vogel,:1
-Relations,:1
-640:1
-Commonwealth:1
-Avenue,:1
-MA:1
-02215,:1
-USA.:1
-Email::1
+the application:1
+
+cultivation theory:1
+a contemporary social media context:1
+discussed:1
+Keywords
+Cultivation:1
+social networking:1
+Corresponding author:1
+Department of Mass Communication, Advertising & Public Relations:1
+640 Commonwealth Avenue:1
+MA 02215:1
+Email:1
 minatv@bu.edu:1
 142:1
+today:1
 rapidly:1
 evolving:1
-age,:1
-ubiquitous.:1
-(SNSs):1
+digital age:1
+the exchange:1
+the vir-:1
+tual world:1
+ubiquitous:1
+the influx:1
 encourage:1
 create:1
-close:1
-distant:1
+personal profiles:1
+networks:1
+close and distant others:1
+seems:1
 essential:1
-develop-:1
+the develop-
 ment:1
+maintenance:1
 updating:1
-pro-:1
-file:1
-information,:1
+pro-
+file information:1
 posting:1
 status:1
-updates,:1
-videos,:1
+updates:1
+photos:1
+videos:1
 commenting:1
-others’:1
-posts—to:1
-few—are:1
+
+others’ posts:1
 aspects:1
-iden-:1
-tity.:1
+personal iden-
+tity:1
 escalating:1
+ personal  exchange:1
 raises:1
+ questions:1
+
+privacy risks:1
 consequences:1
-transparency:1
-2006).:1
+online disclosure 
+practices:1
+the pervasive revelation:1
+the theme:1
+
+self-disclosure:1
 distinctly:1
 prevalent:1
-landscape.:1
+the social media landscape:1
 immersed:1
-names,:1
-addresses,:1
-opinions,:1
-values):1
+a 
+virtual environment:1
+e.g. names:1
+addresses:1
+opinions:1
+
+values:1
 easily:1
-man-:1
-agement,:1
+more relaxed privacy boundary man-
+agement:1
+the world:1
 Initially:1
 established:1
-(Gerbner,:1
-1969),:1
+Gerbner:1
 viewing:1
+similar 
 messages:1
+
+reality:1
+(Gerbner et al:1
+heavy viewers:1
+the 
+world:1
 closely:1
 mirror:1
 portrayed:1
+the theoretical 
+assumptions:1
 agents:1
-2015),:1
+Morgan:1
 representing:1
-traditional:1
-temporary:1
+a mediated reality:1
+This application:1
+a traditional media effects:1
+a con-
+temporary context:1
 provide:1
-invaluable:1
-insight:1
-Facebook’s:1
-immense:1
-popularity:1
+invaluable insight:1
+the potential long-term effects:1
+estimated risks:1
+immense popularity:1
 draws:1
-billion:1
-repetitive:1
-relationships,:1
-ernmental:1
-protection),:1
+more than 1 billion active users:1
+this 
+research:1
+a relevant SNS context:1
+whether exposure:1
+repetitive 
+themes:1
+weaker perceived threats:1
+
+turn:1
+these relationships:1
+longitudinal data:1
+a 
+5-year period:1
+trends:1
+privacy 
+perceptions:1
+i.e.:1
+gov-:1
+ernmental  privacy  protection:1
 Examination:1
-cognitive:1
+our understanding:1
+the cognitive and behavioral 
+effects:1
 identifies:1
-future.:1
+meaningful patterns:1
+SNS usage:1
+the future:1
 Omnipresence:1
-Self-disclosure:1
+a cultivation 
+perspective:1
+Self:1
 refers:1
-behavior:1
+communication  behavior:1
 individual:1
 consciously:1
-Berg,:1
-1987).:1
+known:1
+Berg:1
+many 
 tools:1
 default:1
 foster:1
 143:1
-fact,:1
-capital:1
+fact:1
+social capital researchers:1
+must:1
+willing:1
 fully:1
 experience:1
-(Vitak,:1
-eye:1
-physical:1
-proximity):1
-indicators:1
-confidence):1
-face-to-face:1
-(FTF):1
-non-existent:1
-(CMC):1
-(High:1
-Caplan,:1
-depth:1
+the relational benefits:1
+social media 
+use:1
+the non-verbal cues:1
+e.g. eye contact:1
+physical proximity:1
+social cues:1
+e.g. indicators:1
+certainty:1
+confidence:1
+interactions:1
+existent:1
+(CMC:1
+greater depth:1
 breadth:1
 needed:1
-(Gibbs:1
+the absence:1
+these cues:1
+CMC researchers:1
 helps:1
 initiate:1
 facilitates:1
-richer:1
-contacts:1
+richer social contacts:1
 friendships:1
 Taking:1
-conventional:1
-hypothesized:1
+ exposure:1
+conventional  practices:1
+personal  information 
+exchange:1
+Cultivation:1
+a meaningful hypothesized link:1
+exposure:1
+common message themes:1
+social reality perceptions:1
+The theory:1
 postulates:1
 com-:1
-parable:1
-elements,:1
+parable storytelling elements:1
+that heavy exposure:1
 universal:1
 homogene-:1
-ous:1
-Consequently,:1
+ous themes:1
+similar conceptions:1
+viewers:1
+Gerbner et al:1
+Consequently:1
+heavier  viewers:1
+a  greater  tendency:1
+world:1
 parallel:1
 representations:1
 initially:1
 focused:1
-violence,:1
+television violence:1
+evidence:1
+heavy television exposure:1
 inflated:1
-(Shanahan:1
-Morgan,:1
-1999),:1
+Shanahan:1
+ Morgan:1
+ cultivation 
+effects:1
 documented:1
-areas:1
-roles:1
-(Signorielli:1
-Lears,:1
-1992),:1
-science:1
-(Dudo:1
+the areas:1
+gender roles:1
+Lears:1
+Dudo et al:1
 affluence:1
-(Shrum:1
-1998),:1
-others.:1
-studies:1
+cultivation studies:1
 traditionally:1
 concentrated:1
-system,:1
-stories:1
+the message 
+system:1
+the theory:1
+relevant:1
+shared stories:1
 values:1
+(Morgan et al:1
+the boundaries:1
+
+content:1
 expanded:1
+the activities:1
 wit-:1
 ness:1
-forums:1
+online forums:1
+these visible behaviors:1
 implicitly:1
 characteristic:1
-system.:1
-Persistent:1
-turn:1
-view.:1
-instance,:1
-forms:1
-prevailing:1
-reality,:1
-brings:1
-resides:1
-tangible:1
-features,:1
-theoretically:1
-observable:1
-part:1
 system:1
+Persistent  exposure:1
+such  user 
+behaviors:1
+one’s world view:1
+instance:1
+social media users:1
+mediated forms:1
+this prevailing theme:1
+
+personal  information  exchange:1
+a  cumulative  impact:1
+ social  reality:1
+
+particularly perceptions:1
+the domain:1
+The application:1
+brings:1
+content:1
+resides:1
+tangible  message  features:1
+theoretically:1
+ observable 
+activities:1
+an environment:1
+part:1
+the overall message system:1
 attributed:1
-newer:1
-deluge:1
+newer media:1
+a deluge:1
 generated:1
-(Spencer,:1
-precaution:1
+extensive attention:1
+(Spencer:1
+Privacy precaution:1
 attrib-:1
 uted:1
-technologies:1
+digital technologies:1
 breaking:1
-spatial:1
-distances,:1
-mak-:1
-permeable.:1
-platforms:1
+spatial distances:1
+thus mak-
+ing  communication  barriers:1
+permeable:1
+ platforms:1
+the revelation:1
 encouraged:1
-settings:1
-James,:1
-2012;:1
+minimal:1
+Davis:1
+James:1
+
+privacy boundaries:1
 progressively:1
-relaxed.:1
-predic-:1
-prevalence:1
-considerable:1
-amount:1
+relaxed:1
+This predic-
+tion:1
+considering:1
+the prevalence:1
+the considerable amount:1
 144:1
+the virtual environment:1
+culti-:1
 vating:1
-lenient:1
-result:1
-commonly,:1
-habitually,:1
-intention-:1
+more lenient privacy attitudes:1
+a result:1
+the visible omnipresence:1
+online self-disclosure activities:1
+habitually:1
+intention-
 ally:1
-engage.:1
-area:1
+the area:1
+information privacy:1
 focuses:1
-institutional:1
-(Lyon:1
-Zureik,:1
-inundation:1
-abun-:1
+
+people’s attitudes:1
+an institutional level:1
+threats:1
+the desire:1
+privacy protection:1
+Lyon:1
+Zureik:1
+the inundation:1
+the abun-
 dance:1
 publicly:1
 promote:1
+a 
 culture:1
-mitigated.:1
-hypothesis:1
-posited::1
-H1.:1
+mitigated:1
+the following hypothesis:1
+posited:1
+(a) 
+threat:1
+governmental 
+privacy protection:1
+Privacy attitudes:1
+second:1
 focus:1
-driven:1
+this  research:1
+the  association:1
+,  the  relationship:1
+self-disclosure 
+behaviors:1
+the  notion:1
 regulate:1
-(Altman,:1
-1975;:1
-core:1
-satisfaction:1
-attained,:1
+their 
+exchange:1
+based:1
+privacy control mechanisms:1
+Altman:1
+the core process:1
+relational satisfaction:1
+
+maintenance:1
+attained:1
 adjusted:1
 relation:1
-goals,:1
-knowledge.:1
-concept:1
+one’s 
+privacy attitudes:1
+goals:1
+The concept:1
+boundary regulation:1
 considers:1
 draw:1
+domains:1
 constructing:1
-dyadic:1
-1977).:1
-envi-:1
-ronmental:1
-assessments:1
-risk,:1
-transparency):1
+
+dyadic privacy strategies:1
+envi-
+ronmental assessments:1
+e.g.:1
+safety:1
 play:1
+a role:1
 shap-:1
-propensity:1
+the propensity:1
+Recent work:1
 corroborated:1
-pivotal:1
+the  pivotal  role:1
 guiding:1
-(Stutzman:1
-2011;:1
-2013).:1
-reasoned:1
-action:1
-(TRA):1
-explanation:1
-link,:1
+disclosure  behaviors:1
+reasoned action:1
+(TRA:1
+(Fishbein:1
+provides:1
+another explanation:1
 proposing:1
+behavioral 
 intention:1
-product:1
-beliefs.:1
-issue:1
+a product:1
+one’s relevant attitudes:1
+the assumptions:1
+the issue:1
 hold:1
-intentions:1
-self-disclose.:1
+more relaxed views:1
+stronger intentions:1
+reduced privacy risks:1
 lead:1
-opportunity:1
-space,:1
+greater information:1
+the opportunity:1
+their social interactions:1
+vir-:1
+
+tual  space:1
 supported:1
 overlap:1
-(Subrahmanyam:1
-2008).:1
+ offline  networks:1
+(Subrahmanyam et al:1
+many people:1
 rely:1
-communi-:1
-cation:1
+their online communi-:1
+cation  behaviors:1
 strengthen:1
-connections,:1
+their  offline  connections:1
+
+offline disclosures:1
+their relational benefits:1
 symbiotic:1
-nature.:1
+nature:1
+pri-
+vacy attitudes:1
+the potential:1
 synchronous:1
-asynchronous:1
+ asynchronous  domains:1
 processing:1
-(SIP):1
-1996):1
+SIP:1
+(Walther:1
 posits:1
-CMC,:1
+that self-disclosure:1
+frequent:1
+the CMC:1
 145:1
-FTF,:1
-compensation:1
+the compensation:1
 loss:1
-inconsistent:1
+cues:1
+a less media rich environment:1
+inconsistent evidence:1
 setting:1
 fosters:1
+psychological:1
 interrelationships:1
+
+offline interpersonal exchange:1
 expects:1
-similarly.:1
+online disclosure practices:1
+similarly:1
+the next 
 set:1
-drawn::1
-H2.:1
-H3::1
-direction:1
+hypotheses:1
+drawn:1
+offline self-disclosure:1
+The third direction:1
 takes:1
-element:1
+consideration:1
+the element:1
 successfully:1
 diffused:1
 society—74%:1
 71%:1
-heaviest:1
-29:1
+the heaviest users:1
+between 18 and 29 years:1
+(Pew  Research  Center:1
 2014)—what:1
-years?:1
+the dissemination:1
+large quantities:1
 elevated:1
-threats,:1
-mixed:1
-results.:1
-cyberstalking,:1
-unwarranted:1
-(Tavani:1
-Grodzinsky,:1
+body:1
+ privacy  threats:1
+ security:1
+regulation:1
+ mixed  results:1
+the  one 
+hand:1
+scholars:1
+the negative implications:1
+harassment:1
+cyberstalking:1
+bullying:1
+unwarranted rumors:1
+Tavani:1
+Grodzinsky:1
+the  other  hand:1
+little:1
 implement:1
+safeguards:1
 protect:1
-(Dwyer:1
-2007).:1
-settings,:1
+their per-
+sonal information:1
+Dwyer et al:1
+despite:1
+Facebook 
+users:1
+high familiarity:1
 readily:1
 accept:1
 acquaintances:1
 strangers:1
-“friends.”:1
-discrepant:1
+friends:1
+these discrepant patterns:1
 inquire:1
-posed::1
-RQ1.:1
-RQ2.:1
+posed:1
+the time 
+frame:1
+Considering:1
+the  diversification:1
+social  media:1
 accessibility:1
-mobile:1
-devices:1
-cell:1
-phones,:1
-tablets,:1
-watches),:1
-climate,:1
-(1):1
-H1:1
-(2):1
+
+mobile devices:1
+e.g. cell phones:1
+tablets:1
+watches:1
+increasing levels:1
+personal 
+information exchange:1
+today’s virtual climate:1
+(1) SNS use:1
 146:1
 frequency:1
-H2:1
-H3:1
 vary:1
-year.:1
-prior:1
-associations:1
+prior research:1
+these associations:1
 primarily:1
-cross-:1
-sectional:1
-data,:1
-media’s:1
-analy-:1
-sis:1
+cross-
+sectional data:1
+the current study:1
+a more comprehensive look:1
+social media’s 
+impact:1
+a longitudinal trend analy-:1
+
+sis across 5 years:1
+The potential interaction effects:1
 elucidate:1
+understanding:1
 perspectives:1
-practices,:1
+allow:1
 pat-:1
 terns:1
-upcoming:1
-addressed::1
-RQ3.:1
+the upcoming years:1
+addressed:1
 specifi-:1
 cally:1
-RQ4.:1
+(c:1
+RQ4:1
+(a) offline disclosure:1
 Method:1
 procedure:1
+a longitudinal design:1
+the 
+four research questions:1
+The design:1
+a trend study:1
 drew:1
-ent:1
-points.:1
-web-:1
+samples:1
+differ-
+ent respondents:1
+the same population:1
+different time points:1
+a web-
+based questionnaire:1
 administered:1
 annually:1
-March:1
+between March and:1
+May:1
+a 5-year 
+period:1
+2010 to 2015:1
 Data:1
-consecutive:1
-undergraduate:1
-equivalent:1
-introductory:1
-communica-:1
-classes:1
-universities:1
-northeast:1
-region:1
-United:1
-States.:1
-captured:1
+the same questionnaire:1
+the 
+consecutive years:1
+undergraduate students:1
+equivalent introductory communica-
+tion classes:1
+two large universities:1
+the northeast region:1
+the United States:1
+This  longitudinal  study:1
 total:1
 2789:1
-434;:1
-440;:1
-556;:1
-428;:1
-452;:1
-479).:1
+respondents:1
+434:1
+440:1
+556:1
+428:1
+452:1
+479:1
 ranged:1
-25:1
-(M:1
-19.47,:1
-deviation:1
-[SD]:1
-1.29):1
-28.2%:1
-males:1
-71.0%:1
-females.:1
+18 to 25 years:1
+19.47:1
+1.29:1
+28.2% males:1
+
+71.0% females:1
+The racial composition:1
 6.2%:1
-African:1
-American,:1
+African American:1
 0.5%:1
-American:1
-Indian,:1
+American Indian:1
 9.7%:1
 Asian:1
-Pacific:1
-Islander,:1
+Pacific Islander:1
 78.6%:1
-Caucasian,:1
+Caucasian:1
 8.4%:1
-Hispanic,:1
+Hispanic:1
 5.4%:1
-other.:1
+The questionnaire:1
 consisted:1
-demographic:1
+items:1
+respondents’ Facebook use:1
+
+privacy perceptions:1
+followed:1
+demographic questions:1
 Measures:1
+ use:1
 Adapting:1
-minutes:1
+(1998) procedures:1
+hours and minutes:1
 consume:1
-Face-:1
+Face-
 book:1
-morning,:1
-afternoon,:1
-evening,:1
-late:1
-night:1
-periods.:1
+an average weekday:1
+average day:1
+the weekend:1
+the morning:1
+afternoon:1
+evening:1
+late  night  periods:1
+These  data:1
 combined:1
-(weighting:1
-two):1
+weighting:1
+the 
+average weekday questions:1
+five:1
+the average day:1
+the 
+weekend:1
+two:1
 construct:1
-regular:1
-week.:1
-3.17:1
-(SD:1
-1.32):1
-period,:1
+a measure:1
+a regular week:1
+an average:1
+3.17 hours:1
+1.32:1
+Across:1
+variance shows:1
+statistically:1
 decreases:1
-year,:1
-2714):1
-15.01,:1
-.001:1
+2714:1
+15.01:1
+p < .001 
+
+Tsay-Vogel:1
 147:1
-4.25,:1
-1.50;:1
-3.78,:1
-1.28;:1
-3.42,:1
-1.44;:1
-2.94,:1
-1.47;:1
-2.53,:1
-1.54;:1
-2.20,:1
-1.21).:1
-distinct:1
-dimensions:1
-disagree):1
-agree)::1
-general.:1
+4.25:1
+1.50:1
+3.78:1
+1.28:1
+3.42:1
+1.44:1
+2.94:1
+1.47:1
+2.53:1
+1.54:1
+2.20:1
+1.21:1
+Privacy  perceptions:1
+Three distinct dimensions:1
+Likert:1
+scales:1
+disagree:1
+agree:1
+ Eight  items:1
+individuals’  attitude:1
+general:1
 Items:1
+information privacy measures:1
+
+Smith et al:1
+Stone et al:1
+the 
+caution:1
+Example items:1
+the following:1
 disclosing:1
-others,:1
+public:1
 feel:1
 personally:1
-dan-:1
-ger,:1
-(reverse-coded):1
-.83;:1
-4.84,:1
-0.75).:1
-Internet,:1
-10-item:1
+dan-
+ger:1
+.83:1
+4.84:1
+respondents’ perceived threat:1
+the 
+Internet:1
+10:1
+item:1
+ attitudes:1
 dangers:1
-environment.:1
-problems,:1
+the  virtual  environment:1
+Example  items:1
+causes:1
+ serious  privacy  problems:1
 trusting:1
+someone:1
 stealing:1
+my identity:1
 worries:1
-.90;:1
-5.11,:1
-0.70).:1
+.90:1
+5.11:1
+(1996) information privacy scale:1
 measured:1
+attitude:1
 favor:1
-intervention:1
+governmental intervention:1
 protects:1
-improper:1
+people’s privacy:1
+well:1
+their concern:1
+improper  access:1
+The  items:1
+The  gov-
 ernment:1
-steps:1
-computers,:1
+more steps:1
+sure:1
+unauthorized people:1
+access:1
+their  computers:1
 Computer:1
 databases:1
+contain:1
 protected:1
-access,:1
-government:1
+unauthorized access:1
+The government:1
 put:1
 effort:1
 preventing:1
-.79;:1
-4.76,:1
-0.90).:1
-Self-disclosure.:1
-(not:1
-all):1
-(very:1
-much)::1
-degree:1
-conversations,:1
-statements::1
-face-to-face,:1
+unauthorized  access:1
+personal  information:1
+.79:1
+4.76:1
+Self-disclosure:1
+Two types:1
+7-point Likert 
+scales:1
+the degree:1
+participants:1
+FTF conversations:1
+rate:1
+the following statements:1
+ others:1
 conversation:1
 person:1
-.87;:1
-4.21,:1
-1.12).:1
-partici-:1
+.87:1
+4.21:1
+1.12:1
+Online  self-disclosure:1
+the  extent:1
+ partici-
 pants:1
-Internet.:1
-statements:1
-148:1
-Path:1
-disclosure,:1
-CFI:1
-RMSEA:1
-CFI::1
-index;:1
-RMSEA::1
-approximation.:1
+These statements:1
+the  
+
+148:1
+Path analysis:1
+self-
+disclosure:1
+χ2(6:1
+comparative fit index:1
 *p:1
-**p:1
-***p:1
-.001.:1
-.89;:1
-3.92,:1
-0.77).:1
+
+sonal information:1
+.89:1
+3.92:1
+0.77:1
 Results:1
 Hypothesis:1
 tests:1
-path:1
+a path analysis:1
 predicted:1
-(H1).:1
-Subsequently,:1
+particularly threat:1
+Subsequently:1
 examined:1
-(H2):1
-(H3),:1
-model:1
-1):1
+these three privacy perception domains:1
+(H2:1
+The  model:1
 tested:1
 AMOS:1
-acceptable:1
-fit,:1
+an  acceptable  fit,  χ2(6:1
+comparative:1
+fit:1
 index:1
-(CFI):1
-approximation:1
-(RMSEA):1
+(CFI:1
 Consistent:1
-.01).:1
-−.31,:1
-.05),:1
+our hypotheses:1
+decreased threat:1
+β = −.28:1
+general pri-:1
+increased offline disclosure:1
+−.26:1
+β = −.16:1
+β = −.31:1
 Bootstrapping:1
+ procedures:1
 2000:1
 bootstrap:1
-bias-corrected:1
-confi-:1
+ samples:1
+bias-corrected  confi-:1
 dence:1
+intervals:1
+ privacy  perceptions:1
 played:1
-roles.:1
+ roles:1
+Specifically,  threat:1
+general  privacy:1
+= −.28:1
+ threat:1
+Tsay-Vogel:1
+governmental 
+privacy protection
+
+ 
+
+M
+SD
+M
+SD
+M
+SD:1
 4.68a:1
 4.98a:1
 4.65a:1
-0.90:1
 5.05ab:1
 0.89:1
-4.79ab:1
+4.79ab
+0.78:1
 5.07ab:1
 4.91ab:1
 5.12ab:1
 0.65:1
 4.92b:1
-0.70:1
 5.17b:1
 4.84b:1
 149:1
 4.94b:1
+0.71:1
 5.19b:1
 0.67:1
-4.88b:1
-0.84:1
-RQ1,:1
+4.88b
+0.84
+
+SD:1
+ the  indirect  paths:1
+ offline  disclosure:1
+Likewise, 
+threat:1
+= −.16:1
+the indirect 
+paths:1
+statistically significant differ-
 ences:1
-2).:1
-5.13,:1
-4.75,:1
-3.22,:1
-.05,:1
+privacy  perceptions:1
+5.13:1
+4.75:1
+3.22:1
 gradually:1
 ratings:1
-2010.:1
+each  privacy:1
+perception:1
+domain:1
+significantly:1
+higher:1
 150:1
 Self-:1
+Offline self-
+disclosure
+Online self-
+disclosure:1
+Year
+
+ 
+
+M
+SD
+M
+SD:1
 4.58a:1
+0.71
 4.33a:1
 4.35ab:1
 4.10ab:1
@@ -1478,27 +1569,34 @@ Self-:1
 3.95de:1
 0.83:1
 3.68de:1
+0.78:1
 3.77e:1
 3.54e:1
-0.75:1
-RQ2,:1
-2778):1
-12.89,:1
-44.02,:1
-consecu-:1
-tive:1
-emerged,:1
-however,:1
-2-year:1
-beyond.:1
-RQ3,:1
-(Facebook:1
-use::1
-light,:1
-heavy):1
-(Year):1
+ Trends:1
+statistically significant differences:1
+ Table:1
+Specifically, 
+offline:1
+2778:1
+12.89:1
+44.02:1
+consecu-
+tive years:1
+significant differences:1
+however:1
+2-year intervals:1
+beyond:1
+a series:1
+(Facebook use:1
+× 6 (Year):1
 conducted:1
-split:1
+the three domains:1
+the 
+relationships:1
+the 5-year 
+period:1
+A median split:1
+each year:1
 dichotomize:1
 151:1
 4.86aB:1
@@ -1513,14 +1611,40 @@ dichotomize:1
 5.01eA:1
 4.94aA:1
 5.04eA:1
-main:1
-years),:1
-primary:1
-4:1
-3.89,:1
-4).:1
-5.75,:1
+ heavy  users:1
+ significant  main 
+effects:1
+i.e. heavier users:1
+lower threat:1
+these  privacy  concerns:1
+our primary interest:1
+the interaction effects:1
+a significant Facebook Use:1
+Table 3:1
+tion effect:1
+3.89:1
+year-to-year:1
+general pri-
+vacy:1
+no significant 
+difference:1
+The  analysis:1
+Figure  5 
+interaction  effect:1
+5.75:1
 152:1
+Heavy:1
+
+
+ 
+
+M
+SE
+M
+SE:1
+2010
+
+2011:1
 5.12aB:1
 4.42aA:1
 5.18aB:1
@@ -1533,10 +1657,21 @@ primary:1
 5.14dA:1
 5.23aA:1
 5.17dA:1
-5.92,:1
-5).:1
-govern-:1
-mental:1
+except:1
+between 2013 and 2015:1
+the 
+earlier  years:1
+ the  difference:1
+heavy  users:1
+difference:1
+× Year interaction effect:1
+5.92:1
+Table 5:1
+govern-
+mental privacy protection:1
+a significant positive linear 
+trend:1
+2010 to 2011:1
 153:1
 4.83aB:1
 4.30aA:1
@@ -1550,902 +1685,1166 @@ mental:1
 4.87cA:1
 4.86aA:1
 4.91cA:1
-6.:1
-RQ4,:1
-regressions:1
+ RQ4:1
+a  series:1
+multiple  linear  regressions:1
 performed:1
-.39,:1
-progressed:1
-−.24,:1
-−.17,:1
-.27,:1
+whether  the  relationships:1
+.39:1
+β = −.32:1
+β = −.24:1
+β = −.19:1
+β = −.17:1
+Similar  patterns:1
+the  other 
+two privacy perception domains:1
+A significant Threat:1
+Online Privacy:1
+.27:1
+a weaker negative predictor:1
+−.10:1
+= −.02:1
+Governmental:1
 154:1
-.29,:1
-−.09,:1
-−.01,:1
-−.23,:1
-−.07,:1
-.37,:1
-−.35,:1
-<.05).:1
-Pri-:1
-.21,:1
-−.08,:1
+Privacy Protection × Year interaction:1
+(β = .29:1
+
+support:1
+governmental  privacy:1
+
+offline disclosure:1
+β = −.13:1
+
+β = −.13:1
+β = −.09:1
+β = −.01:1
+Online self-disclosure:1
+In particular, threat:1
+β = −.26:1
+β = −.23:1
+−.16:1
+−.14:1
+β = −.10:1
+β = −.07:1
+Similar patterns:1
+the other two pri-:1
+vacy  perception  domains:1
+A  significant  Threat:1
+Online:1
+Privacy × Year:1
+.37:1
+a 
+weaker negative predictor:1
+β = −.35:1
+= −.32:1
+−.18:1
+= −.14:1
+Likewise, a significant Support:1
+Governmental Pri-:1
+
+vacy:1
+Protection:1
+.21:1
+that 
+support:1
+−.13:1
+= −.08:1
 Discussion:1
-framework:1
-expected:1
+cultivation  theory:1
+a  framework:1
+the  pervasive  theme:1
+overall:1
+relationship:1
 led:1
+greater self-
+disclosure:1
+both online and offline contexts:1
+a 
+socializing role:1
+a reality:1
 exchanged:1
-routinized.:1
+The influx:1
 appears:1
+con-:1
 cerned:1
-safeguards.:1
 viewed:1
-volumes:1
-vation:1
-litera-:1
+common themes:1
+practices:1
+high volumes:1
+information disclosure:1
+a culti-:1
+
+vation perspective:1
+the context:1
+existing litera-
 ture:1
 confirming:1
-socialization:1
+the  socialization:1
+potential:1
+
+beliefs:1
+ consideration:1
 aforementioned:1
-divergent:1
-fluctuation:1
-ceptions,:1
+ relationships:1
+our  longitudinal  analysis:1
+ divergent 
+patterns:1
+the fluctuation:1
+light Facebook users:1
+stronger risk:1
+
+ceptions:1
+heavy Facebook users:1
+the data:1
+their threats:1
+no 
 influence:1
-comparable:1
-gap:1
+individuals’ views:1
+comparable levels:1
+the gap:1
+noticeable:1
+the earlier years:1
 155:1
+these differences:1
 subsided:1
-2012.:1
-groups:1
+the groups:1
 mainstreamed:1
-explanations:1
+Some  explanations:1
 offered:1
-compelling:1
-functional:1
-prosocial:1
+these  compelling  trends:1
+the functional use:1
+this information:1
+extensive research points:1
+the 
+prosocial  effects:1
 impression:1
+formation:1
 management:1
 strengthening:1
-bonds:1
-2010),:1
-antisocial:1
+ social  bonds:1
+a  number:1
+antisocial  effects:1
 misuse:1
+personal  data:1
+Specifically,  frequent  online  activities:1
+
+bullying:1
 sexual:1
-violent:1
-clique:1
-host:1
-harmful:1
+ violent  harassment:1
+ clique  formation:1
+a  host:1
+harmful psychological outcomes:1
 including:1
-anxiety,:1
-isolation,:1
-sensitivity,:1
+social isolation:1
+privacy sensitivity:1
 depression:1
-(Hinduja:1
-Patchin,:1
-strongly:1
-tool:1
+a tool:1
 enhance:1
-connectedness,:1
+social connectedness:1
 speak:1
+its  role:1
 stimulating:1
+
+rumors:1
 openly:1
 acknowledge:1
 partaking:1
-activities.:1
+such activities:1
+meaningful opportunities:1
+consumption:1
 exposes:1
 instances:1
-abused.:1
-extreme:1
-cases:1
-form:1
-hacking:1
-experts.:1
-incidents:1
-(Federal:1
-Investigation,:1
-breaches:1
+abused:1
+More extreme cases:1
+privacy invasion:1
+the form:1
+
+computer  experts:1
+ Such  incidents:1
+recent:1
+Federal  Bureau:1
+Investigation:1
+these breaches:1
 extensively:1
 covered:1
+the media:1
 amplify:1
-awareness:1
 fear:1
-hacking,:1
-spam,:1
-spoof,:1
-theft.:1
+spam:1
+spoof:1
+This per-
 haps:1
 explains:1
-escalated,:1
+why threat:1
+escalated:1
 par-:1
 ticularly:1
+the  years:1
+these domains:1
 exhibiting:1
+light use:1
+Second, trends:1
 indicating:1
-technology:1
-diffusion.:1
-abilities:1
+the convergence:1
+the process:1
+technology diffusion:1
+ individuals’  abilities:1
 motivations:1
 likelihood:1
 innovations:1
-2003).:1
-Early:1
+Early  adopters:1
 tend:1
 motivated:1
-self-efficacy,:1
-technology’s:1
-meaning.:1
-early:1
+a  technology:1
+greater:1
+self-efficacy:1
+appreciate:1
+the 
+technology:1
+symbolic:1
+value:1
+the early adopters:1
 motivationally:1
-driven,:1
 confident:1
+their skills:1
+the platform:1
+the SNS:1
 positively:1
 gratify-:1
 implicit:1
-patterns.:1
-charac-:1
-teristics,:1
+their high consumption patterns:1
+these user:1
+charac-
+teristics:1
 understandable:1
+the initial years:1
 heavily:1
 engaged:1
-captured.:1
-Thus,:1
-adoption:1
-central:1
-component:1
-diffusion:1
-2003),:1
-engage:1
-affordances,:1
-benefits,:1
-Heavier:1
+significantly lower levels:1
+that data:1
+concerning:1
+the site:1
+Thus:1
+SNS adoption patterns:1
+privacy attitude 
+trends:1
+knowledge acquisition:1
+a central component:1
+the diffusion 
+process:1
+a technology:1
+its affordances:1
+benefits:1
+Heavier users:1
 attain:1
-intensity:1
-involvement.:1
-gradual:1
-contrary,:1
+such 
+knowledge:1
+greater quantities:1
+a faster rate:1
+the intensity:1
+duration:1
+their involvement:1
+this increased familiarity:1
+the Facebook 
+environment:1
+potential exposure:1
+personal privacy risks:1
+the gradual increase:1
+their threat:1
+the contrary:1
+acquisition:1
 156:1
-slower:1
+a slower rate:1
 produced:1
-self-disclose:1
-environments,:1
+no noticeable changes:1
+more relaxed privacy 
+attitudes:1
+a greater tendency:1
+online environments:1
 corroborating:1
-1977;:1
-striking:1
-progressed.:1
-robust:1
-predictors:1
-find-:1
+Fishbein:1
+personal information disclosure:1
+privacy control 
+mechanisms:1
+our trend data:1
+striking patterns:1
+such that the negative relationships:1
+users’ threats:1
+less 
+robust predictors:1
+These find-
 ings:1
 streamed:1
-threat.:1
+perceived privacy threat:1
+
+factors:1
+privacy risk perceptions:1
 variations:1
-develop,:1
+develop:1
+becomes:1
+even:1
 building:1
 self-confidence:1
 ensuring:1
+relational certainty:1
 (Mietzner:1
-Lin,:1
-2005).:1
-time,:1
 carries:1
-weight:1
-occurs.:1
-present:1
-atti-:1
-tudes,:1
-safeguards,:1
+even more weight:1
+self-
+disclosure  practices:1
+the  risks:1
+the  environment:1
+ personal 
+information exchange:1
+The  present  research:1
+role:1
+privacy  atti-:1
+tudes:1
+specifically threat:1
+the indirect 
+effects:1
 consistent:1
-stud-:1
+previous stud-
 ies:1
+the consumption:1
 directly:1
 drive:1
-intervening:1
-considered.:1
+rather other intervening variables:1
+considered:1
 tain:1
-climate:1
-exchange,:1
+a climate:1
+rich information exchange:1
 ensure:1
-percep-:1
+percep-
 tions:1
-transparency,:1
-high,:1
+ safety:1
+ transparency:1
+relatively:1
+high:1
 placing:1
+an 
+environment:1
+minimal risk:1
+researchers:1
 deploy:1
 controls:1
-self-disclosures.:1
-stenography:1
+their self-disclosures:1
+Social stenography:1
 entails:1
-intri-:1
-cate:1
+intri-
+cate strategies:1
 smuggling:1
-meaning:1
-in-group:1
+via:1
+group:1
 references:1
 achieve:1
+privacy 
 goals:1
-Marwick,:1
-Hogan’s:1
+Hogan:1
 lowest:1
-denominator:1
-approach:1
+common denominator approach:1
 argues:1
 limit:1
+their content:1
+the extent:1
+appropriate:1
+all 
 members:1
-network.:1
+the network:1
+Other scholars:1
 deliberately:1
-networks,:1
-platforms,:1
+multiple 
+networks:1
+platforms:1
 manage:1
-(Vitak:1
-vari-:1
+Vitak et al:1
+Such vari-
 ation:1
+information exchange behaviors:1
 demonstrates:1
+not all disclosures:1
 treated:1
 equally:1
 inherently:1
-valued.:1
-Interestingly,:1
+valued:1
+Interestingly:1
+the findings:1
+similar patterns:1
+vacy attitudes:1
+both global and virtual domains:1
+disclosures:1
 similarities:1
+CMC:1
 interper-:1
-exchanges:1
-spaces:1
+
+sonal exchanges:1
+these spaces:1
 inter-:1
-changeable.:1
-(1996),:1
-(2007),:1
+changeable:1
+our research:1
+the work:1
+Baym:1
 discounts:1
+ individuals:1
 separate:1
+offline identities:1
 evident:1
+the ways:1
 integrated:1
-routinized:1
-everyday:1
-(Debatin:1
+our everyday practices:1
 bolster:1
-conditions:1
-157:1
+the 
+notion:1
+disclosure patterns:1
+different:1
+CMC conditions:1
+FTF 
+
+Tsay-Vogel:1
+157
+
+interactions:1
 disconfirming:1
-richness:1
+the media richness perspective:1
 required:1
-lack:1
-Additional:1
+the lack:1
+non-verbal and social cues:1
+Walther, 1996:1
+Additional trends:1
 worth:1
-noting,:1
-progressive:1
-steady:1
+noting:1
+particularly the progressive decline:1
+the steady increase:1
+the past 
+5 years:1
 remains:1
 popular:1
-adults,:1
+ adults:1
+its  overall 
 growth:1
 slowed:1
+Recent:1
 survey:1
-Instagram,:1
-LinkedIn,:1
-Pinterest,:1
+that 
+users:1
+ Instagram:1
+ LinkedIn:1
+ Pinterest:1
 Twitter:1
-multi-platform:1
+a 
+faster rate:1
+between 2012 and 2014:1
+multi-platform use:1
 52%:1
+adults:1
+at least two SNSs:1
+These  findings:1
 decrease:1
+the 
+number:1
 spending:1
 contrasting:1
-approach.:1
+our data:1
+some 
+extent:1
+gratifications  approach:1
+In  the  context  of  our 
+research,  privacy  concerns:1
 anticipated:1
+ gratifications:1
 sought:1
+the decline:1
+Facebook usage:1
 reflects:1
-ceived:1
-consumption.:1
-criminal:1
-acts:1
-fraud,:1
-hacking):1
-notably:1
-Edward:1
-Snowden:1
-leaks,:1
-escalation:1
-sample.:1
+the lower per-
+ceived benefits:1
+higher risks:1
+its consumption:1
+the increase:1
+criminal acts:1
+e.g. identity theft:1
+fraud:1
+computer hacking:1
+notably the Edward Snowden leaks:1
+the escalation:1
+our  sample:1
+the  5-year 
+period:1
 made:1
-platform:1
-scru-:1
+various platform changes:1
+public scru-:1
 tiny:1
 impacted:1
 interpreted:1
-directional-:1
+caution:1
+the directional-:1
 ity:1
-unclear.:1
+unclear:1
+increased threat:1
+reduced:1
 inevitably:1
 fostered:1
-alternatively,:1
+less self-disclosure:1
+users’ absence:1
+the 
+platform:1
+some individuals:1
 innately:1
+more relaxed privacy:1
 bounda-:1
-ries.:1
+
+ries:1
 relative:1
 ease:1
+desire:1
 linked:1
-low:1
+relatively  low  risk 
+perceptions:1
 propelling:1
 gravitate:1
+opportunities:1
 satisfy:1
-needs.:1
+their disclosure needs:1
+Our trend analysis:1
 allowing:1
 causal:1
 claims:1
+the  variables:1
+interest:1
+this  study:1
 employing:1
-panel:1
-experimental:1
-methods:1
+a panel longitudinal design:1
+follows:1
+the same 
+people:1
+experimental methods:1
 precisely:1
 establish:1
 causality:1
-usage,:1
-limitation:1
+SNS 
+usage:1
+Another limitation:1
 sampled:1
+a college population:1
+the 
+gender:1
+racial composition:1
 evenly:1
-distributed,:1
+distributed:1
 raising:1
-validity:1
-issue.:1
+an external 
+validity issue:1
 shown:1
-younger:1
+younger users:1
+privacy 
+invasion  risks:1
 generously:1
-(Taraszow:1
-mature,:1
+their  profiles:1
+Taraszow:1
+students:1
+mature:1
 seek:1
-oppor-:1
-tunities,:1
-bosses:1
-(Sherman,:1
-2013),:1
-longer:1
-diversifies,:1
+job oppor-:1
+tunities:1
+future bosses:1
+seeing:1
+old photos:1
+their 
+college years:1
+(Sherman:1
+consequently:1
+a change:1
+the heavy users:1
+the longer users:1
+the more their audience diversifies:1
 making:1
-(Binder:1
-2009;:1
-Vitak,:1
-contextual:1
-self-reported:1
+their privacy concerns:1
+Binder:1
+contextual factors:1
+the duration:1
+self-reported measures:1
 158:1
-Future:1
+rather:1
+actual content:1
+Future 
+researchers:1
 coding:1
-individu-:1
+actual information exchange:1
+individu-
 als:1
-interpretations:1
+different interpretations:1
 constitutes:1
-private:1
+personal or private data:1
+aside:1
 mediate:1
-(Kim:1
-2006):1
-valence:1
-(Utz,:1
-consid-:1
+the  paths:1
+usage:1
+interpersonal  trust:1
+Kim et al:1
+the valence:1
+self-disclosure outcomes:1
+Utz:1
+The consid-
 eration:1
+these  variables:1
 gain:1
+a  more  comprehensive 
+understanding:1
+SNSs’ effects:1
 Conclusion:1
-investigation:1
-self-expression:1
-implications.:1
-2015):1
+The current investigation:1
+important theoretical implications:1
+Morgan et al:1
 sup-:1
 port:1
 affect:1
-reality.:1
+users’ conceptions:1
+omnipresence:1
+the  virtual  world:1
 represents:1
+a  reality:1
+the  revelation:1
+
+personal data:1
 exceedingly:1
-habitual,:1
-expected.:1
+habitual:1
+ this  study:1
 emphasizes:1
-capacity:1
-boundaries.:1
-mitigating:1
-ceiling:1
+ capacity:1
+prolonged use:1
+cumulative effects:1
+people’s pri-:1
+
+vacy boundaries:1
+these boundaries:1
+Second:1
+the 
+longitudinal nature:1
+allows:1
+SNS 
+:1
+the  exchange:1
+The  recent 
+convergence:1
+the mitigating 
+effect:1
+estimated threats:1
+A ceiling effect:1
 occurring:1
 diminishing:1
-desensitization:1
+negative  relationships:1
+ privacy  concerns:1
+potential 
+desensitization effects:1
 invaluably:1
+the existing body:1
 literature:1
+This longitudinal analysis:1
 comprehen-:1
 sive:1
-acces-:1
+meaningful  perspective:1
+disclosure 
+behaviors:1
+the past 5 years:1
+the diversification:1
+the acces-
 sibility:1
 continue:1
-grow,:1
-regulations:1
+grow:1
+information dissemination:1
+
+privacy boundary regulations:1
 increasingly:1
 understand:1
-created,:1
-developed,:1
+personal identities:1
+created:1
+developed:1
 managed:1
-author(s):1
-financial:1
-authorship,:1
+The author(s:1
+no financial support:1
+the research:1
+authorship:1
 and/or:1
 publication:1
-article.:1
+this 
+article:1
 Funding:1
 References:1
-Acquisti:1
+Acquisti A:1
+Gross R:1
 Imagined:1
-awareness,:1
-6th:1
-workshop:1
-enhancing:1
-technologies,:1
+communities:1
+information sharing:1
+6th workshop:1
+privacy enhancing technologies:1
 28–30:1
-June.:1
-Altman:1
-Environment:1
-Behavior.:1
-Monterey,:1
-CA::1
-Brooks/Cole:1
-Publishing.:1
+June:1
+Altman I:1
+The Environment:1
+Social Behavior:1
+Monterey:1
+Brooks/Cole Publishing:1
 159:1
-NK:1
-emergence:1
+Baym NK:1
+The emergence:1
 community:1
-Shields:1
+computer-mediated communication:1
+Shields 
+R:1
+(ed:1
 Cultures:1
-Internet::1
-Virtual:1
-Spaces,:1
-Real:1
-Histories,:1
-Living:1
-Bodies.:1
-London::1
-SAGE,:1
-138–163.:1
+Virtual Spaces:1
+Real Histories:1
+Living Bodies:1
+London:1
+SAGE:1
+138–163:1
+
+
 Binder:1
-H,:1
+ H:1
 Howes:1
 Sutcliffe:1
-problem:1
+The  problem:1
 conflicting:1
-spheres::1
-structure:1
-experienced:1
-tension:1
-April,:1
-965–:1
-974.:1
-ACM.:1
-youth:1
-(heart):1
-publics:1
-teenage:1
-life.:1
-Buckingham:1
-MacArthur:1
-Foundation:1
-Series:1
-Learning:1
-Youth,:1
-Identity,:1
-Volume.:1
-MIT:1
-119–142.:1
-definition,:1
-history,:1
-scholarship.:1
-13(1)::1
-210–230.:1
-steganography::1
-publics.:1
+ social  spheres:1
+ effects:1
+network structure:1
+experienced tension:1
+the 
+SIGCHI conference:1
+7 April:1
+965:1
+974:1
+ACM:1
+
+
+boyd d (2007) Why youth (heart) social network sites:1
+networked publics:1
+teenage 
+social life:1
+Buckingham D:1
+MacArthur Foundation Series:1
+Digital Learning Youth:1
+Identity:1
+Digital Media Volume:1
+The MIT Press:1
+119–142:1
+Ellison NB:1
+Social network sites:1
+definition:1
+history:1
+scholarship:1
+Journal of 
+
+Computer-Mediated Communication:1
+13(1:1
+210–230:1
+Social  steganography:1
+networked:1
+ publics:1
 Paper:1
 presented:1
-international:1
-conference,:1
+the international communication association conference:1
 28:1
 May.:1
-Tweens’:1
-online::1
-educators.:1
-Learning,:1
-4–25.:1
-B,:1
-Lovejoy:1
-JP:1
-Horn:1
-AK:1
-unintended:1
-consequences.:1
-15(1)::1
-83–108.:1
-Berg:1
-JH:1
-(1987):1
-Self-Disclosure::1
-Theory,:1
-Research,:1
-Therapy.:1
-Chaikin:1
-(1977):1
-relationships.:1
-Plenum:1
-Issues:1
-33(3)::1
-102–115.:1
-Dudo:1
-Brossard:1
-D,:1
-Science:1
-21st:1
-century::1
+
+Davis K:1
+James C:1
+Tweens’ conceptions:1
+educators:1
+Learning:1
+Media:1
+Technology:1
+4–25:1
+Debatin B:1
+Lovejoy JP:1
+Horn AK:1
+unintended consequences:1
+Journal of Computer-Mediated Communication:1
+15(1:1
+83–108:1
+Berg JH:1
+Self-Disclosure:1
+Therapy:1
+Chaikin A:1
+social relationships:1
+Journal of 
+
+Plenum Press:1
+Social Issues:1
+33(3:1
+102–115:1
+Dudo A:1
+Brossard D:1
+(2011) Science:1
+the 21st century:1
+recent  
+trends:1
 portrayals:1
-contributions:1
-science.:1
-38(6)::1
-754–777.:1
-Dwyer:1
-Hiltz:1
-SR:1
-Passerini:1
-Trust:1
-comparison:1
-MySpace.:1
-thirteenth:1
-Americas:1
-Keystone,:1
-CO,:1
-31:1
-December.:1
-Newsroom:1
-(statistics).:1
+their contributions:1
+public attitudes:1
+Communication 
+Research 38(6:1
+754–777:1
+Dwyer C:1
+Hiltz SR:1
+Passerini K:1
+Trust and privacy concern:1
+social networking 
+sites:1
+a comparison:1
+Facebook and MySpace:1
+the thirteenth Americas 
+conference:1
+information systems:1
+Keystone:1
+CO:1
+31 December:1
+) Newsroom:1
+(statistics:1
 http://newsroom.fb.com/company-info/:1
-Federal:1
-Investigation:1
-reports.:1
+
+Federal Bureau of Investigation:1
+reports:1
 http://www.ic3.gov/:1
-media/annualreports.aspx:1
-Fishbein:1
-Ajzen:1
-Belief,:1
-Attitude,:1
-Intention,:1
-Behavior::1
-Introduction:1
-Reading,:1
-Addison-Wesley.:1
-Fogel:1
-Nehmad:1
-taking,:1
-trust,:1
-25::1
-153–160.:1
-(1969):1
-indicators::1
-mass:1
-systems.:1
-AV:1
-17::1
-137–148.:1
-L,:1
-(1994):1
+annualreports.aspx:1
+Fishbein M and Ajzen I (1975) Belief:1
+Attitude:1
+Intention:1
+Behavior:1
+An Introduction:1
+Reading:1
+Addison-Wesley:1
+Fogel J:1
+Nehmad E:1
+Internet social network communities:1
+risk taking:1
+25:1
+153–160:1
+Toward:1
+cultural indicators:1
+analysis:1
+mass mediated public message systems:1
+AV Communication Review:1
+17:1
+137–148:1
+Gross L:1
 Growing:1
-television::1
 perspec-:1
-tive.:1
-Bryant:1
-Zillmann:1
-Effects::1
+Bryant J:1
+Zillmann D:1
+eds:1
+) Media Effects:1
 Advances:1
-Hillsdale,:1
-NJ::1
-Lawrence:1
-Erlbaum:1
-Associates,:1
-Inc.,:1
-17–41.:1
-Gibbs:1
-JL,:1
+Hillsdale, NJ:1
+Lawrence Erlbaum Associates:1
+Inc.:1
+17–41:1
+JL:1
 Lai:1
 CH:1
-love,:1
-Google::1
+ love:1
+Google:1
 investiga-:1
-uncertainty:1
-reduction:1
-dating.:1
-70–100.:1
-High:1
+uncertainty reduction strategies:1
+online dating:1
+Communication 
+Research:1
+70–100:1
 AC:1
-Caplan:1
-anxiety:1
-interactions::1
-hyperpersonal:1
-perspective.:1
-25(2)::1
-475–482.:1
-Hinduja:1
-Patchin:1
+
+initial  interactions:1
+the  hyperpersonal  perspective:1
+Human 
+Behavior 25(2:1
+475–482:1
 JW:1
-Bullying,:1
-cyberbullying,:1
-suicide.:1
+Bullying:1
+cyberbullying:1
+ suicide:1
 Archives:1
 Suicide:1
-14(3)::1
-206–221.:1
+14(3:1
+206–221:1
 160:1
-Hogan:1
-presentation:1
-media::1
-distinguishing:1
-performances:1
+Hogan B:1
+The presentation:1
+the age:1
+distinguishing performances:1
 exhibitions:1
-online.:1
-Bulletin:1
-Science,:1
-30(6)::1
-377–386.:1
-Kim:1
-PH,:1
-Dirks:1
-KT,:1
-Cooper:1
-CD,:1
-blame:1
-less::1
-internal:1
-attributions:1
-repair:1
-competence-:1
-integrity-:1
-violation.:1
-Organizational:1
-Decision:1
-Processes:1
-99::1
-49–65.:1
-Lampe:1
+Bulletin of Science, Technology &:1
+Society:1
+30(6:1
+377–386:1
+Kim PH:1
+Dirks KT:1
+Cooper CD:1
+more blame:1
+the implications:1
+internal vs. external attributions:1
+the repair:1
+a competence- vs. integrity-
+based trust violation:1
+Organizational Behavior and Human Decision Processes:1
+99:1
+49–65:1
+
+Lampe C:1
+Ellison N:1
 Steinfield:1
-Face(book):1
-crowd::1
+A Face(book:1
+the crowd:1
 searching:1
-browsing.:1
-Banff,:1
-AB,:1
-Canada,:1
+vs.:1
+social 
+browsing:1
+the SIGCHI conference:1
+Banff:1
+AB:1
+Canada:1
 4–8:1
-November,:1
-434–444.:1
-ACM:1
-technology.:1
-Computers,:1
-Privacy.:1
-Minneapolis,:1
-MN::1
-Minnesota:1
-1–18.:1
-identity.:1
-Harley:1
+November:1
+434–444:1
+ACM Press:1
+Zureik E:1
+the new technology:1
+Zureik 
+E:1
+Minneapolis:1
+MN:1
+University of Minnesota 
+Press:1
+1–18:1
+Online  identity:1
+Harley  J:1
 Burgess:1
 Bruns:1
 Companion:1
-Dynamics:1
-(Blackwell:1
-Companions:1
-Studies).:1
-Malden,:1
-Blackwell,:1
-355–364.:1
+New Media Dynamics:1
+(Blackwell Companions to Cultural Studies:1
+Malden:1
+Blackwell:1
+355–364:1
 Mietzner:1
-Lin:1
 LW:1
-(2005):1
-again?:1
-Relationship:1
+Would:1
+Relationship  skills:1
 gained:1
-long-:1
-distance:1
-relationship.:1
-College:1
-Student:1
-39(1)::1
-192–200.:1
-Yesterday’s:1
-tomorrow.:1
-18(5)::1
-674–699.:1
-Nguyen:1
-Bin:1
-YS:1
-Campbell:1
+a  long-
+
+distance relationship:1
+College Student Journal:1
+39(1:1
+192–200:1
+Signorielli N:1
+Yesterday’s new cultivation:1
+tomorrow:1
+Mass 
+
+Communication & Society 18(5:1
+674–699:1
+Nguyen M:1
+Bin YS:1
+Campbell A:1
 Comparing:1
-self-disclosure::1
+online and offline self-disclosure:1
 sys-:1
-tematic:1
-review.:1
-Cyberpsychology,:1
-Networking:1
-15(2)::1
-103–111.:1
-Nosko:1
-Wood:1
-Molema:1
-me::1
-profiles::1
-26(3)::1
-406–418.:1
-Petronio:1
-Boundaries:1
-Privacy::1
-Dialectics:1
-Disclosure.:1
-Albany,:1
-NY::1
-State:1
-York:1
-(2014):1
-fact:1
-sheet.:1
-org/fact-sheets/social-networking-fact-sheet/:1
-August:1
-update:1
-org/2015/01/09/social-media-update-2014/:1
-September:1
-Rogers:1
-EM:1
-(2003):1
+tematic review:1
+Cyberpsychology, Behavior and Social Networking 15(2:1
+103–111:1
+Nosko A:1
+Wood E:1
+Molema S:1
+networking:1
+the case:1
+26(3:1
+406–418:1
+Petronio S:1
+Boundaries of Privacy: Dialectics of Disclosure:1
+Albany:1
+NY:1
+State University:1
+New York Press:1
+Pew Research Center:1
+Social networking fact sheet:1
+org/fact-sheets/social-networking-fact:1
+sheet/:1
+1 August 2015:1
+Social  media  update:1
+org/2015/01/09:1
+/social-media-update-2014/:1
+1 September 2015:1
+Rogers EM:1
 Diffusion:1
-Innovations.:1
-5th:1
-ed.:1
-Free:1
-(1999):1
+Innovations:1
+5th ed:1
+New York: Free Press:1
 Television:1
-Viewers::1
-Cambridge::1
-Cambridge:1
-Sherman:1
-10:1
-hunters:1
+Its Viewers:1
+Cultivation Theory:1
+Cambridge University Press:1
+Sherman E:1
+10 young job hunters:1
 rejected:1
+their social media:1
 http://jobs.aol.com/articles/2013/06/0/applicants-rejected-social-media-on-device-research/:1
-20:1
-LJ,:1
+20 May 2015:1
+Shrum  LJ:1
 Wyer:1
 RS:1
 O’Guinn:1
 TC:1
-perceptions::1
+The  effects:1
+television  consumption:1
+social 
+perceptions:1
 priming:1
-processes.:1
-Consumer:1
-24::1
-447–458.:1
-Lears:1
-(1992):1
-Children,:1
-television,:1
-chores::1
-Sex:1
-Roles:1
-157–170.:1
-HJ,:1
-Milberg:1
-Burke:1
-organizational:1
-MIS:1
-Quarterly:1
-20::1
-167–196.:1
-Spencer:1
-SB:1
-Reasonable:1
-expectations:1
-erosion:1
-San:1
-Diego:1
-Law:1
-39::1
-843–911.:1
-Geutal:1
-HG,:1
-Gardner:1
-DG,:1
-field:1
-experiment:1
+procedures:1
+psychological processes:1
+Journal of 
+Consumer Research:1
+24:1
+447–458:1
+Lears M:1
+Children:1
+chores:1
+Sex Roles:1
+157–170:1
+Smith HJ:1
+Milberg SJ:1
+Burke SJ:1
+Information privacy:1
+individuals’ concerns:1
+organizational practices:1
+MIS Quarterly 20:1
+167–196:1
+Spencer SB:1
+Reasonable expectations:1
+the erosion:1
+San Diego Law Review:1
+39:1
+843–911:1
+Stone E:1
+Geutal HG:1
+Gardner DG:1
+A field experiment:1
 comparing:1
-information-pri-:1
-values,:1
-beliefs,:1
-organizations.:1
-68::1
-459–468.:1
-F,:1
-Capra:1
-Thompson:1
-Factors:1
-590–598.:1
-161:1
+information-pri-
+vacy values:1
+several types:1
+organizations:1
+Journal of Applied 
+Psychology:1
+68:1
+459–468:1
+Stutzman F:1
+Capra R:1
+Thompson J:1
+) Factors:1
+590–598:1
 Subrahmanyam:1
-K,:1
-Reich:1
-SM,:1
-Waechter:1
-N,:1
-(2008):1
-networks::1
-emerging:1
-adults.:1
-Developmental:1
-29::1
-420–423.:1
-Taraszow:1
-T,:1
-Aristodemou:1
-Shitta:1
-example.:1
-Politics:1
-6(1)::1
-81–98.:1
-Tavani:1
-HT:1
-Grodzinsky:1
-FS:1
-Cyberstalking,:1
-moral:1
-responsibility.:1
-Ethics:1
-4::1
-123–132.:1
-Utz:1
-function:1
-intimate,:1
+Reich SM:1
+Waechter N:1
+Online and offline social networks:1
+emerging adults:1
+Journal of Applied Developmental Psychology 
+29:1
+420–423:1
+Taraszow T:1
+Aristodemou E:1
+Shitta G:1
+contact:1
+young people:1
+Facebook profiles:1
+an example:1
+International 
+Journal of Media and Cultural Politics 6(1:1
+81–98:1
+Tavani HT:1
+Grodzinsky FS:1
+Cyberstalking:1
+personal privacy:1
+moral responsibility:1
+Ethics and Information Technology 4:1
+123–132:1
+Utz S:1
+The function:1
+intimate:1
+positive:1
 entertaining:1
-self-disclosures:1
+ self-disclosures:1
+increase:1
 feeling:1
-connection.:1
-45::1
-1–10.:1
+ connection:1
+
+Human Behavior:1
+45:1
+: 1–10:1
+The  impact:1
 collapse:1
-Broadcasting:1
-Electronic:1
-56::1
-451–470.:1
-“There’s:1
-tap”::1
+ social  network  site  disclosures:1
+Journal of Broadcasting & Electronic Media:1
+56:1
+451–470:1
+There’s:1
+a  network:1
+well  tap:1
 explor-:1
+the benefits:1
+barriers:1
 exchanging:1
-informational:1
-support-based:1
-resources:1
-15::1
-243–259.:1
-Blasiola:1
-Patil:1
+informational and support-based resources:1
+
+Facebook:1
+New Media & Society:1
+15:1
+243–259:1
+Vitak J:1
+Blasiola S:1
+Patil S:1
 Balancing:1
-tensions:1
-net-:1
-Systems:1
-9::1
-1485–1504.:1
-Walther:1
-JB:1
-Computer-mediated:1
-communication::1
-impersonal,:1
+audience:1
+privacy tensions:1
+social net-:1
+work:1
+sites:1
+International Journal of Communication Systems:1
+9:1
+1485–1504:1
+Walther JB:1
+Computer-mediated communication:1
+impersonal:1
+interpersonal:1
 hyperper-:1
-23(1)::1
-3–43.:1
-Author:1
-biographies:1
-assistant:1
-Relations:1
-Co-Director:1
-entertainment:1
-psychology,:1
-influence.:1
+sonal interaction:1
+Communication Research 23(1): 3–43:1
+Author biographies:1
+an assistant professor:1
+the Department of Mass Communication, Advertising 
+& Public Relations:1
+Co:1
+Director:1
+the Communication Research Center:1
+entertainment psychology:1
+
+influence:1
 dean:1
-School:1
-indicators,:1
-theory,:1
-environmental:1
-Delaware.:1
-studies,:1
-analysis,:1
-children.:1
+the Media School:1
+His research interests:1
+
+cultural indicators:1
+cultivation theory:1
+environmental communication:1
+Nancy Signorielli:1
+a professor:1
+the Department of Communication:1
+the University of Delaware:1
+content studies:1
+cultivation analysis:1
+
+children:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:163
-Privacy:12
+privacy:45
+Privacy:2

@@ -1,1466 +1,1536 @@
 
 Academic Articles Facebook/1 Mothering on Facebook Exploring privacy opennes paradox
 
-Total number of tokens: 8493
-Size of Lexicon: 2967
-
-With stop word removal 
-Size of original corpus: 8493 
-Size of filtered corpus: 2711
+Total number of tokens: 4283
+Size of Lexicon: 2711
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:86
-&:56
-privacy:49
-social:40
-mothers:36
-children:28
-users:28
-survey:22
-information:20
-issues:20
-friends:19
-Social:18
-benefits:18
-sharing:18
-post:16
-online:16
-pictures:16
-respondents:16
-study:15
-research:15
-groups:15
-Facebook.:15
-young:14
-mothers’:14
-people:14
-Facebook,:13
+Facebook:102
+’s:32
+sharing:21
+mothers:20
+privacy:19
+children:17
+around:16
+information:16
+2014:16
+likely:15
+n’t:15
+2013:14
 found:13
-parenting:12
-parents:12
-.:12
-Media:11
-digital:11
-data:11
-family:11
-ing:11
-interviewees:11
-Retrieved:11
-concerns:10
-advanced-active:10
-increasingly:9
-children,:9
-Facebook’s:9
-health:9
-risk:9
-children’s:9
-asked:9
-posting:9
-closed-protective:9
-person:9
-don’t:9
-S.:9
+using:13
+see:13
+post:12
+posting:12
+the benefits:11
+pictures:11
+use:11
+their children:11
+via:11
+day:11
+2015:10
+friends:10
+users:10
+used:10
+asked:10
+without:9
+may:9
+M.:9
+Retrieved:9
 +:8
-time:8
-children.:8
-group:8
-chil-:8
-baby:8
-work:8
-Lampe,:8
-network:8
-Journal:8
-Anderson:7
-photographs:7
-topics:7
-public:7
-private:7
-networking:7
-SNS:7
-life:7
-attitudes:7
+ mothers:8
+way:8
+family:8
+2011:8
+2012:8
+people:8
+changed:8
+survey:8
+R.:8
+S.:8
+Society:7
+parenting:7
+openness:7
+becoming:7
+increasingly:7
+share:7
+Schoenebeck:7
+online:7
 provide:7
-Ellison,:7
-Gray,:7
-posts:7
-changed:7
-Human:7
-Privacy:7
+2010:7
+time:7
+ing:7
+respondents:7
+person:7
+popular:7
 put:7
-Proceedings:7
-M.:7
-Society:6
-Chalklen:6
-semi-structured:6
-article:6
-cited:6
-risks:6
-popular:6
-media:6
-access:6
+C.:7
+1:6
+young children:6
+parents:6
+SNSs:6
 makes:6
-University:6
-content:6
-potential:6
-child’s:6
+many:6
+2:6
+still:6
 maintain:6
-relationships:6
+Lampe:6
+particularly:6
 posted:6
-profile:6
-Vitak,:6
-responses:6
+Ellison:6
+interviewees:6
 feel:6
-spending:6
-common:6
-fence-sitters:6
-others’:6
-colleagues:6
-%:6
-I’m:6
-it,:6
-it’s:6
-kids:6
-R.:6
-(2014).:6
-C.:6
-Society,:6
-(2013).:6
-range:5
-Research:5
-qualitative:5
-South:5
-shared:5
-share:5
-link:5
-SNSs:5
-quantitative:5
-close:5
-personal:5
-2013).:5
-behaviors:5
-greater:5
-negative:5
-sur-:5
-vey:5
-Survey:5
-enjoyed:5
-decided:5
+4:6
+become:6
+like:6
+less:6
+occasionally:6
+’m:6
+Proceedings:6
+Anderson:5
 17:5
-day:5
-analysis:5
-users.:5
-activities:5
-user:5
-paradox:5
-face-to-face:5
-N.:5
-M.,:5
-Conference:5
+social:5
+could:5
+2016:5
+shared:5
+support:5
+research:5
+looking:5
+Gray:5
+access:5
+the risk:5
+ask:5
+agreed:5
+enjoyed:5
+sometimes:5
+decided:5
+least:5
+spending:5
+never:5
+connected:5
 J.:5
-C.,:5
 A.:5
-Facebook::4
-1:4
-site:4
-community:4
-interviews:4
-Australian:4
-use,:4
+Social Media:4
+10:4
+data:4
+including:4
+especially:4
+issues:4
+risks:4
+health:4
+topics:4
+keep:4
+life:4
+1992:4
 noted:4
-issues,:4
-2014).:4
-Communication,:4
-International:4
-Australia.:4
-2:4
+Social:4
+privacy concerns:4
 putting:4
-Schoenebeck,:4
-types:4
-studies:4
-support:4
-relationship:4
-capital:4
-Burke,:4
-Marlow,:4
-act:4
-Kraut,:4
-Steinfield,:4
+said:4
+however:4
+9:4
+SNS:4
+2009:4
+needs:4
+Kraut:4
+considered:4
+posts:4
+much:4
 employing:4
-lack:4
-“privacy:4
+Burke:4
+active:4
 tended:4
-open:4
-privacy–openness:4
-years:4
-footprint:4
-pictures,:4
-advice:4
-interviews,:4
+well:4
+protective:4
+
+
+Chalklen:4
+employed:4
 identify:4
-ques-:4
-agreed:4
-preferred:4
 make:4
-sampling:4
-information,:4
-hr:4
-list:4
-inter-:4
-manual:4
-concerns,:4
-protection:4
-information.:4
-met:4
-related:4
-users,:4
-Table:4
-Type:4
-Post:4
-respondent:4
-connected:4
-current:4
-parent:4
-concern:4
-people’s:4
-interest:4
+work:4
+received:4
+would:4
+concerns:4
+able:4
+advanced-active users:4
+7:4
+ friends:4
+others:4
+followed:4
+12:4
+Friends:4
+know:4
+user:4
+2007:4
 included:4
-Computing:4
-(pp.:4
-ACM.:4
-R.,:4
-B.,:4
-Charlotte:3
-worth:3
-potentially:3
+groups:4
+someone:4
+wean:4
 set:3
-domain.:3
-activity:3
-including:3
-117:3
-openness,:3
-findings:3
+the digital domain:3
+a way:3
+community:3
+social capital:3
+semi-structured interviews:3
+this article:3
 show:3
-downsides:3
-implications:3
-mothers,:3
-media,:3
-sites:3
-experienced:3
+negotiating:3
+social media:3
+particular:3
+communication:3
 discuss:3
-2015).:3
+child:3
+media:3
 Mothers:3
-threads:3
-dren,:3
-control:3
-images:3
+often:3
+along:3
+whether:3
+better:3
 stop:3
+Australia:3
+Communication:3
 provided:3
-original:3
+rather:3
 making:3
-technology:3
+ children:3
 reported:3
-significant:3
-however,:3
-future:3
-dren:3
-sharing.:3
 Kumar:3
-Schoenebeck:3
-(2015):3
-consid-:3
-ity:3
-2011;:3
-weaker:3
-ties:3
+baby:3
+photographs:3
+their  children:3
+even:3
+allow:3
+Marlow:3
 established:3
-However,:3
-real:3
+However:3
 overlapping:3
-spheres:3
-example,:3
-ability:3
-impact:3
-men:3
-subject:3
-privacy-protective:3
-strategies:3
-everyday:3
-Brunner,:3
+Facebook users:3
+profile:3
+the research:3
 dis-:3
+willing:3
 concerned:3
-Quan-Haase,:3
-Hargittai,:3
-Scharkow,:3
+boyd:3
+& Hargittai:3
+Madden:3
 include:3
-status:3
-pri-:3
-active:3
-experience:3
+need:3
+ Vitak:3
+updates:3
 revealing:3
 presented:3
-net-:3
+the privacy:3
 developed:3
-broader:3
-5:3
-key:3
+stories:3
 seeking:3
-employed:3
 combining:3
-questions:3
-statements:3
-subjects:3
-3:3
+qualitative:3
+frequently:3
+the authors:3
+unlikely:3
+enough:3
+link:3
+related:3
 collected:3
-45:3
-one.:3
-contact:3
-interview:3
+conducted:3
+another:3
+since:3
+a  parent:3
 talk:3
-accurate:3
-min:3
+students:3
 deliberately:3
-results:3
-tions:3
-view:3
+analysis:3
 deemed:3
-data.:3
-data”:3
-(n:3
 =:3
-family,:3
-colleagues,:3
-tive:3
+closed:3
+fence-sitters:3
+ family:3
 discussing:3
-Pew:3
-12:3
-occasionally:3
+sitters:3
+avoided:3
+cited:3
+fence:3
+accessing:3
+5:3
+18:3
+45:3
+Type:3
+regularly:3
+Family:3
 10.62:3
-statuses:3
-reporting:3
-“Friends:3
-occasionally”:3
-strength:3
-platform:3
-behavior:3
+my children:3
+others’ statuses:3
+hr:3
+seen:3
+11%:3
+survey respondents:3
 changing:3
-(N):3
 helped:3
-problems:3
+16:3
 Complaints:3
 Pictures:3
-discussions:3
-use.:3
-society:3
-Children’s:3
-“I:3
+whereas:3
 love:3
-photos:3
-interviewee:3
+get:3
 pic-:3
 tures:3
-photo:3
-that’s:3
-consideration:3
-group,:3
-shouldn’t:3
-(2007).:3
-advice.:3
-aspect:3
-similar:3
-unwelcome:3
-mother:3
-effects:3
-great:3
-choice:3
-things:3
-highlights:3
-size:3
-S.,:3
-Factors:3
-(2010).:3
-A.,:3
-(2011).:3
-management:3
-(2015).:3
-J.,:3
-sites.:3
-L.:3
-Online:2
+might:3
+really:3
+respondent:3
+always:3
+think:3
+women:3
+’ve:3
+news:3
+Human  Factors:3
+Computing:3
+pp:3
+N. B.:3
+Journal:3
 Exploring:2
-Paradox:2
-Heather:2
+Charlotte Chalklen:2
+worth:2
 commenting:2
-controversial:2
+breastfeeding:2
 offers:2
-affordances:2
+range:2
+the same time:2
 presents:2
-ethical:2
-mixed-methods:2
-17,:2
+new:2
+upon:2
 relation:2
-commonly:2
 adept:2
-negotiating:2
-ways:2
-openness.:2
-negotiation:2
-tactics:2
-strong:2
-awareness:2
-privacy,:2
-rise:2
-child:2
+the 
+benefits:2
+a strong awareness:2
+social networking sites:2
+This study:2
+experienced:2
+fathers:2
 report:2
-half:2
 compared:2
+Child:2
 Health:2
 Evaluation:2
-under-researched:2
-limitations:2
-demands:2
-friends,:2
-professional:2
-house:2
-space.:2
-nature:2
+toddlers:2
+the demands:2
+young chil-
+dren:2
+the house:2
 medium:2
-conversations:2
-efficient:2
-essential:2
-modern:2
-radio,:2
-(Morris,:2
-photograph:2
+threads:2
+Fischer:2
+toward:2
+Morris:2
 worries:2
-footprints:2
 maintaining:2
-factors:2
+control:2
+images:2
 embracing:2
-Australia,:2
-School:2
-Studies:2
-Creative:2
-Commons:2
-terms:2
-pages:2
-focus:2
-themselves,:2
-rights:2
-(which:2
-younger:2
-Hiniker,:2
-perspectives:2
-over-sharing:2
-them.:2
-Children:2
-consent.:2
+University of South Australia:2
+This article:2
+Media:2
+risk:2
+available:2
+Hiniker:2
+content:2
 older:2
-valuable:2
-insights:2
+this  research:2
+new mothers:2
 receiving:2
-respect:2
-communication:2
-Raymond,:2
-Lopez,:2
-O’Connor,:2
+within:2
+exist:2
+Internet:2
+potential:2
+Raymond:2
+2006:2
 highlighted:2
-2014),:2
-identity:2
-parent.:2
+help:2
+confidence:2
+a parent:2
 line:2
-(e.g.,:2
-Lento,:2
-2010;:2
-Fiore,:2
-conduit:2
-2014;:2
-considered:2
-opportunities.:2
+its relationship:2
+Lento:2
+ Ellison:2
+ Gray:2
+Fiore:2
+ Steinfield:2
+comes:2
+spheres:2
 force:2
-sex,:2
+example:2
 alcohol:2
-employers:2
-Peluchette,:2
-female:2
-Nielsen,:2
-Milne,:2
-2010).:2
+self:2
+disclosure:2
+among:2
+subject:2
 employ:2
 keeping:2
-un-friending:2
-contacts:2
-(Madden,:2
-2012).:2
-college:2
-students:2
-diverse:2
+private:2
+studies:2
 examine:2
 incorporated:2
-(Rains:2
-hazards,:2
 cussed:2
-paradox,”:2
-Taddicken,:2
-Young:2
-disclosure:2
-protective:2
+Taddicken:2
 achieve:2
-levels:2
-(boyd:2
-Trepte,:2
-Madden,:2
+Scharkow:2
+Quan-Haase:2
 friending:2
-2012),:2
-settings:2
 order:2
+Vitak:2
 participate:2
 comments:2
-Stutzman,:2
+status:2
+greater benefits:2
+Stutzman:2
+pri-:2
 enjoy:2
-discussion:2
+experience:2
 mitigating:2
-evolving:2
-paradox.:2
-project:2
+behaviors:2
+openness paradox:2
 examining:2
+attitudes:2
+exploratory:2
 sample:2
+Australian mothers:2
 mitigate:2
-web-based:2
-alone.:2
+the downsides:2
+advice:2
+quantitative:2
+alone:2
 features:2
-frequently:2
+Brunner:2
 wanted:2
 context:2
-SurveyMonkey:2
+interviews:2
 involved:2
-authors,:2
-section:2
-perceived:2
+disagreed:2
 pitfalls:2
 interacting:2
-(see:2
-selected:2
-aspects:2
-convenience:2
+sampling:2
+subjects:2
 criticized:2
-researchers:2
-techniques,:2
+specifically:2
 small:2
-responses,:2
 People:2
-Interviews:2
-part:2
+84:2
+responses:2
+indicate:2
 agreeing:2
-8:2
-com-:2
-conducted:2
-researcher:2
-(one:2
-colleague:2
+according:2
 raised:2
+Brewis:2
 based:2
 identified:2
 Interviewees:2
-advantages:2
-forms:2
-gies:2
-experiences.:2
-4:2
+prevent:2
+this study:2
 Monitoring:2
-computer:2
-usage:2
-effective:2
-picture:2
-actual:2
-behavior,:2
+computer usage:2
 estimated:2
-26:2
-kind:2
-amount:2
+first:2
+accurate:2
 originally:2
-preferences:2
-Patterson,:2
-insight:2
+derived:2
+ users:2
+sur-:2
+Branthwaite:2
+Patterson:2
 offered:2
-stories:2
-individual:2
-survey.:2
-helpful:2
-children”:2
-closed-pro-:2
-tective:2
-7,:2
-Advanced-active:2
-large:2
+Wang:2
+the survey:2
+
+attitudes:2
+statements:2
+6:2
+35%:2
+24%:2
 communicate:2
-acquaintances,:2
+colleagues:2
+ groups:2
 engaged:2
+privacy  protection  strategies:2
 outspoken:2
-closed-protec-:2
-debate:2
-ally:2
+ people:2
+close:2
+
+family:2
+friend:2
+every:2
 engage:2
 typically:2
+activities:2
 times:2
-rules:2
-accessing:2
+closed-protective users:2
 aged:2
-Smith,:2
+respond:2
+stay:2
+home:2
+generally:2
+76:2
 43:2
-9:2
-Facebook?:2
-(Select:2
-Four).:2
-Friends:2
-regularly:2
-Family:2
-school:2
-(please:2
-specify):2
-2.:2
-Types:2
-photos/comments:2
-Private:2
+42:2
+11:2
+Table:2
+Select:2
+Four:2
+Other parents:2
+please:2
+specify:2
+Post photos/comments:2
 checking:2
-day,:2
-day”:2
-(78%):2
-200:2
+78%:2
+reporting:2
 Tables:2
-regu-:2
-(68%):2
-“Other:2
-parents”:2
-“Family:2
-weak:2
-circle:2
-ties,:2
-(11%):2
-safer:2
-toddler:2
-discipline:2
-privacy-:2
-tion:2
-them;:2
-users’:2
-fence-sitter:2
+67%:2
+37%:2
+Survey  respondents:2
+weaker ties:2
+68%:2
+current colleagues:2
+preferred:2
+relationships:2
+law:2
+a concern:2
+addictive:2
+3:2
+privacy issues:2
+concern:2
+behavior:2
+described:2
+advanced:2
 Agree:2
 solve:2
+parenting problems:2
 helps:2
 improved:2
-(18):2
-(10):2
-(46):2
+25:2
+29:2
+22:2
+other people’s children:2
 Requests:2
+parenthood:2
+whatever:2
+open:2
+
+friends:2
 continue:2
-sharing,:2
 taking:2
 recently:2
 grown:2
-wider:2
-Digital:2
-avoided:2
+society:2
+
+interest:2
+their own children:2
+took:2
+’d:2
+ photographs:2
 leaving:2
-long-term:2
-toilet:2
-she’s:2
-up,:2
-birth:2
-contentious:2
-page:2
-internet:2
+their kids:2
+the interviewees:2
+the  internet:2
+policy:2
+going:2
 Ahern:2
-al.:2
-patterns:2
-erations:2
-mobile:2
+
+young children:2
+their study:2
 regard:2
-respondents,:2
-par-:2
+Despite:2
+my friends:2
+my kids:2
+comfortable:2
+chil-:2
 irritating:2
-case:2
-Parenting:2
+other  people:2
 connect:2
-and,:2
+other parents:2
 seek:2
-interests.:2
-side:2
-family.:2
-natural:2
-networks:2
-received:2
-type:2
+different:2
+ness:2
+similar interests:2
+gone:2
+valued:2
+say:2
+lost:2
+blanky:2
+a  mothers’  group:2
 critical:2
-women:2
 opting:2
-events,:2
-intrusions:2
-judgments:2
-avoiding:2
+
+others:2
 motherhood:2
+went:2
+back:2
 ignore:2
-friendships:2
-wean:2
-interactions:2
-privacy-related:2
-tele-:2
-research.:2
-ongoing:2
-news:2
-author(s):2
-research,:2
+contact:2
+got:2
+interest:2
+reassuring:2
+confident:2
+
+mothers:2
+net-:2
+paradox:2
+The author(s:2
 and/or:2
 publication:2
-article.:2
-SIGCHI:2
-York,:2
-NY::2
-Y.,:2
+ S.:2
+Privacy:2
+Systems:2
+(CHI:2
 Computers:2
-Behavior,:2
+Human Behavior:2
 E.:2
-media.:2
-14,:2
-British:2
-Canada.:2
-capi-:2
-tal:2
-ACM:2
+14:2
+management:2
+Canada:2
 T.:2
-Information,:2
-Communication:2
-Centre.:2
-(1992).:2
-16,:2
-Computer-Mediated:2
-(Eds.),:2
-K.,:2
-(2009).:2
-K.:2
-(2012).:2
-Media,:2
-Arts:2
-(Honors),:2
-journalism:2
-interests:2
-707187:1
-SMSXXX10.1177/2056305117707187Social:1
+ACM:2
+Parents:2
+ J.:2
+ C.:2
+Eds:2
+Social  Media:2
+(Honors:2
+707187 SMSXXX10.1177/2056305117707187Social Media:1
 SocietyChalklen:1
 research-article2017:1
-SI::1
-Infancy:1
+Infancy Online:1
 Mothering:1
-Privacy/Openness:1
-April-June:1
-2017::1
-–10:1
-©:1
-Author(s):1
+the Privacy/Openness Paradox
+
+:1
+April-June 2017:1
+© The Author(s:1
 2017:1
 Reprints:1
-permissions::1
-sagepub.co.uk/journalsPermissions.nav:1
-DOI::1
+permissions:1
+sagepub.co.uk/journalsPermissions.nav
+DOI:1
 10.1177/2056305117707187:1
-https://doi.org/10.1177/2056305117707187:1
+https://doi.org/10.1177/2056305117707187
 journals.sagepub.com/home/sms:1
+Heather Anderson:1
 Abstract:1
-children?:1
+To  post  or  not  to  post  photographs:1
+potentially  controversial  topics:1
+
 vaccinations:1
-breastfeeding:1
-forum:1
-group?:1
+a public forum:1
+even a private group:1
+affordances:1
 unimaginable:1
-pre–social:1
-(SNS):1
-era,:1
+a pre–social networking site:1
+SNS) era:1
 dilemmas:1
 surrounding:1
+The SNS activity:1
 brings:1
-lives:1
+the lives:1
+online 
 spaces:1
 builds:1
-capital,:1
 creates:1
-tensions:1
+ethical tensions:1
 raises:1
-series:1
-contemporary:1
-quandaries.:1
+a series:1
+
+contemporary quandaries:1
 Drawing:1
-study,:1
+a mixed-methods study:1
+an online survey:1
+117 mothers:1
 examines:1
-complex:1
-often-uneasy:1
-balance:1
+Australian mothers’ complex concerns:1
+the 
+often-uneasy balance:1
+the need:1
+The findings:1
+the most commonly cited downsides:1
+Facebook  use:1
+ways:1
 protect:1
+their  privacy:1
 enjoying:1
+These negotiation tactics:1
 demonstrate:1
-social–:1
-political:1
+
+political implications:1
 Keywords:1
 Introduction:1
-exponential:1
-(SNSs),:1
-particular,:1
+The exponential rise:1
 inspired:1
-scholars:1
+many scholars:1
 inves-:1
-tigate:1
-ubiquitous:1
-form:1
-communication.:1
+tigate  privacy  issues:1
+the  affordances:1
+this 
+popular and increasingly ubiquitous form:1
 considers:1
-enthusiastic:1
-adopters::1
-recent:1
-nationally:1
-representative:1
-poll:1
-United:1
-States:1
+these issues:1
+ most  enthusiastic  adopters:1
+young 
+children:1
+A recent nationally representative child health poll:1
+the  United  States:1
 84%:1
 70%:1
-fathers:1
+over half:1
 moth-:1
 ers:1
-(56%),:1
-34%:1
-fathers,:1
-(Child:1
-Unit,:1
-babies,:1
-toddlers,:1
-pre-schoolers:1
-per-:1
-tinent:1
+56%:1
+only 34%:1
+ Research  Unit:1
+ babies:1
+pre:1
+schoolers:1
+an under-researched but per-
+tinent group:1
+study:1
+allows:1
 cir-:1
 cumvent:1
+the  social  limitations:1
 isolation:1
 caring:1
-dren.:1
-instant:1
+instant access:1
 fam-:1
-ily,:1
-advice,:1
-networks,:1
-entertainment,:1
+ily:1
+parenting advice:1
+professional networks:1
+entertainment:1
 diversion:1
 leave:1
-auditory:1
-asynchronous:1
+auditory  space:1
+The  asynchronous  nature:1
 attractive:1
 drop:1
-in-between:1
+conversations:1
 tending:1
+efficient:1
 updated:1
 events:1
-tool:1
+an 
+essential modern tool:1
+the same way:1
+social 
 constructivists:1
-Fischer:1
-(1992):1
-cars,:1
-telephones,:1
+radio, cars, 
+telephones:1
 television:1
-previous:1
-generations.:1
-(and:1
-parents):1
-area:1
+previous generations:1
+The  attitudes:1
+ parents:1
+privacy 
+issues:1
+their chil-
+dren:1
+an  under-researched  area:1
 explored:1
-gorgeous:1
-joy:1
-share,:1
+qualitative data:1
+A gorgeous 
+baby photograph:1
+a joy:1
+digital 
+footprints:1
+factors:1
+many mothers:1
 fully:1
-experience.:1
-Community:1
-Australia:1
-Author::1
-Chalklen,:1
-Languages,:1
-Magill:1
-Campus,:1
-GPO:1
-Box:1
-2471,:1
-Adelaide,:1
-SA:1
-5001,:1
-Email::1
+the 
+Facebook experience:1
+Community concerns:1
+Corresponding Author:1
+School:1
+International Studies:1
+
+Languages:1
+Magill Campus:1
+GPO Box:1
+2471:1
+Adelaide:1
+5001:1
+Email:1
 charlotte.chalklen@unisa.edu.au:1
-Commercial:1
-CC:1
-BY-NC::1
+Creative Commons Non Commercial CC BY-NC:1
 distributed:1
-Attribution-:1
-NonCommercial:1
-3.0:1
-License:1
-(http://www.creativecommons.org/licenses/by-nc/3.0/):1
+the terms:1
+the Creative Commons Attribution-:1
+NonCommercial 3.0 License:1
+http://www.creativecommons.org/licenses/by-nc/3.0/:1
 permits:1
-non-commercial:1
+non-commercial use:1
 reproduction:1
 distribution:1
-permission:1
+the work:1
+further permission:1
+the original work:1
 attributed:1
-SAGE:1
-Open:1
-Access:1
-(https://us.sagepub.com/en-us/nam/open-access-at-sage).:1
+specified:1
+the SAGE and Open Access pages:1
+https://us.sagepub.com/en-us/nam/open-access-at-sage:1
+online privacy:1
 tend:1
+focus:1
 regard-:1
+ing children:1
+too much 
+information:1
+children’s privacy 
+rights:1
 undermined:1
-forums).:1
+younger  children:1
+public  forums:1
+One 
 exception:1
 Kientz’s:1
-(2016):1
-household:1
-rules,:1
-frustration:1
-parents’:1
+) study:1
+family perspectives:1
+household technology rules:1
+significant  frustration:1
+over-sharing:1
+Children:1
+the content:1
+their parents:1
 embarrassing:1
 contrib-:1
 uted:1
 presence:1
-(10–17:1
-years):1
+their  consent:1
+These 
+children:1
+10–17 years:1
 respon-:1
 dents:1
-research;:1
-Similarly,:1
+ the  findings:1
+valuable insights:1
+potential future attitudes:1
+both chil-:1
+dren:1
+SNS  sharing:1
+Similarly:1
 investigate:1
+the  types:1
+baby  pictures:1
+the factors:1
+consid-:1
 ered:1
-process.:1
+this process:1
 validation:1
 outweighed:1
+many  concerns:1
 creating:1
-involuntary:1
-footprint.:1
+a  child’s 
+involuntary  digital  footprint:1
+These  findings:1
 framed:1
-concept:1
-stewardship—“the:1
-responsibil-:1
+the concept:1
+stewardship—“the responsibil-:1
+ity parents:1
 deciding:1
+appropriate:1
 ensuring:1
-(others):1
-integrity:1
-rules”:1
-(Kumar:1
-2015,:1
+(others:1
+
+respect:1
+the integrity:1
+those rules:1
+Kumar & 
+:1
 p.:1
-9).:1
-exist,:1
-Internet-enabled:1
+While  few  studies:1
+enabled:1
 broadly:1
-empower:1
-(Cohen:1
-2009;:1
-Madge:1
-2006).:1
-Microsoft:1
-SNS’:1
+empower  mothers:1
+Cohen:1
+Lopez:1
+Madge & O’Connor:1
+A 
+Microsoft  study:1
 combat:1
 postnatal:1
 depression:1
+(Morris:1
 Gibson:1
-(2013):1
 notes:1
 improve:1
-confidence:1
-obser-:1
+an identity:1
+aside:1
+Such obser-
 vations:1
 highlighting:1
-propensity:1
+
+SNS use:1
+(e.g., Burke:1
+Facebook’s propensity:1
+act:1
+a conduit:1
 strengthen:1
-(Burke:1
-2007).:1
+ relationships:1
+weaker  ties:1
+Burke  &:1
+
+Lampe, 2007:1
+terms:1
 empowerment:1
-limitless:1
-vulnerable—the:1
+limitless  opportunities:1
+real risks:1
+vulnerable:1
+the professional 
+risks:1
+associated:1
 collapsed:1
 publics:1
 connection:1
 work-:1
-tenuous,:1
-jeopardy.:1
+tenuous:1
+mothers’ ability:1
+jeopardy:1
+One study:1
 looked:1
-profiles:1
+the impact:1
+Facebook profiles:1
 hiring:1
 decisions:1
-drugs,:1
+sex:1
+drugs:1
 favors:1
 job-seekers:1
+either sex:1
+employers:1
 hire:1
-male:1
-candidates:1
-(Karl:1
-2009).:1
+male candidates:1
+(Karl & Peluchette:1
+Another study:1
 suggested:1
-self-disclosure:1
+a link:1
 loneliness:1
-(Al-Saggaf:1
+female:1
+Al-Saggaf & Nielsen:1
 Women:1
-abuse,:1
+online abuse:1
 perceive:1
-(Hoy:1
+more risk:1
+more privacy concerns:1
+Hoy & Milne:1
+ men:1
+privacy-protective  strategies:1
+ un-friending  contacts:1
+(Madden:1
 relying:1
-US-based:1
-methods,:1
-gap:1
+US-based 
+college students:1
+quantitative methods:1
+a gap:1
 exists:1
-demographically:1
+demographically  diverse  groups:1
+everyday life:1
+Rains & Brunner:1
 Acknowledging:1
+both the benefits:1
+the  hazards:1
+this  article:1
 seeks:1
-transcend:1
-disciplines:1
+transcend  disciplines:1
 debates:1
+the worth:1
+lack:1
 thereof:1
 explore:1
-risks—particularly:1
-children—while:1
+the  ways:1
+its  privacy 
+risks:1
 lever-:1
 aging:1
-Privacy–Openness:1
+its opportunities:1
+The Privacy–Openness Paradox:1
 Literature:1
+social networking:1
+a “privacy paradox:1
+close personal information:1
+despite:1
 professing:1
-2013;:1
+ privacy  issues:1
+e.g.:1
+Young  &  Quan-Haase:1
 Interrogating:1
+the  “privacy 
+paradox:1
+several studies:1
 naive:1
-practices:1
+their  disclosure  practices:1
+
+protective  strategies:1
 desired:1
-Dienlin:1
-2012;:1
-Masur:1
-2016;:1
-Privacy-protective:1
-self-censorship:1
+ levels:1
+Dienlin & Trepte:1
+Masur  &:1
+Young  &  :1
+Privacy-protective behaviors:1
+appear:1
+the 
+rise:1
+censorship:1
 parsimony:1
-(Masur:1
-2016),:1
-“pruning”:1
-editing,:1
+Masur  & 
+Scharkow:1
+pruning:1
+editing:1
 un-:1
 removing:1
 tags:1
 adjusting:1
-Paradoxically,:1
+
+privacy settings:1
+Paradoxically:1
 reveal:1
 oneself:1
 reap:1
-(Ellison,:1
+
+SNSs:1
+Steinfield, Gray:1
 observation:1
 actively:1
-(posting:1
-updates):1
 gain:1
 passive:1
-(Burke,:1
+ Marlow:1
 reaffirms:1
-vacy-savvy:1
-(however,:1
-repercussions:1
+vacy:1
+savvy:1
+more active users:1
+more negative repercussions:1
 relating:1
-well).:1
 sheds:1
 light:1
-sophisticated:1
+the increasingly sophisticated way:1
+ many  mothers:1
+privacy-protective 
+strategies:1
+open discussion:1
 inappropriate:1
-audiences.:1
-balancing:1
+audiences:1
+this evolving balancing act:1
 exploring:1
-possibilities:1
-vast:1
-crux:1
-Methods:1
-exploratory,:1
-benefits,:1
-downsides.:1
+the possibilities:1
+vast net-
+work:1
+the crux:1
+Anderson 
+
+Methods
+
+:1
+a broader project:1
+Australian mothers’ behaviors:1
+The original research:1
+younger than 5 years:1
+key:1
 theme:1
 emerged:1
+mothers’ concerns:1
 versus:1
-transparency,:1
+transparency:1
 information-shar-:1
-fluid:1
-network,:1
-here.:1
+a fluid network:1
+the focus:1
 particu-:1
-lar,:1
-impacts:1
+lar:1
+the relationships:1
+mothers’ use:1
+the  digital  footprints:1
+their  young  chil-
+dren:1
+consider:1
+the impacts:1
 shar-:1
+ing information:1
+digital:1
+footprint:1
 solely:1
-stories,:1
-indirectly—through:1
-forums,:1
-example—and:1
+the act:1
+a  public  space:1
+This  research:1
+indirectly:1
+
+forums:1
+negotiation tactics:1
 relat-:1
 wide:1
+privacy  issues:1
 demon-:1
 strating:1
-social–political:1
-approach,:1
+the social–political implications:1
+a mixed-methods approach:1
+a 
+web-based survey:1
 minimize:1
-reliance:1
-effect:1
-over-emphasis:1
-obsolete):1
+ the  limitations:1
+A  reliance:1
+quantitative  survey 
+data:1
+SNS research:1
+the effect:1
+emphasis:1
+research 
+obsolete:1
+everyday:1
+Rains:1
 illuminate:1
-subjects’:1
+ subjects:1
 rationale:1
+the quantitative sur-:1
+vey data:1
 prioritize:1
+discussion:1
+the interviews:1
 perspective:1
 achieved:1
+The  project:1
 approved:1
-Australia’s:1
-Ethics:1
-Committee.:1
-Web-Based:1
-questionnaire:1
-19:1
-14:1
-multiple-choice:1
-tions,:1
-qualitative/text-based:1
-answers,:1
-agreed,:1
-disagreed,:1
-disagreed:1
-with.:1
+the University of South Australia’s Human 
+Research Ethics Committee:1
+
+
+Web-Based Survey:1
+The  SurveyMonkey  questionnaire:1
+ 19  questions:1
+14 multiple-choice ques-
+tions:1
+ three  qualitative/text-based  answers:1
+a  section:1
+various statements:1
+neither:1
 Questions:1
 covered:1
 spent:1
-activities,:1
+
+profile pictures:1
+perceived benefits:1
+Facebook 
+use:1
+preferred activities:1
+types:1
 tables:1
-results).:1
-recruitment:1
-strategy:1
-leveraged:1
+selected results:1
+The recruitment strategy:1
+leveraged Facebook:1
 network-:1
-capabilities,:1
+
+ing capabilities:1
+aspects:1
+convenience sampling:1
 snowball:1
 readily:1
 time-:1
-cost-effective:1
-way.:1
-purpose,:1
+cost:1
+effective:1
+3
+
+convenience sampling:1
+its lack:1
+
+purpose:1
 strategic:1
-(Gray,:1
+the 
+researchers:1
 targeted:1
-specifically,:1
 intro-:1
 duced:1
-snowball-sampling:1
-concerns.:1
-Initially,:1
-blurb,:1
-image,:1
-Raising:1
-Network:1
-page,:1
+ snowball-sampling  techniques:1
+such concerns:1
+Initially:1
+a blurb:1
+image:1
+the sur-
+vey:1
+the Raising Children Network Facebook 
+page:1
 garnered:1
 initial:1
+
+responses:1
 required:1
+the researchers:1
 utilize:1
-networks.:1
+their own networks:1
 Targeting:1
 educators:1
 professionals:1
+selected contacts:1
 for-:1
 ward:1
-interested:1
-indi-:1
+the  post:1
+potentially:1
+interested  groups  and  indi-
 viduals:1
-networks;:1
+their  networks:1
+the  link:1
 subsequently:1
-parenting-related:1
-pages.:1
-months,:1
-valid:1
-received.:1
+five:1
+Facebook  group  pages:1
+ responses:1
+3 months:1
+ 117  valid  responses:1
 responded:1
-(84:1
-received):1
-Weblink:1
-(33).:1
-Semi-Structured:1
-20-min:1
-interview,:1
+an associated Weblink:1
+33:1
+Semi-Structured Interviews:1
+Online:1
+part:1
+a  20-min  semi-structured 
+interview:1
+45 people:1
 emailed:1
+further  information:1
 resulting:1
-conducted,:1
+ 17  semi-structured 
+interviews:1
 producing:1
-total:1
-recorded:1
-material.:1
+a total:1
+8 hr:1
+recorded 
+material:1
+Interviews:1
+com-:1
 fortable:1
 convenient:1
-participants.:1
+ participants:1
+Nine:1
 con-:1
 ducted:1
 telephone:1
-face-to-face.:1
-interviewees,:1
-lead:1
-uni-:1
-versity:1
-acquaintance).:1
-subjects;:1
-frankness:1
+eight:1
+known:1
+the  lead 
+researcher:1
+(one:1
+a former colleague:1
+a former uni-
+versity acquaintance:1
+some questions:1
+the 
+ethical issues:1
+greater frankness:1
 depth:1
 sub-:1
+
 jects:1
 pressured:1
-(Brewis,:1
-case,:1
-decade:1
-prior:1
-influence:1
-revealed.:1
+this 
+case:1
+the researcher:1
+close contact:1
+either:1
+the known subjects:1
+more than a decade:1
+the prior 
+relationship:1
+a significant influence:1
+the 
+interview:1
+the subject:1
+revealed:1
+A list:1
 15:1
-(mostly:1
-open-ended):1
+(mostly open-ended) questions:1
 compiled:1
-themes:1
-respondents.:1
+key themes:1
+
+online survey respondents:1
 encouraged:1
 explain:1
-parent,:1
-disadvan-:1
+their Facebook use:1
+Facebook’s:1
+advantages:1
+ disadvan-
 tages:1
-communication,:1
-position:1
+other forms:1
+their  experience:1
+their  position:1
 recount:1
-positive:1
-experiences:1
+any particularly positive or 
+negative experiences:1
 describe:1
-strate-:1
+the strate-
+gies:1
 deal:1
-prevent:1
+negative experiences:1
 Limitations:1
-views,:1
+a web-based survey:1
+semi-structured inter-
+views:1
 relies:1
-self-reporting:1
-measures.:1
+entirely:1
+self-reporting measures:1
+a more effective way:1
 obtaining:1
-exam-:1
-ple,:1
-145:1
+an accurate picture:1
+actual behavior:1
+exam-
+ple:1
+one study:1
+145 min:1
+actually:1
 average:1
-(Junco,:1
+26 min:1
+(Junco:1
 monitor:1
 limi-:1
 tations:1
-exploratory:1
-emphasis,:1
+because  the  study:1
+its emphasis:1
+its kind:1
+actual use:1
+a 
+useful way:1
 triangulate:1
+results:1
 quan-:1
-titative:1
-statistics:1
+titative statistics:1
 recommended:1
-area.:1
-Data:1
-Analysis:1
+future studies:1
+this area:1
+Data Analysis:1
+117 survey responses:1
+17 interviews:1
+the amount:1
+
+data:1
 larger:1
 intended:1
 conduct:1
-combination:1
-computer-derived:1
+a combination:1
+computer:1
 statis-:1
 tics:1
-analysis.:1
-in-built:1
+ manual  content  analysis:1
+built:1
+SurveyMonkey:1
 utilized:1
-demo-:1
-graphics,:1
+demo-
+graphics:1
+ preferences:1
 trends:1
-relative:1
-importance:1
-Meanwhile,:1
-open-ended:1
-(“what:1
-Facebook”:1
-“what:1
-Facebook”):1
-transcripts:1
+Facebook  behavior:1
+the  relative  importance  of  different  issues:1
+Meanwhile:1
+manual analysis:1
+the open-ended survey ques-
+tions:1
+inter-
+view transcripts:1
+the most effective way:1
+
 sense:1
+the qualitative data:1
+vey  data:1
 Text:1
 software:1
-considered,:1
 estimate:1
 30%:1
-(Branthwaite:1
-2011),:1
-“thick:1
-approach.:1
-“Thick:1
+a “thick data” approach:1
+“Thick data:1
 describes:1
-unique:1
+the unique insight:1
 human:1
-interpretation:1
-“why”:1
-big:1
-data’s:1
-“what,”:1
-“stories:1
+ manual  interpretation:1
+ data:1
+provides:1
+big data:1
+“what,” the “stories:1
 contex-:1
-tualize:1
-(Wang,:1
+tualize  data:1
+The  manual  content  analysis:1
 entailed:1
 reviewing:1
-tran-:1
+individual responses:1
+interview tran-
 scripts:1
-themes,:1
+common themes:1
 reasoning:1
 comparing:1
 linking:1
-analysis,:1
+the insights:1
+the data:1
 categorized:1
-attitudes.:1
+three groups:1
+their Facebook behaviors:1
+The groups:1
 devised:1
-authors:1
-anal-:1
-ysis,:1
-markers:1
-spectrum:1
+anal-
+ysis:1
+helpful markers:1
+a spectrum:1
 Ideas:1
 accept-:1
-non-acceptable:1
+acceptable:1
 disclosures:1
 varied:1
-enormously,:1
-“mothers:1
+enormously:1
+the “mothers:1
+
+young  children:1
 category:1
-over-simplified:1
+simplified:1
+the 
+results:1
 misrepresented:1
-subjects.:1
-groupings:1
-follows::1
-6,:1
-35%),:1
-4,:1
-24%),:1
-41%).:1
+the subjects:1
+The groupings:1
+follows:1
+pro-:1
+tective users:1
+41%:1
+Advanced-active  users:1
 integrated:1
-extent,:1
-method:1
-strangers.:1
-administrators:1
-groups,:1
-strategies,:1
+their everyday life:1
+a large extent:1
+a  preferred  method:1
+
+acquaintances:1
+strangers:1
+ administrators:1
+closed-protec-:1
+
+tive:1
 gather:1
-un-friend:1
+
+debate:1
+parenting  information:1
+Advanced:1
+un-friend people:1
+ other  users:1
+close  friends:1
 Closed-:1
-privacy-conscious:1
-“look”:1
-“like”:1
-lot:1
-“share”:1
-post.:1
+protective users:1
+conscious:1
+look:1
+a lot:1
 usu-:1
+ally:1
 restricted:1
-friend:1
-updates:1
+Facebook  friends:1
+the other groups:1
+
+colleagues:1
+post status:1
 checked:1
-day),:1
+post  pictures:1
 refrain:1
+
+health or parenting information:1
 gleaned:1
-links.:1
-Fence-sitters:1
-strategies;:1
+useful information:1
+such topics:1
+others’ threads:1
+useful links:1
+Fence:1
 wary:1
+friending colleagues:1
+children’s pictures:1
+
+fence-sitters:1
 pragmatic:1
-avoided.:1
+the 
+very  activities:1
 Unlike:1
+rules:1
 constituted:1
-acceptable:1
-practices.:1
+acceptable sharing practices:1
+The advanced-active users:1
+a greater range:1
 bene-:1
 fits:1
+closed-protective  users:1
 invested:1
-consequences:1
-disagreements,:1
-trolling,:1
-slights.:1
+negative consequences:1
+ disagreements:1
+trolling:1
+slights:1
+Some 
+closed-protective users:1
 burnout:1
+getting:1
 caught:1
-arguments:1
-drama.:1
+ arguments:1
+ drama:1
 Passively:1
-“lurking”:1
+“lurking:1
 serve:1
-purpose:1
-risk-free:1
-extra:1
+a useful purpose:1
+a 
+risk-free way:1
+the extra social insight:1
 afforded:1
-judgment,:1
-misun-:1
-derstandings,:1
+the judgment:1
+, misun-:1
+
+derstandings:1
 conflict:1
 occur:1
 expresses:1
-one’s:1
-opinions:1
+
+one’s opinions:1
 freely:1
-broad:1
-audience.:1
+a broad audience:1
 Results:1
 Discussion:1
-Demographics,:1
-Preferences,:1
+Demographics:1
+Preferences:1
 Behaviors:1
 30–34:1
-toddlers:1
 2–3:1
-respond:1
-employed,:1
 largest:1
 cohort:1
-part-time:1
-paid:1
-(35%):1
-“full-time:1
-employment”:1
-(26%;:1
-stay-at-home:1
-mums).:1
+part-time paid work:1
+full-time parents:1
+ employment:1
+26%:1
+ mums:1
+The  sur-
+vey  respondents:1
 chose:1
-details:1
-generally:1
+their  contact  details:1
+came:1
 experi-:1
 enced:1
 92%:1
+a profile:1
 lon-:1
 ger:1
-length:1
+years:1
+the most common length:1
 joining:1
-6–8:1
-(46%).:1
-educated:1
-cohort—all:1
-post-secondary:1
-qualification,:1
+6–8 years:1
+46%:1
+The interview subjects:1
+an educated cohort:1
+the 17 interviewees:1
+a 
+post-secondary qualification:1
+Pew research:1
 show-:1
-degree:1
-population:1
-(Duggan:1
+a degree:1
+the 
+broader population:1
+Duggan & Smith:1
 77:1
-76:1
 57:1
-42:1
 27:1
-18:1
 66:1
 58:1
 55:1
 41:1
 37:1
-11:1
-1.:1
-“Friends”:1
+What Type:1
 Enjoy:1
 Interacting:1
-“friend”:1
-Current:1
-Acquaintances/friends-of-friends:1
+Former school friends:1
+Current colleagues:1
+Former colleagues:1
+Acquaintances/friends:1
 Neighbors:1
 68.14:1
 67.26:1
@@ -1471,227 +1541,277 @@ Neighbors:1
 15.93:1
 4.42:1
 1.77:1
-Activities:1
+Types:1
+Facebook Activities:1
 Participate:1
-Often?:1
+Often:1
+activity:1
 Reading:1
 passively:1
-(without:1
-liking/commenting/sharing):1
+liking:1
+commenting/sharing:1
 Posting:1
+private group pages:1
 Commenting:1
-message/chats:1
+Private message/chats:1
 Running:1
-business:1
+my own business:1
 Sharing:1
 60.55:1
 53.21:1
-50.46:1
-41.28:1
-37.61:1
-33.94:1
-10.09:1
-8.26:1
-0.92:1
-regular:1
+50.46
+:1
+41.28
+37.61
+33.94
+
+10.09
+8.26
+0.92
+
+Survey  respondents:1
+much  regular  users:1
 114:1
 97%:1
 39%:1
-quarter:1
-(25%):1
-“all:1
-day.”:1
-(86%):1
+more than three:1
+around a quarter:1
+(25%) reporting:1
+86%:1
+more than half an 
 hour:1
-“30:1
-(34%),:1
-“1–2:1
+30 min:1
+the most 
+common amount:1
+34%:1
+a third spending:1
+1–2:1
 19%:1
-day.:1
-“Dunbar’s:1
-number,”:1
+more than 2:1
+Dunbar’s number:1
 coined:1
-20:1
-ago:1
-anthropologist:1
+more than 20 years ago:1
+an anthropologist:1
 proposed:1
 humans:1
 comfort-:1
 ably:1
-150:1
-stable:1
-(Dunbar,:1
-1992),:1
+150 stable relationships:1
+(Dunbar:1
 holds:1
 roughly:1
 true:1
-sample,:1
-“friends”:1
+this sample:1
+most survey respondents:1
+ 200  “friends:1
+
+Facebook:1
 80:1
-(64%),:1
+200:1
+the most common range:1
+64%:1
 200–500:1
-(21%):1
+(21%:1
 20–80:1
-(15%).:1
-500:1
-“friends.”:1
-2),:1
-popular,:1
-larly”:1
-(67%).:1
-(50%),:1
-regularly”:1
-(38%):1
-(37%).:1
-Granovetter’s:1
-(1973):1
-theory—that:1
-outer-:1
-acquaintances—is:1
+(15%:1
+Only 
+one survey respondent:1
+more than 500 “friends:1
+Facebook 
+:1
+the two 
+most common responses:1
+Friends I see in person regu-
+larly”  (68%:1
+Friends  I  see  in  person  :1
+50%:1
+(38%:1
+Family I 
+:1
+Granovetter’s (1973) strength:1
+weak ties theory:1
+ social  benefits:1
+our  ties:1
+ outer-
+circle:1
+ acquaintances:1
 relevant:1
-sample.:1
-(67%):1
+this 
+sample:1
+liked:1
+Facebook’s  ability:1
+almost:1
+regu-:1
 larly:1
-(38%),:1
-(11%),:1
+38%:1
 neighbors:1
-(only:1
-2%).:1
+2%:1
+ “Other  parents:1
+survey  respondents:1
 interact:1
-(16%):1
+ former 
+colleagues:1
+16%:1
 favored:1
-(24%):1
-university:1
-(7%).:1
+former school friends:1
+former university friends:1
+7%:1
 Twelve:1
 interact-:1
-person.:1
-figures,:1
-tendency:1
+ person:1
+These  
+figures:1
+mothers’  tendency:1
 develop:1
 influenced:1
-concerns—it:1
-well-liked:1
+safer:1
+let:1
+a well-liked former colleague:1
 living:1
 Bali:1
 rub:1
-colleagues’:1
-noses;:1
+your  current  colleagues:1
+ noses:1
 risky:1
-parents-in-law.:1
-Concerns:1
+toddler discipline:1
+another parent:1
+the parents:1
+Privacy Concerns:1
 Change:1
-Parent:1
-statement:1
-concern,”:1
-(“Facebook:1
-addictive”:1
-85%;:1
-4).:1
-4%:1
-“downsides”:1
-(time-wasting:1
+Use:1
+Since:1
+Becoming:1
+a Parent:1
+the  statement 
+“privacy issues:1
+second:1
+85%:1
+Only 4%:1
+saw:1
+downsides:1
+privacy-
+related issues:1
+the most cited (time-wasting:1
 addic-:1
-popular).:1
-extensive:1
-institu-:1
-tional:1
-marketing;:1
-“cyber:1
-footprint”:1
-children;:1
-stalking,:1
-bullying,:1
+
+tion:1
+an 
+extensive range:1
+both social and institu-
+tional privacy:1
+personal data:1
+marketing:1
+the “cyber 
+footprint:1
+stalking:1
+bullying:1
+acquaintances:1
+ potential  employers:1
 confusion:1
 doubt:1
-efficacy:1
+the  efficacy:1
 set-:1
-tings;:1
-ownership:1
-abil-:1
-poster:1
-private.:1
+
+tings:1
+content ownership:1
+others’ abil-:1
+ity:1
+the original poster:1
 Experience:1
-approach:1
+the platform:1
+many users’ approach:1
+changes:1
 demonstrating:1
+that 
 movement:1
-spectrum—for:1
-advanced-active—is:1
+across:1
+spectrum:1
+ example:1
+
+fence-sitter:1
+possible:1
+relatively:1
+common:1
 result:1
+ life:1
 circumstances:1
-situations:1
-3.:1
-Statements?:1
-6:1
+ and  experiences:1
+Several 
+interviewees:1
+described situations:1
+their behavior:1
+
+
+Table 3:1
+the Following Statements:1
+Neither:1
 agree/:1
 disagree:1
 Disagree:1
-addictive:1
+(N:1
+Privacy issues:1
+the most efficient way:1
+all the people:1
+my life:1
 isolated:1
+therefore:1
+parent:1
 meet:1
+new people:1
 jealous:1
-professional/work:1
-prospects:1
+my professional/work prospects:1
 84.85:1
-(84):1
 77.55:1
-(76):1
 72.73:1
-(72):1
+72:1
 71.72:1
-(71):1
+71:1
 54.55:1
-(54):1
+54:1
 42.42:1
-(42):1
 30.61:1
-(30):1
+30:1
 25.25:1
-(25):1
 18.18:1
 10.10:1
 18.37:1
 20.20:1
-(20):1
+20:1
 19.19:1
 29.29:1
-(29):1
 40.40:1
-(40):1
+40:1
 22.45:1
-(22):1
 28.28:1
-(28):1
+28:1
 34.34:1
-(34):1
+34:1
 5.05:1
-(5):1
 4.08:1
-(4):1
 7.07:1
-(7):1
 9.09:1
-(9):1
 16.16:1
-(16):1
 17.17:1
-(17):1
 46.94:1
-46.46:1
-47.47:1
-(47):1
-4.:1
+46:1
+46.46 (46)
+47.47 (47)
+
+Table:1
+What Types:1
 Posts:1
-Make?:1
-referrals:1
+Would:1
+Unlikely:1
+Make:1
+work referrals:1
 drinking:1
 childcare:1
-parenthood:1
-Political:1
-business/poor:1
-service:1
-I’ll:1
-feeling—nothing’s:1
+Political discussions:1
+my own children:1
+a business/poor service:1
+’ll:1
+feeling:1
+nothing:1
 limits:1
 76.64:1
 68.22:1
@@ -1709,952 +1829,1193 @@ limits:1
 53:1
 50:1
 39:1
+26:1
 24:1
-views:1
-parenting,:1
+their views:1
 politi-:1
-cal,:1
-disagreements:1
+cal:1
+social issues:1
+public disagreements:1
 played:1
-(59%):1
-changed,:1
-pre-children:1
+59%:1
+that 
+pre:1
+ activities:1
+ social  pictures:1
 touch:1
-overseas,:1
+overseas:1
 motivated:1
-accessing,:1
-(with:1
+a  way:1
+Several interviewees:1
+the way:1
+became:1
 reassessing:1
-culling:1
+their social circle:1
+culling friends:1
 lists:1
 temporarily:1
-down,:1
+their profile:1
 shifting:1
 fence-:1
+
 sitters:1
-users),:1
+evolving:1
+nature:1
+the 
+platform:1
 affected:1
+their  use:1
 early:1
 days:1
-fewer:1
+fewer users:1
 typi-:1
 cally:1
-updates,:1
 encompass:1
-cross:1
-(amplifying:1
-vacy:1
-concerns),:1
+a wider cross section:1
+amplifying:1
+vacy concerns:1
 articles:1
 rapidly:1
 expanding:1
-Facebook-friendly:1
-prevalent.:1
-Footprints,:1
-Privacy,:1
-Control::1
-Pictures?:1
+friendly:1
+prevalent:1
+Digital Footprints, Privacy:1
+Control:1
+Post:1
+Post Children’s Pictures:1
+The privacy:1
 illuminated:1
-domain.”:1
+mothers’ 
+attitudes:1
+one survey respondent:1
+
+photos:1
+photos:1
+the public domain:1
+
+Survey respondents:1
 divided:1
-propor-:1
-(37%):1
+
+photographs:1
+a significant propor-
+tion:1
 publish:1
-content.:1
-son:1
-face,:1
+such 
+content:1
+One advanced-active interviewee:1
+his  face:1
+several closed-protective users:1
 requested:1
-down::1
-week:1
-old,:1
+taken:1
+about a week old:1
 announce:1
-she’d:1
-born,:1
-plan:1
-more—I:1
+born:1
+the  current  plan:1
 change:1
-mind—we’ve:1
-her.:1
+my  mind:1
+we’ve:1
+their  chil-
+dren:1
 consent:1
-interests,:1
+a 
+digital  footprint:1
+the  child’s  long-term 
+best interests:1
 reflecting:1
 consciousness:1
+what Kumar:1
 refer:1
-stewardship.:1
-“Naked:1
-bath,:1
-training,”:1
+ privacy  stewardship:1
+
+example:1
+, “Naked photos:1
+the bath:1
+toilet 
+training:1
+one advanced-active user:1
 worry:1
-kids,:1
-story:1
-kids’:1
-story—and:1
+some people:1
+their story:1
+their kids’ story:1
 affect:1
-life.:1
-theft:1
+later:1
+identity theft:1
 pedophilia:1
 fears:1
-survey,:1
+the 
+online survey:1
 definite:1
-precise:1
-reasons:1
+their 
+precise reasons:1
 limiting:1
-footprint,:1
+their children’s digital footprint:1
 referring:1
-general:1
-unease:1
-issue.:1
-internet;:1
+a general unease:1
+the issue:1
 decision:1
-her—when:1
-7:1
-her.”:1
-(The:1
-infertile:1
-friends—a:1
+wants:1
+her photo:1
+go:1
+her 
+baby:1
+consideration:1
+infertile  friends:1
 sensitive:1
 reasonable:1
-policy:1
 contrasted:1
-viewee’s:1
-comment:1
-difficulty:1
+another  inter-
+viewee’s  comment:1
+the  difficulty:1
 viewing:1
-announcements:1
+birth announcements:1
+baby pictures:1
 under-:1
-vitro:1
-fertilization:1
-[IVF].):1
-Interestingly,:1
-matters:1
+vitro  fertilization:1
+IVF:1
+Interestingly:1
+potentially contentious matters:1
 politics:1
-reli-:1
-gion,:1
-issue:1
+reli-
+gion:1
+closed-protec-
+tive users:1
+A key issue:1
+the lack:1
 articulated:1
-ease:1
-children::1
-“Nothing:1
-anymore.:1
-kid:1
+her concern:1
+the ease:1
+her children:1
+Nothing:1
+personal:1
+anymore:1
+A public 
+page:1
+a picture:1
+my kid:1
+my consent:1
 removed:1
-request,:1
-opinion:1
-published,:1
-stay:1
-forever.”:1
-find-:1
+my  request:1
+my  opinion:1
+published:1
+the internet:1
+forever:1
+These find-
 ings:1
 align:1
-(2007):1
-parents,:1
+et al:1
+privacy patterns:1
+consid-
+erations:1
+online and mobile photo sharing:1
+
+parents:1
+any other group:1
+
+privacy issues:1
 publicly:1
+
+pictures:1
 fear:1
-reservations,:1
+reservations:1
 noting:1
-“posting:1
-pho-:1
+pho-
 tos/comments:1
+Facebook activity:1
 61%:1
 choos-:1
 select:1
+up to four activities:1
+par-:1
 ticipated:1
-frequently.:1
+sitter:1
+interviewee:1
 summed:1
-way::1
+the paradox:1
+this way:1
 read:1
-[an:1
-expert]:1
-“you:1
-used,:1
+an  article:1
+an  expert:1
+saying:1
+your kids:1
 assume:1
-innocent:1
-purposes,”:1
-intention:1
-token:1
-friends’:1
-there—love:1
-it—and:1
-doing.:1
-difficult.:1
+ innocent  purposes:1
+my  intention:1
+the same token:1
+seeing:1
+
+kids:1
+difficult:1
 directly:1
-comparable,:1
-proportion:1
+comparable:1
+a large proportion:1
 participants:1
-“somewhat:1
-comfortable”:1
-dren’s:1
+somewhat:1
+
+dren’s pictures:1
+ some  mothers:1
 reluctant:1
+ pictures:1
+their 
+own  children:1
 unwilling:1
+
 peers:1
-“pictures:1
-children”;:1
-68%:1
-so.:1
-Again,:1
+the  case:1
+the  parents:1
 surveyed:1
+Ahern et al:1
 advanced-:1
-specific:1
+active users:1
+specific rules:1
 post-:1
-(or:1
-posting):1
-case-by-case.:1
-I’d:1
-gauge,”:1
-Support:1
+children’s  pictures:1
+ case:1
+-case:1
+my 
+friends:1
+their  kids:1
+probably:1
+my gauge:1
+Parenting Support:1
 Judgment:1
+Many:1
 acknowledged:1
+Facebook’s  value:1
+useful par-:1
 enting:1
-(72%):1
-problems.:1
-unorthodox:1
-conceptualization:1
-para-:1
+(72%:1
+an 
+unorthodox conceptualization:1
+openness para-:1
 dox:1
-default,:1
+All 
+respondents:1
+default:1
 needed:1
 anecdotes:1
-often,:1
-“open-:1
-ness”:1
+, quite 
+often, personal information:1
+ques-:1
+tions:1
+ advice:1
+aspect:1
+open-:1
+tends:1
 overlooked:1
+discussions:1
+the 
+digital footprint:1
+privacy rights:1
 approached:1
-vary-:1
+parenting  advice:1
+vary-
+ing:1
 degrees:1
-Closed-protective:1
-comfortable:1
+Closed:1
+view:1
+ topics:1
 posing:1
+ques-
+tions:1
+The list:1
 addressed:1
+problems:1
 solved:1
 ranged:1
 mundane:1
-profound.:1
+profound:1
+One interviewee:1
 located:1
-copy:1
-much-loved:1
+a copy:1
+a 
+child:1
+loved:1
 toy:1
-world;:1
+side:1
+the  world:1
 spoke:1
+her toddler:1
 reading:1
-blog:1
+a blog:1
+best:1
 encourage:1
 independence:1
-confidence;:1
 searching:1
-digestive:1
-complaint:1
+a child’s digestive complaint:1
 resulted:1
-dietary:1
-overhaul:1
+a dietary overhaul:1
+the 
+whole  family:1
+Other  issues:1
 resolved:1
-training,:1
-myriad:1
-(including:1
-cradle:1
-cap,:1
+toilet  training:1
+ discipline 
+issues:1
+a myriad:1
+health issues:1
+cradle cap:1
 mas-:1
-titis,:1
-cough:1
-remedies),:1
-baby-settling:1
-breastfeeding,:1
-weaning.:1
-valued:1
-many—particularly:1
-users—:1
+titis:1
+natural cough remedies:1
+baby-settling techniques:1
+weaning:1
+the  parenting  networks:1
+ closed-protective  users:1
 held:1
-misgivings:1
-judgmental:1
+ misgivings:1
+ judgmental  behavior:1
+a  conduit:1
 unsolicited:1
-advice::1
-There’s:1
-ideal:1
-be.:1
+ unwelcome 
+advice:1
+an ideal 
+mother:1
+quite:1
 challenging:1
-who’s:1
-“rough:1
-night,:1
-coffee”:1
-be—“oh,:1
+a new mother:1
+something:1
+“rough night:1
+a coffee:1
+be—“oh:1
 sleeping:1
-horrible,:1
-haven’t:1
-sleep:1
-doctor”:1
-specifically:1
+horrible:1
+tried:1
+the sleep doctor:1
+just unwelcome advice:1
+that type:1
 Examples:1
+Facebook posts:1
 observed:1
 judg-:1
-mental/unnecessary:1
-following::1
-lost:1
-blanky:1
+mental:1
+unnecessary:1
+the following:1
+a  mother:1
+ com-
 ments:1
-“she:1
-blanky,”:1
-anti-abortion:1
+an  anti-abortion 
 message:1
-cesarean:1
-sections:1
+ posts:1
+the side effects:1
+cesarean sections:1
 undergone:1
-surgery.:1
+the  surgery:1
+such  concerns:1
+the  risk:1
+8:1
 judged:1
-annoyance:1
-Facebook;:1
+an annoyance:1
 pointed:1
 barriers:1
-(“it:1
+great:1
+a more essential part:1
+necessary technology:1
 invites:1
-businesses:1
-websites,:1
-etc,”:1
+some 
+events:1
+some events:1
+some businesses:1
+websites:1
+page:1
+etc:1
 wrote:1
-respondent).:1
-answer:1
+vey:1
+The  answer:1
 lay:1
 limit:1
+privacy  intrusions:1
+
 exposure:1
+judgments:1
+unwelcome  advice:1
 Strategies:1
-non-identifying:1
-photograph,:1
-profile,:1
-limited:1
-start,:1
+a non-identifying name:1
+
+photograph:1
+a private profile:1
+a limited friends list:1
+the start:1
+preferences:1
 hide:1
-“friends,”:1
-messaging,:1
-groups.:1
+the posts:1
+private messaging:1
+
+the use:1
+private groups:1
+Almost a third:1
 talked:1
+a lack:1
 connecting:1
 plug:1
-holes.:1
-valued,:1
+those holes:1
+Private groups:1
+advanced-active 
+users:1
+avoiding:1
 judgment:1
-petty:1
-disputes:1
-parenting.:1
-pre-:1
-ferred:1
+ petty  disputes:1
+ parenting:1
+Several  pre-
+ferred Facebook groups:1
 traditional:1
-groups;:1
-area,:1
+their  area:1
 competitive:1
-judgmental.:1
-session:1
+judgmental:1
+my mothers’ group:1
+one session:1
 unpleasant:1
-back.:1
+those mothers’ groups:1
+a choice:1
 shoved:1
-room:1
-with,:1
+a room:1
 choose:1
-situation—if:1
+the  situation:1
 pisses:1
-off,:1
-basically—I:1
-respond,:1
-it.:1
-appealing:1
+basically:1
+Another appealing aspect:1
+the Facebook group:1
 setting:1
+the ability:1
+Whether:1
 vent:1
-part-:1
-ners,:1
-question,:1
-topic:1
+their part-
+ners:1
+a health question:1
+debate:1
+a topic:1
 conten-:1
 tious:1
-posts,:1
+public posts:1
 felt:1
-place:1
-parenthood::1
-vaccination:1
-vaccination,:1
+private 
+groups:1
+a safer place:1
+controversial aspects:1
+three:1
+ four  different  vaccination:1
+all  things:1
+ vaccination:1
 pro:1
-con;:1
-wasn’t:1
-wouldn’t:1
+
+con:1
+those 
+conversations:1
+case:1
 offend:1
-someone—it’s:1
-taboo.:1
-connections:1
+taboo:1
+The  connections:1
 forged:1
 stemmed:1
 fed:1
-real-life:1
-relationships;:1
+real-life relationships:1
+group:1
 sev-:1
-eral:1
-supportive:1
-death:1
-brother-in-law,:1
+eral advanced-active users:1
+supportive friendships:1
+following:1
+the death:1
+her brother:1
+her Facebook mothers’ group:1
 bought:1
-groceries:1
-fortnight,:1
+her groceries:1
+a fortnight:1
 providing:1
-practical:1
-sup-:1
+more practical sup-
 port:1
 longer:1
-friends.:1
+Another:1
 moved:1
 interstate:1
-local:1
-confidantes::1
-I’ve:1
+other local mothers:1
+confidantes:1
 fly:1
-we’ve:1
-we’re:1
+ things:1
+a  great 
+relationship:1
+’re:1
 trouble:1
-families:1
+our own families:1
+
+things:1
+our relationships:1
 ring:1
-“oh:1
+oh:1
 god:1
-cuppa”?:1
+a cuppa:1
+These types:1
 Facebook-forged-friendships:1
 partic-:1
 ularly:1
+valuable:1
+a network:1
 sounding:1
-board:1
+ board:1
+one  inter-
 viewee:1
 necessarily:1
-life;:1
+real  life:1
 nice:1
-bits:1
-life,:1
+any way:1
+the other bits:1
+your 
+life:1
 vested:1
 outcome:1
-you’ve:1
-asked—sometimes:1
-sort:1
-unbiased:1
-handy.:1
+ sort  of  unbiased 
+information:1
+handy:1
+An  example:1
 benefit:1
-non-familial:1
+this  type:1
+non-familial 
+
 adviser:1
-interviewee::1
-moment:1
+another interviewee:1
+trying:1
+the  moment:1
+the 
+groups:1
+natural:1
+
 babies:1
-wean,:1
 find:1
-reassuring:1
-mum:1
+my mum:1
 thinks:1
 tells:1
-“he’s:1
-wean”:1
-confident,:1
-It’s:1
-reassuring.:1
+several closed-protective interviewees:1
 garner:1
-pediatric:1
+pediatric health:1
 informa-:1
-tion,:1
+tion:1
 argued:1
-specialized:1
-trustworthy:1
-sources.:1
-“The:1
-mums,:1
+ specialized 
+groups:1
+more trustworthy advice:1
+other sources:1
+The kind:1
+obviously:1
+very experienced 
+mums:1
 nurses:1
 naturopaths:1
-midwives—people:1
-medical:1
-training:1
-sources:1
-information,”:1
+
+midwives:1
+medical training:1
+great sources:1
+The  results:1
 anec-:1
 dotes:1
-support,:1
+helpful:1
 long:1
 screen:1
-unwanted:1
+unwanted judgments:1
 commented:1
-substitute:1
+no substitute:1
 face-:1
-to-face:1
-contact,:1
-opin-:1
+more diverse opin-
 ions:1
-otherwise,:1
+interactions:1
+otherwise:1
+such interactions:1
 translate:1
 material:1
-support.:1
+The research:1
 emphasizes:1
+a child:1
+
+digital footprint:1
 extends:1
+beyond:1
 created:1
-news.:1
 Recommendations:1
 Concluding:1
 Remarks:1
+This research highlights:1
+privacy-related issues:1
 major:1
 digitally:1
 worked:1
-discounted.:1
+discounted:1
 generation:1
-back,:1
-women’s:1
+two:1
+wider:1
+networks:1
 curtailed:1
-work.:1
-Today,:1
-women—educated,:1
-Internet-connected:1
-least—can:1
-home:1
+choice:1
+Today:1
+ women:1
+educated:1
 expand:1
 works:1
 picking:1
-phone.:1
-catch:1
-child-rearing:1
+the tele-
+phone:1
+The catch:1
+course:1
+rearing:1
 intense:1
-time-consuming:1
-been,:1
+consuming:1
 liber-:1
-ated,:1
-hand,:1
-emancipation:1
-ever-:1
-growing:1
+ated:1
+one hand:1
+their emancipation:1
+an ever-
+growing  list:1
 expectations:1
-other,:1
+ hazards:1
 bringing:1
-fore.:1
-exist:1
-(jobs:1
-lost,:1
+the  privacy:1
+the  fore:1
+much  information:1
+jobs:1
+
+friendships:1
 reputations:1
-damaged,:1
+damaged:1
+ potential  negative  effects:1
 futures:1
-considered),:1
-pleasure,:1
+must:1
+ the  pleasure:1
+ information:1
 affor-:1
+
 dances:1
-derived:1
-sharing—especially:1
-photo-:1
-graphs,:1
-information—seem:1
+ sharing:1
+photo-
+graphs:1
+social information:1
+seem:1
 outweigh:1
-majority,:1
+the  majority:1
 short:1
 term:1
-least.:1
-responsibilities:1
+considering:1
+the responsibilities:1
 stewardship:1
 coming:1
 dramatically:1
-conclu-:1
-sions,:1
+different  conclu-
+sions:1
 manifested:1
-categories:1
+the three categories:1
 Participants:1
 demonstrated:1
+ similar  levels:1
+
+consideration:1
+regarding:1
+regardless:1
+their choice:1
 strategize:1
-advanced-active,:1
-fence-sitter,:1
-user.:1
-implications—for:1
-large—of:1
+an advanced-active, fence-sitter, or closed-pro-
+tective user:1
+The  long-term  implications:1
+
+society:1
+large:1
+ personal  information:1
 unknown:1
-scope:1
-proj-:1
-ect,:1
-(particularly:1
-children):1
-important:1
+outside:1
+the scope:1
+this proj-
+ect:1
+ this  study  highlights  privacy  issues:1
+concerning:1
+an important and contentious 
+aspect:1
 warrants:1
-careful:1
-researchers,:1
-designers,:1
-policymakers.:1
+careful  consideration:1
+
+researchers:1
+platform designers:1
+policymakers:1
+The three 
+types:1
 yardstick:1
-vacy-related:1
-SNSs,:1
+ pri-:1
+vacy-related issues:1
 add:1
+broader  discussions:1
 demographics:1
-(such:1
-general,:1
-students,:1
-job-seekers):1
-uneasy:1
-nexus:1
+besides:1
+general:1
+job:1
+seekers:1
+future research:1
+article:1
+highlights:1
+uneasy  nexus:1
+
+privacy protection:1
 presume:1
 recommend:1
-blanket:1
-policy,:1
-design,:1
-behavior.:1
+blanket changes:1
+
+design:1
+Many users:1
+greater 
+control:1
+their children’s images:1
 restrict:1
-responsibility:1
+a view:1
+
+avoiding  privacy  intrusions:1
+the  responsibility:1
+the user:1
 avoid:1
-prevent.:1
 empha-:1
+size:1
 addressing:1
-video-sharing:1
-(of:1
-generally):1
+ users’  privacy-related  concerns:1
+photograph:1
+video:1
+
+dren:1
 maximizing:1
-openness:1
-information-sharing,:1
-priority:1
-unpopular:1
-option,:1
+information-sharing:1
+an ongoing priority:1
+an increasingly unpopular 
+option:1
 weighing:1
-ambiguity:1
-confident:1
-negotiating.:1
+the  advantages:1
+
+open communication:1
+an ongoing ambiguity:1
+Many love:1
 hearing:1
 gathering:1
-looser:1
-connections.:1
-gener-:1
-feedback:1
-well-versed:1
-(though:1
+looser  connections:1
+the most commonly cited 
+downsides:1
+Facebook use:1
+this study gener-
+ally:1
+the  feedback:1
+versed:1
+ problems:1
+social  spheres:1
+too much information:1
+though:1
+ Facebook’s:1
+ privacy:1
+settings:1
 confusing:1
 trust:1
-efficacy).:1
+their  efficacy:1
 remains:1
 understood:1
-SNSs’:1
-(both:1
+other SNSs:1
+’ effects:1
 practice:1
-perception),:1
-meantime,:1
+perception:1
+meantime:1
 adapt:1
-technolo-:1
-terms,:1
+social networking technolo-
+gies:1
+their own terms:1
 negotiat-:1
-medium’s:1
-increasingly,:1
+the medium:1
+the 
+paradox:1
 Declaration:1
-Conflicting:1
-Interests:1
+Conflicting Interests:1
 declared:1
-conflicts:1
-authorship,:1
-financial:1
+no potential conflicts:1
+respect:1
+authorship:1
+no financial support:1
 author-:1
-ship,:1
+ship:1
 Funding:1
 References:1
-Ahern,:1
-Eckles,:1
-D.,:1
-Good,:1
-King,:1
-Naaman,:1
-Nair,:1
-Over-exposed?:1
-Systems:1
-(CHI:1
-’07):1
-357–366).:1
+ Eckles:1
+ D.:1
+Good:1
+ N.  S.:1
+ King:1
+Naaman:1
+Nair:1
+exposed:1
+patterns:1
+ consid-:1
+erations:1
+mobile  photo  sharing:1
+the  SIGCHI  Conference:1
+’07:1
+357–366:1
+New  York:1
+ NY:1
+ ACM:1
 doi:10.1145/1240624.1240683:1
-Al-Saggaf,:1
+Al-Saggaf:1
+Y.:1
+Nielsen:1
 Self-disclosure:1
+female users:1
 feelings:1
 loneli-:1
-ness.:1
-36,:1
-460–468.:1
-boyd,:1
-d.,:1
-settings::1
-cares?:1
-Monday,:1
-15(8).:1
-http://journals.uic.:1
+36:1
+460–468:1
+d.:1
+privacy settings:1
+cares:1
+First Monday:1
+15(8:1
+http://journals.uic:1
+
 edu/ojs/index.php/fm/article/view/3086/2589:1
-Branthwaite,:1
-power:1
+ A.:1
+The  power:1
 qualita-:1
-era:1
+the  era:1
+social  media:1
 Qualitative:1
 Market:1
-Research::1
-Journal,:1
-430–440.:1
-Brewis,:1
+Research:1
+An International Journal:1
+430–440:1
 ethics:1
 researching:1
-friends::1
 conve-:1
 nience:1
 organization:1
-studies.:1
-Management,:1
-25,:1
-849–862.:1
-(2014,:1
+British Journal of Management:1
+849–862:1
+ M.:1
 April:1
 26-May:1
-1).:1
 Growing:1
 closer:1
-tie:1
-(CHI):1
-Systems,:1
-Toronto,:1
-Ontario,:1
-(2011,:1
-7–12).:1
-Differentiating:1
-Computer-Human:1
-Interaction,:1
-Vancouver,:1
-Columbia,:1
+Changes:1
+tie strength:1
+social network 
+site  use:1
+Conference:1
+Toronto:1
+Ontario:1
+May 7–12:1
+Social capi-
+tal:1
+Facebook::1
+Differentiating uses:1
+the ACM Computer-Human Interaction:1
+Vancouver:1
+British 
+Columbia:1
 http://www.cameronmar-:1
 low.com/media/burke-2011-social.pdf:1
-activ-:1
-well-being.:1
-Systems.:1
-http://www.cameronmarlow.:1
+Social network activ-
+ity  and  social  well-being:1
+the  SIGCHI 
+Conference:1
+ Systems:1
+New 
+York:1
+NY:1
+http://www.cameronmarlow:1
+
 com/media/burke-2010-social-well-being.pdf:1
-10:1
-Child:1
-Unit.:1
-Parents:1
-media::1
+Research  Unit:1
+
+social  media:1
 Likes:1
 dislikes:1
-sharenting.:1
-C.S.:1
-Mott:1
-Hospital:1
-National:1
-Poll:1
-Health,:1
-23(1).:1
-http://mottnpch.org/sites/default/files/docu-:1
-ments/031615_sharenting_0.pdf:1
-Cohen,:1
+sharenting:1
+C.S.  Mott 
+:1
+Children’s Hospital National Poll:1
+Children’s Health:1
+23(1:1
+Retrieved  from  http://mottnpch.org/sites/default/files/docu-
+ments/031615_sharenting_0.pdf
+
+Cohen:1
+internet:1
 giving:1
-(to):1
-order.:1
-937–957.:1
-Dienlin,:1
-T.,:1
-relic:1
-past?:1
-in-depth:1
-behaviors.:1
-European:1
-Psychology,:1
-45,:1
-285–:1
-297.:1
+birth:1
+a new social order:1
+Information, Communication & 
+:1
+937–957:1
+Dienlin:1
+T., & Trepte:1
+a relic:1
+the past:1
+An in-depth analysis:1
+privacy attitudes:1
+privacy 
+behaviors:1
+European  Journal:1
+Social  Psychology:1
+285:1
+297:1
 doi:10.1002/ejsp.2049:1
-Duggan,:1
+Duggan:1
+Smith:1
+Social media:1
 update:1
-2013.:1
-http://www.pewinternet.:1
-org/2013/12/30/social-media-update-2013/:1
-Dunbar,:1
-I.:1
-Neocortex:1
-constraint:1
-primates.:1
-Evolution,:1
-22,:1
-469–493.:1
-resource:1
-requests:1
-1104–1121.:1
-“friends”::1
-students’:1
-12,:1
-1143–1168.:1
+Pew 
+Research  Centre:1
+ http://www.pewinternet:1
+org/2013/12/30/social-media-update-2013/
+
+Dunbar:1
+R. I. M.:1
+Neocortex size:1
+a constraint:1
+group 
+size:1
+primates:1
+Journal of Human Evolution:1
+469–493:1
+Social capi-
+tal and resource requests:1
+New Media & Society:1
+1104–1121:1
+Steinfield, C., & Lampe:1
+The benefits:1
+Facebook  “friends:1
+capital:1
+college:1
+online social network sites:1
+Journal of Computer-Mediated 
+:1
+1143–1168:1
+N.  B.:1
+ R.:1
 Negotiating:1
-environment.:1
+a  social  media  environment:1
 Trepte:1
+L.:1
 Reinecke:1
-19–32).:1
-Berlin,:1
-Germany::1
-Springer.:1
-doi:10.1007/978-3-642-21521-6_3:1
-Fischer,:1
+19–32:1
+Berlin, Germany:1
+Springer:1
+doi:10.1007/978:1
+642:1
+21521:1
+6_3:1
 America:1
-calling::1
-history:1
+calling:1
+A  social  history:1
+tele-:1
 phone:1
-1940.:1
-Berkeley::1
-California:1
-Press.:1
-Gibson,:1
-motherhood::1
+1940:1
+Berkeley:1
+University of California Press:1
+Gibson, L.:1
+Digital motherhood:1
 Understanding:1
 poten-:1
 tial:1
-technology.:1
-https://motherhoodandhci.:1
+ technology:1
+https://motherhoodandhci:1
 files.wordpress.com/2013/02/gibson.pdf:1
-Granovetter,:1
-(1973).:1
-ties.:1
-American:1
-Sociology,:1
-78(6),:1
-1360–1380.:1
+Granovetter:1
+1973:1
+The  strength:1
+weak  ties:1
+American 
+
+Journal of Sociology:1
+78(6:1
+1360–1380:1
 D.:1
-(Ed.).:1
-world.:1
-London,:1
-UK::1
-SAGE.:1
-Kientz,:1
-(2016,:1
-February).:1
-dinner:1
-table::1
-Parents’:1
-rules.:1
-19th:1
-Computer-Supported:1
-Cooperative:1
-Work:1
-1376–1389).:1
-Hoy,:1
-G.,:1
+(Ed:1
+the  real  world:1
+London:1
+UK:1
+SAGE:1
+S. Y., & Kientz:1
+J. A.:1
+February:1
+the  dinner  table:1
+ children’s  perspectives:1
+family technology rules:1
+the 19th ACM 
+Conference:1
+Computer:1
+Supported:1
+Cooperative  Work:1
+Social Computing:1
+(pp:1
+1376–1389:1
+Hoy:1
+M.  G.:1
+Milne:1
 G.:1
-Gender:1
-differences:1
-measures:1
-adult:1
-Interactive:1
-Advertising,:1
-10(2),:1
-28–45.:1
-Junco,:1
-Inequalities:1
-29,:1
-2328–2336.:1
-Karl,:1
-follies:1
+Gender  differences:1
+privacy-
+related  measures:1
+young  adult:1
+Interactive Advertising:1
+10(2:1
+28–45:1
+Junco:1
+Inequalities  in  Facebook  use:1
+2328–2336:1
+Karl:1
+K., & Peluchette:1
+Facebook follies:1
 suffers:1
-most?:1
-Romm:1
-Livermore:1
-Setzekorn:1
-communities:1
-e-dating:1
-services::1
+C. Romm Livermore:1
+K. Setzekorn:1
+, Social 
+networking communities:1
+e-dating services:1
 Concepts:1
-212–224).:1
-Hershey,:1
-PA::1
-IGI:1
-Global.:1
-Kumar,:1
-P.,:1
-book::1
-Enacting:1
-good:1
-mothering:1
-stewarding:1
-http://yardi.people.:1
-si.umich.edu/pubs/Schoenebeck_MothersFacebook15.pdf:1
-radical:1
-“mommy:1
-blogging”::1
-Redefining:1
-blogosphere.:1
-11,:1
-729–747.:1
-http://pewinternet.org/:1
-Reports/2012/Privacy-management-on-social-media.aspx:1
-Madge,:1
-H.:1
-(2006).:1
-wired::1
-Empowerment:1
-internet?:1
-Cultural:1
-Geography,:1
-199–220.:1
-Masur,:1
+
+implications:1
+212–224:1
+Hershey, PA:1
+IGI Global:1
 P.:1
-(2016).:1
+The modern day baby book:1
+Enacting:1
+good mothering:1
+stewarding:1
+the ACM:1
+http://yardi.people:1
+si.umich.edu/pubs/Schoenebeck_MothersFacebook15.pdf
+Lopez:1
+L.  K.  :1
+The  radical  act:1
+“mommy  blogging:1
+Redefining:1
+the blogosphere:1
+New Media 
+& Society:1
+729–747:1
+Privacy  management:1
+ social  media  sites:1
+Pew  Research  Centre:1
+http://pewinternet.org/
+Reports/2012/Privacy-management-on-social-media.aspx
+Madge:1
+O’Connor:1
+H.:1
+Parenting:1
+wired:1
+Empowerment  of  new  mothers:1
+Social  & 
+Cultural Geography:1
+199–220:1
+Masur:1
+ P.  K.:1
 Disclosure:1
-sites::1
+ social  network  sites:1
 Individual:1
 perceptions:1
-user-directed:1
-strategies.:1
-Advance:1
-publication.:1
+directed:1
+privacy  strategies:1
+ Society:1
+Advance online publication:1
 doi:10.1177/2056305116634368:1
-Morris,:1
+networking:1
+ site:1
+Proceedings of:1
 CSCW:1
-2014.:1
-http://research.microsoft.com/en-us/um/people/merrie/papers/:1
-moms_and_social_networks_cscw2014.pdf:1
-Rains,:1
+
+http://research.microsoft.com/en-us/um/people/merrie/papers/
+moms_and_social_networks_cscw2014.pdf
+
+Rains:1
 learn:1
+
+social network sites:1
 studying:1
-call:1
-recom-:1
+A call and recom-
 mendations:1
-114–131.:1
-F.,:1
-(2012,:1
+social network sites:1
+New Media & 
+Society:1
+114–131:1
+F.:1
 June:1
-4-7).:1
-interaction::1
+4-7:1
+Privacy  in  interaction:1
+
+social  capital:1
+the  International 
+Conference:1
 Weblogs:1
-Dublin,:1
-Ireland.:1
-https://www.aaai.org/ocs/index.php/ICWSM/:1
+ Dublin:1
+ Ireland:1
+Retrieved  from  https://www.aaai.org/ocs/index.php/ICWSM/:1
 ICWSM12/paper/viewFile/4666/5000:1
-paradox”:1
-web::1
-characteristics,:1
-relevance:1
+The  “privacy  paradox:1
+the  social  web:1
+The impact:1
+individual characteristics:1
+perceived:1
+ social  relevance:1
+forms:1
 self-dis-:1
-closure.:1
-19,:1
-248–273.:1
-doi:10.1111/jcc4.12052:1
+closure:1
+Computer-Mediated:1
+19:1
+248–273:1
+doi:10.1111/jcc4.12052
+
+Vitak:1
+The  impact:1
 collapse:1
-disclosures.:1
+
+social  network  site  disclosures:1
 Broadcasting:1
-Electronic:1
-56,:1
-451–470.:1
-Wang,:1
-Big:1
-thick:1
-Ethnography:1
-Matters.:1
+Electronic Media:1
+56:1
+451–470:1
+Big data:1
+thick data:1
+Ethnography Matters:1
 http://ethnographymatters.net/blog/2013/05/13/:1
-big-data-needs-thick-data/:1
-Young,:1
-L.,:1
+big:1
+thick:1
+data/:1
+Young:1
+A. L.:1
+Privacy protection:1
 strat-:1
+
 egies:1
-Internet:1
-revisited.:1
-479–500.:1
-Author:1
-Biographies:1
-(B:1
-UniSA):1
+The  Internet  privacy  paradox:1
+revisited:1
+Information, Communication & Society:1
+479–500:1
+Author Biographies:1
+Charlotte:1
+Chalklen (B Arts:1
+UniSA:1
 teaches:1
+journalism:1
+the School of Communication, International Studies 
+and:1
 Languages:1
-gender,:1
-diversity.:1
-(PhD,:1
-Comm,:1
-Griffith:1
-University):1
-senior:1
+the University of South Australia:1
+Her research 
+interests:1
+gender:1
+diversity:1
+Heather:1
+(PhD:1
+B:1
+Arts:1
+ B  Comm:1
+Griffith 
+University:1
+a  senior  journalism:1
 lecturer:1
-citizens’:1
-journalism,:1
-alternative:1
+University:1
+
+South Australia:1
+Her research interests:1
+community radio:1
+
+citizens’ journalism:1
+alternative media:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:49
-Privacy:7
+privacy:19
+Privacy:2
 consent:1

@@ -1,137 +1,162 @@
 
 TargetCompanySourced/General Info ProtectingPrivacyAndSecurity
 
-Total number of tokens: 1022
-Size of Lexicon: 423
-
-With stop word removal 
-Size of original corpus: 1022 
-Size of filtered corpus: 362
+Total number of tokens: 504
+Size of Lexicon: 340
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:24
-Privacy:19
-privacy:13
-Security:11
-10:11
-Protecting:10
+Facebook:22
+Protecting Privacy and Security:10
 |:10
-https://about.facebook.com/actions/protecting-privacy-...:10
-20/09/2021,:10
+https://about.facebook.com/actions/protecting-privacy-:10
 14:41:10
-Data:9
-Center:8
-information:6
-data:6
-control:5
+10:8
+20/09/2021:8
+’re:7
+help:6
+Privacy:6
+N G:5
 give:5
-We’re:4
+share:4
 protect:4
 build:4
-tools:4
-WhatsApp:4
-Messenger:4
-share:3
-security:3
+privacy:4
+your privacy:3
+information:3
+people:3
+tools:3
+control:3
 secure:3
+across:3
 created:3
 built:3
 Learn:3
-million:3
-Transfer:3
-app:3
-2021:3
+Messenger:3
+Singapore:3
+Center:3
+  P R:2
 protecting:2
-tool:2
-—:2
-apps:2
-We’ve:2
+your
+information:2
+online:2
+’s:2
+keep:2
+improve:2
+see:2
+account:2
+’ve:2
 request:2
+data:2
 move:2
-services.:2
 easier:2
-COVID-19:2
-we’re:2
+Data:2
 program:2
+us:2
 Read:2
-Matters:2
-people:2
-option:2
+WhatsApp:2
+countries:2
 Transparency:2
+R:2
+industry:2
 Control:2
-Labs:2
-AI:2
 partnership:2
 Project:2
 ways:2
 Accelerator:2
-Singapore:2
-Company:2
-Oculus:2
-Policy:2
-Instagram:2
-Workplace:2
-Portal:2
+app:2
+See:2
+Help:2
+P R O T E C T:1
+I V A:1
+C Y:1
+A N D:1
+  S E C:1
+U R I T Y:1
 committed:1
 giving:1
-choices.:1
-decision.:1
+more
+control:1
+your
+privacy choices:1
+your decision:1
 connect:1
-online,:1
 knowing:1
 manage:1
 important:1
-ever.:1
+ever:1
 1:1
-bottom:1
-line:1
-people.:1
-That’s:1
-secure.:1
+
+
+bottom line:1
+getting:1
+this right:1
 partner:1
-improve:1
-standards:1
-industry.:1
+security standards:1
+the industry:1
+G I V I:1
+O U:1
+  M O R:1
+N T R O L:1
+more control:1
 understand:1
-information.:1
+happens:1
 Checkup:1
+This tool:1
 helps:1
-share,:1
-account.:1
-Ad?:1
+your
+
+information:1
+used:1
+Seeing:1
 Off-:1
 Activity:1
 click:1
-ad,:1
-you’re:1
-it,:1
+any ad:1
+tool:1
+seeing:1
 adjust:1
 disconnect:1
-settings.:1
+
+
+settings:1
+the information:1
 businesses:1
 send:1
-activity:1
-websites.:1
+your activity:1
+
+
+other apps:1
+websites:1
 2:1
 Download:1
 Information:1
 download:1
 export:1
+services:1
 Shortcuts:1
 made:1
+our privacy tools:1
 find:1
+our services:1
 3:1
+D R I V:1
+I V A C Y:1
+N T:1
+A B:1
+L I T Y:1
 make:1
 part:1
-do,:1
+everything:1
 continuing:1
-improve.:1
-people’s:1
+people’s privacy:1
 hood:1
-Good::1
+look:1
+Good:1
+COVID-19:1
 balanced:1
 public:1
-interest:1
+interest
+
 priorities:1
 enable:1
 pandemic:1
@@ -139,196 +164,251 @@ response:1
 Progress:1
 Update:1
 providing:1
-under-the-:1
+an under-the-:1
 work:1
-global:1
+a
+
+global privacy:1
 sharing:1
-ongoing:1
+ongoing privacy:1
 efforts:1
 investments:1
+our COVID-19:1
 support:1
-initiatives.:1
-blog.:1
-approach.:1
-future.:1
-Designing:1
+initiatives:1
+blog:1
+approach:1
+future:1
+Designing for
+:1
 ensuring:1
+every new
+
 product:1
+
+
 feature:1
-mind.:1
+mind:1
 designing:1
 products:1
+Privacy Matters:1
+M A:1
+  Y:1
+U R   D:1
+A T A   M O R E:1
+  S E C U R E:1
 4:1
-responsibility:1
-services:1
-safe.:1
-Two-Factor:1
+a responsibility:1
+secure services:1
+safe:1
+Two-Factor
 Authentication:1
-End-to-End:1
 Encryption:1
 end-:1
-to-end:1
+option:1
+-end:1
 addition:1
 encryption:1
 password:1
 offer:1
-account:1
+the option:1
 improper:1
-access.:1
+access:1
 ensure:1
 messages:1
-Restricted:1
-Partner:1
-App:1
+Restricted
+Partner App:1
 Access:1
 dramatically:1
 decreased:1
+the
+
 amount:1
+other apps:1
 remain:1
-private.:1
-you.:1
-Secure:1
+private:1
+Secure Data
 Storage:1
 Bug:1
 Bounty:1
 Program:1
-won’t:1
+n’t:1
 store:1
-2019,:1
-sensitive:1
+2019:1
+sensitive data:1
 awarded:1
-countries:1
-$2.2:1
-weak:1
-records:1
+$2.2 million:1
+weak records:1
 researchers:1
-human:1
-rights:1
+human rights:1
 60:1
 order:1
 improperly:1
-accessed.:1
-countries,:1
+accessed:1
 bringing:1
 payout:1
 total:1
 date:1
-$9.8:1
+$9.8 million:1
 strengthen:1
+security:1
 users:1
 internet:1
-large.:1
+large:1
 5:1
 Report:1
 publish:1
-regular:1
-reports:1
-community:1
-visibility:1
+regular reports:1
+community visibility:1
 enforce:1
-policies,:1
+policies:1
 respond:1
-requests,:1
+data
+
+requests:1
 intellectual:1
-property.:1
+property:1
+P:1
+N E R I:1
+  T O:1
+D E V E L O P:1
+  B E:1
+A T A:1
+P R A C T:1
+I C E S:1
 collaborate:1
+
 partners:1
 6:1
-industry:1
 establish:1
-practices:1
-portability.:1
-Trust,:1
-cross-industry:1
+best practices:1
+data security:1
+
+portability:1
+Trust:1
+Labs:1
+cross:1
 design:1
+new
+
 solutions:1
-digital:1
-challenges.:1
-Ethics:1
-Research:1
+
+
+digital privacy:1
+
+
+challenges:1
+AI Ethics
+Research
+Center:1
 investing:1
-$7.5:1
+$7.5 million:1
 ethics:1
 research:1
 center:1
 tackle:1
-critical:1
+critical
+
 questions:1
-AI,:1
-safety,:1
+safety:1
 German:1
 government:1
 Technical:1
 University:1
-Munich.:1
+Munich:1
+Transfer:1
 joined:1
-online:1
-service:1
-providers.:1
-Singapore’s:1
-Protection:1
+Data Transfer:1
+their data:1
+different:1
+service
+
+providers:1
+Data Protection:1
 Authority:1
 startups:1
-7:1
+7 of 10
+
+20/09/2021:1
 develop:1
 working:1
-approach:1
-Privacy-Focused:1
-Vision:1
-Social:1
-Networking:1
-Portability:1
-Responsible:1
-Innovation:1
-Reality:1
-Series:1
+our approach:1
+A Privacy-Focused Vision for Social Networking
+
+Messenger Privacy
+
+:1
+WhatsApp Security:1
+Data Portability:1
+Responsible Innovation:1
+Facebook Reality Labs
+
+Privacy Matters Series:1
 8:1
-Apps:1
-Websites:1
-Share:1
+F E A T:1
+U R E D:1
+  N E W S:1
+the
+Data That Apps:1
+Websites Share:1
 Combat:1
 Scraping:1
-April:1
-15,:1
-August:1
-20,:1
-2019:1
-Personalized:1
-Advertising:1
+April 15, 2021:1
+August 20, 2019:1
+Personalized Advertising:1
 Odds:1
 Steps:1
+Transfer Data:1
 Securely:1
-December:1
-16,:1
-2020:1
-March:1
-11,:1
-News:1
+December 16, 2020:1
+March 11, 2021:1
+More News:1
 9:1
 Follow:1
-Info:1
-Brand:1
-Resources:1
+Company Info:1
+Brand Resources:1
+Oculus
+
+Company:1
 Newsroom:1
 Careers:1
 Investors:1
+Facebook
 Policies:1
-Community:1
-Standards:1
-Cookie:1
+Community Standards:1
+Data Policy:1
+Cookie Policy:1
 Terms:1
 Service:1
+Instagram:1
+Workplace:1
+Portal:1
 Novi:1
 Technologies:1
-Support:1
+app Help:1
+Center
+
+Instagram Help Center:1
+WhatsApp Help:1
+Oculus Support:1
+Workplace Help
+
+Center:1
+Portal Help Center:1
 ©:1
+2021:1
 FACEBOOK:1
 English:1
-(US):1
+(US:1
 Sitemap:1
+10 of 10
+
+20/09/2021:1
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:19
-privacy:13
+Privacy:6
+privacy:4
 Encryption:1
 encryption:1
+data security:1
+Data Protection:1

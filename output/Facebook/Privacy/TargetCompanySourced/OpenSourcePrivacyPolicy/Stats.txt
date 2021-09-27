@@ -1,433 +1,474 @@
 
 TargetCompanySourced/OpenSourcePrivacyPolicy
 
-Total number of tokens: 1386
-Size of Lexicon: 543
-
-With stop word removal 
-Size of original corpus: 1386 
-Size of filtered corpus: 442
+Total number of tokens: 649
+Size of Lexicon: 417
 
 Tokens that appear in the file, alongside with their frequencies:
-information:32
-Privacy:19
-Policy:17
-Information:13
-Facebook:10
-•:10
-Open:9
-Source:9
+may:19
+Information:12
+information:12
+us:11
+your information:9
 collect:9
-Services:9
 7:8
+our Services:8
 share:8
-|:7
 https://opensource.fb.com/legal/privacy/:7
-20/09/2021,:7
+20/09/2021:7
 14:40:7
-platform:7
-time:6
-data:6
-web:6
-Services,:5
+the Services:7
+use:6
+Privacy Policy | Facebook Open Source:5
 Cookies:4
 receive:4
 provide:4
-browser:4
-legal:4
-Services.:3
-Internet:3
-service:3
-date:3
-log:3
-information.:3
+using:4
+time:4
+this Privacy Policy:4
+please:4
+including:4
+cookies:4
+Use:3
+automatically:3
 enable:3
-services,:3
+Facebook:3
 access:3
+that platform:3
 provided:3
+store:3
 disclose:3
-Policy.:3
-third-party:3
-services:3
-parties:3
-security:3
-public:3
-areas.:3
-personal:3
-similar:3
-small:3
-cookies:3
+your consent:3
+personal information:3
+13:3
+Get:2
 Involved:2
 Projects:2
 Blog:2
 Careers:2
 Collection:2
 Share:2
-California:2
-Rights:2
-Children's:2
+Your California Privacy Rights:2
 Questions:2
+Changes:2
+This Policy:2
+our practices:2
 1:2
+Facebook Open Source:2
+following:2
 types:2
-information::2
 directly:2
-email:2
-automatically:2
+otherwise:2
+certain information:2
+device:2
 pages:2
 visit:2
-online:2
-Facebook,:2
-platforms:2
-relevant:2
-platform,:2
-use,:2
-store,:2
+Our Services:2
+log:2
+these platforms:2
+such information:2
 accordance:2
-However,:2
-including:2
+However:2
+other sources:2
 Meet:2
-Services;:2
-activities:2
-Terms:2
-purposes:2
+services:2
+any other purposes:2
 disclosed:2
 pursuant:2
-consent.:2
-vendors:2
-providers:2
-us.:2
-affiliates,:2
+without:2
+service providers:2
+help:2
 protect:2
-website,:2
+security:2
+users:2
+the information:2
 choose:2
 aware:2
-users:2
+any information:2
+collected:2
+these areas:2
 responsible:2
 submit:2
-browsers:2
-signals:2
-age:2
+data:2
+third parties:2
+whether:2
+these signals:2
+the age:2
 delete:2
-child:2
-13:2
-notice.:2
+a child:2
 contact:2
-cookies,:2
-pixel:2
-page:2
+similar technologies:2
 update:2
+the Privacy Policy:2
 post:2
-revised:2
+Privacy Policy:2
+Open Source:1
 Showcase:1
 Media:1
--:1
+Facebook Open Source - Privacy
+Policy
+
 TABLE:1
 CONTENTS:1
-Effective:1
-Date::1
-March:1
-15,:1
-2020:1
-policy:1
+Children:1
+'s:1
+Effective Date:1
+March 15, 2020:1
+This policy:1
 describes:1
-practices:1
 handling:1
-website:1
-(the:1
-"Services").:1
+this website:1
+"Services:1
+Privacy:1
+Policy:1
+|:1
 interact:1
-us.For:1
-activities,:1
-Contact:1
-information,:1
-address;:1
+certain activities:1
+Contact information:1
+email address:1
 send:1
-correspondence,:1
+correspondence:1
 comment:1
-posts,:1
+posts:1
 subscribe:1
-service,:1
+a service:1
 participate:1
-automatically.We:1
-protocol:1
-(IP):1
-address,:1
+your Internet protocol:1
+(IP) address:1
 mobile:1
-device:1
-identifier,:1
-type,:1
+identifier:1
+browser:1
+type:1
 operating:1
-system,:1
-provider,:1
-visit,:1
-links:1
+system:1
+Internet:1
+service:1
+provider:1
+the date:1
+your visit:1
+,
+
+information:1
+the links:1
 click:1
 view:1
-standard:1
-server:1
+within:1
+other
+
+standard server log information:1
 Integrations:1
-Social:1
-Networking:1
-Services.Our:1
+Social Networking:1
+Other Services:1
+allow:1
+via:1
+various online services:1
 Twitter:1
 Youtube:1
-(collectively,:1
-"platforms").:1
+collectively,
+
+"platforms:1
 indirectly:1
-platforms,:1
 aim:1
 make:1
-experiences:1
+your online experiences:1
 richer:1
-personalized.:1
+personalized:1
 add:1
-account:1
-account,:1
-holds.:1
+a platform account:1
+Services:1
+your platform account:1
+relevant information:1
+necessary:1
+your data:1
+platform:1
+holds:1
 facilitate:1
 enhance:1
-delivery:1
+the delivery:1
+that
+
+platform:1
 part:1
-integration:1
+an integration:1
+a platform:1
+the platform:1
 remember:1
-manner:1
+the manner:1
+platforms:1
 governed:1
-policies:1
+the policies:1
 apply:1
-platforms.:1
+those platforms:1
 obtain:1
-sources.We:1
 2:1
-sources,:1
-organizations,:1
+third-party services:1
+organizations:1
 combine:1
-you.:1
-legitimate:1
-interests,including:1
+other information:1
+our legitimate interests:1
 fulfill:1
-requests:1
-resources,:1
-information;:1
+your requests:1
+resources:1
 analyze:1
-user:1
-understand,:1
+the use:1
+user data:1
+understand:1
 improve:1
 operate:1
 customize:1
-content:1
-obligations,including:1
+the content:1
+see:1
+our legal obligations:1
 prevent:1
-potentially:1
-prohibited:1
-illegal:1
+potentially prohibited or illegal activities:1
+our Terms:1
 comply:1
-requirements;:1
-circumstances:1
-notice:1
-you,:1
+legal requirements:1
+the time:1
+certain circumstances:1
+certain third
+
+parties:1
+further notice:1
 set:1
-below::1
-Authorized:1
-providers.We:1
-specialized:1
-deployment,:1
-business:1
-analytics,:1
-marketing,:1
-processing.:1
+forth:1
+Authorized third-party vendors:1
+
+
+third-party vendors:1
+specialized services:1
+email deployment:1
+business analytics:1
+marketing:1
+data processing:1
+These services
+
+providers:1
 limited:1
-purpose:1
+any purpose:1
 perform:1
-Affiliates.We:1
+Affiliates:1
+our affiliates:1
 companies:1
-control,:1
-controlled:1
-by,:1
-common:1
 control:1
-Legal:1
-purposes.We:1
+controlled:1
+common control:1
+Legal purposes:1
 respond:1
-subpoenas,:1
-court:1
-orders,:1
-process,:1
-law:1
-enforcement:1
-requests,:1
-claims:1
-government:1
-inquiries,:1
+subpoenas:1
+court orders:1
+legal process:1
+law enforcement requests:1
+legal claims:1
+government inquiries:1
 detect:1
-fraud,:1
+fraud:1
 defend:1
-rights,:1
-interests,:1
-safety,:1
-owner,:1
-users,:1
-public.:1
-Business:1
-transfers.We:1
+the rights:1
+interests:1
+safety:1
+our
+
+affiliates:1
+owner:1
+the public:1
+Business transfers:1
 connection:1
-substantial:1
-corporate:1
-transaction,:1
-sale:1
-merger,:1
-consolidation,:1
-asset:1
-sale,:1
+a substantial
+
+corporate transaction:1
+the sale:1
+a website:1
+a merger:1
+consolidation:1
+asset sale:1
 3:1
-event:1
-bankruptcy.:1
-consent.We:1
+Privacy Policy |:1
+the unlikely event:1
+bankruptcy:1
 engage:1
-read,:1
-collected,:1
+public activities:1
+the website:1
+read:1
+used:1
+other users:1
 caution:1
 disclosing:1
 participating:1
+these public areas:1
 Protect:1
 InformationWe:1
 measures:1
-loss,:1
-theft,:1
+loss:1
+
+
+theft:1
 misuse:1
-unauthorized:1
-access,:1
-disclosure,:1
-alteration,:1
-destruction.:1
-storage:1
-system:1
+unauthorized access:1
+disclosure:1
+alteration:1
+destruction:1
+no
+
+data storage system:1
 transmission:1
-network:1
+the Internet:1
+any other public network:1
 guaranteed:1
-100:1
-percent:1
-secure.:1
+100 percent:1
+secure:1
+Please:1
 note:1
-collected:1
+the same security
+
 protections:1
-us,:1
 protecting:1
-direct:1
-marketing:1
-purposes.:1
-Do-Not-Track:1
-Signals:1
-Similar:1
-Mechanisms.Some:1
+their own direct marketing
+
+purposes:1
+-Track Signals:1
+Similar Mechanisms:1
+Some web browsers:1
 transmit:1
-"do-not-:1
-track":1
-websites.:1
+do-not-:1
+track:1
+" signals:1
+websites:1
 differences:1
+web browsers:1
 incorporate:1
 activate:1
-feature,:1
+this feature:1
+always:1
 clear:1
 intend:1
-transmitted,:1
-them.:1
+transmitted:1
+even:1
+currently:1
 action:1
 response:1
-signals.:1
+Children's Information
+
+Facebook:1
 knowingly:1
-store:1
 children:1
-13,:1
+unless:1
 permitted:1
-law.:1
+law:1
 inadvertently:1
 received:1
 4:1
+upon:1
+notice:1
 reason:1
+believe:1
 endeavor:1
-databases.:1
-tags,:1
-technologies:1
-bits:1
-stored:1
-computer’s:1
-browser.:1
-Pixel:1
+that information:1
+our databases:1
+pixel:1
 tags:1
-images:1
-pieces:1
+small bits:1
+stored:1
+your computer’s web
+
+browser:1
+Pixel tags:1
+very small images:1
+small pieces:1
 embedded:1
-images,:1
-"web:1
-beacons":1
-"clear:1
-GIFs,":1
+images:1
+known:1
+web beacons:1
+"clear GIFs:1
 recognize:1
-viewed,:1
-description:1
-tag:1
-placed,:1
-computer:1
-device.:1
+date:1
+a
+
+page:1
+viewed:1
+a description:1
+the page:1
+the pixel tag:1
+placed:1
+similar
+
+information:1
+your computer:1
 consent:1
-technologies.:1
+our use:1
+able:1
 refuse:1
-disable:1
+disable cookies:1
 adjusting:1
-settings.:1
-different,:1
+your web browser settings:1
+each web browser:1
+different:1
 consult:1
 instructions:1
-(typically:1
-"help":1
-section).:1
-EU:1
-visitors,:1
-tool:1
+your web browser:1
+typically:1
+the "help" section:1
+EU visitors:1
+a tool:1
+allows:1
 manage:1
-usage.:1
+would:1
+like:1
+their relevant
+
+usage:1
 modify:1
-prior:1
-Policy,:1
+any time:1
+prior notice:1
 revise:1
-"Effective:1
-Date":1
+the "Effective Date" date:1
+new:1
 recommend:1
 review:1
+the
+
+Services:1
 stay:1
 informed:1
-privacy:1
-practices.:1
+our privacy practices:1
+Any changes:1
 effective:1
-policy.:1
-continued:1
+the revised policy:1
+Your continued use:1
+any changes:1
 revisions:1
-agreement:1
-terms:1
-questions:1
-practices,:1
+shall:1
+indicate:1
+your agreement:1
+the terms:1
+such revised Privacy
+
+Policy:1
+any questions:1
 5:1
 opensource@fb.com:1
-Site:1
-Map:1
+Site Map:1
 FAQ:1
 Linux:1
 Connect:1
 GitHub:1
 Follow:1
+Us:1
 FB:1
 Developers:1
 6:1
 Code:1
 Conduct:1
-Data:1
-Trademark:1
+Data Policy:1
+Terms:1
+Use
+
+Trademark Policy:1
 ©:1
 202:1
 Faceb:1
-ook:1
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:19
+Privacy Policy:2
+Privacy:1
 consent:1
-privacy:1
