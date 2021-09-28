@@ -42,6 +42,17 @@ def nbest(d, n=5):
     #return filtered_lexicon
 
  """
+
+def plot_graph(tokens,path):
+    freq = nltk.FreqDist(tokens)
+    plt.ion()
+    fig = plt.figure()
+    graph = freq.plot(20, cumulative=False, title="Frequency of Words in Facebook Privacy Input Data") # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
+    #plt.savefig(path) 
+    fig.subplots_adjust(bottom=0.3)  
+    #plt.clf() # cleans previous graph
+    plt.ioff()
+    #print(freq.tabulate(),'output/'+file_input_path_general+filename+'/Chart')
 def compute_stats(tokens,filename): #, path):
    
     stats_path = 'output/'+file_input_path_general+filename+'/Stats.txt'
@@ -62,12 +73,7 @@ def compute_stats(tokens,filename): #, path):
     #filtered_lexicon = (set(tokens).difference(stopwords))
     #print("\nWith stop word removal","\nSize of original corpus:", len(tokens), "\nSize of filtered corpus:",len(filtered_lexicon), file=output_file)
     
-    plt.ion()
-    graph = freq.plot(20, cumulative=False) # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
-    plt.savefig('output/'+file_input_path_general+filename+'/Graph.png')  
-    plt.clf() # cleans previous graph
-    plt.ioff()
-    #print(freq.tabulate(),'output/'+file_input_path_general+filename+'/Chart')
+    plot_graph(freq,'output/'+file_input_path_general+filename+'/Graph.png')
 
     freq = nbest(freq,len(freq))
     
@@ -99,13 +105,15 @@ def process_document(title, source):
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text.lower() in stopwords.words()]
     #print(tokens)
     #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
-    compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
+    #compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
+    plot_graph(tokens, '')
 
 def analyse_folder(source):
     path='data/'+file_input_path_general+source
     for filename in os.listdir(path):
         file_name, file_extension = os.path.splitext(filename)
         process_document(file_name, source)
+        break
 
 #####
 #  MAIN 
@@ -131,8 +139,9 @@ for keyword in keywords:
 for foldername in os.listdir('data/'+file_input_path_general):
     print(foldername)
     analyse_folder(foldername+'/')
+    break
 
-
+plt.savefig('output/JointGraph.png')
 #################
 ## COMMENTS ON PROJECT PROGRESS
 
@@ -176,3 +185,9 @@ for foldername in os.listdir('data/'+file_input_path_general):
 # TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN!!!!
 # TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI?
 # AFTER ORGANIZING THIS ALL -> MOVE ON TO DEPENDENCY PARSING
+
+# PREPARE MEETING
+# NON CODING TASKS - friday pre-meeting tasks
+#
+# READ FACEBOOK SOURCED FILES CAREFULLY
+# EXAMINE 2 FILES WITH ESG APPROACHES
