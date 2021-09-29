@@ -106,7 +106,7 @@ def process_document(title, source):
     #print(tokens)
     #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
     #compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
-    plot_graph(tokens, 'output/'+file_input_path_general+source+title+'/Graph.png')
+    plot_graph(tokens, 'output/'+file_input_path_general+source+title+'/Graph.png', title)
 
 def analyse_folder(source):
     path='data/'+file_input_path_general+source
