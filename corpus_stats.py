@@ -46,13 +46,10 @@ def nbest(d, n=5):
 def plot_graph(tokens,path,title):
     freq = nltk.FreqDist(tokens)
     plt.ion()
-    fig = plt.figure()
-    graph = freq.plot(20, cumulative=False, label=title, title="Frequency of Words in Facebook Privacy Input Data") # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
-    plt.savefig(path, bbox_inches='tight') 
-    fig.subplots_adjust(bottom=0.15)  
+    graph = freq.plot(40, cumulative=False, title=title) # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
+    #plt.savefig(path, bbox_inches='tight') 
     #plt.clf() # cleans previous graph
     plt.ioff()
-    #print(freq.tabulate(),'output/'+file_input_path_general+filename+'/Chart')
 def compute_stats(tokens,filename): #, path):
    
     stats_path = 'output/'+file_input_path_general+filename+'/Stats.txt'
@@ -106,14 +103,14 @@ def process_document(title, source):
     #print(tokens)
     #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
     #compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
-    plot_graph(tokens, 'output/'+file_input_path_general+source+title+'/Graph.png', title)
+    plot_graph(tokens, 'output/'+file_input_path_general+source+title+'/Graph.png', 'Word Frequency in Facebook Privacy Input Data')
 
 def analyse_folder(source):
     path='data/'+file_input_path_general+source
     for filename in os.listdir(path):
         file_name, file_extension = os.path.splitext(filename)
         process_document(file_name, source)
-        break
+        #break
 
 #####
 #  MAIN 
@@ -139,9 +136,9 @@ for keyword in keywords:
 for foldername in os.listdir('data/'+file_input_path_general):
     print(foldername)
     analyse_folder(foldername+'/')
-    break
+    #break
 
-#plt.savefig('output/JointGraph.png')
+plt.savefig('output/JointGraph.png', bbox_inches='tight')
 #################
 ## COMMENTS ON PROJECT PROGRESS
 
