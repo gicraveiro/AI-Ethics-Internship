@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 Consumer Association Succeeds in First Round of Dispute FB ToS Ptivacy
 
-Total number of tokens: 1614
+
+With stop word removal 
+Size of original corpus: 4595 
+Size of filtered corpus: 1614
 Size of Lexicon: 1072
 
 Tokens that appear in the file, alongside with their frequencies:

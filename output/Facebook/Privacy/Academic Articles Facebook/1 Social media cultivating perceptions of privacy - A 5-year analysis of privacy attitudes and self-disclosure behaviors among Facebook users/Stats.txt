@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 Social media cultivating perceptions of privacy - A 5-year analysis of privacy attitudes and self-disclosure behaviors among Facebook users
 
-Total number of tokens: 4719
+
+With stop word removal 
+Size of original corpus: 10411 
+Size of filtered corpus: 4719
 Size of Lexicon: 2548
 
 Tokens that appear in the file, alongside with their frequencies:

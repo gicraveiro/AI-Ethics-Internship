@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 Facebook Loses the First Round of Its Battle with the Belgian Privacy Commission
 
-Total number of tokens: 2362
+
+With stop word removal 
+Size of original corpus: 6995 
+Size of filtered corpus: 2362
 Size of Lexicon: 1562
 
 Tokens that appear in the file, alongside with their frequencies:

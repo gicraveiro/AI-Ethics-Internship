@@ -1,7 +1,10 @@
 
 TargetCompanySourced/DataPolicy
 
-Total number of tokens: 2000
+
+With stop word removal 
+Size of original corpus: 4920 
+Size of filtered corpus: 2000
 Size of Lexicon: 1033
 
 Tokens that appear in the file, alongside with their frequencies:

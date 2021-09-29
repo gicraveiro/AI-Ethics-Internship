@@ -1,7 +1,10 @@
 
 TargetCompanySourced/TermsOfService
 
-Total number of tokens: 1890
+
+With stop word removal 
+Size of original corpus: 4314 
+Size of filtered corpus: 1890
 Size of Lexicon: 946
 
 Tokens that appear in the file, alongside with their frequencies:

@@ -19,70 +19,31 @@ def nbest(d, n=5):
     """
     return dict(sorted(d.items(), key=lambda item: item[1], reverse=True)[:n])
 
-# REMOVE STOP WORDS FUNCTION 
-
-""" def stop_words_removal(tokens,output_file_path):
-    output_file = open(output_file_path, 'w')
-    stop_word_file="extras/english.stop.txt"
-    stop_word_f=open(stop_word_file,'r', encoding='utf-8')
-
-    stop_words = (stop_word_f.read()).split()
-
-    filtered_lexicon = (set(tokens).difference(stop_words))
-    
-    print("Stop word removal\n","Size of original lexicon:", len(tokens), "\nSize of filtered lexicon:",len(filtered_lexicon))#, file=output_file)
-
-    for word in filtered_lexicon:
-        print(word)#, file=output_file)
-
-    stop_word_f.close()
-    output_file.close()
-
-    return tokens
-    #return filtered_lexicon
-
- """
-
 def plot_graph(tokens,path,title):
-    freq = nltk.FreqDist(tokens)
+    freq = nltk.FreqDist(tokens) 
     plt.ion()
-    graph = freq.plot(40, cumulative=False, title=title) # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
-    #plt.savefig(path, bbox_inches='tight') 
-    #plt.clf() # cleans previous graph
+    graph = freq.plot(40, cumulative=False, title=title)
+    plt.savefig(path, bbox_inches='tight') 
+    # IF WE NEED TO RECREATE THE JOINT GRAPH, COMMENT THIS COMMAND TO STOP REFRESHING THE GRAPH :
+    plt.clf() # cleans previous graph
     plt.ioff()
-def compute_stats(tokens,filename): #, path):
-   
-    stats_path = 'output/'+file_input_path_general+filename+'/Stats.txt'
-    os.makedirs(os.path.dirname(stats_path), exist_ok=True)
-    output_file = open(stats_path, 'w')
-    print("\n"+filename+"\n", file=output_file)
-
-    keywords_present = []
-    #stop_word_file="data/Utils/english.stopwords.txt"
-    #stop_word_f=open(stop_word_file,'r', encoding='utf-8') 
-    #stopwords = (stop_word_f.read()).split()
-    #stop_word_f.close()
-
-    freq = nltk.FreqDist(tokens)
-    print('Total number of tokens:', len(tokens), file=output_file)
+    return freq
+def compute_stats(tokens, filename, output_file): 
+    # GRAPH OF WORD FREQUENCY
+    #freq = nltk.FreqDist(tokens) # NOW LOCATED INSIDE THE FUNCTION
+    freq = plot_graph(tokens,'output/'+file_input_path_general+filename+'/Graph.png',filename)
+    
     # TO DO: TOTAL NUMBER OF UTTERANCES (SENTENCES)
     print('Size of Lexicon:', len(freq), file=output_file)
-    #filtered_lexicon = (set(tokens).difference(stopwords))
-    #print("\nWith stop word removal","\nSize of original corpus:", len(tokens), "\nSize of filtered corpus:",len(filtered_lexicon), file=output_file)
-    
-    plot_graph(freq,'output/'+file_input_path_general+filename+'/Graph.png',filename)
 
+    # ORDERING LEXICON BY FREQUENCY COUNT
     freq = nbest(freq,len(freq))
     
-
+    # COUNTING KEYWORDS AND PRINTING EVERYTHING IN THE OUTPUT FILE
     print('\nTokens that appear in the file, alongside with their frequencies:', file=output_file)
+    keywords_present = []
     for key, val in freq.items():
-        flag = 0
-        #for stopword in stopwords: # TO DO: OPTIMIZE, ACTUALLY FILTERING CORPUS INSTEAD OF FILTERING OUTPUT
-        #    if (key.lower() == stopword.lower()):
-        #        flag = 1
-        if(flag != 1): 
-            print(str(key) + ':' + str(val), file=output_file)
+        print(str(key) + ':' + str(val), file=output_file)
         for keyword in keywords:
             if (keyword.lower() == key.lower()):
                 keywords_present.append(str(key) + ':' + str(val))
@@ -90,20 +51,27 @@ def compute_stats(tokens,filename): #, path):
     print("\nKeywords that appear in the file, alongside with their frequencies:", file=output_file)
     for keyword in keywords_present:
         print(keyword, file=output_file)
-    
-    output_file.close()
 
 def process_document(title, source):
+    # READING AND MANIPULATING INPUT FILE
     input_file = pdfx.PDFx('data/'+file_input_path_general+source+title+'.pdf') # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
+    filename = source+title
 
     doc = nlp(input_file)
-    #tokens = [t for t in doc.text.split()]
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text.lower() in stopwords.words()]
-    #print(tokens)
-    #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
-    #compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
-    plot_graph(tokens, 'output/'+file_input_path_general+source+title+'/Graph.png', 'Word Frequency in Facebook Privacy Input Data')
+
+    # CREATING OUTPUT FILE
+    stats_path = 'output/'+file_input_path_general+filename+'/Stats.txt'
+    os.makedirs(os.path.dirname(stats_path), exist_ok=True)
+    output_file = open(stats_path, 'w')
+    print("\n"+filename+"\n", file=output_file)
+    
+    print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
+
+    compute_stats(tokens,source+title, output_file)
+
+    output_file.close()
 
 def analyse_folder(source):
     path='data/'+file_input_path_general+source
@@ -131,6 +99,7 @@ print("Descriptive Statistics of Facebook Sourced Files on Privacy", file=output
 print("\nKeywords:\n",file=output_file)
 for keyword in keywords:
     print(keyword, file=output_file)
+output_file.close()
 
 #### PERFORM DESCRIPTIVE STATISTICS ON ALL DATA
 for foldername in os.listdir('data/'+file_input_path_general):
@@ -138,7 +107,9 @@ for foldername in os.listdir('data/'+file_input_path_general):
     analyse_folder(foldername+'/')
     #break
 
-plt.savefig('output/JointGraph.png', bbox_inches='tight')
+# IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
+#plt.savefig('output/JointGraph.png', bbox_inches='tight')
+
 #################
 ## COMMENTS ON PROJECT PROGRESS
 

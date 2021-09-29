@@ -1,7 +1,10 @@
 
 news/After Data Breach Exposes 530 Million, Facebook Says It Will Not Notify Users NPR
 
-Total number of tokens: 529
+
+With stop word removal 
+Size of original corpus: 1071 
+Size of filtered corpus: 529
 Size of Lexicon: 378
 
 Tokens that appear in the file, alongside with their frequencies:

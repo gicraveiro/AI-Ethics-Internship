@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 Mothering on Facebook Exploring privacy opennes paradox
 
-Total number of tokens: 4283
+
+With stop word removal 
+Size of original corpus: 11296 
+Size of filtered corpus: 4283
 Size of Lexicon: 2711
 
 Tokens that appear in the file, alongside with their frequencies:

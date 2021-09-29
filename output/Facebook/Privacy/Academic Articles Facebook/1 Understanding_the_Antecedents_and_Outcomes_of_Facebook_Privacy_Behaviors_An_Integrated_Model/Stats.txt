@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 Understanding_the_Antecedents_and_Outcomes_of_Facebook_Privacy_Behaviors_An_Integrated_Model
 
-Total number of tokens: 6629
+
+With stop word removal 
+Size of original corpus: 14173 
+Size of filtered corpus: 6629
 Size of Lexicon: 3496
 
 Tokens that appear in the file, alongside with their frequencies:

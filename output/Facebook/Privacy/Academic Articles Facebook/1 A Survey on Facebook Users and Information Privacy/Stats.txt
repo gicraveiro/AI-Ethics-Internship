@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 A Survey on Facebook Users and Information Privacy
 
-Total number of tokens: 2731
+
+With stop word removal 
+Size of original corpus: 7112 
+Size of filtered corpus: 2731
 Size of Lexicon: 1690
 
 Tokens that appear in the file, alongside with their frequencies:

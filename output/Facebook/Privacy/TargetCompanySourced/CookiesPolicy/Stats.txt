@@ -1,7 +1,10 @@
 
 TargetCompanySourced/CookiesPolicy
 
-Total number of tokens: 1052
+
+With stop word removal 
+Size of original corpus: 2167 
+Size of filtered corpus: 1052
 Size of Lexicon: 544
 
 Tokens that appear in the file, alongside with their frequencies:

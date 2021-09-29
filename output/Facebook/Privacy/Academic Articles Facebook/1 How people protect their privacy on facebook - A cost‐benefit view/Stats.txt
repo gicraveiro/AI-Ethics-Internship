@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 How people protect their privacy on facebook - A cost‐benefit view
 
-Total number of tokens: 3817
+
+With stop word removal 
+Size of original corpus: 7909 
+Size of filtered corpus: 3817
 Size of Lexicon: 2256
 
 Tokens that appear in the file, alongside with their frequencies:

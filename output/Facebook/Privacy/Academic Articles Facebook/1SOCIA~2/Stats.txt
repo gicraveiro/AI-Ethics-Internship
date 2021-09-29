@@ -1,8 +1,11 @@
 
 Academic Articles Facebook/1SOCIA~2
 
-Total number of tokens: 13545
-Size of Lexicon: 6666
+
+With stop word removal 
+Size of original corpus: 39023 
+Size of filtered corpus: 13546
+Size of Lexicon: 6667
 
 Tokens that appear in the file, alongside with their frequencies:
 Facebook:236
@@ -4357,10 +4360,9 @@ Anca  D. Chirita:1
 The Rise ofBig Data:1
 the Loss of Privacy:1
 Durham Law School:1
-https://ssrn.com/abstract=-2795992
-
-Paper:1
+https://ssrn.com/abstract=-2795992:1
 https://perma.cc/8QX4-N6MT:1
+Paper:1
 148:1
 Aaron  Smith:1
 PEW RESEARCH:1

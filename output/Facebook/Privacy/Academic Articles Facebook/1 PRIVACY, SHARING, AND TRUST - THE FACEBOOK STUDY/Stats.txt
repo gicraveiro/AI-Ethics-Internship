@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 PRIVACY, SHARING, AND TRUST - THE FACEBOOK STUDY
 
-Total number of tokens: 9897
+
+With stop word removal 
+Size of original corpus: 30034 
+Size of filtered corpus: 9897
 Size of Lexicon: 5283
 
 Tokens that appear in the file, alongside with their frequencies:

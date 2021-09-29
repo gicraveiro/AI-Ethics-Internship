@@ -1,7 +1,10 @@
 
 news/Facebook to pay record $5bn to settle privacy concerns - BBC News
 
-Total number of tokens: 841
+
+With stop word removal 
+Size of original corpus: 1695 
+Size of filtered corpus: 841
 Size of Lexicon: 588
 
 Tokens that appear in the file, alongside with their frequencies:

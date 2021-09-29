@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 End-to-End Privacy Protection for Facebook Mobile Chat based on AES with Multi-Layered MD5
 
-Total number of tokens: 1336
+
+With stop word removal 
+Size of original corpus: 3339 
+Size of filtered corpus: 1336
 Size of Lexicon: 917
 
 Tokens that appear in the file, alongside with their frequencies:

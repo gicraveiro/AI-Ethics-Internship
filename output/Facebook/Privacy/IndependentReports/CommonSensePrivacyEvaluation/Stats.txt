@@ -1,7 +1,10 @@
 
 IndependentReports/CommonSensePrivacyEvaluation
 
-Total number of tokens: 1916
+
+With stop word removal 
+Size of original corpus: 3725 
+Size of filtered corpus: 1916
 Size of Lexicon: 995
 
 Tokens that appear in the file, alongside with their frequencies:

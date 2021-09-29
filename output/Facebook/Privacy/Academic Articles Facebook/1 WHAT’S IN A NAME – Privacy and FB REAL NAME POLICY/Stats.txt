@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 WHAT’S IN A NAME – Privacy and FB REAL NAME POLICY
 
-Total number of tokens: 4903
+
+With stop word removal 
+Size of original corpus: 10120 
+Size of filtered corpus: 4903
 Size of Lexicon: 3243
 
 Tokens that appear in the file, alongside with their frequencies:

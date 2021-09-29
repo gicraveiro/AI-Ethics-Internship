@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 Modelling the intended use of Facebook privacy settings
 
-Total number of tokens: 3478
+
+With stop word removal 
+Size of original corpus: 7224 
+Size of filtered corpus: 3478
 Size of Lexicon: 2080
 
 Tokens that appear in the file, alongside with their frequencies:

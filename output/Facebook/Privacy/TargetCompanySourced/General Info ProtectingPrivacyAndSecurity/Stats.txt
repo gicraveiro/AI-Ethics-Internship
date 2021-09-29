@@ -1,7 +1,10 @@
 
 TargetCompanySourced/General Info ProtectingPrivacyAndSecurity
 
-Total number of tokens: 504
+
+With stop word removal 
+Size of original corpus: 1202 
+Size of filtered corpus: 504
 Size of Lexicon: 340
 
 Tokens that appear in the file, alongside with their frequencies:

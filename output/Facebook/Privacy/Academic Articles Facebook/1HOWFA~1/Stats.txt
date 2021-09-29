@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1HOWFA~1
 
-Total number of tokens: 6735
+
+With stop word removal 
+Size of original corpus: 19066 
+Size of filtered corpus: 6735
 Size of Lexicon: 3439
 
 Tokens that appear in the file, alongside with their frequencies:
@@ -2314,7 +2317,7 @@ employs:1
 investing:1
 heavily:1
  new  technology:1
-Facebook 
+that  Facebook 
 problematic  content:1
 840:1
 failing:1

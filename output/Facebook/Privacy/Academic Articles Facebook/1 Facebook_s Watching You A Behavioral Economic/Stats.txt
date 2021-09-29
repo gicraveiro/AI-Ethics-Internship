@@ -1,7 +1,10 @@
 
 Academic Articles Facebook/1 Facebook_s Watching You A Behavioral Economic
 
-Total number of tokens: 6796
+
+With stop word removal 
+Size of original corpus: 20536 
+Size of filtered corpus: 6796
 Size of Lexicon: 3898
 
 Tokens that appear in the file, alongside with their frequencies:
