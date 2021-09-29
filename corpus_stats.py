@@ -43,13 +43,13 @@ def nbest(d, n=5):
 
  """
 
-def plot_graph(tokens,path):
+def plot_graph(tokens,path,title):
     freq = nltk.FreqDist(tokens)
     plt.ion()
     fig = plt.figure()
-    graph = freq.plot(20, cumulative=False, title="Frequency of Words in Facebook Privacy Input Data") # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
-    #plt.savefig(path) 
-    fig.subplots_adjust(bottom=0.3)  
+    graph = freq.plot(20, cumulative=False, label=title, title="Frequency of Words in Facebook Privacy Input Data") # TO DO: CHANGE GRAPH SO ALL WORDS BECOME READABLE
+    plt.savefig(path, bbox_inches='tight') 
+    fig.subplots_adjust(bottom=0.15)  
     #plt.clf() # cleans previous graph
     plt.ioff()
     #print(freq.tabulate(),'output/'+file_input_path_general+filename+'/Chart')
@@ -73,7 +73,7 @@ def compute_stats(tokens,filename): #, path):
     #filtered_lexicon = (set(tokens).difference(stopwords))
     #print("\nWith stop word removal","\nSize of original corpus:", len(tokens), "\nSize of filtered corpus:",len(filtered_lexicon), file=output_file)
     
-    plot_graph(freq,'output/'+file_input_path_general+filename+'/Graph.png')
+    plot_graph(freq,'output/'+file_input_path_general+filename+'/Graph.png',filename)
 
     freq = nbest(freq,len(freq))
     
@@ -106,7 +106,7 @@ def process_document(title, source):
     #print(tokens)
     #tokens = stop_words_removal(tokens,'output/'+file_input_path_general+'/'+title+'/Stats.txt') # filtering stop words
     #compute_stats(tokens,source+title)#, 'output/'+file_input_path_general+source+title+'/Stats.txt') 
-    plot_graph(tokens, '')
+    plot_graph(tokens, 'output/'+file_input_path_general+source+title+'/Graph.png')
 
 def analyse_folder(source):
     path='data/'+file_input_path_general+source
@@ -141,7 +141,7 @@ for foldername in os.listdir('data/'+file_input_path_general):
     analyse_folder(foldername+'/')
     break
 
-plt.savefig('output/JointGraph.png')
+#plt.savefig('output/JointGraph.png')
 #################
 ## COMMENTS ON PROJECT PROGRESS
 
