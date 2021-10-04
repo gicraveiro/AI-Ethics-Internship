@@ -1,98 +1,99 @@
 
-Guidelines/SASB-Privacy-Software_IT_Services_Standard_2018
+SASB-Privacy-Internet_Media_Services_Standard_2018
 
 
 With stop word removal 
-Size of original corpus: 4229 
-Size of filtered corpus: 2062
-Size of Lexicon: 1052
+Size of original corpus: 4366 
+Size of filtered corpus: 2151
+Size of Lexicon: 1051
 
 Tokens that appear in the file, alongside with their frequencies:
-shall:45
-The entity:30
-the entity:21
-2:20
+shall:49
+The entity:36
+the entity:26
+include:21
+may:21
 disclosure:20
 information:20
-include:20
-including:19
-may:18
+including:20
+2:19
+1:18
 defined:17
-1:16
-data:16
-describe:15
+describe:16
+data:14
 3:13
-data breaches:11
-|:11
-limited:11
-The scope:11
-TC:10
-users:10
-used:10
-services:10
+|:13
+The scope:13
+users:12
+limited:12
+content:12
+disclose:12
+used:11
+Number:10
 an individual:10
 discuss:10
-disclose:10
-use:9
+requests:9
+data breaches:9
+4:9
+1.1:9
+includes:9
 and/or:9
-SUSTAINABILITY ACCOUNTING STANDARD | SOFTWARE:9
-IT SERVICES:9
 practices:8
+whose information:8
+TC:8
 blocking:8
+remove:8
 PII:8
-1.1:8
-includes:8
-Quantitative:7
-Percentage:7
-Number:7
-whose information:7
+identifying:8
+5:8
 a result:7
 associated:7
-identifying:7
-4:7
-companies:7
-content:7
+affected:7
+addressing:7
+use:7
+related:7
+INTERNET MEDIA & SERVICES:7
+retention:7
+whether:7
+resulted:7
+percentage:6
+Quantitative:6
+Percentage:6
 secondary purposes:6
-addressing:6
 Note:6
-related:6
-5:6
-retention:6
+services:6
 distinguish:6
 This definition:6
 derived:6
 the information:6
-whether:6
+the reporting period:6
 monitoring:6
-resulted:6
-affected:6
-percentage:5
+Discussion:5
 monetary losses:5
 requested:5
 content filtering:5
 Disclosure:5
+SUSTAINABILITY ACCOUNTING STANDARD |:5
 6:5
-products:5
-provide:5
 1.2:5
 Examples:5
 an entity:5
+2.1:5
 collected:5
+provide:5
 ’s:5
 legal proceedings:5
-the reporting period:5
 the total number:5
 service:5
 vulnerabilities:5
-Discussion:4
-Description:4
 relating:4
 user privacy:4
-TC-SI-230a.1:4
+subject:4
 data security risks:4
-gender:4
 the nature:4
 a description:4
+management:4
+providing:4
 user data:4
 its policies:4
 communications:4
@@ -114,78 +115,102 @@ biometric records:4
 linked:4
 linkable:4
 medical:4
-2.1:4
+SUSTAINABILITY ACCOUNTING STANDARD | INTERNET MEDIA & SERVICES:4
 respect:4
 relevant:4
+2.2:4
 otherwise:4
-providing:4
+required:4
 affiliates:4
+the number:4
 unique users:4
 security:4
+e.g.:4
+products:4
+received:4
+the percentage:4
+its policy:4
 censoring:4
 Accounting Metrics:3
+Analysis:3
+Description:3
 policies:3
-SI-220a.3:3
 countries:3
-subject:3
-involving:3
+TC-IM-230a.1:3
+approach:3
+TC-IM-220a.3:3
 taken:3
 the extent:3
 implemented:3
 response:3
-must:3
-access:3
+Companies:3
+the use:3
+behavioral data:3
+the data:3
+compliance:3
+censorship:3
+influence:3
 usage:3
 user information:3
 records:3
 personally identifiable information:3
+gender:3
 enable:3
 educational:3
 financial:3
 which data:3
 types:3
 require:3
-2.2:3
 3.1:3
 handling:3
 the risks:3
 3.2:3
+must:3
 individuals:3
 consent:3
-required:3
 verify:3
 incurred:3
-e.g.:3
 operations:3
-training:3
 technology:3
 unique requests:3
+government or law enforcement agencies:3
+country:3
 identified:3
-its policy:3
+comply:3
 occurs:3
+complied:3
+disclosures:3
 compromise:3
 ACCOUNTING:2
 consumed:2
 behavioral advertising:2
-Analysis:2
 Total amount:2
 1) Number:2
 law enforcement requests:2
 resulting:2
 core products:2
+TC-IM-220a.4:2
+TC-IM-220a.5:2
+government requests:2
+IM-220a.6:2
+involving:2
 (3) number:2
-SI-220a.5:2
-approach:2
-employees:2
-TC-SI-330a.1:2
+TC-IM-230a.2:2
+TC-IM-330a.1:2
 briefly:2
 context:2
 any corrective actions:2
-TC-SI-220a.5:2
+IM-220a.5:2
 freedom:2
 expression:2
 customer data:2
-customers:2
+prevent:2
+raises:2
+access:2
+increased costs:2
+culturally:2
+politically:2
+sensitive:2
 implementation:2
 addresses:2
 User information:2
@@ -193,7 +218,6 @@ pertains:2
 actions:2
 account statements:2
 transaction records:2
-behavioral data:2
 location data:2
 the quantifiable statistics:2
 age:2
@@ -222,7 +246,6 @@ Social Security
 
 :2
 mother’s maiden name:2
-employment:2
 the U.S. Government Accountability Office’s Report:2
 Congressional Requesters:2
 Alternatives:2
@@ -231,7 +254,6 @@ Enhancing:2
 Protection:2
 Personally Identifiable Information:2
 destruction:2
-affect:2
 third parties:2
 2.3:2
 address:2
@@ -251,27 +273,26 @@ participation:2
 disclosing:2
 6.3:2
 changes:2
-the number:2
 individual:2
-(1) any 
-
-information:2
 Social 
 
 Security Number:2
 mother:2
 maiden name:2
 any other information:2
+employment information:2
 the U.S. Government Accountability 
 
 Office’s Report:2
 Congressional Requesters, Alternatives Exist for Enhancing Protection of Personally 
 
 Identifiable Information:2
-SUSTAINABILITY ACCOUNTING STANDARD | SOFTWARE & IT SERVICES |:2
+
+
+SUSTAINABILITY ACCOUNTING STANDARD |:2
 outside:2
-the data:2
 the entity’s products:2
+a third-party:2
 sharing:2
 belonging:2
 disclosed:2
@@ -281,39 +302,43 @@ well:2
 directly:2
 indirectly:2
 incidents:2
+others:2
 settlement:2
 trial:2
 restitution:2
 the enforcement:2
 relevant industry regulations:2
-management:2
 processes:2
 business partners:2
+training:2
 (1) Number:2
-government or law enforcement agencies:2
-country:2
 non-content data:2
 government:2
 calculated:2
 across:2
-received:2
 the same user:2
-the percentage:2
-requests:2
+divided:2
+the disclosure request:2
+within:2
 3.3:2
-3.3.1:2
-comply:2
+break:2
+region:2
+determining:2
+a request:2
+what conditions:2
+what requirements:2
+the request:2
+the level:2
 notification:2
 due:2
 a government authority:2
 either:2
-censorship:2
 impact:2
-increased costs:2
 modification:2
-influence:2
+avoid:2
+calculate:2
 risk:2
-result:2
+data security threats:2
 encrypted data:2
 acquired:2
 could:2
@@ -322,7 +347,6 @@ the corrective actions:2
 The U.S. SEC’s Commission Statement:2
 Guidance on Public Company Cybersecurity Disclosures:2
 further guidance:2
-disclosures:2
 All disclosure:2
 sufficient:2
 specific:2
@@ -334,21 +358,17 @@ its information systems:2
 an information system:2
 its use:2
 third-party cybersecurity risk management standards:2
-Cybersecurity:2
 cybersecurity risk management standards:2
-the use:2
 TECHNOLOGY & COMMUNICATIONS SECTOR          
 
-SOFTWARE & IT SERVICES
+INTERNET MEDIA & SERVICES
 
 Sustainability Accounting Standard
 
 :1
 Sustainable Industry Classification System®:1
 SICS®:1
-TC-SI
-
-:1
+TC-IM:1
 Prepared:1
 the
 Sustainability Accounting Standards Board:1
@@ -379,16 +399,18 @@ electricity:1
 renewable:1
 Gigajoules:1
 (GJ:1
-SI-130a.1:1
+TC-IM-130a.1:1
 Total water:1
 withdrawn:1
-total water:1
+total:1
+water:1
 regions:1
 
 High or Extremely High Baseline Water Stress
 
-:1
-TC-SI-130a.2:1
+Quantitative
+
+TC-IM-130a.2:1
 Thousand cubic 
 meters:1
 m³:1
@@ -399,11 +421,9 @@ strategic planning:1
 data 
 center:1
 needs:1
-
-Analysis:1
-TC-SI-130a.3:1
-TC-SI-220a.1:1
-TC-SI-220a.2:1
+TC-IM-130a.3:1
+TC-IM-220a.1:1
+TC-IM-220a.2:1
 
 legal proceedings:1
 user privacy2:1
@@ -412,6 +432,7 @@ Quantitative
 Reporting:1
 
 currency:1
+IM-220a.3:1
 
 user information:1
 (2) number:1
@@ -423,122 +444,107 @@ services:1
 government-required 
 monitoring:1
 censoring3:1
-personally:1
-identifiable:1
-affected4:1
-Percentage (%:1
-TC-SI-220a.4
 
-Discussion and 
 Analysis:1
 
+content:1
+percentage compliance:1
+Percentage (%:1
+personally:1
+identifiable:1
+
 third-party cybersecurity standards:1
-SI-230a.2:1
-(1) foreign 
+employees:1
+foreign:1
 nationals:1
-located:1
-offshore5:1
 Employee engagement:1
 a percentage6:1
 Quantitative
 
 Percentage (%:1
-TC-SI-330a.2:1
-racial/ethnic group:1
-representation:1
-(1) management:1
-technical staff:1
-all other employees7:1
-SI-330a.3:1
+IM-330a.2:1
 Environmental:1
 Footprint:1
 Hardware 
 Infrastructure:1
 Data Privacy:1
+
+Advertising 
+Standards:1
 Freedom:1
 Expression:1
-Data Security:1
-Recruiting:1
-Managing:1
-Global:1
-Diverse:1
-Skilled:1
-
-Workforce:1
+Data:1
+Security:1
+Employee 
+Recruitment:1
+Inclusion:1
 the 
 
 3 Note:1
 the impact:1
 each case:1
-where relevant, a discussion:1
+where relevant, a 
+
+discussion:1
 the entity’s policies:1
 corrective actions:1
 potential risks:1
 recruiting:1
 foreign nationals:1
-offshore:1
-management approach:1
 these risks:1
 6 Note:1
-SI-330a.2:1
+TC-IM-330a.2:1
 methodology:1
 employed:1
-
-
-Data Privacy & Freedom of Expression 
+Data Privacy, Advertising Standards & Freedom of Expression 
 
 :1
 Topic Summary:1
-software:1
-increasingly:1
-deliver:1
-the Internet:1
-mobile 
-
-devices:1
-carefully:1
-manage:1
-two separate and often conflicting priorities:1
-the one hand:1
+the Internet & Media Services industry:1
+rely:1
 innovate:1
-new products:1
+new tools:1
 generate:1
 revenues:1
-hand:1
-privacy concerns:1
+advertising sales:1
+track:1
+criminal activities:1
+hacking:1
+online predators:1
+targeting:1
+children:1
+However:1
+storage:1
 a wide range:1
-personal:1
-demographic:1
-behavioral:1
-This dynamic:1
+personal, demographic, 
+
+content:1
+privacy concerns:1
 leading:1
 increased regulatory scrutiny:1
-many 
-
-countries:1
+many countries:1
 around:1
 the world:1
-delivery:1
-cloud-based software:1
-raises:1
-concerns:1
-potential:1
+reputational risks:1
 governments:1
+concerns:1
 limit:1
 the freedoms:1
 citizens:1
-Effective management:1
-this area:1
-important:1
-reduce:1
-regulatory and reputational risks:1
-lead:1
-decreased revenues:1
-lower market share:1
-regulatory actions:1
-potential fines:1
-other legal costs:1
-SI-220a.1:1
+the varying local laws:1
+government demands:1
+material:1
+websites:1
+This issue:1
+impacts:1
+company profitability:1
+the loss:1
+decisions:1
+enter:1
+operate:1
+certain markets:1
+IM-220a.1:1
+ Description:1
 behavioral 
 advertising and user privacy:1
 scope:1
@@ -557,6 +563,7 @@ an individual’s physical location:1
 (2) any other 
 
 information:1
+employment:1
 12
 
 information:1
@@ -565,6 +572,7 @@ i.e., collection:1
 processing:1
 how information-handling practices:1
 each stage:1
+affect:1
 individuals’ privacy:1
 data collection:1
 without:1
@@ -590,10 +598,9 @@ similar issues:1
 the 
 
 U.S. Office of Management and Budget’s:1
-OMB:1
-Guidance for Implementing the Privacy Provisions of the E-
+“Guidance for Implementing the Privacy Provisions of the E-Government 
 
-Government Act of 2002:1
+Act of 2002:1
 M-03-22:1
 Privacy Impact Assessments:1
 A PIA:1
@@ -684,7 +691,7 @@ Accountability:1
 self-regulatory organizations:1
 the Direct Marketing Association 
 
-TC-SI-220a.2:1
+TC-IM-220a.2:1
 a user‘s attributes:1
 1.1.1 Demographic data:1
 a given 
@@ -695,7 +702,6 @@ online browsing patterns:1
 1.1.3 Location data:1
 an individual‘s physical location:1
 1.1.4 PII:1
-employment information:1
 14:1
 Secondary purpose:1
 the intentional use:1
@@ -706,7 +712,6 @@ targeted ads:1
 improving:1
 service offerings:1
 transferring:1
-a third party:1
 rental:1
 User:1
 accounts:1
@@ -717,7 +722,6 @@ controls:1
 controlled:1
 common control:1
 its affiliates:1
-TC-SI-220a.3:1
 the total amount:1
 The legal proceedings:1
 any adjudicative proceeding:1
@@ -730,7 +734,6 @@ an arbitrator:1
 The losses:1
 all monetary liabilities:1
 the opposing party:1
-others:1
 the result:1
 verdict:1
 fines:1
@@ -789,7 +792,6 @@ unauthorized:1
 all monetary losses:1
 the legal proceedings:1
 specific changes:1
-TC-SI-220a.4:1
 number:1
 user content:1
 
@@ -817,12 +819,11 @@ information:1
 law enforcement agencies:1
 The number:1
 the sum:1
-whose user information:1
 all requests:1
 2.1.1:1
 able:1
-two records:1
-i.e., user information:1
+two accounts:1
+(i.e., user information:1
 belong:1
 entity:1
 consider:1
@@ -832,23 +833,20 @@ the requesting party:1
 The percentage:1
 requesting:1
 party:1
-divided:1
 full or partial 
 
 compliance:1
-the disclosure request:1
-within:1
-the requests:1
+this requests:1
 aggregated:1
 anonymized:1
 intended:1
-prevent:1
 the recipient:1
 reconfiguring:1
 an 
 
 individual’s actions:1
 identity:1
+3.3.1:1
 these characteristics:1
 apply:1
 a portion:1
@@ -860,16 +858,8 @@ necessary context:1
 interpretation:1
 the entity disclosure:1
 additionally:1
-break:1
 its disclosure:1
-region:1
-determining:1
-a request:1
-what conditions:1
 release:1
-what requirements:1
-the request:1
-the level:1
 management approval:1
 notifying:1
 such requests:1
@@ -888,8 +878,8 @@ governmental, judicial, or law enforcement requests:1
 requirements:1
 SUSTAINABILITY:1
 STANDARD:1
-SOFTWARE:1
-SERVICES:1
+INTERNET:1
+MEDIA & SERVICES:1
 17:1
 Monitoring:1
 law enforcement agency:1
@@ -912,12 +902,8 @@ product:1
 overriding service provision:1
 requiring:1
 a company:1
-remove:1
 certain content:1
 considered:1
-politically:1
-culturally:1
-sensitive:1
 this disclosure:1
 company operations:1
 discontinued:1
@@ -933,7 +919,7 @@ the specific products:1
 nature:1
 duration:1
 percent:1
-markets:1
+customers:1
 implications:1
 affecting:1
 ability:1
@@ -946,7 +932,6 @@ their functionality:1
 the modification:1
 indicating:1
 undertaken:1
-avoid:1
 the 
 
 modified product:1
@@ -960,63 +945,76 @@ operating:1
 request:1
 some form:1
 the entity’s content:1
-18
+government or law enforcement:1
+content removal requests:1
+instances:1
+the content:1
+restricted:1
+one or more markets:1
+operates:1
+the requests:1
+the issuing agencies:1
+18:1
+markets:1
+agencies:1
+total number:1
+full:1
+partial:1
+remain:1
+approval:1
+categories:1
+request type:1
+copyright:1
+takedown:1
+notices:1
+illegal hate speech:1
+19
 
 Data Security 
 
-Topic Summary:1
-kept:1
-secure:1
-Software:1
-targets:1
-growing data security threats:1
+Topic Summary 
+
+Companies:1
+the Internet Media & Services industry:1
+a large and growing number:1
 cyber attacks:1
-social engineering:1
+social engineering threats:1
 puts:1
-their own data:1
-their customers’ data:1
+customer information:1
+a company's own data:1
 Inadequate prevention:1
+, 
+
 detection:1
 remediation:1
+customer acquisition:1
+result:1
+decreased market share:1
+lower demand:1
+the company’s products:1
+a timely manner companies:1
+protect:1
+brand value:1
+better:1
+positioned:1
+customer 
+
+acquisition:1
+Furthermore:1
+effective management:1
+significant expenses:1
 data 
 
-security threats:1
-customer acquisition:1
-decreased market share:1
-lower:1
-demand:1
-the company’s products:1
-addition:1
-reputational damage:1
-customer turnover:1
-increased expenses:1
+breaches:1
 commonly:1
-remediation efforts:1
-identity protection offerings:1
-employee:1
-data protection:1
-Meanwhile:1
-new and emerging data security standards:1
-regulations:1
-likely:1
-the
-
-operating expenses:1
-compliance:1
-Additionally:1
-this industry:1
-well-:1
-positioned:1
-uncover:1
-revenue opportunities:1
-secure software:1
-meet:1
-the demand:1
-ensuring:1
+directed:1
+recapturing:1
+following:1
+a breach:1
+IM-230a.1:1
 (2) percentage:1
 personally 
 identifiable information:1
-calculate:1
 Data breach:1
 the unauthorized movement:1
 sensitive information:1
@@ -1034,6 +1032,9 @@ confidentiality:1
 integrity:1
 in which personally identifiable information:1
 the data breach:1
+(1) any 
+
+information:1
 medical, educational, financial, and employment 
 
 information:1
@@ -1042,7 +1043,7 @@ key:1
 a reasonable belief:1
 readily:1
 converted:1
-19
+20
 
 2.2.1 Encryption:1
 the process:1
@@ -1070,9 +1071,9 @@ investigation:1
 the law enforcement agency:1
 such notification:1
 investigation:1
+specific incidents:1
 the entity’s ability:1
 a timely manner:1
-TC-SI-230a.2:1
 data security 
 risks:1
 third-party cybersecurity standards:1
@@ -1100,7 +1101,7 @@ nations:1
 via:1
 unauthorized access:1
 denial:1
-20:1
+21:1
 operational procedures:1
 management processes:1
 structure:1
@@ -1116,9 +1117,9 @@ standards:1
 frameworks:1
 guidance:1
 developed:1
-a third-party:1
 the explicit purpose:1
 aiding:1
+companies:1
 cybersecurity threats:1
 preventing:1
 responding:1
@@ -1129,20 +1130,19 @@ The American Institute of Certified Public Accountants’:1
 (AICPA:1
 Service Organization Controls:1
 (SOC:1
+Cybersecurity:1
 3.2.2 ISACA:1
 COBIT:1
 3.2.3:1
-ISO:1
-IEC:1
-27000:1
-series:1
+ISO/IEC 27000-series
+
+Cybersecurity:1
+Version:1
 3.2.4:1
 National Institute of Standards and Technology’s:1
 (NIST) Framework:1
-Improving:1
-Critical Infrastructure:1
-Version:1
-Identification:1
+Improving Critical Infrastructure:1
+3.3.1 Identification:1
 the specific cybersecurity risk management standard(s:1
 3.3.2 Description:1
 cybersecurity risk management standard(s:1
@@ -1179,12 +1179,14 @@ attacks:1
 its data security:1
 information systems:1
 the entity’s approach:1
-21:1
+SUSTAINABILITY ACCOUNTING STANDARD | INTERNET MEDIA & SERVICES |:1
+22:1
 the entity‘s ability:1
-22
-
-SUSTAINABILITY ACCOUNTING STANDARDS BOARD:1
-1045 Sansome Street:1
+23:1
+SUSTAINABILITY ACCOUNTING STANDARDS BOARD:1
+1045:1
+Sansome:1
+Street:1
 Suite:1
 450:1
 San Francisco:1
@@ -1196,9 +1198,7 @@ sasb.org:1
 Keywords that appear in the file, alongside with their frequencies:
 consent:3
 privacy:2
-Cybersecurity:2
-Data Security:1
 Data security:1
-data protection:1
 Data breach:1
 Service Organization Controls:1
+Cybersecurity:1

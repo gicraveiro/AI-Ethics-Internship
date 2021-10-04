@@ -1,5 +1,5 @@
 
-Guidelines/Privacy-HILEG-Assessment List for Trustworthy AI
+Privacy-HILEG-Assessment List for Trustworthy AI
 
 
 With stop word removal 

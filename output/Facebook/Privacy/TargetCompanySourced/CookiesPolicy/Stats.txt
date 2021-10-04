@@ -1,5 +1,5 @@
 
-TargetCompanySourced/CookiesPolicy
+CookiesPolicy
 
 
 With stop word removal 
