@@ -5,7 +5,7 @@ import spacy
 import nltk
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
-nltk.download('stopwords')
+#nltk.download('stopwords')
 
 file_input_path_general = 'Facebook/Privacy/' # global
 
@@ -54,7 +54,9 @@ def compute_stats(tokens, filename, output_file):
 
 def process_document(title, source):
     # READING AND MANIPULATING INPUT FILE
-    input_file = pdfx.PDFx('data/'+file_input_path_general+source+title+'.pdf') # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
+    #path = 'data/'+file_input_path_general+source+title+'.pdf'
+    path = 'data/'+source+title+'.pdf'
+    input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
     filename = source+title
 
@@ -102,9 +104,18 @@ for keyword in keywords:
 output_file.close()
 
 #### PERFORM DESCRIPTIVE STATISTICS ON ALL DATA
-for foldername in os.listdir('data/'+file_input_path_general):
+
+folder = input("Enter the folder that you wish to analyze\n")
+
+
+for foldername in os.listdir('data/'+folder):
     print(foldername)
-    analyse_folder(foldername+'/')
+    if os.path.isdir(foldername):
+        analyse_folder(foldername+'/')
+    else:
+        file_name, file_extension = os.path.splitext(foldername)
+        process_document(file_name, folder+'/')
+
     #break
 
 # IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
@@ -120,6 +131,7 @@ for foldername in os.listdir('data/'+file_input_path_general):
 # LEMMATIZATION, STEMMING - I THINK IT'S A GOOD IDEA BUT WE SHOULD CHECK THE KEYWORDS
 # EXPANDING ABBREVIATIONS?
 # TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN
+# CURRENTLY EVALUATING WORDS INSIDE NOUN CHUNKS ONLY AS THE NOUN CHUNK SET, SO MAYBE WE ARE MISSING KEYWORDS INSIDE OF NOUN CHUNKS?
 
 # B - TEST WITH DIFFERENT FILES -> DONE, NOT MUCH HELP...
 
@@ -138,13 +150,14 @@ for foldername in os.listdir('data/'+file_input_path_general):
 
 # EXTRAS TO-DOS TO MAKE STATS PRETTIER/MORE COMPLETE
 
-# TO DO: PLOT ALL OF THE GRAPHS TOGETHER TOO BUT READABLY and with no stop words!!!!
-# TO DO: TITLE TO THE GRAPHS
+# TO DO: PLOT ALL OF THE GRAPHS TOGETHER TOO BUT READABLY and with no stop words!!!! check
+# TO DO: TITLE TO THE GRAPHS check
 # TO DO: N GRAMS
-# TO DO: MODIFY GRAPH SO THAT THE FULL WORDS CAN BE READ
+# TO DO: MODIFY GRAPH SO THAT THE FULL WORDS CAN BE READ check
 
 # MEETING: ASK WHAT KINDS OF INFO/DESCRIPTIVE STATISTICS WE WANT TO OBTAIN THAT WE DONT ALREADY HAVE
 # COULD APPLY FREQUENCY CUT-OFF - IS IT WORTH IT? GIVEN THAT PRIVACY IS SAID ONCE MAYBE, I COULD SAY NO BUT TITLE MAYBE SHOULDNT COUNT, BUT ALSO HOW TO RULE OUT/MAKE SURE IT IS THE TITLE THAT IS BEING CUT OFF
+
 
 # LOWERCASING? probably not needed
 # NUMBERS TO WORDS? REMOVE NUMBERS? probably not needed
@@ -154,8 +167,30 @@ for foldername in os.listdir('data/'+file_input_path_general):
 # TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI?
 # AFTER ORGANIZING THIS ALL -> MOVE ON TO DEPENDENCY PARSING
 
+# I realized I should sent an email warning you whenever I update the output in the folders, from now on I will, and where to find the changes
+
 # PREPARE MEETING
 # NON CODING TASKS - friday pre-meeting tasks
 #
 # READ FACEBOOK SOURCED FILES CAREFULLY
-# EXAMINE 2 FILES WITH ESG APPROACHES
+# EXAMINE 2 FILES WITH ESG APPROACHES ---- do not follow this angle yet
+# Take a look at stats, come up with an opinion in new keywords --- do not follow this angle yet
+
+
+# To debug f5, import gc gc.collect() but I'm not yet satidfied with the results
+
+# BRAINSTORMING
+
+# Should we have a DPIA to analyze as input??
+
+
+### NEXT STEPS:
+
+# SEARCH STRING OF ALL TERMS
+# CLEANING
+# FILTERING
+# TOKENIZATION
+# TESTING WITH SPACY DEPENDENCY PARSER
+# DEPENDENCY PARSING
+# VERSION WITH LEMMATIZATION TOO
+

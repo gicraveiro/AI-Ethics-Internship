@@ -1,0 +1,1204 @@
+
+Guidelines/SASB-Privacy-Software_IT_Services_Standard_2018
+
+
+With stop word removal 
+Size of original corpus: 4229 
+Size of filtered corpus: 2062
+Size of Lexicon: 1052
+
+Tokens that appear in the file, alongside with their frequencies:
+shall:45
+The entity:30
+the entity:21
+2:20
+disclosure:20
+information:20
+include:20
+including:19
+may:18
+defined:17
+1:16
+data:16
+describe:15
+3:13
+data breaches:11
+|:11
+limited:11
+The scope:11
+TC:10
+users:10
+used:10
+services:10
+an individual:10
+discuss:10
+disclose:10
+use:9
+and/or:9
+SUSTAINABILITY ACCOUNTING STANDARD | SOFTWARE:9
+IT SERVICES:9
+practices:8
+blocking:8
+PII:8
+1.1:8
+includes:8
+Quantitative:7
+Percentage:7
+Number:7
+whose information:7
+a result:7
+associated:7
+identifying:7
+4:7
+companies:7
+content:7
+secondary purposes:6
+addressing:6
+Note:6
+related:6
+5:6
+retention:6
+distinguish:6
+This definition:6
+derived:6
+the information:6
+whether:6
+monitoring:6
+resulted:6
+affected:6
+percentage:5
+monetary losses:5
+requested:5
+content filtering:5
+Disclosure:5
+6:5
+products:5
+provide:5
+1.2:5
+Examples:5
+an entity:5
+collected:5
+’s:5
+legal proceedings:5
+the reporting period:5
+the total number:5
+service:5
+vulnerabilities:5
+Discussion:4
+Description:4
+relating:4
+user privacy:4
+TC-SI-230a.1:4
+data security risks:4
+gender:4
+the nature:4
+a description:4
+user data:4
+its policies:4
+communications:4
+demographic data:4
+identify:4
+1.3:4
+the product:4
+tracking:4
+would:4
+any information:4
+maintained:4
+trace:4
+an individual’s identity:4
+SSN:4
+date:4
+place:4
+birth:4
+biometric records:4
+linked:4
+linkable:4
+medical:4
+2.1:4
+respect:4
+relevant:4
+otherwise:4
+providing:4
+affiliates:4
+unique users:4
+security:4
+censoring:4
+Accounting Metrics:3
+policies:3
+SI-220a.3:3
+countries:3
+subject:3
+involving:3
+taken:3
+the extent:3
+implemented:3
+response:3
+must:3
+access:3
+usage:3
+user information:3
+records:3
+personally identifiable information:3
+enable:3
+educational:3
+financial:3
+which data:3
+types:3
+require:3
+2.2:3
+3.1:3
+handling:3
+the risks:3
+3.2:3
+individuals:3
+consent:3
+required:3
+verify:3
+incurred:3
+e.g.:3
+operations:3
+training:3
+technology:3
+unique requests:3
+identified:3
+its policy:3
+occurs:3
+compromise:3
+ACCOUNTING:2
+consumed:2
+behavioral advertising:2
+Analysis:2
+Total amount:2
+1) Number:2
+law enforcement requests:2
+resulting:2
+core products:2
+(3) number:2
+SI-220a.5:2
+approach:2
+employees:2
+TC-SI-330a.1:2
+briefly:2
+context:2
+any corrective actions:2
+TC-SI-220a.5:2
+freedom:2
+expression:2
+customer data:2
+customers:2
+implementation:2
+addresses:2
+User information:2
+pertains:2
+actions:2
+account statements:2
+transaction records:2
+behavioral data:2
+location data:2
+the quantifiable statistics:2
+age:2
+race/ethnicity:2
+knowledge:2
+languages:2
+disabilities:2
+mobility:2
+home ownership:2
+employment status:2
+Behavioral data:2
+measuring:2
+recording:2
+individual behaviors:2
+buying habits:2
+brand preferences:2
+product usage patterns:2
+describing:2
+the physical location:2
+movement patterns:2
+Global Positioning System:2
+GPS:2
+coordinates:2
+other related data:2
+Social Security 
+
+:2
+mother’s maiden name:2
+employment:2
+the U.S. Government Accountability Office’s Report:2
+Congressional Requesters:2
+Alternatives:2
+Exist:2
+Enhancing:2
+Protection:2
+Personally Identifiable Information:2
+destruction:2
+affect:2
+third parties:2
+2.3:2
+address:2
+outlined:2
+PIAs:2
+privacy:2
+determines:2
+order:2
+b:2
+authorized:2
+user:2
+children’s privacy:2
+COPPA:2
+6.1:2
+participation:2
+6.2:2
+disclosing:2
+6.3:2
+changes:2
+the number:2
+individual:2
+(1) any 
+
+information:2
+Social 
+
+Security Number:2
+mother:2
+maiden name:2
+any other information:2
+the U.S. Government Accountability 
+
+Office’s Report:2
+Congressional Requesters, Alternatives Exist for Enhancing Protection of Personally 
+
+Identifiable Information:2
+SUSTAINABILITY ACCOUNTING STANDARD | SOFTWARE & IT SERVICES |:2
+outside:2
+the data:2
+the entity’s products:2
+sharing:2
+belonging:2
+disclosed:2
+separately:2
+the users:2
+well:2
+directly:2
+indirectly:2
+incidents:2
+settlement:2
+trial:2
+restitution:2
+the enforcement:2
+relevant industry regulations:2
+management:2
+processes:2
+business partners:2
+(1) Number:2
+government or law enforcement agencies:2
+country:2
+non-content data:2
+government:2
+calculated:2
+across:2
+received:2
+the same user:2
+the percentage:2
+requests:2
+3.3:2
+3.3.1:2
+comply:2
+notification:2
+due:2
+a government authority:2
+either:2
+censorship:2
+impact:2
+increased costs:2
+modification:2
+influence:2
+risk:2
+result:2
+encrypted data:2
+acquired:2
+could:2
+plaintext:2
+the corrective actions:2
+The U.S. SEC’s Commission Statement:2
+Guidance on Public Company Cybersecurity Disclosures:2
+further guidance:2
+disclosures:2
+All disclosure:2
+sufficient:2
+specific:2
+faces:2
+maintain:2
+data privacy:2
+its approach:2
+its information systems:2
+an information system:2
+its use:2
+third-party cybersecurity risk management standards:2
+Cybersecurity:2
+cybersecurity risk management standards:2
+the use:2
+TECHNOLOGY & COMMUNICATIONS SECTOR          
+
+SOFTWARE & IT SERVICES
+
+Sustainability Accounting Standard
+
+:1
+Sustainable Industry Classification System®:1
+SICS®:1
+TC-SI
+
+:1
+Prepared:1
+the
+Sustainability Accounting Standards Board:1
+October 2018:1
+INDUSTRY STANDARD |:1
+VERSION:1
+2018-10:1
+©:1
+2018:1
+The SASB Foundation:1
+All Rights Reserved:1
+sasb.org
+
+SUSTAINABILITY:1
+DISCLOSURE TOPICS & ACCOUNTING METRICS:1
+Table:1
+Sustainability Disclosure:1
+Topics:1
+TOPIC:1
+METRIC:1
+CATEGORY:1
+CODE:1
+UNIT:1
+MEASURE:1
+Total energy:1
+(2) percentage grid
+electricity:1
+renewable:1
+Gigajoules:1
+(GJ:1
+SI-130a.1:1
+Total water:1
+withdrawn:1
+total water:1
+regions:1
+
+High or Extremely High Baseline Water Stress
+
+:1
+TC-SI-130a.2:1
+Thousand cubic 
+meters:1
+m³:1
+the integration:1
+environmental 
+considerations:1
+strategic planning:1
+data 
+center:1
+needs:1
+
+Analysis:1
+TC-SI-130a.3:1
+TC-SI-220a.1:1
+TC-SI-220a.2:1
+
+legal proceedings:1
+user privacy2:1
+Quantitative
+
+Reporting:1
+
+currency:1
+
+user information:1
+(2) number:1
+whose
+information:1
+List:1
+
+services:1
+government-required 
+monitoring:1
+censoring3:1
+personally:1
+identifiable:1
+affected4:1
+Percentage (%:1
+TC-SI-220a.4
+
+Discussion and 
+Analysis:1
+
+third-party cybersecurity standards:1
+SI-230a.2:1
+(1) foreign 
+nationals:1
+located:1
+offshore5:1
+Employee engagement:1
+a percentage6:1
+Quantitative
+
+Percentage (%:1
+TC-SI-330a.2:1
+racial/ethnic group:1
+representation:1
+(1) management:1
+technical staff:1
+all other employees7:1
+SI-330a.3:1
+Environmental:1
+Footprint:1
+Hardware 
+Infrastructure:1
+Data Privacy:1
+Freedom:1
+Expression:1
+Data Security:1
+Recruiting:1
+Managing:1
+Global:1
+Diverse:1
+Skilled:1
+
+Workforce:1
+the 
+
+3 Note:1
+the impact:1
+each case:1
+where relevant, a discussion:1
+the entity’s policies:1
+corrective actions:1
+potential risks:1
+recruiting:1
+foreign nationals:1
+offshore:1
+management approach:1
+these risks:1
+6 Note:1
+SI-330a.2:1
+methodology:1
+employed:1
+
+
+Data Privacy & Freedom of Expression 
+
+:1
+Topic Summary:1
+software:1
+increasingly:1
+deliver:1
+the Internet:1
+mobile 
+
+devices:1
+carefully:1
+manage:1
+two separate and often conflicting priorities:1
+the one hand:1
+innovate:1
+new products:1
+generate:1
+revenues:1
+hand:1
+privacy concerns:1
+a wide range:1
+personal:1
+demographic:1
+behavioral:1
+This dynamic:1
+leading:1
+increased regulatory scrutiny:1
+many 
+
+countries:1
+around:1
+the world:1
+delivery:1
+cloud-based software:1
+raises:1
+concerns:1
+potential:1
+governments:1
+limit:1
+the freedoms:1
+citizens:1
+Effective management:1
+this area:1
+important:1
+reduce:1
+regulatory and reputational risks:1
+lead:1
+decreased revenues:1
+lower market share:1
+regulatory actions:1
+potential fines:1
+other legal costs:1
+SI-220a.1:1
+behavioral 
+advertising and user privacy:1
+scope:1
+a specific focus:1
+the collection:1
+a user’s attributes:1
+Demographic data:1
+a given population:1
+
+
+online browsing patterns:1
+1.4:1
+Location data:1
+an individual’s physical location:1
+1.5:1
+(2) any other 
+
+information:1
+12
+
+information:1
+the information “lifecycle:1
+i.e., collection:1
+processing:1
+how information-handling practices:1
+each stage:1
+individuals’ privacy:1
+data collection:1
+without:1
+the consent:1
+opt-in consent:1
+opt:1
+action:1
+the individual:1
+internally:1
+under which circumstances:1
+the entity shares:1
+sells:1
+rents:1
+distributes:1
+retains:1
+length:1
+time:1
+ensure:1
+stored:1
+securely:1
+the degree:1
+similar issues:1
+the 
+
+U.S. Office of Management and Budget’s:1
+OMB:1
+Guidance for Implementing the Privacy Provisions of the E-
+
+Government Act of 2002:1
+M-03-22:1
+Privacy Impact Assessments:1
+A PIA:1
+an analysis:1
+handled:1
+ensures:1
+conforms:1
+applicable:1
+legal:1
+
+
+regulatory, and policy requirements:1
+regarding:1
+effects:1
+collecting:1
+maintaining:1
+disseminating:1
+identifiable form:1
+an electronic information system:1
+examines:1
+evaluates:1
+protections:1
+alternative processes:1
+mitigate:1
+potential privacy risks:1
+OMB M-03-22:1
+analyze:1
+what information:1
+(c) the intended use:1
+(d:1
+shared:1
+what opportunities:1
+decline:1
+i.e.:1
+voluntary:1
+particular uses:1
+
+
+uses:1
+grant:1
+f:1
+secured:1
+among:1
+other 
+
+government-specific requirements:1
+a minimum:1
+the provisions:1
+the U.S. Children’s Online Privacy Protection Act:1
+both first- and third-party advertising:1
+the following principles:1
+described:1
+the cross-industry Self-Regulatory Principles:1
+Online Behavioral Advertising:1
+Education:1
+educational efforts:1
+consumers:1
+behavioral online advertising:1
+13:1
+Transparency:1
+clearly:1
+data collection and data use practices:1
+Consumer control:1
+allowing:1
+choose:1
+transferred:1
+6.4:1
+Data security:1
+basic security provisions:1
+clear policies:1
+information
+
+ones:1
+6.5 Material changes:1
+obtaining:1
+applying:1
+less:1
+restrictive:1
+existing:1
+6.6:1
+Sensitive data:1
+abiding:1
+financial information:1
+Social Security:1
+numbers:1
+6.7:1
+Accountability:1
+self-regulatory organizations:1
+the Direct Marketing Association 
+
+TC-SI-220a.2:1
+a user‘s attributes:1
+1.1.1 Demographic data:1
+a given 
+
+population:1
+1.1.2:1
+online browsing patterns:1
+1.1.3 Location data:1
+an individual‘s physical location:1
+1.1.4 PII:1
+employment information:1
+14:1
+Secondary purpose:1
+the intentional use:1
+(i.e., not a breach:1
+the primary purpose:1
+selling:1
+targeted ads:1
+improving:1
+service offerings:1
+transferring:1
+a third party:1
+rental:1
+User:1
+accounts:1
+the same individual:1
+provided:1
+Affiliate:1
+controls:1
+controlled:1
+common control:1
+its affiliates:1
+TC-SI-220a.3:1
+the total amount:1
+The legal proceedings:1
+any adjudicative proceeding:1
+involved:1
+a 
+
+court:1
+a regulator:1
+an arbitrator:1
+The losses:1
+all monetary liabilities:1
+the opposing party:1
+others:1
+the result:1
+verdict:1
+fines:1
+other monetary liabilities:1
+civil actions:1
+e.g., civil judgments:1
+settlements:1
+regulatory proceedings:1
+e.g., penalties:1
+disgorgement:1
+criminal actions:1
+e.g., criminal judgment:1
+penalties:1
+brought:1
+any entity:1
+governmental:1
+business:1
+exclude:1
+legal and other fees:1
+expenses:1
+its defense:1
+5.1:1
+California Consumer Privacy Act:1
+5.2:1
+EU Directive 2002/58/EC:1
+(ePrivacy Directive:1
+5.3:1
+EU-U.S. Privacy Shield:1
+5.4:1
+General Data Protection Regulation (GDPR:1
+(EU:1
+2016/679:1
+15:1
+promulgated:1
+regional, national, state, and local regulatory authorities:1
+5.5:1
+Japan’s Act:1
+the Protection of Personal Information
+
+:1
+5.6:1
+U.S. Children’s Online Privacy Protection Act:1
+5.7:1
+U.S. Federal Trade Commission Privacy Act:1
+European Data Protection Supervisor:1
+Japan’s Personal Information Protection Commission:1
+U.S. Federal Trade Commission:1
+judgment:1
+issued:1
+guilty plea:1
+deferred:1
+prosecution:1
+agreement:1
+non-prosecution agreement:1
+unauthorized:1
+all monetary losses:1
+the legal proceedings:1
+specific changes:1
+TC-SI-220a.4:1
+number:1
+user content:1
+
+
+non-content data:1
+Content data:1
+user-generated information:1
+email text:1
+recorded phone conversation:1
+1.2
+
+Non-content data:1
+an email address:1
+a person’s name:1
+residence:1
+system-generated data:1
+IP addresses:1
+traffic data:1
+Both content:1
+1.3.1 PII:1
+a) any 
+
+information:1
+16:1
+law enforcement agencies:1
+The number:1
+the sum:1
+whose user information:1
+all requests:1
+2.1.1:1
+able:1
+two records:1
+i.e., user information:1
+belong:1
+entity:1
+consider:1
+this two users:1
+government and law enforcement requests:1
+the requesting party:1
+The percentage:1
+requesting:1
+party:1
+divided:1
+full or partial 
+
+compliance:1
+the disclosure request:1
+within:1
+the requests:1
+aggregated:1
+anonymized:1
+intended:1
+prevent:1
+the recipient:1
+reconfiguring:1
+an 
+
+individual’s actions:1
+identity:1
+these characteristics:1
+apply:1
+a portion:1
+its data releases:1
+this 
+
+discussion:1
+necessary context:1
+interpretation:1
+the entity disclosure:1
+additionally:1
+break:1
+its disclosure:1
+region:1
+determining:1
+a request:1
+what conditions:1
+release:1
+what requirements:1
+the request:1
+the level:1
+management approval:1
+notifying:1
+such requests:1
+the timing:1
+ List:1
+
+government-required monitoring:1
+a list:1
+the countries:1
+its products:1
+monitored:1
+blocked:1
+filtered:1
+censored:1
+governmental, judicial, or law enforcement requests:1
+requirements:1
+SUSTAINABILITY:1
+STANDARD:1
+SOFTWARE:1
+SERVICES:1
+17:1
+Monitoring:1
+law enforcement agency:1
+routine access:1
+specific users:1
+all users:1
+a particular product:1
+Blocking:1
+prohibited:1
+law:1
+authority:1
+a country:1
+Content:1
+filtering:1
+alters:1
+display:1
+a 
+
+product:1
+overriding service provision:1
+requiring:1
+a company:1
+remove:1
+certain content:1
+considered:1
+politically:1
+culturally:1
+sensitive:1
+this disclosure:1
+company operations:1
+discontinued:1
+never:1
+offered:1
+a 
+
+region:1
+government activity:1
+its product:1
+service lines:1
+the specific products:1
+nature:1
+duration:1
+percent:1
+markets:1
+implications:1
+affecting:1
+ability:1
+grow:1
+market share:1
+these restrictions:1
+modified:1
+a manner material:1
+their functionality:1
+the modification:1
+indicating:1
+undertaken:1
+avoid:1
+the 
+
+modified product:1
+differs:1
+service offering:1
+its home country:1
+significant:1
+decision:1
+making:1
+operating:1
+request:1
+some form:1
+the entity’s content:1
+18
+
+Data Security 
+
+Topic Summary:1
+kept:1
+secure:1
+Software:1
+targets:1
+growing data security threats:1
+cyber attacks:1
+social engineering:1
+puts:1
+their own data:1
+their customers’ data:1
+Inadequate prevention:1
+detection:1
+remediation:1
+data 
+
+security threats:1
+customer acquisition:1
+decreased market share:1
+lower:1
+demand:1
+the company’s products:1
+addition:1
+reputational damage:1
+customer turnover:1
+increased expenses:1
+commonly:1
+remediation efforts:1
+identity protection offerings:1
+employee:1
+data protection:1
+Meanwhile:1
+new and emerging data security standards:1
+regulations:1
+likely:1
+the
+
+operating expenses:1
+compliance:1
+Additionally:1
+this industry:1
+well-:1
+positioned:1
+uncover:1
+revenue opportunities:1
+secure software:1
+meet:1
+the demand:1
+ensuring:1
+(2) percentage:1
+personally 
+identifiable information:1
+calculate:1
+Data breach:1
+the unauthorized movement:1
+sensitive information:1
+a party:1
+usually:1
+the organization:1
+see:1
+the U.S. National Initiative for Cybersecurity Careers and Studies:1
+NICCS:1
+glossary:1
+a deviation:1
+expected:1
+outcomes:1
+confidentiality:1
+integrity:1
+in which personally identifiable information:1
+the data breach:1
+medical, educational, financial, and employment 
+
+information:1
+an encryption:1
+key:1
+a reasonable belief:1
+readily:1
+converted:1
+19
+
+2.2.1 Encryption:1
+the process:1
+transforming:1
+ciphertext:1
+the NICCS glossary:1
+
+
+law:1
+voluntarily:1
+breaches:1
+notified:1
+the breach:1
+whose personal data:1
+compromised:1
+a data breach:1
+Accounts:1
+delay:1
+a law enforcement agency:1
+determined:1
+impedes:1
+a criminal 
+
+investigation:1
+the law enforcement agency:1
+such notification:1
+investigation:1
+the entity’s ability:1
+a timely manner:1
+TC-SI-230a.2:1
+data security 
+risks:1
+third-party cybersecurity standards:1
+pose:1
+Vulnerability:1
+a weakness:1
+system security procedures:1
+internal controls:1
+exploited:1
+Data security risk:1
+any circumstance:1
+event:1
+the potential:1
+adversely:1
+organizational:1
+mission:1
+functions:1
+image:1
+reputation:1
+organizational assets:1
+other 
+
+organizations:1
+nations:1
+via:1
+unauthorized access:1
+denial:1
+20:1
+operational procedures:1
+management processes:1
+structure:1
+selection:1
+business 
+
+partners:1
+employee training:1
+3.1
+
+Third-party cybersecurity risk management standards:1
+standards:1
+frameworks:1
+guidance:1
+developed:1
+a third-party:1
+the explicit purpose:1
+aiding:1
+cybersecurity threats:1
+preventing:1
+responding:1
+remediating:1
+cybersecurity incidents:1
+3.2.1:1
+The American Institute of Certified Public Accountants’:1
+(AICPA:1
+Service Organization Controls:1
+(SOC:1
+3.2.2 ISACA:1
+COBIT:1
+3.2.3:1
+ISO:1
+IEC:1
+27000:1
+series:1
+3.2.4:1
+National Institute of Standards and Technology’s:1
+(NIST) Framework:1
+Improving:1
+Critical Infrastructure:1
+Version:1
+Identification:1
+the specific cybersecurity risk management standard(s:1
+3.3.2 Description:1
+cybersecurity risk management standard(s:1
+applicable 
+
+operations:1
+business unit:1
+geography:1
+product:1
+information system:1
+3.3.3:1
+The role:1
+the entity’s overall approach:1
+3.3.4:1
+the third-party verification:1
+conducted:1
+independent examinations:1
+audits:1
+3.3.5 Ongoing activities:1
+initiatives:1
+increasing:1
+cybersecurity risk management 
+
+standards:1
+even:1
+such standards:1
+currently:1
+trends:1
+observed:1
+type:1
+frequency:1
+origination:1
+attacks:1
+its data security:1
+information systems:1
+the entity’s approach:1
+21:1
+the entity‘s ability:1
+22
+
+SUSTAINABILITY ACCOUNTING STANDARDS BOARD:1
+1045 Sansome Street:1
+Suite:1
+450:1
+San Francisco:1
+94111:1
+415.830.9220:1
+info@sasb.org:1
+sasb.org:1
+
+Keywords that appear in the file, alongside with their frequencies:
+consent:3
+privacy:2
+Cybersecurity:2
+Data Security:1
+Data security:1
+data protection:1
+Data breach:1
+Service Organization Controls:1
