@@ -54,13 +54,26 @@ def compute_stats(tokens, filename, output_file, gen_path):
     for keyword in keywords_present:
         print(keyword, file=output_file)
 
-def process_document(title, source_path,source):
+def string_search(document, index):
+    counter=0
+    index = str.find(document, str(index+1)) #condition to prevent index from reaching the end needed?
+    if(index != -1): 
+        counter +=1
+        counter += string_search(document,index)
+    return counter
+
+
+def process_document(title, source_path,source,keywords):
     # READING AND MANIPULATING INPUT FILE
     #path = 'data/'+file_input_path_general+source+title+'.pdf'
     path = 'data/'+source_path+'/'+title+'.pdf' #'data/'+file_input_path_general+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
     #filename = source+title
+
+    for keyword in keywords:
+        kw_counter = string_search(input_file,0)
+        print(keyword+":"+str(kw_counter))
 
     doc = nlp(input_file)
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text.lower() in stopwords.words()]
@@ -85,8 +98,8 @@ def analyse_folder(source):
             analyse_folder(filename+'/')
         else:
             file_name, file_extension = os.path.splitext(filename)
-            process_document(file_name, source)
-        #break
+            process_document(file_name, source, keywords)
+
 
 #####
 #  MAIN 
@@ -125,13 +138,8 @@ elif(folder == 3):
 
 for filename in os.listdir('data/'+path):#'data/'+folder):
     print(filename)
-    #if os.path.isdir('data/'+folder+'/'+foldername):
-    #    analyse_folder(foldername+'/')
-    #else:
     file_name, file_extension = os.path.splitext(filename)
-    process_document(file_name, path, source)
-
-    #break
+    process_document(file_name, path, source, keywords)
 
 # IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
 #plt.savefig('output/JointGraph.png', bbox_inches='tight')
