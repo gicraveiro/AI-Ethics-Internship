@@ -72,8 +72,9 @@ def process_document(title, source_path,source,keywords):
     #filename = source+title
 
     for keyword in keywords:
-        kw_counter = string_search(input_file,0,keyword.lower())
-        print(keyword+":"+str(kw_counter))
+        kw_counter = string_search(input_file.lower(),0,keyword.lower())
+        if (kw_counter != 0):
+            print(keyword+":"+str(kw_counter))
 
     doc = nlp(input_file)
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text.lower() in stopwords.words()]
