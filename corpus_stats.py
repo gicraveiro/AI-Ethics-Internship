@@ -54,12 +54,12 @@ def compute_stats(tokens, filename, output_file, gen_path):
     for keyword in keywords_present:
         print(keyword, file=output_file)
 
-def string_search(document, index):
+def string_search(document, index,keyword):
     counter=0
-    index = str.find(document, str(index+1)) #condition to prevent index from reaching the end needed?
+    index = document.find(keyword, index+1) #condition to prevent index from reaching the end needed?
     if(index != -1): 
         counter +=1
-        counter += string_search(document,index)
+        counter += string_search(document,index,keyword)
     return counter
 
 
@@ -72,7 +72,7 @@ def process_document(title, source_path,source,keywords):
     #filename = source+title
 
     for keyword in keywords:
-        kw_counter = string_search(input_file,0)
+        kw_counter = string_search(input_file,0,keyword.lower())
         print(keyword+":"+str(kw_counter))
 
     doc = nlp(input_file)
@@ -138,11 +138,10 @@ elif(folder == 3):
 
 for filename in os.listdir('data/'+path):#'data/'+folder):
     print(filename)
-    print("!"+source+"!")
-    
+    #print("!"+source+"!")
     file_name, file_extension = os.path.splitext(filename)
     process_document(file_name, path, source, keywords)
-    print(path, source, keywords)
+    #print(path, source, keywords)
 
 # IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
 #plt.savefig('output/JointGraph.png', bbox_inches='tight')
