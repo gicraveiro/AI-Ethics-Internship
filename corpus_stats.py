@@ -138,8 +138,11 @@ elif(folder == 3):
 
 for filename in os.listdir('data/'+path):#'data/'+folder):
     print(filename)
+    print("!"+source+"!")
+    
     file_name, file_extension = os.path.splitext(filename)
     process_document(file_name, path, source, keywords)
+    print(path, source, keywords)
 
 # IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
 #plt.savefig('output/JointGraph.png', bbox_inches='tight')
