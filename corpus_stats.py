@@ -137,7 +137,7 @@ def process_document(title, source_path,source,keywords):
     #filename = source+title
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
-    re.sub(r"([\w/'+$\s-]+|[^\w/'+$\s-]+)\s*|[0-9]+", r"\1 ", input_file)
+    re.sub(r"([\w/'+$\s-]+|[^\w/'+$\s-]+)\s*|[0-9]+|[()]", r"\1 ", input_file)
     input_file = input_file.replace('  ', ' ')
     input_file = input_file.replace('\n', ' ')
     input_file = input_file.replace('  ', ' ')
