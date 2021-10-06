@@ -1,10 +1,10 @@
 
-Academic Articles Facebook/1 Privacy and user awareness on Facebook
+1 Privacy and user awareness on Facebook
 
 
 With stop word removal 
-Size of original corpus: 5410 
-Size of filtered corpus: 2249
+Size of original corpus: 5411 
+Size of filtered corpus: 2250
 Size of Lexicon: 1519
 
 Tokens that appear in the file, alongside with their frequencies:
@@ -63,6 +63,7 @@ awareness:4
 without:4
 necessary:4
 highlight:4
+May/June 2018:4
 Page:4
 user:4
 their data:4
@@ -90,7 +91,8 @@ associated:3
 Africa:3
 ’s:3
 considered:3
-May/June 2018:3
+Research Article 
+:3
 Personal data:3
 needs:3
 willing:3
@@ -175,8 +177,6 @@ posted:2
 focused:2
 examine:2
 114 |:2
-Research Article 
-:2
 holiday:2
 include:2
 profiling:2
@@ -224,8 +224,6 @@ drawn:2
 Facebook  page:2
 357:2
 accessed:2
-May/June 2018Research Article 
-:2
 Facebook account cloning attack:2
 The aim:2
 whether:2
@@ -893,6 +891,8 @@ organised:1
 according:1
 different  themes:1
  pages:1
+May/June 2018Research Article 
+:1
 the  convenience:1
 sample:1
 a  population:1

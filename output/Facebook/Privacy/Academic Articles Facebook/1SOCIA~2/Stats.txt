@@ -1,11 +1,11 @@
 
-Academic Articles Facebook/1SOCIA~2
+1SOCIA~2
 
 
 With stop word removal 
-Size of original corpus: 39023 
-Size of filtered corpus: 13546
-Size of Lexicon: 6667
+Size of original corpus: 39012 
+Size of filtered corpus: 13541
+Size of Lexicon: 6665
 
 Tokens that appear in the file, alongside with their frequencies:
 Facebook:236
@@ -17,7 +17,7 @@ Terms:70
 App:67
 v.:66
 Service:65
-1:56
+1:55
 2016:52
 Id.:46
 4th:46
@@ -91,7 +91,6 @@ upon:16
 2018:15
 available:15
 consumer:15
-social:15
 6:15
 2012:15
 Although:15
@@ -100,6 +99,7 @@ fact:15
 unconscionability:15
 SOCIAL NETWORK:14
  data:14
+social:14
 stated:14
 8:14
 11:14
@@ -290,7 +290,6 @@ first:6
 offering:6
 merely:6
 much:6
-media:6
 leave:6
 us:6
 sell:6
@@ -367,6 +366,7 @@ click:5
 
 consumers:5
 SOCIAL NIGHTMARE:5
+media:5
 overreaching:5
 assent:5
 signing:5
@@ -4198,8 +4198,8 @@ Staples:1
 771:1
 Shannon  Greenwood:1
 Social Media Update:1
-http://www.pewinternet.org/2016/11/1:1
-update-2016/:1
+
+http://www.pewinternet.org/2016/11/1  1/social-media-update-2016/:1
 [https://perma.cc/N6VM-BP6M:1
 mere:1
 32%:1
@@ -4360,9 +4360,10 @@ Anca  D. Chirita:1
 The Rise ofBig Data:1
 the Loss of Privacy:1
 Durham Law School:1
-https://ssrn.com/abstract=-2795992:1
-https://perma.cc/8QX4-N6MT:1
+https://ssrn.com/abstract=-2795992
+
 Paper:1
+https://perma.cc/8QX4-N6MT:1
 148:1
 Aaron  Smith:1
 PEW RESEARCH:1

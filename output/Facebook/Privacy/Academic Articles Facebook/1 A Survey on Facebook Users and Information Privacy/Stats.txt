@@ -1,5 +1,5 @@
 
-Academic Articles Facebook/1 A Survey on Facebook Users and Information Privacy
+1 A Survey on Facebook Users and Information Privacy
 
 
 With stop word removal 

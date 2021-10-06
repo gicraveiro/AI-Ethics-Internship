@@ -28,10 +28,12 @@ def plot_graph(tokens,path,title):
     plt.clf() # cleans previous graph
     plt.ioff()
     return freq
-def compute_stats(tokens, filename, output_file): 
+def compute_stats(tokens, filename, output_file, gen_path): 
     # GRAPH OF WORD FREQUENCY
     #freq = nltk.FreqDist(tokens) # NOW LOCATED INSIDE THE FUNCTION
-    freq = plot_graph(tokens,'output/'+file_input_path_general+filename+'/Graph.png',filename)
+    graph_path='output/'+gen_path+'/'+filename+'/Graph.png'
+    os.makedirs(os.path.dirname(graph_path), exist_ok=True)
+    freq = plot_graph(tokens,graph_path,filename)
     
     # TO DO: TOTAL NUMBER OF UTTERANCES (SENTENCES)
     print('Size of Lexicon:', len(freq), file=output_file)
@@ -52,35 +54,65 @@ def compute_stats(tokens, filename, output_file):
     for keyword in keywords_present:
         print(keyword, file=output_file)
 
-def process_document(title, source):
+def string_search(document, index,keyword):
+    counter=0
+    index = document.find(keyword, index+1) #condition to prevent index from reaching the end needed?
+    if(index != -1): 
+        counter +=1
+        counter += string_search(document,index,keyword)
+    return counter
+
+
+def process_document(title, source_path,source,keywords):
+    # CREATING OUTPUT FILES
+    stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
+    keyword_guide_path = 'output/'+source_path+'/'+title+'/KeywordGuide.txt'
+    #print(stats_path)
+    os.makedirs(os.path.dirname(stats_path), exist_ok=True)
+    os.makedirs(os.path.dirname(keyword_guide_path), exist_ok=True)
+    output_file = open(stats_path, 'w')
+    print("\n"+title+"\n", file=output_file)
+    
     # READING AND MANIPULATING INPUT FILE
     #path = 'data/'+file_input_path_general+source+title+'.pdf'
-    path = 'data/'+source+title+'.pdf'
+    path = 'data/'+source_path+'/'+title+'.pdf' #'data/'+file_input_path_general+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
-    filename = source+title
+    #filename = source+title
+    # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
+    # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
+    input_file = input_file.replace('  ', ' ')
+    input_file = input_file.replace('\n', ' ')
+    input_file = input_file.replace('  ', ' ')
+    input_file = input_file.lower()
+
+    with open(keyword_guide_path,'w') as keyword_guide_file:
+        print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
+        for keyword in keywords:
+            kw_counter = string_search(input_file,0,keyword.lower())
+            if (kw_counter != 0):
+                print(keyword+":"+str(kw_counter), file=keyword_guide_file)
 
     doc = nlp(input_file)
-    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text.lower() in stopwords.words()]
-
-    # CREATING OUTPUT FILE
-    stats_path = 'output/'+file_input_path_general+filename+'/Stats.txt'
-    os.makedirs(os.path.dirname(stats_path), exist_ok=True)
-    output_file = open(stats_path, 'w')
-    print("\n"+filename+"\n", file=output_file)
+    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
+    print(tokens)
+    
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
-    compute_stats(tokens,source+title, output_file)
+    compute_stats(tokens,title, output_file, source_path) #surce+title
 
     output_file.close()
 
 def analyse_folder(source):
-    path='data/'+file_input_path_general+source
+    path='data/'+file_input_path_general
     for filename in os.listdir(path):
-        file_name, file_extension = os.path.splitext(filename)
-        process_document(file_name, source)
-        #break
+        if os.path.isdir(path+'/'+filename):
+            analyse_folder(filename+'/')
+        else:
+            file_name, file_extension = os.path.splitext(filename)
+            process_document(file_name, source, keywords)
+
 
 #####
 #  MAIN 
@@ -105,18 +137,24 @@ output_file.close()
 
 #### PERFORM DESCRIPTIVE STATISTICS ON ALL DATA
 
-folder = input("Enter the folder that you wish to analyze\n")
+folder = int(input("Choose which folder to analyze\n1 for Facebook-Sourced\n2 for Academic Articles\n3 for Guidelines\n"))
+path = ''#'data/'
+if(folder == 1): 
+    path+='Facebook/Privacy/TargetCompanySourced'
+    source='TargetCompanySourced'
+elif(folder == 2):
+    path+='Facebook/Privacy/Academic Articles Facebook'
+    source='Academic Articles Facebook'
+elif(folder == 3):
+    path+='Guidelines'
+    source='Guidelines'
 
-
-for foldername in os.listdir('data/'+folder):
-    print(foldername)
-    if os.path.isdir(foldername):
-        analyse_folder(foldername+'/')
-    else:
-        file_name, file_extension = os.path.splitext(foldername)
-        process_document(file_name, folder+'/')
-
-    #break
+for filename in os.listdir('data/'+path):#'data/'+folder):
+    print(filename)
+    #print("!"+source+"!")
+    file_name, file_extension = os.path.splitext(filename)
+    process_document(file_name, path, source, keywords)
+    #print(path, source, keywords)
 
 # IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
 #plt.savefig('output/JointGraph.png', bbox_inches='tight')

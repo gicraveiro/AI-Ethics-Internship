@@ -1,0 +1,20 @@
+
+SASB-Privacy-Internet_Media_Services_Standard_2018
+Keywords found by String Search
+
+Privacy:25
+cybersecurity:17
+data security:13
+encryption:2
+data protection:2
+consent:5
+The American Institute of Certified Public Accountants’ (AICPA) Service Organization Controls (SOC) for Cybersecurity:1
+American Institute of Certified Public Accountants:1
+AICPA:1
+SOC:15
+Service Organization Controls:1
+ISACA’s COBIT 5:1
+ISO/IEC 27000-series:1
+NIST:1
+National Institute of Standards and Technology:1
+Data breach:12

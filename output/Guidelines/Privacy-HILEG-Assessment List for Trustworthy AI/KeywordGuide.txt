@@ -1,0 +1,22 @@
+
+Privacy-HILEG-Assessment List for Trustworthy AI
+Keywords found by String Search
+
+Privacy:13
+anonymisation:2
+pseudonymisation:2
+privacy-by-design:1
+data minimisation:1
+encryption:2
+logging data access:1
+oversight mechanisms for data processing:1
+Data Protection Impact Assessment:2
+DPIA:2
+Data Protection Officer:2
+DPO:2
+right to withdraw consent:1
+right to object:1
+right to be forgotten:1
+data protection:10
+consent:1
+SOC:2
