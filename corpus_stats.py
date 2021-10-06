@@ -64,27 +64,39 @@ def string_search(document, index,keyword):
 
 
 def process_document(title, source_path,source,keywords):
+    # CREATING OUTPUT FILES
+    stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
+    keyword_guide_path = 'output/'+source_path+'/'+title+'/KeywordGuide.txt'
+    #print(stats_path)
+    os.makedirs(os.path.dirname(stats_path), exist_ok=True)
+    os.makedirs(os.path.dirname(keyword_guide_path), exist_ok=True)
+    output_file = open(stats_path, 'w')
+    print("\n"+title+"\n", file=output_file)
+    
     # READING AND MANIPULATING INPUT FILE
     #path = 'data/'+file_input_path_general+source+title+'.pdf'
     path = 'data/'+source_path+'/'+title+'.pdf' #'data/'+file_input_path_general+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
     #filename = source+title
+    # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
+    # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
+    input_file = input_file.replace('  ', ' ')
+    input_file = input_file.replace('\n', ' ')
+    input_file = input_file.replace('  ', ' ')
+    input_file = input_file.lower()
 
-    for keyword in keywords:
-        kw_counter = string_search(input_file.lower(),0,keyword.lower())
-        if (kw_counter != 0):
-            print(keyword+":"+str(kw_counter))
+    with open(keyword_guide_path,'w') as keyword_guide_file:
+        print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
+        for keyword in keywords:
+            kw_counter = string_search(input_file,0,keyword.lower())
+            if (kw_counter != 0):
+                print(keyword+":"+str(kw_counter), file=keyword_guide_file)
 
     doc = nlp(input_file)
-    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text.lower() in stopwords.words()]
-
-    # CREATING OUTPUT FILE
-    stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
-    print(stats_path)
-    os.makedirs(os.path.dirname(stats_path), exist_ok=True)
-    output_file = open(stats_path, 'w')
-    print("\n"+title+"\n", file=output_file)
+    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
+    print(tokens)
+    
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
