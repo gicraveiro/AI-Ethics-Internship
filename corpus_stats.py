@@ -68,7 +68,7 @@ def reconstruct_hyphenated_words(corpus):
     while i < len(corpus):
         if(corpus[i].text == "-" and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
             with corpus.retokenize() as retokenizer:
-                retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word    
+                retokenizer.merge(corpus[i-1:i+1]) # merge the first part of the word, the hyphen and the second part of the word    
         else: 
             i += 1
     return corpus
@@ -80,16 +80,20 @@ def reconstruct_noun_chunks(corpus,keywords):
         token = corpus[i].text
         #new_token = corpus[i].text
         for keyword in keywords:
+            #print(keyword)
             index = keyword.find(token)
             aux = index
             while (aux != -1):
+                print(token)
                 counter += 1
-                token += ' '+corpus[i+1].text    
+                token += ' '+corpus[counter].text      
                 aux = keyword.find(token)
-                if(aux != -1):
+                if(aux == -1):
+                    print("aux:",aux,"token",token)
                     #new_token = token
                     counter -=1
             if(i != counter):
+                print(corpus[i:counter+1])
                 with corpus.retokenize() as retokenizer:
                     retokenizer.merge(corpus[i:counter+1])
                 break                
@@ -134,6 +138,7 @@ def process_document(title, source_path,source,keywords):
     #for i in range(2):
     doc = nlp(input_file)
     doc = reconstruct_hyphenated_words(doc)
+    doc = reconstruct_noun_chunks(doc,keywords)
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
     #tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
     #nlp.add_pipe("merge_noun_chunks")
