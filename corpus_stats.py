@@ -49,7 +49,7 @@ def compute_stats(tokens, filename, output_file, gen_path):
         print(str(key) + ':' + str(val), file=output_file)
         for keyword in keywords:
             if (keyword.lower() == key.lower()):
-                keywords_present.append(str(key) + ':' + str(val))
+                keywords_present.append(str(keyword) + ':' + str(val))
 
     print("\nKeywords that appear in the file, alongside with their frequencies:", file=output_file)
     for keyword in keywords_present:
@@ -76,32 +76,46 @@ def reconstruct_hyphenated_words(corpus):
 def reconstruct_noun_chunks(corpus,keywords):
     i = 0
     while i < len(corpus):
+        #print(i)
         counter = i
         token = corpus[i].text
         #new_token = corpus[i].text
         for keyword in keywords:
+            kw_lower = keyword.lower()
             #print(keyword)
-            index = keyword.find(token)
+            #print(token, "==", kw_lower)
+            index = kw_lower.find(token)
             aux = index
+            if(token == "data"):
+                print(token, index, kw_lower, token+' '+corpus[i+1].text)
+            #print(index, kw_lower[index:index+3])
             while (aux != -1):
-                print(token)
+                
                 counter += 1
                 token += ' '+corpus[counter].text      
-                aux = keyword.find(token)
+                print("possible keyword detected:", token, "==", kw_lower)
+                aux = kw_lower.find(token)
                 if(aux == -1):
-                    print("aux:",aux,"token",token)
+                    print("gave up on:", token, "==", kw_lower)
+                    #print("aux:",aux,"token",token)
                     #new_token = token
                     counter -=1
+                    token = corpus[i].text
             if(i != counter):
-                print(corpus[i:counter+1])
-                with corpus.retokenize() as retokenizer:
-                    retokenizer.merge(corpus[i:counter+1])
-                break                
+                print("last step:",str(corpus[i:counter+1]), kw_lower)
+                if(str(corpus[i:counter+1]) == kw_lower):
+                    print("reconstruction:",corpus[i:counter+1])
+                    with corpus.retokenize() as retokenizer:
+                        retokenizer.merge(corpus[i:counter+1])
+                    break 
+                else: 
+                    counter = i               
         if(i == counter):
             i += 1
     return corpus
 
 def process_document(title, source_path,source,keywords):
+    
     # CREATING OUTPUT FILES
     stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
     keyword_guide_path = 'output/'+source_path+'/'+title+'/KeywordGuide.txt'

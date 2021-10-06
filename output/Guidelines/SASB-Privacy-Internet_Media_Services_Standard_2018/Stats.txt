@@ -3,27 +3,27 @@ SASB-Privacy-Internet_Media_Services_Standard_2018
 
 
 With stop word removal 
-Size of original corpus: 5455 
-Size of filtered corpus: 2959
+Size of original corpus: 5489 
+Size of filtered corpus: 2993
 Size of Lexicon: 874
 
 Tokens that appear in the file, alongside with their frequencies:
-data:91
 information:80
 entity:78
+data:73
 shall:49
 ’s:37
 disclosure:34
 number:32
+tc-:30
+content:30
 |:27
-content:26
 user:24
 services:23
 1:23
 2:23
 privacy:23
 requests:23
-security:23
 percentage:22
 individual:22
 accounting:21
@@ -32,7 +32,7 @@ include:21
 may:21
 including:20
 sustainability:18
-government:17
+government:18
 cybersecurity:17
 defined:17
 internet:16
@@ -41,15 +41,17 @@ media:16
 describe:16
 management:16
 standard:15
-standards:15
 use:15
+standards:14
 law:14
 enforcement:14
 scope:14
+data security:13
+party:13
+u.s:13
 total:12
 risks:12
 limited:12
-u.s:12
 disclose:12
 used:11
 products:11
@@ -64,9 +66,8 @@ legal:10
 personally:10
 pii:10
 actions:10
-protection:10
+security:10
 discuss:10
-service:10
 quantitative:9
 description:9
 policies:9
@@ -76,21 +77,25 @@ proceedings:9
 monitoring:9
 blocking:9
 4:9
-third-party:9
+third-:9
 related:9
+specific:9
 1.1:9
 includes:9
 records:9
 and/or:9
+service:9
 system:8
 monetary:8
 remove:8
 identifying:8
 5:8
 note:8
-specific:8
 location:8
+protection:8
+non-:8
 request:8
+industry:7
 discussion:7
 secondary:7
 losses:7
@@ -108,11 +113,12 @@ whether:7
 unique:7
 e.g.:7
 resulted:7
-industry:6
 purposes:6
+required:6
 filtering:6
 6:6
 companies:6
+regulatory:6
 1.2:6
 distinguish:6
 employment:6
@@ -122,10 +128,8 @@ definition:6
 derived:6
 guidance:6
 act:6
-breach:6
 period:6
 agencies:6
-technology:5
 communications:5
 analysis:5
 requested:5
@@ -149,24 +153,25 @@ consent:5
 policy:5
 requirements:5
 provide:5
+affiliates:5
 business:5
 commission:5
 operations:5
 country:5
 disclosures:5
 vulnerabilities:5
+technology:4
 metrics:4
 relating:4
-tc-im-220a.3:4
+im-220a.3:4
 subject:4
-tc-im-220a.5:4
-tc-im-230a.1:4
+im-220a.5:4
+im-230a.1:4
 freedom:4
 expression:4
 impact:4
 criminal:4
 personal:4
-regulatory:4
 providing:4
 access:4
 sensitive:4
@@ -193,17 +198,15 @@ alternatives:4
 exist:4
 enhancing:4
 i.e.:4
+handling:4
 individuals:4
 respect:4
 2.2:4
 otherwise:4
 3.1:4
 processes:4
-required:4
 changes:4
 incidents:4
-party:4
-non-content:4
 received:4
 censoring:4
 threats:4
@@ -211,6 +214,7 @@ topic:3
 water:3
 amount:3
 list:3
+government-:3
 employee:3
 context:3
 taken:3
@@ -234,19 +238,18 @@ types:3
 require:3
 address:3
 provisions:3
-handling:3
+22:3
 3.2:3
 must:3
-non-affiliates:3
 purpose:3
+breach:3
 accounts:3
 verify:3
-controls:3
 incurred:3
-national:3
 unauthorized:3
 partners:3
 training:3
+identified:3
 region:3
 comply:3
 notification:3
@@ -257,8 +260,8 @@ ability:3
 manner:3
 modification:3
 complied:3
+data breach:3
 compromise:3
-public:3
 systems:3
 ®:2
 board:2
@@ -269,19 +272,18 @@ unit:2
 consumed:2
 high:2
 environmental:2
-tc-im-220a.1:2
-tc-im-220a.2:2
+im-220a.1:2
+im-220a.2:2
 resulting:2
 core:2
-government-required:2
-tc-im-220a.4:2
-tc-im-220a.6:2
+im-220a.4:2
+im-220a.6:2
 involving:2
-tc-im-230a.2:2
+im-230a.2:2
 foreign:2
 nationals:2
-tc-im-330a.1:2
-tc-im-330a.2:2
+im-330a.1:2
+im-330a.2:2
 infrastructure:2
 briefly:2
 summary:2
@@ -326,11 +328,12 @@ positioning:2
 gps:2
 coordinates:2
 destruction:2
+opt-:2
 third:2
 parties:2
 2.3:2
 outlined:2
-m-03-22:2
+m-03-:2
 pias:2
 applicable:2
 determines:2
@@ -344,7 +347,7 @@ authorized:2
 coppa:2
 following:2
 principles:2
-self-regulatory:2
+self-:2
 6.1:2
 participation:2
 6.2:2
@@ -360,9 +363,9 @@ belonging:2
 disclosed:2
 separately:2
 well:2
-affiliates:2
 directly:2
 indirectly:2
+controls:2
 liabilities:2
 others:2
 settlement:2
@@ -375,10 +378,14 @@ governmental:2
 expenses:2
 regulations:2
 directive:2
+data protection:2
+national:2
 japan:2
 federal:2
 trade:2
+prosecution:2
 agreement:2
+generated:2
 email:2
 calculated:2
 across:2
@@ -407,8 +414,6 @@ type:2
 attacks:2
 acquisition:2
 timely:2
-identified:2
-organization:2
 niccs:2
 glossary:2
 encrypted:2
@@ -419,18 +424,17 @@ plaintext:2
 investigation:2
 sec:2
 statement:2
+public:2
 sufficient:2
 faces:2
 maintain:2
 procedures:2
 organizational:2
-institute:2
 standard(s:2
 sector:1
 sustainable:1
 classification:1
 sics:1
-tc-im:1
 prepared:1
 october 2018:1
 2018-10:1
@@ -451,13 +455,13 @@ electricity:1
 renewable:1
 gigajoules:1
 gj:1
-tc-im-130a.1:1
+im-130a.1:1
 withdrawn:1
 regions:1
 extremely:1
 baseline:1
 stress:1
-tc-im-130a.2:1
+im-130a.2:1
 thousand:1
 cubic:1
 meters:1
@@ -468,7 +472,7 @@ strategic:1
 planning:1
 center:1
 needs:1
-tc-im-130a.3:1
+im-130a.3:1
 privacy2:1
 currency:1
 censoring3:1
@@ -525,12 +529,10 @@ focus:1
 12:1
 lifecycle:1
 processing:1
-information-handling:1
+information-:1
 stage:1
 affect:1
 without:1
-opt-in:1
-opt-out:1
 action:1
 internally:1
 circumstances:1
@@ -549,7 +551,7 @@ similar:1
 issues:1
 budget:1
 implementing:1
-e-government:1
+e-:1
 2002:1
 assessments:1
 pia:1
@@ -577,11 +579,10 @@ grant:1
 f:1
 secured:1
 among:1
-government-specific:1
 minimum:1
 first-:1
 described:1
-cross-industry:1
+cross-:1
 education:1
 efforts:1
 consumers:1
@@ -650,7 +651,7 @@ california:1
 ec:1
 eprivacy:1
 5.3:1
-eu-u.s:1
+eu-:1
 shield:1
 5.4:1
 general:1
@@ -671,16 +672,14 @@ issued:1
 guilty:1
 plea:1
 deferred:1
-prosecution:1
-non-prosecution:1
-user-generated:1
+user-:1
 text:1
 recorded:1
 phone:1
 conversation:1
 person:1
 residence:1
-system-generated:1
+system-:1
 ip:1
 traffic:1
 1.3.1:1
@@ -691,7 +690,7 @@ able:1
 belong:1
 consider:1
 aggregated:1
-de-identified:1
+de-:1
 anonymized:1
 recipient:1
 reconfiguring:1
@@ -778,6 +777,7 @@ commonly:1
 directed:1
 recapturing:1
 usually:1
+organization:1
 see:1
 initiative:1
 careers:1
@@ -831,10 +831,9 @@ preventing:1
 responding:1
 remediating:1
 3.2.1:1
-american:1
-certified:1
-accountants:1
+american institute of certified public accountants:1
 aicpa:1
+service organization controls:1
 soc:1
 3.2.2:1
 isaca:1
@@ -842,8 +841,10 @@ cobit:1
 3.2.3:1
 iso:1
 iec:1
-27000-series:1
+27000-:1
+series:1
 3.2.4:1
+national institute of standards and technology:1
 nist:1
 framework:1
 critical:1
@@ -869,7 +870,6 @@ trends:1
 observed:1
 frequency:1
 origination:1
-22:1
 entity‘s:1
 23:1
 1045:1
@@ -884,10 +884,16 @@ francisco:1
 info@sasb.org:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:23
+Privacy:23
 cybersecurity:17
+data security:13
 consent:5
+Data breach:3
+data protection:2
 encryption:2
-aicpa:1
-soc:1
-nist:1
+American Institute of Certified Public Accountants:1
+AICPA:1
+Service Organization Controls:1
+SOC:1
+National Institute of Standards and Technology:1
+NIST:1
