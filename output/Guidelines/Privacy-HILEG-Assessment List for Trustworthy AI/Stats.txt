@@ -3,100 +3,134 @@ Privacy-HILEG-Assessment List for Trustworthy AI
 
 
 With stop word removal 
-Size of original corpus: 590 
-Size of filtered corpus: 293
-Size of Lexicon: 216
+Size of original corpus: 807 
+Size of filtered corpus: 416
+Size of Lexicon: 229
 
 Tokens that appear in the file, alongside with their frequencies:
-privacy:6
-the ai system:6
-trustworthy ai:5
-requirement:5
-the right:5
-altai:4
-use:4
-data:4
-data governance:3
+data:28
+privacy:12
+system:11
+protection:10
+assessment:9
+requirement:8
+right:8
+governance:7
+impact:7
+list:6
+trustworthy:6
+altai:6
+use:5
+:5
+integrity:4
+'s:4
+1:3
+human:3
+oversight:3
+3:3
 14:3
-20:3
+fundamental:3
+access:3
 consider:3
+mechanisms:3
+personal:3
 including:3
-:3
-(altai:2
-assessment:2
-list:2
-oversight:2
-#3 privacy:2
-1:2
+artificial:2
+intelligence:2
+agency:2
+safety:2
+general:2
+4:2
+environmental:2
+well-being:2
+management:2
+glossary:2
 10:2
 15:2
 23:2
 closely:2
 prevention:2
 harm:2
-right:2
+systems:2
 covers:2
+protocols:2
 aggregation:2
 anonymisation:2
-data protection impact assessment:2
+officer:2
 encryption:2
 pseudonymisation:2
-this subsection:2
+standards:2
+case:2
+subsection:2
 helps:2
-self:2
-assess:2
-the impact:2
+self-assess:2
 related:2
-data protection:2
-mechanisms:2
+person:2
+mental:2
+physical:2
 concerning:2
-personal data:2
-the development:2
-the privacy and data protection implications:2
+processing:2
+special:2
+categories:2
+measures:2
+gdpr:2
+development:2
+e.g.:2
+implications:2
+processed:2
+non-personal:2
 isbn:2
-kk-02:2
-479:2
-assessment list:1
- independent high-level expert group:1
-artificial intelligence:1
+independent:1
+high-level:1
+expert:1
+group:1
 set:1
-the european commission:1
-trustworthy artificial intelligence:1
-self assessment  0  assessment list:1
-  table:1
+european:1
+commission:1
+self:1
+0:1
+table:1
 contents:1
-  introduction:1
-this assessment list:1
-#1 human agency:1
- human agency:1
+introduction:1
 autonomy:1
-human:1
- requirement:1
-#2 technical robustness:1
-safety  resilience:1
+2:1
+technical:1
+robustness:1
+resilience:1
 attack:1
 security:1
-general safety accuracy reliability:1
-fall-back plans:1
-reproducibility  requirement:1
-#4 transparency:1
- privacy data governance:1
-traceability explainability communication  avoidance:1
-unfair bias accessibility:1
-universal design stakeholder participation:1
-#5 diversity:1
-discrimination:1
+accuracy:1
+reliability:1
+fall-back:1
+plans:1
+reproducibility:1
+transparency:1
+traceability:1
+explainability:1
+communication:1
+avoidance:1
+unfair:1
+bias:1
+accessibility:1
+universal:1
+design:1
+stakeholder:1
+participation:1
+5:1
+diversity:1
+non-discrimination:1
 fairness:1
-#6 societal and environmental well-being  environmental well-being impact:1
+6:1
+societal:1
 work:1
 skills:1
-impact:1
 society:1
-large or democracy  requirement:1
-#7 accountability  auditability risk management:1
-glossary:1
-3:1
-4:1
+large:1
+democracy:1
+7:1
+accountability:1
+auditability:1
+risk:1
 7 7 8  :1
 9 9 9:1
 12 12 12:1
@@ -104,98 +138,74 @@ glossary:1
 17:1
 18:1
 18 19 19:1
+20:1
 21 21 21:1
 linked:1
-the principle:1
-fundamental:1
+principle:1
 particularly:1
 affected:1
-ai systems:1
 necessitates:1
-adequate data governance:1
-the quality:1
-integrity:1
-the data:1
+adequate:1
+quality:1
 used:1
-its relevance:1
+relevance:1
 light:1
-the domain:1
-the ai systems:1
+domain:1
 deployed:1
-its access protocols:1
-the capability:1
+capability:1
 process:1
-a manner:1
+manner:1
 protects:1
- glossary:1
-system:1
 dpia:1
-data protection officer:1
 dpo:1
 lifecycle:1
-standards:1
-case:1
- privacy:1
-the ai system's impact:1
-privacy and data protection:1
-fundamental rights:1
-the fundamental right:1
-the integrity:1
-the person:1
-the respect:1
-a person’s mental and physical integrity:1
- physical, mental and/or moral integrity:1
+rights:1
+respect:1
+’s:1
+and/or:1
 depending:1
-the use case:1
 establish:1
 allow:1
-flagging issues:1
- data governance:1
-the adherence:1
-'s:1
-various elements:1
-your ai system:1
+flagging:1
+issues:1
+adherence:1
+various:1
+elements:1
 trained:1
 developed:1
 using:1
-processing:1
-special categories:1
 put:1
 place:1
-the following measures:1
+following:1
 mandatory:1
-the general data protection regulation:1
-gdpr:1
-a non-european equivalent:1
-(dpia)23:1
+regulation:1
+non-european:1
+equivalent:1
+dpia)23:1
 designate:1
-a data protection officer:1
 dpo)24:1
 include:1
-an early state:1
+early:1
+state:1
 procurement:1
 phase:1
-  oversight mechanisms:1
-data processing:1
 limiting:1
-access:1
-qualified personnel:1
+qualified:1
+personnel:1
 logging:1
-data access:1
 making:1
 modifications:1
-  measures:1
 achieve:1
-design:1
+privacy-by-design:1
 default:1
-e.g.:1
 https://gdpr.eu/data-protection-impact-assessment-template/.:1
-24 https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation- gdpr/accountability-and-governance/data-protection-officers/.:1
+24:1
+https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-:1
+accountability-and-governance:1
+data-protection-officers/.:1
 12:1
 minimisation:1
-categories:1
-particular personal data:1
-special:1
+particular:1
 implement:1
 withdraw:1
 consent:1
@@ -203,36 +213,37 @@ object:1
 forgotten:1
 collected:1
 generated:1
-processed:1
-the course:1
-the ai system's life cycle:1
-the ai system's  non-personal training-data:1
-processed non-personal data:1
+course:1
+life:1
+cycle:1
+training-data:1
 align:1
-relevant standards:1
-e.g. iso25, ieee26:1
+relevant:1
+iso25:1
+ieee26:1
 widely:1
 adopted:1
-protocols:1
-(daily) data management:1
-governance:1
-                25 https://www.iso.org/committee/6794475.html:1
-26 https://standards.ieee.org/industry-connections/ec/autonomous-systems.html:1
- 13  assessment list:1
-  book:1
+daily:1
+25:1
+https://www.iso.org/committee/6794475.html:1
+26:1
+https://standards.ieee.org/industry-connections/ec/autonomous-systems.html:1
+13:1
+book:1
 978-92-76-20009-3:1
-978-92-76-20008-6 pdf:1
+978-92-76-20008-6:1
+pdf:1
 doi:10.2759/791819:1
 doi:10.2759/002360:1
+kk-02-20-479-en-c:1
+kk-02-20-479-en-n:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:6
+privacy:12
 anonymisation:2
-data protection impact assessment:2
 encryption:2
 pseudonymisation:2
-data protection:2
 dpia:1
-data protection officer:1
 dpo:1
+privacy-by-design:1
 consent:1

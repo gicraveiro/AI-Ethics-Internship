@@ -3,6 +3,7 @@ import os
 import pdfx
 import spacy
 import nltk
+import re
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 #nltk.download('stopwords')
@@ -62,6 +63,15 @@ def string_search(document, index,keyword):
         counter += string_search(document,index,keyword)
     return counter
 
+def reconstruct_hyphenated_words(corpus):
+    i = 0
+    while i < len(corpus):
+        if(corpus[i].text == "-" and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
+            with corpus.retokenize() as retokenizer:
+                retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word    
+        else: 
+            i += 1
+    return corpus
 
 def process_document(title, source_path,source,keywords):
     # CREATING OUTPUT FILES
@@ -78,9 +88,11 @@ def process_document(title, source_path,source,keywords):
     path = 'data/'+source_path+'/'+title+'.pdf' #'data/'+file_input_path_general+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
+    
     #filename = source+title
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
+    re.sub(r"([\w/'+$\s-]+|[^\w/'+$\s-]+)\s*", r"\1 ", input_file)
     input_file = input_file.replace('  ', ' ')
     input_file = input_file.replace('\n', ' ')
     input_file = input_file.replace('  ', ' ')
@@ -93,14 +105,21 @@ def process_document(title, source_path,source,keywords):
             if (kw_counter != 0):
                 print(keyword+":"+str(kw_counter), file=keyword_guide_file)
 
+    #i = 0
+    #tokens = []
+    #for i in range(2):
     doc = nlp(input_file)
+    doc = reconstruct_hyphenated_words(doc)
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
+    #tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
+    #nlp.add_pipe("merge_noun_chunks")
+    
     print(tokens)
     
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
-    compute_stats(tokens,title, output_file, source_path) #surce+title
+    compute_stats(tokens,title, output_file, source_path) #source+title
 
     output_file.close()
 
@@ -112,6 +131,7 @@ def analyse_folder(source):
         else:
             file_name, file_extension = os.path.splitext(filename)
             process_document(file_name, source, keywords)
+    
 
 
 #####
@@ -119,7 +139,7 @@ def analyse_folder(source):
 #####
 
 nlp = spacy.load('en_core_web_sm')
-nlp.add_pipe("merge_noun_chunks")
+#nlp.add_pipe("merge_noun_chunks")
 nlp.add_pipe("merge_entities")
 
 # KEYWORDS 
@@ -232,3 +252,5 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 # DEPENDENCY PARSING
 # VERSION WITH LEMMATIZATION TOO
 
+# include plural forms! e.g. data breaches
+# NIST 's () --- how to deal
