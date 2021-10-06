@@ -79,6 +79,7 @@ def reconstruct_noun_chunks(corpus,keywords):
         #print(i)
         counter = i
         token = corpus[i].text
+
         #new_token = corpus[i].text
         for keyword in keywords:
             kw_lower = keyword.lower()
@@ -86,7 +87,7 @@ def reconstruct_noun_chunks(corpus,keywords):
             #print(token, "==", kw_lower)
             index = kw_lower.find(token)
             aux = index
-            if(token.find("DPO") != -1 or token.find("DPIA") != -1):
+            if(token.find("dpo") != -1 or token.find("dpia") != -1):
                 print("containssss",token,"==", kw_lower)
             #if(token == "data"):
             #    print(token, index, kw_lower, token+' '+corpus[i+1].text)
