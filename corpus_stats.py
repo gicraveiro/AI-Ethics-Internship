@@ -86,23 +86,25 @@ def reconstruct_noun_chunks(corpus,keywords):
             #print(token, "==", kw_lower)
             index = kw_lower.find(token)
             aux = index
-            if(token == "data"):
-                print(token, index, kw_lower, token+' '+corpus[i+1].text)
+            if(token.find("DPO") != -1 or token.find("DPIA") != -1):
+                print("containssss",token,"==", kw_lower)
+            #if(token == "data"):
+            #    print(token, index, kw_lower, token+' '+corpus[i+1].text)
             #print(index, kw_lower[index:index+3])
             while (aux != -1):
                 
                 counter += 1
                 token += ' '+corpus[counter].text      
-                print("possible keyword detected:", token, "==", kw_lower)
+                #print("possible keyword detected:", token, "==", kw_lower)
                 aux = kw_lower.find(token)
                 if(aux == -1):
-                    print("gave up on:", token, "==", kw_lower)
+                    #print("gave up on:", token, "==", kw_lower)
                     #print("aux:",aux,"token",token)
                     #new_token = token
                     counter -=1
                     token = corpus[i].text
             if(i != counter):
-                print("last step:",str(corpus[i:counter+1]), kw_lower)
+                #print("last step:",str(corpus[i:counter+1]), kw_lower)
                 if(str(corpus[i:counter+1]) == kw_lower):
                     print("reconstruction:",corpus[i:counter+1])
                     with corpus.retokenize() as retokenizer:
@@ -134,7 +136,7 @@ def process_document(title, source_path,source,keywords):
     #filename = source+title
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
-    re.sub(r"([\w/'+$\s-]+|[^\w/'+$\s-]+)\s*", r"\1 ", input_file)
+    re.sub(r"([\w/'+$\s-]+|[^\w/'+$\s-]+)\s*|[0-9]+", r"\1 ", input_file)
     input_file = input_file.replace('  ', ' ')
     input_file = input_file.replace('\n', ' ')
     input_file = input_file.replace('  ', ' ')
@@ -156,8 +158,7 @@ def process_document(title, source_path,source,keywords):
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
     #tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
     #nlp.add_pipe("merge_noun_chunks")
-    
-    print(tokens)
+    #print(tokens)
     
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
@@ -297,3 +298,8 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 
 # include plural forms! e.g. data breaches
 # NIST 's () --- how to deal
+
+# MISSING ONLY
+# privacy-by-design: 1
+# DPIA -> 1
+# DPO -> 
