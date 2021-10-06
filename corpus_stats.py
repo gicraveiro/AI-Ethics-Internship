@@ -73,6 +73,30 @@ def reconstruct_hyphenated_words(corpus):
             i += 1
     return corpus
 
+def reconstruct_noun_chunks(corpus,keywords):
+    i = 0
+    while i < len(corpus):
+        counter = i
+        token = corpus[i].text
+        #new_token = corpus[i].text
+        for keyword in keywords:
+            index = keyword.find(token)
+            aux = index
+            while (aux != -1):
+                counter += 1
+                token += ' '+corpus[i+1].text    
+                aux = keyword.find(token)
+                if(aux != -1):
+                    #new_token = token
+                    counter -=1
+            if(i != counter):
+                with corpus.retokenize() as retokenizer:
+                    retokenizer.merge(corpus[i:counter+1])
+                break                
+        if(i == counter):
+            i += 1
+    return corpus
+
 def process_document(title, source_path,source,keywords):
     # CREATING OUTPUT FILES
     stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
