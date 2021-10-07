@@ -76,38 +76,21 @@ def reconstruct_hyphenated_words(corpus):
 def reconstruct_noun_chunks(corpus,keywords):
     i = 0
     while i < len(corpus):
-        #print(i)
         counter = i
         token = corpus[i].text
-
-        #new_token = corpus[i].text
         for keyword in keywords:
             kw_lower = keyword.lower()
-            #print(keyword)
-            #print(token, "==", kw_lower)
             index = kw_lower.find(token)
             aux = index
-            #if(token.find("dpo") != -1 or token.find("dpia") != -1):
-            #    print("containssss",token,"==", kw_lower)
-            #if(token == "data"):
-            #    print(token, index, kw_lower, token+' '+corpus[i+1].text)
-            #print(index, kw_lower[index:index+3])
             while (aux != -1):
-                
                 counter += 1
                 token += ' '+corpus[counter].text      
-                #print("possible keyword detected:", token, "==", kw_lower)
                 aux = kw_lower.find(token)
                 if(aux == -1):
-                    #print("gave up on:", token, "==", kw_lower)
-                    #print("aux:",aux,"token",token)
-                    #new_token = token
                     counter -=1
                     token = corpus[i].text
             if(i != counter):
-                #print("last step:",str(corpus[i:counter+1]), kw_lower)
                 if(str(corpus[i:counter+1]) == kw_lower):
-                    #print("reconstruction:",corpus[i:counter+1])
                     with corpus.retokenize() as retokenizer:
                         retokenizer.merge(corpus[i:counter+1])
                     break 
@@ -122,7 +105,6 @@ def process_document(title, source_path,source,keywords):
     # CREATING OUTPUT FILES
     stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
     keyword_guide_path = 'output/'+source_path+'/'+title+'/KeywordGuide.txt'
-    #print(stats_path)
     os.makedirs(os.path.dirname(stats_path), exist_ok=True)
     os.makedirs(os.path.dirname(keyword_guide_path), exist_ok=True)
     output_file = open(stats_path, 'w')
@@ -137,10 +119,16 @@ def process_document(title, source_path,source,keywords):
     #filename = source+title
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
-    input_file = re.sub(r"([\w/'+$\s-]+|[^\w/'+$\s-]+)\s*|[0-9]+|[()]", r"\1 ", input_file)
-    input_file = input_file.replace('  ', ' ')
-    input_file = input_file.replace('\n', ' ')
-    input_file = input_file.replace('  ', ' ')
+    #input_file = re.sub(r"([\w/'+$\s-]+|[^\w/'+$\s-]+)\s*|[0-9]+|[()]", r"\1 ", input_file)
+    #input_file = re.sub("([()!,;\.\?\[\]])", r" \1 ", input_file)
+    #input_file = re.sub("\s+"," ", input_file)
+    input_file = re.sub("([()!,;\-\.\?\[\]\|]|[0-9]+)", r" \1 ", input_file)
+    input_file = re.sub("\s+"," ", input_file)
+    input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+)",r"\1\2\3", input_file)
+    print(input_file)
+    #input_file = input_file.replace('  ', ' ')
+    #input_file = input_file.replace('\n', ' ')
+    #input_file = input_file.replace('  ', ' ')
     input_file = input_file.lower()
 
     with open(keyword_guide_path,'w') as keyword_guide_file:
@@ -150,15 +138,12 @@ def process_document(title, source_path,source,keywords):
             if (kw_counter != 0):
                 print(keyword+":"+str(kw_counter), file=keyword_guide_file)
 
-    #i = 0
-    #tokens = []
-    #for i in range(2):
     doc = nlp(input_file)
     doc = reconstruct_hyphenated_words(doc)
+    print(doc)
     doc = reconstruct_noun_chunks(doc,keywords)
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
-    #tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
-    #nlp.add_pipe("merge_noun_chunks")
+    #nlp.add_pipe("merge_noun_chunks") # NOT NEEDED WITH THE NEW LOGIC THAT PUTS TOKETHER KEYWORDS
     print(tokens)
     
     
