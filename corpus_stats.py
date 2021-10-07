@@ -66,7 +66,7 @@ def string_search(document, index,keyword):
 def reconstruct_hyphenated_words(corpus):
     i = 0
     while i < len(corpus):
-        if(corpus[i].text == "-" and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
+        if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
             with corpus.retokenize() as retokenizer:
                 retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word    
         else: 
@@ -123,10 +123,16 @@ def process_document(title, source_path,source,keywords):
     #input_file = re.sub(r"([\w/'+$\s-]+|[^\w/'+$\s-]+)\s*|[0-9]+|[()]", r"\1 ", input_file)
     #input_file = re.sub("([()!,;\.\?\[\]])", r" \1 ", input_file)
     #input_file = re.sub("\s+"," ", input_file)
-    input_file = re.sub("([()!,;\-\.\?\[\]\|]|[0-9]+)", r" \1 ", input_file)
-    input_file = re.sub("\s+"," ", input_file)
+    #input_file = re.sub("([()!,;\-\.\?\[\]\|]|[0-9]+)", r" \1 ", input_file)
+    #input_file = re.sub("\s+"," ", input_file)
     #input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+)",r"\1\2\3", input_file)
-    input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+)",r"\1\2\3\4\5", input_file) # reuniting hyphenated words
+    #input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+)",r"\1\2\3\4\5", input_file) # reuniting hyphenated words
+    #input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+) *(-)? *([A-Za-z0-9]?)",r"\1\2\3\4\5", input_file)
+    input_file = re.sub("(\s+\-)", r" - ", input_file)
+    input_file = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", input_file)
+    input_file = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", input_file)
+    input_file = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", input_file)
+    input_file = re.sub("\s+"," ", input_file)
     print(input_file)
     #input_file = input_file.replace('  ', ' ')
     #input_file = input_file.replace('\n', ' ')
