@@ -75,6 +75,7 @@ def reconstruct_hyphenated_words(corpus):
 
 def reconstruct_noun_chunks(corpus,keywords):
     i = 0
+    #max_length = len(corpus)
     while i < len(corpus):
         counter = i
         token = corpus[i].text
@@ -82,7 +83,7 @@ def reconstruct_noun_chunks(corpus,keywords):
             kw_lower = keyword.lower()
             index = kw_lower.find(token)
             aux = index
-            while (aux != -1):
+            while (aux != -1 and counter < len(corpus)-1):
                 counter += 1
                 token += ' '+corpus[counter].text      
                 aux = kw_lower.find(token)
@@ -124,7 +125,8 @@ def process_document(title, source_path,source,keywords):
     #input_file = re.sub("\s+"," ", input_file)
     input_file = re.sub("([()!,;\-\.\?\[\]\|]|[0-9]+)", r" \1 ", input_file)
     input_file = re.sub("\s+"," ", input_file)
-    input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+)",r"\1\2\3", input_file)
+    #input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+)",r"\1\2\3", input_file)
+    input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+)",r"\1\2\3\4\5", input_file) # reuniting hyphenated words
     print(input_file)
     #input_file = input_file.replace('  ', ' ')
     #input_file = input_file.replace('\n', ' ')
