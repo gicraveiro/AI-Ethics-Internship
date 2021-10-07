@@ -63,15 +63,19 @@ def string_search(document, index,keyword):
         counter += string_search(document,index,keyword)
     return counter
 
+# reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
     i = 0
     while i < len(corpus):
         if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
+            print("reconstruction 1", corpus[i-1]," ->", corpus[i-1:i+2] )
             with corpus.retokenize() as retokenizer:
-                retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word    
+                retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word            
         elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
+            print("reconstruction 2", corpus[i-1]," ->",corpus[i-1:i+1] )
             with corpus.retokenize() as retokenizer:
                 retokenizer.merge(corpus[i-1:i+1])
+            
         else: 
             i += 1
     return corpus
