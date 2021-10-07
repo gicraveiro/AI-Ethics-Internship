@@ -68,7 +68,7 @@ def reconstruct_hyphenated_words(corpus):
     while i < len(corpus):
         if(corpus[i].text == "-" and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
             with corpus.retokenize() as retokenizer:
-                retokenizer.merge(corpus[i-1:i+1]) # merge the first part of the word, the hyphen and the second part of the word    
+                retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word    
         else: 
             i += 1
     return corpus
@@ -87,8 +87,8 @@ def reconstruct_noun_chunks(corpus,keywords):
             #print(token, "==", kw_lower)
             index = kw_lower.find(token)
             aux = index
-            if(token.find("dpo") != -1 or token.find("dpia") != -1):
-                print("containssss",token,"==", kw_lower)
+            #if(token.find("dpo") != -1 or token.find("dpia") != -1):
+            #    print("containssss",token,"==", kw_lower)
             #if(token == "data"):
             #    print(token, index, kw_lower, token+' '+corpus[i+1].text)
             #print(index, kw_lower[index:index+3])
@@ -107,7 +107,7 @@ def reconstruct_noun_chunks(corpus,keywords):
             if(i != counter):
                 #print("last step:",str(corpus[i:counter+1]), kw_lower)
                 if(str(corpus[i:counter+1]) == kw_lower):
-                    print("reconstruction:",corpus[i:counter+1])
+                    #print("reconstruction:",corpus[i:counter+1])
                     with corpus.retokenize() as retokenizer:
                         retokenizer.merge(corpus[i:counter+1])
                     break 
@@ -159,7 +159,7 @@ def process_document(title, source_path,source,keywords):
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
     #tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
     #nlp.add_pipe("merge_noun_chunks")
-    #print(tokens)
+    print(tokens)
     
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
