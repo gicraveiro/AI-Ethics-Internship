@@ -69,6 +69,9 @@ def reconstruct_hyphenated_words(corpus):
         if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
             with corpus.retokenize() as retokenizer:
                 retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word    
+        elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
+            with corpus.retokenize() as retokenizer:
+                retokenizer.merge(corpus[i-1:i+1])
         else: 
             i += 1
     return corpus
@@ -293,7 +296,5 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 # include plural forms! e.g. data breaches
 # NIST 's () --- how to deal
 
-# MISSING ONLY
-# privacy-by-design: 1
-# DPIA -> 1
-# DPO -> 
+#
+# Apostrophe held specifically in english
