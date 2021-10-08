@@ -158,7 +158,7 @@ def process_document(title, source_path,source,keywords):
     #input_file = re.sub("\t+"," ", input_file)
     #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
     #i += 1
-    #input_file = re.sub("\s\s+"," ", input_file)
+    #input_file = re.sub("\s+"," ", input_file)
     #input_file = re.sub(" "," ", input_file)
     #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
     #i += 1
@@ -191,9 +191,9 @@ def process_document(title, source_path,source,keywords):
     print(tokens)
     
     
-    #print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
+    print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
-    #compute_stats(tokens,title, output_file, source_path) #source+title
+    compute_stats(tokens,title, output_file, source_path) #source+title
 
     output_file.close()
 
