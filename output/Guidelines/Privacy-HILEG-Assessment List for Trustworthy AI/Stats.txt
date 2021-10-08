@@ -3,17 +3,17 @@ Privacy-HILEG-Assessment List for Trustworthy AI
 
 
 With stop word removal 
-Size of original corpus: 801 
+Size of original corpus: 747 
 Size of filtered corpus: 411
-Size of Lexicon: 238
+Size of Lexicon: 233
 
 Tokens that appear in the file, alongside with their frequencies:
-data:16
+data:15
 privacy:12
 system:11
 requirement:8
-governance:8
 assessment:7
+governance:7
 list:6
 trustworthy:6
 altai:6
@@ -21,34 +21,37 @@ data protection:6
 use:5
 impact:5
 right:5
-personal:5
 :5
-non-:4
+12:4
 integrity:4
 's:4
 1:3
 human:3
 3:3
+7:3
+9:3
 14:3
+21:3
+23:3
 fundamental:3
 consider:3
+personal:3
 including:3
 artificial:2
 intelligence:2
-european:2
 agency:2
 oversight:2
 safety:2
 general:2
 4:2
-design:2
 environmental:2
-well-:2
+well-being:2
 management:2
 glossary:2
 10:2
 15:2
-23:2
+18:2
+19:2
 closely:2
 prevention:2
 harm:2
@@ -59,17 +62,17 @@ protocols:2
 aggregation:2
 anonymisation:2
 data protection impact assessment:2
+dpia:2
 data protection officer:2
+dpo:2
 encryption:2
 pseudonymisation:2
 standards:2
 case:2
 subsection:2
 helps:2
-self-:2
-assess:2
+self-assess:2
 related:2
-person:2
 mental:2
 physical:2
 mechanisms:2
@@ -77,22 +80,24 @@ concerning:2
 special:2
 categories:2
 measures:2
-gdpr:2
+24:2
 development:2
-e.g.:2
+g:2
 implications:2
 processed:2
+non-personal:2
+iso:2
+25:2
+ieee:2
+html:2
 isbn:2
-kk-02-:2
-20-:2
-479-:2
-en-:2
+doi:10:2
 independent:1
-high-:1
-level:1
+high-level:1
 expert:1
 group:1
 set:1
+european:1
 commission:1
 self:1
 0:1
@@ -108,8 +113,7 @@ attack:1
 security:1
 accuracy:1
 reliability:1
-fall-:1
-back:1
+fall-back:1
 plans:1
 reproducibility:1
 transparency:1
@@ -121,11 +125,12 @@ unfair:1
 bias:1
 accessibility:1
 universal:1
+design:1
 stakeholder:1
 participation:1
 5:1
 diversity:1
-discrimination:1
+non-discrimination:1
 fairness:1
 6:1
 societal:1
@@ -134,19 +139,13 @@ skills:1
 society:1
 large:1
 democracy:1
-7:1
 accountability:1
 auditability:1
 risk:1
-7 7 8  :1
-9 9 9:1
-12 12 12:1
+8:1
 16:1
 17:1
-18:1
-18 19 19:1
 20:1
-21 21 21:1
 linked:1
 principle:1
 particularly:1
@@ -163,12 +162,11 @@ capability:1
 process:1
 manner:1
 protects:1
-dpia:1
-dpo:1
 lifecycle:1
 rights:1
+person:1
 respect:1
-’s:1
+person’s:1
 and/or:1
 depending:1
 establish:1
@@ -187,10 +185,10 @@ place:1
 following:1
 mandatory:1
 regulation:1
+gdpr:1
+non-european:1
 equivalent:1
-dpia)23:1
 designate:1
-dpo)24:1
 include:1
 early:1
 state:1
@@ -204,18 +202,14 @@ logging data access:1
 making:1
 modifications:1
 achieve:1
-privacy-:1
-by-:1
+privacy-by-design:1
 default:1
-https://gdpr.eu/data-protection-impact-assessment-template/.:1
-24:1
-https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-:1
-accountability-:1
-and-:1
-data-:1
-protection-:1
-officers/.:1
-12:1
+https://gdpr:1
+eu/data-protection-impact-assessment-template/:1
+https://ico:1
+org:1
+uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-:1
+gdpr/accountability-and-governance/data-protection-officers/:1
 data minimisation:1
 particular:1
 implement:1
@@ -227,38 +221,40 @@ generated:1
 course:1
 life:1
 cycle:1
-training-:1
+training-data:1
 align:1
 relevant:1
-iso25:1
-ieee26:1
+26:1
 widely:1
 adopted:1
 daily:1
-25:1
-https://www.iso.org/committee/6794475.html:1
-26:1
-https://standards.ieee.org/industry-connections/ec/autonomous-systems.html:1
+https://www:1
+org/committee/6794475:1
+26 https://standards:1
+org/industry-connections/ec/autonomous-systems:1
 13:1
 book:1
 978-92-76-20009-3:1
 978-92-76-20008-6:1
 pdf:1
-doi:10.2759/791819:1
-doi:10.2759/002360:1
+2759/791819:1
+2759/002360:1
+kk-02-20-479-en-c:1
+kk-02-20-479-en-n:1
 
 Keywords that appear in the file, alongside with their frequencies:
 Privacy:12
 data protection:6
 anonymisation:2
 Data Protection Impact Assessment:2
+DPIA:2
 Data Protection Officer:2
+DPO:2
 encryption:2
 pseudonymisation:2
-DPIA:1
-DPO:1
 oversight mechanisms for data processing:1
 logging data access:1
+privacy-by-design:1
 data minimisation:1
 right to withdraw consent:1
 right to object:1

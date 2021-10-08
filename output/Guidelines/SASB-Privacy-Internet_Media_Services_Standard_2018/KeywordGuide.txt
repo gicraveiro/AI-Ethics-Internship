@@ -8,7 +8,6 @@ data security:13
 encryption:2
 data protection:2
 consent:5
-The American Institute of Certified Public Accountants’ (AICPA) Service Organization Controls (SOC) for Cybersecurity:1
 American Institute of Certified Public Accountants:1
 AICPA:1
 SOC:15
@@ -17,4 +16,4 @@ ISACA’s COBIT 5:1
 ISO/IEC 27000-series:1
 NIST:1
 National Institute of Standards and Technology:1
-Data breach:12
+Data breach:13
