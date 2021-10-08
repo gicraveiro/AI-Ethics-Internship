@@ -3,3588 +3,2784 @@
 
 
 With stop word removal 
-Size of original corpus: 10120 
-Size of filtered corpus: 4903
-Size of Lexicon: 3243
+Size of original corpus: 13324 
+Size of filtered corpus: 7006
+Size of Lexicon: 2769
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:113
-See:72
-may:53
-users:48
-use:25
-note:25
-’s:24
-people:19
-e.g.:18
-d.:18
+facebook:165
+real:154
+see:127
+policy:100
+users:93
+https://perma:76
+data:71
+names:64
+social:60
+may:60
+8:59
+facebook’s:46
+https://www:45
+media:44
+6:40
+9:37
+use:35
+information:35
+people:30
+note:30
+5:28
+privacy:27
+4:26
+g:26
+identity:22
+google+:22
+new:21
+2:21
+>:20
+online:20
+german:20
+service:19
+<:19
+supra:19
+3:18
+platform:18
+user:17
 +:17
-supra:17
-real names:16
-Google+:15
-Nevertheless:14
-J.L. & PUB:13
-POL’Y:13
-Vol:13
+even:17
+nevertheless:15
+2018:14
+pol’y:14
+court:14
+control:14
+jpaq:13
+cp:13
+services:13
+pub:13
+vol:13
+xxviii:13
+gdpr:13
 still:13
->:13
-the real name policy:13
-XXVIII:12
-Facebook’s real name policy:12
-)J8:11
+accounts:13
+right:13
+already:13
+law:12
+7:12
+account:12
+data protection:12
+life:11
+given:11
+consent:11
+individuals:11
+policies:11
+different:11
 provide:11
-already:11
-social media:10
-its real name policy:10
+friends:11
+public:11
+without:10
+pseudonym:10
+apr:10
+aa:10
+aug:10
+infra:10
+though:10
+friendster:10
+way:10
 would:10
-information:10
+certain:10
+profile:10
+google:10
+post:10
+zuckerberg’s:10
+regulators:10
+1:9
 based:9
-2018:9
-real:9
-though:9
-their real names:9
-given:8
-without:8
-data:8
-FACEBOOK:8
-Friendster:8
-see:8
-the policy:8
-even:8
-Even:8
-Zuckerberg:8
-found:7
-social:7
-2014:7
-HA 8 A8CP9:7
+behavior:9
+subscribers:9
+change:9
+13:9
+pseudonymous:9
+boyd:9
+r:9
+personal:9
+anonymity:9
+collection:9
+processing:9
+found:8
+us:8
+2014:8
+html:8
+claims:8
+challenge:8
+generally:8
+company:8
+general:8
+model:8
+http://www:8
+https://:8
+political:8
+internet:8
+feb:8
+paper:7
+comments:7
+2017:7
+surveillance:7
+share:7
+website:7
 allow:7
-<:7
-policy:7
-5JPAQ:7
+context:7
+danah:7
+oor’s:7
+response:7
+pseudonyms:7
+case:7
 collect:7
-Germany:7
-Google:7
+allows:7
+germany:7
+first:7
+fake:7
+mark:7
+zuckerberg:7
+however:7
+making:7
+wash:7
+established:7
+need:7
+66:7
 likely:7
-us:6
-2017:6
-
-
-2018
-
-5JPAQ:6
+transcript:7
+washingtonpost:7
+regulator:7
+telemedia:7
+act:7
+hamburg:7
+concerns:6
+author’s:6
+int’l:6
+providers:6
 sign:6
-claims:6
+world:6
+using:6
 know:6
-challenge:6
-control:6
-generally:6
-allows:6
+hence:6
+/ol:6
+enforcement:6
+order:6
+many:6
+behavioral:6
+legal:6
 including:6
+meet:6
 choose:6
-making:6
+okcupid:6
+b:6
+difficult:6
+problem:6
+argument:6
+relevant:6
 violates:6
+zdnet:6
+native:6
+campaign:6
 often:6
-facebook:6
-POST:6
-zuckerbergs:6
+business:6
+setting:6
+reports:6
+whether:6
 noting:6
-1:5
+last:6
+irish:6
+connect:5
+others:5
+one’s:5
+research:5
 led:5
+2011:5
+government:5
 allowing:5
-their data:5
-their real name:5
 username:5
+reason:5
+guardian:5
+theguardian:5
 2016:5
-using:5
-Yet:5
+yet:5
+position:5
+collapse:5
+15:5
+speech:5
+communities:5
+19:5
 2012:5
-names:5
-Real Names:5
+dec:5
+o%:5
+cc/4:5
+process:5
+vulnerable:5
+accompanying:5
+text:5
+identities:5
+person’s:5
 contains:5
 requiring:5
-the platform:5
-privacy:5
-GDPR:5
-meet:5
+since:5
+pseudonymity:5
+anonymous:5
 used:5
+purposes:5
 allowed:5
-https://:5
-
-Facebook:5
+26:5
+scholars:5
+authentic:5
+early:5
+www:5
+full:5
 actually:5
-difficult:5
-a real name policy:5
-the company:5
+62:5
+official:5
+instead:5
+sept:5
+easy:5
+advertising:5
 give:5
-However:5
-need:5
 freely:5
 collecting:5
-whether:5
-share:5
 stop:5
-the GDPR:5
-others:4
-media:4
-individuals:4
+ireland:5
+controller:5
+jurisdiction:5
+society:4
+community:4
+christian:4
+age:4
+developers:4
+danger:4
+collective:4
+strong:4
+10:4
+networking:4
 requires:4
-change:4
-”9:4
+another:4
+12:4
+usernames:4
 caused:4
-danah boyd:4
+separate:4
+contexts:4
+marginalized:4
+b-&al:4
 criticism:4
+higher:4
 asks:4
-such information:4
-, HA 8 A8CP9:4
+email:4
+caragliano:4
+point:4
+status:4
+individual:4
+knowledge:4
 consider:4
+impact:4
 especially:4
+protection:4
+regulatory:4
 challenged:4
-personal data:4
+similar:4
+section:4
+lawsuit:4
+p:4
 raised:4
 began:4
-friends:4
-a real name:4
+site:4
+could:4
+like:4
+party:4
+later:4
+=:4
+decide:4
+30:4
 deter:4
+although:4
 required:4
-Use:4
-People:4
+activities:4
+decision:4
+salon:4
+75:4
+49:4
+jan:4
+f:4
+make:4
 makes:4
-Na(&<ooR:4
-the Internet:4
-instead:4
+specific:4
+physical:4
+101:4
+stage:4
+changed:4
+rushdie:4
+44:4
+2013:4
+45:4
+48:4
 register:4
-MASHABLE:4
-https://perma:4
+times:4
+mashable:4
+https://mashable:4
+wrong:4
+mynameis:4
 discussed:4
 thus:4
+practice:4
+oct:4
+john:4
+norm:4
+linkedin:4
+much:4
 willing:4
-profile:4
+adopters:4
+fact:4
+common:4
+associating:4
 effectively:4
-vulnerable individuals:4
-the information:4
+value:4
+demographic:4
+71:4
+subject:4
+false:4
+long:4
+better:4
+administrative:4
+seeing:4
+11 , 2018:4
+tools:4
+collects:4
 turn:4
-the collection:4
+advertisement:4
+categories:4
+religious:4
+special:4
 contained:4
+art:4
+regulation:4
+laws:4
 ordered:4
-connect:3
+119:4
+subjects:4
+daily:3
+opinions:3
+content:3
+previous:3
+wylie:3
 well:3
 provided:3
-2011:3
+earlier:3
+conference:3
+author:3
+fuchs:3
+twitter:3
+potential:3
 previously:3
+points:3
+due:3
+market:3
 must:3
-THE GUARDIAN:3
-6:3
+w:3
+really:3
+sites:3
+terms:3
 explaining:3
+everyday:3
+create:3
+only one:3
 remains:3
 demanding:3
+14:3
+several:3
 interact:3
-context collapse:3
 finding:3
 able:3
+16:3
+free:3
 expose:3
+18:3
 etc:3
-8:3
-13:3
-/ol!(K:3
+registration:3
+systems:3
+courts:3
+private:3
+south:3
+korea:3
+35:3
 2015:3
-Moreover:3
+revised:3
+moreover:3
 criticized:3
-pseudonyms:3
+type:3
+number:3
 keep:3
-This paper:3
-a lot:3
-generation:3
-Hence:3
-since:3
+54:3
+68:3
+2018 5:3
+criticisms:3
+20:3
+lot:3
+sensitive:3
+gender:3
+ethnicity:3
+religion:3
+operators:3
+interaction:3
+lead:3
+past:3
 differently:3
+debates:3
+journal:3
+cc/q:3
+106:3
+action:3
+rationale:3
 received:3
-could:3
-like:3
+popular:3
+enforcing:3
+abrams:3
+24:3
+25:3
 attempted:3
+groups:3
 pointed:3
-later:3
-right:3
-=:3
-26:3
-boyd:3
-decide:3
-OkCupid:3
+less:3
+28:3
+michael:3
+culture:3
+actions:3
+n’t:3
+friendster’s:3
+controversy:3
 go:3
+changing:3
 problematic:3
-a user:3
-different:3
-the website:3
-the service:3
-Your Real Name:3
-Make:3
+option:3
+record:3
+55:3
+78:3
+21 , 2017:3
+64:3
+everyone:3
+integrity:3
+friend’s:3
+37:3
+davisson:3
+self:3
+39:3
+individual’s:3
 address:3
-the problem:3
-example:3
-Privacy:3
+org:3
+79:3
 simply:3
-changed:3
+41:3
+43:3
+example:3
+salman:3
+passport:3
+page:3
+ahmed:3
+aaai:3
+nov:3
+time:3
 following:3
-first:3
-easy:3
-Caragliano:3
-19:3
+affected:3
+verified:3
+identification:3
+selves:3
+nytimes:3
+suspension:3
+cc/7:3
+plus:3
+profiles:3
+queens:3
+american:3
+72:3
+fight:3
+back:3
+security:3
 admitted:3
-fact:3
+verge:3
+theverge:3
+56:3
 build:3
-Anonymity:3
-Scholars:3
+student:3
+directory:3
+parents:3
+trolling:3
+commenters:3
+national:3
+responses:3
+user’s:3
+believe:3
+malicious:3
+reported:3
+ability:3
+domestic:3
+violence:3
+103:3
 concerning:3
-process:3
-Mark Zuckerberg’s:3
-THE WASH:3
-Transcript:3
-Apr. 11, 2018:3
-house:3
-collects:3
--appearance:3
-seeing:3
-last:3
+americans:3
+group:3
+q:3
+microtargeting:3
+80:3
+difference:3
+violated:3
+never:3
+82:3
+choice:3
+89:3
+cc/jd:3
+pages:3
+brokers:3
+operations:3
+operation:3
+98:3
+beliefs:3
 easily:3
-their names:3
+country:3
+origin:3
+ethnic:3
 contain:3
-the right:3
-art:3
-regulators:3
+racial:3
+limited:3
+berlin:3
+shuld:3
 implementing:3
-The court:3
+copyright:3
+lomas:3
+112:3
+116:3
 decided:3
+mandatory:3
+authority:3
+122:3
 establish:3
+recital:3
+126:3
+127:3
+residents:3
 necessary:3
 relation:3
-the processing:3
+explicit:3
+what’s:2
+shun-ling:2
+media’s:2
+agency:2
 acquired:2
-concerns:2
-Social:2
+express:2
+arab:2
+spring:2
+occupy:2
+movement:2
+mass:2
+whistleblowers:2
+snowden:2
 alerted:2
-this paper:2
-the author:2
-SOCIAL MEDIA:2
-Wylie:2
-service providers:2
-due:2
-a
-pseudonym:2
-this policy:2
-Facebook users:2
-government:2
-3:2
-THE
-GUARDIAN:2
-4:2
-7:2
+chen:2
+thanks:2
+technology:2
+project:2
+version:2
+valuable:2
+international:2
+revolution:2
+power:2
+divided:2
+democracy:2
+threat:2
+amounts:2
+continued:2
+failure:2
+products:2
+among:2
+insistence:2
+potentially:2
+files:2
+cambridge:2
+x:2
+visibility:2
+history:2
+dangerous:2
+idea:2
+slate:2
+cc:2
+top:2
 suggesting:2
-subscribers:2
-everyday life:2
-create:2
+june:2
+active:2
+php:2
+someone:2
+else:2
 appears:2
-The real name policy:2
-pseudonymous:2
+safety:2
+11:2
+addresses:2
 repeatedly:2
-points:2
 unable:2
-hence:2
 experience:2
 explore:2
-marginalized communities:2
-China:2
-B-&al:2
-MEDIA:2
+17:2
+harassment:2
+companies:2
+tool:2
+perspective:2
+china:2
+harv:2
+rev:2
 71–74:2
-revised:2
-response:2
-their real
-names:2
-order:2
+on’6:2
+demand:2
+operator:2
 concerned:2
-the type:2
-users’ real name:2
-accompanying:2
-text:2
-68:2
-South
-Korea:2
+phone:2
+real-world:2
+david:2
 choosing:2
+amount:2
+grounds:2
 derive:2
-many users:2
+possible:2
+cultures:2
+21:2
+emphasi:2
 giving:2
-ethnicity:2
-religion:2
-social status:2
-interaction:2
+generation/age:2
+patterns:2
 deduce:2
-
-privacy:2
+awareness:2
 carefully:2
-lead:2
-offers:2
-the past:2
+european:2
+22:2
+23:2
 discusses:2
-protection:2
+regime:2
+rationales:2
 permitting:2
-anonymity:2
-This section:2
-106:2
 bring:2
-the
-policy:2
+class:2
+united:2
+states:2
+iv:2
+brazilgovnews:2
+controversies:2
+revolt:2
+inception:2
+provider:2
 require:2
-enforcing:2
+fallout:2
+online-dating:2
 2002:2
-their friends:2
+architecture:2
+system:2
 connecting:2
-way:2
-less:2
-authentic:2
-24:2
-danah:2
+beach:2
+27:2
+fakester:2
+anderson:2
+sfweekly:2
+cc/yz:2
+customer:2
+participation:2
+digital:2
+joe:2
 2007:2
 151:2
-although:2
-usernames:2
+29:2
+gets:2
+31:2
+32:2
+round:2
 performed:2
-a way:2
-the
-platform:2
-the option:2
+34:2
 erase:2
-other users:2
-their activities:2
+platform’s:2
 start:2
-k!upid’s policy change:2
-the decision:2
-55:2
-make:2
-Says:2
-Mark Zuckerberg:2
-everyone:2
+upid’s:2
+open:2
+says:2
+changes:2
+two:2
 lack:2
+36:2
 believes:2
-platform:2
 talking:2
+scholar:2
+amber:2
 authenticity:2
 reveal:2
-however:2
-self:2
-general:2
+38:2
+helen:2
+erving:2
+contextual:2
 causing:2
-Bernie Hogan:2
--&al Aa:2
-Policy:2
-79:2
-Na(&<ooR’s:2
-A8CP9:2
+40:2
+solve:2
+bernie:2
+hogan:2
+hn:2
+michaelzimmer:2
+politics:2
+participate:2
+presentation:2
+ra:2
+convergence:2
 manage:2
-real name:2
+audience:2
 reserved:2
+exploration:2
+42:2
 widely:2
 adopted:2
-this argument:2
-free:2
+persona:2
+help:2
 deactivated:2
+rushdie’s:2
 unilaterally:2
-41:2
-Online:2
-et al:2
-ON WEBLOGS AND SOCIAL MEDIA:2
+tech:2
+chan:2
+weblogs:2
+mothers:2
+release:2
 parenting:2
+usual:2
+youbemom:2
 discuss:2
-INT’L:2
-ZDNET:2
+july:2
+protalinski:2
+penname:2
 eventually:2
 reversed:2
+46:2
+harder:2
 released:2
-the
-service:2
-affected:2
+47:2
+popularity:2
+50:2
 took:2
+approach:2
 providing:2
+enough:2
+standard:2
+rarely:2
 associate:2
-their real identity:2
 include:2
-made:2
-Pseudonyms:2
-Wrong:2
-.cc:2
+strycker:2
+future:2
+web:2
+opinion:2
+violet:2
+blue:2
+51:2
+ing:2
+52:2
+unseat:2
+53:2
 suspended:2
-drag queens:2
+drag:2
 emphasizes:2
-Indeed:2
-2013:2
+importance:2
+indeed:2
 claiming:2
-fight:2
+youtube:2
 posted:2
-plus:2
-Inside:2
-THE VERGE:2
-Need:2
-fake:2
-this author:2
-their
-real name:2
+fights:2
+inside:2
+attempt:2
+2 , 2015:2
+lapse:2
+usage:2
+engadget:2
+feature:2
 saw:2
 might:2
-LinkedIn:2
-the purpose:2
-
-advertising:2
+fewer:2
+57:2
+purpose:2
+self-:2
 offered:2
-56:2
-J8:2
-setting:2
-some people:2
-associating:2
-pseudonymity:2
-pseudonymous comments:2
+58:2
+hand:2
+59:2
+character:2
+60:2
+norms:2
+zephoria:2
+cc/t:2
+timeline:2
+alan:2
+surname:2
+unlike:2
+independent:2
+good:2
+reasons:2
+bad:2
+61:2
 necessarily:2
+positive:2
 combat:2
-reports:2
+63:2
+comment:2
+65:2
+confusion:2
 argue:2
-48:2
+mathew:2
+ingram:2
+trolls:2
+newsweek:2
+com/:2
+perma:2
 168:2
-pseudonym:2
+inc:2
 effective:2
+67:2
+legitimate:2
+reporting:2
 silencing:2
+69:2
 behaving:2
-reported:2
 provides:2
-FIRST MONDAY:2
-103:2
-Native Americans:2
+administrator:2
+70:2
+victims:2
+stalking:2
+cc/d:2
+amy:2
+nyu:2
+wired:2
+emily:2
+practices:2
+center:2
+20 , 2015:2
+brandom:2
 violating:2
 unfamiliar:2
+naming:2
+73:2
+targeted:2
 silenced:2
-The #MyNameIs campaign:2
-changes:2
-appeal:2
-Sue Facebook:2
-71:2
+deactivation:2
+74:2
+pressure:2
+mechanism:2
+procedure:2
+76:2
+narrow:2
+chris:2
+press:2
+23 , 2014:2
 getting:2
-ALGORITHMS:2
+wordpress:2
+cc/k:2
+measures:2
+algorithms:2
 appear:2
 rather:2
-Although:2
+beta:2
+testers:2
+campus:2
+77:2
+eric:2
+schmidt:2
 light:2
-Associating:2
-microtargeting:2
 suggest:2
-
-pseudonym:2
 lists:2
-n’t:2
-never:2
+profiling:2
+haimson:2
 add:2
 offering:2
-Congress:2
-Facebook’s business model:2
-their users:2
-really:2
-the question:2
+81:2
+congress:2
+83:2
+question:2
+84:2
 something:2
-Apr.
-10, 2018:2
-mark:2
-Appearance:2
-House Committee:2
-na6:2
-Nelson:2
-user data:2
+85:2
+cnn:2
+10 , 2018:2
+noredirect:2
+on&utm_term=:2
+appearance:2
+house:2
+committee:2
+utm_term=:2
+j&ar:2
+senator:2
+nelson:2
+economic:2
 fundamental:2
+scheme:2
+86:2
 gives:2
 avoid:2
-such control:2
+function:2
+87:2
+88:2
 grouped:2
 together:2
-much:2
-N.Y.:2
-TIMES:2
-89:2
+kind:2
+90:2
+91:2
+adequate:2
 8::&aran:2
 7&%or:2
-committee/:2
-advertisement:2
-believe:2
+jous:2
+39-ybw:2
+92:2
+93:2
+94:2
 argues:2
 show:2
-data brokers:2
-Data Privacy:2
+ads:2
+95:2
+tracks:2
 modified:2
+explanation:2
 acknowledges:2
+neither:2
+com/news/the-:2
+forbes:2
+96:2
 activists:2
-Without:2
 violate:2
+leaders:2
 induce:2
+requests:2
+russian:2
+meddling:2
 insist:2
-accounts:2
+97:2
+identifies:2
+influence:2
+jul:2
 guess:2
-A person’s name:2
-98:2
-German:2
-relevant:2
-
-users:2
+doe:2
+male:2
+belief:2
+jurisdictions:2
+99:2
+children:2
+race:2
+chinese:2
+100:2
+generation:2
+significant:2
+particular:2
+102:2
+104:2
+rights:2
+housing:2
+105:2
+2016/679:2
+propublica:2
+challenges:2
 signing:2
+107:2
+prevailed:2
 brought:2
-Facebook’s real
-name policy:2
+ation:2
 ruled:2
 unclear:2
-the data regulator:2
+108:2
+classaction:2
+natasha:2
+techcrunch:2
+https://techcrunch:2
+109:2
+110:2
+111:2
+shulc:2
+monopoly:2
 compels:2
 considers:2
-the order:2
+113:2
+state:2
+114:2
 agreed:2
-Ireland:2
-Facebook Ireland:2
-Since:2
-Hamburg:2
+115:2
+117:2
+arguments:2
+118:2
 regarding:2
-violated:2
 179:2
-112:2
+schmitz:2
 196:2
-116:2
-users’ right:2
+informational:2
+120:2
+121:2
 favor:2
-German regulators:2
-recital:2
-127:2
-German laws:2
+compliant:2
+directive:2
+123:2
+arrangement:2
+124:2
+125:2
 find:2
-users’ real names:2
-such data:2
-racial or ethnic origin:2
-political opinions:2
-explicit consent:2
-the data
-subject:2
-Processing:2
-a natural person:2
+gcpr’s:2
+philosophical:2
+clear:2
+imbalance:2
+128:2
+natural:2
 shall:2
-consent:2
-that consent:2
-the controller:2
-’S:1
-A NAME:1
-– FA!EB,,K’S REAL NAME POLICY
-AND USER PRIVACY:1
-Shun-Ling Chen
-
-I.
-
-INTRODUCTION:1
-Social media:1
-an integral part:1
-daily life:1
+covert:2
+129:2
+130:2
+intermediaries:2
+131:2
+132:2
+kansas:2
+fa:1
+eb:1
+k’s:1
+chen:1
+introduction:1
+integral:1
+part:1
 woven:1
-the
-te>ture:1
-our society:1
+ture:1
 early days:1
 celebrative:1
-the agency:1
 newly:1
-Individually:1
-new channels:1
-express:1
-our opinions:1
-Collectively:1
+individually:1
+channels:1
+collectively:1
 witnessed:1
 mobilized:1
 citizens:1
-the Arab Spring:1
-the Occupy Movement:1
 recent years:1
 growing:1
-the risks:1
-
-social media use:1
+risks:1
 filter:1
-bubbles––personalized content:1
+bubbles––personalized:1
 algorithmically:1
 curated:1
-one’s previous behavior:1
 website––are:1
 replacing:1
-traditional mass media:1
+traditional:1
 weakening:1
-the
-imagined socio-political community.2 Two prominent whistleblowers:1
-
-Edward Snowden:1
-Christopher Wylie:1
- Shun-Ling Chen:1
+imagined:1
+socio-political:1
+2 two:1
+prominent:1
+edward:1
+christopher:1
+:1
 holds:1
-an S.J.D.:1
-Harvard Law School:1
-an assistant
-research professor:1
-Institutum Iurisprudentiae:1
-Academia Sinica:1
-thanks:1
-the
-Taiwan Ministry of Science and Technology:1
+harvard:1
+school:1
+assistant:1
+professor:1
+institutum:1
+iurisprudentiae:1
+academia:1
+sinica:1
+taiwan:1
+ministry:1
+science:1
 funding:1
-the research project:1
 106-:1
-2410:1
-H-001:1
-059-:1
-her institute:1
-its support:1
+2410-h-001-059-:1
+institute:1
+support:1
 grateful:1
-Hsiao-Yu Chung:1
-Ying Chao:1
-Yun-Chi Tsai:1
-
-research assistance:1
-the project:1
-An earlier version:1
-the paper:1
+hsiao-yu:1
+chung:1
+i-ying:1
+chao:1
+yun-chi:1
+tsai:1
+assistance:1
 presented:1
-the 2018 Law and Society Conference:1
-Toronto:1
-The author:1
-thanks Tilman
-Bayer:1
-Bryna Bogoch:1
-Janny Leung:1
-Hui-chie Su:1
-Ying-Chu Wu:1
-the
+toronto:1
+tilman:1
+bayer:1
+bryna:1
+bogoch:1
+janny:1
+leung:1
+hui-chie:1
+ying-chu:1
+wu:1
 editors:1
-their valuable comments:1
-All mistakes:1
-The article:1
+mistakes:1
+article:1
 licensed:1
-Creative Commons Attribution ShareAlike 4.0 International
-https://creativecommons.org/licenses/by-sa/4.0/.:1
-Nahed Eltantawy et al:1
-The Arab Spring | Social Media:1
-the Egyptian
-Revolution:1
-Reconsidering Resource Mobilization Theory:1
-5 INT’L J. COMM:1
+creative:1
+commons:1
+attribution:1
+sharealike:1
+0:1
+https://creativecommons:1
+org/licenses/by-sa/4:1
+0/:1
+nahed:1
+eltantawy:1
+|:1
+egyptian:1
+reconsidering:1
+resource:1
+mobilization:1
+theory:1
+comm:1
 1207:1
-CHRISTIAN FUCHS:1
-OCCUPYMEDIA:1
-THE OCCUPY MOVEMENT AND SOCIAL
-MEDIA:1
-CRISIS CAPITALISM:1
-ZEYNEP TUFEKCI:1
-TWITTER:1
-TEAR GAS:1
-THE POWER:1
-FRAGILITY:1
-NETWORKED PROTEST:1
-2:1
-, CASS SUNSTEIN:1
-#REPUBLIC:1
-DIVIDED DEMOCRACY:1
-THE AGE:1
+occupymedia:1
+crisis:1
+capitalism:1
+zeynep:1
+tufekci:1
+tear:1
+gas:1
+fragility:1
+networked:1
+protest:1
+cass:1
+sunstein:1
+#republic:1
 147:1
-media users’ privacy:1
-threat.3 Snowden:1
 revealed:1
-mass
-government surveillance:1
-the potential cooptation:1
-service
-providers:1
+cooptation:1
 warned:1
-earlier mistake:1
-
-developers:1
+mistake:1
 access:1
->cessive amounts:1
-users’ data:1
-consent.4:1
-Furthermore:1
+cessive:1
+furthermore:1
 unveiled:1
-continued failure:1
 incapability:1
-police developers’ use:1
-the
-developers:1
-Facebook.5:1
-Both whistleblowers:1
+police:1
 demonstrate:1
-the danger:1
-a surveillance:1
-society:1
 facilitates:1
 voluntarily:1
 surrender:1
-every:1
-day.6:1
+every day:1
 fair:1
 call:1
-the users:1
 naïve:1
 realized:1
 they––as:1
-collective:1
-the data points:1
 them––are:1
-the products:1
 customers:1
-such services.7:1
-Among:1
-the major social media services:1
+major:1
 stands:1
-its market share:1
-its
-insistence:1
-a strong real name:1
-policy.8:1
-Subscribers:1
-the platform.9:1
-Due:1
-more reason:1
 worry:1
-corporate surveillance:1
-potentially:1
-The NSA Files:1
-https://www.theguardian.com/us-news/the-
+corporate:1
+nsa:1
+com/us-news/the-:1
 nsa-files:1
-https://perma.cc/YBE4-AB6W:1
-The Cambridge Analytica Files:1
-https://www.theguardian.com/news/series/cambridge-analytica-files:1
-https://perma.cc/LZ4C-R8X6:1
-5:1
-DANIEL TROTTIER:1
-SOCIAL MEDIA AS SURVEILLANCE: RETHINKING
-VISIBILITY IN A CONVERGING WORLD:1
-Will Oremus:1
-Really:1
-the Product:1
-The History:1
-a Dangerous
-Idea, Slate, SLATE:1
-Apr 27, 2018:1
-, https://slate.com/technology/2018/04/are-you-
-really-facebooks-product-the-history-of-a-dangerous-idea.html:1
-https://perma.cc:1
-/YA8B-BNGZ:1
-
-8 See:1
-Priit Kallas:1
-Top 10 Social Networking Sites:1
-Market Share Statistics:1
-June
-2018:1
-DREAM GROW:1
-July 2, 2018:1
-https://www.dreamgrow.com/top-10-social-
-networking-sites-market-share:1
-visits/:1
-https://perma.cc/SEJ8-4LZB:1
-June:1
-the top social media website:1
-2.2 billion:1
-monthly active users:1
+cc/ybe:1
+4-ab:1
+analytica:1
+com/news/series/cambridge-analytica-files:1
+cc/lz:1
+c-r:1
+daniel:1
+trottier:1
+rethinking:1
+converging:1
+oremus:1
+product:1
+27 , 2018:1
+https://slate:1
+com/technology/2018/04/are-you-:1
+really-facebooks-product-the-history-of-a-dangerous-idea:1
+/ya:1
+b-bngz:1
+priit:1
+kallas:1
+statistics:1
+june 2018:1
+dream:1
+grow:1
+july 2 , 2018:1
+dreamgrow:1
+com/top-10-social-:1
+networking-sites-market-share-of-visits/:1
+cc/sej:1
+8-4:1
+lzb:1
+2 billion:1
+monthly:1
 globally:1
-9 See Terms:1
-Services:1
-https://www.facebook.com/terms.php:1
-https://perma.cc/J8YZ-B4JF:1
-the same name:1
-only one account:1
-i.e.:1
-another account:1
-pseudonym9:1
-a subscriber:1
-his7her account:1
-someone:1
-else:1
+com/terms:1
+cc/j:1
+yz-b:1
+jf:1
+subscriber’s:1
 unrelated:1
-the name:1
 148:1
 encounter:1
-the platform.10:1
 raises:1
-safety
-concerns:1
-some users.11 Facebook’s subscribers:1
 protested:1
-policy.12:1
 firm:1
-names.13:1
-This paper addresses:1
 reconsider:1
-this position:1
-usernames.14:1
-Existing literature:1
-several problems:1
-
-social media’s real name policies:1
+existing:1
+literature:1
+problems:1
 clearly:1
-separate contacts:1
-different social
-contexts:1
+contacts:1
 awkward:1
 communicating:1
-the platform;15 individuals:1
-different personas;16 real name policies:1
+personas:1
 cause:1
-chilling
+chilling:1
 effect:1
 hinder:1
-free speech;17 real name policies:1
 abused:1
-harassment:1
-danger,18:1
-Individuals:1
 imposed:1
-real name registration
-systems
-courts:1
 declared:1
-unconstitutional.19:1
-private companies:1
+unconstitutional:1
 impose:1
-South Korea:1
-court:1
-10 See Ekaterina Netchitailova:1
-Facebook as a Surveillance Tool:1
-Perspective:1
-the User:1
-10 TRIPLEC:1
+ekaterina:1
+netchitailova:1
+triplec:1
 683:1
-Hilary McLauchlin:1
-(Chat:1
-the People:1
-Technology:1
-Social Control:1
-HARV:1
-POL:1
-REV:1
-(Dec. 31:1
-http://harvardpolitics.com/world/wechat-the-people-technology-and-social-:1
-china[https://perma.cc:1
-TQ67-DP35:1
-11:1
-Aa;&s2 /ol!(!&s 8r:1
-o% /oO&r:1
-SOC:1
-COLLECTIVE (Aug. 4, 2011:1
-https://socialmediacollective.org/2011/08/04/real-:1
--policies:1
-an-abuse:1
-power:1
-https://perma.cc/4YUN-PE7L:1
-
-12 See infra note:1
-Eva Galperin &:1
-Wafa Ben Hassinee:1
-5"an#&s 6o Na(&<ooR’s:1
-Aa;&s2:1
-6!ll 4on’6 N!M:1
+hilary:1
+mclauchlin:1
+chat:1
+pol:1
+31 , 2017:1
+http://harvardpolitics:1
+com/world/wechat-the-people-technology-and-social-:1
+control-in-china:1
+cc/tq:1
+67-dp:1
+/oo&r:1
+soc:1
+4 , 2011:1
+https://socialmediacollective:1
+org/2011/08/04/real-:1
+names-policies-are-an-abuse-of-power:1
+yun-pe:1
+eva:1
+galperin:1
+wafa:1
+hassinee:1
+5"an#&s:1
 /ro:1
-ELECTRIC FRONTIER FOUND:1
-Dec. 18, 2015:1
-https://www.eff.org/deeplinks/2015/12/changes-facebooks-real-
-names:1
-dont:1
--fix:1
-problem:1
-http://perma.cc?9E8L-ASJ8:1
-the enforcement process:1
-a
+electric:1
+frontier:1
+18 , 2015:1
+eff:1
+org/deeplinks/2015/12/changes-facebooks-real-:1
+names-policy-still-dont-fix-problem:1
+http://perma:1
+l-asj:1
 series:1
-the demand:1
-subscribers’ use:1
-the revised policy:1
 putting:1
-vulnerable users:1
-a higher risk:1
-more detailed personal
-information:1
-the platform operator:1
-14:1
+risk:1
+detailed:1
 clarify:1
 mainly:1
-real name policy:1
 re$uires:1
 frontstage:1
-Many service providers:1
 re$uire:1
-a cell phone number:1
-an institution email:1
+cell:1
+institution:1
 linked:1
-their
-real-world identity:1
 backstage:1
-15 See infra:1
-39–40 and accompanying text:1
-16 See infra:1
+39–40:1
 42–43:1
-17 See infra:1
 67–70:1
-accompanying text:1
-18 See infra:1
-54:1
-19 See David Caragliano:1
-Responsible Speech:1
-The Case:1
-YALE J. INT’L AFFAIRS:1
-May 21, 2013:1
+responsible:1
+yale:1
+affairs:1
+21 , 2013:1
 http://yale:1
-149
-
-name policies:1
+149:1
 assumed:1
 willingly:1
 accept:1
-the companies’
-policies:1
-their platform:1
-these criticisms:1
-hardly amount:1
-any legally actionable grounds.20:1
-Privacy and data protection:1
-one possible challenge:1
-Our
-names:1
+hardly:1
+legally:1
+actionable:1
 reflect:1
-a variety:1
-cultures:1
-identities.21:1
+variety:1
 expands:1
-this point:1
-emphasi:1
-a person’s name:1
-potentially sensitive information:1
 immediately:1
-a slew:1
-
-information:1
-gender:1
-age:1
-social media operators:1
-not only
-individual behavioral data:1
+slew:1
 observe:1
-the
-company:1
 map:1
-our patterns:1
-different
-gender:1
-generation/age:1
-more knowledge:1
-rising awareness:1
-the surveillance society:1
+rising:1
 important:1
-the impact:1
-Facebook’s strong real name policy:1
 arguably:1
-the largest social media service:1
-refashioned concerns:1
-new legal
+largest:1
+refashioned:1
 mechanisms:1
-the European Union’s General Cata Protection
-Regulations:1
-non-EU countries:1
-a new regulatory
-model.22:1
-Facebook’s real name:1
-policy.23:1
-new:1
-regime:1
+union’s:1
+cata:1
+regulations:1
+offers:1
+non-eu:1
+countries:1
 handle:1
-a similar challenge:1
-the new opportunities:1
-REAL NAMES:1
-RATIONALES:1
-
-CRITICISMS:1
-debates:1
-
-pseudonymity:1
+opportunities:1
 lay:1
-journal.org/article_post/real-names-and-responsible-speech-the-cases-of-south-:1
-
-korea-china:1
-facebook/:1
-https://perma.cc/Q4JL-NKF4:1
-20 See infra note:1
-the only threat:1
-a class action lawsuit:1
-the United States:1
-its enforcement:1
-
-21 See infra note 99–101 and accompanying text:1
-22:1
-EUR:1
-PARL:1
-DOC:1
-(COM:1
+org/article_post/real-names-and-responsible-speech-the-cases-of-south-:1
+korea-china-and-facebook/:1
+jl-nkf:1
+99–101:1
+eur:1
+parl:1
+doc:1
 679:1
-23 See infra Section IV:1
-Cesar Itiberê:1
-New law:1
+cesar:1
+itiberê:1
 regulates:1
-BRAZILGOVNEWS:1
-Aug:1
-16, 2018:1
-http://www.brazilgovnews.gov.br/news/2018/:1
-08/new-law-regulates-use:1
-personal-data:1
-https://perma.cc/VH3A-A4P4:1
-Brazil:1
+16 , 2018:1
+gov:1
+br/news/2018/:1
+08/new-law-regulates-use-of-personal-data:1
+cc/vh:1
+a-a:1
+brazil:1
 passed:1
-GDPR-inspired legislation:1
-August 2018:1
+gdpr-inspired:1
+legislation:1
+august 2018:1
 150:1
-these debates:1
 tracing:1
-controversies:1
-different social media
-services:1
-Friendster, Facebook and Google+:1
 analyzing:1
-their
-rationale:1
 exploring:1
-the concerns:1
-their
-policies:1
 highlighting:1
-the criticisms:1
-A. Meet Friendster:1
-# A Predecessor:1
-Real Name:1
-Media:1
-User Revolt:1
-its inception:1
+predecessor:1
 2004:1
-the first social media provider:1
-real name use:1
-the once popular online dating site:1
-experienced user
-fallout:1
-Unsatisfied:1
-the
-“random and anonymous” hook-ups:1
-pre-existing online-dating
-sites:1
-Jonathan Abrams:1
+dating:1
+experienced:1
+unsatisfied:1
+random:1
+hook-ups:1
+pre-existing:1
+jonathan:1
 founded:1
-
-friends:1
-Friendster subscribers:1
 four degrees:1
 connections:1
 functioned:1
-an early-day social
-media platform.24:1
-Some subscribers:1
+early-day:1
 conform:1
-the service’s
+service’s:1
 design:1
-non-dating purposes.25:1
-the
-site’s architecture:1
+non-dating:1
+site’s:1
 limiting:1
 beyond:1
-the fourth degree:1
+fourth:1
+degree:1
 repurposed:1
-the system:1
-popular fake accounts:1
 break:1
-their own social
 circles:1
-new groups:1
-people.26:1
-Abrams:1
-his colleagues:1
+colleagues:1
 wanted:1
 designed:1
-a virtual beach party:1
+virtual:1
 meets:1
-more people:1
 started:1
 clamp:1
-fake accounts.27 During:1
-this
-fallout:1
-Friendster users:1
-scholars:1
 theorized:1
-all accounts:1
 performing:1
 fakesters:1
-those accounts:1
-real names.28:1
-operators:1
-action:1
 characteri:1
-Fakester genocide:1
+genocide:1
 called:1
-“Fakester revolution:1
 asking:1
-fellow users:1
+fellow:1
 defend:1
-Lessley Anderson:1
-Attack:1
-the Smartasses:1
-SFWEEKLY:1
-Aug. 13, 2003:1
-https://archives.sfweekly.com/sanfrancisco/attack-of-the-smartasses/Content?oid:1
+lessley:1
+attack:1
+smartasses:1
+2003:1
+https://archives:1
+com/sanfrancisco/attack-of-the-smartasses/content:1
+oid:1
 2149018:1
-https://perma.cc/YZ2T-4KZP:1
-25 See MICHAEL FISHER ET AL:1
-THE POWER OF CUSTOMER MISBEHAVIOR:1
-DRIVE:1
-
-GROWTH:1
-INNOVATION:1
-LEARNING:1
-YOUR CUSTOMER:1
+t-4:1
+kzp:1
+fisher:1
+misbehavior:1
+drive:1
+growth:1
+innovation:1
+learning:1
 118-20:1
-None:1
-Real:1
-Identity:1
-Participation:1
-STRUCTURE:1
-PARTICIPATION:1
-DIGITAL CULTURE:1
-149:1
-50:1
-Joe Karagnais ed:1
-27:1
-Anderson:1
-28 Id.
-
-2018:1
+none:1
+structure:1
+149-50:1
+karagnais:1
 exist:1
-the form:1
-[they:1
+form:1
 assume:1
-”29:1
-these
-collective actions:1
 persuade:1
-the site operators:1
-a commentator:1
+commentator:1
 noted:1
-Abrams’ beach party:1
-gets:1
 accepted:1
-isn’t:1
-”30:1
-Friendster’s:1
-
-strong position:1
 drove:1
 away:1
-the late-comer:1
-Myspace:1
+late-comer:1
+myspace:1
 overtook:1
-its position:1
-the early competition:1
-social media
-services.31:1
+competition:1
 perience:1
 adopting:1
-
-policy:1
 far:1
 pleasant:1
 successful:1
-every
-platform operator:1
+every:1
 repeating:1
-its path:1
-notable examples:1
-their rationales:1
+path:1
+notable:1
+examples:1
 trajectories:1
-same.32:1
-Recently:1
-also an online-dating website:1
+recently:1
 stirred:1
-a
-round:1
-controversy:1
 abolish:1
 asked:1
 hidden:1
 beneath:1
-another layer:1
+layer:1
 mysti$ue:1
-”33:1
-Changing policy:1
+33:1
 exhibited:1
 acted:1
-the beginning.34:1
-that information:1
-the platform’s record:1
-their interaction:1
-their
-pseudonym:1
+beginning:1
 anew:1
 abandon:1
-company:1
 unpopular:1
 backtracked:1
 clarified:1
-legal:1
-names.35:1
-29 boyd:1
-30 Katherine Mieszkowski:1
-Faking:1
-SALON:1
-(Aug. 14, 2003:1
-www.salon.com/2003/08/14/fakesters/:1
-https://perma.cc/H8LG-FUNX:1
-31:1
-32 See infra:1
-infra note:1
-78:1
-33 Kelly Cooper:1
-An Open Letter:1
-’r:1
--&;o3!n:1
-# *s&rna;&s:1
+real/legal:1
+35 29:1
+katherine:1
+mieszkowski:1
+faking:1
+14 , 2003:1
+com/2003/08/14/fakesters/:1
+cc/h:1
+lg-funx:1
+33 kelly:1
+cooper:1
+letter:1
+& - &:1
+s&rna:1
 8’’r&ss:1
-6o:1
-ors6:1
-1n&s:1
-P3&r:1
+ors:1
+6 1:1
+n&s:1
+3&r:1
 &&n:1
-OKCUPID BLOG:1
-Dec. 21, 2017:1
-theblog.okcupid.com/an-open-letter-on-why-were-removing-usernames-addressed-:1
-the-worst-ones:1
-ever:1
-seen:1
-dd017c75d49a:1
-https://perma.cc/N64D8DUN:1
-34:1
-Matthew Sheffield:1
-1R5u:1
-7lun’&rQ:1
-4a6!n:1
-6&:1
-)on’6 CaR& @ou:1
-After All, SALON:1
-Jan 1, 2018:1
-https://www.salon.com/2018/01/:1
-01:1
-okcupids:1
-big:1
-blunder:1
-dating:1
-site:1
-wont:1
-all/:1
-https://perma.cc/YZ9T-3XQJ:1
-35:1
-Christina Bonnington:1
-Their Real Names
-F:1
-Changes:1
-Its Mind:1
-THE DAILY DOT:1
-(Jan 3, 2018:1
-, https://www.dailydot:1
+blog:1
+theblog:1
+com/an-open-letter-on-why-were-removing-usernames-addressed-:1
+to-the-worst-ones-we-ve-ever-seen-dd:1
+017:1
+cc/n:1
+8 dun:1
+matthew:1
+sheffield:1
+’’s:1
+lun’&rq:1
+car:1
+@ou:1
+1 , 2018:1
+com/2018/01/:1
+01/okcupids-big-blunder-dating-site-wont-make-you-use-your-real-name-after-all/:1
+t-3:1
+xqj:1
+christina:1
+bonnington:1
+mind:1
+dot:1
+3 , 2018:1
+dailydot:1
 152:1
-B. Everyone:1
-Only One Identity #:1
-Authentic Social Media:1
-only one
-identity:1
-h]aving:1
-two identities:1
+aving:1
 ample:1
-integrity:1
-”36:1
-Similar:1
-rationale:1
-meeting friend’s
-friends:1
-real friends:1
-real life.37:1
-communication scholar Amber Davisson:1
+meeting:1
+communication:1
 bases:1
-its idea:1
-the assumption:1
-our full names:1
-real life:1
-full names:1
+assumption:1
 introductions:1
-specific occasions.38:1
-Many scholars:1
-real name policies:1
-Helen:1
+occasions:1
 referring:1
-Erving Goffman’s:1
-
-Nissenbaum’s notion:1
-contextual integrity.39:1
+goffman’s:1
+nissenbaum’s:1
+notion:1
 play:1
-different roles:1
+roles:1
 according:1
-specific conte:1
+conte:1
 ts:1
-An individual’s real
-life:1
 compartmented:1
-the physical world:1
 perform:1
 consistently:1
-a given context:1
 collapses:1
-these contexts:1
 flattening:1
-the many folds:1
-one’s social world:1
-one webpage display:1
-an individual:1
-separate:1
+folds:1
+webpage:1
+display:1
 audiences:1
-constant tension:1
-awkwardness.40 Facebook:1
-their content:1
-one way:1
-this issue:1
-solve:1
-certain contexts:1
-com/debug/okcupid-real-name-policy:1
-backtrack/:1
-https://perma.cc/4U96-6J62:1
-36:1
-Michael Zimmer:1
-u(R&r<&r#Q:1
-BJa3!n#:1
-Oo H’&n6!6!&s:1
+constant:1
+tension:1
+awkwardness:1
+issue:1
+com/debug/okcupid-real-name-policy-backtrack/:1
+96-6:1
+zimmer:1
+r&r<&r#q:1
+bja:1
+oo:1
+h’&n:1
 @ours&l%:1
-an PMa;:l& o% a la(R o% Hn6&#r!6K2:1
-MICHAELZIMMER.ORG:1
-May 14, 2010:1
-https://www.michaelzimmer.org/2010/05/14/facebooks-zuckerberg-having-two-:1
-
-identities:1
-a-lack:1
-integrity/:1
-https://perma.cc/:1
-R75W-3URA:1
-37 See Amber Davisson:1
-/ol!6!(s:1
-o% 8u6"&n6!(!6K:1
-&
-:1
-2 SOCIAL MEDIA:1
-POLITICS:1
-A NEW WAY:1
-PARTICIPATE:1
-THE
-POLITICAL PROCESS:1
-Glen W. Richardson Jr. ed:1
-38:1
-39:1
-generally Erving GOFFMAN:1
-PRESENTATION:1
-SELF:1
-EVERYDAY LIFE:1
+pma:1
+6&#r:1
+14 , 2010:1
+org/2010/05/14/facebooks-zuckerberg-having-two-:1
+identities-for-yourself-is-an-example-of-a-lack-of-integrity/:1
+cc/:1
+w-3:1
+ura:1
+6"&n:1
+glen:1
+richardson:1
+jr:1
+goffman:1
 1956:1
-H6:1
-5o;:l!(a6&’Q:1
-o(!al E!%& o% Aetworked Teens:1
+6’s 5:1
+6&’q:1
+aetworked:1
+teens:1
 chapter:1
-Helen Nissenbaum:1
-Contextual Integrity:1
-WASH:1
-L. REV:1
-101:1
+nissenbaum:1
 118–133:1
-40 See, e.g., danah boyd:1
-/r!3a(K:1
-ra!nOr&(RQ:1
-PM:1
+/r:1
+rq:1
+pm:1
 osur:1
-&> Hn3as!on:1
-’
-Social Convergence:1
-14(1:1
-CONVERGENCE:1
-THE INT’L J. RESEARCH INTO:1
-NEW
-MEDIA TECHS:1
-18 (2008:1
+techs:1
+2008:1
 153:1
-some users:1
 pain:1
-the audience:1
-each posts:1
+posts:1
 policies––others:1
 become:1
-real life.41:1
-the authentic identity:1
 guarantee:1
-authentic experiences:1
+experiences:1
 interactions:1
-Another argument:1
-A relevant argument:1
-context:1
-collapse:1
-different personalities:1
-the
-prime location:1
-such exploration:1
+personalities:1
+prime:1
+location:1
 forecloses:1
-opportunity.42 Nevertheless:1
-social media providers:1
+opportunity:1
 respond:1
 saying:1
 interested:1
-
-persona exploration:1
 utilize:1
-services.43:1
-help:1
 prevent:1
-
 impersonation:1
-Facebook’s stringent
-real name policy:1
+stringent:1
 known:1
-the offline world:1
-their pennames:1
-stage names:1
+offline:1
+pennames:1
 prior:1
 joining:1
 acclaimed:1
 writer:1
-Salman Rushdie’s account:1
 upon:1
 reviewing:1
-his passport
-photo page:1
-his user name:1
-Ahmed Rushdie:1
-his official passport name:1
-Ahmed Salman:1
-Rushdie.44:1
-This policy’s
-enforcement:1
-Rushdie’s will:1
+photo:1
+policy’s:1
 confuse:1
-the
-public:1
 intend:1
-other public:1
-The Presentation of Self in the Age of Social Media:1
-Distinguishing:1
-Performances:1
-Exhibitions:1
-30(6:1
-BULL:1
-SCI.:1
-, TECH:1
-SOC’Y:1
+distinguishing:1
+performances:1
+exhibitions:1
+bull:1
+sci:1
+soc’y:1
 377:1
 2010:1
-42:1
-Michael S. Bernstein:1
-4chan:1
+bernstein:1
 /b/:1
-: An Analysis:1
-
-Anonymity:1
-Ephemerality:1
-a Large Online Community:1
-FIFTH:1
-INTERNATIONAL AAAI CONFERENCE:1
-BARCELONA:1
-SPAIN:1
-July 17-21, 2011:1
-43 Mothers:1
+analysis:1
+ephemerality:1
+large:1
+fifth:1
+barcelona:1
+spain:1
+july 17-21 , 2011:1
 wish:1
 vent:1
-release:1
 stress:1
 worrying:1
-the usual image:1
+image:1
 motherhood:1
-YouBeMom:1
 forum:1
-
-mothers:1
 anonymously:1
-Sarita Yardi Schoenebeck:1
-The Secret
-Life of Online Moms: Anonymity and Disinhibition on YouBeMom.com:1
-https://yardi.people.si.umich.edu/pubs/SchoenebeckYouBeMom13.pdf:1
-[https://perma.cc/JPU6-MR5C]; PROCEEDINGS:1
-THE SEVENTH:1
-AAAI:1
-CONFERENCE:1
-July 8–11 2013:1
+sarita:1
+yardi:1
+schoenebeck:1
+secret:1
+moms:1
+disinhibition:1
+https://yardi:1
+umich:1
+edu/pubs/schoenebeckyoubemom:1
+pdf:1
+cc/jpu:1
+6-mr 5:1
+proceedings:1
+seventh:1
+8–11:1
 555:1
-44 See Emil Protalinski:1
-Facebook Name Battle::1
-Ahmed Salman Rushdie Claims
-Victory:1
-Nov. 15, 2011:1
-https://www.zdnet.com/article/facebook-name-
-battle-ahmed-salman-rushdie-claims:1
-victory/:1
-https://perma.cc/KLX4-6YKG:1
+emil:1
+battle:1
+victory:1
+15 , 2011:1
+com/article/facebook-name-:1
+battle-ahmed-salman-rushdie-claims-victory/:1
+cc/klx:1
+4-6:1
+ykg:1
 154:1
-XXVIII
-
 figures:1
-an established penname.45:1
-its decision:1
-Rushdie:1
 reclaim:1
 old:1
 publicized:1
-the incident:1
-Twitter;46 others:1
-a lower
-profile:1
+incident:1
+lower:1
 deviate:1
-a harder time:1
 fighting:1
 alone:1
 holding:1
-its social networking service:1
-Facebook’s rationale:1
 enforced:1
-heavy-handedly.47:1
-The controversy:1
-“nymwars:1
-
-debates:1
-online identity.48:1
-the victim:1
-continued:1
-uninteresting ways:1
-its popularity.49:1
+heavy-handedly:1
+nymwars:1
+victim:1
+uninteresting:1
+ways:1
 relaxed:1
-a new account:1
-already
-established pseudonyms:1
-these users:1
-their legal name:1
-record.50:1
-Around:1
-the same time:1
-Facebook’s “verified account:1
-a similar approach:1
-
-well-known people:1
-their stage names:1
-45 Facebook:1
+around:1
+well-known:1
 relax:1
-their real name policy:1
-established public
-persona:1
 2032:1
-“verified accounts:1
-20,000 subscribers:1
-their stage name:1
-penname:1
-their
-official identification:1
+000:1
 attract:1
-enough subscribers:1
-the high standard:1
-verified:1
-other words:1
-some celebrities:1
-rarely:1
+high:1
+words:1
+celebrities:1
 forces:1
 disclose:1
-their usual stage selves:1
 verification:1
-the
-usernames:1
-the “about” section:1
-the profile:1
-Somini Sengupta:1
-Lady
-:1
-Gaga:1
-N.Y. TIMES:1
-Feb. 16, 2012:1
-, https://www.nytimes:1
-com/2012/02/17:1
-/technology/new-facebook-policy:1
-lets:1
-gaga-:1
-be-gaga.html:1
-https://perma.cc/2MMQ-UAFU:1
-46:1
-Protalinski:1
-44:1
-47 See Ben Parr:1
-Google Responds:1
-Google+ Account Suspension Controversy:1
-July 25, 2011:1
-https://mashable.com/2011/07/25/google-plus-:1
-common:1
-names/#3XJ_sq9A35qh:1
-https://perma.cc/XL6T-VXUT:1
-48 See COLE STRYCKER:1
-HACKING:1
-THE FUTURE:1
-PRIVACY:1
-IDENTITY AND
-ANONYMITY ON:1
-THE WEB:1
-49 See:1
-Jamie Beckland:1
-the Real Name Policy:1
-Creating:1
-a Very
-Boring Social Network:1
-Opinion:1
-Sept. 19, 2011:1
-https://mashable:1
-com/2011/09/19/google-plus-real-name-boring/#PYRZNKxSjSq5:1
-.cc/7MDG:1
--XXUQ:1
-50 See Violet Blue:1
-Plus:1
-, ZDNET:1
-(Jan. 23, 2012:1
-https://www.zdnet.com/article/pseudonyms-on-google-plus-wrong/:1
-/TG2E-CMDX:1
+somini:1
+sengupta:1
+lady:1
+gaga:1
+16 , 2012:1
+com/2012/02/17/technology/new-facebook-policy-on-made-up-names-lets-gaga-:1
+be-gaga:1
+cc/2:1
+mmq-uafu:1
+parr:1
+responds:1
+july 25 , 2011:1
+com/2011/07/25/google-plus-:1
+common-names/#3:1
+xj_sq:1
+qh:1
+cc/xl:1
+t-vxut:1
+cole:1
+hacking:1
+jamie:1
+beckland:1
+creating:1
+boring:1
+network:1
+19 , 2011:1
+com/2011/09/19/google-plus-real-name-boring/#pyrznkxsjsq:1
+mdg-xxuq:1
+23 , 2012:1
+com/article/pseudonyms-on-google-plus-wrong/:1
+cc/tg:1
+e-cmdx:1
 155:1
-the profile.51:1
-
-Google+:1
 suddenly:1
 abolished:1
 apologi:1
-ing:1
-unnecessarily difficult e>periences:1
-users.52:1
-This long-awaited policy change:1
+unnecessarily:1
+periences:1
+long-awaited:1
 save:1
-several other issues:1
+issues:1
 failed:1
-unseat:1
-the social media market.53:1
-time:1
-Facebook’s real name
-policy:1
-another wave:1
+wave:1
 deleted:1
-profiles:1
-Native American users:1
 escalating:1
-the #MyNameIs campaign:1
-later.54:1
-C. Real Names:1
-Easy:1
-Connect:1
-its importance:1
-
-people:1
 look:1
 reconnect:1
-them.55:1
-many:1
-51:1
-52 Violet Blue:1
-Loo#l:1
--&3&rs&s:1
+loo#l& - &:1
+3&rs&s:1
 0-&al:1
-Aa;&s:1
-Apologizes:1
-July:1
-15, 2014:1
-, https://www.zdnet.com/article/google-reverses-real-names-policy-:1
+apologizes:1
+com/article/google-reverses-real-names-policy-:1
 apologizes/:1
-https://perma.cc/M3UF-NY72:1
+cc/m:1
+uf-ny:1
 spams:1
 angered:1
-YouTube comments:1
 via:1
 signed:1
-Stuart Dredge:1
-YouTube Fights Back Against
-:1
-Spam Comments:1
-Sticks:1
-Nov. 26, 2013:1
-www.theguardian.com/technology/2013/nov/26/youtube-spam-comments-google-:1
-https://perma.cc/B9MH-EUS2:1
-This practice:1
+stuart:1
+dredge:1
+spam:1
+sticks:1
+26 , 2013:1
+com/technology/2013/nov/26/youtube-spam-comments-google-:1
+cc/b:1
+mh-eus:1
 ended:1
-
-Google:1
 abandoned:1
-the real name requirement:1
-53 Seth Fiegerman:1
-the Failure:1
-A Very Expensive Attempt:1
-Unseat Google+:1
-Aug. 2, 2015:1
-https://mashable.com/2015/08:1
-
-/02/google-plus-history/#62RVCWPP2sqQ [https://perma.cc/79AX-EPR3:1
-October 2018:1
+requirement:1
+seth:1
+fiegerman:1
+expensive:1
+com/2015/08:1
+/02/google-plus-history/#62:1
+rvcwpp:1
+sqq:1
+cc/79:1
+ax-epr:1
+october 2018:1
 announced:1
 shut:1
-a
-security lapse:1
-low usage:1
-Shutting:1
-Consumers:1
-Security Lapse:1
-Oct. 8, 2018:1
-
-https://www.theverge.com/2018/10/8/17951890/google-plus-shut-down-security-
+low:1
+shutting:1
+consumers:1
+8 , 2018:1
+com/2018/10/8/17951890/google-plus-shut-down-security-:1
 api-change-gmail-android:1
-https://perma.cc/YDR3-ZBM6:1
-54 See John Colucci:1
-GnoO:1
-a<ou6 Na(&<ooR’s:1
-7a66l:1
-O!6:1
-" 4ra#:1
-Queens:1
-ENGADGET:1
-Sept. 30, 2014:1
-https://www.engadget.com/2014/09/:1
-30/facebook-drag-queens:1
-explainer/:1
-https://perma.cc/4V9C-47FY:1
-John Vibes:1
-Aa6!3:1
-8;&r!(ans:1
-L&6:1
+cc/ydr:1
+3-zbm:1
+colucci:1
+gnoo:1
+30 , 2014:1
+com/2014/09/:1
+30/facebook-drag-queens-explainer/:1
+c-47:1
+fy:1
+vibes:1
+ans:1
+l&6:1
+oor:1
 /a#&s:1
--&;o3:1
-5olu;<us 4aK %:1
-BNaR:1
-Na;&s2, TRUE ACTIVIST:1
-Oct. 20, 2014:1
-http://www.trueactivist.com/native-
-americans:1
-get:1
-pages:1
-removed:1
-columbus:1
-day:1
-names/:1
-https://perma.cc/VSG5-NC2Y:1
-Townhall Q&A:1
-July 1, 2015:1
-https://www.facebook.com/zuck/posts/10102213601037571?comment_id=101022:1
+olu:1
+ak:1
+bnar:1
+true:1
+activist:1
+20 , 2014:1
+trueactivist:1
+com/native-:1
+americans-get-facebook-pages-removed-on-columbus-day-for-fake-names/:1
+cc/vsg:1
+5-nc:1
+townhall:1
+q&a:1
+july 1 , 2015:1
+com/zuck/posts/10102213601037571:1
+comment_id=101022:1
 156:1
 included:1
-childhood friends:1
-this feature:1
+childhood:1
 contribute:1
-Facebook’s popularity:1
-a certain e>tent:1
+tent:1
 necessitate:1
-a strong policy:1
 obligates:1
 chosen:1
 imposes:1
-a real name
-policy:1
-an established social:1
-norm.56:1
-the reason:1
-its own real
-name policy:1
 stirs:1
-much fewer controversies:1
-Facebook.57:1
-a business networking service:1
 present:1
-their professional selves:1
-networking:1
-self-:1
-a service:1
-campuses.58 Early Facebook
-adopters:1
+professional:1
+campuses:1
 bump:1
 physically:1
 learn:1
-each other’s real names:1
+other’s:1
 anyway:1
-a physical
-“facebook:1
-hand:1
-already.59:1
 became:1
-open:1
-the wider public:1
-the character:1
-changed.60:1
-Context collapse:1
-a bigger problem:1
-13698751751&reply_comment_id=10102213934943421&total_comments=45&co
-mment_tracking=%7B%22tn%22%3A%22R9%22%7D:1
-https://perma.cc/4E4R-:1
-
-E8PM:1
-Designing for Social Norms:1
-Create:1
-Angry
-Mobs:1
-ZEPHORIA:1
-(Aug. 5, 2011:1
-http://www.zephoria.org/thoughts/archives/2011/08/05:1
-/design:1
--norms.html:1
-https://perma.cc/T9VB-47FL:1
-57 See Names:1
-Allowed:1
-Profiles:1
-LINKEDIN:1
-https://www.linkedin.com/help/linkedin:1
-/answer/28422:1
-profiles?lang:1
-https://perma.cc/XUH2-:1
-4K6F:1
-58 See Company Timeline:1
-Feb. 28, 2008:1
-https://web.archive.org/web/:1
-20080228004941:1
-http://www.facebook.com/press:1
-info.php?timeline:1
-/VU5T-JS7K:1
-59:1
-Alan J. Tabak:1
-Hundreds Register:1
-New Facebook Website:1
-THE HARV:1
-CRIMSON:1
-Feb. 9, 2004:1
-https://www.thecrimson.com/article/2004/2/9/hundreds-:1
-new-facebook:1
-website/:1
-https://perma.cc/XA7F-RW9D:1
-an attempt:1
-a third-party Harvard-University-wide
-student directory:1
+wider:1
+bigger:1
+13698751751&reply_comment_id=10102213934943421&total_comments=45&co:1
+mment_tracking=%7:1
+b%22:1
+tn%22%3:1
+a%22:1
+9%22%7:1
+r-:1
+8 pm:1
+designing:1
+angry:1
+mobs:1
+org/thoughts/archives/2011/08/05:1
+/design-social-norms:1
+vb-47:1
+fl:1
+com/help/linkedin:1
+/answer/28422/names-allowed-on-profiles:1
+lang:1
+cc/xuh:1
+2-:1
+28 , 2008:1
+https://web:1
+archive:1
+org/web/:1
+20080228004941/http://www:1
+com/press/info:1
+cc/vu:1
+t-js:1
+tabak:1
+hundreds:1
+crimson:1
+9 , 2004:1
+thecrimson:1
+com/article/2004/2/9/hundreds-:1
+register-for-new-facebook-website/:1
+cc/xa:1
+f-rw:1
+third-party:1
+harvard-university-wide:1
 outdo:1
-the official student directory:1
-divided:1
-undergrad student residential houses:1
-Such directory:1
-students’
-real names:1
+undergrad:1
+residential:1
+houses:1
+students:1
 pictures:1
-back:1
-the institutional email:1
-surname:1
-even the
-full name:1
-60:1
-Joe:1
-Shea:1
-Unlike:1
-Parents:1
-Facebook So Uncool:1
-INDEPENDENT.IE:1
-Dec. 4, 2013:1
-https://www.independent.ie/lifestyle/unlike-this-:1
-157
-
-media service:1
+institutional:1
+shea:1
+uncool:1
+ie:1
+4 , 2013:1
+ie/lifestyle/unlike-this-:1
+157:1
 confined:1
-one type:1
 serve:1
-the general public:1
-no problem:1
-the example:1
-early adopters:1
 registering:1
-good reasons:1
 feel:1
 reluctant:1
-D. Real Names:1
-Foreclose Bad Behavior:1
-a common sentiment:1
-online pseudonymity:1
-
-anonymity:1
-trolling:1
-abusive behavior.61:1
+foreclose:1
+sentiment:1
+abusive:1
 quite:1
-Internet
-discussion forums:1
+discussion:1
+forums:1
 hostile:1
-a great majority:1
+great:1
+majority:1
 either:1
-positive:1
-neutral.62:1
-cyber defamation:1
+neutral:1
+cyber:1
+defamation:1
 bullying:1
-online commenters:1
-their real
-name:1
-national identity number.63:1
-the registration system:1
 supposed:1
-solve.64:1
-the other hand:1
-
-trolling:1
 underestimates:1
-the value:1
-Comment:1
 hosting:1
-service:1
-Disqus:1
-pseudonymous
-commenters:1
-post:1
+disqus:1
 logged:1
 generate:1
-more positive responses.65:1
 reckon:1
 persistent:1
-why-parents-make-facebook-so-uncool-29802959.html:1
-[https://perma.cc/XJ2T-
-G552:1
-The change:1
-website character:1
-its impact:1
-user’s online identity:1
+why-parents-make-facebook-so-uncool-29802959:1
+cc/xj:1
+t-:1
+552:1
 drastic:1
-as much confusion:1
-the case:1
-no user revolt:1
-similar:1
-the
-OkCupid case:1
-harder:1
 expand:1
-its services:1
-the expansion:1
+expansion:1
 gradual:1
 adapted:1
-their behavior:1
-the demographic change:1
 leaving:1
-their parents:1
 joined:1
-61 See:1
-Mathew Ingram:1
-Believe:1
-Online Trolling:1
-Could:1
-Get:1
-Worse:1
-FORTUNE:1
-Mar. 30, 2017:1
-http://fortune.com/2017/03/30/online-abuse-trolls/:1
-https://perma.cc/BF8G-EPZG:1
-Pam Ramsden:1
-Turns:1
-Trolls:1
-NEWSWEEK:1
-(Feb 28, 2017:1
-https://www.newsweek.com/:1
-internet:1
-trolls:1
-psychology:1
-behavior:1
--anonymity:1
-invisibility:1
-cloak-562150 [https://:1
-perma.cc/JRB3-438L:1
-62 See STRYCKER:1
-63 Note:1
-pseudonymous handles:1
+get:1
+worse:1
+fortune:1
+http://fortune:1
+com/2017/03/30/online-abuse-trolls/:1
+cc/bf:1
+g-epzg:1
+pam:1
+ramsden:1
+turns:1
+28 , 2017:1
+internet-trolls-psychology-behavior-anonymity-invisibility-cloak-562150:1
+cc/jrb:1
+3-438:1
+handles:1
 permitted:1
 associated:1
-the commenter’s real identity:1
-registration:1
-
-supra:1
-64:1
-65:1
-Courtney Rubin:1
-A Study:1
-Commenters:1
-Leave:1
-the Most High-Quality Comments:1
-INC.:1
-Jan 13, 2012:1
-, https://www.inc:1
-158:1
-enables:1
-their online reputation:1
-both accountability:1
-privacy.66:1
-point:1
-insisting:1
-building:1
-social norms:1
-
-technological solutions:1
-bad behavior:1
-online.67:1
-Real name policies:1
-malicious anonymous speech:1
-legitimate speech:1
-a tool:1
-government
-censorship:1
-reporting:1
-speech:1
-bully:1
-other users.68:1
-one’s real name:1
-the terms:1
-leads:1
-account:1
-suspension.69:1
-any way:1
-the community standards:1
-shunned:1
-the
-site:1
-sufficient proof:1
-the
-administrator.70 Real name policies:1
-affect:1
-one’s ability:1
-speak:1
-security:1
-safety:1
-Victims:1
-domestic violence:1
-stalking:1
-the
-perpetrators:1
-Facebook.71:1
+commenter’s:1
 courtney:1
 rubin:1
-force:1
-comment:1
-names.html:1
-https://perma.cc/D8WX-XT2U:1
-66 See Amy Bruckman:1
-Studying:1
-the Amateur Artist:1
-A Perspective:1
-Disguising:1
-Data:1
-Collected:1
-Human Subject Research:1
-NYU WEB:1
-https://www.nyu.edu/projects/nissenbaum/ethics_bru_full.html:1
-https://perma.cc/26GP-DJSK:1
-Judith Donath:1
-Online Alter:1
-Ego:1
-Ever:1
-WIRED:1
-Apr. 25, 2014:1
-https://www.wired.com/2014/04/why-we-need-online-alter-egos-now-more-than-:1
+study:1
+leave:1
+high-quality:1
+13 , 2012:1
+158:1
+enables:1
+reputation:1
+accountability:1
+insisting:1
+building:1
+technological:1
+solutions:1
+censorship:1
+bully:1
+leads:1
+standards:1
+shunned:1
+sufficient:1
+proof:1
+affect:1
+speak:1
+perpetrators:1
+com/courtney-rubin/should-you-force-people-to-comment-with-real-names:1
+wx-xt:1
+bruckman:1
+studying:1
+amateur:1
+artist:1
+disguising:1
+collected:1
+human:1
+edu/projects/nissenbaum/ethics_bru_full:1
+cc/26:1
+gp-djsk:1
+judith:1
+donath:1
+alter:1
+ego:1
+ever:1
+25 , 2014:1
+com/2014/04/why-we-need-online-alter-egos-now-more-than-:1
 ever/:1
-https://perma.cc/83ZX-HGGX:1
-67:1
-Emily van der Nagel &:1
-Jordan Frith:1
-Pseudonymity:1
-the Agency:1
-Online Identity:1
-Examining:1
-the Social Practices
-:1
-r/Gonewild:1
-Mar. 2, 2015:1
-http://www.firstmonday.org/article:1
+cc/83:1
+zx-hggx:1
+nagel:1
+jordan:1
+frith:1
+examining:1
+r/gonewild:1
+monday:1
+firstmonday:1
+org/article:1
 /view/5615/4346:1
-https://perma.cc/94BN-63S6:1
-Davisson:1
-37:1
-Andre Shakti:1
-Facebook Owes B-&al
-:1
-Aa;&2:1
-5rusa’&r:1
-4o66:1
-EuM:1
+cc/94:1
+bn-63:1
+andre:1
+shakti:1
+owes:1
+2 5:1
+rusa’&r:1
+eum:1
 ol:1
-Eo66a:1
-4ou:1
-POLY:1
-Jun. 21, 2017:1
-https://www.iampoly.net/blog/2017/6/21/facebook-owes-real-names-crusader-:1
-dottie:1
-lux:1
-a-whole:1
-lotta:1
-dough:1
-https://perma.cc/ZCD5-CGHN:1
-69:1
-FACEBOOK HELP CENTER:1
-https://www.facebook.com/help/18574758:1
+eo:1
+poly:1
+jun:1
+iampoly:1
+net/blog/2017/6/21/facebook-owes-real-names-crusader-:1
+dottie-lux-a-whole-lotta-dough:1
+cc/zcd:1
+5-cghn:1
+com/help/18574758:1
 1553788:1
-https://perma.cc/ZBN3-9R4W:1
-70:1
-71 See, e.g., Samantha Allen:1
-Exposes:1
-Domestic Violence:1
-Survivors, DAILY BEAST:1
-May 20, 2015:1
-5:25 AM:1
-https://www.thedailybeast:1
--facebook-exposes:1
-domestic:1
-violence:1
+cc/zbn:1
+3-9:1
+samantha:1
+exposes:1
 survivors:1
-https://perma.cc/764B-:1
-
-RF7G:1
-Russell Brandom:1
-Changing:1
-the Way:1
-Enforces:1
-Its Real
-Name Policy:1
-Dec. 15, 2015:1
-1:00 PM:1
-https://www.theverge.com:1
+beast:1
+5:25 am:1
+thedailybeast:1
+com/how-facebook-exposes-domestic-violence-survivors:1
+cc/764:1
+b-:1
+rf:1
+russell:1
+enforces:1
+15 , 2015:1
+1:00 pm:1
 159:1
-The impact Facebook’s real name policy:1
 marginali:1
-<ed
-communities:1
 falsely:1
-the mainstream population:1
-their
-naming systems.72 Transgender individuals:1
-victims:1
-stalking and domestic violence fault:1
+mainstream:1
+population:1
+transgender:1
+fault:1
 exposing:1
-danger.73:1
-The outspoken members:1
-the group:1
-targeted:1
-account deactivation:1
-these false reports.74:1
-these various
-groups:1
+outspoken:1
+members:1
+various:1
 convince:1
-the real name
-policy:1
-pressure:1
 apologize:1
 adjust:1
-its
-report mechanism:1
+report:1
 hoping:1
-false reports:1
-the
-procedure:1
-onerous.75:1
-The new procedure:1
+onerous:1
 includes:1
 inquiry:1
-the reported accounts:1
-some relevant contexts:1
-the
-administrator:1
-this new measure:1
-more details:1
-danger.76:1
-public awareness:1
-
+measure:1
+details:1
 acknowledgment:1
 affects:1
-the narrow focus:1
-this campaign:1
-/2015/12/15/10215936:1
-real-name:1
-https://perma.cc/FL96-8MBL:1
-72 See:1
-SPUTNIK:1
-Native Americans Set:1
-BReal:1
-Name2:1
-(Feb. 20, 2015:1
-, https://sputniknews.com/science/201502201018507661/
-[https://perma.cc/DD5Q-QVZ8:1
-73:1
-Chris Lane:1
-Facebook’s A&O B-&al Aa;&2:1
-n%a!r:1
-Dangerous, HOU:1
-PRESS:1
-Sept. 23, 2014:1
-6:00 AM:1
-http://www.houstonpress:1
-arts:1
-facebooks:1
--new-real-name:1
-unfair:1
-dangerous-6376305:1
-https://perma.cc/AH3Y-7L7Q:1
-74 See, e.g., Rebel Siren, Tag:1
-Facebook Allows Harassment:1
-Insists:1
-Getting:1
-Harassed:1
-Fakes:1
-WORDPRESS:1
-Oct. 8, 2014:1
-https://rebelsiren.wordpress.com/tag/facebook-allows-harassment-but-insists-you-:1
+focus:1
+/2015/12/15/10215936/facebook-real-name-policy-changes-appeal-process:1
+cc/fl:1
+96-8:1
+mbl:1
+sputnik:1
+set:1
+breal:1
+https://sputniknews:1
+com/science/201502201018507661/:1
+cc/dd:1
+q-qvz:1
+lane:1
+a&o:1
+n%a:1
+hou:1
+6:00 am:1
+houstonpress:1
+com/arts/facebooks-new-real-name-policy-is-unfair-and-dangerous-6376305:1
+cc/ah:1
+3 y-7 l:1
+rebel:1
+siren:1
+tag:1
+insists:1
 harassed:1
-fakes/:1
-[https://perma.cc/AU3K-:1
-D44Z:1
-75:1
-MyNameIs:1
-MY NAME:1
-CAMPAIGN:1
-http://www.mynameiscampaign.org/:1
-[https://perma.cc/K2Y4-HX5Y]; Chris Cox:1
-Oct. 1, 2014:1
-www.facebook.com/chris.cox/posts/10101301777354543:1
-https://perma.cc/Q4AU-:1
-8AT6:1
+fakes:1
+8 , 2014:1
+https://rebelsiren:1
+com/tag/facebook-allows-harassment-but-insists-you-:1
+use-your-real-name-while-getting-harassed-by-fakes/:1
+cc/au:1
+3 k-:1
+mynameiscampaign:1
+org/:1
+4-hx:1
+cox:1
+1 , 2014:1
+com/chris:1
+cox/posts/10101301777354543:1
+au-:1
 apologizing:1
-the affected communities:1
-the right policy:1
 announcing:1
-measures:1
 improve:1
-its reporting:1
-
-enforcement mechanism:1
-Brandom:1
-76:1
-SARA WACHTER-BOETTCHER:1
-TECHNICALLY:1
-WRONG:1
-SEXIST APPS:1
-BIASED:1
-OTHER THREATS:1
-TOXIC TECH:1
-199:1
-200:1
+sara:1
+wachter-boettcher:1
+technically:1
+sexist:1
+apps:1
+biased:1
+threats:1
+toxic:1
+199-200:1
 160:1
-marginalized:1
-a
-common problem:1
-all Facebook users:1
-E. Not Social media:1
-Identity Services
-
-When Google+:1
 available:1
 invitations:1
-beta testers:1
-a selected group:1
-the beta testers:1
-unlike:1
-early
-Facebook adopters:1
-certain physical bounds:1
-campus:1
+selected:1
+bounds:1
 perhaps:1
-more pushback:1
-both Facebook:1
+pushback:1
 embraced:1
-such policy:1
-inception.77:1
-long:1
-the Google+ release:1
-Google’s then-
-executive chairman Eric Schmidt:1
-“primarily an identity service:1
-future products:1
+google’s:1
+then-:1
+executive:1
+chairman:1
+primarily:1
 leverage:1
-that
-information:1
-”78:1
-This comment:1
 sheds:1
-a less-spoken reason:1
-
-real name policies:1
-users’ behavior:1
+less-spoken:1
 browsing:1
-history:1
 clicks:1
-such behavioral
-information:1
-better:1
-valuable.79:1
-an
-Facebook’s association:1
-administrative concept:1
-Seeing:1
-an online registry:1
-identity
-service:1
-the identities:1
+association:1
+concept:1
+registry:1
 sanctioned:1
-established authorities.80:1
-this author’s knowledge:1
-77 See STRYKER:1
-that demographic difference:1
-the
-reason:1
-more negative feedback:1
-The “Silicon Valley geeks:1
+authorities:1
+stryker:1
+negative:1
+feedback:1
+silicon:1
+valley:1
+geeks:1
 accustomed:1
-the culture:1
-alternate identities:1
-their “ivy league pals”9:1
-This demographic
-difference:1
+alternate:1
+ivy:1
+league:1
+pals”9:1
 entails:1
-a social norm:1
-the early adopter:1
-an online version:1
-the physical Facebook:1
-other
-potential adopters’ photos:1
-this walled garden:1
-less resistance:1
-the social media platform:1
-an extension:1
-
-campus life:1
-78 Emily Banks:1
-Eric Schmidt:1
-Use Google+:1
-Aug. 28, 2011:1
-https://mashable.com/2011/08/28:1
-/google:1
-identity:1
-service/#C_FXc9q1Jqqq:1
-https://perma.cc/JX62-AVZ8:1
-David Auerbach:1
-Click:1
-Microtargeting:1
-Violated:1
-an Unstoppable Process:1
-Data
-Profiling:1
-THE NATION:1
-Feb. 13, 2013:1
-https://www.thenation.com/article/you-:1
+adopter:1
+photos:1
+walled:1
+garden:1
+resistance:1
+extension:1
+banks:1
+com/2011/08/28:1
+/google-plus-identity-service/#c_fxc:1
+jqqq:1
+cc/jx:1
+62-avz:1
+auerbach:1
 click:1
-microtargeting/:1
-https://perma.cc/268W-2N4P:1
-80 See Oliver L. Haimson &:1
-Anna Lauren Hoffmann:1
-Constructing and Enforcing
-BAuthentic2 Identity Online::1
-Non-Normative
-Identities:1
-June 6, 2016:1
-, http://firstmonday.org/ojs/index:1
+unstoppable:1
+nation:1
+thenation:1
+com/article/you-:1
+are-what-you-click-microtargeting/:1
+cc/268:1
+w-2:1
+oliver:1
+anna:1
+lauren:1
+hoffmann:1
+constructing:1
+bauthentic:1
+non-normative:1
+first monday:1
+6 , 2016:1
+http://firstmonday:1
+org/ojs/index:1
 161:1
 acknowledged:1
-
-identity service:1
-a reason:1
-their
-insistence:1
-value:1
-Facebook’s user data profile:1
 uni$ue:1
-this feature.81:1
-Facebook Connect:1
-an
-authentication application program interface:1
-API:1
+authentication:1
+application:1
+program:1
+interface:1
+api:1
 log:1
 onto:1
-other platforms:1
-their Facebook account:1
-services:1
-better online behavior.82:1
-CONTROL:1
-YOUR
-INFORMATION:1
+platforms:1
+appeal:1
 confronted:1
-the data collection practice:1
 involves:1
 threaten:1
-Facebook’s standard response:1
-
-control:1
-83:1
-these responses:1
 answering:1
 best:1
-
-Facebook’s responses:1
-what other
-users:1
-them.84:1
-This
-response:1
 intentionally:1
 misinterpreting:1
 diverting:1
-else.85:1
-
-media studies:1
-scholar:1
-Christian Fuchs:1
+studies:1
 reducing:1
-user
-privacy:1
-the visibility:1
-cover[ing:1
-php:1
-fm:1
-article:1
-view/6791/5521#p4:1
-https://perma.cc/K6LF-Q267:1
-81 Pete Cashmore:1
-Never:1
-Back:1
-CNN:1
-(Aug. 29, 2011:1
-http://edition.cnn.com/2011/TECH/social.media/08/29/google
-plus.real.names.cashmore/:1
-https://perma.cc/WUW4-JBFV:1
-82 E.g.:1
-Mathew Ingram, Handing Comments:1
-a Double-edged
-Sword:1
-GIGAOM:1
-Aug. 18, 2011:1
-3:09 PM:1
-https://gigaom.com/2011/08/18/:1
+cover:1
+php/fm/article/view/6791/5521#p:1
+lf-q:1
+267:1
+cashmore:1
+29 , 2011:1
+http://edition:1
+com/2011/tech/social:1
+media/08/29/google:1
+cashmore/:1
+cc/wuw:1
+4-jbfv:1
 handing:1
-comments:1
-double:1
-edged:1
-sword/:1
-
-cc:1
-/AHM7:1
--N9L5:1
-83 See Transcript:1
-&na6& Jearing:1
-https://www.washingtonpost.com/news/the-switch/wp/2018/04/10:1
-/transcript:1
--senate:1
-hearing/?noredirect:1
-=on&utm_term=.d617:1
-6314b861:1
-https://perma.cc/93KQ-WUZC:1
-
-https://www.washingtonpost.com/news/the-switch/wp/2018/04/11/transcript-of-:1
-appearance:1
-committee/?utm_term=.663c12b45b8b:1
-https://perma.cc/HH4V-2GZH:1
-84:1
-85:1
-J&ar!n:1
-82:1
-Zuckerberg’s response:1
-Senator Grassley:1
-Blunt:1
-Curbin:1
-Lee:1
+double-edged:1
+sword:1
+gigaom:1
+18 , 2011:1
+3:09 pm:1
+https://gigaom:1
+com/2011/08/18/:1
+handing-comments-over-to-facebook-is-a-double-edged-sword/:1
+cc/ahm:1
+7-n:1
+jearing:1
+com/news/the-switch/wp/2018/04/10:1
+/transcript-of-mark-zuckerbergs-senate-hearing/:1
+617:1
+6314:1
+861:1
+cc/93:1
+kq-wuzc:1
+com/news/the-switch/wp/2018/04/11/transcript-of-:1
+zuckerbergs-appearance-before-house-committee/:1
+663:1
+cc/hh:1
+v-2:1
+gzh:1
+grassley:1
+blunt:1
+curbin:1
+lee:1
 162:1
-the economic surveillance:1
 commodification:1
-its profit scheme.86:1
+profit:1
 fall:1
-public:1
-a post:1
-the privacy:1
-the post:1
 customize:1
-friend:1
-better audience control:1
-tools:1
-online:1
-the customized friend’s list function:1
-use.87:1
-This results:1
+customized:1
+list:1
+results:1
 tending:1
 utilizing:1
-the function:1
-the default public setting:1
+default:1
 prefers:1
-a private setting.88:1
 diligent:1
 exercise:1
-this author’s concern:1
+concern:1
 surrendering:1
-more data:1
-their closest
-friends:1
-what kind:1
-the kind:1
+closest:1
 locations:1
-different groups:1
 ironic:1
-the *users’ choice:1
 prides:1
 seems:1
-a choice:1
-users’ control:1
-them.89:1
-their information:1
-t]he:1
-”90:1
 doubtful:1
-full control:1
-full
-knowledge:1
-collects.91:1
-86 Christian Fuchs:1
-The Political Economy of Privacy on Facebook, 13(2:1
-SAGE J.
-TELEVISION:1
-NEWS:1
-139:1
-139–59:1
-87:1
-Vindu Goel:1
-Some Privacy:1
-Please:1
-Pressure:1
-Gets:1
-the Message:1
-May 23, 2014:1
-https://www.nytimes.com/2014:1
-/05/23:1
-technology:1
-checkup:1
-all-1:1
-28:1
-billion-:1
-users.html?_r=0:1
-https://perma.cc/F6FS-K9LS:1
-88:1
-JOHN:1
-CHENEY:1
-LIPPOLD:1
-DATA:1
-THE MAKING:1
-OUR DIGITAL SELVES:1
+economy:1
+sage:1
+television:1
+news:1
+media 139 , 139–59:1
+vindu:1
+goel:1
+please:1
+message:1
+com/2014:1
+/05/23/technology/facebook-offers-privacy-checkup-to-all-1-28-billion-:1
+r=0:1
+cc/f:1
+fs-k:1
+ls:1
+cheney-lippold:1
 245:1
-Facebook’s privacy setting:1
-mere “adequate site architecture:1
-
-90 Transcript:1
-& Jous& 5o;;!66&&> THE WASH:1
-(Apr. 11, 2018:1
-https://www.washingtonpost.com/news/the-switch/wp/2018:1
-
-/04/11/transcript:1
-[https://:1
-perma.cc/JD39-YBW3:1
-91:1
-Colin Lecher:1
-Facebook Releases:1
-500 Pages:1
-Damage Control:1
-Response:1
-Senators:1
-.u&s6!ons:1
-VERGE:1
-June 11, 2018:1
-7:59 PM:1
-
-https://www.theverge.com/2018/6/11/17451360/facebook-senate-questions-
+mere:1
+com/news/the-switch/wp/2018:1
+/04/11/transcript-of-zuckerbergs-appearance-before-house-committee/:1
+colin:1
+lecher:1
+releases:1
+500:1
+damage:1
+senators:1
+u&s:1
+june 11 , 2018:1
+7:59 pm:1
+com/2018/6/11/17451360/facebook-senate-questions-:1
 zuckerberg-answers:1
-https://perma.cc/8AXE-UJJV:1
+cc/8:1
+axe-ujjv:1
 referencing:1
-the fact:1
 163:1
-some tools:1
-third parties:1
-their behavior.92:1
-privacy-conscious users:1
-certain comfort:1
-behavioral advertisement:1
+third:1
+parties:1
+privacy-conscious:1
+comfort:1
 alleviate:1
-privacy
-concerns:1
-certain users’ behavioral data:1
-data collection:1
-the center:1
-their business model.93:1
-Instead:1
 pay:1
-an advertisement-free environment:1
-the
-right model:1
+advertisement-free:1
+environment:1
 keeps:1
-their services:1
 permits:1
 subscribe:1
-their service.94:1
-their business:1
 relies:1
 prefer:1
-the ability:1
-relevant ads:1
 microtarget:1
-users’ profiles:1
-their real-world identity:1
-
-value:1
 aggregates:1
-their own data:1
 containing:1
-
 datasets:1
 purchased:1
-phone
 numbers:1
-email addresses:1
 useful:1
-such purposes:1
 unique:1
-the confusion:1
-common
-names.95 Zuckerberg:1
 interacting:1
-tracks:1
-operations:1
 behaviors:1
-https://www.facebook.com/privacy/explanation:1
-https://perma.cc/X9P8-ENGV:1
-Apr. 19, 2018:1
-the difference:1
-the data policy:1
-
-explanation:1
-each pages:1
+com/privacy/explanation:1
+cc/x:1
+8-engv:1
+19 , 2018:1
 roughly:1
 describes:1
-user information:1
-Facebook tracks:1
-https://www.facebook.com/:1
-previous:1
-https://perma.cc/CR8V-7MEY:1
-Sept. 29:1
+about/privacy/previous:1
+cc/cr:1
+v-7:1
+mey:1
+29 , 2016:1
 showing:1
-certain data collection:1
-the settings:1
-neither operation
-nor behavior tracking:1
-an option:1
-92 See Transcript:1
-J&ar!n#:1
-https://www.washingtonpost.com/news/the-:1
-switch:1
-wp/2018/04/10:1
-transcript:1
-senate:1
-hearing/:1
-[https://perma.cc/S9X8-M29T:1
-Mark Zuckerberg’s response:1
-Senator:1
-relevant advertising:1
-93:1
-, Transcript:1
-& Jous& 5o;;!66&&> THE
-WASH:1
-https://www.washingtonpost.com/news/the-switch/:1
-wp/2018/04/11/transcript:1
-https://perma.cc/JD39-YBW3:1
-Mark Zuckerberg’s answers:1
-
-Congresswoman Doris Matsui:1
-Haimson & Hoffman:1
-80:1
-94:1
-95 See Kalev Leetaru:1
-The Data Brokers So Powerful Even Facebook Bought Their
-Data F:1
-Got:1
-Wildly:1
-FORBES:1
-(Apr. 5, 2018:1
-04:08 PM:1
+settings:1
+tracking:1
+switch/wp/2018/04/10/transcript-of-mark-zuckerbergs-senate-hearing/:1
+cc/s:1
+8-m:1
+com/news/the-switch/:1
+wp/2018/04/11/transcript-of-zuckerbergs-appearance-before-house-committee/:1
+answers:1
+congresswoman:1
+doris:1
+matsui:1
+hoffman:1
+kalev:1
+leetaru:1
+powerful:1
+bought:1
+got:1
+wildly:1
+5 , 2018:1
+04:08 pm:1
 164:1
-common practice:1
-the industry:1
+industry:1
 stopped:1
-March 2018.96:1
+march 2018:1
 conducts:1
-its own data:1
-its other company-owned services:1
-fewer
-reasons:1
+company-owned:1
 continue:1
 imposing:1
-
-marginalized communities:1
 badly:1
-any community policies:1
 supposedly:1
 prove:1
-their identity:1
-their account:1
-Malicious false reports:1
-subsequent account suspension:1
-deactivation:1
+subsequent:1
 significantly:1
-impact:1
-an individual’s ability:1
-press:1
-their opinion:1
-Malicious false
-reports:1
 strategically:1
 suppress:1
-collective actions:1
-political leaders:1
-critical moments:1
+critical:1
+moments:1
 societal:1
-
 transformations:1
-Removing:1
+removing:1
 adjusting:1
-such abuse:1
-an established social norm:1
+abuse:1
 improving:1
-their privacy practices:1
-properly scrutinizing
-government requests:1
+properly:1
+scrutinizing:1
 denying:1
-overbroad requests:1
-the Russian meddling:1
+overbroad:1
 rid:1
-fake accounts:1
 technologically:1
 speaking:1
 differentiate:1
-the fake
-accounts:1
-suspicious patterns:1
-activities:1
-the individual
-pseudonymous accounts:1
+suspicious:1
 done:1
-the past.97:1
 longer:1
-conceptually separate legitimate pseudonymous users:1
-www.forbes.com/sites/kalevleetaru/2018/04/05/the-data-brokers-so-powerful-:1
-bought:1
-their-data:1
-got:1
-wildly:1
--wrong/#6fb101b83107:1
-https://perma.cc/VG6B-6QDU:1
-96:1
-
-WASH:1
-, https://www.washingtonpost.com/news/the-
-switch/wp/2018/04/11/transcript:1
-house-:1
-committee/?noredirect:1
-on&utm_term=.c04210db8af5:1
-[https://perma.cc/JD39-:1
-
-YBW3:1
-97 See Nicholas Fandos:1
-Kevin Roose:1
-Identifies:1
-an Active Political
-Influence Campaign:1
-Using:1
-Fake Accounts:1
-(Jul. 31, 2018:1
-https://
-www.nytimes.com/2018/07/31/us/politics/facebook-political-campaign-midterms:1
-.html:1
-https://perma.cc/T6QR-3XHQ:1
-Olivia Solon:1
-Facebook Removes:1
-652 Fake Accounts:1
-Pages:1
-Meant:1
-Influence World Politics:1
-(Aug. 22, 2018:1
-https://www.theguardian.com/technology/2018/aug/21/facebook-
+conceptually:1
+com/sites/kalevleetaru/2018/04/05/the-data-brokers-so-powerful-:1
+even-facebook-bought-their-data-but-they-got-me-wildly-wrong/#6:1
+fb:1
+83107:1
+cc/vg:1
+b-6:1
+qdu:1
+switch/wp/2018/04/11/transcript-of-zuckerbergs-appearance-before-house-:1
+committee/:1
+04210:1
+db:1
+39-:1
+ybw:1
+nicholas:1
+fandos:1
+kevin:1
+roose:1
+31 , 2018:1
+com/2018/07/31/us/politics/facebook-political-campaign-midterms:1
+qr-3:1
+xhq:1
+olivia:1
+solon:1
+removes:1
+652:1
+meant:1
+22 , 2018:1
+com/technology/2018/aug/21/facebook-:1
 pages-accounts-removed-russia-iran:1
-https://perma.cc/54Q3-CMN6:1
+cc/54:1
+3-cmn:1
 165:1
-the Russian meddling scenario:1
+scenario:1
 categorically:1
 blamed:1
-potential trolls:1
 understated:1
-the amount:1
-Generally:1
-a person’s gender:1
-her name:1
-John Doe:1
-Jane Doe:1
+jane:1
 describe:1
-whether an anonymous
-party:1
-a lawsuit identifies:1
-male:1
 female:1
-some categories:1
-religious
-belief:1
 receive:1
-special protection:1
-certain jurisdictions:1
-such information.98:1
-such sensitive information:1
-a user’s real
-name:1
-the user:1
-their profile page:1
 reflects:1
-his or her religion.99 Names:1
-the political beliefs:1
-the parent:1
+parent:1
 clues:1
-the
 upbringing:1
-the children:1
-parents:1
-their children:1
-their
-national hero:1
-socio/political leaders:1
-their race or
-ethnicity:1
+hero:1
+socio/political:1
 guessed:1
-possible:1
-one’s birthplace:1
-country:1
-origin:1
-a name:1
+birthplace:1
 least:1
-narrow:1
-the possibilities:1
-
-surname:1
+possibilities:1
 ethnically:1
-Chinese:1
-this author’s first
-name:1
-a second-generation
+second-generation:1
 immigrant:1
 born:1
-a Western country:1
+western:1
 familiar:1
-Chinese languages:1
-this author’s last name:1
+languages:1
 pronounced:1
-different dialects:1
-Depending:1
-the
-dominant dialect:1
-the region:1
+dialects:1
+depending:1
+dominant:1
+dialect:1
+region:1
 spelled:1
-the
-official documents:1
-Singaporeans:1
-the same last name:1
-*Tan:1
-Chen:1
-Cantonese with the same last
-name:1
-*Chan:1
-Some names:1
-naming systems:1
-certain social status:1
-such rules:1
-evident:1
-other cultures.100 Popular names:1
-a
-given country:1
+documents:1
+singaporeans:1
+tan:1
+cantonese:1
+rules:1
+self-evident:1
 differ:1
-which age group:1
-one belongs.101:1
-short, real names:1
-FACEBOOK DATA POLICY:1
-https://www.facebook.com/full_data_use_policy:1
-https://perma.cc/STM5-XTFT:1
-99 See, e.g., K. M. Sharma:1
-n a Aa;&9 EaO:1
--&l!#!on:1
-an’ Hsla:1
-( Aa;&s:1
-26 DENV:1
-J. INT’L L. & POL’Y:1
+belongs:1
+short:1
+com/full_data_use_policy:1
+cc/stm:1
+5-xtft:1
+sharma:1
+eao:1
+hsla:1
+denv:1
 192:1
 1998:1
-100:1
-Amy Franz:1
-A Peak:1
-Hindu Name Origins:1
-Caste-Based
-Surnames:1
-ETHNIC TECHNOLOGIES:1
-Sept. 12, 2017:1
-http://www.ethnictechnologies.com/peak-inside-hindu-name-origins-caste-based-:1
+franz:1
+peak:1
+hindu:1
+origins:1
+caste-based:1
+surnames:1
+technologies:1
+ethnictechnologies:1
+com/peak-inside-hindu-name-origins-caste-based-:1
 surnames/:1
-https://perma.cc/D5A4-BY6F:1
-101 See:1
-Tells:1
-Us:1
-Your Age:1
-Where Your Live:1
-Your Political Leanings:1
-Your Job:1
-THE WASHINGTON POST:1
-(May 26, 2015:1
+4-by:1
+tells:1
+live:1
+leanings:1
+job:1
+washington:1
+26 , 2015:1
 166:1
-significant amounts:1
-some
-information:1
 decipherable:1
-a particular context:1
-culture:1
-developers:1
-technical
-tools:1
+technical:1
 analyze:1
-aggregate data.102:1
-Information:1
+aggregate:1
 misleading:1
-Someone:1
-a feminine sounding name:1
+feminine:1
+sounding:1
 identify:1
-
-male:1
-French:1
-Canadian:1
-A Muslim woman:1
-her family name:1
+french:1
+canadian:1
+muslim:1
+woman:1
+family:1
 marrying:1
-a Christian:1
 converting:1
-the point:1
-
-Facebook’s assumptions:1
-wrong:1
+assumptions:1
 always:1
 correct:1
-the other behavioral data:1
-The point:1
-their knowledge:1
 misconstrued:1
-a
-datafied world:1
+datafied:1
 decisions:1
-how
-the
-to
 information/advertisement:1
-them.103:1
-some jurisdictions:1
 rectify:1
-incorrect information:1
-certain information:1
-them.104:1
+incorrect:1
 covertly:1
-more difficulties:1
+difficulties:1
 exercising:1
-such rights:1
 categorized:1
 feed:1
-Cespite Facebook’s claims:1
+cespite:1
 sharing:1
-their personal identity:1
-race-discrimination housing ads.105:1
-
-individual’s behavioral data:1
-the names:1
-https://www.washingtonpost.com/news/wonk/wp/2015/05/26/what-your-name-:1
-says:1
-your-age:1
-state:1
-job:1
-political:1
-leanings/?utm_term=.efc15796679a:1
-https://perma.cc/UF67-UZ4Y:1
-102 See, e.g., Alan Milove et al:1
-Understanding:1
-the Demographic:1
-Twitter Users:1
-,
-https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2816/323:1
-https://perma.cc/GA39-64WV:1
-Chenney-Lippold supra:1
-104:1
-2016/679:1
-16:1
-105 See:1
-Julia:1
-Angwin:1
-Still:1
-Letting Housing Advertisers Exclude
-Users:1
-Race:1
-PROPUBLICA:1
-Nov. 21, 2017:1
-https://www.propublica.org/article/facebook-advertising-discrimination-housing-:1
+race-discrimination:1
+com/news/wonk/wp/2015/05/26/what-your-name-:1
+says-about-your-age-state-job-and-political-leanings/:1
+efc:1
+15796679:1
+cc/uf:1
+67-uz:1
+milove:1
+understanding:1
+org/ocs/index:1
+php/icwsm/icwsm:1
+11/paper/viewfile/2816/323:1
+cc/ga:1
+39-64:1
+wv:1
+chenney-lippold:1
+julia:1
+angwin:1
+letting:1
+advertisers:1
+exclude:1
+org/article/facebook-advertising-discrimination-housing-:1
 race-sex-national-origin:1
-https://perma.cc/SK2W-FJHS:1
+cc/sk:1
+w-fjhs:1
 167:1
 frequently:1
-certain kinds:1
-racial profiling:1
-III.THE:1
-GENERAL DATA PROTECTION REGULATION:1
-A NEW
-REGULATORY MODEL:1
+kinds:1
+iii:1
 protests:1
-rarely legal challenges:1
-a private party platform:1
 agree:1
-their terms:1
 opponents:1
-limited legal tools:1
 early 2015:1
-a class action:1
-The complaint:1
+complaint:1
 disputing:1
-the enforcement:1
-Native American users.106:1
-Given:1
-the limited scope:1
-U.S. data protection laws:1
-the United
-:1
-States.107:1
-two German regulators:1
+scope:1
 enforce:1
-both
 orders:1
-prevailed:1
-the court:1
-a lawsuit:1
-a
-German consumer-protection:1
+consumer-protection:1
 organi:1
-ation:1
-the Berlin district court:1
-Germany’s data collection law:1
+district:1
+germany’s:1
 appealed:1
-the higher court:1
-decide.108:1
-The Berlin court decision:1
 occurred:1
 a few months:1
-the implementation:1
-the EU General
-Data Protection Regulation:1
+implementation:1
 briefly:1
 reviews:1
-the
-few times:1
-the new regulatory model:1
-user privacy:1
-the
-Internet:1
-Schleswig-Holstein (SHULD:1
-the German Telemedia Act:1
-telemedia:1
-Melissa Anthony:1
-the Native American Threatening:1
-a Good Case:1
-CLASSACTION.ORG:1
-Mar. 9, 2015:1
-https://www.classaction.org:1
-/blog:1
-native:1
-american:1
+schleswig-holstein:1
+melissa:1
+anthony:1
 threatening:1
-a-good-case:1
-https://perma.cc/Q9E2-DSKF:1
-107:1
-, FEDERICA GIOVANELLA:1
-COPYRIGHT:1
-INFORMATION PRIVACY:1
-CONFLICTING RIGHTS:1
-BALANCE:1
+9 , 2015:1
+/blog/does-the-native-american-threatening-to-sue-facebook-have-a-good-case:1
+2-dskf:1
+federica:1
+giovanella:1
+conflicting:1
+balance:1
 301:1
-108 See:1
-Natasha Lomas:1
-L&r;an 5our6 N!n:1
-Naul6 O!6:1
-4&%aul6:1
-Privacy Setting:1
-TECHCRUNCH:1
-Feb. 13, 2018:1
-
-https://techcrunch.com/2018/02/13/german-court-finds-fault-with-facebooks-
-default-privacy:1
-settings/:1
-https://perma.cc/RR3P-88JU:1
-anonymous or pseudonymous use:1
-their
-services.109:1
-providers:1
-usage:1
-advertisement purposes:1
-the subscriber:1
+l&r:1
+n’s:1
+naul:1
+4&%aul:1
+13 , 2018:1
+com/2018/02/13/german-court-finds-fault-with-facebooks-:1
+default-privacy-settings/:1
+cc/rr:1
+p-88:1
+subscriber:1
 notified:1
 refusal:1
-object.110:1
-provider:1
-users’ real identity:1
-their online pseudonyms.111
-SHULC emphasi:1
-Facebook’s monopoly status:1
-their services.112 Hence:1
-SHULD
-:1
-its order:1
+object:1
 reasonable:1
-Facebook’s competing interest:1
-business models:1
+competing:1
+interest:1
+models:1
 outweigh:1
-users’ interests:1
+interests:1
 protecting:1
-their privacy.113:1
-the state administrative court:1
-
-prevailed.114:1
-Facebook’s claim:1
-the
-processing:1
+claim:1
 place:1
-Ltd.115:1
-the data controller:1
-a EU member
-state:1
+ltd:1
+member:1
 matter:1
-a German subsidiary:1
+subsidiary:1
 store:1
-German data.116:1
-Irish law:1
 clusively:1
 applicable:1
-Facebook’s policy:1
 complying:1
-Irish:1
-law.117:1
-the substantial arguments:1
-the SHULD:1
-Facebook’s:1
-mandatory real name policy:1
-the German Telemedia Act.118:1
+substantial:1
 issued:1
-an order:1
-Like:1
-SHULC:1
-the Hamburg
-regulator:1
-the German Telemedia
-Act:1
-a pseudonym:1
-The regulator:1
-Facebook’s re$uirement:1
-official identification:1
+re$uirement:1
 violation:1
-German identification:1
-passport:1
-law.119:1
-109:1
-Telemediengesetz:1
-TMG:1
-Telemedia:1
-Act:1
-Feb. 26, 2007:1
-BGBl:1
-
-§13:1
-(Ger:1
-110:1
-15(3:1
-111:1
-15:1
-Sandra Schmitz:1
-/ol!(KQ:1
-7K&-Bye:1
-Max
-Mustermann:1
-, 4 JIPITEC:1
+telemediengesetz:1
+tmg:1
+26 , 2007:1
+bgbl:1
+ger:1
+sandra:1
+kq:1
+k&-bye:1
+max:1
+mustermann:1
+jipitec:1
 190:1
 195:1
-113:1
-114:1
-115:1
-117:1
 195–196:1
-118:1
-119 See Alex Hern:1
-Fights:1
-Real Name Policy:1
-(Jul. 29, 2015:1
-https://www.theguardian.com/technology/2015/jul/29/germany-fights-facebook-
+alex:1
+hern:1
+29 , 2015:1
+com/technology/2015/jul/29/germany-fights-facebook-:1
 over-real-names-policy:1
-https://perma.cc/3RQL-UJZR:1
-169
-
-case:1
-$uestion:1
-the user’s
-pseudonym:1
-the regulator:1
+cc/3:1
+rql-ujzr:1
+169:1
+$:1
+uestion:1
 deemed:1
-informational self-determination:1
-a basic right:1
-the German Federal
-Constitutional Court:1
+self-determination:1
+basic:1
+federal:1
+constitutional:1
 developed:1
-recognizes.120:1
-The Hamburg
-regulator:1
+recognizes:1
 rejected:1
-Facebook’s position:1
-only Irish law:1
 applies:1
-economic activities:1
-a branch:1
-Hamburg.121 Facebook:1
+branch:1
 fought:1
-The Hamburg
-administrative court:1
-Irish
-data protection law:1
 applied:1
-the Irish data protection authority:1
 determined:1
-Irish-law-:1
-compliant.122:1
-Higher:1
-Administrative:1
-Court:1
-the EU Data
-Protection Directive:1
-the Hamburg data regulator:1
-
-national actions:1
-whose European headquarters:1
-Ireland.123:1
-the courts:1
-jurisdiction:1
-choice:1
-law:1
-grounds:1
-neither court:1
+irish-law-:1
+whose:1
+headquarters:1
+choice-of-law:1
 elaborated:1
-the substantive legal arguments:1
-the data regulators:1
-The GDPR:1
-the jurisdiction
-arrangement:1
-the previous EU Data Protection Directive:1
-its headquarter:1
-their jurisdiction:1
-German
-data subjects:1
-Though:1
-Irish regulators:1
-the lead supervisory
-authority:1
-a right:1
-participate:1
-joint operations:1
+substantive:1
+headquarter:1
+supervisory:1
+joint:1
 asserting:1
-the data
-controller:1
-an establishment:1
-a significant number:1
-German data subjects:1
+establishment:1
 substantially:1
-
-processing operations.124:1
-the Telemedia Act:1
 203/:1
 remain:1
-anonymous:1
-120:1
-Antoinette Rouvroy & Yves Poullet:1
-Right:1
-Informational Self-:1
-Determination:1
-the Value:1
-Self-Development:1
-Reassessing:1
-the Importance:1
-Democracy:1
-REINVENTING DATA PROTECTION:1
-45:1
-49:1
-(Serge
-Gutwirth et al:1
+antoinette:1
+rouvroy:1
+yves:1
+poullet:1
+determination:1
+self-development:1
+reassessing:1
+reinventing:1
+serge:1
+gutwirth:1
 eds:1
 2009:1
-121:1
-Schmitz:1
-122 See Carlo Piltz:1
-Wins:1
-2nd Round:1
-Fight:1
-Legitimacy:1
-Its Real Name Policy:1
-GERMAN IT LAW:1
-June 30, 2016:1
-http://germanitlaw.com/germany-facebook-wins-2nd-round-in-fight-over-:1
+carlo:1
+piltz:1
+wins:1
+nd:1
 legitimacy:1
-policy/:1
-https://perma.cc/7M9E-GWBK:1
-123:1
-124:1
-Reg:1
-EU 2016/679:1
-62:1
-122:1
-126:1
-2016 O.J.:1
-119:1
+june 30 , 2016:1
+http://germanitlaw:1
+com/germany-facebook-wins-2:1
+nd-round-in-fight-over-:1
+legitimacy-of-its-real-name-policy/:1
+e-gwbk:1
+reg:1
 170:1
 unchanged:1
-the new Act.125:1
-the
-jurisdiction:1
-established:1
-German residents:1
-German
-regulators:1
 stand:1
-a better chance:1
-demand:1
+chance:1
 comply:1
-its
-real name policy:1
-Other EU residents:1
-a plausible
-argument:1
-advertising scheme:1
-the GCPR’s principle:1
-data minimi<ation:1
-only what:1
-operation.126:1
-This position:1
-a long argument:1
+plausible:1
+principle:1
+minimi:1
 assert:1
 central:1
-their operation:1
-Bet:1
-sensitive information:1
-
-special categories:1
-religious or philosophical beliefs:1
-The
-processing:1
-the data
-subjects.127:1
-Such consent:1
-Recital 43, consent:1
+bet:1
 invalid:1
-clear:1
-imbalance:1
-the controller exists.128 EU data subjects:1
-data regulators:1
-125 See Telemedia Act:1
-http://www.wipo.int/wipolex/en/details.jsp?id=17674:1
+exists:1
+wipo:1
+int/wipolex/en/details:1
+jsp:1
+id=17674:1
 visited:1
-Sep. 14, 2018:1
-https://perma.cc/4JY5-SWDJ:1
-126 See General Data Protection Regulation:1
-O.J.:1
-L. 119:1
-Art:1
-5;39;c9:1
+sep:1
+14 , 2018:1
+jy:1
+5-swdj:1
 20309:1
-;“[data
-minimization:1
-adequate:1
-limited:1
-the
-purposes:1
+data minimization:1
 processed”9:1
-9:1
-special categories:1
 revealing:1
-religious or
-philosophical beliefs:1
-trade union membership:1
-genetic
-data:1
-biometric data:1
+trade:1
+union:1
+membership:1
+genetic:1
+biometric:1
 uniquely:1
 identifying:1
+person:1
 health:1
-life:1
 ual:1
-
 orientation:1
 prohibited:1
-Paragraph 1:1
+paragraph:1
 apply:1
-the data subject:1
-those personal data:1
-one or more
-specified purposes:1
-128:1
+specified:1
 ensure:1
-a valid legal ground:1
-
-personal data:1
-a specific case:1
-clear imbalance:1
-particular:1
-a public authority:1
+valid:1
+ground:1
 therefore:1
 unlikely:1
-all the circumstances:1
-that specific situation:1
+circumstances:1
+situation:1
 171:1
-a case:1
-monopoly:1
-Second:1
-the Berlin court:1
-the lawsuit:1
-the consumer protection organization:1
+second:1
+consumer:1
+organization:1
 opined:1
-the mandatory
-real name policy:1
-a covert way:1
-“real names:1
-personal:1
-data.129 Courts:1
-covert:1
-
-users’ special categories:1
-their
-names:1
-earlier:1
-norm:1
 ploit:1
-the platform’s merits:1
-easy searchability:1
-
-personality/brand management:1
-a mandatory policy:1
+merits:1
+searchability:1
+personality/brand:1
+management:1
 explains:1
-the data collection:1
 transparent:1
-accessible way:1
+accessible:1
 complies:1
-user:1
-explicit consent.130:1
-IV:1
-CONCLUSION:1
-The track record:1
-Facebook’s privacy practice:1
-the recent Cambridge Analytical scandal:1
-targeted advertising:1
+conclusion:1
+track:1
+recent:1
+analytical:1
+scandal:1
 continues:1
-our names:1
-The EU’s GCPR:1
+eu’s:1
+gcpr:1
 opens:1
-a new regulatory
-model:1
-EU residents:1
-a higher level:1
-processing:1
-The new
-jurisdiction arrangement:1
+level:1
 shakes:1
-internet
-intermediaries’ previous strategies:1
-the choice:1
-laws:1
-the GCPR’s enforcement:1
-May 25:1
+strategies:1
 203:1
-a new spree:1
-
+spree:1
 lawsuits:1
-mega internet intermediaries:1
-begun.131:1
-129:1
-Lomas:1
+mega:1
+begun:1
 108108:1
-130:1
-See Facebook Data Policy:1
 takes:1
-this approach:1
-its data policy:1
-their
-religious belief:1
-their consent:1
 questionable:1
-enough
 notice:1
 buried:1
-the long explanation:1
-a separate data policy page:1
 filling:1
-their profile:1
-131 See Natasha Lomas:1
-Google Face First GDPR Complaints:1
-BNor:1
-’ 5ons&n62 TECHCRUNCH:1
-May 25, 2018:1
+complaints:1
+bnor:1
+’ 5:1
+ons&n:1
+25 , 2018:1
 172:1
-several adjustments:1
-compliant:1
-changing:1
-among:1
-the measures:1
-taken.132:1
-a surprise:1
-long controversial real name:1
+made:1
+adjustments:1
+taken:1
+surprise:1
+controversial:1
 soon:1
 faces:1
-new challenges:1
-the EU:1
 defendable:1
-the new regime:1
-https://techcrunch.com/2018/05/25/facebook-google-face-first-gdpr-complaints-:1
-forced:1
-consent/:1
-https://perma.cc/FZ5E-77UX:1
-132:1
-the General Data Protection Regulation (GDPR:1
-https://www.facebook.com/business/gdpr:1
-https://perma.cc/7C3G-GCVH:1
-
-
-Copyright:1
-Kansas Journal of Law & Public Policy:1
-the property:1
-Kansas Journal of Law
-& Public Policy:1
-its content:1
+com/2018/05/25/facebook-google-face-first-gdpr-complaints-:1
+over-forced-consent/:1
+cc/fz:1
+e-77:1
+ux:1
+com/business/gdpr:1
+g-gcvh:1
+property:1
 copied:1
 emailed:1
-multiple sites:1
-a
+multiple:1
 listserv:1
-the copyright holder's express written permission:1
+holder:1
+'s:1
+written:1
+permission:1
 print:1
 download:1
-email articles:1
-individual use:1
+articles:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:5
-Privacy:3
-consent:2
+Privacy:27
+data protection:12
+consent:11
 SOC:1
-PRIVACY:1
+data minimization:1

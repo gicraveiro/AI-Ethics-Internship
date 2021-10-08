@@ -3,718 +3,602 @@
 
 
 With stop word removal 
-Size of original corpus: 4595 
-Size of filtered corpus: 1614
-Size of Lexicon: 1072
+Size of original corpus: 3573 
+Size of filtered corpus: 1872
+Size of Lexicon: 898
 
 Tokens that appear in the file, alongside with their frequencies:
-1:20
-Facebook:18
+facebook:40
+data:36
+1:22
+law:20
+users:20
+terms:18
+<:18
 >:18
-users:17
+court:17
 accessed:17
-<:16
-21:11
-5:11
-4:10
-use:10
-3:9
-consent:9
-2:8
-data:7
-German:7
-20:7
-service:7
-information:7
+information:16
+use:15
+service:14
+settings:14
+3:14
+federal:13
+consent:13
+'s:12
+privacy:12
+german:12
+vzbv:12
+berlin:11
+2018:10
+consumer:10
+personal:10
+content:10
+policy:10
+5:10
+act:10
+gazette:10
+processing:9
+2:9
+4:9
+directive:9
+|:8
+edpl:8
+us:8
+unfair:8
+version:8
+21:8
+lg:7
+services:7
+european:7
+commercial:7
 amended:7
-EDPL:6
-processing:6
-February:6
+february:7
+concerning:6
+ing:6
+case:6
+free:6
 based:6
-February  2018:6
+default:6
+https://www:6
+20 february 2018:6
 agree:6
-Gazette:6
-free:5
-2016:5
+con-:6
+time:6
+point:6
+general:5
+com-:5
+7:5
+16:5
 provide:5
-2017:5
-Law:5
-February 2018:5
+data protection:5
+cf:5
+21 february 2018:5
 ac-:5
-us:5
+provisions:5
+gesetze-im-internet:5
 informed:5
-|:4
-Reports:4
-1|2018:4
-Court:4
-vzbv:4
-settings:4
+parliament:5
+council:5
+reports:4
+first:4
+tion:4
+electronic:4
+advertising:4
+user:4
+transparency:4
+legal:4
+following:4
 11:4
-16:4
-default:4
-the  imprint:4
-2018:4
+practices:4
+competition:4
+imprint:4
+united:4
+see:4
+ireland:4
+profile:4
 last:4
-Federal:4
 using:4
-time:4
-pre:4
-Directive:4
+cookie:4
 could:4
+decision:4
 proof:4
-point:4
-First:3
-Terms:3
-personal:3
-transparency:3
-LG:3
-the claim:3
+burden:4
+uklag:4
+association:3
+dispute:3
+regulation:3
+pro-:3
+platform:3
+contact:3
+claim:3
 declared:3
-services:3
-an  injunction:3
+injunction:3
+slogan:3
 misleading:3
 appealed:3
-consumer:3
-privacy:3
-law:3
- Berlin:3
+social:3
+sections:3
+face-:3
+book:3
 available:3
-Case:3
+2017:3
+2016:3
 0:3
-UK:3
-see:3
-7:3
-12:3
+uk:3
 8:3
-following:3
+statement:3
 way:3
 make:3
+account:3
+create:3
 without:3
-13:3
-Commercial:3
-profile:3
+sponsored:3
+picture:3
 pay:3
 9:3
 published:3
-Article:3
-the Act:3
-the version:3
-Federal  Law  Gazette:3
+uwg:3
+html:3
 accordance:3
 confirm:3
-the view:3
-concerning:3
+view:3
+pre-formulated:3
+judges:3
 stated:3
-Unfair:3
+relief:3
+company:3
+section:3
 considered:3
-con-:3
+bdsg:3
 clear:3
-Berlin:3
+hamburg:3
 towards:3
-the  terms:3
-commercial:3
-the  European  Parliament:3
+provision:3
+meaning:3
+oj:3
+http://bit:3
 given:3
-Council:3
-UKlaG:3
-general:3
-Concerning:2
-Service:2
+cost:3
+christina:2
+etteldorf:2
 like:2
-pro-:2
-Privacy:2
+eu-us:2
+shield:2
+public:2
 likes:2
 providing:2
-contact:2
- data:2
-legal:2
+associations:2
+important:2
 example:2
-policy:2
-the terms:2
+landgericht:2
+hand:2
+ad-:2
 pri-:2
 vacy:2
 inadmissible:2
-inter alia:2
+tection:2
+inter:2
+alia:2
+action:2
 argued:2
+parties:2
 already:2
+interesting:2
+proceedings:2
+facts:2
+states:2
 warning:2
- settings:2
-sections:2
-the
-vzbv:2
-the LG:2
-Cf:2
-tion:2
-Schweda:2
-'s:2
-Data:2
-https://www:2
-English:2
-version:2
-February
-2018:2
-
-
-EDPL:2
+sufficient:2
+link:2
+10:2
+media:2
+sebastian:2
+schweda:2
+authorities:2
+pdf:2
+english:2
+6:2
+limited:2
+com/privacy/explanation:2
+zeit:2
+12 february 2018:2
+http://www:2
+datenschutzrecht:2
+de/:2
 click:2
-Rights:2
-Responsibilities:2
-
+rights:2
+responsibilities:2
 cess:2
 criticised:2
+names:2
 help:2
 keep:2
-ing:2
-i.:2
-create:2
+permission:2
+applicable:2
+outside:2
 strive:2
 respect:2
 transferred:2
 processed:2
-advertising:2
+served:2
+enhanced:2
 valuable:2
- picture:2
-business:2
-the  version:2
-17:2
-Telemedia  Act:2
-September:2
-21
-February 2018:2
+related:2
+telemedia:2
 collect:2
 informa-:2
- time:2
 accessing:2
 read:2
 including:2
+especially:2
+tions:2
 would:2
 stays:2
-their  data:2
-terms:2
+argument:2
 well:2
-The  Court:2
-the  Act:2
 conjunction:2
-the company:2
-decision:2
+tmg:2
+links:2
+fact:2
+may:2
 scope:2
-Article  :2
+vg:2
+protection:2
+rel-:2
+reference:2
+appeal:2
+kg:2
+article 4:2
+requirements:2
+process:2
+provider:2
 offers:2
-this  opportunity:2
-The Court:2
+opportunity:2
+declarations:2
+poli-:2
+12:2
+civil:2
+code:2
+sense:2
+party:2
+particular:2
+certain:2
 principle:2
-However:2
-meaning:2
+however:2
 allowed:2
-US:2
-the
-Court:2
+kind:2
 defined:2
-Moreover:2
+moreover:2
+commerce:2
+market:2
+=:2
+13:2
 promulgated:2
-2003:2
-Federal  Law:2
-October:2
-engl:2
-isch:2
 15:2
-OJ  L:2
+ly/2:2
+future:2
+insufficient:2
 unfounded:2
 mentioned:2
-the Court:2
-unfair:2
+consumers:2
 annex:2
-cost:2
-personal  data:2
+paying:2
+reason:2
+injunctive:2
 reasonably:2
+conditions:2
 still:2
-opt:2
 114:1
-Consumer  Association:1
-Succeeds:1
-Round:1
-Dispute:1
-Facebook's  :1
-Privacy  Settings:1
-Christina Etteldorf:1
-Introduction:1
-the light:1
+succeeds:1
+round:1
+introduction:1
+light:1
 resent:1
-upcoming  developments:1
-the  entry:1
- force:1
-General  Data:1
- Protec-:1
-
-tion Regulation:1
-GDPR:1
-the heated debate:1
+upcoming:1
+developments:1
+entry:1
+force:1
+protec-:1
+gdpr:1
+heated:1
+debate:1
 posed:1
-EU  Regulation:1
-Electronic:1
-Com-:1
 munications:1
-the  EU-US:1
-Privacy  Shield'  - public
 attention:1
 focuses:1
-the big US  com-
+big:1
 panies:1
-Google:1
-data.2:1
+google:1
 offering:1
- ser
+ser:1
 vices:1
 connecting:1
 people:1
-the world:1
- act-
-ing:1
-an  advertising:1
-platform:1
-user:1
+world:1
+act-:1
 generated:1
- content:1
-a wide  range:1
+wide:1
+range:1
 sensitive:1
 inevitable:1
 espe-:1
 cially:1
-consumer  associations:1
 closely:1
 observing:1
 conformity:1
-plat-
+plat-:1
 forms:1
 determined:1
 enforce:1
 neces-:1
 sary:1
-court:1
 recent:1
-important:1
-these  types:1
+types:1
 actions:1
-a  case:1
-Regional:1
-Landgericht:1
-Berlin3:1
-Facebook's
-terms:1
-service4:1
-privacy  settings:1
+regional:1
 outlined:1
-Following:1
-one hand:1
-the Federation of German:1
-Consumer:1
-Ad-:1
+federation:1
 vice:1
-Centres:1
-Consumer  Associations:1
-Ver:1
-braucherzentrale Bundesverband e.V:1
-the  LG
-Berlin:1
+centres:1
+ver:1
+braucherzentrale:1
+bundesverband:1
 parts:1
-tection:1
-consumer  law:1
-the  other hand:1
 failed:1
-its  action:1
-Facebook's:1
-slogan:1
 always:1
- the  association:1
- advertising:1
-Although:1
- both  parties:1
+although:1
 ruling:1
 announced:1
-so7:1
-the findings:1
-the  argumentation:1
-the  parties:1
-interesting:1
+findings:1
+argumentation:1
 newsworthy:1
-this  early stage:1
-proceedings:1
-Facts:1
-the  Case:1
-Vzbv:1
-a nationwide  association:1
-consumer  as-
+early:1
+stage:1
+nationwide:1
+as-:1
 sociations:1
-the  German  federal  states:1
-Lander:1
+lander:1
 25:1
- social  organisations:1
+organisations:1
 directed:1
 written:1
-unfair  practices:1
-competition  law:1
-Assum-
-ing:1
+february 2016:1
+assum-:1
 hides:1
 friendly:1
 centre:1
-sufficient information:1
 register:1
-the  vzbv:1
 attacked:1
-a  number:1
-the platform's  terms:1
- data policy:1
+number:1
 comply:1
 mainly:1
 arguing:1
 exclusive:1
 applicability:1
-Irish:1
-protection:1
+irish:1
 filed:1
-first:1
- Face-
-book's contact  data:1
-the  link:1
-10.21552:1
-edpl/2018/1/17:1
-Christina:1
-Etteldorf:1
-research associate:1
-the Institute:1
-European
-Media  Law:1
-EMR:1
+21552/edpl/2018/1/17:1
+research:1
+associate:1
+institute:1
+emr:1
 correspondence:1
-c.etteldorf@emr-sb.de:1
-Cf  Sebastian  Klein:1
-Annual  Review:1
-EU-US:1
-Privacy
-Shield:1
-3(4:1
-512:1
-517:1
-Lorna Woods:1
-United  Kingdom:1
-* CG  v  Facebook: The
-Interconnection  between  E-Commerce:1
- Data  Protection:1
-3(1:1
-106:1
-110:1
-Nicolas  Blanc:1
-Schrems:1
-Jurisdic-:1
-Consumer  Contracts:1
-CJEU:1
-3(3:1
-413:1
-417:1
-Sebastian:1
-Germany:1
-Close Scrutiny:1
-Courts:1
-Authorities:1
-Investigate:1
-Compliance:1
-National:1
-Protection:1
- 2(3:1
-414:1
-421:1
+etteldorf@emr-sb:1
+klein:1
+annual:1
+review:1
+512-517:1
+lorna:1
+woods:1
+kingdom:1
+cg:1
+interconnection:1
+e-commerce:1
+106-110:1
+nicolas:1
+blanc:1
+schrems:1
+jurisdic-:1
+contracts:1
+cjeu:1
+413-417:1
+germany:1
+close:1
+scrutiny:1
+courts:1
+investigate:1
+compliance:1
+national:1
+414-421:1
 341/15:1
-16 January  2018:1
-.vzbv.de:1
-sites:1
-files:1
-downloads/201:1
-8/02/12:1
-facebookIg:1
-berlin.pdf:1
+16 january 2018:1
+de/sites/default/files/downloads/201:1
+8/02/12/facebookig:1
+1 2 3 4:1
 cessed:1
 https://:1
-en-gb.facebook.com/legal/terms/update:1
-6:1
-Data  Policy:1
-Facebook Ireland  Limited:1
-https://
-de-de.facebook.com/privacy/explanation:1
-https://en-gb.facebook:1
-.com:1
-/privacy/explanation:1
-Cf report:1
-the German  media:1
-Landgericht  Berlin untersagt:1
-Klarnamen-Zwang:1
-Facebook'  :1
-Zeit:1
-Online:1
-http://www.zeit.de/news/201:1
-8-02/12:1
-landgericht:1
-berlin:1
--untersagt-klarnamen:1
-zwang:1
-facebook-1:1
+en-gb:1
+com/legal/terms/update:1
+https:// de-de:1
+https://en-gb:1
+report:1
+untersagt:1
+klarnamen-zwang:1
+online:1
+de/news/201:1
+8-02/12/landgericht-berlin:1
+untersagt-klarnamen-zwang-bei-facebook-1:1
 80212-99-35613:1
-the vzbv:1
 press:1
 release:1
-verstoSt:1
-gegen  deutsches:1
-Datenschutzrecht:1
-https://www.vzbv.de/:1
+verstost:1
+deutsches:1
 pressemitteilung/facebook-verstoesst-gegen-deutsches:1
--datenschutzrecht:1
-Facebook  Ireland  Limited:1
-<https://de-de.facebook.com/legal/terms:1
-German  version:1
+https://de-de:1
+com/legal/terms:1
 ibid:1
-115
-
-'Imprint/Terms:1
+115:1
+imprint/terms:1
 needs:1
 second:1
- 'Statement:1
-that  information:1
-Concerning  the  terms:1
-data  policy:1
- users:1
-their  real  names:1
-
-information:1
+real:1
 need:1
- some  commitments:1
+commitments:1
 relating:1
 registering:1
 maintain-:1
-the  security:1
-your  account:1
-any false  personal  information:1
-Face-
-book:1
-an account:1
+security:1
+false:1
 anyone:1
- permission:1
 accurate:1
-up-to-
+up-to-:1
 date:1
-Special Provisions:1
-Applicable:1
-Users:1
-Outside:1
-the  United  StatesWe:1
+under 13:1
+special:1
+stateswe:1
 global:1
 community:1
- consistent  standards:1
+consistent:1
+standards:1
 everyone:1
-local laws:1
-provisions:1
+local:1
+laws:1
 apply:1
+non-users:1
 interact:1
-outside:1
-the United States:1:1
-your
-personal  data:1
-the United  States:1
-Advertisements:1
-Content:1
-Served:1
-Enhanced:1
-Our
+states:1:1
+advertisements:1
 goal:1
 deliver:1
-other commer
-cial or sponsored content:1
- advertisers:1
+commer:1
+cial:1
+advertisers:1
 order:1
 give:1
-
-permission:1
-your  name:1
-
-content:1
 connection:1
-
-commercial:1
-sponsored:1
- related  content:1
-a  brand:1
-served:1
-enhanced:1
+brand:1
 means:1
 permit:1
- other  entity:1
- display:1
-your name:1
+business:1
+entity:1
+display:1
 and/or:1
-picture:1
-your con-
 tent:1
-any compensation:1
-See:1
-10  Act:1
-Unfair Competition:1
-3
-March  2010:1
-(Federal  Law  Gazette:1
+compensation:1
+3 march 2010:1
 254:1
-February  :1
+article 4 of the act:1
+17 february 2016:1
 233:1
-https://www.gesetze-im-internet.de/englisch-uwg/englisch:1
-uwg.html#p01:1
+de/englisch-uwg/englisch:1
+html#p:1
+01:1
 26:1
 2007:1
 179:1
-Article  1  of the
-Act:1
-28:1
+article 1 of the act of:1
+28 september:1
 3530:1
-.gesetze-im-internet.de/tmg/BJN  RO:1
-17910007.html:1
+de/tmg/bjn:1
+ro:1
+17910007:1
 selected:1
 specific:1
 audience:1
-your content:1
-your  choice:1
+choice:1
 cessing:1
-Facebook  Services:1
-such content:1
-Policy:1
-the  Facebook Services:1
 30:1
-January 2015:1
-this Statement:1
+january:1
+2015:1
 updated:1
-our update
-data and cookie policies:1
-improved Advertisement:1
+update:1
+policies:1
+improved:1
+advertisement:1
 visited:1
 websites:1
-apps.9:1
+apps:1
 clicking:1
-Create:1
-an  account:1
-these
-terms:1
-data pol-:1
+pol-:1
 icy:1
-the  Cookie Use  Policy:1
-especially the  default  settings:1
-his
-privacy  settings:1
- the  user:1
 gets:1
 asked:1
-other  search
+search:1
 engines:1
 receive:1
-a link:1
-the user's profile:1
 his-:1
 tory:1
 choose:1
 yes:1
 prob-:1
-
-lematic features:1
-the questions:1
-the visibil-:1
+lematic:1
+features:1
+questions:1
+visibil-:1
 ity:1
-social:1
 acts:1
 comments:1
 subscrip-:1
-
-tions:1
 friends:1
--acti-
-vated location  service:1
-Facebook  :1
-Chat:1
+pre-acti-:1
+vated:1
+location:1
+chat:1
 unlawful:1
 even:1
 know:1
--formulated  consent:1
 set:1
-Finally:1
- the  vzbv:1
+finally:1
 called:1
 refrain:1
-the slogan:1
-the argument:1
 actually:1
-the  service:1
-the  com-:1
-
 pany:1
-Judgment:1
-the judges:1
+judgment:1
 upheld:1
-the ma-
+ma-:1
 jority:1
 disputed:1
-the default:1
-the  claimant:1
-an  injunc-
-tive relief:1
-unfair  competition  law:1
-8  :1
-3a:1
-Competition:1
-Gesetz:1
+claimant:1
+injunc-:1
+no 3 and 3:1
+gesetz:1
 unlauteren:1
-Wettbewerb:1
-UWG)1:1
-(Telemediengesetz,  TMG:1
-important  con-
-tact information:1
+wettbewerb:1
+telemediengesetz:1
+tact:1
 via:1
-two  consecutive  links:1
-an  implementation:1
+two:1
+consecutive:1
+implementation:1
 116:1
 ticle:1
-electronic:1
 commercel:1
-TMG:1
+2 , %:1
 provides:1
-service providers:1
+providers:1
 ren-:1
-their information:1
 easily:1
 directly:1
 permanent-:1
 ly:1
 accessible:1
-the recipients:1
-the service:1
-com-:1
-petent  authorities:1
-Such easy access:1
+recipients:1
+petent:1
+easy:1
+access:1
 ensured:1
-this  data:1
-the  section:1
-Statement:1
 expect:1
-The fact:1
 logged:1
 irrele-:1
 vant:1
-the  ground:1
-also new users:1
+ground:1
+new:1
 in-:1
 formed:1
-Under %:1
-4a:1
-Federal  Data Pro-
-tection  Act:1
-Bundesdatenschutzgesetz:1
-BDSG:1
-sonal  data:1
-may:1
-the  data  subject:1
+bundesdatenschutzgesetz:1
+sonal:1
+subject:1
 enable:1
 scious:1
 companies:1
@@ -722,462 +606,308 @@ must:1
 sup-:1
 ply:1
 plain:1
-the  nature:1
+nature:1
 purpose:1
-the intended  data use:1
-Where-:1
-the Administrative  Court (Verwaltungsgericht, VG:1
-Hamburg:1
+intended:1
+where-:1
+administrative:1
+verwaltungsgericht:1
 concluded:1
-dispute:1
-Facebook's  terms:1
-da-
-ta protection  law:1
-applicable:1
-the rel-:1
-evant  data processing:1
-stronger  links:1
-Ireland:1
-the seat:1
-the platform operator:1
-Facebook
-Ireland Ltd)1:1
+da-:1
+evant:1
+stronger:1
+seat:1
+operator:1
+ltd:1
+1 4:1
 deviated:1
-
-reference:1
-previous  case law:1
-the  Court of Appeal:1
-Kammergericht:1
-KG:1
-only  point:1
-rel-:1
+previous:1
+kammergericht:1
 evance:1
-the  orientation:1
-the  activity:1
-Facebook's  subsidiary:1
-Ger:1
+orientation:1
+activity:1
+subsidiary:1
+ger:1
 many:1
-GmbH:1
-public:1
-this
-company:1
+gmbh:1
 classified:1
 establishment:1
-the  controller:1
+controller:1
 according:1
-/46:1
-/EG16:1
-this background:1
+9 5:1
+/46/eg:1
+background:1
 de-:1
-fault  settings:1
-Settings:1
+fault:1
 meet:1
-the  requirements:1
-the  BDSG:1
-The  Court  stat-:1
-ed  that  default  settings:1
-the  registration
-process:1
+stat-:1
+registration:1
 generally:1
 unsuitable:1
 sent:1
 unless:1
-provider:1
 underlines:1
-this  fact:1
 actively:1
 start:1
-the  social net-
+net-:1
 work:1
-The 'privacy tour' Facebook:1
-the
-settings:1
-sufficient:1
+tour:1
 guaranteed:1
 informing:1
 detail:1
-Furthermore:1
-the  LG:1
+furthermore:1
 held:1
-another  eight
+another:1
+eight:1
 clauses:1
 invalid:1
-especially:1
-reference:1
 therein:1
 contained:1
--formulat-
-ed  declarations:1
-the section:1
+pre-formulat-:1
 bywhich:1
-the  data  policy:1
-Cookie:1
-Use:1
-Poli-:1
 cy:1
 breach:1
 307:1
 309:1
-12b:1
-Civil  Code:1
-(Biirgerliches Gesetzbuch:1
- BGB:1
-These
-sections:1
+b:1
+biirgerliches:1
+gesetzbuch:1
+bgb:1
 prohibit:1
 shifting:1
-the burden:1
-sense:1
-a  provision:1
-the  provider
 modifies:1
- the  burden:1
 disadvantage:1
-the other party:1
-the contract:1
-particular:1
+contract:1
 oblig-:1
-the  other  party:1
-certain  facts:1
-the
-user:1
 interpreted:1
-
 mulation:1
 covered:1
-the  processing:1
-the users names:1
 due:1
 chosen:1
 formu-:1
 lation:1
 able:1
 identify:1
-the  provision:1
-this  base:1
-their  personal  data:1
- Face-
-book:1
+base:1
 underlined:1
 least:1
-this  consent:1
-the  judges:1
-Con-:1
 cerning:1
- Facebook:1
-sponsored or related content:1
 concern-:1
-ing transfer:1
+transfer:1
 emphasized:1
-the obligation:1
-
-tion:1
-requirements:1
-the nation-:1
-European  data protection:1
-its implica-
-tions:1
-formulated:1
-declarations:1
-no more detailed  explanations:1
-the concrete clause:1
-kind:1
-process:1
- com-
-mercial  content:1
+obligation:1
+nation-:1
+implica-:1
+detailed:1
+explanations:1
+concrete:1
+clause:1
+mercial:1
 etc:1
 impossible:1
 applied:1
 agree-:1
-Directive  2000/31/EC:1
-the
-
-Council:1
-June:1
+2000/31/ec:1
+june:1
 2000:1
-certain  legal  aspects:1
-information
-society services:1
- particular  electronic commerce:1
-Inter-:1
+aspects:1
+society:1
+inter-:1
 nal:1
-Market:1
-electronic  commerce:1
-OJ:1
-178/1
-<http://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri
-=CELEX:32000LOO31:1
-=:1
-Federal  Data  Protection  Act:1
-14
-January  :1
+178/1:1
+http://eur-lex:1
+europa:1
+eu/legal-content/en/txt/html/:1
+uri:1
+celex:32000:1
+loo:1
+31:1
+14 january 2003:1
 66:1
 recently:1
-10:1
-31:1
+article 10 of the act of:1
+31 october 2017:1
 3618:1
-https://www.gesetze-im-internet.de/:1
-bdsg:1
-isch-bdsg.htm:1
-14  :1
+engl:1
+isch-bdsg/engl:1
+isch-bdsg:1
+htm:1
+14:1
 4482/15:1
-VG  Hamburg:1
-March:1
+march:1
 http://justiz:1
-.hamburg.de/contentblob/5359296/data/1:1
-5-e-4482-1  5-beschluss:1
--vom-03:1
-03:1
-201:1
-6.pdf:1
-cf:1
+de/contentblob/5359296/data/1:1
+5-e-4482-1:1
+5-beschluss:1
+vom-03-03-201:1
 416:1
 155/14:1
-(KG  Berlin:1
-22:1
-http://bit.ly/:1
-2FwzTgQ:1
-Directive  95/46/EC:1
-European:1
-Parliament:1
-the  Council:1
+22 september 2017:1
+ly/:1
+fwztgq:1
+95/46/ec:1
 24:1
-October  1995:1
-the  protection:1
+october:1
+1995:1
 individuals:1
 regard:1
-the free movement:1
-such  data:1
+movement:1
 281/0031:1
-http://bit.ly/2HbehUG:1
-Civil:1
-Code:1
-January  2002:1
-1,42:1
+hbehug:1
+17:1
+2 january 2002:1
+42:1
 2909:1
+2003 1:1
 738:1
-2013:1
+1 october 2013:1
 3719:1
-https://www.gesetze-im-internet.de/englisch-bgb/engl:1
-bgb:1
-.html:1
- 117
-
+de/englisch-bgb/engl:1
+isch-bgb:1
+117:1
 ments:1
-content:1
-the  Data Policy:1
-Facebook Services:1
-Future poli-
 cies:1
 constitute:1
-effective  present  consent:1
-the use:1
-insufficient:1
-(future:1
-act:1
-this  basis:1
-
-personal data:1
-4 and 4a BDSG:1
+effective:1
+present:1
+basis:1
 never:1
 trough:1
 continued:1
- use:1
-the accusations:1
+accusations:1
 applies:1
 particularly:1
-the provision:1
-an  age:1
-[point:1
-Contrary:1
-the  provisions:1
-this formulation:1
+age:1
+contrary:1
+formulation:1
 neither:1
-a burden:1
-data process-:1
-
-ing:1
-Rather:1
- the  declaration:1
-no  obvious  legal
-meaning:1
-no drawbacks:1
-consumers:1
-any cer:1
-
-tain kind:1
+process-:1
+rather:1
+declaration:1
+obvious:1
+drawbacks:1
+cer:1
+tain:1
 permitted:1
-compa-
-ny slogan'Facebook:1
-The judges:1
+compa-:1
+ny:1
+slogan'facebook:1
 sidered:1
-the  slogan:1
 cording:1
-3  :1
- section:1
-UWG:1
-Article  5  :1
-Practices:1
-Directive1:1
+article 5:1
+1 8:1
 describing:1
 product:1
- "gratis:1
+gratis:1
 charge:1
 similar:1
-any
 thing:1
 unavoidable:1
 responding:1
 practice:1
 collecting:1
-paying:1
 delivery:1
-the  item:1
-The  reason:1
-these  provisions:1
+item:1
 referred:1
 obviously:1
 cases:1
 hid-:1
 18:1
-Directive  2005/29/EC:1
-the European  Parliament:1
-May 2005:1
-practices:1
-the  internal  market:1
+2005/29/ec:1
+2005:1
+business-to-consumer:1
+internal:1
 amending:1
-Coun-:1
+coun-:1
 cil:1
-84/450:1
-/EEC:1
-Directives:1
- 97/7/EC:1
-98/27/EC:1
-and
-2002/65/EC:1
-Regulation:1
-(EC:1
+84/450/eec:1
+directives:1
+97/7/ec:1
+98/27/ec:1
+2002/65/ec:1
+ec:1
 2006/2004:1
-Practices  Directive:1
 149/22:1
-http://bit.ly/2FgB7hl:1
-19  Act:1
-Injunctive Relief:1
-27 August
-:1
-2002:1
-3422:1
+fgb:1
+hl:1
+19:1
+27 august 2002:1
+1 , 3422:1
 4346:1
-17 July 2017:1
-2446:1
-http://www.gesetze-im-internet.de/uklag/_1.html:1
- costs:1
-Paying:1
+article 4 of the act of:1
+17 july 2017:1
+1 , 2446:1
+de/uklag/_1:1
+20:1
+costs:1
 intangi-:1
-ble  consideration:1
+consideration:1
 seen:1
-this
-sense:1
-Consequently:1
- the  average  consumer:1
+consequently:1
+average:1
 observant:1
 circumspect:1
 associated:1
 term:1
- 'cost:1
-an
-actual  economic burden:1
-the  German Act:1
-Injunctive:1
-Relief:1
-(Unterlassungsklagengesetz:1
-laG:1
+actual:1
+economic:1
+unterlassungsklagengesetz:1
+lag:1
 reject:1
-the  argument:1
-the  agreement:1
-cookie:1
+agreement:1
 allows:1
-conditions:1
 reviewed:1
 proceeding:1
-
-UKlaG:1
-the provisions:1
-Facebook's  data policy:1
-general terms:1
-
-conditions:1
-An  action:1
 removal:1
 illegal:1
 foreseen:1
-the  proceedings:1
-instituted.2:1
-IV:1
-Conclusion:1
-The  decision:1
+instituted:1
+iv:1
+conclusion:1
 includes:1
-interesting  statements:1
-
+statements:1
 obligations:1
- consumers:1
-Al-:1
+al-:1
 though:1
 inadmis-:1
 sible:1
-no final  decision:1
-Facebook's
-processing:1
- personal  data:1
-these  terms:1
-the  Court:1
+final:1
 decide:1
 legiti-:1
 macy:1
-Both
 enquiries:1
 part:1
-subject:1
-matter:1
-the
-dispute:1
+subject-matter:1
 question:1
 continue:1
-its  terms:1
-comple-
+comple-:1
 menting:1
-required information:1
+required:1
 open:1
-the emphasis:1
-insufficient  information:1
-
-transparency:1
+emphasis:1
 avoided:1
-a  confrontation:1
-the  ad-
-missibilityof pre-formulated consent:1
+confrontation:1
+missibilityof:1
 set-:1
-
 tings:1
 regrettable:1
-these  contro-
-versial  issues:1
+contro-:1
+versial:1
+issues:1
 discussed:1
 heading:1
-
-'privacy:1
 design/:1
+opt-in/opt-out:1
 so-:1
 lutions:1
 since:1
- years:1
- very  reason:1
-the  appeal:1
-any  possible  further  decisions:1
+years:1
+possible:1
+decisions:1
 awaited:1
 eagerly:1
 
 Keywords that appear in the file, alongside with their frequencies:
-consent:9
-privacy:3
-Privacy:2
+consent:13
+Privacy:12
+data protection:5

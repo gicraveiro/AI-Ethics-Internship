@@ -3,1499 +3,1116 @@
 
 
 With stop word removal 
-Size of original corpus: 7112 
-Size of filtered corpus: 2731
-Size of Lexicon: 1690
+Size of original corpus: 7456 
+Size of filtered corpus: 3598
+Size of Lexicon: 1333
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:55
-2018:24
-would:18
-2019:17
+respondents:102
+facebook:95
+privacy:71
+information:58
+users:36
+data:36
+social:29
+friends:29
+trust:29
+2019:27
+conference:26
+international:25
+systems:23
+2018:23
+procedia:21
+presthus:21
+3:21
+computer:20
+science:20
+wanda:20
+would:19
+4:17
 :17
-our respondents:16
-trust:16
-privacy:14
+personal:16
+research:16
+survey:15
+model:15
+open:14
+figure:14
 stated:14
-Wanda Presthus:13
+calculus:13
+1:13
+2:13
 asked:13
-00:12
-friends:12
-users:11
+norwegian:12
+use:12
+many:12
+10:12
+question:12
+00:11
+member:11
+study:11
+p:11
+number:11
+online:10
 000–000:10
-Figure:10
-Procedia Computer Science:9
+management:10
+technologies:10
+marie:10
+vatne:10
+media:10
 164:9
+centeris:9
+benefits:9
+largest:9
+using:9
 could:9
-2:9
-data:9
-3:9
-Technologies:8
-Facebook users:8
-information privacy:8
-a member:8
-using:8
-Dina Marie Vatne / Procedia Computer Science:8
+responsibility:9
+user:9
+6:9
+7:9
+9:9
+age:9
+deleting:9
 39–47:8
-1:8
-4:8
-10:8
-less:8
-deleting:8
-Health:7
-use:7
+elsevier:8
+enterprise:8
+projman:8
+project:8
+hcist:8
+health:8
+access:8
+service:8
+17:8
+profile:8
+people:8
+respondent:8
+technology:7
+following:7
+insights:7
+contact:7
+based:7
+decision:7
+interesting:7
 5:7
+four:7
+terms:7
 think:7
+therefore:7
 know:7
-Yes:7
-online:6
-the benefits:6
-Norwegian:6
-contact:6
-based:6
-interesting:6
-Published:6
-an open access article:6
-the CC BY-NC-ND license:6
-responsibility:6
-Information:6
-personal data:6
+answers:7
+yes:7
+www:6
+concern:6
+self-disclosure:6
+trade-off:6
+authors:6
+published:6
+article:6
+cc:6
+by-nc-nd:6
+license:6
+org/licenses/by-nc-nd/4:6
+0/:6
+peer-review:6
+scientific:6
+committee:6
+address:6
+12:6
+site:6
+however:6
+consequences:6
+zuckerberg:6
+important:6
+big:6
+rather:6
+torres:6
 concerned:6
-age:6
-Conference:5
-following:5
+20:6
+findings:6
+three:6
+accessed:6
+r:6
+available:5
+sciencedirect:5
+university:5
+paper:5
 maintaining:5
+misuse:5
+third:5
+awareness:5
 mainly:5
-However:5
-Zuckerberg:5
+existing:5
+©:5
+ltd:5
+b:5
+network:5
+others:5
 whether:5
-7:5
+digital:5
 8:5
-9:5
-rather:5
+us:5
+cost:5
+11:5
+level:5
+concerns:5
+control:5
+watson:5
+example:5
+15:5
 called:5
-people:5
-the terms:5
-therefore:5
-the respondents:5
-our  respondents:5
-respondent:5
-many:5
-6:5
-Available:4
-Social Care Information Systems:4
+19:5
+categories:5
+networking:5
+less:5
+settings:5
+read:5
+none:5
+comments:5
+euros:5
+future:5
 perceive:4
-Inspired:4
+inspired:4
 created:4
 offer:4
+benefit:4
+identity:4
+parties:4
 making:4
+monthly:4
 means:4
+subject:4
+due:4
 change:4
-Elsevier Ltd.:4
-(https://creativecommons.org/licenses/by-nc-nd/4.0/:4
-the scientific committee:4
-Project MANagement / HCist - International Conference:4
+https://creativecommons:4
+selection:4
+place:4
 find:4
+profiles:4
+consumers:4
+need:4
+data protection:4
+algorithms:4
+algorithmic:4
+transparency:4
+positive:4
+money:4
 seem:4
-locked:4
-12:4
+active:4
+locked-in:4
+set:4
+13:4
+examples:4
 include:4
-example:4
-15:4
-Torres:4
-Privacy:4
-’s:4
+literature:4
+o’brien:4
+general:4
+finding:4
+framework:4
+european:4
+potential:4
+21:4
+first:4
 changed:4
-read:4
 pay:4
 acknowledge:4
+limitations:4
+23:4
+results:4
+younger:4
 conducted:4
-respondents:4
+25:4
+28:4
 conditions:4
 admitted:4
-analysis:4
+cross-analysis:4
 might:4
-euros:4
-Accessed:4
-International:3
-survey:3
+https://www:4
+journal:4
+college:3
+oslo:3
 n=188:3
-the largest concern:3
-the misuse:3
-identity:3
-calculus:3
 necessarily:3
 involved:3
 argue:3
-an informed decision:3
-their personal data:3
+informed:3
+monetary:3
 seemed:3
 puzzle:3
-This study:3
 confirms:3
-existing research:3
 suggest:3
 repeated:3
 continuously:3
-due:3
-the rapid development:3
-both technology:3
-its users:3
-© 2019 The Authors:3
-Selection:3
-Information privacy:3
-social media:3
-Social:3
-Information Systems:3
+rapid:3
+development:3
+1877-0509:3
+members:3
 worldwide:3
 addition:3
-the  information:3
+several:3
+groups:3
+mark:3
 thought:3
+still:3
 illustrates:3
 shows:3
+way:3
 without:3
+companies:3
+may:3
 relevant:3
-us:3
-money:3
+despite:3
+services:3
 accept:3
 became:3
+phenomenon:3
 month:3
-the users:3
-awareness:3
-13:3
+right:3
+wide:3
+range:3
+one’s:3
+phone:3
+web:3
 14:3
-Watson:3
-p.:3
+numerous:3
+possible:3
+location:3
+andersen:3
 comes:3
-their privacy:3
-17:3
+common:3
+little:3
+paradox:3
+models:3
+papa:3
+18:3
+ethical:3
+issues:3
+taxonomy:3
+risks:3
+perspective:3
+regulation:3
+gdpr:3
+role:3
+perceived:3
+krasnova:3
 used:3
 shown:3
-the privacy settings:3
-O’Brien:3
-place:3
+business:3
+22:3
+negative:3
+case:3
+kind:3
 provided:3
-the 
-respondents:3
-study:3
+population:3
+anonymous:3
 share:3
-24:3
-somewhat:3
+questions:3
+answer:3
+thoughts:3
+43:3
+regarding:3
 thirty:3
 summary:3
-none:3
-need:3
+responses:3
+parts:3
+72:3
 26:3
-number:3
- friends:3
+22%:3
 completely:3
 27:3
 said:3
+time:3
+statements:3
 observe:3
-3 respondents:3
-
-Facebook:3
-www.sciencedirect.com:2
-CENTERIS:2
-A Survey:2
-Facebook Users:2
-Information Privacy:2
-Wanda Presthus*:2
-Dina Marie Vatne:2
-Kristiania University College:2
-Department of Technology:2
-Christian Krohgs gate:2
+aftenposten:3
+w:3
+04:3
+2017:3
+th:3
+sites:3
+com/locate/procedia:2
+centeris/projman/hcist:2
+kristiania:2
+department:2
+christian:2
+krohgs:2
+gate:2
 32:2
-0186 Oslo:2
-This paper:2
+0186:2
+norway:2
+abstract:2
 investigates:2
-spring:2
- insights:2
-model:2
-third  parties:2
-The  self-disclosure:2
-trade:2
- awareness:2
-The scenario:2
+spring 2018:2
+scenario:2
 paying:2
-a monthly monetary sum:2
+sum:2
 securing:2
-social media users:2
 researchers:2
 studying:2
-our research:2
-subject:2
-The Authors:2
-Elsevier B.V.:2
-the  scientific  committee:2
-the  CENTERIS  -  International  Conference:2
-review:2
-Project:2
-MANagement:2
-Keywords:2
-privacy calculus model:2
-online survey:2
-Tel:2
+http://creativecommons:2
+keywords:2
+corresponding:2
+author:2
+tel:2
 +47:2
 22 59:2
 60:2
- 
-E-mail address:2
-wanda.presthus@kristiania.no:2
-1877-0509:2
-peer-review:2
-Information Systems / ProjMAN - International Conference:2
-10.1016:2
-j.procs.2019.12.152:2
+e-mail:2
+presthus@kristiania:2
+1016/j:2
+procs:2
 leave:2
 well:2
-access:2
+platforms:2
+states:2
+sources:2
+consumer:2
 pointed:2
 sold:2
- consumers:2
-the service:2
-still:2
+senate:2
+facebook’s:2
+power:2
 instance:2
 claims:2
-important:2
-technological advances:2
-algorithms:2
+technological:2
+advances:2
+analytics:2
 lost:2
+choice:2
 64:2
-companies:2
-algorithmic transparency:2
+nonetheless:2
+targeted:2
 becomes:2
+account:2
+cambridge:2
+analytica:2
 exchange:2
-DeleteFacebook:2
-11:2
-
-
-Figure:2
-Number:2
+deletefacebook:2
 become:2
+part:2
 meaning:2
-despite:2
-set:2
-research:2
-control:2
+high:2
+scope:2
+related:2
+today:2
 getting:2
 visible:2
-the user:2
 probably:2
-the use:2
+creepiness:2
+scale:2
 behind:2
-a user:2
-algorithmic  transparency:2
+ip:2
+cookies:2
+six:2
 indeed:2
+16:2
+issue:2
+concept:2
 found:2
-general:2
 lack:2
-This finding:2
-the privacy calculus model:2
 depends:2
 surpass:2
-numerous  conceptual  models:2
-18:2
-1986:2
+conceptual:2
+even:2
 highly:2
-19:2
+solove’s:2
+category:2
 surveillance:2
-According:2
+according:2
+increasingly:2
+eaa:2
 outside:2
 returned:2
+qualitative:2
+questionnaire:2
+user’s:2
+e-commerce:2
 influenced:2
-The set:2
-perceived:2
+two:2
+inhibitors:2
+internet:2
+risk:2
 drivers:2
-1999:2
-Krasnova:2
-Veltris:2
-the  model:2
-The privacy calculus model:2
-First:2
+veltris:2
+relationship:2
 cause:2
+second:2
 excluded:2
-the level:2
-what extent:2
-22:2
-the number:2
-their Facebook profile:2
-& Torres:2
-active:2
-more control:2
+payment:2
+extent:2
+ellison:2
+reasons:2
 worst:2
 happen:2
-what kind:2
+collects:2
 willing:2
 much:2
 assess:2
 quote:2
+2010:2
+april 2018:2
+link:2
+students:2
 helped:2
-anonymous:2
 observed:2
-answer:2
-our findings:2
-first:2
-43:2
-some  respondents:2
+188:2
+24:2
+gender:2
+visits:2
 always:2
-Therefore:2
+amount:2
 104:2
-under 20:2
-(53 respondents:2
-30:2
+53:2
+108:2
+somewhat:2
 surprising:2
 57%:2
-younger:2
+nuances:2
+among:2
 congruent:2
-25:2
-our survey:2
+reason:2
 visited:2
 daily:2
 2007–2009:2
 2015:2
-an  open  question:2
-the comments:2
+42:2
+62:2
+everybody:2
 voluntary:2
-a Facebook user:2
-regarding:2
-parts:2
+37:2
+small:2
+71:2
 see:2
- trust:2
 explicitly:2
 wrote:2
 indicates:2
+point:2
 reading:2
 claimed:2
-300:2
+obar:2
 investigate:2
+smaller:2
 44:2
 versus:2
-cross:2
+group:2
 accordance:2
 never:2
 indicate:2
-their profile:2
+acquaintances:2
 invited:2
 far:2
+29:2
+new:2
+only 20:2
 elaborated:2
-three statements:2
 mentioned:2
-terms:2
 worried:2
 affected:2
+criminals:2
+bélanger:2
+crossler:2
 agreed:2
 feel:2
 profit:2
 given:2
+websites:2
 via:2
-thereby my geographical location:2
-Facebook Messenger:2
-None:2
+47:2
+posts:2
+thereby:2
+geographical:2
+messenger:2
+57:2
+less than 2:2
 35:2
-Finally:2
-future research:2
- people:2
+gangster:2
+finally:2
+bandara:2
+knowledge:2
+psychological:2
+distance:2
+descriptive:2
 perceptions:2
 get:2
-Tre:2
-vrangstrupen:2
-May  10th:2
+statista:2
+st:2
+tre:2
+10 th , 2018:2
 n’t:2
-10.04.2018:2
-Data:2
-2017:2
-Presthus:2
-W.:2
-et al:2
- 
-
- 
-
- 
- 
-
-Available:1
-www.sciencedirect.com 
-ScienceDirect 
-ScienceDirect 
-
-Procedia Computer Science:1
-Procedia:1
-Computer:1
-Science:1
-39–47
-
- 
-www.elsevier.com/locate/procedia 
- 
-www.elsevier.com/locate/procedia:1
-ENTERprise Information Systems /  
-ProjMAN - International Conference:1
-Project MANagement / HCist - International  
-CENTERIS - International Conference:1
-ENTERprise Information Systems /  
-Conference:1
-ProjMAN - International Conference:1
-Project MANagement / HCist - International  
-CENTERIS/ProjMAN/HCist:1
-CENTERIS/ProjMAN/HCist:1
-Norway:1
-Norway 
-
-Abstract 
-Abstract:1
-the 
-privacy:1
- calculus  model:1
-the 
-largest benefit:1
-we 
-largest benefit:1
-this subject:1
-©:1
-(http://creativecommons.org/licenses/by-nc-nd/4.0/:1
-Selection  and  peer-review  under  responsibility:1
-Peer:1
-the CENTERIS -International Conference on ENTERprise 
-ENTERprise  Information  Systems:1
-ProjMAN:1
-HCist:1
-peer:1
-
-Information Systems / ProjMAN - International Conference:1
-ENTERprise:1
-Systems:1
-ProjMAN  -  International  Conference:1
-HCist  -  International 
-Health and Social Care Information Systems:1
-
-
- 
-
- 
-
-* Corresponding author:1
-* Corresponding author:1
+april 15 th , 2018:2
+nytimes:2
+personvernbloggen:2
+press:2
+bibsys:2
+pingdom:2
+rd:2
+usa:2
+2006:2
+communication:2
+sage:2
+publications:2
+policies:2
 1877-0509 © 2019:1
-the CENTERIS - International Conference on ENTERprise 
-:1
-the CENTERIS - International Conference on ENTERprise 
-Care Information Systems and:1
-
-Care Information Systems:1
-                                                                                                                                        
-1877-0509 © 2019 The Authors:1
-http://creativecommons.org/licenses/by-nc-nd/4.0/:1
-Peer-review:1
-the CENTERIS -International Conference on:1
-ENTERprise Information 
-Systems / ProjMAN - International Conference:1
-Social Care:1
-ScienceDirectAvailable:1
-40:1
-Introduction 
-
-Facebook:1
-a social network service:1
-2.32 billion members:1
+10 .:1
+152 10 .:1
+152:1
+sciencedirectavailable:1
+40 2:1
+introduction:1
+32 billion:1
 the end of 2018:1
-The sale:1
 advertising:1
 space:1
-the  site:1
-a  significant  source:1
- income:1
-an  attractive  place:1
+significant:1
+source:1
+income:1
+attractive:1
 businesses:1
 advertise:1
-the personal data users:1
-other platforms:1
 owned:1
-the network 
-service:1
 including:1
-Instagram:1
-WhatsApp:1
-several  third  parties:1
-states:1
+instagram:1
+whatsapp:1
+several third:1
 sell:1
-information:1
-their  users:1
- others:1
 unless:1
-the  users:1
 approved:1
-(www.facebook.com/about/privacy/update:1
-several:1
-sources:1
-this  statement:1
+com/about/privacy/update:1
+statement:1
 misleading:1
-The 
-Norwegian Consumer Council:1
+council:1
 gives:1
 advertisers:1
-their target groups:1
-detailed  user  profiles:1
-The  consequences:1
-Senate 
+target:1
+detailed:1
 hearings:1
-CEO:1
-Mark:1
+ceo:1
 alternative:1
 longer:1
 fulfill:1
-the social need:1
- satisfies:1
-Many:1
-Facebook’s huge market power:1
-The Norwegian 
-Data Protection Authority:1
-a 
-well-functioning democracy:1
-Due:1
-Big Data analytics:1
+satisfies:1
+huge:1
+market:1
+authority:1
+well-functioning:1
+democracy:1
 technocrats:1
-their way:1
-however:1
 surrender:1
-our privacy:1
 notice:1
-choice:1
 must:1
 resist:1
-[6 p.:1
-recent research:1
+recent:1
 suggests:1
 adopt:1
 codes:1
 conduct:1
-Nonetheless:1
-our digital information:1
 exploited:1
-commercial operators:1
-may:1
-positive consequences:1
-Targeted:1
+commercial:1
+operators:1
 marketing:1
-Facebook account:1
-cost:1
-Despite:1
-the Cambridge Analytica revelation:1
-free services:1
-a  trade-off:1
-most consumers:1
-a  global phenomenon:1
+revelation:1
+free:1
+global:1
 yet:1
-the campaign:1
-any impact:1
-most Facebook members:1
-active Facebook users:1
-the 4th quarter 2018:1
+campaign:1
+impact:1
+the 4 th quarter 2018:1
 millions:1
-Screenshot:1
- 
-
- 
-
-Figure:1
-the steady increase:1
-such an important 
-part:1
-our infrastructure:1
-consumer power:1
-the  winner:1
+screenshot:1
+steady:1
+increase:1
+infrastructure:1
+winner:1
 takes:1
 cumbersome:1
- social  media  platforms:1
-the 
-consumers:1
-their high level:1
-Facebook scandals:1
+scandals:1
 consider:1
 enough:1
 ultimatums:1
 narrowed:1
-our  scope:1
-research  question:1
-Related:1
 1890:1
-Warren:1
-Brandeis:1
+warren:1
+brandeis:1
 defined:1
-the “right:1
 left:1
 alone:1
 subset:1
-concerns:1
-an individual’s right:1
-The simple definition:1
-any 
-physical or digital data:1
+individual’s:1
+simple:1
+definition:1
+physical:1
 traced:1
 back:1
-an individual:1
+individual:1
 includes:1
-a wide range:1
-one’s name:1
-
-address:1
-phone number:1
-more sophisticated things:1
-retina scans:1
-voice recognition:1
+sophisticated:1
+things:1
+retina:1
+scans:1
+voice:1
+recognition:1
 behavior:1
-the 
-web:1
-Today:1
-numerous examples:1
-advanced algorithms:1
+advanced:1
 accomplish:1
-Watson 
-
- 
-
- 
-
-Wanda Presthus:1
-41:1
+39–47 41 3:1
 provides:1
-the example:1
 changing:1
-one’s Facebook status:1
+status:1
 single:1
 engaged:1
 automatically:1
 pop-:1
 advertisements:1
-engagement rings:1
+engagement:1
+rings:1
 score:1
-high:1
-the “creepiness scale:1
-(Figure:1
-Possible reactions:1
-7 p.:1
+reactions:1
 373:1
 personalized:1
- ads:1
- users:1
- many  algorithms:1
+ads:1
 working:1
-the  scenes:1
-Examples:1
-location discrimination:1
-a wealthy country:1
+scenes:1
+discrimination:1
+wealthy:1
+country:1
 gets:1
-a higher hotel price:1
-the 
-computer’s IP address:1
-web beacons:1
-cookies:1
+higher:1
+price:1
+computer’s:1
+beacons:1
 browsing:1
-Presthus 
-:1
-Andersen:1
 state:1
-Between 100 and 200 cookies:1
+between 100 and 200:1
 stored:1
-our web browser:1
+browser:1
 visiting:1
-the front page:1
-six:1
-Norwegian  newspapers:1
+front:1
+page:1
+newspapers:1
 1970:1
-Pertaining:1
-this  fact:1
- several  others:1
-open:1
- technologies:1
+pertaining:1
+fact:1
 programming:1
- code:1
-The  open-source  technologies:1
- Linux:1
- Apache:1
-MySQL,  PHP:1
- Memcached:1
- Haystack:1
-BigPipe:1
-16:1
-a recurring issue:1
-the information privacy literature:1
-Trust:1
-a concept:1
-many definitions:1
-the common denominator:1
-an expectation:1
+code:1
+open-source:1
+linux:1
+apache:1
+mysql:1
+php:1
+memcached:1
+haystack:1
+bigpipe:1
+recurring:1
+definitions:1
+denominator:1
+expectation:1
 goodwill:1
-[10 p.:1
 65:1
-
-O’Brien:1
 relation:1
-little  trust:1
 affect:1
-This  phenomenon:1
-a 
-privacy paradox:1
-other academics:1
+academics:1
 prefer:1
-the term privacy trade-off:1
-The loss:1
+term:1
+loss:1
 accepted:1
-the 
 desire:1
-social interaction:1
+interaction:1
 greater:1
 tied:1
-self:1
-exposure:1
-the cost:1
-the form:1
+self-exposure:1
+form:1
 risking:1
-one’s privacy:1
-privacy  literature:1
-common:1
-the 
-information systems:1
-IS) discipline:1
-Mason’s PAPA framework:1
+discipline:1
+mason’s:1
 accuracy:1
 property:1
 accessibility:1
-(PAPA:1
-the  four  ethical  issues:1
-even:1
 though:1
-PAPA:1
-framework:1
-its juridical origins:1
-Solove’s taxonomy:1
+1986:1
+juridical:1
+origins:1
 applicable:1
-the IS context:1
-This taxonomy:1
-four categories:1
-(1) information collection:1
-2) information 
+context:1
+collection:1
 processing:1
-(3) information dissemination:1
-(4) invasion:1
-Each category:1
+dissemination:1
+invasion:1
 contains:1
-examples:1
-harmful activities:1
+harmful:1
+activities:1
 identification:1
 blackmail:1
-decisional interference:1
-Other risks:1
-a pure networking site 
-perspective:1
-cyber-attack risks:1
-privacy abuse risks:1
+decisional:1
+interference:1
+pure:1
+cyber-attack:1
+abuse:1
 identified:1
-20:1
-the literature:1
-the General Data Protection  Regulation (GDPR:1
-a regulation:1
-EU law:1
-data 
-protection:1
+law:1
 playing:1
-an increasingly stronger role:1
-Implemented:1
-May 2018:1
-the GDPR:1
+stronger:1
+implemented:1
+may 2018:1
 applies:1
-any company:1
+company:1
 deals:1
 customers:1
 belonging:1
-the European 
-Union (EU:1
-the European Economic Area:1
-(EAA:1
+union:1
+economic:1
+area:1
 affects:1
-EU and EAA citizens:1
-Summing:1
-the related research:1
+citizens:1
+summing:1
 facilitating:1
-the unprecedented use:1
-potential  misuse:1
-address:1
-this  issue:1
-The  existing 
-literature:1
-the US:1
+unprecedented:1
+people’s:1
 try:1
 help:1
 fill:1
-this gap:1
-updated insights:1
-Our method:1
-theoretical framework:1
-a survey:1
-both quantitative and qualitative data:1
+gap:1
+updated:1
+method:1
+theoretical:1
+quantitative:1
 drew:1
-a framework:1
-our questionnaire:1
-a user’s decision:1
-an e-commerce transaction:1
+transaction:1
 simultaneously:1
-two 
 sets:1
-contrary factors:1
-inhibitors:1
-Internet privacy concerns:1
-risk:1
-personal interest:1
-personal information:1
+contrary:1
+factors:1
+interest:1
 submitted:1
-important concept:1
-this model:1
-the cumulative  influence:1
-the inhibitors:1
+cumulative:1
+influence:1
 forming:1
-the so-:1
-Culnan:1
- Armstrong:1
+so-:1
+culnan:1
+armstrong , 1999:1
 outweigh:1
-42:1
+42 4:1
 determining:1
-the user’s final decision:1
-[21 p.:1
+final:1
 392:1
-a modified version:1
+modified:1
+version:1
 explore:1
-the relationship:1
- benefits:1
-privacy cost:1
-a network service:1
-17 p.:1
 chose:1
 simplify:1
 disregarded:1
-the  arrows:1
+arrows:1
 focus:1
 effect:1
 revealing:1
-insights:1
-Second:1
 removed:1
-the variables:1
-the scope:1
-our study:1
-Trust in Legal Assurance:1
-Facebook’s primary 
-business model:1
+variables:1
+legal:1
+assurance:1
+primary:1
 involve:1
-payment:1
-Thus:1
+thus:1
 focused:1
-the following four elements:1
+elements:1
 implies:1
-perceived control:1
-Drawing:1
-our questionnaire respondents:1
-
-users:1
-service:1
-3.1 Trust:1
-3.2 Benefits:1
-Ellison et al:1
-the main reasons:1
-potential positive and negative consequences:1
-3.3 Privacy Cost:1
-Concerns:1
+drawing:1
+main:1
 protects:1
 nothing:1
 hide:1
-their information privacy:1
-an open question:1
-the personal data:1
-Facebook collects:1
-3.4:1
-Self:1
-disclosure:1
-our case:1
-self-disclosure:1
-the actual use:1
+actual:1
 reflect:1
 disclose:1
 hypothetically:1
 meant:1
-their  information:1
 secure:1
-“privacy:1
-Kirpatrick:1
-2010:1
+kirpatrick:1
 cited:1
-6 p.:1
-The  survey:1
 took:1
-April  2018:1
-The link:1
-students:1
-own  university college:1
-the link:1
 leaflets:1
 handed:1
-the cantinas:1
-the University of Oslo:1
-Lastly:1
+cantinas:1
+lastly:1
 redistribute:1
-their  friends:1
-the  limitations:1
-this 
-convenience sampling:1
+convenience:1
+sampling:1
 snowballing:1
-23:1
-nonetheless:1
 reach:1
-the population:1
 wanted:1
 namely:1
-a Facebook account:1
 distributing:1
-the survey:1
 specified:1
-members:1
 participate:1
-Our respondents:1
 anything:1
 apart:1
-us  in  their  answers:1
-The  survey  questions:1
-Swedish:1
-Altogether:1
-188 respondents:1
+swedish:1
+altogether:1
 shared:1
-their thoughts:1
 analyzed:1
-the data:1
 searching:1
 themes:1
 trends:1
 mapped:1
-Findings:1
 discussion:1
 discuss:1
-our  findings:1
-the  four categories:1
 described:1
-the  previous section:1
+previous:1
+section:1
 present:1
-some 
-
- 
-
- 
-
-Wanda Presthus:1
 background:1
- gender:1
- frequency:1
-Facebook  visits:1
+frequency:1
 date:1
 joining:1
-(Because 
-none:1
-our  questions:1
 required:1
 response:1
 skipped:1
-some  questions:1
-our  results:1
-amount:1
 100%:1
-the results:1
 percentage:1
-the 188 respondents:1
-(55%:1
+55%:1
 women:1
 82:1
-(43%:1
-Regarding:1
-four  categories:1
-6 respondents:1
+43%:1
 20–25:1
 26–30:1
-20 respondents:1
-(108 respondents:1
-Our results:1
-108 respondents:1
+over 30:1
+30:1
 expected:1
-our majority:1
+majority:1
 lose:1
-some interesting nuances:1
 fall:1
-one  age  category:1
-Brian:1
-among:1
-university population:1
+brian:1
 usually:1
-this finding:1
-a report:1
-
-people:1
+report:1
 communicating:1
 openly:1
-younger  people:1
-The  reason:1
-the  low  number:1
-
-respondents:1
+low:1
+under 20:1
 distributed:1
-Bachelor and Master students:1
+bachelor:1
+master:1
 often:1
-four:1
-pre:1
--defined  categories:1
-(156  respondents:1
+pre-defined:1
+156:1
 weekly:1
-(28  respondents:1
-monthly (3 respondents:1
-1 respondent:1
-a Facebook 
-member:1
 2007:1
-(22 respondents:1
 115:1
 2010–2013:1
-(23 respondents:1
 2011–2015:1
-(11 
-respondents:1
-4  respondents:1
 typical:1
-30  years  old:1
-visits:1
+30 years old:1
 since:1
-4.1 Trust:1
-The  level:1
 explored:1
- 146  respondents:1
- answers:1
-these 
-answers:1
+146:1
 cluster:1
- two  groups:1
-OK/much  trust:1
-42  respondents:1
-62 
-respondents:1
-The comments:1
+ok/much:1
+none/somewhat:1
 ranged:1
 skeptical:1
-complete trust:1
+complete:1
 owning:1
-Ignorance:1
+ignorance:1
 bliss:1
-everybody:1
 collect:1
 makes:1
-their money:1
 selling:1
 entirely:1
-my own responsibility:1
-Even:1
-the Cambridge Analytica incident:1
-The responses:1
-our next question:1
-your personal data:1
-98 respondents:1
-19 respondents:1
-a different reason:1
-; No (37 respondents:1
-remember:1
-(9 respondents:1
-Our last question:1
-The answers:1
-(18  respondents:1
+incident:1
+next:1
+98:1
+different:1
+remember/do:1
+last:1
 large:1
-(23  respondents:1
-small:1
-71  respondents:1
-(72 
-respondents:1
-other words:1
-the average participant:1
-some trust:1
- 
-
-Our  results:1
+words:1
+average:1
+participant:1
 agree:1
- many  respondents:1
-One 
-respondent:1
-quite a lot:1
-Ten respondents:1
-
-trust:1
+quite:1
+lot:1
+ten:1
 irrelevant:1
-One respondent:1
 long:1
-an important point:1
 absolutely:1
-no trust:1
-Our 
-respondents:1
 reveal:1
-any insights:1
-the non:1
-user:1
-point:1
+non-user’s:1
 view:1
-72:1
-71 respondents:1
-small parts:1
-a common phenomenon:1
 supported:1
-Obar 
-:1
-Oeldorf-Hirsh:1
-4.2:1
-Benefits:1
-300 friends:1
+oeldorf-hirsh:1
+under 300:1
 23%:1
-
-600  friends:1
-72  respondents:1
-[38%];  600–1000  friends:1
-42 respondents:1
-[22%]);  over  1000  friends:1
-28 respondents:1
+300:1
+600:1
+38%:1
+600–1000:1
+over 1000:1
 15%:1
-[2%:1
-a  cross:1
-a 
+2%:1
 correlation:1
 suspect:1
 result:1
-a  smaller 
-number:1
-the case:1
-Level:1
-The largest group:1
-little trust:1
-the ones:1
-between 600:1
-1000 friends:1
-the privacy paradox:1
-any  conflict:1
-Facebook  friends:1
+ones:1
+between 600 and 1000:1
+conflict:1
 trusting:1
-their decision:1
-another cross:1
-this case:1
-a clearer pattern:1
+another:1
+clearer:1
+pattern:1
 note:1
-the answer:1
 correlates:1
-the more friends:1
 likely:1
 abandon:1
- Facebook:1
-the  value:1
-
-acquaintances:1
-Considered:1
-profile:1
-potential:1
-positive:1
-negative  consequences:1
-Facebook  profiles:1
+value:1
+considered:1
 clustered:1
-six categories:1
-9 (6%:1
+6%:1
 addicted:1
 impossible:1
-the  reasons:1
 work-:1
-school:1
-related:1
-33 (22%:1
+school-related:1
+33:1
 worry:1
-social life:1
+life:1
 birthdays:1
 deleted:1
 34:1
-(22%:1
 loose:1
-both close and distant friends:1
+close:1
+distant:1
 living:1
 away:1
-(18%:1
+18%:1
 missing:1
-important information:1
-school arrangements:1
-Similarly:1
-29 
-respondents:1
+school:1
+arrangements:1
+similarly:1
 29%:1
 miss:1
-new and old friends:1
-Only 20 respondents:1
+old:1
 13%:1
- deleting  their  profile:1
-no  negative  consequences:1
-The  positive  consequences:1
-
-profiles:1
 save:1
-time:1
- 600  friends:1
+between 300 and 600:1
 greatest:1
-benefit:1
 keeping:1
 touch:1
-Facebook profiles:1
 problematic:1
-4.3:1
-Cost:1
-Concern:1
 disagree:1
-all three statements:1
-The respondents:1
 45:1
-The respondents’ assessment:1
-the  open  question:1
-your  personal  data:1
+assessment:1
 got:1
-145 
-responses:1
-Misuse:1
-the top concern:1
-37 respondents:1
-this one word:1
-
-others:1
-identity theft:1
+145:1
+top:1
+word:1
+theft:1
 spam:1
 manipulation:1
-targeted commercials:1
-the  data:1
-a  third  party:1
-wide:1
-range:1
- concerns:1
+commercials:1
+party:1
 dare:1
- their  friends:1
-others:1
- criminals:1
 identify:1
-Twelve 
-respondents:1
-Our findings:1
-Solove:1
-Martin’s:1
-[9] examples:1
-concern:1
-Bélanger and Crossler:1
-their 
-information privacy:1
-the concerns:1
-About one third:1
+twelve:1
+martin’s:1
+about one third:1
 expressed:1
 mistrust:1
-Only four respondents:1
+only four:1
 committed:1
 protecting:1
-less than one 
-third:1
-kind:1
- data  Facebook  collects:1
-50%:1
-their privacy settings:1
-the same time:1
-only 20 respondents:1
+less than one third:1
+over 50%:1
 12%:1
-their user profile:1
 problems:1
-4.4 Self-disclosure:1
-Our question:1
 acceptable:1
-many 
-
-possible answers:1
 check:1
 more than one:1
-gender:1
-(90 respondents:1
-What pages:1
+90:1
+pages:1
 like:1
-public figures:1
-70 respondents:1
-Events:1
+public:1
+figures:1
+70:1
+events:1
 attend:1
 interested:1
-What websites:1
 visit:1
-47 respondents:1
-What friends:1
-(29 respondents:1
-Content:1
-Facebook groups:1
+content:1
 ’m:1
-(21 respondents:1
-what posts:1
 stop:1
 scrolling:1
-my feed:1
-(17 respondents:1
-My IP address:1
-15 respondents:1
-My whole user history:1
-11 respondents:1
-Bluetooth signals:1
-7 respondents:1
- Data:1
+feed:1
+whole:1
+history:1
+bluetooth:1
+signals:1
 collected:1
-other websites:1
-My phone calls:1
-My chat conversations:1
-My contact list:1
-my phone:1
-(3 respondents:1
-the above (57 respondents:1
-my friends:1
-my profile:1
-(7 respondents:1
-saved files:1
-my devices:1
-4 respondents:1
-Among:1
-the 185 responses:1
-as many of 57 respondents:1
-Moreover:1
-our data:1
+calls:1
+chat:1
+conversations:1
+list:1
+saved:1
+files:1
+devices:1
+185:1
+moreover:1
 show:1
 46:1
-the Facebook site:1
+00 ( 2018:1
 protective:1
 aggregated:1
-multiple sources:1
-question:1
-Would:1
-Facebook  per  month:1
-The 
-potential answers:1
-my personal data:1
+multiple:1
+facebook per month:1
 49:1
-(25  respondents:1
-10 
-respondents:1
-(2 respondents:1
-54 respondents:1
-the 
-largest  group:1
+less than:1
+less than 10:1
+54:1
 followed:1
-the smallest amount:1
-less than 2 euros:1
-The open question:1
-Facebook owner Mark Zuckerberg:1
-the time:1
-your thoughts:1
-a  wide range:1
-answers:1
-Some respondents:1
-28:1
-some  others:1
+smallest:1
+owner:1
 felt:1
 resigned:1
 saying:1
-right:1
-“RIP privacy:1
-One 
-journalist reporting:1
-the British Parliament:1
+rip:1
+journalist:1
+reporting:1
+british:1
+parliament:1
 went:1
 describe:1
-a “digital gangster:1
 put:1
-any label:1
-the aim:1
-this study:1
+label:1
+aim:1
 criticize:1
 seems:1
 accumulated:1
-a certain number:1
-increasingly:1
+certain:1
 difficult:1
 argued:1
 mover:1
 advantage:1
- many  users:1
-Still:1
-the only social media site:1
 follow:1
 developments:1
-the near future:1
+near:1
 already:1
-some indications:1
-the younger population:1
-other preferences:1
-the  General  Data  Protection Regulation:1
- three respondents:1
+indications:1
+preferences:1
 referred:1
-the  open question:1
-any  other  comments:1
-Rather:1
-the responsibility:1
-the sense:1
+sense:1
 careful:1
-posts:1
-the social media site:1
 candid:1
 safe:1
 say:1
 better:1
 knowing:1
-finding:1
 contradictive:1
-Bandara et al:1
-the decision process:1
-privacy trade-off:1
-limited 
-knowledge:1
-psychological distance:1
-Conclusion:1
-limitations:1
+process:1
+limited:1
+conclusion:1
 suggested:1
 guided:1
-the following research question:1
-Based:1
-a Norwegian online survey:1
-April 2018:1
-some  descriptive insights:1
 played:1
-a smaller part:1
-the privacy calculus:1
- model:1
-our 
-study:1
 responsible:1
-Second,  the  largest 
-benefit:1
-a Facebook member:1
-acquaintances:1
-third parties:1
-criminals:1
-Third:1
-the self-disclosure:1
-a 
-privacy trade-off:1
-Using:1
-
-Watson’s creepiness scale:1
+watson’s:1
 helpful:1
 creepy:1
 wrong:1
-Our study:1
-several limitations:1
 addressed:1
-These limitations:1
 carefree:1
-way:1
-more nuances:1
 30 years:1
 older:1
 analyze:1
@@ -1503,341 +1120,228 @@ influences:1
 various:1
 attitudes:1
 towards:1
-Our  findings:1
 generalization:1
-our goal:1
-descriptive insights:1
-statistical correlations:1
+goal:1
+statistical:1
+correlations:1
 cause-:1
--effect:1
+and-effect:1
 relationships:1
 iii:1
-the future:1
-Currently:1
-monetary payment:1
-their services:1
-Future research:1
-new  business  models:1
- social  media:1
- existing  research:1
- this 
-subject:1
+currently:1
 evolution:1
- sums:1
-paper:1
+sums:1
 displeased:1
 managed:1
-a position:1
-their service:1
+position:1
 made:1
-an active choice:1
-the way:1
-today:1
 reflects:1
-our 
 perception:1
-information  privacy:1
 really:1
 cares:1
-Everybody:1
 wants:1
 home:1
-their  spouse:1
+spouse:1
 something:1
 similar:1
 fast:1
-possible:1
-The more Facebook:1
 ease:1
-our lives:1
- 
-
- 
-
- 
-
-Wanda Presthus:1
-47
- 9:1
+lives:1
 thank:1
-our  anonymous  survey:1
 participants:1
 sharing:1
-their  thoughts:1
- privacy:1
 grateful:1
-the three reviewers:1
-whose thorough comments:1
+reviewers:1
+whose:1
+thorough:1
 raise:1
-the quality:1
-this paper:1
-Acknowledgements:1
-References:1
- Statista:1
-monthly:1
-1st:1
+quality:1
+acknowledgements:1
+references:1
 quarter:1
-https://www.statista.com/statistics/264810/number-of-monthly-active-facebook-users-worldwide/:1
-April 1st, 2019:1
-Veberg:1
- A.:1
+com/statistics/264810/number-of-monthly-active-facebook-users-worldwide/:1
+april 1:1
+veberg:1
 årsaker:1
-Forbrukerrådet:1
-satte  kaffen:1
- da  de  leste:1
-intervjuet:1
-Facebook-sjefen:1
-
-Aftenposten.no:1
-09.05.2018:1
-https://www.aftenposten.no/kultur/i/m6w62g/Tre-arsaker-til-at-Forbrukerradet-:1
+forbrukerrådet:1
 satte:1
 kaffen:1
+vrangstrupen:1
 leste:1
--intervjuet:1
-sjefen:1
-Coldewey:1
-, D.:1
-a monopoly:1
-Read:1
-Sen. Graham’s delightful grilling:1
-Techcrunch.com:1
-(Accessed April 15th, 2018:1
-https://techcrunch.com/2018/04/10/you-dont-think-you-have-a-monopoly-read-sen-grahams-delightful-grilling-:1
-zuckerberg/?guccounter=1:1
-Eavis:1
- P.:1
-Three  Takeaways  :1
-Mark  Zuckerberg:1
-Senate  Testimony:1
- DealBookBriefing:1
- Nytimes.com:1
-April 
-
-15th, 2018:1
-https://www.nytimes.com/2018/04/10/business/dealbook/mark-zuckerberg-congress-hearing.html:1
-Nes:1
- C.:1
+intervjuet:1
+facebook-sjefen:1
+09:1
+05:1
+no/kultur/i/m:1
+g/tre-arsaker-til-at-forbrukerradet-:1
+satte-kaffen-i-vrangstrupen-da-de-leste-intervjuet-med-facebook-sjefen:1
+coldewey:1
+monopoly:1
+graham’s:1
+delightful:1
+grilling:1
+techcrunch:1
+https://techcrunch:1
+com/2018/04/10/you-dont-think-you-have-a-monopoly-read-sen-grahams-delightful-grilling-:1
+of-zuckerberg/:1
+guccounter=1:1
+eavis:1
+takeaways:1
+zuckerberg’s:1
+testimony:1
+dealbookbriefing:1
+com/2018/04/10/business/dealbook/mark-zuckerberg-congress-hearing:1
+html:1
+nes:1
 ting:1
-vi  kan  lære:1
-Facebook-skandalen:1
-[Norwegian]  Personvernbloggen.no:1
-20.04.2018:1
-https://www.personvernbloggen.no/2018/04/20/tre-ting-vi-kan-laere-av-facebook-skandalen/:1
-, S.:1
-Big Data:1
-Big Dupe:1
-A little book:1
-a big bunch:1
+lære:1
+facebook-skandalen:1
+no/2018/04/20/tre-ting-vi-kan-laere-av-facebook-skandalen/:1
+dupe:1
+book:1
+bunch:1
 nonsense:1
-Analytic Press:1
-[7]  Watson:1
-H.J.:1
-Update  Tutorial:1
-Big  Data  Analytics:1
- Concepts:1
- Technology:1
- Applications:1
-Communications:1
-the  Association:1
-21:1
+analytic:1
+update:1
+tutorial:1
+concepts:1
+applications:1
+communications:1
+association:1
 364–379:1
-   Bandara:1
- R.:1
- M.  Fernando:1
- S.  Akter:1
-The  Privacy  Paradox  :1
-Driven:1
-Marketplace:1
-The  :1
-Role:1
-Knowledge:1
-Deficiency:1
-Psychological Distance:1
-Procedia computer science:1
+fernando:1
+akter:1
+data-driven:1
+marketplace:1
+deficiency:1
 121:1
-562:1
-567:1
-Martin:1
-K.E., Ethical:1
-issues:1
-the big data industry:1
-MIS Quarterly Executive:1
+562-567:1
+martin:1
+industry:1
+quarterly:1
+executive:1
 67–85:1
-[10] O'Brien:1
-D.:1
-A.M.:1
-networking:1
-online  privacy:1
-Irish  Journal:1
- Management:1
+o'brien:1
+irish:1
 2012:1
-31(2:1
+31:1
 63-97:1
-Kemp:1
-S.:1
+kemp:1
 make:1
 sure:1
-these settings:1
-Thenextweb.com:1
-28.03.2018:1
-April 
-:1
-11th:1
- https://thenextweb.com/contributors/2018/03/28/data-shows-didnt-deletefacebook-make-sure-change-settings/.:1
-Shapiro:1
-C.:1
-H.R. Varian:1
+thenextweb:1
+03:1
+april 11:1
+https://thenextweb:1
+com/contributors/2018/03/28/data-shows-didnt-deletefacebook-make-sure-change-settings/:1
+shapiro:1
+varian:1
 rules:1
-a strategic guide:1
-the network economy:1
-Harvard Business Press:1
-[13] Bélanger:1
-F.:1
-R.E.  Crossler:1
-the  Digital  Age:1
-A  Review:1
-Privacy  Research:1
-Information  Systems:1
-Quarterly, 2011:1
+strategic:1
+guide:1
+economy:1
+1999:1
+harvard:1
+f:1
+review:1
+quarterly , 2011:1
 1017–1041:1
-H. Sørum:1
-L.R. Andersen:1
-GDPR compliance:1
-Norwegian Companies:1
-Norsk konferanse:1
+sørum:1
+compliance:1
+norsk:1
+konferanse:1
 organisasjoners:1
 bruk:1
-(NOKOBIT:1
-Svalbard:1
-18-20:1
-September:1
-http://ojs.bibsys.no/index.php/Nokobit/article/view/543/462  Bibsys  Open  Journal  Systems:1
-ISSN:1
-1894:1
-7719:1
- L.  Andersen:1
-Information  Privacy:1
-Retail  :1
-Management:1
-Perspective:1
-Proceedings:1
-25th:1
- European 
-
-Conference:1
-ECIS:1
-, Guimarães:1
-Portugal:1
-June 5-10, 2017:1
+nokobit:1
+svalbard:1
+18-20 september 2018:1
+http://ojs:1
+no/index:1
+php/nokobit/article/view/543/462:1
+issn:1
+1894-7719:1
+retail:1
+proceedings:1
+ecis:1
+guimarães:1
+portugal:1
+june:1
+5-10:1
 pp:1
 1968-1983:1
-16] Pingdom:1
-Exploring:1
-the  software:1
-the  world's  largest  social  media  site:1
- https://royal.pingdom.com/the-software-behind-:1
+exploring:1
+software:1
+world:1
+'s:1
+https://royal:1
+com/the-software-behind-:1
 facebook/:1
-accessed:1
-April 3rd, 2019] 2019:1
-17]Krasnova:1
-H.:1
- N.  Veltri:1
-Calculus:1
-Social  Networking  Sites:1
-Explorative  Evidence:1
-Germany:1
- USA:1
-Paper:1
+april:1
+veltri:1
+explorative:1
+evidence:1
+germany:1
 presentert:1
-the 43rd Hawaii International Conference on System Sciences:1
-Honolulu:1
-HI:1
-USA:1
-January 5-8. 2010:1
-Mason:1
-R.O.:1
-Four ethical issues:1
-the information age:1
-MIS Quarterly:1
+hawaii:1
+system:1
+sciences:1
+honolulu:1
+hi:1
+january:1
+5-8:1
+mason:1
+quarterly , 1986:1
 5–12:1
-[19] Solove:1
-D.J.:1
-A taxonomy:1
-U. Pa.:1
-L. Rev.:1
+solove:1
+rev:1
 2005:1
 154:1
 477–560:1
-[20] Dinev:1
-T.:1
-Privacy calculus model:1
-commerce:1
-a study:1
-Italy:1
-the Unites States:1
-European Journal of Information Systems:1
-2006:1
+dinev:1
+italy:1
+unites:1
 389–402:1
-331:1
-339:1
-21]Chena:1
-R.:1
-S.K. Sharma:1
-Understanding:1
-member use:1
-social networking sites:1
-a risk perspective:1
-Procedia Technology:1
+331-339:1
+chena:1
+sharma:1
+understanding:1
 2013:1
-Ellison:1
-N.B.:1
-Cultivating Social Resources on:1
-Social Network Sites:1
-Facebook Relationship Maintenance Behaviors:1
-Their Role:1
-Social Capital Processes:1
-Journal of Computer-Mediated Communication:1
+cultivating:1
+resources:1
+maintenance:1
+behaviors:1
+capital:1
+processes:1
+computer-mediated:1
 2014:1
-4 (19): p.:1
 855–870:1
-23]Oates:1
-B.J.:1
-Researching Information Systems:1
-Computing:1
-2006: Sage Publications Ltd.:1
-Miles:1
-M.B.:1
-A.M. Huberman:1
-Qualitative Data Analysis:1
-1994: Thousand Oaks: Sage Publications:1
-Marthinsen:1
-Brukertallene:1
-Sosialkommunikasjon.no:1
+oates:1
+researching:1
+computing:1
+24 ] miles:1
+huberman:1
+analysis:1
+1994:1
+thousand:1
+oaks:1
+marthinsen:1
+brukertallene:1
+sosialkommunikasjon:1
 medier:1
 sosiale:1
-S.T.:1
-http://sosialkommunikasjon.no/author/sveintore/.:1
-17.11.17:1
-Obar:1
-J.A.:1
- A.  Oeldorf-Hirsch:1
+http://sosialkommunikasjon:1
+no/author/sveintore/:1
+oeldorf-hirsch:1
 biggest:1
 lie:1
-the  Internet:1
 ignoring:1
-the  privacy  policies:1
-service  policies:1
-social:1
-networking services:1
-Information, Communication & Society:1
+society:1
 1–20:1
-Stolt-Nielsen:1
-H., Han anklages:1
-å opptre som "digital gangster:1
-Aftenposten:1
-February 20th, 2019:1
+stolt-nielsen:1
+anklages:1
+opptre:1
+february:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:14
-Privacy:4
+Privacy:71
+data protection:4

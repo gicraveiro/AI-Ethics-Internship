@@ -3,1700 +3,1199 @@
 
 
 With stop word removal 
-Size of original corpus: 5411 
-Size of filtered corpus: 2250
-Size of Lexicon: 1519
+Size of original corpus: 5502 
+Size of filtered corpus: 2972
+Size of Lexicon: 1184
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:68
-users:55
-privacy:17
-Figure:15
-may:14
+users:136
+facebook:101
+data:70
+privacy:64
+personal:42
+online:33
+user:30
+information:29
+social:28
+2:21
+figure:21
+awareness:20
+1:19
+media:17
+account:16
+5:15
+may:15
+profile:15
+research:14
+study:14
+available:14
+south:13
 used:13
-1:12
-2:10
-5:10
- users:10
-online:9
+3:12
+page:11
+africa:11
+students:11
+11:11
+13:11
+2010:11
+based:10
+site:10
+location:10
+number:10
+science:9
+org/10:9
+share:9
+user’s:9
+survey:9
+attack:9
 use:9
-based:8
-available:8
-share:8
+security:8
 using:8
-Privacy:8
+post:8
+shared:8
+african:8
+http://www:8
+individuals:8
+model:8
+14:8
+total:8
+results:8
+settings:8
+university:7
+2018:7
+p:7
+sites:7
 protect:7
-profile:7
-post:7
-shared:7
-information:7
-Users:7
-3:7
-personal data:6
-user awareness:6
+third:7
+parties:7
+observation:7
+access:7
+4:7
+possible:7
+secure:7
+sharing:7
+9:7
+journal:7
+title:7
+internet:7
+r:7
+https://doi:7
+article:6
+profiling:6
+114:6
+sajs:6
 shown:6
-third parties:6
-data:6
-personal:6
-access:6
+risks:6
+sample:6
+findings:6
+risk:6
+profiles:6
 could:6
-4:6
+6:6
+issues:6
+15:6
+cloning:6
+short:6
+nwu:6
+friend:6
+chart:6
+respondents:6
 cited:6
-South Africa:5
+2016:6
+30:5
+networks:5
+third-party:5
 important:5
+marketers:5
+activities:5
 selected:5
-this study:5
-location:5
+case:5
+frequency:5
+lack:5
+pictures:5
+identity:5
 track:5
-secure:5
-the user:5
-possible:5
-South African Journal of Science:5
-Number:5
-5/6:5
-Chart Title:5
-social:5
-2010:5
-2016:5
+criminals:5
+geo-location:5
+friends:5
+7:5
+8:5
+updates:5
+public:5
+10:5
+potential:5
+co:5
+volume:5
+|:5
+number 5/6:5
+may/june:5
+fake:5
+20:5
+surveys:5
+new:5
+daily:5
+meet:5
+webpage:5
+email:4
+accepted:4
+applications:4
 make:4
-awareness:4
+platform:4
+posting:4
+tools:4
+patterns:4
+content:4
 without:4
+sensitive:4
 necessary:4
 highlight:4
-May/June 2018:4
-Page:4
-user:4
-their data:4
-http://www.sajs.co.za:4
-total:4
-Volume:4
-the results:4
-the users:4
-20:4
-meet:4
-[webpage:4
-the Internet:4
-Available:4
-p.:4
-Data:3
-their personal data:3
-users’ personal data:3
-Facebook users:3
-posting:3
+second:4
+cyber:4
+12:4
+control:4
+often:4
+details:4
+scams:4
+surveillance:4
+18:4
+methodology:4
+collection:4
+polling:4
+checklist:4
+participants:4
+population:4
+request:4
+analysis:4
+25:4
+practice:4
+privacy policy:4
+2014:4
+velempini:3
+north-west:3
+apr:3
+2017:3
+advertising:3
+sci:3
+pages:3
+threats:3
+need:3
+largest:3
 uploaded:3
 obtained:3
-lack:3
+finding:3
 designed:3
+behaviour:3
+usage:3
+protected:3
+age:3
+false:3
+accounts:3
+movements:3
+holiday:3
 associated:3
-Africa:3
-’s:3
+aim:3
+50:3
+background:3
+status:3
 considered:3
-Research Article 
-:3
-Personal data:3
+targeted:3
 needs:3
 willing:3
 lead:3
-control:3
 perpetrated:3
-often:3
-individuals:3
+scammers:3
 developed:3
+service:3
 shows:3
+approach:3
 trust:3
 names:3
+theory:3
 aware:3
-account:3
-surveillance:3
+employment:3
+vulnerable:3
+definition:3
+16:3
+17:3
 done:3
 given:3
 liked:3
-NWU:3
-students:3
 see:3
-114:3
-|:3
 validate:3
-accepted:3
+full:3
 makes:3
-10:3
-6:3
-7:3
+common:3
+never:3
+activity:3
+stranger:3
+challenges:3
+21:3
 policy:3
-9:3
+responsibilities:3
 responsible:3
-media:3
-14:3
-North-West University:2
-Science:2
-University:2
-Published:2
+emerging:3
+2011:3
+1016/j:3
+editors:3
+york:3
+authors:2
+nyoni:2
+mthulisi:2
+department:2
+computer:2
+27:2
+revised:2
+29:2
+07:2
+published:2
+supplementary:2
+material:2
 set:2
-Facebook
-
-:2
+funding:2
 store:2
+large:2
 hackers:2
-marketers:2
-the need:2
-users’ privacy:2
-the privacy:2
+incidents:2
 evaluated:2
-the site:2
+popular:2
+group:2
+liking:2
 publicly:2
-risk:2
-This study:2
+assessment:2
+tool:2
 help:2
 evaluate:2
 considering:2
 ensure:2
+introduction:2
 always:2
 example:2
 create:2
-sensitive data:2
+clone:2
 violated:2
-content:2
 violate:2
 whenever:2
 break:2
 away:2
 still:2
-their privacy:2
-The site:2
+violations:2
+search:2
 add:2
-friends:2
-Social media:2
-second:2
 connect:2
+interests:2
 allows:2
+groups:2
 involves:2
-status updates:2
+inform:2
 appear:2
 well:2
+anyone:2
+domain:2
 posted:2
+target:2
+personalised:2
+services:2
+products:2
+previous:2
 focused:2
 examine:2
-114 |:2
-holiday:2
+individual:2
+generated:2
+recent:2
 include:2
-profiling:2
 obtaining:2
-users.11:2
+high:2
+report:2
+2015:2
 found:2
 tracked:2
 including:2
 longer:2
-users’ data:2
+scam:2
 young:2
-scammers:2
+parents:2
 sent:2
-a false account:2
 verify:2
 reveals:2
+conger:2
 exist:2
 passed:2
 onto:2
- privacy:2
+consent:2
 stored:2
 researchers:2
-Information:2
+towards:2
 addresses:2
+advertiser:2
+adverts:2
 defined:2
-theory:2
+measure:2
+uncertainty:2
 included:2
 engage:2
-a  number:2
-cloning:2
-the purpose:2
-employment.11:2
-Individuals:2
+big:2
+law:2
+enforcement:2
+purpose:2
+bullying:2
+availability:2
+purposes:2
+checks:2
 reviewing:2
-vulnerable:2
+prospective:2
+policies:2
+ways:2
 provided:2
-service:2
+westin:2
+wacks:2
+view:2
+highlights:2
+providers:2
+giving:2
 would:2
-data collection:2
+19:2
 consisted:2
-The users:2
-a polling checklist:2
-a fake account:2
+researcher:2
 drawn:2
-Facebook  page:2
+stakeholders:2
+student:2
+different:2
 357:2
 accessed:2
-Facebook account cloning attack:2
-The aim:2
+convenience:2
+size:2
+guidelines:2
+krejcie:2
+morgan:2
 whether:2
-The attack:2
+requests:2
 informed:2
-A total:2
+237:2
 friended:2
-User surveys:2
 conducted:2
-attack:2
+first:2
+methods:2
+training:2
+active:2
+undergraduate:2
 67%:2
 partially:2
 33%:2
-(Figure:2
+attackers:2
+people:2
 150:2
-Full:2
-Partial:2
+partial:2
+1 2:2
 order:2
-Most users:2
 either:2
+sometimes:2
+travel:2
+time:2
 56%:2
-daily:2
-many users:2
+38%:2
+many:2
+devices:2
 47%:2
+table:2
 14%:2
-pictures:2
-Frequency:2
+video:2
+uploads:2
+facebook’s:2
+tags:2
+image:2
 responded:2
+response:2
+rate:2
 87:2
-practice:2
-13:2
+impersonators:2
 changed:2
 regularly:2
-15:2
-25:2
-never:2
+88%:2
 know:2
+someone:2
 7%:2
-stranger:2
-public:2
-8:2
-Based:2
- settings:2
+willingness:2
+home:2
+metadata:2
+posts:2
 misused:2
-However:2
+however:2
+written:2
+technical:2
 easily:2
-Protected:2
-User:2
+responsibility:2
+desensitised:2
+actors:2
 must:2
 achieved:2
+property:2
 conceptualisation:2
-the initial draft:2
-Apr:2
-the  Internet:2
-2014:2
-editors:2
-Handbook:2
-research:2
-New York:2
-Research Article 
-:1
-Page 1 of 5
-
-AUTHORS:1
-
-Phillip Nyoni1:1
-Mthulisi Velempini2:1
-AFFILIATIONS:1
-1Department:1
-Information 
-Systems:1
-Mafikeng:1
-2Department:1
-Computer 
-:1
-Limpopo:1
-Polokwane:1
-CORRESPONDENCE:1
-Mthulisi Velempini:1
-EMAIL:1
-mvelempini@gmail.com 
-
-DATES:1
-Received:1
-27 Apr.:1
-2017:1
-Revised:1
-29 Aug. 2017:1
-Accepted:1
-07:1
-Dec. 2017:1
-30 May 2018:1
-KEYWORDS:1
-
-social networks:1
-online profiling:1
-third-party 
-applications:1
-online advertising:1
-
-Nyoni P:1
-Velempini M. 
-Privacy:1
-S Afr J 
-Sci:1
-2018;114(5/6:1
-Art:1
-#2017-0103, 5 pages:1
-http://dx.doi.org/10.17159/:1
-sajs.2018/20170103:1
-ARTICLE INCLUDES:1
+initial:2
+draft:2
+networking:2
+comput:2
+2013:2
+malik:2
+nov:2
+com/:2
+psychol:2
+2009:2
+https://www:2
+handbook:2
+springer:2
+copyright:2
+phillip:1
+affiliations:1
+systems:1
+mafikeng:1
+limpopo:1
+polokwane:1
+correspondence:1
+mvelempini@gmail:1
+dates:1
+received:1
+aug:1
+dec:1
+keywords:1
+afr:1
+5/6:1
+art:1
+2017-0103:1
+http://dx:1
+17159/:1
+2018/20170103:1
+includes:1
 :1
-Supplementary:1
-material:1
 ×:1
-FUNDING:1
-
-North-West University 
-
-Privacy:1
-Users’ privacy:1
-social media platforms:1
+platforms:1
 continues:1
-numerous threats:1
-Social media sites:1
-large amounts:1
-such sites:1
+numerous:1
+amounts:1
 prime:1
 targets:1
-Research:1
 subjected:1
 attacks:1
 hacked:1
- personal  data:1
 sold:1
-These  incidents:1
 prompted:1
-data theft:1
+theft:1
 investigated:1
-risks:1
-social media users:1
-The privacy awareness:1
-regular users:1
-the observation:1
-their online activities:1
-a 
-case study:1
-the largest and most popular social media platform:1
-A sample 
-group:1
-their activeness:1
-frequency:1
-liking:1
-Findings:1
+regular:1
+activeness:1
 indicate:1
-The  implication:1
-finding:1
+implication:1
 adequate:1
-protection tools:1
-a result:1
+protection:1
+result:1
 losing:1
-Significance:1
+significance:1
 serves:1
-an assessment tool:1
-the privacy and security features:1
-the social media site:1
-This assessment tool:1
-social media sites:1
-their own behaviour:1
-
-usage patterns:1
+features:1
 assist:1
-social media site designers:1
-the effectiveness:1
-current measures:1
+designers:1
+effectiveness:1
+current:1
+measures:1
 safety:1
-protected:1
-Introduction
-Social media:1
 attracted:1
-robust debate:1
+robust:1
+debate:1
 around:1
-user privacy:1
-these sites:1
-online.1,2:1
-User-generated content:1
-the core:1
-their opinions:1
-personal pictures:1
-age:1
-gender.2:1
-an understanding:1
-the risks:1
-involved.2:1
+user-generated:1
+core:1
+opinions:1
+gender:1
+understanding:1
+involved:1
 assume:1
-a trusted computing platform:1
-the case.2:1
-false accounts:1
-clone user:1
-accounts:1
+trusted:1
+computing:1
 steal:1
-personal data.3:1
-Third-party  applications:1
- games:1
+games:1
 present:1
-a  threat:1
-data.2,3:1
-These 
-applications:1
+threat:1
 attempt:1
-users’ Facebook profiles:1
-A  users’  privacy:1
-the  third-party  application:1
+application:1
 publish:1
-the 
-identity:1
-privacy.4 Third-party applications:1
-online users’ activities.1
-
-Criminals:1
-the movements:1
-their geo-location data:1
- users’  properties:1
-holiday.5:1
+properties:1
 attempted:1
 offer:1
-tools:1
 protecting:1
-the awareness:1
-these tools:1
-lacking.2:1
-possible risks:1
-such self-disclosure:1
-tools.6:1
+lacking:1
+self-disclosure:1
 envisioned:1
-increased privacy awareness:1
+increased:1
 encourage:1
-their data.6:1
-users’ awareness:1
-Our aim:1
-social media privacy risks:1
-a case study:1
-popular:1
-a number:1
-documented incidents:1
-privacy violations:1
+documented:1
 encourages:1
-search:1
-other users’ profiles:1
-their privacy.3:1
-This open sharing:1
-the heart:1
-Facebook
-Facebook:1
-the largest social media sites:1
-1.28 billion users.7:1
-50.3 million Facebook users:1
-5.5 million users:1
+open:1
+heart:1
+28 billion:1
+3 million:1
+5 million:1
 making:1
-largest:1
 nation:1
-Egypt:1
-13 million users).8:1
+egypt:1
+13 million:1
 operates:1
 getting:1
-their background:1
-interests.2:1
 join:1
-groups:1
-the same likes:1
-Each user:1
+likes:1
 signs:1
-an online profile:1
 contains:1
-their name:1
-email:1
-address.2:1
-Part:1
-inform:1
+address:1
+part:1
 others:1
-These 
-updates:1
-their friends’ newsfeeds:1
+newsfeeds:1
 atop:1
-feed.2:1
-These data:1
-anyone:1
-the public domain.9:1
-the type:1
-an 
+feed:1
+type:1
 attacker:1
 collect:1
-target:1
-the personal information:1
-share.9:1
-The creator:1
-the past:1
+creator:1
+past:1
 expressed:1
-the value:1
-site:1
-offers.10:1
-Personalised services:1
-targeted advertising:1
+value:1
+offers:1
 rely:1
-users’ personal information.10 Tailoring services:1
-personal information:1
+tailoring:1
 companies:1
 segment:1
-potential customers:1
+customers:1
 advertise:1
-their products.10:1
-©:1
-2018:1
-The Author(s:1
-a Creative 
-Commons Attribution Licence:1
-Previous studies:1
-the usage patterns:1
-university students:1
-the 
-privacy issues:1
+10 © 2018:1
+author:1
+creative:1
+commons:1
+attribution:1
+licence:1
+studies:1
 faced:1
-these students:1
-Facebook.9:1
-the online privacy issues:1
-that users:1
 encounter:1
 suggest:1
-these issues:1
 mitigated:1
-http://www.sajs.co.za
-
-27
-
-Volume:1
-Facebook
-:1
 linked:1
-individual:1
 utility:1
-bills.11:1
+bills:1
 relies:1
-these data:1
-generated.11:1
 disclose:1
-very  personal  aspects:1
+aspects:1
 lives:1
 trips:1
- recent  job:1
- promotions.11:1
-The 
+job:1
+promotions:1
 implications:1
-these  data:1
-online  marketers:1
-cyber  criminals:1
- information:1
-a high potential:1
 misuse:1
-wrongfully.11:1
-A report:1
-the advocacy group Security and Privacy in Online Social 
-:1
-Networks12:1
-2015:1
+wrongfully:1
+advocacy:1
 browsing:1
 histories:1
-an account:1
 opted:1
-These direct violations:1
+direct:1
 less:1
-Facebook12:1
-their data4:1
-Another scam:1
-criminals:1
+another:1
 targeting:1
 teenage:1
-users.13:1
-personal  details:1
-a  trip:1
+trip:1
 town:1
-geo-
-location data)13:1
+geo-:1
 call:1
-the user’s parents:1
 pretending:1
-the police:1
+police:1
 arrested:1
-the exact location:1
-Facebook.13:1
-The scammers:1
+exact:1
 legitimate:1
 provide:1
-other information:1
-
-profile:1
- age:1
 hometown:1
-school.13:1
+school:1
 demand:1
 money:1
 bail:1
-the parents:1
-their claims:1
+claims:1
 paying:1
-the scam:1
-successful.13:1
-such scams:1
+successful:1
 demonstrates:1
-personal 
-information:1
-criminals.3,5,11:1
-sharing:1
 interact:1
 helps:1
 government:1
 spy:1
 accessing:1
-their Facebook data.13 
-
-:1
-Data sharing model:1
-An information privacy model:1
-Conger14:1
 lays:1
-the types:1
+types:1
 relationships:1
- website:1
+website:1
 operators:1
-
-Facebook:1
-online marketers:1
-This model:1
 gives:1
-a visual 
+visual:1
 illustration:1
-the service 
 provider:1
-user consent.14:1
-The 
-model:1
-the  sale:1
-personal data.1:1
-A lack:1
-what information:1
 led:1
 questioning:1
-Facebook‘s 
-approach:1
-towards:1
-privacy.14:1
-Facebook
-
-Facebook:1
+facebook‘s:1
 takes:1
-the risk:1
 holding:1
-
-users’ data:1
-Data
-
-Facebook 
-platform:1
-Hosted  
-third-party 
+hosted:1
 apps:1
-
 emails:1
-other
-
-Online 
-advertiser:1
-Online 
-advertiser:1
-Users’ data:1
-personalised:1
-
-targeted adverts:1
-Information privacy:1
-model.14:1
-South African Journal:1
 28:1
-Risks users:1
-Facebook
-Risk:1
-a measure:1
-uncertainty:1
-an event:1
+event:1
 happening:1
 times:1
-the  severity:1
-the  outcome’15:1
-Risk:1
+severity:1
+outcome’15:1
 explain:1
-unsafe behaviour:1
- potential  threats:1
-the  data:1
-These potential threats:1
-Profiling:1
-Big data analytics:1
-law enforcement agencies:1
-them.15:1
-Scams:1
- identity  fraud:1
- scams:1
-impersonate officials:1
+unsafe:1
+analytics:1
+agencies:1
+fraud:1
+impersonate:1
+officials:1
 defrauding:1
-individuals.15:1
-Surveillance:1
-cyber bullying:1
-The availability:1
-harassment purposes.15:1
-Disclosing:1
-personal  information:1
+harassment:1
+disclosing:1
 affected:1
-some  users:1
-their search:1
 subject:1
-background 
-checks:1
 signing:1
-employment contracts:1
-These background checks:1
+contracts:1
 involve:1
-social media accounts:1
 exhibit:1
-online behaviour:1
-a prospective employer:1
+employer:1
 finds:1
 unprofessional:1
 negatively:1
 affect:1
-their chances:1
+chances:1
 already:1
 employed:1
 negative:1
 remarks:1
-their  organisation:1
-These  risks:1
+organisation:1
 show:1
-data.2:1
-self-
+self-:1
 disclosure:1
-a consequence:1
+consequence:1
 ineffective:1
-policies.3:1
-Defining:1
-ways:1
+defining:1
 adopted:1
-the 
-definition:1
-Westin16:1
-Westin’s16:1
-definition:1
+westin’s:1
 views:1
 claim:1
- groups:1
 institutions:1
 determine:1
 extent:1
 communicated:1
 others’16:1
-This definition:1
 supported:1
-Wacks17:1
 describes:1
-the desire:1
+desire:1
 left:1
 alone:1
-This view:1
 links:1
-the  preservation:1
-identity:1
-individuals.17:1
-It  also  highlights:1
-their own information:1
+preservation:1
 specifically:1
 disseminated:1
-providers.18:1
-This control:1
 implemented:1
-giving:1
- options:1
- data  minimisation:1
-a 
-limited data sharing:1
-mode.18:1
-This option:1
+options:1
+data minimisation:1
+limited:1
+mode:1
+option:1
 allow:1
 preserve:1
 grant:1
-their data.18
-
-Methodology
-:1
 utilised:1
-a mixed-methods approach:1
-approach:1
+mixed-methods:1
 depth:1
-the findings.19:1
-The methodology:1
-online  observation:1
 constituted:1
-a 
-natural setting:1
+natural:1
+setting:1
 observed:1
 gathered:1
-the profiles:1
 addition:1
-the researcher:1
 test:1
 easy:1
-clone:1
-a user’s profile:1
-Finally:1
-a short survey:1
-users’ general awareness:1
-Ethical clearance:1
-North-:1
-West:1
-(NWU:1
-Research Ethics Committee:1
-reference number:1
-NWU-00212-13-A9:1
-Participants:1
-NWU stakeholders:1
-The study:1
-its  wide  adoption:1
-South  Africa.8:1
+finally:1
+general:1
+ethical:1
+clearance:1
+north-:1
+west:1
+ethics:1
+committee:1
+reference:1
+nwu-00212-13-a:1
+wide:1
+adoption:1
 ideal:1
-the study:1
-searchable  profiles:1
-The  study:1
-targeted:1
-These  users:1
- staff:1
- alumni:1
-prospective  students:1
+searchable:1
+staff:1
+alumni:1
 business:1
 associates:1
- other  stakeholders:1
-the university:1
-a research site:1
-a diverse 
-number:1
-African:1
- employees:1
-The 
-international  students:1
-approximately:1
-6%:1
-the  student  body:1
-The 
-findings:1
-the research:1
+diverse:1
+employees:1
+international:1
+approximately 6%:1
+body:1
 generalised:1
-the broader community:1
-
-African Facebook users:1
-Online observation procedure:1
-The profile pages:1
+broader:1
+community:1
+procedure:1
 compared:1
-Appendix:1
-the supplementary material:1
+appendix:1
 organised:1
 according:1
-different  themes:1
- pages:1
-May/June 2018Research Article 
-:1
-the  convenience:1
-sample:1
-a  population:1
+themes:1
 5701:1
-This  sample  size:1
 calculated:1
- guidelines:1
-Krejcie:1
-Morgan20:1
-Their  guidelines:1
 find:1
-appropriately representative samples:1
-target 
+appropriately:1
+representative:1
+samples:1
 populations:1
-Data collection:1
 took:1
 approximately 2 months:1
-least 15 minutes:1
-the polling checklist:1
-a fake Facebook profile 
-page:1
+at least 15 minutes:1
 created:1
-this account cloning attack:1
 able:1
 detect:1
 trying:1
 gain:1
-their account:1
 began:1
 sending:1
-friend requests:1
-the fake account:1
-the request:1
-the attack:1
-The personal information:1
-the  request:1
 made:1
-the  researcher:1
-
-analysis:1
-237 users:1
-Two  short  user  surveys:1
-first:1
-survey:1
-polling:1
-checklist:1
-The surveys:1
+two:1
 support:1
-the 
-previous methods:1
-The first survey:1
-convenience:1
 sampling:1
-
-participants:1
-the  population:1
-Questionnaires:1
+questionnaires:1
 distributed:1
-the 
-research participants:1
 completion:1
 collected:1
 soon:1
-the 
-participants:1
- 25  individuals:1
 participated:1
-The  total 
-number:1
 responses:1
 sufficient:1
-this short survey:1
-the  online  observation  results:1
-The  second 
-survey:1
-30 third-year and honours students:1
+30 third-year:1
+honours:1
 volunteered:1
 participate:1
-a cyber security awareness training programme:1
-Results:1
-The online observation phase:1
-the NWU Facebook page:1
-The sample population:1
+programme:1
+phase:1
 consists:1
 55%:1
 n=198:1
 women:1
 45%:1
 n=159:1
-The most active users:1
 within:1
 the 18–25 year age group:1
 n=214:1
-this finding:1
 expected:1
 majority:1
-undergraduate students:1
 n=240:1
-Facebook users’ personal data:1
 n=117:1
-their full personal details:1
 put:1
-a default block:1
-new users:1
+default:1
+block:1
 sign:1
 member:1
-the  site:1
 easier:1
-view:1
-each other’s information:1
-malicious intent:1
+other’s:1
+malicious:1
+intent:1
 obtain:1
-sensitive 
-data:1
-Attackers:1
 seek:1
-user names:1
 passwords:1
-data  mining:1
-those  credentials:1
-Other  people:1
+mining:1
+credentials:1
 deceive:1
 market:1
-their products:1
-spam email:1
-
-l
-t:1
+spam:1
 x:1
 250:1
 200:1
 100:1
-50:1
-0
-
-33%:1
-2
-
-Figure:1
-Availability:1
-users’ details:1
-Axis Title:1
-Most users’ data:1
+0 33%:1
+axis:1
 possibly:1
-user profiles:1
-semi:1
-accessible:1
-the public:1
-people:1
-common interests:1
+semi-accessible:1
 unfortunate:1
-29:1
-side effect:1
-this accessibility:1
+side:1
+effect:1
+accessibility:1
 everyone:1
 wants:1
-a friend:1
 75%:1
 n=269:1
-sometimes:1
-geo:1
-their  friends:1
-these 
-users:1
 indicated:1
-their  location:1
-travel:1
 holidays:1
 spend:1
-time:1
- friends:1
- their 
-data:1
 safe:1
-their daily activities:1
-Criminals:1
-this information:1
-users’ movements:1
 map:1
-their patterns:1
 resulting:1
-a high number:1
-scams:1
-25%
-
-31%
-
+25%:1
+31%:1
 44%:1
-Often:1
-Sometimes:1
-Never:1
-Geo-location sharing:1
 n=202:1
-while 38%:1
-(n=135) post:1
+n=135:1
 least:1
 twice:1
 week:1
-their mobile devices:1
+mobile:1
 smart:1
-devices:1
 global-positioning:1
 sensors:1
-Anyone:1
-a user’s daily routine:1
-the 
-frequency:1
-their updates:1
-their postings:1
-Personal:1
-generated:1
+routine:1
+postings:1
 basis:1
-such users:1
-6%
-
-38%
-
-:1
-Daily:1
-Weekly:1
-Monthly:1
-The most common activity:1
-Table 1:1
-some cases:1
-picture or video uploads:1
+6%:1
+weekly:1
+monthly:1
+cases:1
+picture:1
 nature:1
 displayed:1
-a user’s 
-car registration number:1
-house number:1
-This practice:1
+car:1
+registration:1
+house:1
 exclusive:1
-other sites:1
-Instagram:1
-such images:1
-Table:1
-user activity:1
-Activity:1
-Posting:1
-Commenting:1
-Liking:1
-Uploading:1
-169 users:1
-70 users:1
+instagram:1
+images:1
+commenting:1
+uploading:1
+169:1
+70:1
 20%:1
-68 users:1
+68:1
 19%:1
-50 users:1
-1
-Frequency:1
-user sharing:1
-Some users:1
-facial recog-
+2 3:1
+facial:1
+recog-:1
 nition:1
-feature  tags:1
+feature:1
 automatically:1
-their  consent.13:1
-These 
-pictures:1
 digitally:1
 altered:1
-cyber:1
-bullying:1
-the 
-user’s image:1
-online jokes:1
+jokes:1
 memes:1
 propaganda:1
-the case:1
-a public:1
-figure.13:1
-These practices:1
+practices:1
 damage:1
-a user’s reputation:1
+reputation:1
 unless:1
 quickly:1
-tags:1
+un-tags:1
 themself:1
-the image:1
 cloned:1
 lured:1
-a 
-fake  account:1
-Friend  requests:1
-the objective:1
-this profile:1
-The response rate:1
-this page:1
-out of 237 users:1
-the invitation:1
-the time:1
+objective:1
+invitation:1
 retrieved:1
 run:1
-the course:1
+course:1
 1 month:1
 37%:1
-Respondents:1
-Non-Respondents:1
+non-respondents:1
 63%:1
-Response rate:1
-a friend request:1
-the personal details:1
 assess:1
-the veracity:1
-the profile page:1
+veracity:1
 realise:1
-the  name:1
-the  owner:1
+owner:1
 modified:1
-common:1
 misspell:1
 purposely:1
-pseudo:1
+pseudo-names:1
 hide:1
-their identity:1
-this  practice:1
 tricked:1
 accepting:1
-
-account impersonators:1
 indicates:1
-number:1
-privacy awareness:1
-A short user survey:1
-the privacy awareness:1
-The respondents:1
 n=25:1
 confirmed:1
-a 
-Facebook profile:1
-active:1
-the 25 respondents:1
 agreed:1
-personal  data:1
-These  data:1
-travel  plans:1
+plans:1
 exploited:1
- attackers:1
-Most  respondents:1
 admitted:1
 frequently:1
- pictures:1
-their status:1
 commented:1
-7 respondents:1
-their location:1
-a finding:1
 supports:1
-the online 
-observation:1
 regarding:1
-geo-location sharing:1
-The results:1
-the survey:1
-Comments:1
-Personal Info
-
-Video
-Location:1
-Photos:1
+comments:1
+info:1
+photos:1
 0:1
-users’ profiles:1
 22:1
-(88%:1
-respondents:1
-Facebook privacy 
-settings:1
-30:1
-these settings:1
 activate:1
 leave:1
-any potential profiling:1
-12%
-
-88%:1
-Yes:1
-No
-
-Figure:1
-settings:1
-usage:1
-The second short survey:1
+12%:1
+yes:1
 investigate:1
-someone:1
 connected:1
-A total population:1
-30 students:1
 asked:1
 respond:1
-a request:1
-the  real  world:1
-The  results:1
+real:1
+world:1
 showed:1
 41%:1
 combined:1
+33% and:1
 person:1
-friend:1
-8):1
-This  willingness:1
 defrauded:1
 scammed:1
-impersonators:1
-Facebook.5:1
-Chart Title:1
-3%
-
-23%
-
-33%:1
+3%:1
+23%:1
 34%:1
-No internet:1
-Meet:1
-Invite:1
-home:1
-Avoid:1
-Other
-
-Figure:1
-Willingness:1
-a stranger:1
-Discussion:1
-findings:1
-this  study:1
+1 2 3 4 5:1
+invite:1
+avoid:1
+discussion:1
 trained:1
-Metadata:1
- location:1
-
-accompany posts:1
-uploads:1
-these ‘extra 
-data:1
-profiling purposes:1
+accompany:1
+extra:1
 uses:1
-these metadata:1
 tailor:1
-adverts:1
-Someone:1
-a user’s home:1
-the  information:1
 studying:1
- their  movement 
-patterns:1
-geo-location tags:1
+movement:1
 comprehensive:1
 place:1
 deal:1
-these challenges:1
 covers:1
-issues:1
 viewed:1
-removed.21:1
+removed:1
 tries:1
-elicit feedback:1
+elicit:1
+feedback:1
 concerning:1
-the policy:1
 improve:1
-effective.21:1
-the  privacy:1
+effective:1
 long:1
-written:1
- technical  language:1
+language:1
 understood:1
-most 
-users:1
-highlights:1
-a shared responsibility:1
-
-users:1
-need:1
 proactive:1
-Despite:1
-this policy:1
-this contractual obligation:1
-privacy settings:1
-A  conceptual  model:1
+despite:1
+contractual:1
+obligation:1
+conceptual:1
 reflects:1
-the findings:1
-the online observation:1
-account cloning 
-attack:1
-user surveys:1
-this model:1
-the roles:1
-responsibilities:1
-site providers:1
-this case:1
-i.e. online marketers:1
-Facebook
-
-Desensitised
-
-:1
-Personal 
-information:1
-Shares:1
-Lack awareness:1
-Secure:1
-User security:1
-Desensitised:1
-Vulnerable:1
-No access:1
-Sensitive 
-information:1
-3rd Party:1
-Model:1
-the responsibilities:1
-online actors:1
-The  actors:1
- responsibility:1
+roles:1
+shares:1
+rd:1
+party:1
 maintain:1
-the 
-privacy:1
- data:1
-privacy  settings:1
-Meanwhile:1
-the provision:1
-a secure platform:1
-the enforcement:1
-its privacy:1
-
-policy:1
-Third parties:1
+meanwhile:1
+provision:1
 stolen:1
-Pro:1
-activeness:1
-these responsibilities:1
-Conclusion:1
+pro-activeness:1
+conclusion:1
 revealed:1
-their movements:1
-activities:1
-that  their  posts:1
-updates:1
-domain:1
 raise:1
-privacy  awareness:1
-possible loss:1
-property:1
-Privacy 
-settings:1
+loss:1
 simplified:1
 understand:1
-more emphasis:1
+emphasis:1
 laws:1
 enforced:1
 regulators:1
-our findings:1
-
-privacy:1
 better:1
-training:1
 taught:1
-the 
-different ways:1
-their personal information:1
-Acknowledgement:1
+acknowledgement:1
 thank:1
 supporting:1
-Authors’ contributions:1
-P.N.:1
-the  study:1
- methodology:1
-
-data collection:1
-data analysis:1
-sample analysis:1
+contributions:1
 validation:1
-data curation:1
+curation:1
 writing:1
-M.V.:1
-methodology:1
-student supervision:1
-project leadership:1
+supervision:1
+project:1
+leadership:1
 critically:1
-the revisions:1
+revisions:1
 acquiring:1
-the funding:1
-References:1
-Titiriga:1
-R.:1
-Social  transparency  through  recommendation  engines  and  its 
-
-challenges:1
-Looking:1
+references:1
+titiriga:1
+transparency:1
+recommendation:1
+engines:1
+looking:1
 beyond:1
-Econ Inform J. 2010;15(4):147–155:1
-Kumar DV:1
-Varma P:1
-Pabboju SS:1
-Security issues:1
-social networking:1
-Int J 
-
-Comput Sci Netw Security:1
-2013;13(6):120–124:1
- Malik  H:1
-Malik  AS:1
-Towards:1
+econ:1
+147–155:1
+kumar:1
+dv:1
+varma:1
+pabboju:1
+ss:1
+int:1
+netw:1
+120–124:1
 identifying:1
-challenges:1
-emerging large scale social networks:1
-Proc Comput Sci:1
-2011;5:458–465:1
-https://doi.org/10.1016/j.procs.2011.07.059:1
-Spinelli CF:1
-No ‘friend:1
-personal privacy:1
-The Elon Journal of 
-
-Undergraduate Research in Communications:1
-2010;1(2):59–69:1
-Blair K. New survey:1
-Burglars:1
-social media:1
+scale:1
+proc:1
+5:458–465:1
+procs:1
+059 4:1
+spinelli:1
+cf:1
+elon:1
+communications:1
+59–69:1
+blair:1
+burglars:1
 plan:1
 crimes:1
-c2011:1
-2016 Nov:1
 http://socialtimes:1
-new:1
-survery:1
-burglars:1
--plan-:1
-crimes_b79475:1
-Balduzzi M:1
-Platzer C:1
-Holz T:1
-Kirda E:1
-Balzarotti D:1
-Kruegel C. Abusing:1
-networks:1
+com/new-survery-burglars-use-social-media-to-plan-:1
+crimes_b:1
+79475:1
+balduzzi:1
+platzer:1
+holz:1
+kirda:1
+balzarotti:1
+kruegel:1
+abusing:1
 automated:1
- user:1
-Jha  S:1
-Sommer  R:1
-Kreibich  C:1
-
-editors:1
-Recent advances:1
-intrusion detection:1
-RAID:1
-Lecture Notes 
-in:1
-Computer Science:1
-2010;6307:422–441:1
-https://doi.org/10.1007/978-3-:1
-642:1
-15512:1
-3_22:1
- Digital Insights:1
-Social media statistics:1
-2014 [webpage:1
-c2014:1
-http://www.adweek.com/:1
-socialtimes:1
-files/2014/06:1
-statistics-2014.htm:1
-Social Bakers:1
-Africa Facebook users:1
+jha:1
+sommer:1
+kreibich:1
+advances:1
+intrusion:1
+detection:1
+raid:1
+lecture:1
+notes:1
+6307:422–441:1
+1007/978-3-:1
+642-15512-3_22:1
+digital:1
+insights:1
+statistics:1
+adweek:1
+socialtimes/files/2014/06/social-media-statistics-2014:1
+htm:1
+bakers:1
 infographic:1
-c2013:1
-Nov:1
-Available  from:  http://www.socialbakers.com/
-africa-facebook-users-infographic.jpg:1
-Pempek TA:1
-Yermolayeva YA:1
-Calvert SL:1
-College students’ social networking 
+socialbakers:1
+africa-facebook-users-infographic:1
+jpg:1
+pempek:1
+yermolayeva:1
+calvert:1
+sl:1
+college:1
 experiences:1
-J Appl Dev Psychol:1
-2009;30(3):227–238:1
-https://
-doi.org/10.1016/j.appdev.2008.12.010:1
-Johnson B. Privacy:1
-a social norm:1
+appl:1
+dev:1
+227–238:1
+https://:1
+appdev:1
+2008:1
+010:1
+johnson:1
+b:1
+norm:1
 says:1
-Facebook founder:1
-c2010:1
-Oct:1
+founder:1
+oct:1
 01:1
-The  Guardian:1
-January 
-11:1
-Available  from:  https://www.theguardian.com/technology/2010/jan/11/
+guardian:1
+january:1
+theguardian:1
+com/technology/2010/jan/11/:1
 facebook-privacy:1
-11:1
-Furnell SM:1
-Online identity:1
-Giving:1
-Information Security Technical 
-Report:1
-2010;15(2):42–46:1
-https://doi.org/10.1016/j.istr.2010.09.002:1
-12:1
-Security:1
-Online Social Networks:1
-advertising network:1
-A critical analysis:1
-Facebook’s revised policies:1
-
+furnell:1
+sm:1
+42–46:1
+istr:1
+09:1
+002:1
+network:1
+critical:1
 terms:1
-[document:1
-c2015:1
-Sep 14:1
-https://www.law.kuleuven.be/icri/en/news/item/facebooks-revised-policies-:1
-
-and-terms-v1-2.pdf:1
-Payton T:1
-Claypoole T. Privacy:1
-the age:1
-big data:1
-Lanham:1
-Rowman &:1
-Littlefield:1
-Conger S. Emerging technologies:1
-emerging privacy issues:1
-Luppicini R:1
-Adell  R:1
+document:1
+sep:1
+kuleuven:1
+be/icri/en/news/item/facebooks-revised-policies-:1
+and-terms-v:1
+1-2:1
+pdf:1
+payton:1
+claypoole:1
+lanham:1
+rowman:1
+littlefield:1
+technologies:1
+luppicini:1
+adell:1
 technoethics:1
-Hershey:1
-IGI:1
-Global:1
-2009:1
+hershey:1
+igi:1
+global:1
 767–793:1
-https://doi.org/10.4018/978-1-60566-022-6:1
-ch050:1
-Riesch  H.  Levels:1
- uncertainty:1
-risk  theory:1
-Amsterdam:1
-
-Springer:1
+4018/978-1-60566-022-6:1
+ch:1
+050 15:1
+riesch:1
+levels:1
+amsterdam:1
 2012:1
 87–110:1
-https://doi.org/10.1007/978-94-007-1433-5_4:1
-16:1
-Westin A. Privacy:1
+1007/978-94-007-1433-5_4:1
 freedom:1
-IG Publishing:1
+ig:1
+publishing:1
 1967:1
 15–20:1
-17:1
-Wacks R. Privacy:1
-A very short introduction:1
-Oxford Press:1
-https://doi.org/10.1093/actrade/9780199556533.003.0001:1
-18:1
-Ellison N:1
-Vitak J:1
-Steinfield C:1
-Gray R:1
-Lampe C. Negotiating:1
+oxford:1
+press:1
+1093/actrade/9780199556533:1
+003:1
+0001:1
+ellison:1
+vitak:1
+steinfield:1
+gray:1
+lampe:1
+negotiating:1
 concerns:1
 capital:1
-a social media environment:1
-Trepte S:1
-Reinecke 
-L:1
-Berlin:1
-Springer:1
+environment:1
+trepte:1
+reinecke:1
+berlin:1
 19–32:1
-19:1
-Hesse-Biber SN:1
-Mixed methods:1
-Merging:1
-New 
-
-York:1
-Guilford:1
-Krejcie  R.V:1
-Morgan:1
-D.W.  :1
-Determining:1
-sample  size:1
-research 
-activities:1
-J  Educ  Psychol  Measure:1
-1970;30(608):56:1
-https://doi:1
-org/10.1177/001316447003000308:1
-21:1
-Privacy  policy:1
-No  date:1
+hesse-biber:1
+sn:1
+mixed:1
+merging:1
+guilford:1
+w:1
+determining:1
+educ:1
+1970:1
+608:1
+56:1
+1177/001316447003000308:1
+date:1
 updated:1
-http://www.facebook:1
-policies:1
-basic/?ref_component:1
+com/policies/privacy/basic/:1
+ref_component:1
 31:1
-Copyright:1
-the property:1
-Academy of Science of
-South Africa:1
-its content:1
+academy:1
 copied:1
 emailed:1
-multiple sites:1
-a
+multiple:1
 listserv:1
-the copyright holder's express written permission:1
+holder:1
+'s:1
+express:1
+permission:1
 print:1
 download:1
-email articles:1
-individual use:1
+articles:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:17
-Privacy:8
+Privacy:64
+privacy policy:4
+consent:2
 hacked:1
+data minimisation:1

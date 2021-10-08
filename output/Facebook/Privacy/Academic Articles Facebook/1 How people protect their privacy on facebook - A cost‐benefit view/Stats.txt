@@ -3,962 +3,936 @@
 
 
 With stop word removal 
-Size of original corpus: 7909 
-Size of filtered corpus: 3817
-Size of Lexicon: 2256
+Size of original corpus: 9831 
+Size of filtered corpus: 5122
+Size of Lexicon: 1735
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:57
-5:45
+privacy:119
+social:94
+facebook:87
+information:77
+settings:57
+5:54
+needs:44
+perceived:43
+use:39
+users:38
+media:35
+benefits:30
+items:30
+protection:29
+enactment:28
+b:28
+control:27
+0:27
+2:25
+people:23
+using:23
 could:22
-control:20
-use:20
-p:19
-using:18
-people:17
-users:16
-information:16
-2009:16
-b:16
-needs:15
+security:21
+u&g:21
+journal:21
+p:21
+protections:20
+access:20
+loss:20
+digital:20
+2009:19
+based:19
+facebook’s:19
+online:18
+pmt:18
+research:18
+10:18
+science:17
+theory:17
+technology:17
+1:17
+accessibility:16
+severity:16
+expressive:15
+entertainment:15
+response:15
 mean:15
-SD:14
+sd:15
+costs:14
+data:14
 <:14
-perceived:12
-toward:12
-privacy:11
-social media:10
-PMT:10
-individuals:10
-the enactment:10
+communication:13
+management:13
+user’s:13
+personal:13
+cognitive:13
+efficacy:13
+toward:13
+measured:13
+5 3:13
+three:12
+afforded:12
+gratifications:12
+cost:12
+2018:12
+association:12
+image:12
+self-efficacy:12
+setting:12
+f:12
+r:12
+user:11
+motivation:11
+individuals:11
+new:11
+one’s:11
+friends:11
+2013:11
+dimensions:11
+may:11
+3:11
+frequency:11
+dimension:11
+22:11
+anonymity:10
+manage:10
+identity:10
+study:10
+risk:10
+rogers:10
+susceptibility:10
+private:10
+aware:10
+sample:10
 averaged:10
-afforded:9
-benefits:9
-access:9
-manage:9
-based:9
-May 2018:9
+index:10
+testing:10
+framework:9
+2011:9
+2007:9
+behaviors:9
+measures:9
+1002/asi:9
 found:9
-digital data:9
-measured:9
+first:9
+participants:9
 create:9
-settings:8
-accessibility privacy:8
-2011:8
-2013:8
-’s:8
+block:9
+001:9
+require:8
+significant:8
+updates:8
+ing:8
 1975:8
-protection enactment:8
-.001:8
-require:7
-anonymity:7
+per-:8
+2008:8
+level:8
+g:8
+individual:8
+face-:8
+book:8
+efa:8
+change:8
+predicted:8
+protect:7
+systems:7
+university:7
 see:7
-2007:7
+attacks:7
+two:7
+others:7
+however:7
+thus:7
 1997:7
-the frequency:7
-H4:7
-H5:7
-aware:7
+status:7
+timeline:7
+likely:7
+tions:7
+fear:7
+4:7
+6:7
+students:7
 conducted:7
-the items:7
 read:7
-.22:7
-predicted:7
-S.:7
+7:7
+model:7
+vishwanath:6
+buffalo:6
 involves:6
-the benefits:6
+theoretical:6
+uses:6
+ment:6
+platforms:6
+world:6
+cyber:6
+sites:6
 2012:6
-JOURNAL OF THE ASSOCIATION FOR INFORMATION SCIENCE AND TECHNOLOGY:6
-ing:6
+platform:6
 provided:6
-protect:6
 related:6
-social:6
-Thus:6
+various:6
+focus:6
 rather:6
-Rogers:6
+appraisals:6
+factors:6
 positively:6
-well:6
-U&G:6
-2008:6
+pro-:6
 enhance:6
+college:6
+findings:6
+results:6
 often:6
-1:6
+protec-:6
+threat:6
 presented:6
 photos:6
-Social needs:6
-Sample items:6
-block:6
-F:6
+independent:6
+unauthorized:6
+14:6
+responses:6
+table:6
+05:6
 505:6
-two:6
-tailed:6
-NY:5
-a user:5
-expressive privacy:5
-Using:5
+16:6
+two-tailed:6
+perhaps:6
+w:6
+ny:5
 making:5
-(U&G:5
 examined:5
-others:5
+pri-:5
+relationships:5
 provide:5
-updates:5
-the platform:5
+infor-:5
+mation:5
+account:5
 reduce:5
-perceived severity:5
+processes:5
+appraisal:5
+four:5
+protective:5
+ceived:5
+drive:5
+sundar:5
+well:5
 managed:5
-10.1002/asi:5
+although:5
+prior:5
+public:5
+serious:5
+figure:5
 instance:5
-the user:5
-per-:5
-tions:5
+messages:5
+tagging:5
+joinson:5
 coping:5
-likely:5
 would:5
-H1:5
 ity:5
-loss:5
-H3:5
-entertainment needs:5
-H6:5
-setting:5
+weighted:5
 know:5
-.23:5
-.05:5
-.25:5
-.24:5
-.19:5
-A.:5
-online:4
-research:4
-the use:4
+analysis:5
+17:5
+5 2:5
+losses:5
+second:5
+23:5
+25:5
+24:5
+19:5
+cost-benefit:4
+many:4
+potential:4
+set-:4
+tings:4
 openness:4
-significant:4
-wileyonlinelibrary.com:4
-However:4
-PII:4
+need:4
+vacy:4
+13:4
+wileyonlinelibrary:4
+tion:4
+pii:4
 easily:4
+criminals:4
+email:4
 prevent:4
-security:4
 lead:4
+different:4
+current:4
 effective:4
-self-efficacy:4
-drive:4
-Vishwanath:4
+limperos:4
+survey:4
 followed:4
 believe:4
-e.g.:4
-information privacy:4
-identity theft:4
+friend:4
+affords:4
+decew:4
+theft:4
 viewed:4
+measure:4
+another:4
 send:4
-Facebook’s privacy:4
-protec-:4
-susceptibility:4
-efficacy:4
-Face-
-book:4
-H2:4
-social image:4
-social needs:4
+requests:4
+audiences:4
+large:4
+self-presentation:4
+con-:4
+rao:4
+none:4
+specific:4
+implications:4
 fulfilled:4
-the study:4
-the loss:4
-protection:4
-an index:4
-Strongly:4
-this dimension:4
-testing:4
-the responses:4
+fre-:4
+respective:4
+strongly:4
 feel:4
-Self-efficacy:4
-2.14:4
-.01:4
+20:4
+11:4
+43:4
+12:4
+01:4
+influence:4
+appeals:4
 addition:4
 supported:4
-focus:4
-theory:4
-Privacy:4
-Paper:4
-C.:4
-University at Buffalo (UB:3
-Buffalo:3
+design:4
+paper:4
+x:4
+psychology:4
+york:4
+department:3
+ub:3
 14260:3
-USA:3
+usa:3
+xu:3
+realizing:3
 share:3
 reciprocally:3
-privacy protections:3
-these settings:3
-a trade-off:3
+time:3
+accounts:3
+connect:3
+posts:3
+trade-off:3
 thereby:3
 vulnerable:3
 make:3
 someone:3
-Uses:3
+frameworks:3
+application:3
 revealed:3
-platforms:3
+single:3
+january:3
+networking:3
+help:3
+support:3
 comes:3
-personal information:3
+like:3
+real:3
+accessible:3
 posted:3
+networks:3
+bling:3
 used:3
+computer:3
+internet:3
+login:3
+organizations:3
 broadly:3
-i.e.:3
-vacy:3
-
-social media:3
-Knowing:3
+profile:3
+content:3
+knowing:3
+designing:3
 risks:3
-four factors:3
-the risk:3
-(Rogers:3
 linked:3
-gratifications:3
-costs:3
-pro-:3
+degree:3
+available:3
+important:3
+frequent:3
+targets:3
+altman:3
 1967:3
+desired:3
 protected:3
+sharing:3
 expected:3
-social
-media:3
-however:3
-Facebook affords:3
-although:3
-prior:3
-Information privacy:3
+boundaries:3
 focuses:3
-Screen:3
+open:3
+fig:3
+screen:3
 shot:3
-Color figure:3
-2:3
-Accessibility privacy:3
+color:3
+tools:3
 premised:3
-the idea:3
+idea:3
 makes:3
-3:3
 add:3
-fear:3
-messages:3
-Perceived severity:3
+hacked:3
+active:3
+next:3
 1983:3
+considerations:3
 deal:3
-THE ASSOCIATION:3
-INFORMATION SCIENCE:3
-TECHNOLOGY:3
-User’s:3
-(b:3
+high:3
+applied:3
+recent:3
+threats:3
+hypotheses:3
 susceptibil-:3
-(c) response efficacy:3
-(d) self-efficacy:3
+lens:3
+paradigm:3
+approach:3
 whether:3
-Ray:3
+focused:3
+top-level:3
+ray:3
+raacke:3
+bonds-raacke:3
 keeping:3
-new friends:3
+old:3
 derive:3
 us:3
-other users:3
-Finally:3
+activities:3
+finally:3
 requires:3
 without:3
-(c) entertainment needs:3
-participants:3
-fre-:3
+decew’s:3
+interface:3
+extent:3
+scale:3
+intensity:3
+score:3
 less:3
-weighted:3
-change response:3
-index:3
-technology:3
-change:3
-an
-index:3
-online privacy:3
-EFA:3
-0.87:3
-First:3
-Second:3
-Response efficacy:3
-Information:3
-Entertainment:3
-Adj:3
-R2:3
-7:3
-.16:3
-Based:3
-Joinson:3
-F(7:3
-Table:3
-the findings:3
-perhaps:3
+final:3
+way:3
+42:3
+38:3
+variable:3
+87:3
+91:3
+adj:3
+15:3
+18:3
+relative:3
+dependent:3
+variance:3
+tests:3
+002:3
+among:3
+31:3
+52:3
+looking:3
+limitation:3
+treatment:3
+future:3
+behavior:3
 pp:3
-T.:3
-R.W.:3
-Y.:3
-Retrieved:3
-J.:3
-People:2
+conference:3
+computer-mediated:3
+1111/j:3
+motives:3
+news:3
+retrieved:3
+http://www:3
+trillions:2
 bytes:2
-any user:2
-connect:2
-(i.e., control:2
+treasure:2
+trove:2
+sole:2
+sets:2
+iden-:2
+tity:2
 how-:2
 ever:2
 oneself:2
 acces-:2
 sible:2
-potential attacks:2
 enacting:2
-stringent protections:2
+stringent:2
 potentially:2
-Gratifications:2
-set-:2
-
-tings:2
+benefit:2
 driving:2
 pointed:2
+march:2
+revised:2
 accepted:2
+wiley:2
+peo-:2
+ple:2
 communicate:2
+form:2
 maintain:2
+existing:2
+shahnaz:2
+wok:2
 ranging:2
-social support:2
-relationships:2
-need:2
-
-tion:2
+gratification:2
+wide:2
 receive:2
 feedback:2
-Ellison:2
-Steinfield:2
-like:2
-the real world:2
-accessible:2
-cyber criminals:2
-Dvorak:2
+ellison:2
+steinfield:2
+lampe:2
+much:2
+ally:2
+post:2
+people’s:2
+leaves:2
+hollywood:2
+dvorak:2
 2001:2
-Miller:2
-Roche:2
-Salkin:2
-the information:2
-email:2
+miller:2
+riley:2
+vance:2
+roche:2
+salkin:2
+phishing:2
 steal:2
+individ-:2
+corporate:2
+2015:2
 shopping:2
-a loss:2
-identity:2
-Facebook users:2
+password:2
+common:2
 reported:2
-cost:2
 stolen:2
-account:2
 made:2
-organizations:2
-Kiesler:2
-content:2
-social
-media use:2
+rainie:2
+kiesler:2
+kang:2
+attention:2
 cognitively:2
-the cost:2
+maintain-:2
 reveal:2
-designing:2
-easy:2
+usable:2
+braz:2
+seffah:2
+m’raihi:2
+ways:2
 enact:2
-Protection Motivation Theory:2
-response efficacy:2
-the protective measures:2
+article:2
+assessment:2
 adopt:2
-enactment:2
-Witte:2
+witte:2
 1992:2
-a means:2
+means:2
 relating:2
-media:2
+breach:2
+number:2
 sought:2
 include:2
-entertainment:2
-social media users:2
-frequent:2
-targets:2
-Facebook Privacy:2
-(Altman:2
-Westin:2
-the control:2
-private:2
+tection:2
+foster:2
+relaxation:2
+cross-sectional:2
+stu-:2
+dents:2
+demographic:2
+discussion:2
+westin:2
+petronio:2
 2002:2
-sharing:2
-personal:2
-the individual:2
-
-settings:2
+rules:2
+anything:2
 proposed:2
-2.0:2
-the boundaries:2
+advent:2
+web:2
 increasingly:2
 blurred:2
-a convenient framework:2
-Facebook’s privacy settings:2
-available:2
-(DeCew:2
-realizing:2
+convenient:2
+contact:2
+relationship:2
+life:2
+pieces:2
+activity:2
+hand:2
 uti-:2
 merely:2
 possible:2
-friend:2
-Facebook’s Privacy Settings:2
-Tools:2
-help:2
-Goffman:2
+message:2
+phone:2
+self-disclosure:2
+performances:2
+goffman:2
 1959:2
+guide:2
+impressions:2
+times:2
 reflect:2
+spheres:2
+houghton:2
+vasalou:2
+marder:2
 across:2
-con-:2
-Horn:2
-the costs:2
+photo:2
+tags:2
+debatin:2
+lovejoy:2
+horn:2
+hughes:2
+enacted:2
 ostensibly:2
 getting:2
-hacked:2
-next:2
-first:2
-severity:2
-ceived:2
-response:2
-self:2
+effects:2
+bility:2
 represent:2
 whereas:2
 involve:2
-the threat:2
+behav-:2
+iors:2
 explain:2
-Floyd:2
-Prentice-Dunn:2
+floyd:2
+prentice-dunn:2
 2000:2
 including:2
-Wu:2
-Stanton:2
-Galbraith:2
-Cole:2
+adolescent:2
+trafficking:2
+wu:2
+stanton:2
+galbraith:2
+cole:2
 2005:2
-security policy compliance:2
-Wolf:2
-& Stephan:2
+policy:2
+compliance:2
+wolf:2
+gregory:2
+stephan:2
 1986:2
 extended:2
-Meso:2
-Milne:2
-Labrecque:2
-Morrell:2
-Lai:2
-Hsieh:2
+meso:2
+ding:2
+milne:2
+labrecque:2
+cromer:2
+sangmi:2
+morrell:2
+upadhyaya:2
+lai:2
+hsieh:2
 hacking:2
-Chenoweth:2
-Minch:2
-Gattiker:2
-Moser:2
-an enhancement:2
-
+chenoweth:2
+minch:2
+gattiker:2
+broad:2
+liang:2
+xue:2
+moser:2
+bruppacher:2
+mosler:2
+studies:2
+enhancement:2
 tections:2
-appraisals:2
-Although:2
-none:2
-the enact-
-ment:2
-JOURNAL:2
-social media use:2
-accessibility:2
+increased:2
+enact-:2
 leads:2
-the following hypotheses:2
-Facebook’s privacy protections:2
-(a) perceived severity:2
-
-anonymity:2
-expressive
-privacy:2
-considerations:2
-the perceived benefits:2
-the lens:2
-Facebook use:2
-focused:2
-Face-
-book use:2
-Raacke:2
-Bonds-Raacke:2
+following:2
+pmt-based:2
+functionalities:2
+first-order:2
 touch:2
-status:2
+seven:2
+network:2
+present:2
+gratifica-:2
 constantly:2
-Sundar & Limperos:2
+review:2
+driven:2
 follow:2
+events:2
+games:2
+fulfilling:2
 knowledge:2
 around:2
+page:2
 done:2
-The perceived (a) social needs:2
-DeCew’s:2
-three:2
+interaction:2
+par-:2
 dif-:2
+ferent:2
 within:2
 developed:2
-the extent:2
-the setting:2
-open:2
 changed:2
 quently:2
+evaluation:2
 netted:2
-score:2
+potency:2
+mini-:2
+mally:2
+maximally:2
+scores:2
+low:2
+awareness:2
+net:2
 thought:2
 changing:2
+six:2
 ness:2
 offers:2
 pre-:2
-The items:2
+exploratory:2
+90:2
+88:2
+quency:2
+5 6:2
 allowing:2
-0.75:2
+address:2
+73:2
+75:2
 things:2
-Hence:2
-final analysis:2
+hence:2
+set:2
+man-:2
+5 5:2
+78:2
+likert-type:2
 disagree:2
 agree:2
-losses:2
-dimension:2
-my status:2
-(loss:2
-two dimensions:2
-unauthorized
-access:2
-items:2
-image:2
-
-loss:2
-Perceived susceptibility:2
-unauthorized access:2
-.20:2
-.26:2
-.29:2
-.13:2
-.17:2
-.38:2
-2.12:2
-my personal information:2
-An EFA:2
-dimensions:2
-0.80:2
+nine:2
+problem:2
+85:2
+21:2
+83:2
+26:2
+29:2
+09:2
+5 15:2
+06:2
+70:2
+beliefs:2
+variables:2
+80:2
+2 and h 5:2
 versus:2
-expressive privacy protections:2
 tested:2
+regression:2
 entered:2
 framing:2
 shows:2
-fear appeals:2
-the first block:2
 explaining:2
-the variance:2
 presents:2
+07:2
 negatively:2
 examine:2
 explained:2
 partially:2
-Among:2
-.31:2
-5 13.84:2
+06 2:2
+5 13:2
+84:2
+tively:2
+33:2
 assess:2
+regressions:2
 appears:2
-looking:2
-None:2
+presentation:2
 stem:2
-the fear:2
-important:2
-communication:2
+better:2
+differences:2
+limitations:2
+experience:2
 said:2
+global:2
+twitter:2
+decision:2
+go:2
 crowding:2
-Berlin:2
-R.:2
-January:2
-protection motivation theory:2
-behaviors:2
-Journal of Computer-Mediated Communication:2
-
-doi:2
-10.1111:2
+berlin:2
+springer:2
+adoption:2
+technologies:2
+press:2
 30:2
-Rao:2
-H.R.:2
-A.N.:2
-52:2
-month:2
-S.S.:2
-L.:2
-New York:2
-Communication Monographs:2
-may:2
-Protect:1
-Their Privacy:1
-A Cost-Benefit View:1
-Arun Vishwanath
-Department:1
-Communication:1
-Management:1
-Science:1
-Systems:1
-mail:1
-avishy@buffalo.edu:1
-Weiai Xu
-Department of Communication and Management Science & Systems:1
-Zed Ngoh
-Department of Communication and Management Science & Systems:1
-Realizing:1
-the many benefits:1
+perspective:2
+quarterly:2
+diffusion:2
+ubiquitous:2
+2010:2
+nielsen:2
+html:2
+57:2
+business:2
+attitude:2
+monographs:2
+copyright:2
+view:1
+arun:1
+e-mail:1
+avishy@buffalo:1
+edu:1
+weiai:1
+zed:1
+ngoh:1
 over-:1
-time:1
 created:1
-trillions:1
-a
-treasure trove:1
 cybercriminals:1
-The sole protection:1
-three sets:1
-information
-privacy:1
-(i.e., security:1
-social media accounts:1
-iden-
-tity information:1
-(i.e.,
-manage:1
-a
-user’s posts:1
 tag:1
 inaccessible:1
 reducing:1
-the bene-
+bene-:1
 fits:1
 accruable:1
-two
-theoretical frameworks:1
-and Protection Motivation Theory:1
 congitvely:1
 juxtaposed:1
-the
-cost:1
 maintaining:1
-application:1
-the U&G framework:1
-social need fulfill-
-ment:1
-single:1
-benefit:1
-pri-:1
-vacy management:1
-the cost standpoint:1
-the PMT
-framework:1
-perceived severity impacting
-expressive and information privacy:1
+fulfill-:1
+standpoint:1
+impacting:1
 sus-:1
-
 ceptability:1
 influencing:1
-Received March 22, 2016:1
-revised:1
-March 9, 2017:1
-March 31:1
-2017:1
-VC 2018 ASIS&T:1
+received:1
+22 , 2016:1
+9 , 2017:1
+march 31 , 2017:1
+vc:1
+asis&t:1
 cid:2:1
-Published:1
-13 January 2018:1
-Wiley Online
-Library:1
-10.1002/jasist.23894:1
-Social networking platforms:1
-Facebook help:1
-peo-:1
-
-ple connect:1
-form:1
-new rela-
+published:1
+library:1
+1002/jasist:1
+23894:1
+rela-:1
 tionships:1
-existing ones:1
-Shahnaz & Wok:1
-Such relationships:1
-personal gratification:1
-social proof:1
+ones:1
+proof:1
 noticed:1
 validated:1
-one’s friends:1
 peers:1
 surprisingly:1
 billions:1
-world:1
-wide:1
 today:1
 maintenance:1
-a cost:1
 informa-:1
-Lampe, 2007:1
-Much:1
-real-world relationships:1
-virtu-
-ally:1
+real-world:1
+virtu-:1
 maintained:1
-not only
-post updates:1
 respond:1
-other people’s posts:1
 unlike:1
-leaves:1
 trails:1
-personally identifiable infor-
-mation:1
+personally:1
+identifiable:1
 remain:1
-the platform’s servers:1
-These
-trillions:1
-social media
-platforms:1
+platform’s:1
+servers:1
 become:1
-a treasure trove:1
-Cyber criminals:1
-sites:1
 impersonating:1
 infiltrating:1
-their
-social networks:1
 burglarizing:1
 infamous:1
-Hollywood “Bling Ring:1
+ring:1
 demonstrated:1
-Riley & Vance:1
 crafting:1
-social media based spear:1
-phishing attacks:1
+spear:1
 infect:1
-computer networks:1
-individ-
-ual and corporate computer networks:1
-Vishwanath, 2015:1
-social media sites:1
+ual:1
 moving:1
 gaming:1
 serving:1
-single sign-ons:1
-other Internet services:1
-69(5):700–709:1
-2018
-
-access:1
-a person’s social media login:1
-password:1
+sign-ons:1
+services:1
+69:1
+700–709:1
+person’s:1
 eventually:1
 translate:1
-a significant
-financial loss:1
-a victim:1
-Such attacks:1
-common:1
+financial:1
+victim:1
 some 10%:1
 experiencing:1
-a
-loss:1
 reputation:1
-some form:1
 monetary:1
-their social media accounts:1
-a
-staggering statistic:1
-the more than one
-billion worldwide user base:1
-Not surpris-
-ingly, many Facebook users—86%:1
-a 2013 Pew study:1
+staggering:1
+statistic:1
+more than one billion:1
+worldwide:1
+base:1
+surpris-:1
+ingly:1
+users—86:1
+pew:1
 efforts:1
 erase:1
-their digital footprint:1
+footprint:1
 taken:1
-
 steps:1
 observ-:1
-their online behaviors:1
-Rainie:1
-Kang, &:1
-Mad-
-den:1
-Presently:1
-the sole protection:1
-the privacy:1
-These settings:1
+mad-:1
+presently:1
 classified:1
-three dimensions:1
-
-information privacy:1
-iden-:1
-
-tity profile:1
-a user’s digital account:1
-, settings:1
-that
-control accessibility privacy:1
-the user’s expressive pri-:1
-a
-user’s social image:1
-unwanted
-attention:1
-entertainment benefits:1
+unwanted:1
 utilize:1
-these Facebook set-
-tings:1
 juxtapose:1
-maintain-
-ing privacy:1
-These cognitive
-processes:1
 think:1
-risk:1
 react:1
-various risk scenarios:1
+scenarios:1
 key:1
 developing:1
-usable security:1
-the
-focus:1
-extant scholarship:1
+extant:1
+scholarship:1
+easy-to-use:1
 assessments:1
-
-security:1
-(Braz, Seffah, & M’raihi:1
-security settings:1
-certain ways:1
-Explicating:1
-the underlying cognitive cost-benefit appraisal processes:1
-different privacy protections:1
-thus:1
-the central goal:1
-the current article:1
-A theory:1
+certain:1
+explicating:1
+underlying:1
+central:1
+goal:1
 provides:1
-an assessment:1
-cognitive cost
-appraisals:1
 proposes:1
 adverse:1
-the consequence:1
-a risk:1
-perceived susceptibility:1
-the
+consequence:1
 likelihood:1
 believes:1
-how much confidence:1
-the
-protective measures:1
-pro-
-tective behaviors:1
+confidence:1
+tective:1
 thusly:1
 providing:1
-the users’ cognitive appraisal:1
-a
-cyber breach:1
-various privacy protections:1
-A framework:1
-suited:1
+well-suited:1
 assessing:1
-the per-
-ceived benefits:1
-Uses and Gratifications
-:1
 posists:1
-a finite number:1
-a medium:1
-(Sundar & Limperos:1
-social, information:1
+finite:1
+medium:1
 emotional:1
 escape:1
-Sundar &:1
-Lim-:1
-
+lim-:1
 peros:1
-2013)—all:1
-the utiliza-
-tion:1
-U&G based gratifications:1
-the perceived
-benefits:1
-various
-privacy protections:1
-these two theoretical frameworks:1
-the current study:1
+utiliza-:1
 examines:1
-the degree:1
-tection and perceived benefits:1
-foster:1
-a relaxation:1
-the three
-available privacy settings:1
-The data:1
-the
-study:1
-a cross-sectional survey:1
-college stu-
-dents:1
-an important demographic:1
-The article:1
 begins:1
-an exposition:1
-the two theoretical frameworks:1
-the methods:1
-measures:1
-findings:1
-discussion:1
-results:1
-ensuing sections:1
-Theoretical Premise:1
-Three Dimensions:1
-its broadest level:1
-a protection:1
+exposition:1
+methods:1
+ensuing:1
+sections:1
+premise:1
+broadest:1
 selectively:1
-others’ access:1
-the real world privacy:1
-
-management:1
-interpersonal bound-
+interpersonal:1
+bound-:1
 aries:1
 discrepancies:1
-desired:1
-actual levels:1
-this
+actual:1
+levels:1
 boundary:1
-cognitive ownership:1
-their private
-information:1
+ownership:1
 consider:1
 belongs:1
-(Petronio:1
-private information:1
 implicitly:1
 mutually:1
 understood:1
 unwrit-:1
 ten:1
-normative cognitive rules:1
-, anything:1
+normative:1
 tell:1
-your friend:1
 kept:1
-explicit legal guarantees:1
-(e.g., anything:1
-your therapist:1
+explicit:1
+legal:1
+guarantees:1
+therapist:1
 legally:1
-these rules:1
 actively:1
-the privacy management:1
-The privacy management settings:1
 categorized:1
-the classification:1
-
-DeCew:1
-accessibility pri-:1
-These categories:1
+classification:1
+categories:1
 built:1
-the advent Web:1
-private and public information:1
 dilenating:1
-the
-different privavy settings:1
-digital information:1
+privavy:1
 includes:1
-user-disclosed infor-
-mation:1
+user-disclosed:1
 gender:1
 residence:1
 birth:1
@@ -966,1629 +940,810 @@ date:1
 employment:1
 education:1
 history:1
-contact information:1
-relationship status:1
 collectively:1
 constitute:1
-one’s
-social identity:1
-Social identity:1
-one’s pri-
-vate and economic life:1
-a breach:1
-this data:1
-serious issues:1
-online harass-:1
-
-ment:1
+economic:1
+issues:1
+harass-:1
 discused:1
-a hacker:1
-these pieces:1
-
-digital information:1
-an user’s identity:1
-open
-
-JOURNAL OF THE ASSOCIATION FOR INFORMATION SCIENCE AND TECHNOLOGY:1
-701
-
-FIG:1
-Facebook’s security settings:1
-FIG:1
-tools:1
-credit cards:1
-procure access:1
-other online accounts:1
-The
-protection measure:1
-this infor-
-mation:1
-Security:1
-Settings:1
-Fig-:1
+hacker:1
+701:1
+credit:1
+cards:1
+procure:1
+fig-:1
 ure:1
 monitors:1
-login:1
 notifies:1
-suspicious activity:1
+suspicious:1
 acquisition:1
-individual:1
-the access:1
-their private information:1
-(i.e.,
-information privacy:1
-their core:1
+core:1
 wish:1
 disturbed:1
-This presumption:1
+presumption:1
 corresponds:1
-Westin’s:1
-classical privacy theory:1
+westin’s:1
+classical:1
 emphasizes:1
 solitude:1
 intimacy:1
 reserve:1
 managing:1
-your friends:1
 acquaintances:1
-one hand:1
-a
-necessary step:1
-the rewards:1
-the other hand:1
-
-users’ easier targets:1
+necessary:1
+step:1
+rewards:1
+easier:1
 phishers:1
 scammers:1
 lize:1
-these accessible pieces:1
 craft:1
-
-attacks:1
 searchable:1
 target:1
-a phony
+phony:1
 friend-request:1
-a common type:1
-social network-based
-phishing attack:1
-the attacker:1
+type:1
+network-based:1
+attack:1
+attacker:1
 impersonates:1
-another:1
 attempts:1
 sends:1
-malware:1
-laden:1
-
-message:1
-one’s anonymity:1
-(Figure:1
+malware-laden:1
 find:1
-phone numbers:1
-private messages:1
-friend-
-requests:1
+numbers:1
+friend-:1
 702:1
-10.1002/asi
-
-FIG:1
-Facebook’s timeline and tagging settings:1
-some ways:1
-similar
-
-Expressive privacy:1
+similar:1
 expresses:1
-one’s self-identity:1
+self-identity:1
 personhood:1
 speech:1
-activity:1
-Self-disclosure:1
-public performances:1
 described:1
-guide:1
-the formation:1
-impressions:1
+formation:1
 altering:1
 appear-:1
 ance:1
 manner:1
-Like:1
-stage:1
-performances:1
-Face-
-book users:1
-desired impressions:1
-different
-times:1
-audiences:1
+on-stage:1
 situations:1
-the audiences:1
-large:1
 diverse:1
 overlapping:1
-social
-spheres:1
-Joinson, Houghton, Vasalou, & Marder:1
-Consequently:1
+consequently:1
 norms:1
 expectations:1
 differ:1
-these
-social spheres:1
 necessitating:1
-a tailoring:1
-online sharing:1
+tailoring:1
 accommodate:1
-these disparate audiences:1
-Users:1
-their social image:1
-selective self-presentation:1
+disparate:1
+selective:1
 trolling:1
-other-provided information:1
+other-provided:1
 affect:1
-one’s
-social image:1
-e.g., photo tags:1
 comments:1
-a user’s
-friends:1
-Undesired audiences:1
-damaged reputations:1
-(Debatin, Lovejoy:1
-Hughes:1
-The control:1
-
-one’s social image:1
-enacted:1
-the
-Timeline and Tagging Settings:1
-Figure:1
+undesired:1
+damaged:1
+reputations:1
 manages:1
-a user’s timeline:1
-posts:1
-a timeline:1
-tags:1
-
-
-image:1
 result:1
-The enactment:1
-these three sets:1
-Facebook privacy:1
-a cognitive assessment:1
 breached:1
 maligned:1
-the
-many benefits:1
 accrue:1
-active:1
-The likely
-costs:1
 introduced:1
 explore:1
-the effects:1
 appeal:1
 persuasion:1
-framework:1
 describes:1
 proc-:1
 essed:1
-a threat:1
-suscepti-
-bility:1
-threat appraisal:1
-appraisal:1
-These appraisals:1
-personal considerations:1
-the
+suscepti-:1
 breadth:1
 scope:1
-the individuals capability:1
+capability:1
 able:1
 together:1
 signify:1
-the
-costs:1
 associated:1
-a perceived risk:1
-threat:1
 predicts:1
 recom-:1
 mended:1
-protective behaviors:1
 asso-:1
-ciated costs:1
-high:1
-serious:1
+ciated:1
 susceptible:1
 exe-:1
 cute:1
-these behaviors:1
-these enacted behav-
-iors:1
-The theory:1
 successfully:1
-applied:1
-a wide range:1
-personal health-related behaviors:1
-the prevention:1
-adolescent drug
-trafficking:1
+range:1
+health-related:1
+prevention:1
 improving:1
-Her-
+her-:1
 ath:1
-& Rao:1
 even:1
 antinuclear:1
-war behaviors:1
-
-research:1
-
-Gregory:1
-recent:1
-the technology-related risk domain:1
-study:1
-online privacy intrusion:1
-Yi Ding:1
-Shuting Xu:1
-Cromer:1
-Sangmi:1
-Bagchi-:1
-
-Sen:1
-Rao, & Upadhyaya:1
-online spying:1
-other, broad I.T. threats:1
-Liang
-& Xue:1
-Bruppacher, & Mosler:1
-Almost all these studies:1
+technology-related:1
+domain:1
+intrusion:1
+yi:1
+shuting:1
+bagchi-:1
+spying:1
+almost:1
 suggest:1
-the face:1
-increased cognitive cost:1
-this work:1
+work:1
 altogether:1
-the impetus:1
+impetus:1
 hypothesizing:1
-increased:1
 703:1
-the protections:1
-expressive:1
-the
-relationship:1
-PMT based threats:1
-the privacy pro-:1
-) perceived severity:1
-unau-
-thorized access:1
-infor-
-mation privacy:1
-Facebook’s
-privacy protections:1
-the
-potential loss:1
-
-use:1
-PMT-based appraisals:1
-protections:1
+unau-:1
+thorized:1
 stymie:1
-protec-
-tions:1
-The perceived benefits:1
-the Uses and Gratifications:1
-
-paradigm:1
-The U&G paradigm:1
-an audience-centric approach:1
-presumes people:1
+audience-centric:1
+presumes:1
 innate:1
 seek:1
 satisfy:1
-the selection:1
-Recent applications:1
-this paradigm:1
+selection:1
+applications:1
 led:1
 dis-:1
-
 covery:1
-a variety:1
+variety:1
 depending:1
-the research:1
-top-level
-gratifications:1
-specific Facebook functionalities:1
-three first-order drivers:1
-primarily information:1
+drivers:1
+primarily:1
 surveillance:1
-entertain-
-ment use:1
-a focus:1
-specific functionalities:1
-old and new friends:1
+entertain-:1
 locating:1
-old
-friends:1
 posting:1
 look-:1
 line:1
-the latter approach:1
-Joinson
-(2008:1
-seven unique U&G:1
-
-social connection:1
-shared identities:1
-social investi-:1
+latter:1
+unique:1
+connection:1
+shared:1
+identities:1
+investi-:1
 gation:1
-social network surfing:1
+surfing:1
 updating:1
-The present research:1
-the first-order gratifica-:1
-tions people:1
-gratifica-:1
-its individual functions:1
-Facebook’s offerings:1
+functions:1
+offerings:1
 evolving:1
-
-technology:1
 functionality-:1
 limiting:1
-the implications:1
-focused research findings:1
-the short-term:1
-A guide:1
-the
-top-level gratifications:1
-a recent
-exhaustive review:1
-U&G studies:1
+short-term:1
+exhaustive:1
 1940 to 2011:1
-media use:1
-driven:1
 chiefly:1
-
-information:1
-,
-
-identity:1
 map:1
-the
-three top-level gratifications:1
-Specially:1
-the gratifications:1
-
-users:1
-current events:1
-various organizations:1
-
-updates:1
-friends:1
+specially:1
 keep:1
-old friends:1
 play:1
-games:1
-Fulfilling:1
 seeking:1
-events:1
 abreast:1
-the happenings:1
-the social world:1
-enter-
-tainment needs:1
-mood alleviating activities:1
-Satisfy-:1
-a degree:1
-
+happenings:1
+enter-:1
+tainment:1
+mood:1
+alleviating:1
+satisfy-:1
 availability:1
-Facebook users’ information needs:1
 ful-:1
 filled:1
 subscribing:1
-public Facebook pages’ timelines:1
-profile:1
+pages:1
+timelines:1
 visible:1
-the page admin:1
-the same page:1
-personal thoughts:1
-activities:1
-fulfilling:1
+admin:1
+thoughts:1
 playing:1
-social games:1
-interaction:1
-the site:1
-
+site:1
 strangers:1
 accomplished:1
 revealing:1
-profile information:1
-Facebook
-require:1
-the relaxation:1
-the afforded privacy controls:1
-(a) social needs:1
-Method:1
-Participants:1
-Data:1
+controls:1
+method:1
 gathered:1
-a cross sectional
-survey:1
-undergraduate students:1
+cross:1
+sectional:1
+undergraduate:1
 enrolled:1
-communication
 classes:1
-a large Northeastern university:1
-A total:1
-513 par-
+northeastern:1
+total:1
+513:1
 ticipants:1
-(57% male:1
+57%:1
+male:1
 responded:1
-an IRB:1
+irb:1
 approved:1
-online
-survey:1
-a two-week period:1
+two-week:1
+period:1
 the fall of the 2014:1
-Measures:1
 types:1
 dimen-:1
 sions:1
 operationalized:1
-ferent:1
-privay
-management:1
-their Facebook Security Settings:1
-
-Accessiblity privacy:1
+privay:1
+accessiblity:1
 manager:1
-their Facebook Privacy Settings:1
 704:1
-10.1002/asi
-
-Expressive privacy:1
-their Facebook Timeline and Tagging Settings:1
-The
-Facebook interface:1
-affords:1
-the ability:1
+ability:1
 individually:1
 subsetting:1
 shown:1
-Figures:1
+figures:1
 1–3:1
-measure:1
-individual items:1
-the
-setting:1
-their level:1
 openeness:1
-a 1–5
-scale:1
+1–5:1
 everyone:1
-infrequent:1
-these two evaluation dimensions:1
-a
-two-dimensional semantic differential measure:1
+frequent/infrequent:1
+two-dimensional:1
+semantic:1
+differential:1
 captured:1
-potency:1
-intensity:1
 multipled:1
-Potency 3 Intensity:1
-a weighted score:1
 resulted:1
-four broad groups:1
-mini-:1
-mally:1
-a setting:1
+groups:1
 infrequently:1
-the mini-
-mally aware frequent users:1
-the maximally aware infrequent
-users:1
-the maximally aware frequent users:1
-The overall
-scores:1
+infrequent:1
+overall:1
 ranged:1
 1–25:1
-scores:1
 tied:1
-individ-
 uals:1
-low awareness:1
-high frequency:1
-high awareness:1
-low frequency:1
-the net effect:1
-the two behaviours:1
+effect:1
+behaviours:1
 n’t:1
 might:1
 mis-:1
 takenly:1
-the wrong settings:1
+wrong:1
 some-:1
 knowingly:1
-their settings.1:1
-Facebook’s security
-settings:1
-Six items measured participants’ level:1
 aware-:1
 vent:1
-the Security Settings
 category:1
-the interface:1
-the Secure Browsing:1
-
-Login Notifications:1
-Exploratory Factor Analysis:1
-(EFA:1
-5 3.13:1
-0.90:1
-5 0.88:1
-the respective fre-:1
-
-quency:1
-final modeling:1
-5 6.17:1
-3.90:1
-Facebook’s privacy
-settings:1
-Four items measured participants’ level:1
+secure:1
+browsing:1
+notifications:1
+factor:1
+modeling:1
 open-:1
-contact:1
-Sample
-items:1
 drawn:1
 look:1
-your email address:1
-phone number:1
-private
-messages:1
-Similarly:1
-an EFA:1
-5 2.73:1
-0.71:1
-the respective frequency:1
-1This:1
-unchanged leaves:1
+similarly:1
+71:1
+unchanged:1
 evalolving:1
-cyber attacks:1
 precisely:1
 instructed:1
-review:1
-their passwords:1
+passwords:1
 frequently:1
 leaving:1
-set:1
-way:1
 proverbial:1
 build:1
-a single big wall:1
-a house”—does:1
+big:1
+wall:1
+house”—does:1
 assure:1
-privacy settings:1
-man-:1
 aged:1
-5 5.42:1
-5 3.48:1
-Expressive privacy:1
-timeline:1
-tagging settings:1
-Six items:1
-level:1
-their
-timeline:1
-the status:1
-post:1
+48:1
 accept:1
-status updates:1
-photo tagging requests:1
-An
-EFA:1
-5 3.38:1
-5 0.78:1
-0.92:1
-Those items:1
-the respective
-frequency:1
-5 6.42:1
-3.37:1
-PMT Based Measures:1
-Perceived Cost:1
-The independent variable:1
-a
-Likert-type scale:1
-Nine items measured participants’ per-
-ceived level:1
-my personal
-information:1
-a
-serious problem:1
-(unauthorized access:1
-digital
-data:1
-friend requests:1
-a serious prob-
+92:1
+37:1
+prob-:1
 lem:1
-a serious problem:1
-The first dimension:1
-5 3.61:1
-0.85:1
-The second dimension:1
-5 3.14:1
-0.78:1
-0.82:1
-testing H2:1
-
-H6:1
-Nine items:1
-partici-
-pants’ level:1
-attacks:1
+61:1
+82:1
+partici-:1
+pants:1
 targeted:1
 subjected:1
-
-Facebook:1
-unauthorized:1
-
-people:1
-friend
-requests:1
-a closer inspection:1
+closer:1
+inspection:1
 suggested:1
-one dimension:1
-5 3.21:1
-0.68:1
-50.83:1
-Responses:1
-The other dimension:1
-5 2.91:1
-
-SD:1
-0.88:1
-705
-
-TABLE 1:1
-Testing H1:1
-TABLE 2:1
-Testing H2:1
-(PMT:1
-Perceived severity
-Perceived susceptibility:1
-.11:1
-.003:1
-2.09:1
-.43:1
-2.10:1
-.27:1
-.28:1
-Perceived:1
-.15:1
-.03:1
-2.18:1
-.08:1
-2.11:1
-15.06:1
-16.70:1
-.18:1
-Five
-
-items:1
-measure participants:1
-Response
-beliefs:1
+68:1
+50:1
+705:1
+003:1
+27:1
+28:1
+03 2:1
+08:1
+five:1
 protecting:1
-their account:1
-my privacy settings:1
 trying:1
-my personal info:1
-Facebook
-privacy settings:1
-5 3.20:1
-0.89:1
-Seven items measured participants’ beliefs:1
-their Facebook privacy settings:1
-the abil-:1
+info:1
+89:1
+abil-:1
 confident:1
-my Facebook privacy:1
 anyone:1
-3.56:1
-0.73:1
-0.91:1
-U&G Based Measures:1
-Perceived Benefits:1
-The independent variables:1
-a Likert-type scale:1
-prior research:1
-Raacke &
-Bonds-Raacke, 2008:1
-17 items:1
-Example items:1
+56:1
+example:1
 diverts:1
-my attention:1
 bored:1
 stressed:1
 mapping:1
-the three gratification dimensions:1
 explicated:1
-prior
-research:1
-5 2.83:1
-0.79:1
-3.35:1
-5 0.77:1
-0.81:1
-
-entertainment needs:1
-5 3.43:1
-The
-responses:1
-each dimension:1
-Results:1
-the
-relative influence:1
-PMT based costs:1
-accessi-
-bility privacy:1
+79:1
+35:1
+77:1
+81:1
+accessi-:1
 respectively:1
-Each set:1
-hypotheses:1
-a hierarchical regression:1
-PMT-based per-
-ceived costs:1
-U&G-based benefits:1
-independent mea-
+hierarchical:1
+u&g-based:1
+mea-:1
 sures:1
-the weighted variable measuring enactment:1
-the
-respective Facebook’s privacy:1
-the dependent
-variable:1
-each model:1
-the PMT factors:1
+measuring:1
 indicating:1
-
-costs:1
-the U&G based benfits:1
-The rationale:1
+benfits:1
+rationale:1
 stems:1
-a large body:1
-cognitive
-research:1
+body:1
 contexts:1
 advertising:1
-message:1
-the salience:1
+salience:1
 decision-making:1
-(Vishwa-
+vishwa-:1
 nath:1
-
-susceptibility:1
-the
-user’s response efficacy:1
-the U&G variables:1
-i.e., social
-needs:1
-the
-second block:1
-The first model testing H1:1
-5 15.06:1
-0.001:1
 16%:1
-Facebook’s information privacy settings:1
-the tests:1
-b5:1
-5 3.07:1
-.002:1
 dicted:1
-b5.43:1
-8.53:1
-b5-.14:1
-5 22.55:1
-.011:1
+8:1
+53:1
+5-:1
+55:1
+011:1
 unautho-:1
-rized access:1
-Therefore:1
-par-:1
+rized:1
+therefore:1
 tially:1
-Next:1
-The analysis:1
 repeated:1
-accessibility privacy settings:1
-the results:1
-The
-
-regression model:1
-5 16.70:1
 18%:1
-variance:1
-the protection enactment:1
-the model:1
 sever-:1
-4.51:1
-protec-
-tion enactment:1
-
-protection enactment:1
-5 2.11:1
-5 22.20:1
-.029:1
-
-H2:1
-the U&G predictors:1
+5 4:1
+51:1
+029:1
+predictors:1
 706:1
-10.1002/asi
-
-TABLE 3:1
-Testing H3:1
-
-social image:1
-.12:1
-.10:1
-.06:1
-2.03:1
-2.05:1
-2.06:1
-2.07:1
-
-.21
-
-Perceived severity
-Perceived susceptibility:1
-*, .15
-
-social needs:1
-7.47:1
+03:1
+47:1
 nega-:1
-tively:1
-information needs:1
-5 22.52:1
-.012:1
-5 22.33:1
-.02:1
-Lastly:1
-model:1
+012:1
+02:1
+lastly:1
 concerning:1
-the
-enactment:1
 15%:1
-privacy enactment:1
-The results:1
-these tests:1
-this
-model:1
-5 5.49:1
-, posi-
-tively predicted protection enactment:1
-the U&G con-
+49:1
+posi-:1
 structs:1
-6.002:1
-Discussion:1
-cognitive:1
-the
-
-cost-benefit
-appraisal processes:1
 underlie:1
-users’ management:1
-vari-
-ous privacy protections:1
-DeCew:1
-a mechanism:1
+vari-:1
+ous:1
+mechanism:1
 categoriz-:1
-the afforded protections:1
-the framework:1
-users’ cognitive cost appraisals:1
 vided:1
 understand:1
-their privacy enactments:1
-the relative beta weights:1
-the regressions:1
-users’ privacy management:1
-the juxtaposition:1
-
-cost:1
-their Facebook privacy:1
-
-benefits:1
-social need fulfillment:1
-the sin-:1
-gle most significant Facebook benefit:1
+enactments:1
+beta:1
+weights:1
+juxtaposition:1
+fulfillment:1
+sin-:1
+gle:1
 influenced:1
-their Facebook settings:1
-their
-information privacy:1
 finding:1
-maintain-:1
-existing relationships:1
-a more active consideration:1
+consideration:1
 gets:1
-the users digital data:1
-influence:1
-their self-presentation:1
-likely foster impression management:1
+impression:1
 tailored:1
 self-:1
-presentation:1
-the drive Facebook use:1
-
-information needs:1
 appear:1
 relax:1
-the intensity:1
-such privacy protections:1
-such benefits:1
 acquired:1
 simply:1
 lurking:1
-other people’s profiles:1
+profiles:1
 passively:1
 receiving:1
 feeds:1
-these
-activities:1
 divulge:1
 meaning:1
-active privacy management:1
-Relative:1
-the perceived costs:1
-our regressions:1
-the losses:1
 incur:1
-the effort:1
+effort:1
 mitigate:1
-The testing:1
-the PMT framework:1
-
-privacy incursions:1
-significant impacts:1
-privacy
-management:1
-a relatively
-stronger influence:1
-(i.e., loss:1
-i.e., loss:1
+incursions:1
+impacts:1
+relatively:1
+stronger:1
 annoymity:1
-a reflection:1
-the social
+reflection:1
 nature:1
-most people:1
-self-presentation:1
-social losses:1
 stem-:1
 ming:1
-inaccurate self-presentation:1
-public embarrass-:1
-ment:1
-a bigger, more significant threat:1
+inaccurate:1
+embarrass-:1
+bigger:1
 contrast:1
-digital or
-information privacy losses:1
 impactful:1
-the private way:1
-these costs:1
 incurred:1
-the social
 embarrassment:1
-a photograph:1
-a
-negative light:1
+photograph:1
+negative:1
+light:1
 harder:1
 privately:1
-a password:1
-some digital information:1
-These findings:1
-several practical implications:1
-
-privacy protection behaviors:1
-SNSs:1
-the design:1
-
-usable security:1
+several:1
+practical:1
+snss:1
 tends:1
-useful security settings:1
+easy:1
+useful:1
 ignorning:1
-the
 fact:1
-not all settings:1
 underutilized:1
-
-design:1
-Most settings:1
 ignored:1
 instead:1
 solely:1
-social information leaks:1
+leaks:1
 allows:1
-better security design:1
-various settings:1
 emphasize:1
-the relatedness:1
-all security settings:1
+relatedness:1
 nect:1
-the social implications:1
 monitoring:1
-all the
-others:1
 given:1
-the influence:1
-individual level
-differences:1
-security desingers:1
+desingers:1
 develop:1
 mechanisms:1
-a simple way:1
-the
+simple:1
 value:1
-each setting:1
 breaches:1
-the misappropriation:1
-any
-setting:1
--line:1
-any sample-based, social science
-research:1
-a few limitations:1
+misappropriation:1
+in-line:1
+sample-based:1
 beginning:1
-the
-use:1
-a student sample:1
-College students:1
-demographic:1
-
-cyber criminals:1
-a homogenous sample:1
-
-students:1
+student:1
+homogenous:1
 gave:1
-a fair degree:1
-potential con-
+fair:1
 founds:1
 stemming:1
-differences:1
-quency:1
-experience:1
-
-general technological efficacy:1
-college:1
-students:1
-typical:1
-the broader U.S. or global population:1
-707
-
-Internet users:1
+general:1
+technological:1
+a-typical:1
+broader:1
+population:1
+707:1
 somewhat:1
 restricts:1
 generalizability:1
-just college age adults:1
-Another:1
-limitation:1
+age:1
+adults:1
 self-reports:1
 subject:1
 errors:1
 mem-:1
-
 ory:1
-participant biases:1
-social disirablity:1
+participant:1
+biases:1
+disirablity:1
 primed:1
-other survey items:1
 subjects:1
-their desired privacy setting:1
 felt:1
-the researcher:1
+researcher:1
 attempting:1
 gauge:1
-stu-
-dents:1
 warned:1
 class:1
 leading:1
-their
-use:1
-more restricted settings:1
-Yet:1
-another limitation:1
-the treatment:1
-the three differ-
-ent privacy settings:1
-the Facebook interface:1
-independent dimensions:1
-perhaps as nested or dependent factors:1
+restricted:1
+yet:1
+differ-:1
+ent:1
+nested:1
 practice:1
 treated:1
-independent, mutu-
-ally exclusive settings:1
-Our treatment:1
+mutu-:1
+exclusive:1
 practically:1
 eco-:1
 logically:1
 consistent:1
-a theory:1
-driven treatment:1
-perhaps net different results:1
-the three dimensions:1
-the advent:1
 categorizing:1
-the privacy man-:1
-agement settings:1
-its appropriateness:1
+agement:1
+appropriateness:1
 coverage:1
 validity:1
-digital privacy:1
-the
-Web 2.0 world:1
-public and
-private information:1
 remains:1
 ascertained:1
-a limitation:1
-the current application:1
-the dimensions:1
-a topic:1
+topic:1
 ripe:1
-future research:1
-a cross-sectional design:1
-dependent:1
-independent measures:1
 collected:1
-the same time:1
-relational tests:1
+relational:1
 established:1
-natural time:1
-limitations:1
-social science research:1
+natural:1
 lizes:1
-this approach:1
-many:1
-future
-research:1
-address:1
-Research:1
-an adult:1
+adult:1
 national:1
-global sample:1
-behavioral measures:1
-Facebook settings:1
+behavioral:1
 procured:1
 experiments:1
-
-settings users:1
-a privacy beach:1
-Such
-research:1
-other countries:1
-
-other social networking platforms:1
-Twitter:1
-Link-
-edIn:1
-the cross-cultural and multi-platform gen-:1
-
+beach:1
+countries:1
+link-:1
+edin:1
+cross-cultural:1
+multi-platform:1
+gen-:1
 eralizability:1
-these results:1
 chose:1
-their
-privacy settings:1
-a large extent:1
 dictated:1
-the afforances:1
-each platform:1
-the
-afforded settings:1
+afforances:1
 adequate:1
 expect:1
-ferent settings:1
-perhaps more control:1
-individual set-:1
-tings:1
-another future research question:1
-the answer:1
-their privacy:1
-better:1
+question:1
+answer:1
 notewor-:1
 thy:1
-Decision science:1
 long:1
-go:1
-a cost-benefit evaluation:1
-impor-
-tant decisions:1
+impor-:1
+tant:1
+decisions:1
 addressed:1
-the theoreti-:1
-cal constituents:1
-its implications:1
-the privacy protections:1
+theoreti-:1
+cal:1
+constituents:1
 extending:1
-the theoretical lens:1
-PMT
-:1
-the present study:1
 explains:1
-the cognitive
-processes:1
 allow:1
 pinpoint:1
-the specific costs:1
-specific benefits:1
-various privacy
-protections:1
-References:1
-Altman:1
-I.:1
-The environment:1
-social behavior:1
-sonal space:1
+references:1
+environment:1
+sonal:1
+space:1
 territory:1
-Monterey:1
-Brooks/Cole Pub.:1
-Co.:1
-Braz, C., Seffah, A., & M’raihi, D.:1
-Designing:1
+monterey:1
+brooks/cole:1
+pub:1
+co:1
 usability:1
-: A metrics based-model:1
-Human-
-computer
-interaction:1
-INTERACT:1
+metrics:1
+based-model:1
+human-:1
+interact:1
 114–126:1
-
-Springer:1
-Application:1
-adoption:1
-protective technologies:1
-the 42nd Hawaii International Conference:1
-Sys-
-tem Sciences:1
-Debatin:1
-B.:1
-Lovejoy:1
-J.P.:1
-A.-K.:1
-& Hughes:1
-B.N.:1
-Attitudes:1
-unintended conse-
+nd:1
+hawaii:1
+international:1
+sys-:1
+sciences:1
+-k:1
+attitudes:1
+unintended:1
+conse-:1
 quences:1
-15:1
 83–108:1
-j.1083:1
-6101.2009.01494.x:1
-DeCew, J.W.:1
+1083-6101:1
+01494:1
 pursuit:1
-Law:1
+law:1
 ethics:1
-the rise:1
-Ithaca:1
-Cornell University Press:1
-J.C.:1
-LinkedIn Account Hacked:1
-PC Magzine:1
-N.B.:1
-Lampe:1
-The benefits:1
-Face-
-book “friends:1
-Social capital and college students’ use:1
-online
-social network sites:1
-12:1
+rise:1
+ithaca:1
+cornell:1
+linkedin:1
+pc:1
+magzine:1
+capital:1
 1143–1168:1
-D.L.:1
-S., & Rogers:1
-meta:1
-analysis:1
-Journal of Applied Social
-Psychology:1
+meta-analysis:1
 407–429:1
-E.:1
-The presentation:1
-everyday life:1
-Garden
-
-City:1
-Doubleday:1
-Herath:1
-Protection motivation:1
+self:1
+everyday:1
+garden:1
+city:1
+doubleday:1
+herath:1
 deterrence:1
-A
-framework:1
 organisations:1
-European
-Journal of Information Systems:1
-18:1
+european:1
 106–125:1
-Looking:1
-peo-
-ple:1
-Motives:1
-the Proceedings
-of:1
-the SIGCHI Conference on Human Factors in Computing Systems:1
-Houghton:1
-D.J.:1
-Vasalou, A.:1
-Marder:1
-B.L.:1
-Digital:1
-self-disclosure:1
+proceedings:1
+sigchi:1
+human:1
+computing:1
 33–45:1
-Springer:1
-F.:1
-D.:1
-C.-T.:1
-Fighting:1
-The cop-
-ing perspective:1
-Decision Support Systems:1
+-t:1
+fighting:1
+cop-:1
 353–363:1
 https://doi:1
-org/10.1016:1
-j.dss.2011.09.002:1
-Liang:1
-H.:1
-Xue:1
-Avoidance:1
-information technology:1
-threats:1
-A theoretical perspective:1
-MIS Quarterly:1
-33:1
+org/10:1
+1016/j:1
+dss:1
+avoidance:1
 71–90:1
-P.:1
-Ding:1
-Xu:1
-Applying:1
-protection motivation:1
-information security training:1
-college students:1
-Journal of
-Information Privacy & Security:1
+applying:1
+training:1
 9:1
 47–67:1
-G.R.:1
-L.I.:1
-& Cromer:1
-Toward:1
 under-:1
-
 standing:1
-the online consumer’s risky behavior:1
-prac-
+consumer’s:1
+risky:1
+prac-:1
 tices:1
-Journal of Consumer Affairs:1
-43:1
+consumer:1
+affairs:1
 449–473:1
-10.1111/j.1745-:1
-6606.2009.01148.x:1
-Sen. Grassley’s Twitter Account:1
-Hacked:1
-SOPA:1
-
-Protesters:1
-ABC News:1
-http://abcnews.go.com/blogs/politics/2012/01/:1
-sen-grassleys:1
-twitter:1
-sopa-protesters/.:1
-Bruppacher:1
-S.E.:1
-& Mosler:1
-H.-J.:1
+1745-:1
+6606:1
+01148:1
+grassley’s:1
+sopa:1
+protesters:1
+abc:1
+http://abcnews:1
+com/blogs/politics/2012/01/:1
+sen-grassleys-twitter-account-hacked-by-sopa-protesters/:1
+-j:1
 ceive:1
 cope:1
-the diffusion:1
-ubiquitous infor-
-mation and communication technologies:1
-Risk Analysis:1
-31:1
 832–846:1
-j.1539-6924.2010.01544.x:1
-Nielsen:1
-2010:1
+1539-6924:1
+01544:1
 average:1
 7 hours:1
-Digital universe:1
+month:1
+universe:1
 expands:1
-http://www.nielsen.com/us/:1
-newswire/2010/facebook-users:1
-average-7:1
-hrs:1
-january-:1
-as-digital-universe-expands.html:1
-Petronio:1
-Boundaries:1
-Dialectics:1
+com/us/:1
+en/newswire/2010/facebook-users-average-7-hrs-a-month-in-january-:1
+as-digital-universe-expands:1
+dialectics:1
 disclosure:1
-Albany:1
-State University:1
-New York Press:1
-MySpace:1
-Apply-:1
-the uses:1
+albany:1
+state:1
+myspace:1
+apply-:1
 exploring:1
-networking:1
-708
-
-JOURNAL:1
-DOI: 10.1002/asi
-
-sites:1
-Cyberpsychology & Behavior:1
-11:1
+friend-networking:1
+708:1
+cyberpsychology:1
 169–174:1
-10.1089/:1
-cpb.2007.0056
-
-Rainie:1
-Kang:1
-Madden:1
-M.:1
-Anonymity:1
-, pri-:1
-http://www.pewinternet:1
-org/2013/09/05:1
-online/:1
-M.B.:1
-Needs:1
-motives:1
-computer-mediated
-communication:1
-An inductive exploration:1
-social networking web-
-sites:1
-the 57th Annual Conference of the Interna-
-tional Communication Association:1
-San Francisco:1
-Riley:1
-M.A.:1
-Vance:1
-China:1
-corporate:1
+1089/:1
+cpb:1
+0056:1
+madden:1
+pewinternet:1
+org/2013/09/05/anonymity-privacy-and-security-online/:1
+inductive:1
+exploration:1
+web-:1
+th:1
+annual:1
+interna-:1
+tional:1
+san:1
+francisco:1
+china:1
 espionage:1
 boom:1
 knocks:1
 wind:1
-U.S. Companies:1
-Bloomberg Business Week:1
-A protection motivation theory:1
-appeals:1
-attitude change:1
-Journal of Psychology:1
-91:1
+companies:1
+bloomberg:1
+week:1
 93:1
-Cognitive and physiological processes:1
-appeals and attitude change:1
-A revised theory:1
+physiological:1
 motiva-:1
-J. T. Cacioppo & R. E. Petty (Eds:1
-Social psychophysiology:1
-A sourcebook:1
+cacioppo:1
+petty:1
+eds:1
+psychophysiology:1
+sourcebook:1
 153–176:1
-Guilford:1
-Shahnaz:1
-Wok:1
-Religious motives:1
-among:1
-university Muslim students:1
-the Seminar
-Kebangsaan Media dan Dakwah:1
-Universiti Sains:1
-Islam Malaysia:1
-Sundar:1
-& Limperos:1
-A.M.:1
+guilford:1
+religious:1
+muslim:1
+seminar:1
+kebangsaan:1
+dakwah:1
+universiti:1
+sains:1
+islam:1
+malaysia:1
 grats:1
-: New gratifi-
+gratifi-:1
 cations:1
-new media:1
-Journal of Broadcasting & Electronic Media:1
-57:1
+broadcasting:1
+electronic:1
 504–525:1
-10.1080/08838151.2013.845827:1
-The 360 news experience:1
-Audience connections:1
-the ubiquitous news organization:1
-Journalism & Mass:1
-Communi-:1
+1080/08838151:1
+845827:1
+360:1
+audience:1
+connections:1
+organization:1
+journalism:1
+mass:1
+communi-:1
 cation:1
-Quarterly,:1
-85:1
 7–22:1
 belief-importance:1
 intention:1
 impact:1
-technology adoption:1
 76:1
 177–206:1
-2015:1
-Diffusion:1
 deception:1
-Social
-contagion effects:1
-its antecedents:1
-Information Systems Frontiers:1
-17:1
+contagion:1
+antecedents:1
+frontiers:1
 1353–1367:1
-A.F.:1
 freedom:1
-(1st ed:1
-Atheneum:1
-K.:1
-Putting:1
+st:1
+atheneum:1
+putting:1
 back:1
-J.L.:1
-Bank of America:1
-the ultimate social media:1
-parallel process model:1
+bank:1
+america:1
+ultimate:1
+parallel:1
+process:1
 59:1
 329:1
 fail:1
-Business Insider:1
-Going:1
-bling:1
-: Hollywood Burglars:1
-New York Times:1
-http://www.nytimes.com/2009/11/15/fashion/15bling.html
-:1
-Sangmi, C.:1
-Bagchi-Sen:1
-Upadhyaya:1
-S.J.:1
-Internet:1
-online information privacy:1
-An exploratory study:1
+insider:1
+going:1
+burglars:1
+nytimes:1
+com/2009/11/15/fashion/15:1
+bagchi-sen:1
 preteens:1
-early teens:1
-IEEE Transactions on:1
-Professional Com-
+early:1
+teens:1
+ieee:1
+transactions:1
+professional:1
+com-:1
 munication:1
 167–182:1
-10.1109:1
-TPC.2009.2017985:1
-Gregory:1
-W.L.:1
-W.G.:1
-Protection motivation
-theory:1
-Prediction:1
+1109/tpc:1
+2017985:1
+prediction:1
 intentions:1
 engage:1
-anti-nuclear war:1
-behav-:1
-iors:1
-Journal of Applied Social Psychology:1
-16:1
+anti-nuclear:1
 310–321:1
-B.F.:1
-X.:1
-M.L.:1
-Pro-
-tection motivation theory:1
-adolescent drug trafficking:1
-Relation-
+relation-:1
 ship:1
-health motivation:1
-longitudinal risk involvement:1
-Journal of Pediatric Psychology:1
+health:1
+longitudinal:1
+involvement:1
+pediatric:1
 127–137:1
-709
-
-Copyright of Journal of the Association for Information Science & Technology:1
+709:1
 property:1
-John Wiley &:1
-Sons, Inc.:1
-its content:1
+john:1
+sons:1
+inc:1
 copied:1
 emailed:1
-multiple sites:1
-a listserv:1
-the copyright holder's express written permission:1
+multiple:1
+listserv:1
+holder:1
+'s:1
+express:1
+written:1
+permission:1
 print:1
 download:1
-email articles:1
-individual use:1
+articles:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:11
-Privacy:4
-hacked:2
-Hacked:1
+Privacy:119
+hacked:3

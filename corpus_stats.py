@@ -50,6 +50,7 @@ def compute_stats(tokens, filename, output_file, gen_path):
         for keyword in keywords:
             if (keyword.lower() == key.lower()):
                 keywords_present.append(str(keyword) + ':' + str(val))
+                print(key, key.dep_)
 
     print("\nKeywords that appear in the file, alongside with their frequencies:", file=output_file)
     for keyword in keywords_present:
@@ -125,7 +126,7 @@ def process_document(title, source_path,source,keywords):
     path = 'data/'+source_path+'/'+title+'.pdf' #'data/'+file_input_path_general+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
-    print(input_file)
+    #print(input_file)
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
 
@@ -150,7 +151,6 @@ def process_document(title, source_path,source,keywords):
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
     #nlp.add_pipe("merge_noun_chunks") # NOT NEEDED WITH THE NEW LOGIC THAT PUTS TOKETHER KEYWORDS
     print(tokens)
-    
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
@@ -223,8 +223,8 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 
 # LEMMATIZATION, STEMMING - I THINK IT'S A GOOD IDEA BUT WE SHOULD CHECK THE KEYWORDS
 # EXPANDING ABBREVIATIONS?
-# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN
-# CURRENTLY EVALUATING WORDS INSIDE NOUN CHUNKS ONLY AS THE NOUN CHUNK SET, SO MAYBE WE ARE MISSING KEYWORDS INSIDE OF NOUN CHUNKS?
+# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN check
+# CURRENTLY EVALUATING WORDS INSIDE NOUN CHUNKS ONLY AS THE NOUN CHUNK SET, SO MAYBE WE ARE MISSING KEYWORDS INSIDE OF NOUN CHUNKS? now evaluating noun chunks separately
 
 # B - TEST WITH DIFFERENT FILES -> DONE, NOT MUCH HELP...
 
@@ -256,8 +256,8 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 # NUMBERS TO WORDS? REMOVE NUMBERS? probably not needed
 # EXPANDING ABBREVIATIONS? 
 # READING OUT DATES? probably not needed
-# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN!!!!
-# TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI?
+# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN!!!! check
+# TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI? find a debugger
 # AFTER ORGANIZING THIS ALL -> MOVE ON TO DEPENDENCY PARSING
 
 # I realized I should sent an email warning you whenever I update the output in the folders, from now on I will, and where to find the changes
@@ -270,7 +270,7 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 # Take a look at stats, come up with an opinion in new keywords --- do not follow this angle yet
 
 
-# To debug f5, import gc gc.collect() but I'm not yet satidfied with the results
+# To debug f5, import gc gc.collect() but I'm not yet satisfied with the results
 
 # BRAINSTORMING
 
@@ -279,8 +279,8 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 
 ### NEXT STEPS:
 
-# SEARCH STRING OF ALL TERMS
-# CLEANING
+# SEARCH STRING OF ALL TERMS check but search string misses some terms...
+# CLEANING check but cleaning misses some terms...
 # FILTERING
 # TOKENIZATION
 # TESTING WITH SPACY DEPENDENCY PARSER

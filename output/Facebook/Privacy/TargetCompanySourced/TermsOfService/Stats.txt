@@ -3,1029 +3,781 @@ TermsOfService
 
 
 With stop word removal 
-Size of original corpus: 4314 
-Size of filtered corpus: 1890
-Size of Lexicon: 946
+Size of original corpus: 4806 
+Size of filtered corpus: 2174
+Size of Lexicon: 769
 
 Tokens that appear in the file, alongside with their frequencies:
-use:49
-Facebook:38
-our Products:24
-us:23
+facebook:79
+products:57
+use:56
+terms:49
+content:44
+services:37
+people:26
+us:24
+ads:22
+data:22
 may:22
-people:21
-share:19
-these Terms:18
-content:18
-services:17
+account:20
+share:20
+community:18
 example:17
 apply:16
-provide:13
+provide:16
+help:15
+permission:15
+policies:15
+rights:15
+information:13
 others:13
-your account:13
-ads:12
-help:12
 make:12
 show:11
+create:11
+access:11
 give:10
-our services:10
-our community:10
+systems:10
 advertisers:9
+2:9
+3:9
+guidelines:9
 using:8
-information:8
-2:8
-create:8
-Terms:7
+personal:8
+learn:8
+1:8
+6:8
+intellectual:8
+property:8
+legal:8
 organizations:7
 agree:7
 like:7
-1:7
-access:7
-6:7
+see:7
+business:7
 without:7
-3:7
-your content:7
-your personal data:6
-see:6
-data:6
+license:7
+https://www:6
+com/legal/terms/plain_text_terms:6
+connect:6
+software:6
+time:6
+else:6
+groups:6
 across:6
 continue:6
+conduct:6
 support:6
 develop:6
+law:6
+20/09/2021:6
+14:36:6
 need:6
 must:6
 delete:6
-These guidelines:6
-connect:5
-the Facebook Products:5
-Products:5
+4:6
+claim:6
+businesses:5
+features:5
 determine:5
+contact:5
 unless:5
+policy:5
 described:5
-learn:5
-else:5
-groups:5
-20/09/2021:5
+settings:5
+events:5
+platform:5
+activity:5
+users:5
+purposes:5
 including:5
+standards:5
+provisions:5
 know:5
 deleted:5
-4:5
+page:5
+commercial:5
 outline:5
+email:4
+service:4
+video:4
+technologies:4
 build:4
-businesses:4
-your use:4
-Messenger:4
+messenger:4
 oﬀer:4
+state:4
+ireland:4
+limited:4
 n’t:4
 covered:4
 relevant:4
-your name:4
-their ads:4
 understand:4
 collect:4
+review:4
+privacy:4
+experience:4
 anyone:4
-events:4
+'s:4
+better:4
 express:4
 communicate:4
 videos:4
-products:4
+sponsored:4
+safe:4
+technical:4
 remove:4
-the integrity:4
+integrity:4
+consistent:4
+company:4
+actions:4
 breaches:4
-policies:4
-permission:4
+laws:4
+disable:4
+liability:4
+due:4
 post:4
 download:4
 longer:4
+changes:4
 5:4
-These terms:4
-the policies:4
+supplemental:4
+music:4
+advertising:4
+messaging:3
 required:3
-These Terms:3
+code:3
+enable:3
 govern:3
-the other products:3
-software:3
-Facebook Ireland Limited:3
-Instead:3
+provided:3
+instead:3
+pay:3
+interests:3
 identiﬁes:3
+things:3
+audience:3
 interested:3
 explains:3
-any time:3
-the world:3
+choices:3
+mission:3
+world:3
 advance:3
-Provide:3
+pages:3
 follow:3
-the data:3
 oﬀ:3
+friends:3
 useful:3
+ways:3
 photos:3
-other Facebook Products:3
-harmful conduct:3
+proﬁle:3
+new:3
+technology:3
+harmful:3
+advanced:3
 detect:3
 misuse:3
+action:3
+certain:3
+someone:3
+ability:3
+instagram:3
 improve:3
 harm:3
-better:3
+research:3
 engage:3
-the purposes:3
-consistent:3
-systems:3
 've:3
-contact:3
-Learn:3
+means:3
+types:3
 available:3
 disabled:3
-our Terms:3
-Policies:3
 prohibited:3
 upload:3
-disable:3
+prior:3
 explain:3
+request:3
 repeatedly:3
-users:3
 operation:3
-due:3
-technical limitations:3
-Permission:3
+limitations:3
+reasons:3
+permissions:3
+trademarks:3
+however:3
+connection:3
+copy:3
 display:3
-which case:3
-the content:3
+case:3
+comply:3
+obligation:3
+brand:3
 otherwise:3
 eﬀect:3
-supplemental terms:3
-Log:2
-Sign:2
-messaging:2
+agreement:3
+member:3
+conﬂict:3
+group:3
+developers:3
+password:2
+log:2
+sign:2
+welcome:2
+voice:2
+calling:2
 included:2
-Facebook Products:2
-technologies:2
-enable:2
+european:2
+communities:2
 apps:2
 expressly:2
-provided:2
-pay:2
 think:2
-your interests:2
 sell:2
 directly:2
-speciﬁc permission:2
+address:2
+speciﬁc:2
 tell:2
-things:2
-the kind:2
-audience:2
+kind:2
 reports:2
-the performance:2
+performance:2
 interacting:2
-their content:2
-Section:2
-Our Data Policy:2
+section:2
 go:2
-your settings:2
-review:2
-community:2
-the Products:2
-'s:2
 stories:2
 might:2
-Marketplace:2
+marketplace:2
 ﬁnd:2
-Pages:2
+suggestions:2
+watch:2
 become:2
-friends:2
 believe:2
 matters:2
+many:2
 updates:2
-technology:2
-Help:2
+augmented:2
+reality:2
 discover:2
+interest:2
 oﬀers:2
-other sponsored content:2
 protect:2
 feel:2
-safe:2
 around:2
 able:2
-conduct:2
-law enforcement:2
-someone:2
-Use:2
+appropriate:2
+enforcement:2
 everyone:2
-14:36
-
-Facebook
-
-:2
 shared:2
-our ability:2
-new features:2
+automated:2
 developing:2
 improving:2
+seamless:2
 important:2
-our systems:2
-a business:2
+global:2
 store:2
 distribute:2
-your activity:2
-means:2
 seen:2
-email:2
 used:2
 work:2
-your data:2
-the types:2
-actions:2
-Create:2
+commitments:2
+following:2
+everyday:2
+life:2
 transfer:2
 try:2
-our products:2
+applicable:2
 anything:2
-our Community Standards:2
+fraudulent:2
 attempt:2
 breach:2
 ’ll:2
 let:2
-any options:2
-request:2
+options:2
 seriously:2
 expose:2
-legal liability:2
 compromise:2
 interfere:2
 restricted:2
-your rights:2
-our terms:2
 restrict:2
 reasonably:2
 necessary:2
 avoid:2
-trademarks:2
-Nothing:2
-free:2
+nothing:2
 known:2
 providing:2
-intellectual property rights:2
-connection:2
 modify:2
-copy:2
-derivative works:2
+derivative:2
+works:2
+application:2
 deleting:2
-however:2
+immediate:2
+deletion:2
 accordance:2
-this license:2
 investigate:2
 identify:2
-comply:2
 retained:2
-case:2
-proﬁle picture:2
+cases:2
+picture:2
 taken:2
-a Page:2
+event:2
 update:2
-Limits:2
-time:2
-the changes:2
-an opportunity:2
-law:2
-Community Standards:2
+limits:2
+similar:2
+written:2
+source:2
+reasonable:2
+opportunity:2
+updated:2
+part:2
+place:2
 suspend:2
-legal reasons:2
 shall:2
 remain:2
 limit:2
 death:2
 caused:2
-professional diligence:2
+professional:2
+diligence:2
 losses:2
+disputes:2
+clear:2
+rules:2
+dispute:2
 resolved:2
-that Member State:2
-any claim:2
-the claim:2
-conﬂict:2
+competent:2
+court:2
 regarding:2
 selling:2
 managing:2
-a group:2
-Page:2
-our measurement services:2
+measurement:2
 containing:2
-music:2
-the extent:2
+extent:2
+portion:2
+waiver:2
 made:2
 obligations:2
-a person:2
+consent:2
+person:2
+legacy:2
 memorialized:2
-our Platform:2
-These policies:2
+username:2
+self-serve:2
 administer:2
-developers:2
-Payment:2
-terms:2
-14:36:2
-https://www.facebook.com/legal/terms/plain_text_terms:1
-Email:1
-Phone:1
-Password:1
-Forgot account:1
-Service:1
-Welcome:1
-voice and video calling services:1
+payment:2
+payments:2
+live:2
+phone:1
+forgot:1
 please:1
 click:1
-a contract
+contract:1
 summary:1
-other information:1
-the European Electronic Communications Code:1
+electronic:1
+communications:1
 builds:1
-communities:1
 grow:1
-features:1
 except:1
-state:1
-separate terms:1
+separate:1
 charge:1
-their products:1
-which ads:1
-email
-address:1
-other contact information:1
-those ads:1
-See:1
-the ads:1
-the other
-services:1
-the privacy choices:1
-The services:1
-Our mission:1
-the power:1
+power:1
 bring:1
 closer:1
 together:1
-this mission:1
-a personalized experience:1
-Your experience:1
+personalized:1
 unlike:1
-the posts:1
-other content:1
-News Feed:1
-our video platform:1
-the Pages:1
-other features:1
-Trending:1
+posts:1
+news:1
+feed:1
+trending:1
 search:1
-the connections:1
-the choices:1
-settings:1
+connections:1
 select:1
 personalize:1
-your experience:1
-Connect:1
 matter:1
-suggestions:1
 join:1
 attend:1
 send:1
-a message:1
+message:1
 shows:1
-watch:1
-Stronger ties:1
-better communities:1
+stronger:1
+ties:1
 connected:1
-Empower:1
-many ways:1
+empower:1
 family:1
-sharing status:1
+sharing:1
+status:1
 sending:1
 messages:1
-a friend:1
-several people:1
+friend:1
+several:1
 creating:1
 adding:1
-your proﬁle:1
 developed:1
 explore:1
-new ways:1
-augmented reality:1
-360 video:1
-more expressive and engaging content:1
-interest:1
+360:1
+expressive:1
+engaging:1
 oﬀered:1
-the many businesses:1
-more detail:1
-Combat:1
-People:1
+detail:1
+combat:1
 employ:1
-dedicated teams:1
-advanced technical systems:1
+dedicated:1
+teams:1
 towards:1
 situations:1
-appropriate action:1
-oﬀering help:1
+oﬀering:1
 removing:1
 blocking:1
-certain features:1
 disabling:1
-an account:1
 contacting:1
-other Facebook Companies:1
-advanced technologies:1
-safe and functional services:1
-advanced:1
-https://www.facebook.com/legal/terms/plain_text_terms
-
-technologies:1
-artiﬁcial intelligence:1
-machine learning systems:1
-augmented:1
-reality:1
+companies:1
+functional:1
+artiﬁcial:1
+intelligence:1
+machine:1
+learning:1
 safely:1
 regardless:1
-physical ability:1
-geographic location:1
+physical:1
+geographic:1
+location:1
 helps:1
 visual:1
 impairments:1
-Facebook or Instagram:1
-sophisticated network
-and communication technology:1
-more people:1
-the internet:1
+sophisticated:1
+network:1
+communication:1
+internet:1
 areas:1
-limited access:1
-automated
-
-systems:1
-abusive and dangerous activity:1
-Research ways:1
-research:1
+abusive:1
+dangerous:1
 test:1
 includes:1
 analyzing:1
-our users:1
 understanding:1
 conducting:1
 surveys:1
-
 testing:1
 troubleshooting:1
-this research:1
-consistent and seamless experiences:1
-the Facebook Company Products: Our Products:1
+experiences:1
 design:1
-your
-experience:1
-seamless:1
-the diﬀerent Facebook Company Products:1
-the people:1
+diﬀerent:1
 easier:1
-Instagram:1
-Enable:1
-global access:1
 operate:1
-our global service:1
-our data
 centers:1
 outside:1
-your country:1
+country:1
 residence:1
-This infrastructure:1
+infrastructure:1
 operated:1
 controlled:1
-Facebook, Inc.:1
-its aﬃliates:1
+inc:1
+aﬃliates:1
 funded:1
 paying:1
-business:1
 promote:1
-the Facebook Company
-
-Products:1
-interests:1
-Protecting:1
-people's privacy:1
+protecting:1
 central:1
 designed:1
-our ad system:1
+system:1
 telling:1
 n't:1
 allow:1
-their business goal:1
-the age:1
+goal:1
+age:1
 18-35:1
 cycling:1
-their ad:1
-general demographic and interest information:1
-an ad:1
-a woman:1
+general:1
+demographic:1
+woman:1
 between the ages of 25 and 34:1
 lives:1
-Madrid:1
+madrid:1
 likes:1
-software engineering:1
-their audience:1
-address:1
-Facebook ads:1
+engineering:1
 order:1
-the services:1
-our Data Policy:1
 controls:1
-Your commitments:1
-these services:1
-our mission:1
 exchange:1
-following:1
-commitments:1
 stand:1
 behind:1
-their opinions:1
+opinions:1
 safer:1
 accountable:1
-this reason:1
-the same name:1
-everyday life:1
-accurate information:1
-only one account:1
-your timeline:1
-personal purposes:1
-your password:1
-your Facebook account:1
-our
-
-permission:1
+reason:1
+accurate:1
+only one:1
+timeline:1
 broadly:1
 under 13 years old:1
-a convicted sex oﬀender:1
+convicted:1
+sex:1
+oﬀender:1
 previously:1
 receiving:1
-applicable laws:1
-Facebook
-
-2 of 6
-
-20/09/2021, 14:36
-
-Facebook
-
-https://www.facebook.com/legal/terms/plain_text_terms
-
-:1
-the expense:1
-the safety:1
+expense:1
+safety:1
 well-being:1
 therefore:1
-the conduct:1
 facilitate:1
-other terms:1
 unlawful:1
 misleading:1
 discriminatory:1
-fraudulent:1
 infringes:1
-someone else's rights:1
-their intellectual property rights:1
 viruses:1
-malicious code:1
+malicious:1
 could:1
 overburden:1
 impair:1
-the proper working:1
+proper:1
+working:1
 appearance:1
-automated means:1
-our prior permission:1
-access data:1
 block:1
-these provisions:1
 violation:1
-another review:1
+another:1
 violate:1
-
-systems:1
-legal
-
-reasons:1
 encourage:1
 report:1
-
-intellectual property rights:1
 mitigate:1
-adverse legal or regulatory impacts:1
-The permissions:1
-certain permissions:1
-Some content:1
+adverse:1
+regulatory:1
+impacts:1
 protected:1
-intellectual property laws:1
-the intellectual property rights:1
-(things:1
 copyright:1
-any such content:1
-the other Facebook Company Products:1
 takes:1
 away:1
-the rights:1
-your own content:1
+free:1
 wherever:1
-However:1
-some legal permissions:1
-a ‘license:1
-this content:1
 solely:1
-Section 1:1
-Speciﬁcally:1
+section 1:1
+speciﬁcally:1
 grant:1
-exclusive:1
+non-exclusive:1
 transferable:1
-licensable:1
-royalty:1
+sub-licensable:1
+royalty-free:1
 worldwide:1
-license:1
 host:1
-, use:1
 run:1
 publicly:1
 perform:1
 translate:1
-your privacy and application settings:1
-a photo:1
-
-permission:1
-service providers:1
-our service:1
-This license:1
-our
-
-systems:1
+photo:1
+providers:1
 individually:1
-a copy:1
-’s:1
+it’s:1
 visible:1
-other users:1
 exist:1
 elsewhere:1
-• immediate deletion:1
 possible:1
 within:1
 maximum:1
 90 days:1
-this
-
-license:1
-that content:1
-immediate deletion:1
 would:1
-illegal activity:1
+illegal:1
 violations:1
-a legal obligation:1
-the preservation:1
+preservation:1
 evidence:1
-• comply:1
-a request:1
-a judicial or administrative authority:1
-a government agency:1
-the exact duration:1
+judicial:1
+administrative:1
+authority:1
+government:1
+agency:1
+exact:1
+duration:1
 vary:1
+case-by-case:1
 basis:1
-the above cases:1
 fully:1
-your actions:1
-sponsored content:1
 next:1
-https://www.facebook.com/legal/terms/plain_text_terms
-
-connection:1
-any compensation:1
-your friends:1
-an advertised event:1
+compensation:1
+advertised:1
 liked:1
 created:1
-a
-
-brand:1
 paid:1
-its ads:1
-Ads:1
-your permission:1
-the actions:1
-your ad settings:1
 preferences:1
-our software:1
 install:1
-the software:1
-our intellectual property:1
 images:1
 designs:1
 sounds:1
 add:1
 retain:1
-all rights:1
-that
-content:1
-not yours:1
-our copyrights:1
-any similar marks:1
+copyrights:1
+marks:1
 permitted:1
-our Brand
-Usage Guidelines:1
-our prior written permission:1
+usage:1
 obtain:1
-our written permission:1
-an open
-source license:1
+open:1
 decompile:1
 extract:1
-source code:1
-Additional provisions:1
-Updating:1
+additional:1
+updating:1
 constantly:1
-a result:1
+result:1
 accurately:1
 reﬂect:1
 practices:1
-
-any changes:1
-the provisions:1
-appropriate:1
 incomplete:1
-reasonable:1
-due account:1
 notify:1
 at least 30 days:1
-changes:1
-updated:1
 bound:1
 hope:1
-our updated Terms:1
-a part:1
-the Facebook community:1
-Account suspension:1
+suspension:1
 termination:1
-a place:1
-welcome:1
-their thoughts:1
+thoughts:1
 ideas:1
 clearly:1
 breached:1
 particular:1
-permanently disable access:1
-account:1
+permanently:1
 infringe:1
-other people’s intellectual property rights:1
-such action:1
-a review:1
-our
-
-services:1
+people’s:1
 mistake:1
 terminate:1
-an agreement:1
-the following
-
-provisions:1
-place:1
-3.3.1:1
-4.2:1
-4.5:1
-liability:1
-our negligence:1
+2-4:1
+negligence:1
 aﬀect:1
-your statutory rights:1
+statutory:1
 intended:1
 exclude:1
-our liability:1
-personal injury:1
-fraudulent misrepresentation:1
+injury:1
+misrepresentation:1
 exercise:1
 keeping:1
-a safe, secure and error-free
-
+secure:1
+error-free:1
 environment:1
-Provided:1
 acted:1
 accept:1
 responsibility:1
-our acts:1
+acts:1
 foreseeable:1
-the time:1
 entering:1
 beyond:1
-our reasonable control:1
-Disputes:1
-clear rules:1
+control:1
 hopefully:1
-disputes:1
-a dispute:1
 arise:1
 front:1
-laws:1
-a consumer:1
+consumer:1
 habitually:1
 reside:1
-a Member State:1
-the European Union:1
-the laws:1
+union:1
 cause:1
-action:1
-dispute:1
 arises:1
 relates:1
-"claim:1
 resolve:1
-your claim:1
-any competent court:1
 jurisdiction:1
-other cases:1
-a competent court:1
-the Republic of Ireland:1
-Irish law:1
-14:36
-
-Facebook
-
-https://www.facebook.com/legal/terms/plain_text_terms
-
-:1
+republic:1
+irish:1
 regard:1
-law provisions:1
 formerly:1
-the Statement of Rights and Responsibilities:1
-the entire agreement:1
+statement:1
+responsibilities:1
+entire:1
 supersede:1
-any prior agreements:1
+agreements:1
 governed:1
-these Products:1
-part:1
-our agreement:1
 instance:1
-commercial or business purposes:1
 buying:1
-your business:1
-our Commercial:1
-share content:1
-our Music Guidelines:1
-the supplemental terms:1
-the conﬂict:1
-any portion:1
 found:1
 unenforceable:1
-the remaining portion:1
-full force:1
+remaining:1
+full:1
+force:1
 fail:1
 enforce:1
 considered:1
-a waiver:1
-Any amendment:1
-waiver:1
+amendment:1
 writing:1
 signed:1
-our consent:1
 designate:1
 called:1
-a legacy contact:1
 manage:1
-legacy:1
 identiﬁed:1
-a valid will:1
-similar document:1
+valid:1
+document:1
 expressing:1
-clear consent:1
 disclose:1
 upon:1
 incapacity:1
 seek:1
 disclosure:1
 confer:1
-any third-party beneﬁciary rights:1
-our rights:1
+third-party:1
+beneﬁciary:1
 freely:1
 assignable:1
-a merger:1
+merger:1
 acquisition:1
 assets:1
 7:1
 change:1
-the username:1
-certain circumstances:1
+circumstances:1
 claims:1
-username:1
 appears:1
 unrelated:1
-the name:1
-everyday:1
-life).We:1
 inform:1
 8:1
 always:1
 appreciate:1
-your feedback:1
-other suggestions:1
-any restriction:1
-obligation:1
+feedback:1
+restriction:1
 compensate:1
-no obligation:1
 keep:1
 conﬁdential:1
-Other terms:1
-our standards:1
-Commercial Terms:1
-any commercial or business purpose:1
-
-
-advertising:1
+purpose:1
 operating:1
-an app:1
+app:1
 goods:1
-Advertising:1
 specify:1
-what types:1
-ad content:1
 allowed:1
 partners:1
 advertise:1
-the Facebook
-
-• Self-Serve Ad Terms:1
-self-serve advertising interfaces:1
+interfaces:1
 submit:1
 deliver:1
-advertising:1
-other commercial or sponsored activity:1
-Groups:1
-Events Policy:1
-a Facebook Page:1
-group:1
-event:1
-a promotion:1
-Platform:1
-Policy:1
+promotion:1
 operators:1
-a Platform application:1
 website:1
-social plugins:1
-Developer:1
+social:1
+plugins:1
+developer:1
 applications:1
-Facebook Payments:1
-Community:1
-payments:1
-Commerce Policies:1
-Brand:1
-Resources:1
-Facebook trademarks:1
+commerce:1
+resources:1
 logos:1
 screenshots:1
-Music Guidelines:1
-Live Policies:1
-all content:1
 broadcast:1
-Facebook Live:1
-Messaging:1
-EEA:1
-UK:1
-applicable:1
-voice:1
-video:1
-calling:1
+eea:1
+uk:1
 listed:1
-EU rules:1
-Date:1
-Last Revision:1
-December 20, 2020:1
-Facebook
-
-https://www.facebook.com/legal/terms/plain_text_terms
-
-English:1
-(US:1
-Italiano Română Français:1
-France:1
-Sardu:1
-Deutsch Español Shqip:1
+date:1
+last:1
+revision:1
+december:1
+20 , 2020 5:1
+english:1
+italiano:1
+română:1
+français:1
+france:1
+sardu:1
+deutsch:1
+español:1
+shqip:1
 ﺍﻟﻌﺮﺑﻴﺔ:1
-Português:1
-Brasil:1
+português:1
+brasil:1
 िह:1
 �:1
 दी:1
-Facebook Lite Watch:1
-Places:1
-Games:1
-Pay:1
-Jobs:1
-Oculus
-
-Portal
-
-Instagram:1
-Local
-
-Fundraisers:1
-Services:1
-Voting Information Center:1
-Create Ad:1
-Developers:1
-Careers:1
-Privacy:1
-Cookies:1
-Choices:1
+lite:1
+places:1
+games:1
+jobs:1
+oculus:1
+portal:1
+local:1
+fundraisers:1
+voting:1
+center:1
+careers:1
+cookies:1
 ©:1
 2021:1
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:1
+Privacy:4
+consent:2
