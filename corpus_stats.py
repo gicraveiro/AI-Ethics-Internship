@@ -91,11 +91,9 @@ def reconstruct_noun_chunks(corpus,keywords):
             kw_lower = keyword.lower()
             index = kw_lower.find(token)
             aux = index
-            while (aux != -1 and counter < len(corpus)-1 and token != kw_lower):
+            while (aux != -1 and counter < len(corpus)-2 and token != kw_lower):
                 counter += 2
-                #print(token,"!!")
-                token += corpus[counter-1].text+corpus[counter].text  # +' '
-                #print(token, kw_lower, "!!!!")    
+                token += corpus[counter-1].text+corpus[counter].text  # +' ' 
                 aux = kw_lower.find(token)
                 if(aux == -1):
                     counter -=1
@@ -128,7 +126,7 @@ def process_document(title, source_path,source,keywords):
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
     print(input_file)
-    input_file = " standards . 3 . 1 third-party cybersecurity risk management standards are defined as standards , frameworks , and/or guidance developed by a third-party with the explicit purpose of aiding companies in identifying cybersecurity threats , and/or preventing , responding to , and/or remediating cybersecurity incidents . 3 . 2 examples of third-party cybersecurity risk management standards include , but are not limited to: 3 . 2 . 1 the american institute of certified public accountants’ ( aicpa ) service organization controls ( soc ) for cybersecurity 3 . 2 . 2 isaca’s cobit 5 3 . 2 . 3 iso/iec 27000-series 3 . 2 . 4 national institute of standards and technology’s ( nist ) framework for improving critical infrastructure cybersecurity , version 1 . 1 3 . 3 disclosure shall include , "
+    #input_file = " standards . 3 . 1 third-party cybersecurity risk management standards are defined as standards , frameworks , and/or guidance developed by a third-party with the explicit purpose of aiding companies in identifying cybersecurity threats , and/or preventing , responding to , and/or remediating cybersecurity incidents . 3 . 2 examples of third-party cybersecurity risk management standards include , but are not limited to: 3 . 2 . 1 the american institute of certified public accountants’ ( aicpa ) service organization controls ( soc ) for cybersecurity 3 . 2 . 2 isaca’s cobit 5 3 . 2 . 3 iso/iec 27000-series 3 . 2 . 4 national institute of standards and technology’s ( nist ) framework for improving critical infrastructure cybersecurity , version 1 . 1 3 . 3 disclosure shall include , "
     #filename = source+title
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
@@ -141,32 +139,32 @@ def process_document(title, source_path,source,keywords):
     #input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+)",r"\1\2\3\4\5", input_file) # reuniting hyphenated words
     #input_file = re.sub("([A-Za-z0-9]+) *(-) *([A-Za-z0-9]+) *(-)? *([A-Za-z0-9]?)",r"\1\2\3\4\5", input_file)
     #input_file = re.sub(" "," ", input_file)
-    print("STEP -2","\n",[token.text for token in nlp(input_file)])
+    #print("STEP -2","\n",[token.text for token in nlp(input_file)])
     input_file = re.sub("\s+", r"  ", input_file)
-    print("STEP -1","\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
+    #print("STEP -1","\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
     input_file = re.sub("(\s+\-)", r" - ", input_file)
-    i = 0
-    print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
-    i += 1
+    #i = 0
+    #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
+    #i += 1
     input_file = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", input_file)
-    print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
-    i += 1
+    #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
+    #i += 1
     input_file = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", input_file)
-    print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
-    i += 1
+    #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
+    #i += 1
     input_file = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", input_file)
-    print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
-    i += 1
+    #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
+    #i += 1
     #input_file = re.sub("\t+"," ", input_file)
     #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
     #i += 1
     #input_file = re.sub("\s\s+"," ", input_file)
     #input_file = re.sub(" "," ", input_file)
     #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
-    i += 1
+    #i += 1
     input_file = input_file.lower()
-    print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
-    i += 1
+    #print("STEP",i,"\n",[token.text for token in nlp(input_file) if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
+    #i += 1
     #print(input_file)
     #input_file = input_file.replace('  ', ' ')
     #input_file = input_file.replace('\n', ' ')
@@ -183,14 +181,14 @@ def process_document(title, source_path,source,keywords):
     doc = nlp(input_file)
     doc = reconstruct_hyphenated_words(doc)
     #print(doc)
-    print("STEP",i,"\n",[token.text for token in doc],"\n")
-    i += 1
+    #print("STEP",i,"\n",[token.text for token in doc],"\n")
+    #i += 1
     doc = reconstruct_noun_chunks(doc,keywords)
     tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
-    print("STEP",i,"\n",[token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
-    i += 1
+    #print("STEP",i,"\n",[token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()],"\n")
+    #i += 1
     #nlp.add_pipe("merge_noun_chunks") # NOT NEEDED WITH THE NEW LOGIC THAT PUTS TOKETHER KEYWORDS
-    #print(tokens)
+    print(tokens)
     
     
     #print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
