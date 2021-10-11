@@ -3,1502 +3,1100 @@
 
 
 With stop word removal 
-Size of original corpus: 8141 
-Size of filtered corpus: 3939
-Size of Lexicon: 2218
+Size of original corpus: 10315 
+Size of filtered corpus: 5204
+Size of Lexicon: 1565
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:63
+privacy:190
+facebook:125
+post:77
+users:73
+friends:62
+tool:52
+interactions:50
+1:46
+figure:44
+2:42
+number:37
 may:34
-Figure:34
-users:26
-interactions:26
-the post:20
-privacy:19
-1:19
-2:17
-created:17
-2019:15
-the spreading area:15
-the PO:15
-the number:14
-SAYİN:14
-Hence:14
-friends:14
+proposed:33
+3:32
+case:32
+spreading:29
+area:28
+user:28
+fof:28
+social:27
+change:27
+study:27
+setting:25
+data:24
+solution:23
+awareness:23
+online:22
+settings:22
+=:22
+screen:22
+issues:21
+possible:21
+10:21
+graph:21
+nodes:21
+4:20
+popularity:20
+created:20
+ig:20
+node:20
+step:20
+elec:19
+eng:19
+comp:19
+sci:19
+sayi̇n:19
+posts:19
+survey:18
+/turk:18
+different:18
+cos:18
+dataset:17
+pw:17
+website:16
+5:16
+real:16
+according:15
+his/her:15
+mock-up:15
+networks:14
+sn:14
+detected:14
+simulation:14
+hence:14
+public:14
+20%:14
+th:14
+people:13
+risks:13
+leakages:13
+interaction:13
 accessed:13
-a post:13
-15:13
-Step:13
-Comp Sci:12
+following:13
+8:13
+2018:12
+sns:12
+privacy policy:12
 shows:12
-However:12
+however:12
+work:12
+level:12
 see:12
-3:12
-=:12
-pw:12
-detected:10
+6:12
+rules:12
+f:12
+2019:11
+results:11
+information:11
+specific:11
+first:11
+po’s:11
+co:11
+7:11
+main:11
+class:11
+g:10
+probability:10
+personal:10
+many:10
+based:10
 protect:10
-2018:10
-online:10
-Facebook users:10
-our study:10
-Friends:10
-5:10
-4:10
-SNs:9
-’s:9
-privacy issues:9
-based:9
+popular:10
+9:10
+new:10
+problem:10
+friendship:10
+size:10
+still:9
+expected:9
+changes:9
 increase:9
-According:9
-Website:9
-setting:9
-COs:9
+analysis:9
+table:9
+although:9
+concerns:9
+levels:9
+comment:9
+section:9
 17:9
-the proposed tool:9
+11:8
+15:8
+18:8
 propose:8
 visualizes:8
+even:8
 creates:8
-change:8
-still:8
+default:8
+time:8
+options:8
+third:8
 via:8
-20%:8
+b:8
+issue:8
+15-03-2019:8
+solutions:8
+visualizing:8
+pos:8
+related:8
 shown:8
-a possible IG:8
-6:8
+values:8
+decision:8
+len:8
+service:8
+conference:8
 pp:8
-people:7
-a tool:7
-the privacy:7
-privacy awareness:7
-Table:7
-SN users:7
-public:7
-privacy settings:7
+engineering:7
+network:7
+facebook’s:7
+control:7
+https://www:7
+create:7
+2015:7
+respondents:7
 represent:7
-8:7
-10:7
-nodes:7
-a node:7
-the FoF case:7
-Spreading:7
-visualizing:7
-7:7
-10.1109:7
-Main Screen:7
+two:7
+impact:7
+design:7
+access:7
+application:7
+privometer:7
+13:7
+10%:7
+pf:7
+average:7
+computer:6
+university:6
 using:6
-this post:6
+implementation:6
 show:6
-even:6
-the case:6
+fact:6
+international:6
+select:6
 without:6
 set:6
-proposed:6
-al./Turk J Elec Eng &:6
-2015:6
-03:6
-POs:6
+he/she:6
+works:6
 whether:6
-9:6
-18:6
+profile:6
+12:6
+links:6
+wilson:6
+interact:6
 changed:6
-according:6
-the size:6
-each node:6
-pF:6
-I(F:6
-This screen:6
-posts:5
-control:5
+get:6
+notification:6
+snap:6
+rq:6
+value:6
+dummy:6
+security:6
+increasing:5
+people’s:5
+behaviors:5
+paper:5
+focus:5
+research:5
 allows:5
-Finally:5
+selected:5
+finally:5
 among:5
+approximately:5
 could:5
-the fact:5
-although:5
+sites:5
 19-10-2018:5
-create:5
+journal:5
 visible:5
+beyond:5
+used:5
+whole:5
+2009:5
+result:5
 including:5
-privacy leakages:5
-FoF:5
-third parties:5
-this study:5
-the privacy awareness:5
-our tool:5
-expected:5
-et al./Turk J Elec Eng &:5
+parties:5
+applications:5
 etc:5
-their interactions:5
-area:5
-a specific post:5
-13:5
-interact:5
-get:5
+analyzing:5
+discussion:5
+visibility:5
+trusted:5
+14:5
+use:5
+authors:5
 represents:5
-his/her post:5
-the privacy setting:5
-the dataset:5
+corresponding:5
+st:5
 given:5
+fg:5
 includes:5
-The tool:5
-online social networks:5
-Turkey:4
-social networks:4
-the probability:4
-this paper:4
-focus:4
+increases:5
+members:5
+risk:5
+empirical:5
+ieee:5
+dissemination:4
+technology:4
+turkey:4
+numbers:4
+offer:4
+existing:4
+effect:4
 directs:4
-their privacy:4
+owner:4
 observe:4
 depending:4
 aware:4
+usage:4
+need:4
+become:4
+active:4
+2016:4
+2017:4
 keeps:4
 provide:4
-al./Turk:4
-J Elec Eng &:4
-Comp:4
-Sci:4
-their friends:4
-beyond:4
+anyone:4
 already:4
 inform:4
-selected:4
-2009:4
-select:4
+actions:4
+served:4
 applied:4
-Although:4
+problems:4
+profiles:4
+iii:4
+member:4
 stated:4
-respondents:4
+usability:4
+degree:4
 explain:4
 present:4
+important:4
+researchers:4
 continuously:4
-the impact:4
+furthermore:4
+process:4
 demonstrates:4
-a discussion:4
-this tool:4
-The proposed tool:4
-the proposed solution:4
-privacy concerns:4
-data:4
-access:4
-11:4
-use:4
+delete:4
+experimental:4
+approach:4
+user’s:4
+party:4
+political:4
 16:4
-Wilson et al:4
-different:4
+experiments:4
 analyzed:4
 affect:4
-a notification:4
-used:4
-study:4
-the change:4
-= 20%:4
-number:4
-average number:4
+action:4
+facilities:4
+edges:4
+example:4
+preferences:4
+lpop:4
+find:4
+50%:4
+ones:4
 gets:4
-Section 3.2.1:4
-Creating:4
-the mock-up:4
-(Figure:4
-14:4
+creating:4
+changing:4
 focused:4
-Empirical survey:4
-offer:3
+electrical:3
+final:3
 understand:3
 exist:3
-the effect:3
-Moreover:3
+moreover:3
 provides:3
 interacted:3
-their interaction:3
 place:3
-Facebook usage:3
-become:3
-2016:3
-2017:3
+findings:3
+statista:3
+monthly:3
 mainly:3
 taking:3
-Number:3
-anyone:3
-a user:3
-their posts:3
-privacy risks:3
+computing:3
+track:3
+0:3
+interface:3
+account:3
 allow:3
+better:3
+platform:3
+high:3
 became:3
 publicly:3
 available:3
+network-based:3
 accessible:3
-served:3
-the first time:3
+option:3
+everyone:3
 accepted:3
-a result:3
+category:3
 caused:3
-iii:3
-a
-tool:3
+structure:3
+scope:3
+others:3
+novel:3
+every:3
+improving:3
+tools:3
+current:3
+order:3
+question:3
+questions:3
 within:3
-like:3
-CO:3
-the user:3
-changes:3
-our survey:3
+mostly:3
+co’s:3
 claim:3
-user B:3
+b’s:3
+friend:3
 assume:3
-user C:3
 tag:3
-Furthermore:3
-the privacy settings:3
+comments/likes:3
 handle:3
-Analyzing:3
-the problem:3
-different awareness levels:3
-Users:3
-spreading:3
-some rules:3
-my comment:3
-the tool:3
-(i:3
-issues:3
+updated:3
+predefined:3
+applicability:3
 presents:3
+future:3
 regarding:3
+serious:3
 lack:3
-awareness:3
+prediction:3
 measure:3
-12:3
-visibility:3
-social links:3
-Therefore:3
-a change:3
-first:3
-RQ1:3
-related:3
+leakage:3
+similar:3
+presented:3
+behavior:3
+relations:3
+link:3
+general:3
+concern:3
+therefore:3
+effects:3
+comments:3
+check:3
+stanford:3
+anonymized:3
+addition:3
+feature:3
 consider:3
-the IG:3
-RQ2:3
-a CO:3
-a PO:3
-Lpop:3
-g:3
-N d:3
-Find:3
+nd:3
+groups:3
+steps:3
 yes:3
-50%:3
+30%:3
+40%:3
 extend:3
-len(F:3
-0:3
-(Step:3
-“FoF:3
-privacy setting:3
+property:3
+shared:3
 seen:3
-Interaction graph:3
-public case:3
-et al./Turk J Elec Eng & Comp Sci
-
-Figure:3
-work:3
-this service:3
-members:3
-security:3
+decrease:3
+screens:3
+processing:3
+huge:3
+statistics:3
 analyze:3
-IEEE:3
+usa:3
+internet:3
+networking:3
+media:3
+systems:3
+proceedings:3
+web:3
 3417:2
 3432:2
-post dissemination:2
-Faculty:2
-Engineering:2
-Greece:2
+department:2
+faculty:2
+i̇zmir:2
+greece:2
+received:2
 advantage:2
-increasing:2
-many:2
+moments:2
+functionalities:2
+common:2
+easy:2
+several:2
 unaware:2
 emphasize:2
-existing:2
-Facebook’s privacy policy:2
-a solution:2
-implementation:2
-a simulation:2
+currently:2
+simulated:2
+feedback:2
 give:2
-solution:2
 increasingly:2
-April 2018:2
+april 2018:2
 today:2
-WhatsApp:2
-Facebook Messenger:2
+whatsapp:2
+messenger:2
 follow:2
-Results:2
-this number:2
 keep:2
-track:2
+lives:2
+majority:2
+part:2
 share:2
-This work:2
+means:2
+ranked:2
+turkish:2
 might:2
-1.2:2
-a user-friendly interface:2
-an account:2
+user-friendly:2
 join:2
 easily:2
-This situation:2
-their actions:2
-any privacy change:2
-Harvard University:2
+situation:2
+harvard:2
 2005:2
-the whole network:2
-i.e.:2
-default:2
-its users:2
+message:2
 asking:2
-options:2
-Everyone:2
+page:2
 prevent:2
 2011:2
 reach:2
-profiles:2
-
-Facebook:2
-the PO’s friends:2
+post-based:2
+four:2
 iv:2
+custom:2
+evolution:2
+selecting:2
 claimed:2
-et al:2
-usability:2
-improving:2
-need:2
-order:2
+confusing:2
+shore:2
+policies:2
+fewer:2
+evaluation:2
+questionnaire:2
+monkey:2
+list:2
 focusing:2
-the respondents:2
-all Facebook users:2
+more than 500:2
+volunteers:2
+age:2
+like:2
+percentage:2
 detail:2
-two important privacy leakages:2
-the Facebook privacy policy:2
-the expected area:2
 interacts:2
-this change:2
 disagree:2
-this privacy policy:2
 neutral:2
 inaccessible:2
-user A:2
-user:2
+owners:2
+suppose:2
 becomes:2
-this case:2
-Facebook
-
-:2
+activity:2
+github:2
+proposal:2
+suggested:2
+developed:2
+dynamic:2
 proposes:2
+considering:2
+points:2
 measuring:2
-a Facebook privacy tool:2
-our proposed solution:2
-our solution:2
+utility:2
+functionality:2
 implemented:2
-that post:2
-delete:2
-the COs:2
-Section 2:2
-our dataset:2
-the applicability:2
-Section:2
-works:2
+initial:2
+section 2:2
+methodology:2
+mentioned:2
+details:2
+novelty:2
 and/or:2
-Following:2
-its privacy:2
-user’s data:2
+interest:2
+talks:2
+respected:2
+features:2
+tracking:2
+amount:2
 recorded:2
-the data:2
-an application:2
+knowledge:2
+installed:2
 decide:2
-the application:2
-Many researchers:2
+permission:2
+tuunainen:2
 proved:2
+talukder:2
 hide:2
 gender:2
-political views:2
+views:2
 called:2
-“Privometer:2
-the level:2
-privacy leakage:2
 direct:2
-information:2
-presented:2
+view:2
+costantino:2
 raise:2
-trusted:2
+photos:2
+johnson:2
+explored:2
+mitigation:2
 alter:2
 provided:2
 actually:2
-The IG:2
-the real interactions:2
-this dataset:2
-our experiments:2
+graphs:2
+actual:2
+behavioral:2
+factors:2
 since:2
-concern:2
-check:2
-Fb:2
+friend’s:2
+dynamically:2
+logs:2
+fa:2
+fb:2
+fc:2
 sends:2
-the CO:2
-its privacy settings:2
+fd:2
 demonstrate:2
-research questions:2
 collected:2
-anonymized:2
-addition:2
 supports:2
-our tests:2
-3.2.2:2
+tests:2
 evaluate:2
-following:2
-This question:2
-popularity:2
+software:2
+io/:2
+directly:2
 classified:2
-different popularity levels:2
-the rules:2
+tagged:2
 choose:2
 add:2
-the study:2
 performed:2
 explained:2
-the degree:2
 found:2
-all nodes:2
-1st:2
-class:2
-2nd:2
-the friendship graph:2
-step:2
-1.b:2
-the possible IG:2
-a decision value:2
-the FG of N:2
+ten:2
+least:2
+grpop:2
+group:2
 specified:2
 interacting:2
 repeated:2
-The size:2
-this graph:2
+times:2
 equal:2
-1.e:2
 remove:2
 assign:2
-30%:2
-40%:2
-Table 2:2
-different pw values:2
+removal:2
+extension:2
 continue:2
-Change:2
-G:2
-10%:2
-friendship graph:2
-len(FoFG:2
-FoF case:2
+row:2
+columns:2
+rd:2
+fofg:2
 removals:2
 affects:2
 bigger:2
-rules:2
-the PO’s expectation:2
-his/her privacy:2
+expectation:2
 instance:2
-approximately:2
-Simulation:2
-the bottom:2
-the screen:2
-(“Friends” case:2
+individual:2
+visualization:2
+4039:2
+bottom:2
 spread:2
-PO’s friends:2
 visualized:2
-post:2
-the created graph:2
-The number:2
-Changing:2
-time:2
-a decrease:2
-changing:2
-a possibility:2
-real data:2
-15-03-2019:2
-the
-mock-up:2
+larger:2
+possibility:2
+proto:2
+content:2
+creation:2
 proceed:2
-dummy:2
-this screen:2
-Delete:2
-The PO:2
+news:2
+feed:2
+rule:2
+him/her:2
+send:2
+former:2
 affected:2
-a service:2
+valuable:2
+role:2
 requires:2
+cost:2
 processed:2
-every:2
 minute:2
 day:2
 giving:2
 inapplicable:2
 think:2
 agree:2
+regulations:2
 evaluating:2
 verified:2
-personal interactions:2
+development:2
+comparison:2
 terms:2
 challenges:2
-mostly:2
-Facebook members:2
+technological:2
+copy/paste:2
+capability:2
+reason:2
 services:2
-Privometer:2
-survey results:2
-privacy risk:2
-Access:2
-analyzing:2
 proposing:2
 validated:2
-All authors:2
+secure:2
+model:2
+council:2
+project:2
+manuscript:2
 2010:2
-USA:2
-Jin H:2
-Knijnenburg BP:2
-Proceedings:2
-Oxford:2
-UK:2
+al-shamaileh:2
+protection:2
+bled:2
+jin:2
+knijnenburg:2
+bp:2
+ninth:2
+aaai:2
+oxford:2
+uk:2
+23:2
 2012:2
-Sala A:2
-Puttaswamy KPN:2
-Zhao:2
-their implications:2
-Turk J Elec Eng &:1
+transactions:2
+sala:2
+puttaswamy:2
+kpn:2
+zhao:2
+implications:2
+acm:2
+copyright:2
+turk:1
 27:1
 ©:1
-TÜBİTAK:1
-doi:10.3906:1
-elk-1811:1
-25:1
-Privacy issues:1
-Facebook
-
-Burcu SAYİN1:1
-Serap ŞAHİN1∗:1
-Dimitrios G. KOGIAS2:1
-Charalampos Z. PATRIKAKIS2
-1Department:1
-Computer Engineering:1
-İzmir Institute of Technology:1
-İzmir:1
-2Department:1
-Electrical & Electronics Engineering:1
-University of West Attica:1
-Athens:1
-Received:1
-03.11.2018:1
-Accepted:1
-/Published Online:1
-15.04.2019:1
-•
-
-Final Version:1
-18.09.2019:1
-Abstract:1
+tübi̇tak:1
+doi:10:1
+3906/elk-1811-25:1
+burcu:1
+serap:1
+şahi̇n:1
+1∗:1
+dimitrios:1
+kogias:1
+charalampos:1
+patrikakis:1
+institute:1
+electronics:1
+west:1
+attica:1
+athens:1
+03:1
+accepted/published:1
+04:1
+version:1
+09:1
+abstract:1
 populated:1
-a still increasing numbers:1
-the communication and collaboration capabilities:1
-the exposure:1
-personal:1
-moments:1
-a wider than expected audience:1
+communication:1
+collaboration:1
+capabilities:1
+exposure:1
+wider:1
+audience:1
 studying:1
-the functionalities:1
 characteristics:1
-modern SNs offer:1
+modern:1
 along:1
-the people’s habits:1
-common behaviors:1
-easy:1
-several
-
-privacy risks:1
-users’ interactions:1
-a social network:1
-SN:1
-our research domain:1
-some privacy leakages:1
-currently:1
+habits:1
+domain:1
 featuring:1
-a reference:1
-potential privacy risks:1
-The proposed and simulated tool:1
-a post owner:1
-his or her post:1
-the selected privacy settings:1
-preliminary feedback:1
-all Facebook:1
+reference:1
+potential:1
+preliminary:1
 make:1
-the possible privacy changes:1
 aiming:1
 chance:1
 deleting:1
-an unwanted privacy change:1
+unwanted:1
 takes:1
-an online survey:1
-over 500 volunteer participants:1
+500:1
+volunteer:1
+participants:1
 illuminated:1
-the need:1
-such a tool:1
-Key words:1
-Social networks:1
-social network analysis:1
-Introduction:1
+key:1
+words:1
+introduction:1
 recent years:1
-Facebook, Instagram:1
-Twitter:1
-LinkedIn:1
-popular:1
-the findings:1
-Statista1:1
-the most
-popular SN:1
-approximately 2.2 billion monthly active users:1
-monthly active users:1
-a significant number:1
+instagram:1
+twitter:1
+linkedin:1
+2 billion:1
+significant:1
 attributed:1
-the advances:1
-computing:1
+advances:1
 telecommunications:1
-a common environment:1
+environment:1
 communicate:1
-other people’s lives:1
-any moment:1
-The majority:1
+moment:1
 accept:1
-their SN accounts:1
-part:1
-their lives:1
-their
+accounts:1
 thoughts:1
 publish:1
-their captured moments:1
-the means:1
+captured:1
 stay:1
-∗Correspondence:1
-serapsahin@iyte.edu.tr:1
-1Statista GmbH:1
-Most Famous Social Network Sites Worldwide:1
-Ranked:1
-Active Users:1
-Millions:1
-https://www.statista.com/statistics/272014/global-social-networks-ranked-by-number-of-users/[ac-:1
+∗correspondence:1
+serapsahin@iyte:1
+edu:1
+tr:1
+gmbh:1
+famous:1
+worldwide:1
+millions:1
+com/statistics/272014/global-social-networks-ranked-by-number-of-users/:1
+ac-:1
 cessed:1
 licensed:1
-a Creative Commons Attribution 4.0 International License:1
-Turkish Journal of:1
-Electrical Engineering & Computer Scienceshttp://journals.tubitak.gov.tr/elektrik/Research Article:1
+creative:1
+commons:1
+attribution:1
+license:1
+scienceshttp://journals:1
+tubitak:1
+gov:1
+tr/elektrik/research:1
+article:1
 touch:1
 acquaintances:1
 introduce:1
-several privacy issues:1
 completely:1
 misinformed:1
-Monthly active users:1
-most popular SNs:1
 billions:1
-1.6:1
-0.9:1
-1.97:1
-2.2
-1.5
-1.3
-
-SNs:1
-the community:1
+2016 1:1
+6 1 0:1
+97 1:1
+2 1 2018 2:1
+2 1:1
+community:1
 getting:1
 connect:1
-his or her friends:1
-any information:1
 adjust:1
 properly:1
-their
 expectations:1
 outside:1
-their social circle:1
-our
+circle:1
 objective:1
 highlight:1
-specific:1
-analysis:1
-a solution/application:1
-their privacy level:1
-better:1
-Facebook2:1
-the
-focus:1
-the most widely used SN platform:1
+solution/application:1
+widely:1
 launched:1
 2004:1
-a student network:1
-Mark Zuckerberg:1
-his
-friends:1
-only students:1
+student:1
+mark:1
+zuckerberg:1
+students:1
 started:1
 availability:1
-some high schools:1
+schools:1
 companies:1
 2006:1
-the
-privacy concerns:1
-network:1
-personal data:1
 throughout:1
-a privacy-concerning message:1
-a personal privacy:1
-their personal data:1
-the served default option:1
-
-“Everyone:1
-so many users:1
-the default:1
-the risks:1
+privacy-concerning:1
 knowing:1
 consented:1
 allowed:1
-many data:1
-many debates:1
+debates:1
 criticisms:1
-possible privacy concerns:1
 unveiled:1
-a new
-privacy setting page:1
-May 2010:1
-different levels:1
-the page:1
-Friends of Friends (FoF:1
-Friends Only:1
-each data:1
-category.3:1
+may 2010:1
 sufficient:1
-new changes:1
-Facebook privacy:1
-those changes:1
-new problems:1
-some users’ personal data:1
-almost all data:1
+almost:1
 gradually:1
-a combination:1
-default settings:1
-a post-based privacy option:1
-a specific privacy preference:1
-post.4:1
-the old network-based privacy structure:1
+combination:1
+preference:1
+old:1
 removed:1
-this scope:1
-four options:1
-only the post owner:1
-even someone:1
-a Facebook member:1
-Custom:1
-a custom:1
-2Official Facebook Website:1
-Website https://www.facebook.com/:1
-3McKeon M:1
-The Evolution of Privacy on Facebook:1
-http://mattmckeon.com/facebook-privacy/:1
-4Edens J:1
-Facebook Privacy Policy Has Become Less Transparent, Harder to Understand:1
-Control, Experts
-:1
-Say:1
-http://www.stuff.co.nz/technology/social-networking/89645571/Facebook-privacy-policy-has-becomeless-:1
+’s:1
+someone:1
+official:1
+com/:1
+mckeon:1
+http://mattmckeon:1
+com/facebook-privacy/:1
+edens:1
+less:1
 transparent:1
 harder:1
--control:1
 experts:1
 say:1
+http://www:1
+stuff:1
+nz/technology/social-networking/89645571/facebook-privacy-policy-has-becomeless-:1
+transparent-harder-to-understand-and-control-experts-say:1
 3418:1
-selecting:1
-some specific friends:1
 lists:1
 excluding:1
-some others:1
 improved:1
-
-privacy control options:1
-many users’ information:1
-People:1
 complaining:1
-both privacy problems:1
-the confusing structure:1
-the novel privacy settings:1
-Shore:1
 worked:1
-every privacy policy:1
-ranked:1
-Their results:1
 showed:1
-Facebook privacy policies:1
 incomprehensible:1
-confusing:1
 clearness:1
 transparency:1
-privacy policies:1
-fewer options:1
-their personal information:1
-This
-study:1
 confirmed:1
-some tools:1
-applications:1
-easy privacy:1
-/tracking:1
-current privacy leakages:1
+setting/tracking:1
 collect:1
-some real data:1
-better evaluation:1
-tool:1
 conducted:1
-a questionnaire:1
-the Survey Monkey website:1
 prepared:1
-an elaborate
-question list:1
-More than 500 volunteers:1
+elaborate:1
 responded:1
-questions.6:1
-Five hundred:1
+6 five hundred:1
 58%:1
-the age
 range:1
 15–24:1
 33%:1
 between 25 and 44 years old:1
-Additionally:1
-54.5%:1
-a university degree:1
+additionally:1
+54:1
+5%:1
 25%:1
-graduate level:1
-a high school degree:1
-the ages:1
-educational levels:1
-the countries:1
+graduate:1
+school:1
+ages:1
+educational:1
+countries:1
 13%:1
 82%:1
-the survey:1
 looks:1
 demographically:1
-the structure:1
 46%:1
-Facebook’s
-privacy policy,7:1
-an interestingly high percentage:1
-mostly well-educated people:1
-This result:1
-the following two subsections:1
-the detected privacy issues:1
-1.1:1
-Currently:1
-our analysis:1
-Comment owner:1
-i.e. like/comment:1
-COs’ interactions:1
-more people:1
+interestingly:1
+well-educated:1
+subsections:1
+owner’s:1
+like/comment:1
 initially:1
-49% respondents:1
+49%:1
 34%:1
-their owners:1
-Suppose:1
-
-user C:1
-only B’s friend:1
 something:1
-”Friends:1
 tags:1
-the post privacy:1
-Friends and B’s Friends:1
-suppose:1
-a while:1
 removes:1
 longer:1
 able:1
-his/her comments/likes:1
 anymore:1
-their activity log:1
-a privacy issue:1
-his own
-
-comments/likes:1
-other people:1
+log:1
 63%:1
-volunteers:1
 24%:1
-5Survey Monkey:1
-https://www.surveymonkey.com:1
-
-6Results:1
+surveymonkey:1
 questionnaires:1
-Github:1
-Survey results:1
-https://github.com/burcusyn/PrivacyAwarenessOnFacebook:1
-7Facebook Privacy Policy:1
-Website https://www.facebook.com/about/basics/manage-your-privacy:1
+https://github:1
+com/burcusyn/privacyawarenessonfacebook:1
+com/about/basics/manage-your-privacy:1
 3419:1
-Solution proposal:1
-detected privacy issues:1
-Researchers:1
-suggested:1
-various solutions:1
-developed applications:1
-SN users’ privacy:1
+various:1
 4–18:1
 especially:1
 adapted:1
-the Facebook platform:1
-a dynamic platform:1
 grows:1
-each new
-
-friend connection:1
-new post/comment/share:1
-new updates:1
-their profile/posts:1
-new privacy leakages:1
+connection:1
+post/comment/share:1
+updates:1
+profile/posts:1
 arise:1
-Considering:1
-these points:1
-the following contributions:1
-these leakages:1
-Increasing:1
-other
-
-people’s posts:1
-the post dissemination process:1
-Visualizing:1
-proposed solution:1
-the design:1
-the utility:1
+contributions:1
 clarify:1
-The
-solution scheme:1
-the functionality:1
+scheme:1
 simulations:1
-a mock-up design:1
-Section 3.4:1
 serves:1
-two post-based user categories:1
-(ii) COs:1
-the PO category:1
-the initial privacy settings:1
+categories:1
 simulate:1
-the initial privacy setting:1
-updated:1
-possible number:1
-considering:1
-some COs:1
-this privacy change:1
-the CO category:1
-Thus:1
+comment/like:1
+thus:1
 apply:1
-predefined rules:1
-The rest:1
+rest:1
 organized:1
 follows:1
 review:1
-the related works:1
-methodology:1
-Section 3:1
-the following four points:1
-mentioned privacy:1
-an overview:1
-details:1
-the experimental process:1
-a possible implementation:1
+overview:1
 concludes:1
-the paper:1
-the novelty:1
-a comparative analysis:1
+comparative:1
 regard:1
-the existing solutions:1
-the future work:1
-Related:1
-This section:1
 revises:1
-the privacy issues:1
-Facebook’s functionalities:1
-actions:1
-the solutions:1
-our approach:1
 differs:1
-The first notable privacy breach:1
+notable:1
+breach:1
 took:1
-December 2007:1
-received:1
-feedback:1
-This issue:1
+december 2007:1
 attracted:1
-the interest:1
-the Federal Trade Commission:1
-(FTC:1
+federal:1
+trade:1
+commission:1
+ftc:1
 entered:1
-talks:1
-online privacy:1
-advertising rules:1
-respected:1
-the talks:1
+advertising:1
 decided:1
 undergo:1
-evaluation:1
-features:1
-an independent authority:1
+independent:1
+authority:1
 annually:1
-April 2015:1
+april 2015:1
 announced:1
-a serious change:1
 installation:1
 3420:1
-third party applications:1
 enables:1
-tracking:1
-the amount:1
 compromised:1
-the most recent event:1
-March 2018:1
-a severe blow:1
-Facebook’s popularity:1
+recent:1
+event:1
+march 2018:1
+severe:1
+blow:1
 proven:1
-knowledge:1
-massive theft:1
-user’s data.8:1
+massive:1
+theft:1
 solve:1
-this issue:1
 initiated:1
-closer tracking:1
-installed applications:1
+closer:1
 restricted:1
-their access:1
-
-tools:1
 displaying:1
 allowing:1
 grant:1
-permission:1
-their data:1
 uninstall:1
-the respected application:1
-the analysis:1
-behaviors:1
-interest:1
-Facebook’s privacy issues:1
 4–7:1
-Furthermore, Ho et al:1
-Tuunainen et al:1
 existence:1
 flexibility:1
-current privacy tools:1
 emphasized:1
-a privacy tool:1
-SN users’ awareness:1
-Talukder et al:1
-sensitive information:1
-that information:1
+sensitive:1
 exploited:1
-an adversary:1
-some prediction techniques:1
-this purpose:1
-developed:1
-a self-sanitization process:1
+adversary:1
+techniques:1
+purpose:1
+self-sanitization:1
 recommending:1
-some options:1
-Ask:1
-your friend:1
-political view:1
-their profile:1
-Similar work:1
-Dong et al:1
-the same time:1
-Costantino:1
-online pictures:1
-The results:1
-this search:1
+ask:1
+pictures:1
+search:1
 revealed:1
-most users:1
 restrict:1
-their photos:1
-only friends:1
-the main problem:1
 arises:1
-not all their friends:1
 considered:1
-Johnson et al:1
-[14] explored mitigation:1
-the online behavior:1
-interested users:1
+interested:1
 combining:1
-the selection:1
-trusted friends:1
-a better and more efficient outcome:1
-some researchers:1
-interaction analysis:1
-the idea:1
-real interactions:1
-Instead:1
-a few linked users:1
-an interaction graph:1
-(IG:1
-a big
-
+selection:1
+efficient:1
+outcome:1
+idea:1
+instead:1
+linked:1
+big:1
 diameter:1
-small number:1
-super nodes:1
+small:1
+super:1
 aims:1
 define:1
 source:1
-node:1
-(PO:1
-the users:1
-his or her post (COs:1
-This graph:1
-the graphs:1
-friendship:1
-other social relations:1
-the actual interactions:1
-Interaction analysis:1
 depend:1
-many parameters:1
-individuals’ behavioral factors:1
-their approach:1
-a dataset:1
+parameters:1
+individuals:1
 consisting:1
-real:1
 traces:1
-real
-
-interactions:1
-an IG:1
 included:1
-the same nodes:1
-the social link:1
-
-
-graph:1
-a subset:1
-the links:1
-only real interactions:1
-their findings:1
+subset:1
 listed:1
-Most users:1
-no interaction:1
 up to 50%:1
-the vast majority:1
-account:1
+vast:1
 70%:1
-all interactions:1
-Nearly all users:1
+nearly:1
 attribute:1
 only 60%:1
-approach:1
-these findings:1
-a baseline:1
-general:1
-all the above-mentioned works:1
+baseline:1
+above-mentioned:1
 benefits:1
-results:1
 point:1
-the mitigation:1
 accepting:1
-our friends:1
 evenly:1
-8Newcomb:1
-A.:1
-A Timeline
-
-of Facebook’s Privacy Issues:1
-Its Responses:1
-https://www.nbcnews.com/tech/socialmedia/timeline-facebook-s-privacy-issues-its-responses-n859651:1
+newcomb:1
+timeline:1
+responses:1
+nbcnews:1
+com/tech/socialmedia/timeline-facebook-s-privacy-issues-its-responses-n:1
+859651:1
 3421:1
-a novel privacy tool:1
 manages:1
 act:1
-our behalf:1
+behalf:1
 whenever:1
-a friend’s
-post:1
-the effects:1
-a post’s privacy settings:1
-its popularity:1
+post’s:1
 adopted:1
-inconsistent behavior:1
-privacy decisions:1
+inconsistent:1
+decisions:1
 deliver:1
-fewer people:1
-their comments:1
 best:1
-the authors’
-knowledge:1
 prompt:1
-the owner:1
-a
-Facebook post:1
-Methodology:1
-3.1:1
-Proposed solution:1
 cover:1
-a novel Facebook privacy tool:1
-dynamically track users’ action logs:1
-any changes:1
 detect:1
-possible privacy
-issues:1
 suggest:1
-some solutions:1
-their own privacy:1
-the following facilities:1
-Fa:1
-its privacy setting:1
-Fc:1
 checks:1
-its owner:1
-Fd:1
-any CO:1
-(comments/likes:1
-other people’s posts:1
-Defined rules:1
+defined:1
 trigger:1
-a specific action:1
-the described conditions:1
-e.g.:1
-my interaction:1
-“Public:1
+described:1
+conditions:1
 showing:1
-a possible design:1
-our
-experiments:1
 serve:1
-a background implementation:1
+background:1
 importance:1
-3.2:1
-Experimental work:1
-Our experimental work:1
 consists:1
-two parts:1
-expected functions:1
+parts:1
+functions:1
 demonstrating:1
-its operations:1
-a Facebook user:1
-these experiments:1
-the SNAP Facebook Dataset,9:1
-real Facebook users:1
-
-Stanford University:1
-Each node:1
-a real Facebook user:1
-the corresponding information:1
-Edges:1
-friendship relations:1
-edges:1
-some features:1
-age:1
-an example:1
-the SNAP webpage:1
-“Democratic Party:1
+operations:1
+webpage:1
+democratic:1
 specifies:1
-his/her Facebook profile:1
-a feature:1
-political=:1
-feature:1
-anonymized values:1
-each feature:1
 transformed:1
-this
-dataset:1
-a NetworkX10:1
-graph:1
+networkx:1
 simplify:1
-3.2.1:1
-Functionality analysis:1
 satisfy:1
-the aforementioned facilities:1
+aforementioned:1
 answer:1
-9Leskovec J:1
-Krevl A:1
-SNAP Datasets:1
-Stanford Large Network Dataset Collection:1
-https://snap.stanford.edu/data:1
-10NetworkX:1
-Software:1
-Complex Networks:1
-https://networkx.github.io/:1
+leskovec:1
+krevl:1
+datasets:1
+large:1
+collection:1
+https://snap:1
+edu/data:1
+10 networkx:1
+complex:1
+https://networkx:1
 3422:1
-a PO’s popularity:1
-other COs:1
-facilities Fa:1
-a PO’s friends:1
-(directly
-
-connected neighbor edges:1
-his/her level:1
-the simulation:1
-the relation:1
-their popularity level:1
-the CO’s decision:1
-predefined:1
-the
-related post:1
+connected:1
+neighbor:1
+relation:1
 considers:1
-facilities Fc and Fd:1
-the privacy preferences:1
-the following:1
-Only friends:1
-(ii) FoF:1
-the tagged friends:1
-this option:1
-some people:1
-Tagging:1
-means:1
+tagging:1
 selects:1
-his/her friends:1
-a behavioral action:1
 performs:1
-a real-time decision:1
-this probability:1
-(iii) Public:1
-Anyone:1
-Facebook member:1
+real-time:1
 specifying:1
-these limitations:1
+limitations:1
 tried:1
 discover:1
-the popularity level:1
-the popularity:1
-their neighbors:1
-the node:1
-its popularity level:1
+neighbors:1
 sorted:1
-their popularity levels:1
 descending:1
-
-order:1
-a list:1
-( Lpop:1
-ten different popularity classes:1
-their popularities:1
-first 10%:1
-this class:1
-the most
-popular 10% nodes:1
-the first 10% popular nodes:1
-the next first 10%:1
+classes:1
+popularities:1
+the next first:1
 remaining:1
-the 10th class:1
-the least popular nodes:1
-ten different groups:1
-Grpop:1
-their popularity:1
-group:1
-2 Grpop:1
 contains:1
-approximately 400 nodes:1
+400:1
 accordingly:1
-each group:1
-the steps:1
-a.:1
-(FG:1
-b.:1
-friends case:1
-c.:1
-Determine:1
-the friends:1
-d. Create:1
-FoF graph:1
-e.:1
-each N d:1
-Based:1
-his/her friends’ posts:1
+determine:1
 assigned:1
-possible IG:1
-The decision value:1
 randomly:1
-20% probability:1
-(interact:1
 80%:1
-probability:1
 call:1
-a friend’s post:1
-so pF:1
-This step:1
-50 times:1
-the average number:1
+50:1
 calculated:1
-this
-average value:1
 specify:1
-the nodes:1
-decision value:1
 3423:1
-the edges:1
-the friendship relations:1
-these nodes:1
-the
-number:1
-its nodes:1
 stochastically:1
-find:1
 withdraw:1
-the post changes:1
-Friends to FoF.:1
 testing:1
-different probability values:1
-his/her interaction:1
-a
-
-removal decision value:1
 representing:1
-Facebook users’ awareness level:1
 withdrawal:1
-The whole process:1
-pw values:1
-10%, 20%:1
+10% , 20%:1
 respectively:1
-each trial:1
+trial:1
 update:1
-IG:1
-the “friends” case:1
-the addition:1
-new nodes:1
-FoF. For
-:1
-extension:1
 operation:1
-each FoF node:1
-the ones:1
-decision:1
-The final graph:1
-Rows:1
+rows:1
 start:1
-the most popular nodes:1
 downwards:1
-the least popular ones:1
-each row:1
-columns:1
-vs.:1
-3rd:1
-4th:1
-5th:1
-6th
-7th
-8th
-:1
-9th:1
-10th:1
-164:21:1
-88:88:1
-58:92
-41:50:1
-30:59
-22:66
-16:91
-12:23
-8:05
-3:91:1
-32:94
-17:85
-11:79:1
-8:34:1
-6:11:1
-4:54:1
-3:39:1
-2:46
-1:61
-0:78:1
+vs:1
+164:21 88:88 58:92:1
+41:50 30:59 22:66 16:91 12:23 8:05 3:91 32:94 17:85 11:79 8:34 6:11 4:54 3:39 2:46 1:61 0:78:1
 458:78:1
 391:88:1
 332:85:1
@@ -1508,941 +1106,474 @@ vs.:1
 182:26:1
 173:96:1
 134:34:1
-106:97
-
-I(F:1
-117:85:1
-92:50:1
-75:72:1
-64:07
-57:02
-48:10
-38:79
-36:35:1
-27:76:1
-21:68:1
-= 30%:1
-= 40%:1
-= 50%:1
-88:60:1
-76:67
-65:42
-57:02:1
-51:85
-44:41
-36:13
-34:53
-:1
-26:66
-21:33:1
-75:47
-69:54:1
-60:66
-53:58
-49:53
-42:63
-34:78
-33:50
-26:06
-20:98:1
-85:32
-74:79
-64:22
-56:13
-51:33
-:1
-43:99
-35:81:1
-34:31:1
-26:57:1
-21:21:1
-81:85:1
-73:18
-63:17
-55:31:1
-50:73:1
-43:51
-35:48
-34:12
-26:38
-21:20
-
-77:25
-70:60
-61:26
-:1
-54:15
-49:77:1
-42:85
-34:91
-33:78
-26:12
-21:04:1
-len(FG:1
-the corresponding popularity class:1
-1.a:1
-case:1
-the popularity class:1
-corresponding popularity class:1
-1.d:1
-• I(FoF:1
+106:97:1
+0 117:85 92:50 75:72 64:07 57:02 48:10 38:79 36:35 27:76 21:68:1
+88:60 76:67 65:42 57:02 51:85 44:41 36:13:1
+34:53 26:66 21:33 75:47 69:54 60:66 53:58 49:53 42:63 34:78 33:50:1
+26:06 20:98 85:32:1
+74:79 64:22 56:13 51:33 43:99 35:81 34:31 26:57 21:21 77:25 70:60 61:26 54:15 49:77:1
+42:85 34:91 33:78 26:12 21:04 81:85 73:18:1
+63:17:1
+55:31 50:73 43:51 35:48 34:12 26:38 21:20:1
 split:1
-the I(FoF) column:1
-six
-
+column:1
+six:1
 subcolumns:1
-any removal:1
-others:1
-the following inferences:1
-The popularity level:1
-directly:1
-its post:1
-the 5th class:1
-approximately 6 interactions:1
-the 1st class:1
-33
-interactions:1
+inferences:1
+33:1
 3424:1
 seeing:1
-the post increases:1
 expand:1
-columns len(FG:1
-example:1
-the 1st class increases:1
 164:1
 459:1
-Effect:1
 observed:1
-pw = f10%:1
 50%g:1
-increases:1
 dramatically:1
-their
-comments:1
-the rate:1
+rate:1
 smaller:1
-this property:1
 precautions:1
-his/her:1
-
-
-interactions:1
-others’ posts:1
-the 1st row:1
-
-number:1
 118:1
-a probability:1
 decreases:1
 75:1
-an individual node:1
-a visual representation:1
-a basic simulation:1
-
-Spyder:1
-Python:1
-3.6:1
-the PyQt5 module:1
-the SNAP dataset:1
-eleven steps:1
-the details:1
-each step:1
-a complete run:1
-an average popular node:1
-a
-PO:1
-this simulation:1
-the following probability values:1
-: Visualization:1
-dataset:1
-the visualization:1
-the SNAP Facebook dataset:1
-4039 nodes:1
-This figure:1
-the graphical user interface:1
-GUI:1
-The user:1
+visual:1
+representation:1
+basic:1
+spyder:1
+python:1
+pyqt:1
+module:1
+eleven:1
+complete:1
+run:1
+graphical:1
+gui:1
 click:1
-the buttons:1
-the actions:1
-the following steps:1
-Selecting:1
-an understandable example:1
-an averagely
-
-popular node:1
-ID:1
+buttons:1
+understandable:1
+averagely:1
 766:1
-the 5th popularity class:1
-Shared:1
-A default post:1
-Post:1
-Size:1
-len(F G:1
 36:1
-the method:1
-the “Friends” privacy setting:1
-The privacy setting:1
-FoF. Now:1
+method:1
 expects:1
-a larger number:1
-The post:1
-the tagged ones:1
-the updated
-spreading area:1
-this
-post increases:1
-the difference:1
-FoF
-
-case:1
+difference:1
 48:1
-(FoF case:1
-a new IG:1
-the “Friends” case:1
-mentioned:1
 compared:1
-Even:1
-the spreading
-area:1
-
-interactions:1
-decrease:1
 >:1
-pw = 20%:1
 3425:1
-
-
-SAYİN:1
-SNAP Facebook graph:1
-
-dataset:1
-the increasing number:1
 satisfied:1
 valid:1
-all simulation scenarios:1
+scenarios:1
 happen:1
-the COs’ awareness increases:1
 decreased:1
-this example:1
-Privacy setting:1
 spreads:1
-the updated spreading area:1
-the public case:1
-The
-
-size:1
-4039:1
-the
-
-public case:1
 803:1
 3426:1
-3.3:1
-Possible implementation:1
 designed:1
-a mock-up:1
-The mock-up:1
-the proto.io website,11:1
-a link:1
-the implementation video:1
-the mock-up12:1
-Our mock-up design:1
-eight main screens:1
-dummy values:1
-The work flow:1
+video:1
+eight:1
+flow:1
 summarized:1
-
 explanation:1
-Flowchart:1
-11Proto.io:1
-Website https://proto.io/:1
-
-12Mockup Link:1
-Website https://www.dropbox.com/s/tmnjxf46r225rzq/mockup.mp4?dl=0:1
-3427
-
-SAYİN:1
-Welcome:1
+flowchart:1
+https://proto:1
+mockup:1
+dropbox:1
+com/s/tmnjxf:1
+46:1
+r:1
+225:1
+rzq/mockup:1
+mp:1
+dl=0:1
+3427:1
+welcome:1
 welcomes:1
 informs:1
-the scenario:1
+scenario:1
 embedded:1
-the addressed privacy issue:1
-the content:1
+addressed:1
 images:1
-Create:1
-Post creation:1
-simulated:1
-a dummy Facebook screen:1
-this
-
-screen:1
 ready:1
-a default:1
-this default post:1
-Select:1
-a privacy setting:1
-this setting:1
-a
-
 subscreen:1
-the figure:1
-numbers:1
-each case:1
-the top:1
-red, orange, and green colors:1
-the corresponding
-area:1
+top:1
+red:1
+orange:1
+green:1
+colors:1
 represented:1
 circles:1
-real situations:1
-those numbers:1
-the personal data:1
-each
-PO:1
-View:1
-news:1
-feed:1
+situations:1
 simulates:1
-some dummy posts:1
-POs or COs’ friends:1
-This property:1
 referred:1
-“News Feed:1
-Put:1
-a comment:1
+put:1
 leaving:1
-comment:1
-A dummy comment:1
 placed:1
 needs:1
-the next screen:1
-Check:1
+next:1
 wants:1
 leave:1
-his/her comment:1
 asked:1
-the comment:1
-a message:1
 asks:1
-the
-CO:1
 prefers:1
-a rule:1
-this comment:1
-some rule:1
-Send:1
 notifying:1
 notify:1
-these rules:1
-former posts:1
 previously:1
-
-
-shared posts:1
 directed:1
 try:1
 applying:1
-the corresponding change:1
-the newly created spreading area:1
-the
-results:1
-percentage values:1
-These results:1
-Numbers:1
-only this simulation:1
+newly:1
 reflect:1
-the real data:1
-the original application:1
-Get:1
-notification:1
-tool (Figure:1
-Thanks:1
-this notification:1
-the privacy level:1
-the changes:1
-3.4:1
-Applicability:1
-some crucial privacy risks:1
+original:1
+thanks:1
+crucial:1
 sharing:1
-shared posts:1
 gives:1
-a valuable warning:1
-either a PO:1
-a CO role:1
-any time:1
-the following three options:1
-those problems:1
+warning:1
+either:1
+three:1
 3428:1
-the POs:1
-their former posts:1
 consciously:1
-those privacy settings:1
 centrally:1
 meet:1
 requirements:1
-send:1
-a privacy
-change:1
-their activity logs:1
-their whole interactions:1
-the visibility:1
-related posts:1
-This solution:1
 sounds:1
 handy:1
-an extra complexity:1
-fact:1
+extra:1
+complexity:1
 faces:1
-a serious processing cost:1
-a huge amount:1
-Facebook statistics:1
-December 2017,13:1
+december 2017:1
 generates:1
-4 new
 petabytes:1
 generate:1
-4 million likes:1
-350 million photos:1
+4 million:1
+likes:1
+350 million:1
 uploaded:1
-Statistics:1
-huge:1
-dynamic:1
 implementing:1
-each specific post:1
-an enormous cost:1
-each Facebook
-user:1
+enormous:1
 concerned:1
-the same extent:1
-these circumstances:1
+extent:1
+circumstances:1
 payment:1
 pay:1
-the service:1
-This tool:1
 cause:1
-other privacy risks:1
-the third party:1
 demand:1
-the daily Facebook data:1
-a contract:1
-installed:1
+daily:1
+contract:1
 otherwise:1
-the whole privacy risks:1
 unrealistic:1
 61%:1
 29%:1
-any trusted third party:1
-this solution:1
 85%:1
 certainly:1
-this problem:1
 solved:1
-policy
-regulations:1
-service refinements:1
-these options:1
+policy:1
+refinements:1
 let:1
 us:1
 disclose:1
-the privacy leakages:1
-the proposed service:1
 permit:1
 adopt:1
-our
-solution:1
-Our study:1
 plays:1
-an important role:1
 notice:1
-serious privacy:1
 95%:1
-our mock-up:1
 confirming:1
-the real impact:1
-Discussion:1
 conclusions:1
-This study:1
 triggered:1
-a rising need:1
-the development:1
-their privacy settings:1
-the issue:1
-the privacy scope:1
-personal posts:1
-current privacy risks:1
-two detected ones:1
-owners:1
-both problems:1
-the experimental work:1
-the first privacy issue:1
-A simulation:1
-post creation:1
+rising:1
 observing:1
-
-area:1
-the PO’s popularity level:1
-the preferred privacy:1
-a comparison:1
-the existing models:1
-the proposed one:1
-
-solutions:1
-The most critical issue:1
-that similar studies:1
-privacy threats:1
-13Smith K:1
-47 Incredible Facebook Statistics:1
-Facts:1
-https://www.brandwatch.com/blog/47-facebook-:1
+preferred:1
+models:1
+critical:1
+studies:1
+threats:1
+smith:1
+47:1
+incredible:1
+facts:1
+brandwatch:1
+com/blog/47-facebook-:1
 statistics/:1
-
-
-3429
-
-SAYİN:1
-result:1
-technological factors:1
-e.g., copy/paste capability:1
-the user’s profiles:1
-the reason:1
-the detected privacy problem:1
-unexpected human behaviors:1
-The Facebook privacy policy:1
-all friends:1
+3429:1
+unexpected:1
+human:1
 credible:1
-the predefined privacy settings:1
 remain:1
-general security rules:1
 trust:1
-those entities:1
+entities:1
 ensure:1
-an awareness:1
-this risk:1
-all kinds:1
-technological products:1
-software:1
+kinds:1
+products:1
 defining:1
-a privacy policy:1
 4–14:1
 compare:1
 investigates:1
-privacy issue:1
-Both works:1
-real Facebook member profile:1
-a
-simulation:1
 clearly:1
 verify:1
-its possible effects:1
-problem:1
 verification:1
-its impacts:1
-This simulation:1
-similar:1
-the simulation part:1
-a friendship graph:1
-their effects:1
-private information:1
-the privacy risk:1
-a preventative course:1
-action:1
+impacts:1
+private:1
+preventative:1
+course:1
 visualize:1
-its usability:1
-the validation:1
-the proposed solutions:1
-the suggested tool:1
-more than 500 people:1
-This survey:1
-mock:1
-design:1
-the usability:1
-impact:1
-the proposed
-solution:1
+validation:1
 verifying:1
-the questionnaire:1
-Comparison:1
-related works:1
-solutions:1
-Study:1
-Type:1
-Privacy challenge:1
-Proposed:1
-Novelty:1
-solution proposal:1
-the highest privacy concern:1
-
-concerns:1
-
-awareness:1
-profile setup:1
-General copy/paste capability:1
-photo
-links:1
+type:1
+challenge:1
+highest:1
+setup:1
+photo:1
 con-:1
 cerns:1
 post-sharing:1
-specific
 subgroups:1
-their friendship networks:1
-all types:1
+types:1
 col-:1
 lection:1
-links:1
-30
-
-Automatic deletion:1
-
+30:1
+automatic:1
+deletion:1
 days:1
-Identification:1
+identification:1
 preserving:1
-concerns:1
-Improving:1
-Face-
-book users:1
-
+face-:1
+book:1
 strategies:1
 privacy-:1
 identified:1
-the privacy problem:1
-“Privometer”
-
-Detecting:1
-the privacy risks:1
+detecting:1
 stemming:1
-privacy preferences:1
-profile:1
 se-:1
 tups:1
-a hard problem:1
-privacy
-risks:1
-member profiles:1
-a friendship
-graph:1
-hazardous friends:1
-a sanitation mechanism:1
-simulation:1
-the
-problem:1
-its impact:1
-possible solutions:1
-Detection:1
+hard:1
+hazardous:1
+sanitation:1
+mechanism:1
+detection:1
 stem:1
-trusted relationships:1
-Two:1
-
-post/comment dissemination:1
+relationships:1
+post/comment:1
 simu-:1
 lated:1
-the authors:1
 pro-:1
 pose:1
-a solution tool:1
-all alternative so-
+alternative:1
+so-:1
 lutions:1
-a survey:1
 contributes:1
-The reason:1
-leakage:1
 coming:1
-a utility:1
-computer usage:1
-human-
-centric design efforts:1
+human-:1
+centric:1
+efforts:1
 improve:1
-privacy
-settings:1
-Survey:1
-Facebook
-users:1
-their preferences:1
-
-profile visibility:1
-No one:1
 manually:1
 monitor:1
 extending:1
-real time:1
-dynamically:1
 identify:1
-
-Privometer:1
 tries:1
 of-:1
 fline:1
-limited levels:1
-Presented privacy leakages:1
+limited:1
 rooted:1
-a more elaborated survey analysis:1
-larger
-groups:1
-these groups:1
-homogeneous demographic structures:1
-different geographical regions:1
-this extension:1
+elaborated:1
+homogeneous:1
+demographic:1
+structures:1
+geographical:1
+regions:1
 investigated:1
 efficiently:1
-different privacy
-preferences:1
-Our approach:1
 handling:1
-different social networks:1
-many more privacy risks:1
-explored:1
-the future:1
-the realization:1
-each solution:1
+realization:1
 computationally:1
 costly:1
-huge amounts:1
-online data processing:1
-response times:1
+amounts:1
+response:1
 uncomfortable:1
-Regulations:1
-the system:1
-more secure digital domains:1
-a future work:1
-Our
-study:1
+system:1
+digital:1
+domains:1
 3430:1
 simulating:1
-the actual interaction graph:1
 developing:1
-a prediction model:1
-possible interactions:1
-SN users’ behaviors:1
-Acknowledgment:1
+acknowledgment:1
 supported:1
-the Council of Higher Education:1
-the scope:1
-the Project Based
-
-Mevlana Exchange Programme:1
-project code:1
-MEV-2016:1
-057:1
+higher:1
+education:1
+mevlana:1
+exchange:1
+programme:1
+code:1
+mev-2016-057:1
 assisted:1
 significantly:1
-the research:1
-manuscript:1
 drafting:1
 stage:1
 read:1
 approved:1
-the final manuscript:1
-The authors:1
 would:1
-their gratitude:1
+gratitude:1
 appreciation:1
-Professor Sorin Adam Matei:1
-Purdue University, USA:1
-his valuable comments:1
+professor:1
+sorin:1
+adam:1
+matei:1
+purdue:1
 insight:1
 contributed:1
-the improvement:1
-References:1
-Boyd D:1
-Hargittai:1
-E.:1
-settings:1
+improvement:1
+references:1
+boyd:1
+hargittai:1
 cares:1
-First Monday Peer Reviewed Internet Journal:1
-Gangopadhyay S:1
-Dhar D. Social networking sites:1
+monday:1
+peer:1
+reviewed:1
+gangopadhyay:1
+dhar:1
 concerning:1
 youths:1
-Global Media Journal:1
+global:1
 2014:1
-10.5210:1
-fm.v15i8.3086:1
-Shore J:1
-Steinman J.:1
+5210/fm:1
+3086:1
+1-7:1
+steinman:1
 really:1
-The evolution:1
-Technology Science:1
-Internet Journal:1
-10.7910:1
-DVN/JROUKG:1
-[4] Siddula M:1
-Li L:1
-Li Y. An empirical study:1
-the privacy preservation:1
+science:1
+7910/dvn/jroukg:1
+siddula:1
+preservation:1
 19912-19922:1
-ACCESS.2018.2822693:1
-Al-Shamaileh O.:1
-IEEE Technology and Society Magazine:1
+1109/access:1
+2822693:1
+society:1
+magazine:1
 37:1
 40-45:1
-MTS.2018.2826078:1
-Hossain AA:1
-Zhang W. Privacy:1
-user perspective:1
-Interna-:1
-tional Conference on Information Systems Security and:1
-Privacy:1
-Loire Valley:1
-France:1
-246:1
-253:1
-
-
-[7] Al-Shamaileh O:1
-Aloudat A:1
-Barikzai S. User concerns:1
-important:1
-: 8th International
-Conference:1
-Information Technology:1
-Amman:1
-Jordan:1
-291:1
-296:1
-ICITECH.2017.8080015:1
-Ho A:1
-Maiga A:1
-Aimeur E. Privacy protection issues:1
-social networking sites:1
-
-
-7th IEEE/ACS In-
-ternational Conference on Computer Systems:1
-Applications:1
-Rabat:1
-Morocco:1
-271:1
-278:1
-AICCSA.2009.5069336:1
-Tuunainen V:1
-Pitkanen O:1
-Hovi M. Users:1
-online social networking sites case Facebook:1
-The 22nd Bled eConference:1
-Bled:1
-Slovenia:1
-p.:1
+1109/mts:1
+2826078:1
+hossain:1
+aa:1
+zhang:1
+w:1
+perspective:1
+interna-:1
+tional:1
+loire:1
+valley:1
+france:1
+246-253:1
+aloudat:1
+barikzai:1
+amman:1
+jordan:1
+291-296:1
+1109/icitech:1
+8080015:1
+maiga:1
+aimeur:1
+ieee/acs:1
+in-:1
+ternational:1
+rabat:1
+morocco:1
+271-278:1
+1109/aiccsa:1
+5069336:1
+pitkanen:1
+hovi:1
+22:1
+econference:1
+slovenia:1
+p:1
 42:1
-Talukder N:1
-Ouzzani M:1
-Elmagarmid AK:1
-Elmeleegy H:1
-Yakout M. Privometer:1
-Privacy protection:1
-social
-networks:1
-IEEE 26th International Conference:1
-Data Engineering Workshops:1
-Long Beach:1
-266:1
-269:1
-[11] Dong C:1
-Predicting:1
-privacy behavior:1
-Ninth International AAAI Conference:1
-Web and Social Media:1
+ouzzani:1
+elmagarmid:1
+ak:1
+elmeleegy:1
+yakout:1
+26:1
+workshops:1
+long:1
+beach:1
+266-269:1
+predicting:1
 91-100:1
-[12] Dong C:1
-PPM:1
-A privacy prediction model:1
-Ninth International:1
-AAAI Conference Web:1
-Social Media:1
-arXiv:1
-1606.07463v1:1
-Costantino G:1
-Sgandurra D. Design:1
-development:1
-a Facebook application:1
-: 23rd
-Euromicro International Conference:1
-Parallel:1
-Distributed:1
-Network-Based Processing:1
-Turku:1
-Finland:1
-583:1
-586:1
-PDP.2015.23:1
-Johnson ML:1
-Egelman S:1
-Bellovin SM:1
+ppm:1
+arxiv:1
+1606:1
+07463:1
+sgandurra:1
+euromicro:1
+parallel:1
+distributed:1
+turku:1
+finland:1
+583-586:1
+1109/pdp:1
+ml:1
+egelman:1
+bellovin:1
+sm:1
+it’s:1
 complicated:1
-the Eighth
-Symposium:1
-Usable Privacy:1
-Security:1
-Washington:1
-DC:1
-10.1145/2335356.2335369:1
+eighth:1
+symposium:1
+usable:1
+washington:1
+dc:1
+1-15:1
+1145/2335356:1
+2335369:1
 3431:1
-Laleh N:1
-Carminati B:1
-Ferrari B. Risk assessment:1
-user anomalous behaviors:1
-Transactions:1
-Dependable and Secure Computing:1
-295:1
-308:1
-TDSC.2016.2540637:1
-Vapen A:1
-Carlsson N:1
-Mahanti A:1
-Shahmehri N. A look:1
-the third-party identity management landscape:1
-Internet Computing:1
+laleh:1
+carminati:1
+ferrari:1
+assessment:1
+anomalous:1
+dependable:1
+295-308:1
+1109/tdsc:1
+2540637:1
+vapen:1
+carlsson:1
+mahanti:1
+shahmehri:1
+look:1
+third-party:1
+identity:1
+management:1
+landscape:1
 20:1
 18-25:1
-MIC.2016.38:1
-Wilson C:1
-Boe B:1
-User interactions:1
-: Proceedings:1
-the 4th ACM European Conference:1
-Computer Systems:1
-Nuremberg:1
-Germany:1
-205:1
-218:1
-[18] Wilson C:1
-Beyond:1
-social graphs:1
-user interactions:1
-ACM Transactions:1
-the Web (TWEB:1
-10.1145/2382616.2382620:1
-A. Main screens:1
-Mock-up screens:1
-Select Privacy Setting
-(Friends:1
-1
-
-SAYİN:1
-Mock-up screen:1
-privacy change:1
-Main Screen 8:1
-3
-
-Copyright:1
-Turkish Journal:1
-Electrical Engineering:1
-Computer Sciences:1
-property:1
-Scientific and Technical Research Council:1
-its content:1
+1109/mic:1
+38:1
+boe:1
+european:1
+nuremberg:1
+germany:1
+205-218:1
+tweb:1
+1145/2382616:1
+2382620:1
+sciences:1
+scientific:1
+technical:1
 copied:1
 emailed:1
-multiple sites:1
+multiple:1
 posted:1
-a listserv:1
-the copyright holder's express written
-permission:1
+listserv:1
+holder:1
+'s:1
+express:1
+written:1
 print:1
 download:1
-email articles:1
-individual use:1
+email:1
+articles:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:19
-Privacy:1
+Privacy:190
+privacy policy:12

@@ -3,3976 +3,2441 @@
 
 
 With stop word removal 
-Size of original corpus: 14173 
-Size of filtered corpus: 6629
-Size of Lexicon: 3496
+Size of original corpus: 18218 
+Size of filtered corpus: 9076
+Size of Lexicon: 2429
 
 Tokens that appear in the file, alongside with their frequencies:
-use:87
-pp:77
-1:59
-using:47
-3:43
-vol:42
-privacy:40
-7:40
-obtained:37
-disclosure:32
-users:31
-2:30
-MySNW.com:29
-gratiﬁcations:28
-limiting:27
-inﬂuence:27
-4:26
-trust:25
-Facebook:24
-see:24
-may:23
-setting:22
-people:22
-could:21
-Strongly:19
-Facebook.com:18
-information:17
-this paper:16
+privacy:330
+use:182
+information:112
+behaviors:100
+osn:94
+vol:85
+social:84
+pp:80
+facebook:75
+model:75
+gratiﬁcations:75
+research:68
+1:68
+personal:64
+users:62
+3:55
+using:54
+calculus:53
+trust:53
+disclosure:48
+network:47
+7:47
+capital:46
+2:42
+beliefs:40
+setting:40
+obtained:39
+people:39
+friends:39
+mysnw:39
+frequency:38
+inﬂuence:36
+limiting:34
+concerns:34
+p:34
+online:33
+size:33
+behavior:33
+0:31
+habit:30
+ieee:29
+paper:29
+interest:29
+4:29
+b:29
+perceived:28
+risks:28
+management:27
+university:27
+enjoyment:26
+systems:26
+media:26
+bonding:25
+see:25
+may:24
+effects:24
+inf:24
+settings:23
+uses:23
+less:22
+could:22
+strongly:22
+g:21
+intention:21
+three:21
+bridging:21
+antecedents:20
+outcomes:20
+individuals:20
+usage:20
+continuance:20
+syst:20
+approach:19
+comput:19
+inﬂuences:18
+items:18
+understanding:17
+control:17
+usefulness:17
+risk:17
+behav:17
+trusting:16
 show:16
-bonding:16
-Syst:16
-privacy behaviors:15
-limited:15
-Pace University:15
-Downloaded:15
-September 23,2021:15
-20:53:20 UTC:15
-IEEE Xplore:15
- Restrictions:15
+5:16
+6:16
+limited:16
+hum:16
+networking:15
+models:15
+8:15
+authorized:15
+licensed:15
+pace:15
+downloaded:15
+september 23 , 2021:15
+20:53:20:15
+utc:15
+xplore:15
+restrictions:15
 apply:15
-habit:15
-behaviors:14
-Inf:14
-Comput:14
-Hum:14
-privacy settings:13
-social capital:13
+relationships:15
+7-point:15
+site:14
+9:14
+study:14
+positively:14
+negatively:14
+likert:14
+self-disclosure:13
+manage:13
 would:13
-individuals:13
-enjoyment:13
-the privacy:13
-positively:13
-negatively:13
-network size:12
+usa:13
+friend:13
+ﬁnd:13
+studies:13
+intentions:13
+new:13
+theory:13
+table:13
+signiﬁcant:13
+restrictive:13
+=:13
+agree:13
+signiﬁcantly:13
+lankton:12
+concern:12
 limit:12
-USA:12
 include:12
 used:12
-less:12
-Authorized licensed use:12
-Behav:12
-personal interest:11
-This paper:11
-OSN:11
-ﬁnd:11
-5:11
-affect:11
+affect:12
+researchers:12
+pri-:12
+fig:12
+10:12
+ﬁndings:12
+factors:12
+website:12
+variables:12
+r:12
+journal:12
+transactions:11
+67:11
+f:11
+private:11
+however:11
+vacy:11
+way:11
+general:11
+con-:11
 feel:11
-=:11
-7-point Likert:11
-67:10
-frequency:10
+56:11
+well:11
+analysis:11
+role:11
+engineering:10
+results:10
+based:10
 like:10
-However:10
-6:10
-usefulness:10
-56:10
-well:10
-signiﬁcantly:10
-p:10
+services:10
+sites:10
+literature:10
+effect:10
+many:10
+available:10
+example:10
+proﬁle:10
+concerned:10
+positive:10
+tion:10
+variance:10
+support:10
 <:10
-inﬂuences:9
-personal information:9
-friends:9
-Fig:9
+interaction:9
+future:9
 increase:9
-9:9
+paper’s:9
 sought:9
-10:9
-example:9
+provider:9
+25:9
+public:9
+others:9
 makes:9
+lower:9
 among:9
-Disagree:9
-VOL:8
-AUGUST:8
+disagree:9
+august:8
 2020:8
-the privacy calculus model:8
-Findings:8
-uses:8
+survey:8
+findings:8
+be-:8
+sharing:8
+second:8
 share:8
-control:8
 disclose:8
-e.g.:8
-Finally:8
-Interacting:8
+revised:8
+first:8
+access:8
+speciﬁc:8
+important:8
+content:8
+impact:8
+variable:8
+set:8
+negative:8
+11:8
+user:8
+prior:8
+means:8
+activities:8
+finally:8
+shows:8
+in-:8
+36:8
+internet:8
+interacting:8
+factor:8
 18:8
-Agree:8
-0.05:8
+informa-:8
+construct:8
+common:8
+different:8
+05:8
+β:8
 continue:8
-Using:7
-private:7
-First:7
-research:7
-the privacy behaviors:7
-IEEE TRANSACTIONS:7
-ENGINEERING MANAGEMENT:7
-the gratiﬁcations:7
+w:8
+soc:8
+complex:7
+de-:7
+data:7
+one’s:7
+review:7
+state:7
+much:7
+work:7
+posting:7
+hypothesized:7
+questions:7
+making:7
+rather:7
+consistent:7
+conﬁdence:7
+enticement:7
 includes:7
-
-
-LANKTON:7
-UNDERSTANDING:7
-THE ANTECEDENTS:7
-OUTCOMES:7
-means:7
-’s:7
-shows:7
+belief:7
+constructs:7
+list:7
+higher:7
 make:7
-Personal interest:7
-privacy setting use:7
+particular:7
 supports:7
-β:7
-Res., vol:7
+interests:7
+respondents:7
+average:7
+age:7
+70:7
+time:7
+xu:7
+empirical:7
 2016:7
+commun:7
 2015:7
-, vol:7
-Int:7
-the uses:6
+int:7
 provides:6
-based:6
+implications:6
 might:6
+current:6
+types:6
+even:6
+certain:6
+multiple:6
+behav-:6
 protect:6
 examine:6
-beliefs:6
-the site:6
-Researchers:6
-concerns:6
+continued:6
+yet:6
 help:6
-relationships:6
-posting:6
+measures:6
+similar:6
+ing:6
 contributes:6
+re-:6
+theoretical:6
 examined:6
-making:6
-in-:6
-the model:6
-rather:6
 explain:6
-FACEBOOK PRIVACY BEHAVIORS:6
+dinev:6
+disclosing:6
 often:6
-the OSN website:6
-concerned:6
-36:6
+photos:6
+third:6
+increased:6
+14:6
+larger:6
+relationship:6
+68:6
 leads:6
-privacy calculus:6
+needs:6
+contact:6
+experience:6
+51:6
+54:6
 interact:6
-Limiting:6
+location-based:6
+greater:6
+better:6
+test:6
+2014:6
+actual:6
+second-order:6
+validity:6
 explained:6
-signiﬁcant:6
+several:6
+true:6
+13:6
+mediation:6
+examining:6
+strategy:6
+wang:6
 2017:6
-Manage:6
-Understanding:5
-i.e.:5
+chen:6
+technology:6
+mcknight:5
+sample:5
+haviors:5
+tions:5
 post:5
-much:5
-behav-:5
-social:5
-network:5
+lead:5
+https://www:5
 helps:5
 tested:5
-This research:5
-11:5
-consistent:5
-disclosing:5
-privacy concerns:5
+hypotheses:5
+12:5
 represent:5
-Second:5
-photos:5
-25:5
-b:5
-Trusting beliefs:5
-OSN use:5
-social media:5
+ways:5
+16:5
+26:5
+practices:5
+41:5
+previously:5
+need:5
+networks:5
+environment:5
+mobile:5
+key:5
+57:5
+com-:5
+60:5
 become:5
 62:5
-better:5
+reported:5
 increases:5
-ﬁndings:5
-2014:5
-continuance intention:5
-capital:5
+everyone:5
+reﬂective:5
+method:5
+77:5
+meaning:5
 via:5
-use frequency:5
-8):5
-Sci:5
-The role:5
+lowest:5
+denominator:5
+paradox:5
+sci:5
+2012:5
 2011:5
-Technol:5
-J. Inf:5
-Behav., vol:5
+amer:5
+technol:5
 2013:5
-J.:5
-no.:5
-manage:4
-
-gratiﬁcations approach:4
+quart:5
+integrated:4
+part:4
 depicts:4
-outcomes:4
+empanel:4
 collected:4
-calculus:4
+nature:4
+three-way:4
+two-way:4
+practical:4
 whether:4
 keep:4
+number:4
 contrast:4
 received:4
-access:4
+only one:4
+visibility:4
 allow:4
-
-users:4
-lead:4
+net-:4
+large:4
+dis-:4
+strategies:4
+examines:4
+major:4
+keeping:4
 decrease:4
-pri-:4
-impact:4
-usage:4
-similar:4
+gratiﬁcation:4
+per-:4
+ellison:4
+inform:4
 understand:4
-yet:4
 provided:4
 predict:4
-intention:4
-posted:4
+search:4
+instead:4
+overall:4
+decision:4
+development:4
+mass:4
 explaining:4
-12:4
-perceived:4
-vacy:4
-size:4
-16:4
-their information:4
-the literature:4
+full:4
+individual:4
 shown:4
-Privacy:4
 happen:4
-the use:4
-risks:4
+ﬁrst:4
+e-commerce:4
 provide:4
-41:4
-Available:4
+including:4
+15:4
+supporting:4
+ﬁnds:4
 likely:4
-the OSN provider:4
-Trust:4
-bridging social capital:4
+integrity:4
+competence:4
+45:4
+37:4
 46:4
-available:4
+hart:4
 found:4
+communication:4
+medium:4
+another:4
 47:4
+48:4
 made:4
-experience:4
-these gratiﬁcations:4
-54:4
+members:4
+50:4
+52:4
+building:4
+habitual:4
+55:4
+pleasure:4
 associated:4
-57:4
-ing:4
 join:4
 attention:4
-others:4
+58:4
 enjoyable:4
 useful:4
-60:4
+ﬁnding:4
+24:4
+59:4
 61:4
+63:4
 posts:4
-general:4
-the survey:4
-everyone:4
-construct:4
+66:4
+iii:4
+responses:4
+69:4
+versus:4
+group:4
+high:4
+total:4
 loaded:4
+good:4
 added:4
-Concerned:4
-True:4
+ﬁrst-order:4
+smartpls:4
+pls:4
+scale:4
+85:4
+86:4
+structural:4
 supported:4
-support:4
-meaning:4
+strangers:4
 predicting:4
 adds:4
-Examining:4
-The people:4
-13:4
-Self-disclosure:4
-2012:4
-Amer:4
-Rev., vol:4
-” Inf:4
-Soc:4
+focusing:4
+infor-:4
+mation:4
+35:4
+case:4
+parsimony:4
+things:4
+rev:4
+lin:4
+health:4
+2009:4
 2010:4
 27:4
-Psychol:4
-IEEE TRANSACTIONS ON ENGINEERING MANAGEMENT:3
-complex:3
-self-disclosure:3
-part:3
-trusting beliefs:3
-behavior:3
-be-:3
-
-haviors:3
-nature:3
-future research:3
+28:4
+perspective:4
+psychol:4
+ph:4
+degree:4
+association:4
+nancy:3
+tripp:3
+commerce:3
+complexity:3
+gratiﬁca-:3
 regarding:3
+past:3
 controlling:3
-the information:3
-Users:3
+issues:3
 still:3
-their personal information:3
+actions:3
+department:3
+ment:3
+marshall:3
+e-mail:3
+edu:3
+accounting:3
+michigan:3
+decisions:3
 undergo:3
+usually:3
 engage:3
-examines:3
-keeping:3
-8:3
+various:3
+clear:3
+perceptions:3
 turn:3
-Facebook friends:3
+friending:3
 measure:3
-even:3
+manner:3
 developed:3
-OSN privacy:3
+neither:3
 choose:3
-instead:3
-privacy calculus model:3
-Overall:3
-approach:3
-content:3
-
-gratiﬁcations:3
-
-use behaviors:3
-The privacy calculus model:3
+framework:3
+focus:3
+gratiﬁ-:3
+cations:3
+rayburn:3
+palmgreen:3
+attributes:3
 relevant:3
-Dinev:3
-the research model:3
+whereas:3
 studying:3
-Based:3
-Perceived privacy risks:3
-privacy risks:3
+nomological:3
+requests:3
 perceive:3
-sharing:3
-26:3
-hypotheses:3
+posted:3
+iors:3
 toward:3
-Likewise:3
+likewise:3
+context:3
 tend:3
-set:3
 maintain:3
-14:3
-15:3
+marketing:3
 44:3
-(c) network size:3
-) use frequency:3
-integrity:3
-competence:3
+user’s:3
 gives:3
+benevolence:3
 believe:3
-self:3
-37:3
-hypothesized:3
-the relationships:3
-the relationship:3
-p.:3
-68:3
-public:3
-48:3
+previous:3
+signiﬁcance:3
+subjects:3
+main:3
 refer:3
 obtain:3
 actually:3
-contact:3
 fun:3
-building:3
-habitual:3
-51:3
+routine:3
 represented:3
-pleasure:3
+effectiveness:3
+williams:3
 performed:3
 asking:3
-(e) habit:3
-58:3
+inﬂu-:3
+concept:3
+beneﬁts:3
+feedback:3
 seem:3
-location-based services:3
-63:3
-more restrictive privacy settings:3
-Network size:3
-66:3
-including:3
-the more users:3
-bridging:3
-
-individuals:3
+behavioral:3
+process:3
+ness:3
+fewer:3
+works:3
+possible:3
+controls:3
+65:3
+suggested:3
 ob-:3
+tained:3
 due:3
-versus:3
-privacy concern:3
+quality:3
+appendix:3
+authors:3
 created:3
-items:3
-et al:3
-respondents:3
-greater:3
+asked:3
+formative:3
+comprehensive:3
+play:3
+standard:3
+guidelines:3
+71:3
+psychological:3
+iv:3
 analyzed:3
-CR:3
-supporting:3
+item:3
+two:3
+dg:3
+cr:3
+extracted:3
+ave:3
+74:3
+80:3
+75:3
+square:3
+mean:3
+problem:3
+mental:3
+81:3
+predicted:3
 contin-:3
+uance:3
 measured:3
+×:3
+interactions:3
+23:3
 comfortable:3
-their concerns:3
 fully:3
-all the gratiﬁcations:3
+testing:3
+indirect:3
+direct:3
 exists:3
 54%:3
-theory:3
-examining:3
-de-:3
+limitations:3
+view:3
+contribution:3
+picture:3
 know:3
 deal:3
-35:3
-focusing:3
-the role:3
+lists:3
+82:3
+extended:3
+sys-:3
+tems:3
+portfolios:3
+project:3
+providers:3
+personalization:3
+longitudinal:3
 interested:3
-time:3
-social networking sites:3
-Eds:3
-Commun:3
+looking:3
+apps:3
+cheung:3
+lee:3
+krasnova:3
+eds:3
+netw:3
+consumer:3
+22:3
 n’t:3
-J. Comput.-Mediated Commun:3
-P. B. Lowry:3
-Proc:3
-28:3
-The case:3
-2009:3
-
-vol:3
-MIS Quart:3
-the Ph.D. degree:3
-Nancy K. Lankton:2
-(OSN:2
-their network size:2
+-mediated:3
+lowry:3
+assoc:3
+proc:3
+adoption:3
+30:3
+zhang:3
+comparison:3
+31:3
+x:3
+applications:3
+38:3
+electron:3
+chang:3
+students:3
+davis:3
+strategic:3
+conference:3
+harrison:2
+john:2
+traditional:2
 ensure:2
 calls:2
 explains:2
-perceived privacy:2
-results:2
-
-privacy concern:2
 opportunities:2
-practical implications:2
-information sharing:2
 generally:2
 products:2
-services:2
-Risks:2
-their privacy:2
 choosing:2
-revised:2
-Marshall University:2
-mail:2
-Michigan State University:2
-East Lansing:2
+additional:2
+manuscript:2
+date:2
+editor:2
+division:2
+accountancy:2
+legal:2
+wv:2
+east:2
+lansing:2
+baylor:2
+waco:2
+tx:2
+vendor-provided:2
 managing:2
+critical:2
+amount:2
+wrong:2
 says:2
-a privacy calculus:2
-personal
-information:2
 gaps:2
+choices:2
+ior:2
 must:2
-usually:2
 typically:2
 determine:2
+appropriateness:2
+closure:2
+investigation:2
 address:2
+attitudes:2
 effective:2
-privacy
-risks:2
-usage continuance intentions:2
-Yet:2
-continuance:2
-intentions:2
+gratifying:2
+digital:2
+object:2
 requires:2
-inform:2
 declining:2
+out-:2
 comes:2
+systematic:2
 integrating:2
-neither:2
-these behaviors:2
+calcu-:2
+lus:2
 enhance:2
-Facebook users:2
+population:2
+concepts:2
 answer:2
-effects:2
-the ﬁndings:2
+either:2
 facilitate:2
-the
-gratiﬁcations:2
-this paper’s focus:2
-antecedents:2
+expectancy:2
+forbes:2
+pos-:2
+itive:2
+ones:2
+paradigm:2
+cation:2
+motivations:2
+indi-:2
+evaluation:2
 reﬂects:2
-contrary beliefs:2
-risk:2
-conﬁdence:2
-enticement beliefs:2
-whereas:2
-Consistent:2
-risk beliefs:2
-conﬁdence beliefs:2
-Table:2
-this research:2
-TABLE:2
-(trust:2
+cal-:2
+culus:2
+determining:2
+contrary:2
+possibility:2
+left:2
+side:2
 within:2
-other privacy calculus studies:2
 accepting:2
-an individual:2
 performs:2
-these activities:2
 engaging:2
-con-:2
 considered:2
 assess:2
+assessment:2
 related:2
-OSN websites:2
-the
-provider:2
-proﬁle:2
-
-iors:2
-
-behaviors:2
-an OSN context:2
-perceived privacy risks:2
-previously:2
-their network:2
+40:2
+websites:2
+parties:2
+human:2
+agencies:2
+threats:2
+employers:2
+cases:2
+recent:2
+delete:2
 42:2
-Online:2
-the OSN site:2
-OSN users:2
-(c:2
-Trusting Beliefs:2
-45:2
+ﬂuence:2
+43:2
+knowing:2
+assurance:2
 safe:2
-benevolence:2
-the provider:2
-the need:2
-trusting:2
-Similarly:2
-Furthermore:2
-(a) privacy:2
-Personal Interest:2
-previous research:2
+similarly:2
+furthermore:2
+linkedin:2
+attraction:2
 entice:2
-the privacy behavior:2
-1 research model:2
 inﬂuencing:2
-
-frequency:2
-these relationships:2
-the signiﬁcance:2
-
-privacy concerns:2
-online:2
-Hart:2
+net:2
+wide:2
+range:2
 otherwise:2
-subjects:2
-personal
-interest:2
-the Internet:2
-increased:2
-OSN use frequency:2
+over-:2
+willingness:2
+security:2
+coupon:2
 meet:2
-H4(a)–(d:2
-Obtained:2
-The research model:2
-this approach:2
-another:2
+grat-:2
+iﬁcations:2
 seeking:2
-those gratiﬁcations:2
+choice:2
+49:2
+motives:2
+audience:2
 expect:2
-the Fig:2
-the outcomes:2
-routine:2
-FACEBOOK:2
-
-bridging social capital:2
+television:2
+applied:2
+four:2
+categories:2
+extrinsic:2
+53:2
+utility:2
 groups:2
 automatic:2
-Use:2
 interviews:2
+whiting:2
 enjoy:2
-H5(a)–(e:2
-(a) usefulness:2
-(b) enjoyment:2
-(d) bridging social capital:2
-inﬂu-:2
+ence:2
 constitutes:2
-a way:2
+next:2
 predicts:2
-personal interests:2
-one’s proﬁle:2
-social networking:2
-24:2
-social
-capital:2
-Information:2
-com-:2
-59:2
+feelings:2
+pro-:2
+old:2
+frequent:2
+performance:2
+culnan:2
+armstrong:2
 argue:2
-past experiences:2
+experiences:2
 becomes:2
+values:2
 suggests:2
-(a) useful-:2
-ness, (b) enjoyment:2
-(c) bonding capital:2
-(d) bridging capital:2
-
-(e) habit:2
-higher privacy setting use:2
-restrictive:2
+useful-:2
+sense:2
 seen:2
-a burden:2
+burden:2
 leading:2
-works:2
-higher:2
-
-use:2
-less restrictive privacy settings:2
-Habit:2
+level:2
+goals:2
+basic:2
+schools:2
+type:2
 correlates:2
-controls:2
 intentionality:2
-65:2
-Privacy setting use:2
-the more friends:2
-more users:2
+awareness:2
+instant:2
+messaging:2
 develop:2
-reported:2
-its use:2
-suggested:2
-usage continuance intention:2
-
-usage continuance intentions:2
-test:2
-the study:2
+increasing:2
+equal:2
+tinuance:2
+features:2
+questionnaire:2
+company:2
+least:2
 aged:2
 resulted:2
+usable:2
+scales:2
 adapted:2
-privacy risk:2
-70:2
-
-use frequency:2
-the United States:2
-asked:2
-key:2
-no one:2
-work:2
+united:2
+states:2
+http://www:2
+correlations:2
 served:2
+sonal:2
+approximately:2
 1–50:2
 1000:2
 tag:2
+games:2
 accept:2
-decline friend requests:2
-Table II:2
+decline:2
+gender:2
 presents:2
+pilot:2
 demonstrated:2
+reliability:2
 reﬂect:2
-71:2
-the ﬁrst-order factors:2
+fac-:2
+tor:2
+hardin:2
 correlate:2
-IV:2
-SmartPLS:2
-Results:2
+72:2
+mea-:2
+surement:2
+convergent:2
 showed:2
-(DG:2
+loadings:2
+closer:2
+cutoff:2
+cronbach:2
+composite:2
 73:2
-75:2
-These ﬁndings:2
-the AVEs:2
-AVE:2
-Table III:2
-lower:2
+discriminant:2
+aves:2
+root:2
+correlated:2
+00:2
 76:2
 assessed:2
-77:2
-Absolutely:2
-Third:2
-guidelines:2
-signiﬁcantly inﬂuences enjoyment:2
-H7(d:2
-H8(d:2
-(e:2
+absolutely:2
+ﬂow:2
+moderate:2
+ﬁve:2
 changed:2
-Facebook strangers:2
-0.14:2
 frequently:2
-a chance:2
-important:2
-privacy
-concerns:2
+chance:2
+result:2
 allows:2
-the three privacy behaviors:2
+three-:2
+account:2
 achieve:2
-0.10:2
 run:2
 mediate:2
-a model:2
-
-uance intentions:2
-tained:2
-model:2
-the hypothesized model:2
-OSN privacy behaviors:2
-continued:2
-
-vacy behaviors:2
+baron:2
+kenny:2
+79:2
+partial:2
+original:2
+discussion:2
+knowledge:2
+consequents:2
+core:2
+context-speciﬁc:2
 involves:2
-each behavior:2
-the three behaviors:2
+differences:2
+revelation:2
 close:2
-large friend lists:2
-their reputation:2
-entice-
-ment beliefs:2
-their personal interests:2
-paradox:2
-study:2
+reputation:2
+combined:2
+entice-:2
+face-:2
+book:2
+little:2
 suggest:2
-predicted:2
-friending:2
-OSN gratiﬁcations:2
-ﬁnds:2
-understanding:2
-continued use:2
+situation:2
+honest:2
+competent:2
+showing:2
+tial:2
+grati-:2
+ﬁcations:2
 importantly:2
-more restrictive privacy:2
+interactive:2
+supple-:2
 set-:2
+tings:2
 contribute:2
-Control:2
-82:2
-the effects:2
-parsimony:2
-play:2
-this paper’s ﬁndings:2
+hirschman:2
+83:2
+addresses:2
+84:2
 create:2
+boundaries:2
 around:2
-85:2
 investigate:2
+implication:2
 override:2
-86:2
-Future research:2
-providers:2
+wall:2
 marketers:2
-the content:2
-privacy management:2
-new:2
-longitudinal:2
-an integrated model:2
+proﬁles:2
+companies:2
+direction:2
+perceptual:2
+pavlou:2
+gefen:2
+87:2
+transaction:2
 led:2
+measurement:2
 misused:2
-informa-:2
-tion:2
 submitting:2
-
-2) MySNW.com:2
-3) MySNW.com:2
-personal:2
-interests:2
-Disclosure:2
+best:2
 place:2
-things:2
-Personal information:2
-Personal
-
-information:2
+status:2
 dropped:2
-agree:2
-) Strongly Agree:2
-Dis-:2
-7-point scale:2
-the world:2
+places:2
+talking:2
+world:2
 look:2
 read:2
-search:2
+community:2
 connected:2
 talk:2
 intend:2
-several people:2
+problems:2
 someone:2
-25, no.:2
-O. G˝unther:2
-C. Steinﬁeld:2
-C. Lampe:2
-needs:2
-Sociol:2
-T. Dinev:2
-P. Hart:2
-An extended privacy calculus model:2
+references:2
+chan:2
+g˝unther:2
+eng:2
+steinﬁeld:2
+lampe:2
+germany:2
+associates:2
+sociol:2
 17:2
 2006:2
-Support Syst:2
-,
-vol:2
-T.:2
-J. D. Rayburn:2
-A study:2
-R. Agarwal:2
-22:2
-commerce:2
-Italy:2
-online social networks:2
-52:2
-J. Warren:2
-Antecedents:2
-virtual health communities:2
-H. Xu:2
-51, no.:2
-Exploring:2
-Syst., vol:2
-location-based social network services:2
-Acad:2
-Factors:2
+-t:2
+-l:2
+decis:2
+agarwal:2
+healthcare:2
+self-efﬁcacy:2
+dienlin:2
+21:2
+italy:2
+james:2
+19:2
+keith:2
+devices:2
+kordzadeh:2
+warren:2
+virtual:2
+communities:2
+shi:2
+88:2
+exploring:2
+shen:2
+33:2
+acad:2
 39:2
-User:2
-A comparison:2
-Assoc:2
-C. M. K. Cheung:2
+lu:2
+liu:2
+integrative:2
+predictors:2
+-y:2
+morris:2
 2002:2
-30:2
-social media use:2
-Looking:2
-38:2
-NY:2
+bull:2
+college:2
+2008:2
+market:2
+motivation:2
+computers:2
+appl:2
+moderating:2
+ny:2
+york:2
+smith:2
+self:2
 1997:2
-31:2
 2007:2
-Sage:2
+bhattacherjee:2
+vinzi:2
+sage:2
+podsakoff:2
+pers:2
 worked:2
+industry:2
 published:2
-Sys-:2
-
-tems:2
-MIS Quarterly:2
+quarterly:2
 appeared:2
-Information Systems:2
+international:2
 697:1
-the Antecedents:1
-Outcomes:1
-Facebook Privacy Behaviors:1
-An Integrated Model:1
-D. Harrison McKnight:1
-John F. Tripp
-
-Abstract—Privacy:1
-online social networking:1
-traditional online environments:1
-e-
-commerce:1
+abstract:1
+environments:1
+e-:1
 addition:1
 simply:1
-OSN
-users:1
-This complexity:1
-an enhanced OSN
-privacy model:1
+enhanced:1
 completely:1
-Combining:1
+combining:1
 proposes:1
-an OSN privacy model:1
-both antecedents:1
-(i.e., privacy concern:1
-an Empanel survey
-sample:1
-U.S. Facebook users:1
-trust inﬂuences privacy:1
-each
-privacy:1
-A three-way interaction inﬂuences enjoyment:1
-habit gratiﬁca-
-tions:1
-a two-way interaction inﬂuences:1
-
-OSN privacy behaviors:1
 discusses:1
-Index Terms:1
-I. INTRODUCTION:1
-O NLINE social networking:1
+index:1
+terms:1
+introduction:1
+nline:1
 redeﬁned:1
-the dy-:1
+dy-:1
 namics:1
-the past:1
-de-
 cisions:1
-data sharing:1
-a second party:1
-one’s information:1
+party:1
 instance:1
-
-credit card number:1
-an e-vendor:1
+credit:1
+card:1
+e-vendor:1
 exchange:1
-the understanding:1
-the vendor:1
+vendor:1
 safe-:1
 guard:1
-this personal information:1
 real:1
-few options:1
+options:1
 beyond:1
-OSN privacy issues:1
-additional actions:1
-Manuscript:1
-July 6, 2017:1
-April 7, 2018:1
-August 25:1
-2018:1
+july:1
+6 , 2017:1
+april 7 , 2018:1
+august 25 , 2018:1
 accepted:1
-January 12, 2019:1
-Date:1
+january 12 , 2019:1
 publication:1
-February 11, 2019:1
-date:1
-current version:1
-July 16, 2020:1
-Review:1
-this manuscript:1
+february 11 , 2019:1
+version:1
+july 16 , 2020:1
 arranged:1
-
-Department Editor T. Ravichandran:1
-(Corresponding author:1
-Nancy K. Lank-
-ton:1
-N. K. Lankton:1
-the Division of Accountancy and Legal Environ-:1
-
-ment:1
-Huntington:1
-WV 25755 USA:1
+ravichandran:1
+corresponding:1
+author:1
+lank-:1
+environ-:1
+huntington:1
+25755:1
 lankton@:1
-marshall.edu:1
-D. H. McKnight:1
-the Department of Accounting and Information
-Systems:1
 48824:1
-mcknight@broad.msu.edu:1
-J. F. Tripp:1
-the Department of Management Information Systems:1
-Baylor University, Waco:1
-TX:1
+mcknight@broad:1
+msu:1
 76798:1
-e-mail:,John_Tripp@baylor.edu:1
-vendor-provided privacy control settings:1
-their friend network:1
-Decisions:1
+john_tripp@baylor:1
 exercise:1
-
-control:1
-critical:1
 given:1
-the vast amount:1
-information users:1
-these sites:1
+vast:1
 exist:1
 exposes:1
-the wrong types:1
-the wrong people:1
-These risks:1
-potential abuses:1
-online criminals:1
+potential:1
+abuses:1
+criminals:1
 stalkers:1
 bullies:1
-even friends:1
-OSN research:1
 deciding:1
-this literature:1
-certain areas:1
-multiple privacy behavior choices:1
-most research models:1
-only one OSN privacy:1
-ior:1
-usually self-disclosure:1
-their
-personal information:1
-vendor-provided
-privacy settings:1
+areas:1
 unique:1
-certain audiences:1
-all
-friends:1
-speciﬁc friends:1
-Network size1:1
-an important privacy
-behavior:1
-its effect:1
-visibility:1
-Even:1
+audiences:1
 restrict:1
-content access:1
 decide:1
-how many people:1
-
-OSN friends:1
 explicitly:1
-their network’s
-size:1
-a small network:1
-a homogeneous net-
-work:1
-(i.e., mostly friends:1
-
-less privacy:1
+network’s:1
+small:1
+homogeneous:1
+mostly:1
 invasive:1
-a large network:1
-a heterogeneous network:1
-i.e., more types:1
+heterogeneous:1
 struggle:1
-the appropriateness:1
-dis-
-closure:1
-various strategies:1
-only one privacy
-behavior:1
 miss:1
-major aspects:1
-OSN privacy complexity:1
-A second gap:1
-information privacy research:1
-the limited
-investigation:1
-privacy behavior outcomes:1
-Most studies:1
-a continued use:1
-the behaviors:1
-attitudes:1
-future OSN inten-
-tions:1
-inconclusive or erroneous conclusions:1
+aspects:1
+gap:1
+inten-:1
+inconclusive:1
+erroneous:1
+conclusions:1
 gratiﬁed:1
 involved:1
 happens:1
-clear:1
 react:1
-
-vacy concerns:1
 disclosures:1
-a privacy behavior:1
-gratifying:1
-favorable
-perceptions:1
-the link:1
-
-privacy risks:1
-gratiﬁcation per-
+favorable:1
+link:1
 ceptions:1
 clarify:1
-Digital:1
-Object:1
-Identiﬁer:1
-10.1109:1
-TEM.2019.2893541:1
-measures:1
-the number:1
-1Ellison et al:1
+identiﬁer:1
+1109/tem:1
+2019:1
+2893541:1
 call:1
-this variable friending behavior:1
-0018-9391 © 2019 IEEE:1
-Personal use:1
+0018-9391 © 2019:1
 permitted:1
 republication/redistribution:1
-IEEE permission:1
-See:1
-https://www.ieee.org/publications/rights/index.html:1
-more information:1
+permission:1
+org/publications/rights/index:1
+html:1
 698:1
-Privacy behavior research model:1
 reports:1
-less
-content:1
-some social media sites2:1
-some site use:1
 slowed:1
-This paper’s research objective:1
-the interplay:1
-multiple privacy behaviors:1
-their antecedents:1
-out-:1
-a theory-based and systematic manner:1
-The research
-model:1
-calcu-
-lus model:1
-the uses and gratiﬁcations approach:1
-a complete understanding:1
-Combin-
-ing privacy calculus:1
+objective:1
+interplay:1
+theory-based:1
+complete:1
+combin-:1
 behave:1
-a more or less private way:1
-these choices:1
-their gratiﬁcation perceptions:1
-The hypothesized model:1
-survey data:1
-a general
-U.S. population sample:1
 serving:1
-a baseline:1
-future re-
-search:1
+baseline:1
 sheds:1
-novel light:1
-the complex issue:1
-OSN privacy
-behaviors:1
-a more thorough set:1
-concepts:1
-(all three pri-
-vacy behaviors:1
-a new integrated theoretical
-framework:1
-
-approach:1
-questions:1
-Does the
-OSN privacy calculus inﬂuence:1
-all privacy behaviors:1
+novel:1
+light:1
+issue:1
+thorough:1
 equally:1
-private lead:1
-Which privacy behaviors:1
-Such questions:1
-either:1
 answered:1
-an ad hoc
-manner:1
+hoc:1
 informed:1
-practical:1
-decision:1
-THEORY:1
-HYPOTHESES DEVELOPMENT:1
-The theoretical model:1
-both the privacy:1
-calcu-:1
-lus model:1
-The
-privacy calculus model:1
-expectancy theory:1
-2[Online:1
-Available: https://www.forbes.com/sites/paularmstrongtech/2017/02:1
-/14:1
-facebook:1
-a-third:1
-in-2016:1
-2015/#2e101282776d:1
+com/sites/paularmstrongtech/2017/02:1
+/14/facebook-users-posted-a-third-less-content-in-2016-than-in-:1
+2015/#2:1
+101282776:1
 broadly:1
 holds:1
 motivated:1
 maximize:1
-pos-:1
-itive outcomes:1
 minimize:1
-negative ones:1
-The uses:1
-a paradigm:1
-the mass communi-:1
-
-cation literature:1
-media:1
-user motivations:1
+communi-:1
 precedent:1
-expectancy theory
-models:1
-their uses:1
-gratiﬁ-
-cations model:1
-Rayburn:1
-Palmgreen:1
 contend:1
-indi-
-vidual motivations:1
+vidual:1
 expectancies:1
-a
-media object:1
 possesses:1
-certain attributes:1
-evaluation:1
-those beliefs:1
-this notion:1
+notion:1
 captures:1
-the beliefs:1
-(i.e., media use:1
-the cal-
-culus or evaluation users:1
 undertake:1
-determining:1
 reveal:1
-A. Privacy Calculus Model:1
-Hart’s:1
+hart’s:1
 contends:1
-prior:1
-a privacy
-calculus:1
 weighing:1
-Risk beliefs:1
-negative out-:1
-possibility:1
 loss:1
-con-
-ﬁdence and enticement beliefs:1
-these risks:1
+ﬁdence:1
 mitigated:1
-this study:1
-both perceived pri-:1
-vacy risks:1
-
-enticement beliefs:1
-left side:1
-a theoretical basis:1
-
-research:1
-online disclosure decisions:1
-various con-
+basis:1
 texts:1
 expands:1
-three
-ways:1
 depicted:1
-all factors:1
-Few studies:1
 699:1
-SAMPLE PRIVACY CALCULUS STUDIES:1
-all three belief types:1
-the conﬁdence beliefs:1
 omitted:1
-this paper’s research
-model:1
-three privacy behaviors:1
-a full nomological
-network:1
-Similar:1
-also
-examines:1
-frequency behavior:1
-the frequency:1
-
-performing speciﬁc activities:1
-(e.g., tagging:1
-friend requests:1
+performing:1
+tagging:1
 depend:1
-their privacy calculus:1
 serve:1
 none:1
-the privacy calculus studies:1
-these observations:1
-
-Fig:1
-all three calculus belief types:1
-their relationships:1
-Privacy Risk Beliefs:1
-Perceived Privacy Risks:1
-Concerns:1
-
+observations:1
 cerns:1
-similar but distinct constructs:1
-risk
-beliefs:1
-general OSN users’ personal information:1
-whereas perceived
-privacy concerns:1
-an assessment:1
-own personal information:1
-Individuals:1
-
-risks:1
+distinct:1
 misuse:1
-online social activities:1
-40:1
-third parties:1
 advertising:1
-human re-:1
-
 sources:1
-state agencies:1
-People:1
-threats:1
-secret sharing:1
+secret:1
 bullying:1
 viewing:1
-third par-:1
-
+par-:1
 ties:1
-(e.g., employers:1
-OSN risks:1
 exacerbated:1
-increased media coverage:1
-privacy abuse cases:1
-3].3:1
-The ﬁrst set:1
+coverage:1
+abuse:1
 propose:1
-perceived privacy
-risks:1
-A recent review:1
-the e-commerce literature:1
-signiﬁcant impacts:1
-individuals’ attitudes:1
-information practices:1
-
-ioral intention:1
-Privacy-concerned Facebook users:1
-delete:1
+impacts:1
+ioral:1
+privacy-concerned:1
 edit:1
 something:1
-their proﬁle:1
-delete people:1
-
-friends’ list:1
-3Including:1
-https://www:1
-cbsnews.com/news/facebook-cambridge-analytica-scandal-federal-investigation-:1
-data-scandal-mark:1
-zuckerberg/:1
+cbsnews:1
+com/news/facebook-cambridge-analytica-scandal-federal-investigation-:1
+data-scandal-mark-zuckerberg/:1
 700:1
-their proﬁle visibility:1
-smaller network
-size:1
-their self-disclosure:1
-
-ﬂuence use frequency:1
-Rather:1
-information dis-:1
-closure:1
-Supporting:1
-research ﬁnds:1
-their information privacy:1
-a site:1
-43:1
+smaller:1
 participating:1
-marketing activities:1
-H1:1
-Perceived OSN privacy risks:1
-(a) pri-:1
-frequency.4:1
-H2:1
-Perceived OSN privacy concerns:1
-(a)
-privacy setting use:1
 nega-:1
-tively inﬂuence:1
-Conﬁdence Beliefs:1
-a user’s belief:1
-three desirable attributes:1
-benevo-
+tively:1
+desirable:1
+benevo-:1
 lence:1
-a conﬁdence belief:1
-the privacy
-calculus model:1
-Knowing:1
-these pos-
-itive traits:1
-assurance:1
-their personal
-information:1
-Perceiving:1
-the website:1
-the positive
-attributes:1
+traits:1
+perceiving:1
 advan-:1
 tageous:1
-the trustor:1
+trustor:1
 overcoming:1
-the risks:1
-Trusting:1
-Prior research ﬁnds:1
 facil-:1
 itate:1
-online information sharing:1
-higher trust:1
 protective:1
-re-
-strict access:1
-larger friend networks:1
+strict:1
 offset:1
 apt:1
-Researchers ﬁnd trust:1
-LinkedIn and Facebook usage intentions:1
-user participation:1
-OSN
-marketing activities:1
-H3(a)–(d:1
-) Enticement Beliefs:1
+participation:1
 mitigate:1
 undergoing:1
-a
-privacy calculus:1
 deﬁned:1
-perceptions:1
-
-cognitive attraction:1
+cognitive:1
 relinquish:1
-some privacy:1
-4Although:1
-fre-
-quency variables:1
-Therefore:1
-Adding:1
-the independent variables:1
-the privacy
-behavior:1
-frequency variables:1
-their dependent variables:1
+although:1
+fre-:1
+quency:1
+therefore:1
+adding:1
+independent:1
+dependent:1
 transact:1
 claim:1
-Internet
-personal interest:1
-their study:1
-the Inter-
-net:1
-an incredibly wide range:1
-
+inter-:1
+incredibly:1
 goods:1
 conveniently:1
-The Internet:1
-an environment:1
-wide:1
-range:1
 match:1
-a particular user’s interest:1
-OSN web-
-sites:1
-many services:1
-the over-:1
-all attraction:1
+web-:1
 desirability:1
 overrides:1
-the perceived risks:1
-Prior:1
-a privacy:1
-ior antecedent:1
-personal Internet interest:1
-increased willingness:1
-
+antecedent:1
 teract:1
 decreased:1
-security practices:1
-a
-networked environment:1
-mobile coupon services:1
-a desire:1
-
-personal needs:1
-the OSN:1
-B. Gratiﬁcations:1
-Use Behaviors:1
+networked:1
+desire:1
 extends:1
-de-
-picting gratiﬁcations:1
-The gratiﬁcations:1
-grat-
-iﬁcations approach:1
-a media use paradigm:1
-mass
-communication research:1
+picting:1
 dates:1
 back:1
-the 1940s:1
-The
-main purpose:1
-one speciﬁc communication:1
-medium:1
+1940:1
+purpose:1
 tends:1
-media users:1
 goal:1
 directed:1
-their usage:1
-speciﬁc gratiﬁcations:1
 fulﬁll:1
-their needs:1
-Media choice de-
 pends:1
-gratifying needs:1
-49:1
-a key distinction:1
-Gratiﬁcations:1
+distinction:1
 referred:1
-“needs:1
-“motives:1
-audience members:1
-a medium:1
-50:1
-audience
-members:1
-a particular
-medium:1
-OSN uses and gratiﬁcations research:1
-2]—gratiﬁcations:1
-50]—both:1
-52]—gratiﬁcations:1
-1 re-
-search model:1
 motivating:1
-Much uses and gratiﬁcations research:1
 investigated:1
-media
-use:1
 radio:1
-television:1
 recently:1
-applied:1
-the approach:1
 identify:1
-online
-social media use:1
 fall:1
-four main categories:1
 instrumental:1
-task:1
-oriented:1
-extrinsic:1
-
-2) entertainment:1
+task-oriented:1
+entertainment:1
 entertained:1
 maintaining:1
 ritualized:1
-53:1
-PRIVACY BEHAVIORS:1
 701:1
-these four gratiﬁcations:1
-perceived usefulness:1
-utility:1
-effectiveness:1
-[55]), enjoyment:1
-55:1
-(resources:1
+resources:1
 accrued:1
 resulting:1
-
-habit (OSN use:1
-Frequency Effects:1
-gratiﬁca-
-tions approach:1
 deﬁnition:1
 ful-:1
-
-ﬁll OSN use:1
+ﬁll:1
 veriﬁed:1
-
 surveys:1
 produces:1
 ex-:1
 ample:1
-Whiting:1
-Williams:1
--depth:1
-25 people:1
-Other researchers:1
+in-depth:1
 empirically:1
-Use frequency:1
-The three privacy management behaviors:1
-ence gratiﬁcations:1
 congruous:1
-the media use concept:1
-Media use:1
 exposure:1
-atten-
+atten-:1
 tiveness:1
-the media:1
-Both use:1
 expose:1
-one attentive:1
-prior research:1
-OSN
-privacy behaviors:1
-Disclosure Effects:1
-The next set:1
-OSN
-gratiﬁcations:1
+attentive:1
 gained:1
 popularity:1
 attract-:1
-a great number:1
-personal in-
+great:1
 formation:1
 names:1
 photographs:1
-
-contact information:1
-their current feelings:1
 opin-:1
 ions:1
-Many:1
-a social network website:1
 reap:1
-its beneﬁts:1
-Posting:1
-more use-
+use-:1
 fulness:1
-positive feedback:1
 productive:1
-
 efﬁcient:1
-site:1
-Prior OSN research:1
-this ﬁnding:1
-A key factor:1
 especially:1
 begin:1
 gathered:1
-a user’s proﬁle:1
 establish:1
-mon ground:1
-communication and coordination pro-:1
-
+ground:1
+coordination:1
 cesses:1
-practices:1
-
-people:1
-new relationships:1
-those main-:1
+main-:1
 taining:1
-old ones:1
-a negative
-effect:1
-habit be-:1
 cause:1
-More
-frequent behavioral performance:1
-Culnan:1
-Armstrong:1
 aware:1
-the beneﬁts:1
-the process:1
-further disclosure:1
 compatible:1
-their existing values:1
+existing:1
 109:1
-more disclosure:1
-stronger habit:1
-lower habit:1
-H6(a)–(d:1
-Setting:1
-Effects:1
-gratiﬁ-
-cations:1
-sense:1
-restrictive
-privacy settings:1
+stronger:1
 reduces:1
-the amount:1
-
-others:1
 discussed:1
-lower gratiﬁca-:1
-
-tions:1
-the perceived ben-:1
+ben-:1
 eﬁts:1
-some cases:1
 cognitively:1
 unmanageable:1
-fewer gratiﬁcations:1
-Previous research:1
-this prediction:1
-restrictive privacy:1
-one major reason:1
-as many
-friends:1
-possible:1
-level:1
-the lower the usefulness:1
-social
-networking:1
-information management and social
-goals:1
-basic proﬁle characteristics:1
-e.g., ages:1
+prediction:1
+reason:1
+characteristics:1
+ages:1
 birthdays:1
-schools:1
 images:1
-Releasing:1
-this type:1
+releasing:1
 attracts:1
-more friends:1
-
-bonding and bridging social capital:1
-may also negatively
-affect habit:1
-systematic privacy:1
 blocking:1
-unwanted con-
+unwanted:1
 tacts:1
 restricting:1
-the visibility:1
-These actions:1
-a lack:1
-awareness:1
+lack:1
 dimensions:1
-this way:1
-restrictive privacy controls:1
-H7(a)–(e:1
-Network Size Effects:1
-the other hand:1
-an instant messaging network:1
-their social circles:1
+hand:1
+circles:1
 thereby:1
-increasing:1
-their utility:1
-the more people:1
-their peers:1
-an OSN site:1
-
-enjoyment:1
-Participants:1
-the most Facebook
-friends:1
-greater perceived bonding:1
+peers:1
+participants:1
 reporting:1
-fewer:1
 else:1
-equal:1
 expand:1
 able:1
 stay:1
 routinized:1
-A positive relationship:1
 702:1
-which habit:1
-more frequent site use:1
-More
-friends:1
 produce:1
-more habitual use:1
-H8(a)–(e:1
-The ﬁnal set:1
-
-tained:1
-Usage con-
-tinuance intention:1
+ﬁnal:1
 represents:1
-the decision:1
 perform:1
-the use
-behavior:1
-the behavior:1
 focuses:1
-pro-:1
-jected future use:1
-their current use level:1
-speciﬁc features:1
-the use frequency variable:1
-This section:1
+jected:1
+section:1
 sep-:1
 arately:1
-each gratiﬁcation:1
-continuance intentions:1
-classic
-information system studies:1
-OSN studies:1
-H9a-e:1
-: (a) Usefulness, (b) enjoyment:1
-) bridging social capital:1
-III:1
-METHODOLOGY:1
-online questionnaire data:1
-the research
-model:1
-the focal OSN website:1
-its prominence:1
-The dataset:1
+classic:1
+system:1
+a-e:1
+methodology:1
+focal:1
+prominence:1
+dataset:1
 spring 2014:1
-Empanel:1
-a data collection company:1
+collection:1
 specializes:1
-Internet-
-based survey panel recruitment:1
-The company:1
-595 po-
-tential respondents:1
-U.S. population:1
-Internet:1
-users.5 Initial screening:1
+internet-:1
+panel:1
+recruitment:1
+595:1
+po-:1
+tential:1
+initial:1
+screening:1
 identiﬁed:1
-544 Facebook users:1
-least:1
-About 239 responses:1
-data quality issues:1
+544:1
+about 239:1
 170:1
-responses:1
 passing:1
-quality assurance questions,6:1
-
-69 responses:1
 spending:1
-at least 12 min:1
+at least 12:1
 responding:1
-all the same answers:1
+answers:1
 eliminated:1
-305 usable responses:1
-a usable response rate:1
+305:1
+response:1
+rate:1
 56%:1
-The average age:1
-the sample:1
 44 years:1
-more
 females:1
 males:1
 64%:1
 36%:1
 rep-:1
 resentative:1
-the age group:1
 30–49:1
-the second largest age group:1
-more women:1
-
-men:1
-Facebook.7:1
-The questionnaire:1
-the Appendix:1
-Most scales:1
-[56], usefulness and enjoyment [55], [69], trusting beliefs [45],
-and bonding and bridging social capital:1
-All items:1
+largest:1
+women:1
 relate:1
-the OSN setting:1
-The authors:1
-the items:1
 consisted:1
-a list:1
-informa-
-tion:1
-asked respondents:1
-those types:1
-5Empanel:1
 live:1
-All Empanel subjects:1
-Internet users:1
-6These questions:1
 interspersed:1
 throughout:1
-the respondents:1
-a particular question:1
+question:1
 unrelated:1
-a
-particular way:1
-7[Online:1
-http://www.pewinternet.org/2015/01/09/demographics-:1
--social-networking-platforms-2/:1
-These items:1
-the Facebook settings:1
-the
-time:1
-formative:1
-their contact information:1
-the high correlations:1
-some items:1
+pewinternet:1
+org/2015/01/09/demographics-:1
+of-key-social-networking-platforms-2/:1
+construct’s:1
 aver-:1
-the analysis:1
-theoretical sense:1
-a
-higher (lower) average:1
 indicates:1
-more (less) privacy:1
-The limiting disclosure items:1
-Kras-:1
+kras-:1
 nova:1
-a guide:1
-Krasnova’s
-items:1
-a detailed and comprehensive proﬁle:1
-this paper’s items:1
-per-
-sonal or sensitive information:1
-re-:1
+guide:1
+krasnova’s:1
+detailed:1
+sensitive:1
 ported:1
-approximately how many total Facebook friends:1
-the formative us-
-age frequency items:1
-actual tasks:1
-per-:1
+us-:1
+tasks:1
 form:1
-Facebook (e.g.:1
-play games:1
-Other measures:1
-age:1
-gender:1
-(1 = male:1
+male:1
 female:1
 duration:1
-con-
-trol variables:1
-variable means:1
-standard
+trol:1
 deviations:1
-Most items:1
 excluding:1
-pilot:1
-an undergraduate information systems course:1
+undergraduate:1
+course:1
 391:1
-The items:1
-their intended constructs:1
-the
-constructs:1
-good reliability:1
-Facebook
+intended:1
 functionality:1
-the pilot:1
 treated:1
-a reﬂective second-order fac-
-tor:1
-ﬁrst-order
-factors:1
-This analysis:1
 followed:1
-the guidelines:1
 forth:1
-Hardin:1
-reﬂective factors:1
 expected:1
-the psychological and theoretical construct:1
-the researchers’ interest:1
-knowing:1
-the second-
-order factor:1
+second-:1
+order:1
 affects:1
-other variables:1
-its variance:1
-This practice:1
-prior trust
-research:1
-DATA ANALYSIS:1
-The data analysis:1
-72:1
-the mea-
-surement model:1
-convergent validity:1
-PLS:1
-factor:1
-loadings:1
-each variable:1
-0.70:1
+practice:1
 except:1
-social capital items:1
-0.54:1
-0.41:1
 respectively:1
-bridging social cap-
-ital item:1
-0.66:1
-The two bonding social capital
-items:1
-0.60:1
+cap-:1
+ital:1
 deleted:1
-the bridging
-social capital item:1
 retained:1
-closer:1
-the 0.70
-cutoff:1
-the construct:1
-good conver-
-gent validity:1
-The Cronbach alpha:1
-D. G. rho:1
-
-composite reliabilities:1
-average variances:1
-extracted:1
-(AVE:1
-the minimum standard amounts:1
-(CA—0.70:1
-DG—0.70:1
-74:1
-CR—0.80:1
-AVE—0.50:1
-all support convergent
-validity:1
-Next discriminant validity:1
+conver-:1
+gent:1
+alpha’s:1
+rho’s:1
+reliabilities:1
+variances:1
+minimum:1
+amounts:1
+ca—0:1
+dg—0:1
+cr—0:1
+ave—0:1
 comparing:1
-the
-variable intercorrelations:1
-the square roots:1
+intercorrelations:1
+roots:1
 703:1
-TABLE II:1
-CONSTRUCT MEAN:1
-STANDARD DEVIATION:1
-SD:1
-CRONBACH ALPHA:1
-D. G. RHO:1
-COMPOSITE RELIABILITY:1
-AVERAGE VARIANCE EXTRACTED:1
-TABLE III
-CONSTRUCT CORRELATIONS:1
-SQUARE ROOT:1
-AVERAGE:1
-VARIANCE:1
-EXTRACTED:1
-ON DIAGONAL:1
-Each correlation:1
-the square root:1
-the two correlated variables:1
-
-discriminant validity:1
-all PLS cross loadings:1
-each item loading:1
-Multicollinearity:1
-a problem:1
-the highest variance inﬂation factor:1
-2.68:1
-the suggested cutoff:1
-5.00:1
-Common method variance:1
-Harman’s
-single-factor test:1
-the ﬁrst factor:1
-a majority:1
-the variance:1
+deviation:1
+sd:1
+alpha:1
+rho:1
+diagonal:1
+correlation:1
+cross:1
+loading:1
+multicollinearity:1
+highest:1
+inﬂation:1
+harman’s:1
+single-factor:1
+majority:1
 only 34%:1
-the
-85%:1
-common method variance:1
-not a major problem:1
-several steps:1
+the 85%:1
+steps:1
 prevented:1
-common method bias:1
-First, several open-ended questions:1
+bias:1
+open-ended:1
 mixed:1
-the quanti-
-tative questions:1
+quanti-:1
+tative:1
 give:1
-an occasional mental break:1
-different questions:1
-different scale headers:1
-Appendix:1
+occasional:1
+break:1
+headers:1
 grouped:1
 disrupt:1
-the instrument’s logical ﬂow:1
-The appropriateness:1
-the reﬂective second-order trusting
-belief factor:1
+instrument’s:1
+logical:1
 intercorrelated:1
-moderate to high
-values:1
-0.57:1
-0.81:1
-ﬁrst:1
-order:1
-fac-:1
-tor:1
-the second-order factor:1
-0.80–0.92:1
-0.001:1
-Third, the second-order construct indicators:1
-0.85:1
-DG:1
-0.86:1
-0.91:1
-0.77)—are:1
-reﬂective second-order
-trusting belief factors:1
+80–0:1
+92:1
+001:1
+indicators:1
+91:1
 appropriate:1
-Table IV:1
-the structural model results:1
-H1(a)–(d:1
-Privacy concerns:1
-H2(c:1
-H2(a:1
-H3(a:1
-
-beliefs:1
-both privacy:1
-so H3(b:1
-its predicted outcomes:1
-Use frequency
-inﬂuences:1
-all ﬁve gratiﬁcations:1
 sup-:1
 porting:1
-no support:1
-H6(a)–(e:1
-any gratiﬁ-
-cation:1
-H7(b:1
-H7(c:1
-bridging
-social capital:1
-H7(a:1
 ﬂuences:1
-bridging capital:1
-H8(a)–(c:1
-H9(b:1
 704:1
-PLS STRUCTURAL MODEL RESULTS:1
-uance:1
-No other previously reported
-results:1
 supplement:1
-these ﬁndings:1
-ﬁve supplemental:1
+supplemental:1
 analyses:1
-some researchers:1
-both
-trust:1
-other members:1
-the left side:1
-These variables:1
-second-order factors:1
-the trust:1
-Facebook beliefs:1
-
-factor:1
 passed:1
-all validity tests:1
-a signiﬁcant positive effect:1
-usage frequency:1
-Facebook
-friends:1
+tests:1
 sig-:1
-
-niﬁcant positive effect:1
-0.13:1
-strangers:1
-moderate:1
-the
-effects:1
-the trust × privacy concern:1
-trust × privacy
-risks interactions:1
-a
-signiﬁcant positive interaction effect:1
-trust × privacy concern:1
-0.23:1
-0.01:1
-All previously reported signiﬁcance levels:1
+niﬁcant:1
+01:1
+levels:1
 remain:1
-This
-result:1
 despite:1
-two-way:1
-three-:1
-way interactions:1
-account:1
-a possible interrelationship:1
+interrelationship:1
 employ:1
-more than one behavior:1
+more than one:1
 705:1
-TABLE V
-MEDIATION TEST:1
-their privacy goals:1
-the two-way interac-
-tion:1
-Also,
-the three-way interaction:1
-privacy
-setting use:1
-0.12:1
-All other
-previously reported results:1
+interac-:1
 unchanged:1
-Fourth:1
-a mediation analysis:1
-the grat-
-iﬁcations:1
+fourth:1
 partially:1
-frequency behaviors:1
-usage con-:1
-
-tinuance intentions:1
-Instead:1
-the traditional Baron:1
-Kenny:1
-[77] method:1
-a more statistically advanced approach:1
-testing:1
-mediation:1
-more complex models:1
-multiple me-:1
+statistically:1
+advanced:1
+me-:1
 diators:1
-79:1
-the authors:1
-the total indirect effects:1
-the
-privacy behavior:1
-frequency constructs:1
-the direct effect:1
-constructs:1
-Mediation:1
-the total indirect
-effects:1
-a bootstrapping analysis:1
-the direct effects:1
-partial mediation:1
-full mediation:1
+bootstrapping:1
 signif-:1
-icant indirect effects:1
-Table V:1
-their direct effects:1
-usage continuance:1
-two revised models:1
+icant:1
 treating:1
-the pri-:1
-the constructs:1
-these models:1
 worded:1
 af-:1
-ter the use:1
-the media/technology:1
-This wording:1
-the meaning:1
+media/technology:1
+wording:1
 refers:1
-a particular medium:1
-The revised models:1
-result:1
-a lower variance:1
 41% and:1
 20%:1
-almost equal higher variance:1
+almost:1
 45%:1
 31%:1
-both revised models:1
-lower effects:1
-the hypothe-
-sized model:1
-better
+hypothe-:1
+sized:1
 ﬁtting:1
-the revised model:1
-negative:1
-effect:1
-(β = −0.11:1
-This neg-
-ative relationship:1
+−0:1
+neg-:1
+ative:1
 details:1
-
-continuance intention:1
 decreasing:1
 summary:1
-these revised
-models:1
 follow:1
-the original hypothesized
-model:1
 coincide:1
-the operationalization:1
-the
-variables:1
-particular:1
-the
-revised models:1
-good:1
-overall:1
-the variables:1
-variance:1
-V. DISCUSSION:1
-IMPLICATIONS:1
-LIMITATIONS:1
-
-disclosure:1
-no work:1
-the authors’ knowledge:1
-all three behaviors:1
+operationalization:1
 simultaneously:1
-a continued use
-context:1
 investigates:1
-a full model:1
-OSN privacy be-
-havior antecedents:1
-consequents:1
+havior:1
 integrates:1
-cal-:1
-culus:1
-
-hypotheses:1
-way:1
-a more comprehensive
-view:1
-either
-theory:1
 alone:1
-other OSN:1
-studies:1
-The model:1
-the information privacy:1
-OSN literature:1
-several ways:1
-A. Contribution:1
-A Clear Focus:1
-All Three OSN Privacy
-Behaviors:1
 puts:1
-center stage:1
-three OSN pri-:1
-their nomological network:1
-Decomposing:1
-a
-model’s core constructs:1
-context-speciﬁc factors:1
-theory development:1
-80:1
+center:1
+stage:1
+decomposing:1
+model’s:1
 done:1
 composing:1
-the privacy behavior concept:1
-the three privacy
-behaviors:1
 dominant:1
-OSN privacy behavior research:1
-the current OSN literature:1
-many papers:1
+papers:1
 exam-:1
 ine:1
-only one privacy behavior:1
-privacy setting:1
-Revealing:1
-personal informa-
-tion:1
-users’
-privacy calculus:1
+revealing:1
 varies:1
-different consequents:1
-These differences:1
 under-:1
 stood:1
-only one behavior:1
-a more general
-concept:1
 representing:1
-self-disclosure/information revelation:1
+self-disclosure/information:1
 individually:1
-a
-
-Authorized licensed use:1
 706:1
 nuanced:1
-comprehensive:1
-picture:1
-OSN information
-revelation:1
-Focusing:1
-the individual privacy behaviors:1
-impor-
+impor-:1
 tant:1
 differ:1
-mean:1
-6.03/7.00:1
-the
-average:1
-the friends:1
-a network
-size:1
-approximately 151–250 users:1
-one’s friend list in-
+03/7:1
+approximately 151–250:1
 creases:1
-the less well one:1
 knows:1
-one’s personal
-information:1
 increasingly:1
 unlikely:1
 respon-:1
 dents:1
-all their friends:1
-a strategy:1
-less
-disclosure:1
 called:1
-the lowest common denominator:1
 strat-:1
-in which individuals:1
-their identity:1
+identity:1
 portrayed:1
 acceptable:1
-the lowest
-common denominator:1
-content viewers:1
-only
-benign information:1
+viewers:1
+benign:1
 harm:1
 and/or:1
 offensive:1
-this group:1
 unlike:1
-the lowest
-common denominator strategy:1
-the average user:1
-an even more private strategy:1
-vacy settings:1
-a different approach:1
-privacy
-management:1
-B. Contribution:1
-Testing:1
-the Combined Antecedents:1
-Three
-OSN Privacy Behaviors:1
-the ﬁrst OSN study:1
-the combined effect:1
-perceived privacy
-risk and privacy concerns:1
 far:1
-the most inﬂu-
 ential:1
-a signiﬁcantly negative inﬂuence:1
-a positive
-inﬂuence:1
-Face-
-book:1
 outweigh:1
-a more public approach:1
-infor-
-mation:1
-the premise:1
+premise:1
 behind:1
-the privacy calculus
-model:1
-OSNs:1
-few researchers:1
-enticement beliefs’ impact:1
-all three privacy behav-
-iors:1
-the enticement items:1
-the calculus people:1
-Very little privacy calculus research studies:1
-this manner:1
-an exception:1
-Xu:1
-perceived value:1
-a key ﬁnding:1
-lower pri-:1
-these studies:1
-all competing
-antecedents:1
-The results:1
-
-trust:1
-a user:1
-more/less information:1
-more/fewer friends:1
+osns:1
+exception:1
+’s:1
+value:1
+competing:1
+more/less:1
+more/fewer:1
 engender:1
-less need:1
-control access:1
-gener-
+gener-:1
 ally:1
 believed:1
-opposite forces:1
+opposite:1
+forces:1
 psychologically:1
-a situation:1
-81:1
-a signiﬁcant impact:1
-an honest, caring, and competent OSN
-website:1
-privacy risk and privacy concern:1
-very little in-:1
-
-ﬂuence:1
-the only
+caring:1
 hypothesis:1
-the negative inﬂuence:1
-
-concerns:1
 disclo-:1
 sure:1
-their privacy calculus model:1
-student respondents:1
+student:1
 adept:1
-C. Contribution:1
-Testing Differential Effects:1
-Use
-Behaviors:1
-OSN Gratiﬁcations:1
-a major way:1
-showing:1
-the differen-
-tial effects:1
+differential:1
+differen-:1
 investigating:1
-speciﬁc pri-:1
 largely:1
 neglected:1
-the information
-systems privacy literature:1
 pend:1
-the gratiﬁcation:1
-paper:1
-positive effects:1
-all grati-
-ﬁcations:1
-empirical support:1
-these
-factors:1
-important OSN gratiﬁcations:1
-privacy be-
-haviors:1
-weaker inﬂuences:1
-this paper’s results:1
-a ﬁrst step:1
-their impli-
-cations:1
-the OSN gratiﬁcations:1
-an interactive way:1
-The supple-
-mental analysis:1
-a three-way interaction:1
-the three-
-way interaction:1
-the signiﬁcant negative effect:1
-
-privacy behavior:1
-the main analysis:1
+weaker:1
+step:1
+impli-:1
 interpreted:1
-The three-way interaction:1
-friend
-list:1
 gets:1
-larger:1
-tings:1
-a larger friends list:1
-more pleasurable and routine social networking:1
-true:1
-the “visibility:1
-their informa-
-tion:1
-more restrictive privacy behaviors:1
-this case:1
-more pleasure:1
-increased feelings:1
-au-
+pleasurable:1
+au-:1
 tomaticity:1
-the lowest common denominator approach:1
 assumes:1
-much information:1
 confusing:1
-so many friends:1
-Current ﬁnd-
+ﬁnd-:1
 ings:1
 combine:1
-the lowest common
-denominator strategy:1
-Facebook use:1
-the earlier discussion:1
-the mean privacy behaviors:1
-The two-way interaction:1
-net-
-work size:1
-
-tings:1
-research
-
-Authorized licensed use:1
+earlier:1
 707:1
-claims bonding capital:1
+claims:1
 putting:1
-individu-
-als:1
+individu-:1
 sees:1
-more
-private information:1
-their closer friends:1
 bond-:1
-While Ellison et al:1
-its
-interaction effect:1
-an important nuance:1
-this relation-
+nuance:1
+relation-:1
 ship:1
-More privacy setting use:1
-a negative impact:1
-network
-size:1
-a positive impact:1
 predictions:1
-a more public proﬁle:1
-large:1
-number:1
-new connections:1
-no
-signiﬁcant effects:1
+connections:1
 surprising:1
-their social networking effectiveness:1
 regardless:1
-be-
-haviors:1
-The ﬁnding:1
 directly:1
 mediated:1
-
-use intention:1
 sum:1
 suggesting:1
 juggle:1
-
-privacy setting use:1
-fewer people:1
-less
-personal information:1
-Showing:1
-all three privacy
-behaviors:1
-the full picture:1
-
-privacy behaviors:1
-model parsimony:1
-de-
 sirable:1
-Hirschman:1
-83:1
 89:1
-less parsimony:1
-the complexity:1
-the situation:1
-a larger more explanatory model:1
-D. Research Implications:1
+explanatory:1
 implies:1
 crucial:1
-multiple
-privacy behaviors:1
-other privacy
-models:1
-addresses:1
-one privacy behavior:1
-information disclosure:1
-all three privacy behaviors:1
-a role:1
 some-:1
 times:1
-an interactive role:1
-an OSN privacy calculus model:1
-neither the privacy calculus model:1
-the antecedents-
-privacy concerns-outcomes macromodel:1
-84:1
-privacy
-behavior outcomes:1
-These models:1
-extended:1
+antecedents-:1
+concerns-outcomes:1
+macromodel:1
 clude:1
-both other privacy behaviors:1
 extend:1
-communications privacy management theory:1
-
+communications:1
 picts:1
-the boundaries:1
-per-
-sonal information:1
-the unsupported
-relationships:1
+unsupported:1
 dif-:1
-
-ferent samples:1
-different time periods:1
-Another research implication:1
-more public privacy:1
-a core part:1
-the privacy paradox:1
-some others:1
-this personal interest variable:1
-more privacy calculus
-
-researchers:1
-this variable:1
-their models:1
-certain privacy behaviors:1
-Another important implication:1
-different combinations:1
-certain
-outcomes:1
+ferent:1
+samples:1
+periods:1
+combinations:1
 seems:1
-Kirsch:1
-ﬁnding:1
-that sys-:1
-tems:1
-development stakeholders:1
+kirsch’s:1
+stakeholders:1
 implement:1
-different portfolios:1
 formal:1
 informal:1
 overlapping:1
-plementary mechanisms:1
-only one control:1
-one
-type:1
+plementary:1
+mechanisms:1
 inadequate:1
-multiple con-
 trols:1
-a complex environment:1
-Identifying:1
-the portfolios:1
-control people:1
+identifying:1
 richer:1
 understand-:1
-project objectives:1
-strategy:1
-a larger network size:1
-positively
-inﬂuences enjoyment:1
-other control strategies:1
-ence bonding:1
-other privacy behavior strategies:1
-One way:1
-privacy behavior
+objectives:1
 clusters:1
 cluster:1
-the OSN privacy
-behaviors:1
 explored:1
-other privacy behaviors:1
-wall management:1
-a friend:1
 untag:1
-a photo:1
-fake information:1
-These behaviors:1
+photo:1
+fake:1
 probably:1
-additional effects:1
-E. Practical Implications:1
-the various privacy behaviors:1
-
-awareness:1
-their use:1
 importance:1
 develop-:1
-
 ers:1
-employers:1
-their friend:1
-list:1
 compensate:1
-others’ access:1
-this con-
 tent:1
 accentuates:1
 developers:1
 easier:1
-the time:1
-this survey:1
-its default pri-
-vacy:1
-friends.8 However:1
-some
-actions:1
+default:1
 inconsistent:1
-Since:1
+since:1
 reportedly:1
 impossible:1
 hide:1
-user proﬁles:1
-strangers.9:1
-indi-
 viduals:1
 relying:1
-increased friend lists:1
-OSN providers:1
 controlled:1
 consumers:1
-their personal infor-:1
-mation:1
-Companies:1
 encourage:1
-more
 involvement:1
-more public behaviors:1
-Com-:1
-
 panies:1
-ﬁnd ways:1
 involve:1
-feedback systems:1
 advertisements:1
-
-personalization:1
-new features:1
-coupon:1
 offers:1
-8[Online:1
-https://www.forbes.com/sites/larrymagid/2014/05/22/facebook-:1
-changes:1
-default:1
-users/#29905dcf59ac:1
-9[Online:1
-Available: https://www.theguardian.com/technology/2016/jun/29/facebook-:1
-secret:1
-exposed:1
-Authorized:1
-licensed:1
+com/sites/larrymagid/2014/05/22/facebook-:1
+changes-default-privacy-setting-for-new-users/#29905:1
+dcf:1
+ac:1
+theguardian:1
+com/technology/2016/jun/29/facebook-:1
+privacy-secret-proﬁle-exposed:1
 708:1
-F.:1
-Limitations:1
-Privacy Concern:1
-several limitations:1
-the
-study:1
-the model relationships:1
 correlational:1
 causal:1
 en-:1
-
-joyment inﬂuences privacy behaviors:1
-that privacy behaviors
-inﬂuence trust:1
-prior empirical research:1
+joyment:1
 guided:1
-the development:1
-this paper’s research model:1
-the
-direction:1
-variables:1
-supple-:1
-
-mental models:1
-the original model:1
-many ways:1
-certain privacy
-behaviors:1
-disclosure items:1
-what speciﬁc content:1
-this
-paper:1
-perceptual measures:1
 proven:1
 applicable:1
-actual behaviors:1
-these perceptual measures:1
-the actual
-behaviors:1
-other research works:1
-one example:1
-many, Pavlou:1
-Gefen:1
-87:1
-an online marketplace:1
-
-transaction intentions:1
-actual transaction behavior:1
-correlated:1
-0.68:1
-models:1
-perceived measures:1
-a reasonable set:1
-proxy evidence:1
-
-
-VI:1
-CONCLUSION:1
+marketplace:1
+reasonable:1
+proxy:1
+evidence:1
+conclusion:1
 contributed:1
-information systems research:1
-a nomological network:1
-three
-OSN privacy behaviors:1
-that users’ privacy concerns:1
 affected:1
-their privacy behaviors:1
-More concerns:1
-their friend list:1
-more trust:1
 inﬂuenced:1
-the privacy and use behaviors:1
-key OSN gratiﬁcations:1
-The clear linkage:1
-privacy
-behaviors:1
-these outcomes:1
+linkage:1
 took:1
-privacy research:1
-a new
-direction:1
-both the antecedents:1
-signiﬁcant insights:1
-inﬂuence intentions:1
-its complex nature:1
-Privacy Risk:1
-Very Low Risk:1
-the risk:1
-MySNW.com users:1
-Measurement Items:1
-Very High Risk:1
-the possibility:1
-parties:1
+insights:1
+low:1
 submit:1
-a person:1
-Mysnw.com:1
+person:1
 foresee:1
-Integrity:1
 truthful:1
-its dealings:1
-honest:1
+dealings:1
 keeps:1
-its commitments:1
-Competence:1
-MYSNW.com:1
-competent:1
+commitments:1
 providing:1
 facilitating:1
-a capable and proﬁcient OSN provider:1
-Benevolence:1
+capable:1
+proﬁcient:1
 acts:1
-my best interest:1
-best:1
-need:1
-my well-being:1
-MySNW.com over-:1
+well-being:1
 ride:1
-my concerns:1
-possible risk:1
 vulnerability:1
-my privacy:1
-The greater my interest:1
 suppress:1
-my privacy concerns:1
-my need:1
-my concern:1
-point:1
-Likert:1
-Strongly Agree:1
-MySNW.com account:1
-Privacy Setting Use:1
-5-point Likert:1
-Everyone:1
-
-SNW.com:1
-Friends of Friends:1
-Only Friends:1
-Cus-:1
+5-point:1
+snw:1
+cus-:1
 tomize:1
-speciﬁc:1
-No One:1
-the following types:1
+following:1
 entries:1
 sold:1
-third:1
-Basic information:1
 sex:1
 birthday:1
 hometown:1
 political:1
 submitted:1
 unknown:1
-companies:1
 without:1
-your knowledge:1
-religious views:1
-Contact:1
-information
-
-home/school
-website URL:1
+religious:1
+views:1
+home/school:1
+url:1
 emails:1
-IM screen:1
-phone
-
-name:1
-
+screen:1
+phone:1
 numbers:1
-,
-
-addresses:1
-Relationship information:1
-status:1
-looking:1
-government agencies:1
-APPENDIX
-
-others:1
-709:1
-activities:1
-favorite movies:1
-TV shows:1
+government:1
+709 4:1
+favorite:1
+movies:1
+tv:1
 books:1
 quotes:1
-their last dollar:1
-Educational:1
-university:1
+last:1
+dollar:1
+educational:1
 concentration:1
 class:1
 enough:1
 get:1
 anything:1
 year:1
-high:1
 school:1
-city/town, time period:1
-Work information:1
+city/town:1
+period:1
 employer:1
 position:1
 description:1
-Tagged:1
-Your status:1
-Places:1
+tagged:1
 check:1
-Network Size:1
-8-point scale:1
-2) 51–100:1
+8-point:1
+51–100:1
 101:1
 150:1
 151–250:1
 251–350:1
 351–500:1
 501–1000:1
-Greater:1
 ﬁght:1
-an injustice:1
-Bridging Social Capital:1
+injustice:1
 terested:1
 outside:1
-my town:1
+town:1
 try:1
-new things:1
-Approximately:1
-how many total MySNW.com friends:1
 thinking:1
-Usage Frequency:1
-Talking:1
 curious:1
-Extremely:1
-other places:1
+extremely:1
 improve:1
-my proﬁle:1
-my other postings:1
-my wall:1
-new friends:1
+postings:1
 locate:1
-old friends:1
-the wall/news feed:1
+wall/news:1
+feed:1
 browse:1
-others’ photos:1
-games:1
-nongame apps:1
-social events/parties:1
+nongame:1
+events/parties:1
 attend:1
-a group:1
 send:1
 messages:1
-Usefulness (7-point Likert:1
 improves:1
-my performance:1
-my productivity:1
+productivity:1
 enhances:1
-my effectiveness:1
-Enjoyment:1
-The actual process:1
 pleasant:1
-Bonding Social Capital:1
-a larger community:1
-the bigger picture:1
+bigger:1
 reminds:1
 willing:1
 spend:1
-general
-
-Facebook.com community activities:1
-new people:1
-The use:1
-a habit:1
 natural:1
 think:1
 twice:1
 faced:1
-a particular t:1
 ask:1
-an obvious choice:1
-Continuance Intention:1
-the near future:1
-Prior Experience:1
-More than 5 years:1
+obvious:1
+near:1
+more than 5 years:1
 solve:1
-my problems:1
 long:1
 advice:1
-very important decisions:1
-talking:1
-intimate personal problems:1
+intimate:1
 lonely:1
-Face-:1
-book.com:1
 needed:1
-an emergency loan:1
+emergency:1
+loan:1
 $:1
 500:1
 put:1
-the line:1
-good job references:1
-REFERENCES:1
-[1] M. J. Culnan:1
-P. K. Armstrong:1
-Information privacy concerns:1
-proce-
-dural fairness:1
-impersonal trust:1
-An empirical investigation:1
-” Org:1
-104–115, 1999:1
-[2] C. Cheung:1
-Z. W. Y. Lee:1
-T. K. H. Chan:1
-social
-networking sites:1
-perceived cost:1
-beneﬁts:1
-
-inﬂuence:1
-Internet Res:1
-279–299, 2015:1
-3] H. Krasnova:1
-N. F. Veltri:1
+line:1
+job:1
+proce-:1
+dural:1
+fairness:1
+impersonal:1
+org:1
+104–115 , 1999:1
+cost:1
+279–299 , 2015:1
+veltri:1
 culture:1
-” Bus:1
-Eng., vol:1
+bus:1
 127–135:1
-N. B. Ellison:1
-J. Vitak:1
-R. Gray:1
-Negotiating
-privacy concerns:1
-a social media environment:1
-Privacy Online:1
-S. Trepte:1
-L. Reinecke:1
-Berlin, Germany:1
-Springer-Verlag:1
+vitak:1
+gray:1
+negotiating:1
+trepte:1
+reinecke:1
+berlin:1
+springer-verlag:1
 19–32:1
 710:1
-P. Block:1
-T. Grund:1
-Multidimensional:1
+block:1
+grund:1
+multidimensional:1
 homophily:1
 friendship:1
-net-:1
-” Netw:1
 189–212:1
-S. L. Feld:1
-Social structural determinants:1
+feld:1
+determinants:1
 similarity:1
-associates:1
 797–801:1
 1982:1
-e-commerce
-
-transactions:1
 61–80:1
-8] E. S.-T. Wang:1
-R.-L. Lin:1
-“Perceived quality factors:1
-location-based
-apps:1
-perceived privacy risk:1
-continuous usage intention:1
-36, no.:1
+continuous:1
 2–10:1
-[9] R. Chen:1
-S. K. Sharma:1
-H. R. Rao:1
-Members’ site use continuance:1
-relational capital:1
-Decis:1
+sharma:1
+rao:1
+relational:1
 90:1
 86–98:1
-E.:1
-Ruggiero:1
-“Uses and gratiﬁcations theory:1
-the 21st century:1
-Mass:1
-3–37, 2000:1
-11] P. Palmgreen:1
-L. A. Wenner:1
-Relations:1
-grati-:1
-
-ﬁcations:1
-television news:1
-” Commun:1
-161–192, 1980:1
-P. Palmgreen:1
-Merging uses:1
-expectancy-value theory:1
-537–562, 1984:1
-C. L. Anderson:1
-The digitization:1
-healthcare:1
-Bound-:1
+ruggiero:1
+21 st century:1
+3–37 , 2000:1
+wenner:1
+relations:1
+news:1
+161–192 , 1980:1
+merging:1
+expectancy-value:1
+537–562 , 1984:1
+anderson:1
+digitization:1
+bound-:1
 ary:1
 emotion:1
-consumer:1
-willingness:1
-personal
-health information:1
 469–490:1
-Sep.:1
-[14] H.-T. Chen:1
-W. Chen:1
-Could:1
-The inﬂuence:1
-self-efﬁcacy:1
-privacy protection:1
-Cyberpsychol:1
-Social Netw:1
+sep:1
+protection:1
+cyberpsychol:1
 13–19:1
-Dienlin:1
-M. J. Metzger:1
-
-SNSs:1
-Analyzing:1
+metzger:1
+snss:1
+analyzing:1
 self-withdrawal:1
-a representative
-U.S. sample:1
-21:1
+representative:1
 368–383:1
-[16] T. Dinev:1
-M. Bellotto:1
-V. Russo:1
-I. Serra:1
-C. Colautti:1
-Privacy
-calculus model:1
-Eur:1
+bellotto:1
+russo:1
+serra:1
+colautti:1
+eur:1
 389–402:1
-C. Hallam:1
-G. Zanella:1
-Online self-disclosure:1
-a temporally discounted balance:1
-re-
+hallam:1
+zanella:1
+temporally:1
+discounted:1
+balance:1
 wards:1
 217–227:1
-T. L. James:1
-M. Warkentin:1
-S. E. Collignon:1
-A dual privacy decision
-model:1
+warkentin:1
+collignon:1
+dual:1
 893–908:1
-19] Z. Jiang:1
-C. S. Heng:1
-B. C. F. Choi:1
-Research note:1
-Privacy concerns
-and privacy-protective behavior:1
-synchronous online social interactions:1
-24, no. 3, pp:1
+jiang:1
+heng:1
+choi:1
+note:1
+privacy-protective:1
+synchronous:1
 579–595:1
-[20] F. Kehr:1
-T. Kowatsch:1
-D. Wentzel:1
-E. Fleisch:1
-Blissfully:1
+20:1
+kehr:1
+kowatsch:1
+wentzel:1
+fleisch:1
+blissfully:1
 ignorant:1
-The effects:1
-general privacy concerns:1
-general institutional trust:1
-the privacy calculus:1
+institutional:1
 607–635:1
-21] M. J. Keith:1
-J. S. Babb:1
-C. P. Furner:1
-A. Abdullat:1
-mobile-computing self-efﬁcacy:1
-consumer information disclosure:1
+babb:1
+furner:1
+abdullat:1
+mobile-computing:1
 637–667:1
-[22] M. J. Keith:1
-S. C. Thompson:1
-J. Hale:1
-C. Greer:1
-Infor-
-mation disclosure:1
-mobile devices:1
-
-actual user behavior:1
-J. Hum.-Comput:1
-Studies:1
+thompson:1
+hale:1
+greer:1
+re-examining:1
+-comput:1
 1163:1
 1173:1
-[23] N. Kordzadeh:1
-A. Seiﬁ:1
+seiﬁ:1
 components:1
 724–734:1
-[24] N. Kordzadeh:1
-Communicating:1
-personal health:1
-
-tion:1
-an integration:1
-affective commitment:1
-” J. Assoc:1
+communicating:1
+integration:1
+affective:1
+commitment:1
 45–81:1
-25] H. Krasnova:1
-E. Kolesnikova:1
-15th Amer:1
-Conf:1
-San Francisco:1
-Aug. 6–9, 2009:1
+kolesnikova:1
+th:1
+conf:1
+san:1
+francisco:1
+aug:1
+6–9:1
 1–9:1
-[26] H. Krasnova:1
-S. Spiekermann:1
-K. Koroleva:1
-T. Hildebrand:1
-Online
-social networks:1
+spiekermann:1
+koroleva:1
+hildebrand:1
 109–125:1
-H. Li:1
-R. Sarathy:1
-situational online informa-:1
-tion disclosure:1
-J. Comput:1
-62–71, 2010:1
-[28] H. Li:1
-J. Wu:1
-Y. Gaob:1
-Y. Shi:1
-individuals’ adoption:1
-
-healthcare wearable devices:1
-An empirical study:1
-
-perspective:1
-J. Med:1
-Inform., vol:1
-88:1
-8–17, 2016:1
+sarathy:1
+situational:1
+62–71 , 2010:1
+wu:1
+gaob:1
+wearable:1
+8–17 , 2016:1
 29:1
-C. Morosan:1
-A. DeFranco:1
-Disclosing:1
-hotel
-apps:1
-perspective:1
-J. Hospitality Manage:1
+morosan:1
+defranco:1
+hospitality:1
 120–130:1
-30] I. Pentina:1
-L. Zhang:1
-H. Bata:1
-Y. Chen:1
-privacy paradox:1
-information-sensitive mobile app adoption:1
-A cross-cultural comparison:1
+pentina:1
+bata:1
+information-sensitive:1
+app:1
+cross-cultural:1
 409–419:1
-[31] R. L. Raschke:1
-A. S. Krishen:1
-P. Kachroo:1
-the com-:1
+raschke:1
+krishen:1
+kachroo:1
 ponents:1
-information privacy threats:1
-” J. Inf:1
 227–242:1
-[32] Y. Sun:1
-N. Wang:1
-X.-L. Shen:1
-J. X. Zhang:1
-Location information
-disclosure:1
-Privacy calculus:1
-beneﬁt structure:1
-gender differences:1
+32:1
+sun:1
+location:1
+beneﬁt:1
+structure:1
 278–292:1
-[33] L. Wang:1
-J. Yan:1
-J. Lin:1
-W. Cui:1
-Let:1
-the users:1
+yan:1
+let:1
 tell:1
-the truth:1
-Self-
-disclosure intention:1
-self-disclosure honesty:1
-mobile:1
+truth:1
+self-:1
+honesty:1
 network-:1
 1428–1440:1
 34:1
-T. Wang:1
-T. D. Duong:1
-C. C. Chen:1
-Intention:1
-mobile applications:1
-A privacy calculus perspective:1
+duong:1
 531–542:1
-
-
-[35] H. Xu:1
-H.-H. Teo:1
-B. C. Y. Tan:1
+-h:1
+teo:1
+tan:1
 push:1
 pull:1
-
-technology:1
-” J.
-Manage:1
-26, no. 3, pp:1
 135–173:1
-
-
-[36] H. Xu:1
-X. Luo:1
-J. M. Carroll:1
-M. B. Rosson:1
-The personalization
-privacy paradox:1
-An exploratory study:1
-decision making process:1
-location-aware marketing:1
-” Decis:1
-42–52, 2011:1
-[37] H. Xu:1
-C. Zhang:1
-P. Shi:1
-P. Song:1
-overt vs.
-covert personalization strategy:1
-Man-
-age:1
-Annu:1
-Meeting:1
+luo:1
+carroll:1
+rosson:1
+exploratory:1
+location-aware:1
+42–52 , 2011:1
+song:1
+overt:1
+vs:1
+covert:1
+man-:1
+annu:1
+meeting:1
 1–6:1
-[38] F. Xu:1
-K. Michael:1
-Z. Chen:1
+michael:1
 affecting:1
-social network sites:1
-” Electron:1
-Commerce Res.:1
 151–168:1
-L. Zhao:1
-Y. Lu:1
-S. Gupta:1
-Disclosure intention:1
-location-related
-information:1
-J. Electron:1
-Commerce, vol:1
+zhao:1
+gupta:1
+location-related:1
 53–89:1
-[40] S. E. Chang:1
-A. Y. Liu:1
-W. C. Shen:1
-social networking
-services:1
-LinkedIn:1
-69:1
 207–217:1
-Y. Li:1
-“Empirical studies:1
-online information privacy concerns:1
-Liter-
-ature review:1
-an integrative framework:1
-28, 2011:1
-Y. Feng:1
-W. Xie:1
-“Teens’ concern:1
-social net-
-working sites:1
-An analysis:1
-socialization agents:1
-
-privacy-protecting behaviors:1
-33:1
+liter-:1
+ature:1
+28 , 2011:1
+feng:1
+xie:1
+teens:1
+working:1
+socialization:1
+agents:1
+privacy-protecting:1
 153:1
-162, 2014:1
-[43] Y. Jordaan:1
-G. Van Heerden:1
-“Online privacy-related predictors:1
-Facebook usage intensity:1
+162:1
+jordaan:1
+heerden:1
+privacy-related:1
+intensity:1
 90–96:1
-M. Ng:1
-the consumer adoption:1
-A two-
-country study:1
-youth markets:1
+ng:1
+two-:1
+country:1
+youth:1
+markets:1
 491:1
-500, 2016:1
-[45] D. H. McKnight:1
-V. Choudhury:1
-C. Kacmar:1
-Developing:1
+500 , 2016:1
+choudhury:1
+kacmar:1
+developing:1
 vali-:1
-
-dating trust measures:1
-An integrative typology:1
-334–359, 2002:1
-T. James:1
-Q. Nottingham:1
-B. C. Kim:1
-Determining:1
-the antecedents:1
-digital security practices:1
-the general public dimension:1
-Manage., vol:1
+dating:1
+typology:1
+334–359 , 2002:1
+q:1
+nottingham:1
+dimension:1
 69–89:1
-P.-Y. Chiu:1
-M. K. O. Lee:1
-Online social networks:1
-students:1
-Comput. Hum:1
+chiu:1
 1337:1
 1343:1
-
-
-[48] L. J. Orchard:1
-C. Fullwood:1
-N. Galbraith:1
-N. Morris:1
-Individual differ-
+orchard:1
+fullwood:1
+galbraith:1
+differ-:1
 ences:1
-predictors:1
-19:1
 388–402:1
-49] A. M. Rubin:1
-The uses-and-gratiﬁcations perspective:1
-media effects:1
-Media Effects:1
-J. Bryant:1
-D. Zillmann:1
-Mahwah:1
-NJ:1
-Lawrence Erlbaum Associates:1
+rubin:1
+uses-and-gratiﬁcations:1
+bryant:1
+zillmann:1
+mahwah:1
+nj:1
+lawrence:1
+erlbaum:1
 525–548:1
-[50] A. Quan-Haase:1
-A. L. Young:1
-“Uses:1
-instant messaging:1
-” Bull:1
-Soc., vol:1
+quan-haase:1
+young:1
 350–361:1
-
-
-[51] Z. Wang:1
-J. M. Tchernev:1
-T. Solloway:1
+tchernev:1
+solloway:1
 examination:1
-college students:1
 1829–1839:1
-52] A. N. Joinson:1
-Keeping:1
-Motives:1
-Online Soc:1
-Netw:1
-Florence:1
-Apr. 5–10, 2008:1
+joinson:1
+florence:1
+apr:1
+5–10:1
 1027–1036:1
-[53] E. Katz:1
-H. Haas:1
-M. Gurevitch:1
-the mass media:1
-important things:1
-164–181, 1973:1
-[54] A. Whiting:1
-D. Williams:1
-A uses:1
-” Qual:1
-Market Res:1
+katz:1
+haas:1
+gurevitch:1
+164–181 , 1973:1
 362–369:1
-[55] F. D. Davis:1
-R. P. Bagozzi:1
-P. R. Warshaw:1
-Extrinsic:1
+bagozzi:1
+warshaw:1
 intrinsic:1
-
-motivation:1
-computers:1
-the workplace:1
-” J. Appl:1
-1111–1132, 1992:1
+workplace:1
+1111–1132 , 1992:1
 711:1
-] N. Lankton:1
-H. McKnight:1
-J. Thatcher:1
-The moderating effects:1
+thatcher:1
 restrictiveness:1
-An empirical test:1
-a social networking
-website:1
-IEEE Trans:1
-Eng:1
+trans:1
 654–665:1
-Nov. 2012:1
-K. Quinn:1
-
+nov:1
+quinn:1
 regulation:1
-J. Broadcast:1
-Electron:1
-Media:1
+broadcast:1
 61–86:1
-[58] D. Liu:1
-B. Brown:1
-positive
-feedback:1
-Chinese college students:1
-213–219, 2014:1
-59] A. Nosko:1
-E. Wood:1
-S. Molema:1
-online
-social networking proﬁles:1
+brown:1
+chinese:1
+213–219 , 2014:1
+nosko:1
+wood:1
+molema:1
 406–418:1
-81] D. M. Rousseau:1
-S. B. Sitkin:1
-R. S. Burt:1
-C. Camerer:1
-different:1
-A cross-discipline view:1
-23:1
-393–404, 1998:1
-[82] N. B. Ellison:1
-Connection strategies:1
-Social
-capital implications:1
-Facebook-enabled communication practices:1
-New
-Media Soc:1
-13, no. 6, pp:1
+rousseau:1
+sitkin:1
+burt:1
+camerer:1
+cross-discipline:1
+393–404 , 1998:1
+connection:1
+facebook-enabled:1
 873–892:1
-83] A. O. Hirschman:1
-Three easy ways:1
+easy:1
 complicating:1
-some categories:1
-economic discourse:1
-Econ:1
-74, no.:1
-89–96, 1984:1
-[84] S. Petronio:1
-Boundaries of Privacy: Dialectics of Disclosure:1
-Albany:1
-State Univ:1
-New York Press:1
-85] H. J. Smith:1
-Information privacy research:1
-An
-interdisciplinary review:1
+economic:1
+discourse:1
+econ:1
+89–96 , 1984:1
+petronio:1
+dialectics:1
+albany:1
+univ:1
+press:1
+interdisciplinary:1
 989–1015:1
-[86] L. S. Kirsch:1
-Portfolios:1
-control modes:1
-project management:1
-G. Seidman:1
-Expressing the ‘True Self’ on Facebook:1
+kirsch:1
+modes:1
+seidman:1
+expressing:1
 215–239:1
-367–372, 2014:1
-M. Limayem:1
-S. G. Hirt:1
+367–372 , 2014:1
+limayem:1
+hirt:1
 limits:1
-the pre-
-dictive power:1
-information systems continuance:1
-
-MIS Quart:1
+pre-:1
+dictive:1
+power:1
 705–737:1
-B. Hogan:1
-The presentation:1
-the age:1
-Distin-:1
-
-guishing performances:1
+hogan:1
+presentation:1
+distin-:1
+guishing:1
+performances:1
 exhibitions:1
-Bull:1
-377–386, 2010:1
-63] M. Bartsch:1
-T. Dienlin:1
-your Facebook:1
-analysis:1
-online
-
-privacy literacy:1
+377–386 , 2010:1
+bartsch:1
+literacy:1
 147–154:1
-[64] J. A. Bargh:1
-T. L. Chartrand:1
-The unbearable automaticity:1
-462–479, 1999:1
-65] C. P. Lin:1
-A. Bhattacherjee:1
-online social support:1
-its antecedents:1
-A socio-cognitive model:1
-” Soc:1
+64:1
+bargh:1
+chartrand:1
+unbearable:1
+automaticity:1
+462–479 , 1999:1
+socio-cognitive:1
 724:1
 737:1
-K. Y. Lin:1
-H.-P. Lu:1
-An
-empirical study:1
-network externalities:1
-motivation:1
-1152–1161, 2011:1
-[67] V. Venkatesh:1
-M. Morris:1
-G. B. Davis:1
-F. D. Davis:1
+-p:1
+externalities:1
+1152–1161 , 2011:1
+venkatesh:1
 acceptance:1
-information technology:1
-a uniﬁed view:1
-425–478, 2003:1
-[68] Y. P. Chang:1
-D. H. Zhu:1
-perceived social capital:1
-ﬂow
-experience:1
-users’ continuance intention:1
-social networking
-sites:1
-China:1
-995–1001, 2012:1
-[69] A. Bhattacherjee:1
-G. Premkumar:1
-Understanding changes:1
-belief:1
+uniﬁed:1
+425–478 , 2003:1
+zhu:1
+china:1
+995–1001 , 2012:1
+premkumar:1
+changes:1
 attitude:1
-information technology usage:1
-A theoretical model:1
-longitudinal test:1
-” MIS Quart:1
-229–254, 2004:1
-[70] D. Williams:1
-the ‘net:1
-: Scales:1
-an online:1
-11, no. 2, 2006, Art:1
-71] A. Hardin:1
-J. Chang:1
-M. A. Fuller:1
-“Formative versus reﬂective mea-
-surement:1
-Comment:1
-Marakas:1
-Johnson:1
-Clay:1
+229–254 , 2004:1
+2 , 2006:1
+art:1
+fuller:1
+comment:1
+marakas:1
+johnson:1
+clay:1
 519–534:1
-2008:1
-[72] C. M. Ringle:1
-S. Wende:1
-J.-M. Becker:1
-Boenningstedt:1
-SmartPLS GmbH:1
-http://www.smartpls.com:1
-C.:1
-Nunnally:1
-I. H. Bernstein:1
-Psychometric:1
-Theory:1
-3rd:1
-New
-
-York:1
-McGraw-Hill:1
+ringle:1
+wende:1
+-m:1
+becker:1
+boenningstedt:1
+gmbh:1
+nunnally:1
+bernstein:1
+psychometric:1
+rd:1
+mcgraw-hill:1
 1994:1
-[74] V. E. Vinzi:1
-L. Trinchera:1
-S. Amato:1
-PLS path modeling:1
-foun-
+trinchera:1
+amato:1
+path:1
+modeling:1
+foun-:1
 dations:1
-recent developments:1
-open issues:1
-model assessment:1
-
+developments:1
+open:1
 improvement:1
-Handbook of Partial Least Squares:1
-Concepts:1
-Methods:1
-Applications:1
-V. E. Vinzi:1
-W. W. Chin:1
-J. Henseler:1
-H. Wang:1
-Heidelberg:1
-Germany:1
-Springer:1
+handbook:1
+squares:1
+methods:1
+chin:1
+henseler:1
+heidelberg:1
+springer:1
 47–82:1
-[75] C. Fornell:1
-D. Larcker:1
-Evaluating:1
-structural equation models:1
-
-unobservable variables:1
-measurement error:1
-J. Market:1
-39–50, 1981:1
-S. Menard:1
-Applied Logistic Regression Analysis:1
-University:1
-Series:1
-Quantitative Applications:1
-the Social Science:1
-Thousand Oaks:1
+fornell:1
+larcker:1
+evaluating:1
+equation:1
+unobservable:1
+error:1
+39–50 , 1981:1
+menard:1
+logistic:1
+regression:1
+series:1
+quantitative:1
+science:1
+thousand:1
+oaks:1
 1995:1
-
-
-[77] P. M. Podsakoff:1
-S. B. MacKenzie:1
-J.-Y. Lee:1
-N. P. Podsakoff:1
-Com-
-mon method biases:1
-behavioral research:1
-A critical review:1
-the lit-
+mackenzie:1
+biases:1
+lit-:1
 erature:1
-recommended remedies:1
-,” J. Appl:1
-88, no.:1
+recommended:1
+remedies:1
 879–903:1
 2003:1
 78:1
-R. M. Baron:1
-D. A. Kenny:1
-The moderator-mediator variable distinc-:1
-social psychological research:1
-Conceptual, strategic, and statistical
+moderator-mediator:1
+distinc-:1
+conceptual:1
+statistical:1
 considerations:1
-J. Pers:1
 1173–1182:1
 1986:1
-[79] A. Vance:1
-D. Eggett:1
-Increasing:1
+vance:1
+eggett:1
 accountability:1
-user-interface design artifacts:1
-A new approach:1
+user-interface:1
+design:1
+artifacts:1
 addressing:1
-the problem:1
-access-policy violations:1
-345–366, 2015:1
-[80] W. F. Hong:1
-K. Y. Chan:1
-J. K. L. Thong:1
-L C. Chasalow:1
-G. Dhillon:1
-A
-framework:1
-context-speciﬁc:1
+access-policy:1
+violations:1
+345–366 , 2015:1
+hong:1
+thong:1
+chasalow:1
+dhillon:1
 theorizing:1
-information
-systems research:1
-Inform:1
 111–136:1
-[87] P. Pavlou:1
-D. Gefen:1
-Psychological contract violation:1
-online mar-:1
+contract:1
+violation:1
+mar-:1
 ketplaces:1
 consequences:1
-moderating role:1
 372–399:1
 2005:1
 busi-:1
-ness administration:1
-Arizona State University:1
-Tempe:1
+administration:1
+arizona:1
+tempe:1
 2000:1
 started:1
-her career:1
-public accounting:1
-accounting and ﬁnance industry posi-
-tions:1
+career:1
+ﬁnance:1
+posi-:1
 currently:1
-the Chair of the Division of
-Accountancy:1
-Legal Environment:1
-Brad D. Smith:1
-
-Schools:1
-Business:1
-Hunting-
-ton:1
-WV:1
+chair:1
+brad:1
+business:1
+hunting-:1
 authored:1
-coauthored pa-:1
-
-pers:1
+coauthored:1
+pa-:1
 highly:1
 recognized:1
 peer-:1
 reviewed:1
 journals:1
-Contemporary Account-
-:1
-ing Research, Information Systems Research:1
-the Journal of Strategic Infor-:1
-
-mation Systems:1
-the
-Journal of Management Information Systems:1
-the Journal of Information:1
-the Journal of the Association for Information Systems:1
-Her current
-research interests:1
-technology trust:1
-corporate/IT governance:1
-Dr. Lankton:1
-the review board:1
-the Journal of the Association for
-
-Information Systems:1
-Harrison McKnight:1
-
-management information systems:1
-the
-University of Minnesota:1
-Minneapolis:1
-MN:1
-a four year stint:1
-Florida State University:1
+contemporary:1
+account-:1
+corporate/it:1
+governance:1
+dr:1
+board:1
+minnesota:1
+minneapolis:1
+mn:1
+four year:1
+stint:1
+florida:1
 joined:1
 2001:1
 marily:1
 conducts:1
-behavioral ﬁeld research:1
-technology:1
-economy trust:1
-ini-
-tial trust:1
-trust building:1
-trust change:1
-trust
+ﬁeld:1
+economy:1
+ini-:1
+change:1
 repair:1
-expectation disconﬁrmation theory:1
-tech-
-nical employee retention:1
-an Asso-
-ciate Editor:1
-Information and Management:1
-the Journal
-of Trust Research:1
-his work:1
-the
-Academy of Management Review, Information Systems Research:1
-Journal:1
-the Association for Information Systems:1
-Journal of:1
-Management Informa-
-tion Systems:1
-the
-Journal of Strategic Information Systems:1
-John F. Tripp:1
-informa-
-tion technology management:1
-Michigan State
-University:1
-an Assistant Professor:1
-Baylor University,:1
-Waco, TX:1
-Be-:1
+expectation:1
+disconﬁrmation:1
+tech-:1
+nical:1
+employee:1
+retention:1
+asso-:1
+ciate:1
+academy:1
+assistant:1
+professor:1
 fore:1
 beginning:1
-his Ph.D. degree:1
-17 years:1
-industry:1
-a Software Developer:1
-
-Project Manager:1
-the IT Director:1
+more than 17 years:1
+software:1
+developer:1
+manager:1
+director:1
 forthcoming:1
-the Journal of the
-Association for Information Systems:1
-Computers:1
-
-Human Behavior:1
-Journal of Computer Information
-Systems:1
-e-Business Management:1
-the Journal of
-Management Systems:1
-His research:1
-the proceedings:1
-multiple
+computer:1
+e-business:1
+proceedings:1
 conferences:1
-the International Conference on Information Systems:1
-the Hawaii International Conference on Systems Sciences:1
-the European Con-
+hawaii:1
+sciences:1
+european:1
 ference:1
-the Americas Conference on Information
-Systems:1
+americas:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:40
-Privacy:4
-Soc:4
+Privacy:330
+SOC:8

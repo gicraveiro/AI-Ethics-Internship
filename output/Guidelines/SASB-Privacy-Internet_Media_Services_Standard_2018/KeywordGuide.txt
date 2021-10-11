@@ -8,7 +8,6 @@ data security:13
 encryption:2
 data protection:2
 consent:5
-The American Institute of Certified Public Accountants’ (AICPA) Service Organization Controls (SOC) for Cybersecurity:1
 American Institute of Certified Public Accountants:1
 AICPA:1
 SOC:15

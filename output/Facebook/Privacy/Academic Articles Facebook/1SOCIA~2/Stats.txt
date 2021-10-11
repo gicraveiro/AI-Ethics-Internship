@@ -3,6170 +3,4139 @@
 
 
 With stop word removal 
-Size of original corpus: 39012 
-Size of filtered corpus: 13541
-Size of Lexicon: 6665
+Size of original corpus: 33461 
+Size of filtered corpus: 16697
+Size of Lexicon: 4653
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:236
-See:132
-'s:106
-Cal:90
-note:74
-Terms:70
-App:67
-v.:66
-Service:65
-1:55
-2016:52
-Id.:46
-4th:46
-data:44
+facebook:436
+'s:269
+data:252
+facial:182
+privacy:179
+recognition:178
+see:163
+cal:152
+california:151
+terms:146
+users:127
+social:113
+service:104
+policy:104
+technology:102
+information:97
+biometric:95
+3:90
+law:88
+note:85
+courts:81
+company:81
+user:79
+https://perma:74
+4:72
+app:72
+supra:68
+consumer:67
+1:66
+use:65
+unconscionability:65
+consumers:63
+th:61
+contract:61
+2:52
+federal:51
+https://www:51
+collection:47
+public:46
+state:46
+may:45
 would:43
-users:43
-use:42
-privacy:40
-supra:40
-California:39
-3d:39
+court:41
+network:38
+2016:38
+inc:38
+consent:37
+f:36
+issue:35
+nightmare:34
+6:34
+unconscionable:34
+whether:33
+right:33
+70:32
+communications:32
+fact:32
+http://www:32
 accessed:32
-may:32
-FACEBOOK:31
-whether:31
-could:30
-see:29
-2015:29
-without:29
-2017:29
-2:28
-generally:28
-information:28
-unconscionable:28
-(Cal:28
-recognition:27
-contract:27
-3:26
-10:26
-facial:26
-consumers:25
- supra:24
-Data:23
-technology:23
-well:23
- users:23
+could:31
+without:31
+7:30
+generally:30
+9:29
+5:29
+tag:29
+journal:28
+practices:28
+even:27
+companies:27
+procedural:26
+g:26
+vol:25
+adhesion:24
+2015:24
+contracts:24
+quoting:24
+read:24
+rights:23
+pdf:23
+10:23
 like:22
-quoting:22
-read:22
-right:22
-70:21
-even:20
-4:20
-U.S.:20
-used:20
-n't:20
-e.g.:20
-collection:20
-user:20
-biometric:19
-using:19
+center:22
+apr:22
+n't:22
+government:22
+photos:22
+meaningful:22
+b:21
+individual:21
+used:21
+co:21
+although:21
+clause:21
+time:21
+8:20
+legal:20
+personal:20
+private:20
+however:20
+using:20
+internet:20
+google:20
+photo:20
+lack:19
+media:19
+database:19
+simply:19
 find:19
-Policy:19
- Inc.:19
-However:18
-Data Policy:18
-Google:17
- consumers:17
-simply:17
-
-
-Issue:17
-consent:17
-company:17
-7:16
+code:19
+available:18
+constitution:18
+security:18
+illinois:18
+business:18
+account:18
+party:18
+supp:18
+explicitly:17
+upon:17
+agreements:17
+choice:17
+new:17
+18:17
+person:17
+included:17
+w:16
+standard:16
+interest:16
+hearing:16
+due:16
+best:16
 citing:16
- Facebook:16
-the  company:16
-included:16
-upon:16
-2018:15
-available:15
-consumer:15
-6:15
-2012:15
-Although:15
-15:15
-fact:15
-unconscionability:15
-SOCIAL NETWORK:14
- data:14
-social:14
+html:16
+district:16
+litigation:16
+access:16
+instagram:16
+content:15
+agreement:15
+article:15
+first:15
+consideration:15
+policies:15
+substantive:15
+commercial:15
+need:15
+12:15
+suggestions:15
+13:15
+services:15
+people:15
+reasonable:15
+p:14
+second:14
+surprise:14
+states:14
+laws:14
+term:14
 stated:14
-8:14
-11:14
+2017:14
+control:14
+order:14
 2013:14
-Jan.:14
- Id.:14
-the  fact:13
+jan:14
+alternative:14
+prevent:13
+license:13
+third:13
+intrusion:13
 include:13
+example:13
+act:13
+share:13
 collected:13
-12:13
-9:13
-13:13
-California courts:13
-public:13
-law:12
-18:12
+way:13
+networking:13
+tech:13
+lynch:13
+help:13
+harm:13
+section:13
+well:13
+finding:13
+template:13
+platform:13
+feature:13
+notice:13
+opperman:13
+135:12
+risk:12
 collecting:12
 respect:12
-2011:12
-Privacy:12
-Apr.:12
-need:12
-opt:12
-California  courts:12
+identifiers:12
+subject:12
+real:12
+2012:12
+every:12
+judiciary:12
+11:12
+must:12
+failure:12
+statement:12
+create:12
+based:12
 still:12
+205:12
+injury:12
+brinckerhoff:11
 beyond:11
+iii:11
+ct:11
 106:11
-share:11
-5:11
+number:11
+parties:11
+essentially:11
+civil:11
 protect:11
+necessary:11
+15:11
 're:11
 provides:11
-26:11
+sensitive:11
+case:11
 might:11
-
-
-FEDERAL COMMUNICATIONS LAW JOURNAL
-
-Vol:11
-based:11
-access:11
+28:11
+friends:11
 actually:11
-established:11
-must:11
- Data  Policy:11
-205:11
-'S:10
-TERMS:10
-135:10
-OR SOCIAL NIGHTMARE:10
-state:10
-license:10
-Illinois:10
-Vol:10
-May:10
-control:10
+support:11
+inalienable:11
+standing:11
+spokeo:11
+frightening:10
+foray:10
+forever:10
+mention:10
+regarding:10
+june:10
+certain:10
+provisions:10
+agree:10
+enforcement:10
+concern:10
+subcomm:10
 required:10
 away:10
-19:10
-courts:10
-create:10
-individual:10
-change:10
- the  company:10
+good:10
+northern:10
+argument:10
+24:10
+feb:10
+privacy policy:10
+claim:10
+look:10
 meaning:10
-explicitly:10
-finding:10
-Facebook's  :10
-Data  Policy:10
-government:10
-105:9
-FACIAL:9
+element:10
+bargaining:10
+power:10
+cir:10
+supreme:10
+concrete:10
+judge:10
+haunting:9
+2018:9
+current:9
+especially:9
+many:9
+129:9
+seclusion:9
+system:9
+means:9
+life:9
+electronic:9
 within:9
-best:9
-essentially:9
-business:9
-Lynch:9
+stored:9
+place:9
+sites:9
+ftc:9
+say:9
+last:9
 collect:9
-49:9
-Feb.:9
-order:9
-28:9
-states:9
-facial recognition:9
-tag:9
-SOCIAL:9
-June:9
+often:9
+surveillance:9
+forum:9
+several:9
+2011:9
+possible:9
+26:9
+two:9
+78:9
+market:9
+application:9
+research:9
+change:9
+profile:9
 found:9
-terms:9
-procedural  unconscionability:9
-time:9
-F.  Supp:9
-2d:9
-F.3d:9
-notice:9
-support:9
-23:8
-especially:8
-commercial:8
-July:8
-stored:8
-Facial:8
-less:8
-Hearing:8
-say:8
-private:8
-due:8
-last:8
-its users:8
+civ:9
+graham:9
+form:9
+standardized:9
+explicit:9
+americans:9
+donato:9
+patent:9
+comm:8
+17:8
+know:8
+process:8
+rather:8
+concerns:8
+request:8
+us:8
+address:8
+images:8
+selling:8
+ability:8
+result:8
+advantage:8
+clauses:8
+others:8
+rev:8
+part:8
+prospective:8
+sharing:8
 turn:8
-necessary:8
-often:8
+16:8
+legislation:8
+49:8
+someone:8
+aug:8
 provide:8
-regarding:8
-look:8
-a user:8
+19:8
+legislature:8
+despite:8
+online:8
+set:8
+constitutional:8
+customers:8
+accuracy:8
+51:8
+study:8
+tagging:8
+°:8
 486:8
- California  courts:8
+stirlen:8
+mproduce:8
+arbitration:8
+1670:8
+daily:8
+at&t:8
 noting:8
-Facial Recognition Technology:7
-facebook:7
-B.:7
-TECHNOLOGY:7
-Law:7
-interest:7
-122:7
-129:7
-personal:7
+long:8
+fbi:8
+23:7
+rosie:7
+105:7
+provided:7
+scope:7
+brief:7
+112:7
+doctrine:7
+mutuality:7
+single:7
+matter:7
+identification:7
+trade:7
+commission:7
+accountability:7
 discussed:7
-example:7
-way:7
-networking:7
-companies:7
-MacLean:7
-Internet:7
-sharing:7
-17:7
-14:7
+reach:7
+purposes:7
+requires:7
+practice:7
+legislative:7
+merely:7
+free:7
+uses:7
+maclean:7
+much:7
+store:7
+cc/6:7
 presented:7
-someone:7
-16:7
-20:7
-N.D.  Cal:7
-27:7
+sell:7
+opt-out:7
+future:7
+opportunity:7
+22:7
 noted:7
-set:7
+elements:7
+30:7
 identify:7
-far:7
-account:7
-Nov.:7
-statement:7
-Franken:7
-51:7
-Recognition:7
+accordingly:7
+algorithm:7
+retention:7
+84:7
+difficult:7
+point:7
+facefirst:7
+back:7
+nov:7
+times:7
+franken:7
+suggest:7
+tags:7
+figure:7
+absence:7
+favorable:7
 211:7
 showing:7
-Code:7
-1670.5:7
-clause:7
-91:7
-reasonable:7
+provision:7
+given:7
+contractual:7
 automatically:7
-lack:7
-its  users:7
-Americans:7
-mention:7
-standing:7
-Opperman:7
-Social Network:6
-Social Nightmare:6
-How California Courts Can
-Prevent Facebook's Frightening Foray:6
-prevent:6
-facial recognition technology:6
-RECOGNITION:6
-FACIAL RECOGNITION:6
-UNCONSCIONABILITY:6
-2014:6
-know:6
-CALIFORNIA:6
-DATA POLICY:6
-security:6
-ELECTRONIC:6
-selling:6
-requires:6
-term:6
-first:6
+inclusion:7
+digital:7
+settings:7
+family:7
+yet:7
+faith:7
+national:7
+st:6
+conditions:6
+search:6
+implications:6
+constitute:6
+manner:6
+option:6
+biometrics:6
+identity:6
+discussion:6
+gov't:6
+circumstances:6
+protection:6
+legally:6
+written:6
+broad:6
+technologies:6
 offering:6
-merely:6
-much:6
-leave:6
-us:6
-sell:6
-although:6
+common:6
+world:6
+overreaching:6
+assent:6
+innovation:6
+action:6
+needs:6
+20:6
 including:6
-harm:6
-24:6
-policy:6
+opt-in:6
 bring:6
-
-unconscionability:6
-procedural:6
-30:6
+demonstrate:6
+holding:6
+explanation:6
 recognize:6
-Accordingly:6
-31:6
-78:6
+far:6
+photograph:6
+unique:6
+features:6
+sept:6
+less:6
+knowledge:6
+identified:6
 citation:6
 omitted:6
 recognized:6
-back:6
-provided:6
+another:6
+significant:6
+chairman:6
+manually:6
 2010:6
-difficult:6
-Even:6
-Chairman:6
-photos:6
 make:6
-suggest:6
-feature:6
-NETWORK:6
-Civ:6
+summary:6
+large:6
+file:6
+particular:6
+entirety:6
+different:6
+next:6
+superior:6
+armendariz:6
 containing:6
+plaintiff:6
 offer:6
-adhesion:6
+94:6
+bargain:6
 seeking:6
-given:6
+91:6
 said:6
-MProduce Co.:6
-agree:6
+established:6
+restatement:6
+conduct:6
+prior:6
 establish:6
-long:6
+neither:6
+122:6
 failed:6
+news:6
 subsequently:6
-Yet:6
-practices:6
+question:6
+site:6
 something:6
-accepted:6
-Stirlen:6
-inalienable:6
-injury:6
+justification:6
+interests:6
+advertising:6
 filed:6
-Judge:6
- Opperman:6
-Technology:5
-A.:5
-everyone:5
-SERVICE:5
-120:5
-133:5
-PUBLIC:5
-137:5
-regulating:5
-Information:5
-means:5
-PRIVACY  INFORMATION  CENTER:5
+exculpatory:6
+yelp:6
+21:5
+r:5
+guide:5
+background:5
+fails:5
+university:5
+allocation:5
+legitimate:5
+tort:5
+risks:5
+associated:5
+prints:5
+general:5
+office:5
 potentially:5
- facial  recognition  technology:5
 protecting:5
-federal:5
-place:5
- others:5
-click:5
-
-consumers:5
-SOCIAL NIGHTMARE:5
-media:5
-overreaching:5
-assent:5
+purpose:5
+agencies:5
+distribution:5
+applications:5
+65:5
+understand:5
+williams:5
+php:5
+intrusive:5
+invasion:5
+foundation:5
+problem:5
+arguably:5
+basis:5
 signing:5
-needs:5
-store:5
+rules:5
+evidence:5
+dec:5
+14:5
+currently:5
+white:5
 get:5
-Aug.:5
+history:5
+judicial:5
+senate:5
 necessarily:5
- Service:5
-Section:5
-et al:5
 alleged:5
-clauses:5
-22:5
-demonstrate:5
-holding:5
-California  law:5
-standard:5
-the  scope:5
+45:5
+analysis:5
+pursuant:5
+faces:5
+concept:5
+31:5
 called:5
-algorithm:5
+usa:5
+either:5
 become:5
-facial  recognition  technology:5
-person:5
-point:5
+businesses:5
+67:5
+group:5
 allows:5
-a photo:5
-
-information:5
-Sen.:5
-the Law:5
+picture:5
+uploaded:5
 put:5
+pictures:5
 tagged:5
-Moreover:5
+software:5
+moreover:5
+19 , 2016:5
+making:5
 nothing:5
-the
-company:5
-meaningful  choice:5
-Ct:5
-the  contract:5
-Inc.:5
-2001:5
+precise:5
+unreasonably:5
+well-established:5
+cmt:5
+93:5
 offered:5
-N.D. Cal:5
-CAL:5
+degree:5
+extent:5
 enforce:5
- terms:5
- courts:5
+existence:5
 89:5
-94:5
-2002:5
-Armendariz:5
-despite:5
+adhesive:5
 present:5
-services:5
-Consumers:5
-the  terms:5
-every:5
+significantly:5
+benefit:5
+important:5
+ting:5
 solely:5
-neither:5
-Litigation:5
-Instagram:5
-claim:5
-the contract:5
-Due:5
-Article  :5
-surveillance:5
-rather:5
+considering:5
+full:5
+clear:5
+133:5
+pew:5
+136:5
+reason:5
+160:5
+nature:5
+expectation:5
+property:5
+bank:5
+discover:5
+residents:5
+amendment:5
+requests:5
 shared:5
- consent:5
 particularized:5
-S.  Ct:5
-Spokeo:5
-intrusion:5
-seclusion:5
-Patent:5
-Haunting
-Consumer Privacy Rights Forever:4
-Federal Communications Law Journal:4
-156:4
+motion:5
+downloaded:4
+heinonline:4
+fed:4
 generated:4
-III:4
-CONSUMERS:4
- SERVICE:4
-STANDARD:4
-University:4
+capabilities:4
+116:4
+satisfy:4
+2014:4
+imposed:4
+oppressive:4
+unreasonable:4
+unexpected:4
+multiple:4
+positioned:4
+privacy-invasive:4
 152:4
- companies:4
-associated:4
 stems:4
-"3:4
-LEXIS:4
+regulating:4
+united:4
+lexis:4
 establishing:4
-concerns:4
-Request:4
-Federal:4
-the collection:4
-provisions:4
-consumer  privacy:4
-subject:4
-legally:4
+report:4
+health:4
+specific:4
 identifier:4
 2008:4
 described:4
-distribution:4
 operating:4
-legal:4
-positioned:4
-Oct.:4
-FTC:4
-free:4
-Agree:4
-Privacy Tech:4
+oct:4
+click:4
+certainly:4
+208:4
+q:4
+protections:4
+connected:4
+effect:4
+cong:4
 enough:4
+69:4
 alone:4
-arguably:4
-basis:4
-innovation:4
+community:4
+ever:4
 argue:4
-Dec.:4
+higginbotham:4
 accept:4
-good:4
-Congress:4
-court:4
-
-example:4
-uses:4
+86:4
+products:4
+congress:4
+strong:4
+existing:4
+claims:4
+require:4
 allow:4
-written:4
+opposition:4
+letter:4
 response:4
-https://www.facebook.com/terms.php:4
-Case:4
-Additionally:4
-Mar.:4
-online:4
-45:4
-SOCIAL NETWORK  OR SOCIAL NIGHTMARE:4
+economy:4
+com/terms:4
+additionally:4
+sound:4
+bill:4
 sufficiently:4
-substantive  unconscionability:4
+pro-consumer:4
 adequately:4
+additional:4
+3 , 2017:4
+27:4
+amount:4
 illustrate:4
-understand:4
-t]here:4
+32:4
 compare:4
-the  database:4
+captured:4
 outside:4
-unique:4
-features:4
-35:4
 29:4
-2006:4
-Sept.:4
-NIGHTMARE:4
-developed:4
-identified:4
+113:4
+htm:4
+three:4
+raises:4
 upload:4
+customer:4
+distance:4
+nytimes:4
+stores:4
+taking:4
+similar:4
+street:4
+biggest:4
+objectively:4
+50:4
+yahoo:4
+accounts:4
+data breach:4
+consequences:4
 involved:4
-Users:4
-currently:4
-uploaded:4
-manually:4
-tag  suggestions:4
-people:4
+web:4
+comparison:4
+62:4
+according:4
 show:4
-tagging:4
-57:4
-file:4
-Figure:4
+tool:4
 refers:4
-67:4
-Unconscionability:4
-part:4
-unreasonably:4
-the  party:4
+view:4
+since:4
+reports:4
+issues:4
+level:4
+cases:4
+overly:4
+harsh:4
+75:4
 substantively:4
+conclusion:4
+corp:4
+dean:4
+witter:4
+reynolds:4
+83:4
+114:4
+defense:4
 determining:4
-making:4
+one-sided:4
 intended:4
+seemingly:4
 focused:4
+specifically:4
+valid:4
 emphasis:4
 added:4
+determination:4
 consider:4
 determine:4
 held:4
-constitute:4
+contacts:4
 appear:4
-standardized:4
-84:4
-297:4
-298:4
-conduct:4
-Co.:4
-daily:4
+richard:4
+sybert:4
+society:4
+principles:4
+opt:4
 widely:4
+substantial:4
+therefore:4
+4 , 2017:4
 consenting:4
 wholly:4
-prior:4
-surprise:4
-Ting:4
 stop:4
 stating:4
-2007:4
+sufficient:4
+waiver:4
 offers:4
-Lack:4
+obtained:4
+publicly:4
 troubling:4
+guidelines:4
+deletion:4
 keep:4
+120:4
 consented:4
 already:4
+created:4
 deleted:4
-S.  Subcomm:4
-Biometric:4
+plaintiffs:4
 alleging:4
-sign:4
-opted:4
-later:4
-Considering:4
+manager:4
+billion-plus:4
+sign-up:4
+platforms:4
 true:4
-"'3:4
- facial recognition:4
-136:4
-stay:4
+137:4
+mere:4
+citizens:4
 course:4
+grandparents:4
 simple:4
+similarly:4
 reads:4
- Terms:4
-160:4
- technology:4
-large:4
+things:4
+liability:4
+accepted:4
+actual:4
+bruni:4
+1291:4
 default:4
-act:4
-290:4
+lawsuit:4
+participants:4
+2001:4
 relatively:4
 behind:4
-pro:4
-the  government:4
+highly:4
+const:4
+art:4
 limit:4
+schneier:4
 changes:4
 maintain:4
-FBI:4
+go:4
+sophos:4
 231:4
-mutuality:4
-Robins:4
-3:15-CV-03747-JD:4
+robins:4
+3:15-cv-03747-jd:4
+dismiss:4
+litig:4
+ways:4
+always:4
 cid:9:3
-Rosie Brinckerhoff:3
-70(1:3
-consumer privacy rights:3
+105-156:3
 obtain:3
 107:3
-W:3
-112:3
-C.:3
-116:3
-DATA:3
-POLICY:3
-George:3
-Washington:3
+technical:3
+118:3
+george:3
+washington:3
+science:3
+everyone:3
+questions:3
+writing:3
 providing:3
- FACEBOOK:3
+extensive:3
+119:3
+omitting:3
+contain:3
 142:3
-IV:3
+iv:3
+strike:3
 143:3
+155:3
+150:3
 introduced:3
 storing:3
- use:3
-Rather:3
-Security:3
-INC:3
- USERS:3
-Investigation:3
- Injunction:3
-address:3
+fundamental:3
+popular:3
+investigation:3
+injunction:3
+relief:3
+https://epic:3
+overview:3
+33:3
 restrict:3
- information:3
-reach:3
-certain:3
-purpose:3
-
-
-FEDERAL COMMUNICATIONS LA W JOURNAL:3
-practice:3
-"8:3
-broad:3
+photographs:3
+protected:3
+limited:3
+apply:3
+situations:3
+authorized:3
+representative:3
+infra:3
+40:3
+various:3
+approach:3
+framework:3
 regulate:3
 increasingly:3
-real:3
-advantage:3
+unsuspecting:3
+cf:3
+charles:3
+waivers:3
+cc/b:3
+actions:3
 largely:3
 clearly:3
 disclose:3
-certainly:3
-43:3
-208:3
-uploads:3
 http:3
-search:3
-connected:3
+cc/4:3
+home:3
+device:3
+loss:3
+liberties:3
+testimony:3
+jennifer:3
+frontier:3
 regulation:3
+critical:3
+says:3
 assuming:3
-our data:3
-self:3
+binding:3
 profiting:3
+leave:3
 choose:3
+growing:3
+technological:3
 unlikely:3
-action:3
 taken:3
 continues:3
+anything:3
 everything:3
-
-companies:3
+profit:3
+regulations:3
 enacted:3
 sorts:3
 otherwise:3
+cc/e:3
 revised:3
-Stacey Higginbotham:3
+stacey:3
+http://fortune:3
+onerous:3
+download:3
+magazine:3
+fortune:3
+weinstein:3
+acknowledging:3
 turns:3
- legislation:3
-help:3
+post:3
 across:3
 fundamentally:3
-strong:3
-claims:3
+tools:3
+lawjournal:3
+intervention:3
+san:3
+mateo:3
+county:3
 directly:3
+industry:3
 collects:3
- biometric  data:3
-Despite:3
-possible:3
- failure:3
+storage:3
+race:3
+fcc:3
+bureau:3
+american:3
+breach:3
+section 15:3
+advertisements:3
+apple:3
 exclusively:3
-the  state  constitution:3
-California
-courts:3
-facial
-recognition:3
-doctrine:3
-analysis:3
-fails:3
-a  finding:3
-constitutional:3
-25:3
+press:3
+proper:3
+pro-privacy:3
+non-consensual:3
+position:3
+effort:3
 includes:3
 govern:3
-faces:3
-images:3
+regard:3
+individuals:3
+computer:3
+systems:3
+enormous:3
+records:3
+camera:3
+image:3
+learning:3
+points:3
+top:3
+edge:3
+35:3
 compared:3
-USA:3
-SOCIAL  :3
-either:3
-enforcement:3
+2003:3
+2006:3
+inquiry:3
+60:3
+john:3
+36:3
 37:3
-its use:3
+growth:3
+increased:3
+widespread:3
 able:3
-42:3
-retention:3
+transparency:3
+shift:3
 41:3
-identity:3
-customers:3
-reaching:3
-app:3
+retailers:3
+46:3
 enables:3
-photograph:3
-application:3
-captured:3
-distance:3
- facial  recognition:3
+discern:3
+draws:3
 47:3
-taking:3
-Perhaps:3
-objectively:3
+founder:3
+friend:3
+perhaps:3
 concluded:3
-i]f:3
-50:3
-another:3
-significant:3
+implication:3
 presents:3
+serious:3
 resulting:3
-Privacy  Tech:3
+numbers:3
+password:3
+card:3
 207:3
 together:3
-pictures:3
-common:3
-°:3
+58:3
+step:3
+mentioned:3
 elect:3
+suggestion:3
 64:3
-w]hen:3
-a  photo:3
+hen:3
+56:3
+57:3
 61:3
-tool:3
-particular:3
 illustrates:3
-Facial Recognition:3
-meaningful:3
-since:3
-the data:3
- photos:3
-years:3
-precise:3
-favorable:3
-overly:3
-harsh:3
-a  contract:3
-substantive:3
-the term:3
+threshold:3
+237:3
+accessing:3
+acting:3
+unprecedented:3
+utilization:3
+definition:3
+oppression:3
+unequal:3
+results:3
+test:3
 76:3
+produce:3
 350:3
-F.2d:3
-75:3
-83:3
-114:3
-86:3
+449:3
+227:3
 acknowledged:3
 made:3
-sided:3
-agreements:3
-82:3
-Specifically:3
-cmt:3
-Graham:3
+77:3
+79:3
+context:3
 1981:3
-93:3
-Loewen:3
+expectations:3
+loewen:3
 contrary:3
+dominant:3
+continued:3
+tendency:3
+line:3
+reasoning:3
 2004:3
-the extent:3
+negotiation:3
 hidden:3
-the  existence:3
 respectively:3
- Data Policy:3
-a  party:3
 90:3
-the terms:3
+take-it-or-leave-it:3
+92:3
+advantages:3
+efficiency:3
 concomitant:3
 sophisticated:3
-113:3
-CONTRACTS:3
+mass-consumption:3
+city:3
+2002:3
+suggested:3
+farnsworth:3
 286:3
-adhesive:3
+banking:3
+297:3
+benefits:3
+98:3
 unless:3
-legislative:3
 render:3
 100:3
-Second:3
-bargain:3
-many:3
+0:3
 reading:3
 clicking:3
 188:3
 hardly:3
+lives:3
+cost:3
+goods:3
+whose:3
+sheer:3
 costs:3
- contracts:3
-97:3
-98:3
-RESTATEMENT:3
-(SECOND:3
-the  opportunity:3
 forego:3
 altogether:3
-bargaining:3
-the  case:3
-AT&T:3
+inequality:3
+csa:3
+mailing:3
 updated:3
 though:3
-issue:3
+2007:3
 319:3
-its terms:3
-"'1:3
 negotiate:3
-power:3
-publicly:3
-guidelines:3
+controlling:3
+sign:3
+schedule:3
+permanent:3
+destruction:3
+reserves:3
 previously:3
+regardless:3
 deletes:3
 truly:3
 easily:3
-created:3
-S.:3
-photo:3
+kint:3
+com/help/122175507864081:3
 removed:3
- facial
-recognition:3
-obtained:3
 seems:3
 128:3
 began:3
-explicit:3
+obtaining:3
 never:3
-clear:3
- people:3
+absent:3
 going:3
 affirmatively:3
+invasive:3
+thus:3
+=:3
 asked:3
 134:3
+age:3
 really:3
 showed:3
+greenwood:3
 seem:3
 considered:3
+stay:3
 140:3
 147:3
-Aside:3
+aside:3
 touch:3
-family:3
+members:3
+senior:3
 makes:3
 better:3
-$:3
-roughly:3
- friends:3
+smith:3
+domestic:3
+dep't:3
+aarp:3
+habits:3
 indicated:3
-
-users:3
+lead:3
+capital:3
 involves:3
-agreed:3
-Similarly:3
-(N.D.  Cal:3
-Center:3
-Facebook's  terms:3
+164:3
+757:3
 contemplate:3
 grant:3
-biometric  data:3
- content:3
+period:3
 indefinitely:3
 depending:3
 172:3
+rule:3
 adding:3
-Bruni:3
-1291:3
 299:3
 explained:3
-require:3
-full:3
-24 Cal:3
+ass'n:3
 215:3
 261:3
 187:3
+llc:3
 223:3
 246:3
+szetela:3
+violate:3
 amend:3
 200:3
- privacy:3
- CONST:3
- ART:3
-White:3
 1975:3
 remains:3
 expressly:3
-risk:3
+partnership:3
+warrant:3
+belief:3
+hill:3
+potential:3
+whole:3
 sold:3
-ALTIMETER:3
-the company:3
+altimeter:3
 220:3
+221:3
+advertisers:3
 226:3
-database:3
-accuracy:3
-different:3
-Lachance:3
-
-Facebook:3
+millions:3
+ngi:3
+eff:3
+cluely:3
+likely:3
+lachance:3
+npr:3
+radio:3
+great:3
 241:3
 258:3
-the time:3
 conversation:3
-billion:3
-the  California judiciary:3
-state  law:3
-"2:3
-actual:3
+jurisdiction:3
+requirement:3
+suit:3
 imminent:3
 fairly:3
 traceable:3
 challenged:3
-Clapper:3
+ruling:3
+clapper:3
+int'l:3
 1138:3
-Future:3
 suffered:3
-1540:3
- Donato:3
-exculpatory:3
-rights:3
+filing:3
+recent:3
+knowing:3
+targeted:3
+july 31 , 2017:3
+290:3
+298:3
+networks:3
 sought:3
-Miller:3
-Path:3
-1072:3
+kind:3
+miller:3
+broadcasting:3
+torts:3
+nat'l:3
+path:3
+norms:3
+routine:3
 1079:3
+emotions:3
 20150242679:3
-HeinOnline:2
-L.J.:2
-R.:2
-Social network:2
-social nightmare:2
-california courts:2
-haunting:2
-forever:2
-Brinckerhoff:2
-Haunting
-Consumer Privacy Rights Forever':2
-Rosie:2
-p.:2
+27 , 2015:3
+date:2
+source:2
+lj:2
+library:2
+acceptance:2
+text:2
 permission:2
-this article:2
-the scope:2
-PRIVACY:2
-FAILS:2
-EXPLICITLY  INFORM:2
-SATISFY:2
-THE CALIFORNIA:2
-118:2
+copyright:2
+inform:2
+school:2
+executive:2
+editor:2
 try:2
+special:2
 thank:2
-hearing:2
-extensive:2
-119:2
-FIRST CONSIDERATION:2
-SECOND  CONSIDERATION:2
-THIRD  CONSIDERATION:2
-AVAILABLE:2
-COURTS:2
-STRIKE:2
-REGARDING:2
+patient:2
+staff:2
+tough:2
+impose:2
+solution:2
+channels:2
 144:2
-155:2
-social media:2
+introduction:2
+rapid:2
 utilizing:2
 implementing:2
+comprehensive:2
+piecemeal:2
 consisting:2
-biometrics:2
+measurement:2
 relating:2
+variety:2
+methods:2
 authentication:2
-facial  recognition:2
-IDENTIFICATION:2
-Commission:2
-(June:2
-photographs:2
+jolly:2
+data security:2
+loeb:2
+cc/9:2
+t-7:2
+gao:2
+private-sector:2
+build:2
+driver:2
 addition:2
-the  ability:2
-limited:2
-apply:2
+insurance:2
+fall:2
+definitions:2
+types:2
+entities:2
+statutorily:2
 informs:2
-the subject:2
-authorized:2
-representative:2
-writing:2
-the  subject:2
-740  ILL:2
-
-COMP:2
-https://perma.cc/NH9E-J5R3:2
-40:2
-14/15(b:2
-STAT:2
-approach:2
-a  result:2
+release:2
+740:2
+comp:2
+ilga:2
+gov/legislation/ilcs/ilcs:2
+asp:2
+actld=3004&chapterld=57:2
+cc/nh:2
+e-j:2
+14/15:2
+stat:2
+governmental:2
 restraint:2
+self-regulation:2
+well-positioned:2
 justify:2
-65:2
 released:2
-Browsewrap:2
-Waivers:2
-L.:2
-result:2
+facialtechrpt:2
+depends:2
+recasting:2
+clickwrap:2
+browsewrap:2
+click-through:2
+http://engagedscholarship:2
+csuohio:2
+edu/clevstlrev/vol:2
+65/iss:2
+1/7:2
 understanding:2
-J.:2
-content:2
-worry:2
+cameron:2
+computerworld:2
+clev:2
+43:2
+pg:2
+aaron:2
+//www:2
 videos:2
+visit:2
 beginning:2
-a  process:2
-intrusive:2
-concern:2
-Facial Recognition  Technology  Means:2
-Cong:2
-(testimony:2
-critical:2
+houston:2
+cc/n:2
+self-:2
 inherent:2
-says:2
+gavet:2
+wired:2
 suffice:2
-binding:2
 likes:2
 leaving:2
-the  protection:2
-billion13:2
+aggregation:2
+pervasive:2
 vastly:2
-privacy policies:2
-their privacy:2
+semblance:2
 worldwide:2
+halt:2
 late:2
-
-order:2
-legislation:2
-this note:2
-Adhesion:2
-L. REv:2
- Companies:2
-service:2
+quest:2
+safe:2
+info:2
 clicks:2
-the  service:2
-FORTUNE:2
-.html:2
-acknowledging:2
-driven:2
-the  Internet:2
-POST:2
+ideas:2
+july:2
+mark:2
+anonymity:2
+instead:2
 shown:2
 usually:2
-Report:2
+forced:2
+message:2
+greater:2
 strengthen:2
-notification:2
-
-
-FEDERAL COMMUNICATIONS LAWJOURNAL:2
-alternative:2
 overbearing:2
+selection:2
 resolved:2
-the  Northern  District:2
 located:2
 uniquely:2
 situated:2
-judicial:2
-history:2
+pushback:2
 none:2
 proposed:2
-its  collection:2
-storage:2
 severely:2
+2 1:2
+unregulated:2
 comes:2
-the  expense:2
+expense:2
 entirely:2
-p]rivacy:2
-i]t:2
+chief:2
+leblanc:2
+rivacy:2
 longer:2
+invasions:2
 acted:2
 towards:2
 messages:2
-purposes:2
- third parties:2
- Apple:2
 litigated:2
-21:2
+15 , 2018:2
 proactively:2
-growing:2
+remedy:2
 reasonably:2
 rapidly:2
 emerging:2
-failure:2
-the  California  legislature:2
- efforts:2
- facial
-recognition  technology:2
-California law:2
+efforts:2
+deployment:2
 examining:2
-This  section:2
 explain:2
+ambiguous:2
 arguing:2
 non-:2
 consensual:2
 hindering:2
 discussing:2
 properly:2
-an  effort:2
-this issue:2
+disposal:2
+25:2
 requiring:2
-Pursuant  to  Section:2
-Statement:2
-Rights:2
-State:2
-any claim:2
-regard:2
+disputes:2
+responsibilities:2
 conflict:2
+cc/u:2
+resource:2
 analyzing:2
-million:2
+behavioral:2
+advance:2
+human:2
+imaging:2
+server:2
+four:2
+basic:2
+capture:2
+faceprint:2
 uploading:2
-a photograph:2
 machine:2
-number:2
 exist:2
-edge:2
+34:2
 reduced:2
-The template:2
-Gov'T ACCOUNTABILITY  OFFICE:2
-explanation:2
-2003:2
-the  system:2
- database:2
+ieee:2
+processing:2
+morphotrust:2
+modern:2
+woodward:2
+verification:2
 past:2
-agencies:2
-the technology:2
 costly:2
+developed:2
+38:2
+$:2
 2022:2
-growth:2
 creates:2
 novel:2
 addressed:2
-increased:2
 becomes:2
-widespread:2
-their knowledge:2
-process:2
+almost:2
+42:2
 yields:2
 indicate:2
 matches:2
-Research:2
-Tech:2
-Reach:2
-Texas:2
- laws:2
-raises:2
-laws:2
+association:2
+cc/92:2
+texas:2
+yue:2
+liu:2
+link:2
 remain:2
-Information  Security Law:2
-FaceFirst:2
- a  person:2
+owner:2
 sends:2
-retailers:2
+known:2
+touts:2
 alike:2
-customer:2
-Russia:2
-draws:2
+enhance:2
+crime:2
+russia:2
+findface:2
 striking:2
 mobile:2
-"4:2
-i.e.:2
-46:2
-Apr. 3, 2017:2
+accord:2
+crowd:2
+theguardian:2
 send:2
 looks:2
-GUARDIAN:2
+guardian:2
+nce:2
 track:2
-the  photos:2
-a  series:2
- images:2
-additional:2
-implication:2
-the
-fact:2
+series:2
+carnegie:2
+mellon:2
 impossible:2
 routinely:2
+52:2
+hacking:2
 instance:2
-Yahoo:2
-breach:2
-your  fingerprint:2
-your face:2
-the
-Judiciary:2
-112th Cong:2
-Real:2
+1 billion:2
+hacked:2
+birth:2
+credit:2
+fingerprint:2
+54:2
+shrg:2
 2000:2
-Nicole:2
-N.Y.:2
+nicole:2
+14 , 2016:2
 opening:2
 employs:2
+easier:2
+uploads:2
 've:2
-profile:2
-the  tags:2
-these photos:2
-a summary:2
-this comparison:2
-software:2
+associate:2
+59:2
 disable:2
-picture:2
-98%:2
- accuracy:2
-the fact:2
-Facebook users:2
+individually:2
+63:2
 55:2
-According:2
-Tagging:2
-56:2
 work:2
-58:2
-60:2
-62:2
- access:2
-the  entirety:2
-69:2
-Carson:2
-discern:2
-view:2
-Accessing:2
+robust:2
+66:2
 68:2
+carson:2
+count:2
+thresholds:2
+71:2
+cc/2:2
+categories:2
 sees:2
-this data:2
-others:2
-the information:2
-downloaded:2
 mean:2
-its collection:2
+purely:2
 thereby:2
 granting:2
-an  unprecedented  level:2
 freedom:2
-definition:2
-
-absence:2
-several:2
-cases:2
+guidance:2
 forth:2
-an  absence:2
+walker-thomas:2
+73:2
 focusing:2
-oppression:2
+latter:2
+sided:2
 74:2
-oppressive:2
-Superior  Court:2
-Sonic-Calabasas:2
-A, Inc.  v.  Moreno:2
+scale:2
+supercuts:2
+sonic-calabasas:2
+moreno:2
 1109:2
-BENDER:2
-Carboni:2
+bender:2
+psychcare:2
+carboni:2
 1991:2
-227:2
-1588:2
-substantive
-unconscionability:2
-OR SOCIAL NIGHTMARE
-
-:2
-Pursuant:2
-Civil:2
-provision:2
-test:2
-general:2
-case:2
-the circumstances:2
+light:2
 contains:2
-arbitration:2
-the  contracts:2
- California courts:2
-seemingly:2
-context:2
+80:2
+commentary:2
+statute:2
+specifies:2
+police:2
+define:2
 fit:2
 defined:2
-The Standard:2
-77:2
-79:2
-Flores:2
+82:2
+mandatory:2
+flores:2
+comment:2
 explaining:2
- public policy:2
+adverse:2
+language:2
+endless:2
+jurisprudence:2
+exception:2
 broadly:2
-1164:2
- surprise:2
- several  California
-courts:2
-a contract:2
-negotiation:2
+pursuing:2
+supposedly:2
+agreed-upon:2
+prolix:2
+printed:2
 drafted:2
 disputed:2
-First Consideration:2
-Several:2
- adhesion  contracts:2
+strength:2
+referred:2
+choices:2
 complete:2
-advantages:2
- efficiency:2
-mass-consumption  economy:2
-449:2
-9th:2
-Cir:2
+rejection:2
+circuit:2
 279:2
-92:2
-Richard  Sybert:2
+theory:2
+redefinition:2
 285:2
-LOYOLA:2
-Application:2
-society:2
+loyola:2
+http://digitalcommons:2
+95:2
+character:2
 deemed:2
 enforceable:2
+factors:2
 operate:2
-the  Restatement:2
 susceptible:2
-Significantly:2
-new:2
 changed:2
 creating:2
 prompted:2
-our Data Policy:2
-our Cookie Use:2
+email:2
+small:2
+button:2
+cookie:2
 receive:2
+sms:2
+notifications:2
 1961:2
-lives:2
-Sybert:2
+impact:2
 96:2
- Graham:2
-a  degree:2
- simplicity:2
-cost:2
-substantial:2
-goods:2
-819:2
+297-98:2
+simplicity:2
+stability:2
+97:2
 101:2
-Inst:2
+inst:2
+register:2
 356:2
-(2d Cir:2
 306:2
-FARNSWORTH:2
-https://www.facebook.com/:2
-Apr. 4:2
-therefore:2
+com/:2
 rejected:2
- party:2
-market:2
-Second Consideration:2
-results:2
-the
-contract:2
+mass:2
 issued:2
 told:2
-Dean Witter Reynolds:2
-party:2
+alternatives:2
 tends:2
 preclude:2
-sufficient:2
 302:2
 111:2
 continuing:2
-CSA:2
-imposed:2
-a.:2
-single:2
-a  term:2
-the  platform:2
+indisputable:2
 117:2
 retain:2
 permanently:2
-choice:2
 imperative:2
-any time:2
+contact:2
 concerned:2
-destruction:2
 delete:2
-deletion:2
 compromised:2
-biometric  data  collection:2
 121:2
-a retention:2
 123:2
 completely:2
-opt-:2
-transparency:2
 remove:2
-the  facial  recognition
-database:2
+dark:2
 125:2
+numerous:2
 disables:2
 126:2
-15-cv-03747-JD:2
+among:2
+15-cv-03747-jd:2
+jason:2
 devour:2
 pie:2
-Scraps:2
-DIGITAL:2
-NEXT:2
+scraps:2
+https://digitalcontentnext:2
+org/blog/2016/06/16/google-and-facebook-devour-the-ad-and-data-:2
+pie-scraps-for-everyone-else/:2
 else:2
-https://www.facebook.com/help/122175507864081:2
 visited:2
-Richard  Sherman:2
+sherman:2
 uncomfortable:2
+guarantee:2
 127:2
-Tag Suggestions:2
-their biometric  data:2
-the platform:2
-obtaining:2
 initially:2
 wanted:2
 start:2
- prints:2
-knowledge:2
-absent:2
 fire:2
 became:2
 unaware:2
 begin:2
-CENTER:2
- tags:2
-THE MATTER:2
-Relief:2
-https://perma.cc/6BAU-NKM7:2
+opted-in:2
+cc/r:2
+cc/8:2
+bau-nkm:2
 132:2
 enabled:2
+non-consenting:2
+obvious:2
 informed:2
+decision:2
 tell:2
-ever:2
-the  line:2
-hard:2
-unreasonable:2
-evidence:2
-a  meaningful  alternative:2
+speaking:2
+standpoint:2
+margin:2
 falls:2
-hit:2
-PEW:2
-RESEARCH  CENTER:2
-Instagram  :2
+june 2011:2
+466:2
+pewinternet:2
+respective:2
+active:2
+600 million:2
+insights:2
+141:2
+wall:2
 signals:2
-onerous:2
+opted:2
+facebook-owned:2
 socially:2
 engaged:2
-Twitter:2
-third:2
-yet:2
+twitter:2
+population:2
 138:2
+13 , 2018:2
+bad:2
 11814505650678:2
-Greenwood:2
+innovative:2
 proven:2
-its competitors:2
+competitors:2
+148:2
+generation:2
 149:2
+adults:2
 undoubtedly:2
 commonly:2
+utilized:2
+sole:2
+words:2
 worse:2
+chirita:2
+rise:2
+cc/k:2
 helping:2
-plugged:2
-grandparents:2
-their  grandchildren:2
-256:2
-(Sept.:2
+grandchildren:2
+income:2
+census:2
+60-256:2
 around:2
+statistics:2
 revealed:2
 cited:2
 151:2
-COLLECTIVE:2
-lead:2
-the  site:2
+collective:2
+reality:2
+intangible:2
 153:2
 154:2
-satisfy:2
-Surprise:2
+judgment:2
+leading:2
 came:2
-friends:2
 concluding:2
+accumulation:2
+ny:2
 218:2
-
-terms:2
+156:2
+careful:2
+ip:2
 159:2
 162:2
-Help:2
 165:2
+reference:2
 158:2
 161:2
 163:2
-164:2
+third-party:2
+sci:2
 2009:2
 unduly:2
-Issue:2
-the entirety:2
-exclusive:2
+possibility:2
+author:2
+166:2
+167:2
+discretion:2
 payment:2
 169:2
+170:2
 terminology:2
-such  data:2
+licensure:2
 void:2
 issuing:2
-its  existing users:2
-prospective users:2
-explicit  notice:2
-
-Service or Data Policy:2
-conditions:2
- video:2
+pop-up:2
+little:2
+telegraph:2
+video:2
+operation:2
 transfer:2
 needed:2
-a user's friends:2
-networks:2
-Failure:2
-policies:2
-consideration:2
-The  California  Supreme  Court:2
+networks-even:2
 claiming:2
 undermine:2
 173:2
+instrument:2
 avoid:2
 176:2
-circumstances:2
 agreeing:2
+licenses:2
 write:2
 178:2
-the  user:2
 failing:2
-regarded:2
-the  form:2
+303:2
+4 th 2002:2
+ads:2
+intellectual:2
 179:2
-mentioned:2
 whatsoever:2
 unable:2
+182:2
 follow:2
-risks:2
+unlike:2
+183:2
 turned:2
-continued:2
 181:2
- service:2
- participants:2
-NSA:2
+adams-heard:2
+nsa:2
+ignoring:2
 1532:2
 185:2
 dealing:2
+well-accepted:2
+print:2
 seek:2
-public  policy:2
+190:2
 193:2
 articulated:2
-legitimate:2
+safety:2
 clarified:2
 195:2
 1994:2
 952:2
- LLC:2
-Szetela:2
-Discover Bank:2
-Discover:2
+pinnacle:2
 push:2
+boundaries:2
+limits:2
+remedies:2
 197:2
+overwhelming:2
 unfair:2
-run:2
+unlawful:2
+198:2
 prescribes:2
 voted:2
 1972:2
 activity:2
-Davis:2
+pamphlet:2
+voters:2
+davis:2
 774:2
-requests:2
-data.2:2
-Constitution:2
+effective:2
+public-private:2
+206:2
 scratch:2
-Facebook's  Data Policy:2
-significantly:2
-Bruce:2
- Schneier:2
-Facebook's:2
+subjective:2
+subpoena:2
+rep:2
+bruce:2
+bennett:2
+corporations:2
 deliberately:2
+dissemination:2
 squarely:2
-owned:2
+212:2
 websites:2
-period:2
+213:2
+ownership:2
 worried:2
 retaining:2
+entity:2
 216:2
-Contracts:2
-18.10:2
 list:2
 214:2
 misused:2
 217:2
-privacy/:2
-Jessica  Groopman:2
- Consumer Perceptions:2
-Things:2
+jessica:2
+groopman:2
+perceptions:2
+http://go:2
+pardot:2
 wt:2
 wy:2
-the Terms:2
-a]ll:2
+massive:2
 222:2
+224:2
+225:2
 operates:2
-according:2
 historically:2
 retained:2
 reserved:2
 lends:2
+function:2
 unwarranted:2
-inclusion:2
-221:2
-Justice:2
-interests:2
-Raises:2
-story?id=13792666:2
-Graham  :2
-Cluely:2
-a  senior  technology  consultant:2
- third  parties:2
+attractive:2
+ellickson:2
+justice:2
+boston:2
+hand:2
+lauren:2
+effron:2
+eyebrows:2
+eyebrows/story:2
+id=13792666:2
+consultant:2
+british:2
+firm:2
 eroded:2
-that  data:2
-NEWS:2
-ABC:2
-request:2
-likely:2
 233:2
 234:2
+235:2
 possibly:2
-Jennifer  Lynch:2
-potential:2
-Naomi:2
-Facebook's Facial Recognition Software:2
-Different:2
-the-fbis:2
--heres:2
-NATIONAL:2
-RADIO:2
-First:2
+naomi:2
+recognition-software-is-different-from-the-fbis-heres-why:2
+wealth:2
+challenges:2
+agreed:2
 238:2
-the
-agreement:2
-a lack:2
 unfairly:2
-a  great  deal:2
-1038:2
+implementation:2
+245:2
+deal:2
 opposed:2
+wide-reaching:2
 onto:2
 248:2
-sound:2
-acting:2
- biometric  identifiers:2
+250:2
+program:2
 enthusiastically:2
 embraced:2
-millions:2
+articles:2
 gathering:2
 telling:2
-TIMES:2
 1963:2
-its
-users:2
+252:2
 unequivocally:2
+253:2
 purport:2
-the U.S.:2
-the Northern  District:2
- San  Mateo  County:2
 mandated:2
-forum:2
-three:2
-matter:2
-Facebook  user:2
-suit:2
-an  injury:2
- 'concrete:2
- action:2
+259:2
+avenues:2
+unrestricted:2
 redressable:2
+amnesty:2
 1147:2
-Document:2
-Privacy Forum:2
-Facial  Recognition  Technology:2
+document:2
+org/wp-:2
+content/uploads/2015/12/dec:2
+working-paper-facialrecognitionprivacyprinciples-for-:2
 detection:2
-litigation:2
+secure:2
+262:2
 263:2
 gave:2
 give:2
 264:2
-Supreme  Court:2
 harms:2
 267:2
-real  harm:2
-Privacy Litigation:2
- infra:2
+responsible:2
+advertisement:2
+revenue:2
+chicagotribune:2
+1540:2
 1549:2
 269:2
-CONTENT:2
 271:2
-targeted:2
-advertising:2
-nature:2
-go:2
 273:2
-their  biometric  data:2
-Facebook Biometric Information Privacy Litigation:2
-concrete:2
-dismiss:2
-276:2
+275:2
+targeting:2
 272:2
-whole:2
-Biometric  Information  Privacy  Act:2
-Motion:2
-Dismiss:2
-Facebook Biometric  Information Privacy:2
+ponemon:2
+model:2
+later:2
+26 , 2018:2
+denying:2
 277:2
-Donato:2
-the  elements:2
 278:2
 satisfied:2
-protected:2
+sense:2
+disregards:2
+procedures:2
 done:2
 vanishes:2
+thin:2
+air:2
 amounts:2
 283:2
-California  residents:2
-1547:2
+bloomberg:2
 1992:2
-the Northern District:2
-consumer
-privacy:2
-liability:2
-Cantrell:2
+event:2
+287:2
+cantrell:2
+beach:2
 674:2
 684:2
-Facebook  Terms:2
-public  interest:2
+dist:2
+294:2
+293:2
+grounds:2
 invalidating:2
-The concept:2
-always:2
-Bank:2
+union:2
 1912:2
-ALWAYS:2
-Saw:2
-ways:2
-violate:2
+saw:2
 liberty:2
+295:2
+296:2
 1928:2
 feel:2
 waive:2
 3513:2
+welfare:2
+301:2
 plain:2
 looking:2
-the  legislative  history:2
-295:2
+carrier:2
+iq:2
 1051:2
 1117:2
- concern:2
-knowing:2
+facts:2
+relinquishment:2
 received:2
-Kay:2
-kind:2
-highly:2
+analogous:2
+kay:2
 offensive:2
- "consent:2
 1463:2
 1986:2
-TORTS:2
-1064:2
-Hill:2
-seclusion  claim:2
- consumer  consent:2
-routine:2
-F.:2
-Supp:2
+1072:2
+315:2
+317:2
+customs:2
+offensiveness:2
+behavior:2
 322:2
- emotions:2
-controlling:2
+expressions:2
 326:2
+327:2
 328:2
-think:2
-DATE DOWNLOADED:1
-Thu Sep:1
+329:2
+330:2
+yorker:2
+thu:1
+sep:1
 17:47:06:1
 2021:1
-SOURCE:1
-Content:1
-Downloaded:1
-Citations:1
-Bluebook:1
-21st:1
-ed.(cid:10:1
-70 FED:1
-COMM:1
-ALWD 6th ed:1
-                                                                        
-Brinckerhoff:1
-frightening foray:1
-
-consumer privacy rights:1
-Fed:1
-Comm:1
-                  
-
-APA 7th ed:1
-facebook's frightening foray:1
-                                                                            
-
-Chicago 17th ed:1
-                                                                    
-Rosie Brinckerhoff:1
-April
-2018:1
-105-156                                                                       
-
-McGill Guide 9th ed:1
-70:1 Fed Comm LJ:1
-                       
-
-AGLC 4th ed:1
-                                                                        
-Rosie Brinckerhoff:1
-MLA 8th ed:1
-vol:1
-70, no.:1
-April 2018:1
-                                                 
-
-OSCOLA 4th ed:1
-70 Fed Comm LJ:1
-Provided:1
-Pace Law Library:1
-Your use:1
-this HeinOnline PDF:1
+citations:1
+bluebook:1
+cid:10:1
+alwd:1
+chicago:1
+april 2018:1
+mcgill:1
+70:1:1
+aglc:1
+mla:1
+1 , april 2018:1
+oscola:1
+pace:1
 indicates:1
-your acceptance:1
-HeinOnline's Terms:1
-
-   Conditions:1
-the license agreement:1
-https://heinonline.org/HOL/License:1
-The search text:1
-this PDF:1
-uncorrected OCR text:1
-your  license:1
+https://heinonline:1
+org/hol/license:1
+uncorrected:1
+ocr:1
 please:1
-Copyright Information:1
-Social  Network:1
-Social  :1
-Nightmare:1
-California Courts:1
-Prevent:1
-Frightening:1
-Foray:1
-
-Facial Recognition:1
-
-Haunting Consumer Privacy Rights:1
-Forever:1
- Brinckerhoff:1
-TABLE:1
-CONTENTS:1
-I.:1
-TRODU:1
-CTION:1
-BACKGROUND:1
-A BRIEF:1
- GUIDE:1
-TECHNOLOGY  - A BRIEF:1
- TECHNICAL:1
-O V ERV IE:1
-IMPLICATIONS:1
-CURRENT:1
-CAPABILITIES:1
-ITS USE:1
-THE COMPANY:1
-J.D.  Candidate:1
-School:1
-May  2018:1
-Executive:1
-Editor:1
-Notes:1
- Editor:1
- Federal Communications Law Journal:1
+table:1
+contents:1
+trodu:1
+ction:1
+erv:1
+ie:1
+candidate:1
+notes:1
 2017-2018:1
- B.A.:1
-Political  Science:1
-Minor:1
-Journalism,  :1
-Delaware:1
-This Note:1
+political:1
+minor:1
+journalism:1
+delaware:1
 dedicated:1
-my father:1
-Clarke  W. Brinckerhoff:1
+father:1
+clarke:1
 brilliant:1
-humble  man:1
-His love:1
+humble:1
+love:1
 penchant:1
 fairness:1
 inspired:1
 pursue:1
-a  legal  career:1
+career:1
 thought:1
 succeed:1
-this field:1
+field:1
 dared:1
 extend:1
-special:1
 feigned:1
 ramble:1
 the past year and a half:1
-my patient and loving mother:1
- Judy Brinckerhoff:1
-Many:1
+loving:1
+mother:1
+judy:1
 thanks:1
-the  staff:1
-the Federal Communications Law Journal:1
-patient:1
-
-meticulous  editing:1
-Kara:1
-Romagnino:1
+meticulous:1
+editing:1
+kara:1
+romagnino:1
 asking:1
-the  tough
-questions:1
 throughout:1
-my  writing process:1
 feedback:1
-my  many
 drafts:1
-Any unprincipled  deviations:1
-this  Note:1
-T ECHN OLO GY:1
-1 13
-
-A.:1
-THE  DOCTRINE:1
-PROCEDURAL:1
-CONSTITUTE:1
-AN  ADHESION:1
-C ON TRA CT:1
-IMPOSED:1
-AN  OPPRESSIVE:1
-MANNER:1
-EXPLICITLY  OMITTING:1
-MENTION:1
-TECHNOLOGY  IN ITS
-
-TERMS:1
-POLICIES:1
-CONTAIN:1
-A SURPRISE:1
-SUBSTANTIVE:1
-INTEREST:1
-IMPOSE:1
-AN UNREASONABLE:1
- UNEXPECTED ALLOCATION:1
-RISK:1
-THE  LACK:1
-MUTUALITY:1
-DUE:1
-A LEGITIMATE  COMMERCIAL  NEED:1
-
-
-SOLUTION:1
-MULTIPLE:1
-LEGAL:1
-CHANNELS:1
-BEST POSITIONED:1
-FACEBOOK'S  PRIVACY-INVASIVE:1
-THE
-
-COMPANY'S  USE:1
-OPTION:1
- OPTION:1
-No.:1
-STATE:1
-CONSTITUTION:1
-C.  STATE:1
-TORT LAW:1
-INTRUSION:1
-UPON:1
-SECLUSION:1
-C ON CLU SION:1
-P O LIC Y:1
-150
-
-Issue:1
-I.  INTRODUCTION:1
-The rapid explosion:1
-the number:1
-many privacy
-risks:1
- consumer  biometric1:1
-use.2:1
-The  fundamental  issue:1
-i]n:1
-U[.]S:1
-no single, comprehensive federal  law:1
-the  collection:1
-personal  information:1
-the
-United States:1
-a piecemeal  system:1
- consumer  data privacy:1
-industry-specific  federal  privacy laws,4  state privacy:1
-laws,5:1
-1.01(6)(d:1
-Translated:1
+unprincipled:1
+deviations:1
+echn:1
+olo:1
+gy:1
+1 13:1
+1 18:1
+120 2:1
+122 3:1
+133 1:1
+137 3:1
+clu:1
+sion:1
+lic:1
+explosion:1
+industry-specific:1
+01:1
+translated:1
 literally:1
- 'life  measurement'  - bios:1
- Greek:1
- 'life:1
- metricus:1
-Latin:1
-measurement:1
-Biometrics:1
+bios:1
+greek:1
+metricus:1
+latin:1
 relate:1
-a variety:1
-an  individual's
-identity:1
-Popular  biometric  methods:1
- fingerprints:1
- voice  prints:1
- iris:1
+fingerprints:1
+voice:1
+iris:1
 scanning:1
-a  general  discussion:1
 manifesting:1
-Facebook's  use:1
-
-facial  recognition  technology:1
-THE  MATTER:1
-Other Relief:1
-Trade:1
-https://epic.org/privacy/facebook/EPICFB:1
-FRFTC:1
-Complaint  06_10_1l.pdf:1
-[https://perma.cc/58TB-RQPB:1
+10 , 2011:1
+org/privacy/facebook/epicfb:1
+frftc:1
+complaint:1
+06_10_1:1
+cc/58:1
+tb-rqpb:1
 leuan:1
-Jolly:1
- US Privacy and Data Security Law:1
-Overview:1
-LOEB & LOEB LLP:1
-https:/iblog.richmond.edulawe759:1
-files/2016/08:1
-US:1
-Security-:1
-Law-Overview.pdf:1
-https://perma.cc/9T6T-7M8N:1
-GOV'T  ACCOUNTABILITY  OFFICE:1
-GAO-15:1
-621:1
-RECOGNITION  TECHNOLOGY:1
-REPORT:1
-33  :1
-http://www.gao.gov/assets/680/671764.pdf:1
-https://perma.cc/3LVE-YFLG:1
-Certain  federal laws:1
-private-sector  companies:1
+llp:1
+july 1 , 2016:1
+https:/iblog:1
+richmond:1
+edulawe:1
+759/files/2016/08/us-privacy-and-data-security-:1
+law-overview:1
+gao-15-621:1
+gov/assets/680/671764:1
+cc/3:1
+lve-yflg:1
 earlier:1
-These  laws:1
-certain circumstances:1
-facial  images:1
-which  are used to
-build  a  database:1
-Driver:1
-Privacy  Protection  Act:1
 motor:1
 vehicle:1
 bureaus:1
 drivers:1
- private  parties:1
-Gramm-
-Leach-Bliley  Act:1
-Health:1
-Insurance:1
-Portability  and  Accountability  Act:1
+gramm-:1
+leach-bliley:1
+portability:1
 banks:1
-health  care  providers:1
-those  data:1
-fall:1
-the  laws'  definitions:1
-protected
-information:1
-these laws:1
-specific purposes:1
-certain  situations:1
-certain  sectors:1
-types:1
-entities:1
+providers:1
+sectors:1
 leads:1
- biometric
-identifiers:1
 identifying:1
-statutorily:1
-a company:1
-specific:1
 length:1
 receives:1
-a written release:1
 executed:1
-legally
-authorized representative:1
-Biometric  Information Privacy  Act:1
-http://www.ilga.gov/legislation/ilcs/ilcs3:1
-.asp?ActlD=3004&ChapterlD=57:1
-infra note:1
-more  information:1
- other  state-specific
-privacy  laws:1
-guides6:1
- various  governmental  agencies:1
-Fittingly:1
+state-specific:1
+guides:1
+fittingly:1
 fragmented:1
-a "patch-work  quilt:1
+patch-work:1
+quilt:1
 disjointed:1
-legislative  framework:1
-
-biometric data:1
- consumer privacy:1
 becoming:1
-vulnerable.9:1
-
-conditions:1
-self-regulation,1:1
- social media companies:1
-unsuspecting  consumers:1
- sites:1
-
-applications:1
-one  legal  scholar:1
+vulnerable:1
+scholar:1
 succinctly:1
-Recognition 
-
-Technologies:1
-only  "Best  Practices  Guide:1
-merely  suggestions:1
 ignore:1
-See Federal Trade Commission:1
-Best Practices:1
-Common Uses:1
-https://www.ftc.gov/sites/default/files/documents/reports/facing-facts-best-practices-:1
-
-common-uses- facial-recognition-technologies/121022facialtechrpt.pdf:1
-https://perma.cc/KD8G-43TK:1
-cf:1
-Charles:1
-E.:1
-Depends:1
-Recasting:1
-Clickwrap:1
-Click-Through:1
-Privacy  Clauses:1
-
-Adhesion:1
-http://engagedscholarship.csuohio.edu/clevstlrev/vol65/iss:1
-1/7:1
-[https://perma.cc/B6CT-
-BWWS]  ("Even  the  FTC's  data  privacy  enforcement  actions:1
+gov/sites/default/files/documents/reports/facing-facts-best-practices-:1
+common-uses-:1
+facial-recognition-technologies/121022:1
+cc/kd:1
+g-43:1
+tk:1
+ct-:1
+bwws:1
 ineffective:1
 compelled:1
-the
-private  consumer  data:1
 capturing:1
-consumer  protection:1
 dense:1
 indecipherable:1
 disclosures:1
- most
-users:1
 reading-:1
-
-Cameron Scott:1
-Less than Half:1
-Google Users Understand Sites 'Privacy Policies:1
-
-COMPUTERWORLD 
-privacy:1
-half:1
-facebook--:1
-[https://perma.cc/LGR6-WWJN:1
- http://www.computerworld.com/article/2503822/data-:1
-google-users-understand-sites--privacy-policies.html:1
+scott:1
+less than half:1
+privacy/less-than-half-of-facebook--:1
+cc/lgr:1
+6-wwjn:1
+4 , 2012:1
+com/article/2503822/data-:1
+google-users-understand-sites:1
+privacy-policies:1
 52-53:1
-CLEV:1
-REv:1
-ST:1
-PG:1
-Jolly, supra note:1
-Rosemary:1
-P.:1
-Jay:1
-Lisa:1
-Sotto:1
-Aaron  P.  Simpson:1
-Data Protection & Privacy:1
-HUNTON:1
-WILLIAMS:1
-https://www.huntonprivacyblog.com/wp-:1
-sites/1:1
- 8/2011/04/DDP2015_UnitedStates.pdf:1
-Q9ZE:1
-//www.houstonchronicle.com:1
-/business/colunmists/tomlinson/article:1
-Business-should-:1
-lost:1
-privacy-:1
-11041215.php:1
-https://perma.cc/4QSU-SHX5:1
+rosemary:1
+jay:1
+lisa:1
+sotto:1
+simpson:1
+data protection:1
+hunton:1
+huntonprivacyblog:1
+com/wp-:1
+content/uploads/sites/1:1
+8/2011/04/ddp:1
+2015_unitedstates:1
+houstonchronicle:1
+com/business/colunmists/tomlinson/article/business-should-:1
+worry-about-lost-data-privacy-:1
+11041215:1
+qsu-shx:1
 watch:1
-visit:1
-porn  sites:1
-most  frightening  part:1
+porn:1
 repeal:1
-internet  privacy:1
- protections:1
 strip:1
-home  invasion:1
- world:1
-every
-electric  device:1
-the internet:1
-the  effect:1
+electric:1
 profound:1
 disturbing:1
-Chris:1
-Tomlinson:1
-Loss:1
-internet data privacy:1
-https://perma.cc/93:1
-JX-:1
-CHRONICLE:1
-HOUSTON:1
- Civil
-Liberties:1
-the S. Subcomm:1
-and the Law:1
-the S. Comm:1
-the Judiciary:1
-112th:1
-Jennifer:1
-the  Electronic  Frontier
-Foundation:1
-https://ssm.com/abstract-2134497:1
-https://perma.cc/N7R9-XPCQ:1
-I]ndustry:1
-self-:1
-
-security risks:1
-facial  recognition  data collection:1
- Maelle Gavet:1
-The data:1
-WIRED
-:1
-Mar. 5, 2015:1
-http://www.wired.co.uk/article/data-google-facebook:1
-[https://perma.cc/WJL6-:1
-69TS:1
+chris:1
+tomlinson:1
+cc/93:1
+jx-:1
+chronicle:1
+https://ssm:1
+com/abstract-2134497:1
+9-xpcq:1
+ndustry:1
+maelle:1
+uk/article/data-google-facebook:1
+cc/wjl:1
+6-:1
+ts:1
 trusted:1
 responsibly:1
 complicit:1
-the  notion:1
+notion:1
 tamper:1
-these  innovators:1
-our peril:1
+innovators:1
+peril:1
 dangerous:1
 acceptable:1
-Amazon:1
+amazon:1
 amass:1
 terabyte:1
-their  henhouses:1
-the  foxes:1
-the  aggregation:1
- sale:1
+henhouses:1
+foxes:1
 resale:1
 formerly:1
-"12:1
- the problem:1
-pervasive:1
-one company:1
 goliath:1
-1.86:1
+86 billion 13:1
 maintaining:1
- user  agreements:1
-a take:1
 demanding:1
-semblance:1
 ostracized:1
-a growing  community:1
 billions:1
-social  media users:1
-technological:1
 reliance:1
-a  halt:1
-prospective:1
- consumer
-privacy:1
-its  quest:1
-anything:1
-a  profit:1
- more  stringent  laws:1
- regulations:1
+stringent:1
 governing:1
 permitted:1
-ever.16:1
-comprehensive:1
 anytime:1
 soon:1
 serves:1
-safe:1
-rules:1
-all
-evidence:1
+worry:1
 suggests:1
-Charles  E.  :1
-Depends: Recasting Internet Clickwrap:1
-Click-Through Privacy Clauses:1
-65  CLEV:1
- ST:1
-http://engagedscholarship.csuohio.edu/clevstlrev/vol65/iss1/7:1
-https://perma.cc/B6CT-BWWS:1
-Company:1
-http://newsroom.fb.com/company-info:1
-https://perma.cc/E3GK-YUTB:1
-I/:1
-Info:1
-http://fortune.com/2015/07/06/consumer-data-privacy/:1
-https://perma.cc/6YDH-Y69Y:1
-Currently:1
-the choice:1
+ct-bwws:1
+http://newsroom:1
+fb:1
+com/company-info:1
+gk-yutb:1
+i/:1
+1 , 2017:1
+com/2015/07/06/consumer-data-privacy/:1
+ydh-y:1
 pretty:1
 black:1
-white:1
-the onerous terms:1
-convoluted user agreements:1
-their way:1
-download:1
-the  app:1
+convoluted:1
 purchasing:1
-a  new device:1
-MAGAZINE:1
-ideas:1
-Film:1
-Mark Weinstein:1
-Conditions:1
-Apply:1
-Documentary:1
-Must:1
-Horror:1
-http://www.huffingtonpost.com/mark-weinstein/terms-and-conditions-may-_b_3692883:1
-[https://perma.cciN86Y-ZUMN:1
- "anonymity:1
+film:1
+documentary:1
+horror:1
+huffingtonpost:1
+com/mark-weinstein/terms-and-conditions-may-_b_3692883:1
+ccin:1
+y-zumn:1
 profitable:1
-Internet monoliths:1
-a cog:1
-a  real-time  surveillance:1
-Orwell  into  a[]  historian  and
-prognosticator  instead of an  acclaimed  fiction writer:1
-HUFFINGTON:1
-Gavet:1
-The history:1
-forced:1
-the  shape:1
-a marketable  message:1
-more  products:1
-self-
-regulation:1
-a fantasy:1
-repeated  scandals:1
- multiple  industries:1
+driven:1
+monoliths:1
+cog:1
+real-time:1
+orwell:1
+historian:1
+prognosticator:1
+acclaimed:1
+fiction:1
+writer:1
+huffington:1
+self-interest:1
+shape:1
+marketable:1
+fantasy:1
+repeated:1
+scandals:1
+industries:1
 proved:1
 incapable:1
-greater:1
- Federal Trade Commission:1
-Privacy  &  :1
-Connected  World:1
- Staff:1
-pg:1
+self-regulating:1
 vii:1
-https://www.ftc.gov/system/files/documents/reports/federal-trade-:1
-comnuission-staff:1
-report:1
-november-2013:1
-workshop:1
-entitled:1
-internet:1
-things-:1
-privacy/150127iotrpt.pdf[https://perma.cc:1
-TX3V:1
-EFXY:1
-the FTC:1
+gov/system/files/documents/reports/federal-trade-:1
+comnuission-staff-report-november-2013-workshop-entitled-internet-things-:1
+privacy/150127:1
+iotrpt:1
+cc/tx:1
+v-efxy:1
 recommended:1
 enact:1
 flexible:1
-neutral:1
-its  existing data security  enforcement tools:1
- intervention:1
-the  California  judiciary:1
-consumer privacy:1
-Facebook's  forum  selection  clause:1
+technology-neutral:1
+notification:1
 mandating:1
-District Court:1
-San Mateo
-County:1
- forum:1
 resolution:1
-its proximity:1
-litigation.19:1
-t]he  California legislature:1
- several  bills:1
-.. due  in  part  to  industry
-pushback:1
-these  laws:1
+proximity:1
+bills:1
 moved:1
-the  legislature:1
-the California  Senate:1
-require[d:1
- a  company:1
- 'sensitive  information:1
 faced:1
 stiff:1
-opposition:1
- technology  companies:1
-their  trade
 organizations:1
-In  an  opposition  letter:1
-state  legislation:1
 argued:1
-p]rohibiting:1
-this  data:1
-future:1
-the
-state:1
-industry:1
+rohibiting:1
 desires:1
 proceed:1
-unregulated:1
-this
-modem-day  race:1
- data  aggregation:1
- the  argument:1
+modem-day:1
 skewed:1
- consumer  privacy:1
 stifling:1
 impeding:1
-
-technological  innovation:1
 accurately:1
-Communications:1
-(FCC:1
-Enforcement  Bureau  Chief Travis  LeBlanc:1
+travis:1
 incompatible:1
- invasions:1
 technologically:1
 inevitable:1
 essential:1
-the
-American  economy:1
-a  critical  opportunity:1
-a security breach:1
-broad consumer
-data privacy legislation:1
-Campbell:1
-Facebook  Inc.:1
-4:13-cv-5996  :1
+10 , 2017:1
+campbell:1
+4:13-cv-5996:1
 interception:1
 mining:1
- Singh:1
- 16-cv-03734-BLF:1
+singh:1
+16-cv-03734-blf:1
 invalid:1
-unspecified AdWords
-advertisements:1
-a  number:1
- giants:1
- forum selection:1
+unspecified:1
+adwords:1
+giants:1
 specifying:1
-https://www.google.com/policies/terms/:1
-Media  Services  Terms:1
- Conditions:1
-https://www.apple.com/legal/internet-
-services/itunes:1
-tenns.html:1
-Opposition:1
-Letter:1
-http://static.arstechnica.com/oppositionletter.pdf:1
-Sen. 
-
-Alan 
-
-:1
-Lowenthal:1
-Press  Release:1
-Federal  Communications  Commission:1
-FCC  Settles:1
-Verizon:1
-"Supercookie:1
-Probe:1
-Requires:1
-Consumer  Opt:1
-Third  Parties:1
-https://apps.fcc.gov/edocspublic/attachmatch/DOC-338091AI.pdf:1
-LeBlanc:1
-"[clonsumers:1
-a say:1
+com/policies/terms/:1
+com/legal/internet-:1
+services/itunes/us/tenns:1
+http://static:1
+arstechnica:1
+com/oppositionletter:1
+alan:1
+lowenthal:1
+27 , 2011:1
+settles:1
+verizon:1
+supercookie:1
+probe:1
+7 , 2016:1
+https://apps:1
+gov/edocspublic/attachmatch/doc-338091:1
+clonsumers:1
 knows:1
-remedy:1
 divide:1
-sound consumer
-privacy:1
- technology  endeavors:1
-Industry:1
-pushback:1
+endeavors:1
 pass:1
-a  proper consumer
-privacy  bill:1
 grinding:1
- halt:1
 teed:1
-the  issue:1
 perfectly:1
-the  standard:1
-pro-consumer, pro-privacy  user agreements:1
-Facebook's Terms:1
- Policy:1
-the  company's  non-consensual  deployment:1
-facial  recognition
-technology:1
-its users'  biometric  data:1
- II:1
-brief:1
-technical:1
-overview:1
- privacy  implications:1
- a
-background  discussion:1
-Facebook's  current  capabilities:1
 outline:1
-the requisite elements:1
+requisite:1
 interplay:1
-explicitly  mention:1
-its  biometric  data  collection  practices:1
-ambiguous:1
-this  sensitive  data:1
-pursuant:1
-Finally,  Section:1
+finally:1
 conclude:1
-an
-explanation:1
-the best position:1
- Data  Policy  agreements:1
-
-consumer  privacy:1
-private-sector  technological  innovation:1
-Apart:1
-Facebook's  biometric  data  collection
-practices:1
- this  section:1
+apart:1
 propose:1
- two  additional  solutions:1
-state  tort  law:1
-the many  legal tools:1
-the California judiciary:1
-its disposal:1
+solutions:1
 safeguard:1
-sensitive  consumer biometric  data:1
-the only hope:1
+hope:1
 addressing:1
-a  forum clause:1
-Service  agreement:1
-disputes:1
- litigation:1
 handled:1
-Responsibilities:1
-[t]he  laws:1
-this
-Statement:1
 arise:1
-
-provisions:1
-https://perma.cc/U848-M6QV:1
-FEDERAL COMMUNICATIONS LAW JOURNAL
-
-Vol:1
- BACKGROUND:1
-A BRIEF  GUIDE TO  FACIAL RECOGNITION:1
-A.  Facial Recognition Technology - A:1
-Brief Technical Overview:1
-resource:1
-a  biometric
-technology 
-identifies 
-individuals:1
+848-m:1
+qv:1
+identifies:1
 measuring:1
 physiological:1
- behavioral  characteristics:1
-"27:1
-Designed:1
+characteristics:1
+designed:1
 mimic:1
-advance:1
-the  human  ability:1
-faces,2:1
-8
-computer  facial  recognition  technology  systems:1
+2 8:1
 capable:1
-an  enormous  amount:1
-facial  data:1
-imaging.2:1
-this
-concept:1
-the  human brain:1
-a limited  ability:1
-the  number:1
+2 9:1
+brain:1
 precisely:1
-recall,3:1
-a  single  server  computer:1
-records:1
-10 seconds.31:1
-The  exact  mechanics:1
-a facial  recognition  technology  system:1
-note.32:1
-a  brief  explanation:1
-the
-fundamental  technology:1
-the  legal
-argument:1
+recall:1
+10 million:1
+less than 10 seconds:1
+exact:1
+mechanics:1
 asserted:1
- herein:1
-four  basic
+herein:1
 components:1
-a facial  recognition technology  system:1
-a camera:1
-capture:1
-an
-image:1
-an algorithm:1
-faceprint:1
 sometimes:1
-a  facial template:1
-a  database:1
-stored images:1
-the  captured image:1
-the database:1
-a  single image:1
-"33:1
-learning:1
 trained:1
-"specific  points:1
- landmarks:1
-every  face:1
-the  top:1
-the chin:1
-each  eye:1
+landmarks:1
+face-the:1
+chin:1
+eye:1
 inner:1
-each  eyebrow:1
-more.34:1
-a  facial
-template:1
+eyebrow:1
 represents:1
-a  person:1
-Danna Voth:1
-recognition technology:1
-IEEE:1
-INTELLIGENT:1
-SYSTEMS:1
+danna:1
+voth:1
+intelligent:1
 4-:1
-(May-June  2003:1
- http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1200719:1
-https://perma.cc/79MK-RQAZ:1
-WENYI:1
- ZHAO &  :1
-RAMA:1
-CHELLAPPA,  FACE  PROCESSING:1
-ADVANCED:1
-MODELING:1
-METHODS:1
-(Academic  Press:1
-Michael  Petrov:1
-Law Enforcement Applications:1
-Forensic Face Recognition:1
-,
-
-MORPHOTRUST 
-http://www.planetbiometrics.com/creofiles/upload/article-
-files/whitepaper  facial  recognition:1
-morphotrust.pdf:1
-[https://perma.cc/UJ6M-DH4B:1
-32:1
+may-june:1
+http://ieeexplore:1
+org/stamp/stamp:1
+jsp:1
+tp=&arnumber=1200719:1
+cc/79:1
+mk-rqaz:1
+wenyi:1
+zhao:1
+rama:1
+chellappa:1
+advanced:1
+modeling:1
+academic:1
+michael:1
+petrov:1
+forensic:1
+planetbiometrics:1
+com/creofiles/upload/article-:1
+files/whitepaper:1
+cc/uj:1
+m-dh:1
 thorough:1
-inquiry:1
-STAN:1
-Z. LI:1
-ANIL K. JAIN:1
-HANDBOOK:1
-2d  ed:1
-Springer:1
-33:1
-34:1
-Adam  Geitgey:1
- Machine Learning:1
-Fun:1
-Part:1
-Modern Face Recognition:1
-
-Deep Learning:1
-MEDIUM:1
-(July:1
-https://medium.com/@ageitgey/machine-leaming-:1
+stan:1
+anil:1
+jain:1
+handbook:1
+springer:1
+adam:1
+geitgey:1
 fun:1
-part-4:1
-modem:1
 deep:1
--leaming:1
--c3cffcl:1
-21 d78#.gz60g6v3i:1
-https://perma.cc/U9NQ-4TXM:1
-JOHN D. WOODWARD:1
- JR:1
-ET AL:1
-BIOMErRICs:1
-LOOK:1
-RAND:1
-identification:1
-verification:1
-purposes.36:1
+medium:1
+july 24 , 2016:1
+https://medium:1
+com/@ageitgey/machine-leaming-:1
+is-fun-part-4-modem-face-recognition-with-deep-leaming-c:1
+cffcl:1
+gz:1
+nq-4:1
+txm:1
+jr:1
+biomerrics:1
+3-4 rand:1
 investment:1
- facial  recognition  technologies:1
 predominantly:1
-government  entities:1
 grown:1
 accurate:1
- new  applications:1
-
-businesses:1
-38  With  an  ever-increasing  demand:1
-the  facial  recognition
-technology  market:1
+ever-increasing:1
+demand:1
 predicted:1
-$2.67 billion:1
-rapid:1
- commercial  purposes:1
-consumer  privacy
-technology:1
-implications:1
- federal
-legislation.4:1
-Privacy Implications:1
-The greatest  concern:1
-the loss:1
-consumers.4:1
-This unease:1
- businesses:1
-individuals:1
-almost anyone:1
-Because  facial
-recognition  technology  essentially  maps  and  codifies:1
-36:1
-In  an  identification  application,  this  :1
+67 billion:1
+greatest:1
+unease:1
+anyone:1
+maps:1
+codifies:1
 scores:1
 closely:1
- template:1
-a  verification
-application:1
-template:1
- one  template:1
 claimed:1
- identity:1
-U.S. Gov'T ACCOUNTABILITY  OFFICE:1
-7  :1
-The  Current and
-Future Applications of Biometric Technologies: Hearing Before the Subcomm:1
-the H.  Comm:1
-Science:1
-Space:1
-113th:1
-(statement:1
-John  Mears:1
- Board Member:1
- International Biometrics  & Identification Association:1
-38:1
-Gov'T:1
-ACCOUNTABILITY  OFFICE:1
+space:1
+mears:1
+board:1
+member:1
+international:1
 39:1
-Facial Recognition Market:1
-Expected:1
-US$:1
-2.67 Bn:1
-Globally:1
-TRANSPARENCY 
-RESEARCH:1
-//www.transparencymarketresearch.com:1
-pressrelease:1
-market.htm:1
-https://perma.cc/92JU-ECGN:1
-MARKET:1
-Jul.:1
-Three:1
-the
-collection:1
+expected:1
+us$:1
+bn:1
+globally:1
+transparencymarketresearch:1
+com/pressrelease/facial-recognition-market:1
+ju-ecgn:1
+jul:1
 signaling:1
-a shift:1
 state-:1
-based  regulatory  framework:1
-piecemeal:1
-a host:1
-
-other  concerns:1
-this  note:1
-discussion:1
-Ted:1
-Claypoole:1
-Cameron:1
-Stoll:1
-Developing:1
-Laws:1
-Address:1
-Flourishing Commercial:1
-Use:1
-Biometric Information:1
-AMERICAN  BAR  ASSOCIATION:1
-(May:1
-https://perma.cc/C84P-GTGW:1
-https://www.americanbar.org/pubications/blt/2016/05/08_claypoole.html:1
-NANCY:1
- YUE  Liu:1
-BIo:1
-PRVACY:1
-REGULATIONS:1
-CHALLENGE:1
-BIOMETRICS:1
-Routledge:1
-Taylor:1
-Francis  Group:1
-a difficult task:1
- link:1
+regulatory:1
+state-by-state:1
+host:1
+ted:1
+claypoole:1
+stoll:1
+developing:1
+flourishing:1
+bar:1
+cc/c:1
+p-gtgw:1
+americanbar:1
+org/pubications/blt/2016/05/08_claypoole:1
+nancy:1
+bio-prvacy:1
+challenge:1
+routledge:1
+taylor:1
+francis:1
+task:1
 indirectly:1
-other personal data:1
-i]f personal  information:1
 linked:1
-the  biometric  data:1
-
-ability:1
 anonymous:1
 diminished:1
-geometry,4:1
+geometry:1
+4 3:1
 advocates:1
 conversion:1
 voluntarily:1
- ones:1
-a resource:1
-that others:1
-readable:1
-points:1
+ones:1
+machine-readable:1
 eliminates:1
- one's  ability:1
- retailers:1
+california-based:1
 repeat:1
- shoplifters:1
+shoplifters:1
 persons:1
-a  facial
-database:1
 enters:1
-the  store:1
- the  system:1
-immediately  notifies:1
-owner:1
-an "alert:1
-their picture:1
-all biographical  information:1
-the  known  individual:1
-"45:1
-FaceFirst  touts:1
-a beneficial  service:1
- casinos:1
+immediately:1
+notifies:1
+alert:1
+biographical:1
+beneficial:1
+casinos:1
 stadiums:1
-enhance:1
 concurrently:1
 cracking:1
-crime:1
-shoplifting.46:1
- FaceFirst's quest:1
+shoplifting:1
 maximize:1
- commercial profits:1
-
-enhance customer service:1
+profits:1
 wants:1
-no consumer privacy law:1
-no legal obligation:1
-the facial
-recognition  technology:1
-Further,  the  lengths:1
+obligation:1
+lengths:1
 employed:1
- a  facial
-recognition:1
-FindFace:1
-a stranger:1
- discern:1
-70%:1
-accuracy.4:1
+far-reaching:1
+stranger:1
+up to 70%:1
 similarities:1
-Recognizr:1
-Swedish:1
-a smartphone camera:1
-another person:1
+recognizr:1
+swedish:1
+smartphone:1
 cloud:1
-server:1
 conducts:1
-the  facial recognition:1
-the  subject's
-name:1
 links:1
-sites:1
-the  person:1
-Woodward:1
-a person's face:1
-camera:1
+4 8 43:1
 clandestine:1
 covert:1
 capability:1
-the
-subject:1
 observed:1
 44:1
-http://www.facefirst.com/services/retail:1
-accord:1
-Natasha  Singer:1
-a Face:1
-The Crowd:1
-N.Y. TIMES:1
-(Feb.:1
-1, 2014:1
-https://www.nytimes.com/2014/02/02/technology/when-no-one-is-just-a-face-in-the-:1
-crowd.html:1
-https://perma.cc/92UQ-HS3F:1
-Face 
-Recognition:1
-Retail:1
-Stores:1
-FACEFIRST:1
-https://perma.cc/WW9M-EJZY:1
-https://www.facefirst.com/industry/retail-face-recognition/:1
-public 
-
-anonymity:1
-generally Shaun Walker:1
-Face recognition app:1
+com/services/retail:1
+18 , 2016:1
+natasha:1
+singer:1
+1 , 2014:1
+com/2014/02/02/technology/when-no-one-is-just-a-face-in-the-:1
+uq-hs:1
+retail:1
+cc/ww:1
+m-ejzy:1
+com/industry/retail-face-recognition/:1
+shaun:1
+walker:1
 storm:1
-https://www.theguardian.com/technology/2016/may/17/findface-face-recognition-app-end-:1
+com/technology/2016/may/17/findface-face-recognition-app-end-:1
 public-anonynmity-vkontakte:1
-https://perma.cc/H3TG-TPQM:1
+cc/h:1
+tg-tpqm:1
 touting:1
-the  facial  recognition
-technology:1
-FindFace  founder:1
-their  identity:1
-a  friend request:1
- similar people:1
-a  movie star:1
-your  ex:1
- 10  girls:1
-similar:1
+movie:1
+star:1
+ex:1
+girls:1
 48:1
-Clay  Dillow:1
-Augmented Identity App:1
-Helps:1
-Identify:1
- Strangers:1
-the Street:1
-SCIENCE:1
-POPULAR:1
-02:1
+clay:1
+dillow:1
 augmented:1
 helps:1
-friend:1
--perfect-strangers:1
-[https://perma.cc/LL4T-7VBN:1
-http://www.popsci.com/technology/article/2010-
-
-Issue:1
-the biggest  privacy issue:1
-o]nce:1
-your  faceprint:1
-your name:1
-your social
-networking  account:1
-the street:1
-the  stores:1
-you  visit:1
-the  Government  buildings:1
+strangers:1
+02/augmented-identity-app-helps-you-identify-friend-perfect-strangers:1
+cc/ll:1
+vbn:1
+23 , 2010:1
+popsci:1
+com/technology/article/2010-:1
+buildings:1
 enter:1
-your  friends:1
-post:1
+4 9:1
 experiments:1
 conducted:1
-Carnegie  Mellon
-:1
-the  street:1
 recognizer:1
- social
-network  sites:1
-Linkedin:1
+linkedin:1
 infer:1
-sensitive:1
-o]nce  data:1
 resides:1
 erase:1
-"51:1
 flirms:1
- snapshots:1
+snapshots:1
 yield:1
-the cached webpages:1
-your browser searches:1
-"52:1
+cached:1
+webpages:1
+browser:1
+searches:1
 preemptively:1
-their  privacy:1
 prevalence:1
-hacking:1
-a  serious  concern:1
-the wake:1
-increased  facial  recognition technology:1
+wake:1
 cyber-attack:1
-1 billion:1
-accounts:1
-hacked:1
-a  data
-breach:1
-sensitive  user information:1
 names:1
- telephone
-numbers:1
+telephone:1
 dates:1
- birth:1
 encrypted:1
- passwords:1
+passwords:1
 unencrypted:1
-questions:1
 reset:1
-a password.5:1
-the significance:1
-Yahoo's  data:1
+5 3:1
+significance:1
 discounted:1
- the  consequences:1
-
 repercussions:1
 severe:1
- facial  recognition  data:1
-y]ou:1
-your password:1
-a new
-credit  card:1
-"54:1
-Civil  Liberties:1
-the S.  Subcomm:1
-the  S.  Comm:1
+1 49:1
 1-2:1
-[hereinafter:1
- Facial Recognition Hearing:1
- S.  Subcomm:1
-
-the  Law:1
-https://www.gpo.gov/fdsys/pkg/CHRG-1:1
-12shrg86599:1
-pdf:1
-CHRG-:1
-112shrg86599.pdf:1
-https://perma.cc/DT2B-KNSN:1
-testimony:1
-Professor:1
-Alessandro:1
-Acquisti:1
-Carnegie:1
-Mellon:1
-https://www.judiciary.senate.gov/imo/media/doc/12-7-18AcquistiTestimony.pdf:1
-https://perma.cc/J2FM-AXCN:1
-52:1
-Bernard  J.  :1
-Jansen:1
- Real Life:1
-Needs:1
-A  Study:1
-andAnalysis:1
-User Queries:1
-the  Web:1
-36  INFO:1
-PROCESSING:1
-MGMT:1
+hereinafter:1
+gpo:1
+gov/fdsys/pkg/chrg-1:1
+86599/pdf/chrg-:1
+86599:1
+cc/dt:1
+b-knsn:1
+professor:1
+alessandro:1
+acquisti:1
+gov/imo/media/doc/12-7-18:1
+acquistitestimony:1
+cc/j:1
+fm-axcn:1
+bernard:1
+jansen:1
+andanalysis:1
+queries:1
+mgmt:1
 53:1
-Vindu:1
-Goel:1
-Perlroth:1
-Says:1
-1 Billion User Accounts:1
-Hacked:1
-https://www.nytimes.com/2016/12/14/technology/yahoo-:1
-TiMEs:1
-hack.html:1
-https://perma.cc/6NP7-N3RL:1
-54:1
-Sen.  Al:1
-S. Subcomm:1
-
-
-FEDERAL COMMUNICATIONS LA  W JOURNAL:1
-C.  Facebook's Current Capabilities:1
-Facial Recognition
-
-Technology:1
-tag"55  friends:1
-platform.5:1
+vindu:1
+goel:1
+perlroth:1
+com/2016/12/14/technology/yahoo-:1
+hack:1
+np:1
+7-n:1
+rl:1
+tag"55:1
 originally:1
-tag  friends:1
 debuted:1
-suggestions:1
-the tagging process:1
-easier:1
-users.5:1
-7 Facebook:1
+5 7:1
 describes:1
- its  tag  suggestions:1
 follows:1
-a
-photo:1
-your  friend's  photos:1
-the  other photos:1
-"58:1
-final  step:1
-"associate:1
-your account:1
-"59:1
-the  heart:1
-in  Facebook's  Help  Center:1
-Mentioned:1
+final:1
+heart:1
 briefly:1
 calculate:1
-('template:1
-someone's facial  features:1
-the distance:1
-the
 eyes:1
- nose:1
+nose:1
 ears:1
-"6:1
 crafted:1
-each user's
-profile:1
- photos.6:1
- suggestion:1
-"tag:1
-you,"62:1
-a
-template:1
-the individual user's profile:1
-individually:1
-photos.63:1
-nearly  :1
-touts:1
-an individual:1
-a single picture:1
+nearly 98%:1
 800 million:1
-under five seconds.65:1
-Unsurprisingly:1
-d]ue:1
-the large
-number:1
-these users:1
+under five seconds:1
+unsurprisingly:1
+ue:1
 actively:1
-a link:1
-their profile:1
 effectively:1
-the photo:1
-https://www.facebook.com/help/124970597582337:1
-https://perma.cc/DP5W-M62Q:1
-Photos:1
-https://www.facebook.com/help/463455293673370:1
-https://perma.cc/GAV3-CQYH:1
-Making:1
-Photo:1
-Easier:1
-https://www.facebook.com/notes/facebook/making-photo-tagging-easier/467145887130/:1
-https://perma.cc/FS3Z-VQVW:1
-FACEBOOK  supra note:1
-19, 2016:1
-59:1
-63:1
-Inside Facebook's Biggest Artificial Intelligence Project:1
-http://fortune.com/facebook-machine-leaming/:1
-Ever:1
-https://perma.cc/E7FW-QGHN:1
-Id.
-
-Issue:1
- recognition:1
- system:1
-robust:1
-these  private sector products:1
-"66:1
-its  "Download  :1
-Your  Information"  tool:1
-a
-fractional  portion:1
-a  user's  personal  data  file:1
-an  arguably
-inadequate  amount:1
-the biometric  data:1
-user.68:1
+com/help/124970597582337:1
+cc/dp:1
+w-m:1
+com/help/463455293673370:1
+cc/gav:1
+3-cqyh:1
+com/notes/facebook/making-photo-tagging-easier/467145887130/:1
+cc/fs:1
+z-vqvw:1
+inside:1
+artificial:1
+intelligence:1
+project:1
+com/facebook-machine-leaming/:1
+fw-qghn:1
+well-developed:1
+sector:1
+fractional:1
+portion:1
+inadequate:1
 inquiring:1
 curious:1
-the  facial  recognition
-data:1
-Threshd:1
-3.5095708370209:1
-Threshold:1
-3.2094926834106
-:1
-Threshold 3  1.668349981308
-
-Example Count 237
-
-Figure:1
-A user:1
+threshd:1
+5095708370209:1
+2 3:1
+2094926834106:1
+3 1:1
+668349981308:1
 trying:1
-what biometric  data  Facebook:1
 nonsensical:1
 strand:1
-numbers:1
 exhaustive:1
-Facebook's  Help  Center
-:1
-no explanation:1
-Thresholds:1
-"Example  Count:1
-an explanation:1
-what facial recognition
-data:1
-has.71:1
 technically:1
-the  facial  recognition  data:1
-66:1
-https://www.facebook.com/help/405183566203254/:1
-[https://perma.cc/2RJN-R7FW:1
- different categories:1
-different time:1
- periods:1
-your data:1
+com/help/405183566203254/:1
+rjn-r:1
+fw:1
+periods:1
 joined:1
-Consumer  Reports:1
- Facebook &
-:1
 yourprivacy:1
-the biggest social network:1
-CONSUMER REPORTS
-MAGAZINE:1
-https://www.consumerreports.org/cro/magazine/2012/06/facebook-:1
-your-privacy:1
-index.htm:1
-https://perma.cc/6VN2-47BD:1
-Facebook's  Download  :1
- Facial
-Recognition  Data:1
-a]  unique  number:1
-a  comparison:1
+june 2012:1
+consumerreports:1
+org/cro/magazine/2012/06/facebook-:1
+your-privacy/index:1
+vn:1
+2-47:1
+bd:1
 exemplified:1
-Your Facebook:1
-my  data:1
-the people:1
-BuSINESS:1
+the people i years:1
 unfriended:1
-
-http://www.businessinsider.com/how-to-download-data-from-facebook-2016-5/#in-the-
-settings-menu:1
-normally:1
-your-password:1
-the-download:1
-copy-:1
+businessinsider:1
+com/how-to-download-data-from-facebook-2016-5/#in-the-:1
+settings-menu-where-you-normally-change-your-password-click-the-download-a-copy-:1
 button-2:1
-https://perma.cc/48DU-DEKT:1
-INSIDER:1
-71:1
-Facebook even  :1
- file:1
-The  three  thresholds:1
-apparently Facebook:1
-237 examples:1
-The  problem:1
-no  biometric  privacy law:1
+cc/48:1
+du-dekt:1
+insider:1
+10 71:1
+apparently:1
+examples:1
 unrestrained:1
-prints:1
-Acting:1
-purely:1
-best  interest:1
- issues:1
 extraordinarily:1
 overbroad:1
-its  data
-collection:1
-next  section:1
-how  Facebook:1
-the
-company's  utilization:1
- biometric  data
-collection practices:1
-CONSUMERS
-III:1
-ITS  USE:1
-How THE
-COMPANY:1
-The Doctrine:1
-Notwithstanding:1
+notwithstanding:1
 adjudicated:1
-California7:1
 adhered:1
-the  guidance:1
-Williams  v.  Walker-Thomas:1
-the  parties:1
-the  other party:1
-"73:1
-Accordingly,  it:1
-a  substantive  element:1
 former:1
-
-surprise  due  to  unequal  bargaining  power:1
-latter:1
-one-
-sided results:1
+one-:1
 rendered:1
 opposing:1
-unconscionability.75:1
-a  "sliding  scale:1
- test:1
-the  contract  term:1
-the
-evidence:1
- procedural  unconscionability 
-conclusion:1
+sliding:1
 unenforceable:1
 72:1
-e.g., A  & M  Produce  Co. v.  FMC  Corp.:1
+fmc:1
 473:1
-(4th  Cir:1
 1982:1
-Stirlen  v.  Supercuts:1
 1519:1
 1542:1
-1997:1
- Dean
-Witter Reynolds:1
+4 th 1997:1
 758:1
-767  :1
-1989:1
-73:1
-Williams v.  Walker-Thomas  Furniture  Co.:1
-445,449:1
-D.C.  Cir:1
+767:1
+3 d 1989:1
+furniture:1
+445:1
 1965:1
 1133:1
-
-Baltazarv:1
-Forever2l:1
+baltazarv:1
+2 l:1
 1237:1
 1233:1
-& MProduce Co.:1
- 3d:1
-MATTHEw:1
-CONTRACT:1
-LITIGATION:1
- CH:1
-18,  18.15[3:1
-Armendariz v. Foundation  Health  Psychcare  Services  Inc.:1
-Arropside:1
-West:1
-Henderson:1
-1578:1
-(lending  support:1
-several  California  courts:1
+matthew:1
+ch:1
+arropside:1
+west:1
+henderson:1
+3 d 1578 , 1588:1
+lending:1
 compelling:1
 overcome:1
 weaker:1
-the California:1
 assert:1
-this  defense:1
-"77:1
-basic:1
-the  light:1
-background:1
-trade:1
-existing:1
-the
-time:1
-"78:1
 frequently:1
-situations:1
-an  arbitration
-clause,79 California  courts:1
 nonarbitration:1
-"80:1
-In  the  commentary:1
-California's  unconscionability  statute:1
-California Civil:1
- Code:1
-specifies:1
-s]ection:1
-the  courts:1
- police:1
+ection:1
 empowered:1
 constrained:1
-the lack:1
-a precise definition:1
 rein:1
-define:1
-a  case:1
+case-by-case:1
 tasked:1
-the  assistance:1
+assistance:1
 formally:1
- rules:1
-
-definitions:1
-Procedural Unconscionability:1
-Procedural:1
-manner:1
 negotiated:1
-the  circumstances:1
-the parties:1
-that  time:1
 prong:1
-the  unconscionability  doctrine:1
-1670.5(a:1
-Scissor-Tail:1
-807  :1
-
-a  contract:1
-a  mandatory  arbitration:1
-the plaintiff's reasonable  expectations:1
-Transamerica HomeFirst:1
+scissor-tail:1
+807:1
+transamerica:1
+homefirst:1
 846:1
-mandatory:1
- adhesion  contract:1
-80:1
-Lyft:1
-129 F.  Supp:1
+4 th 2001:1
+take-it-or-leave:1
+lyft:1
 945:1
 953:1
 81:1
-comment:1
-[i]n:1
 policing:1
 accomplished:1
-adverse:1
 construction:1
- language:1
 manipulation:1
-the  rules:1
-acceptance:1
- determinations:1
- the  clause:1
-the  dominant purpose:1
-Lewis:1
-Kornhauser:1
- Unconscionability:1
-Standard Forms:1
-[t]he 
-
-legal  concept:1
-unconscionability 
-
-REv:1
+determinations:1
+lewis:1
+kornhauser:1
+forms:1
 1151:1
 1156:1
 1976:1
-http://scholarship.law.berkeley.edu/califormialawreview/vo164/iss5/2:1
-https://perma.cc/9C4S-THSQ:1
+http://scholarship:1
+berkeley:1
+edu/califormialawreview/vo:1
+164/iss:1
+5/2:1
+s-thsq:1
 expanded:1
-Lyra Haas:1
-The Endless Battleground: California 's Continued Opposition
-:1
-The Supreme Court's Federal Arbitration Act Jurisprudence:1
-94 B.U.  L. REv:1
+lyra:1
+haas:1
+battleground:1
 1419:1
 1420:1
 1452:1
-http://www.bu.edu/bulawreview/files/2014/08/HAAS.pdf:1
-https://perma.cc/86K2-36AT:1
-"California  courts:1
-demonstrate[ed:1
-a tendency:1
+edu/bulawreview/files/2014/08/haas:1
+cc/86:1
+2-36:1
 interpret:1
-each possible exception:1
-each power:1
 narrowly:1
-pursuing:1
-every  line:1
-
-reasoning:1
 cut:1
-contradictory Supreme  Court jurisprudence:1
-California
-Supreme  Court:1
+contradictory:1
 considers:1
- unconscionability:1
-a valid  argument:1
-Davidson  & Assocs:1
-Gateway:1
+davidson:1
+assocs:1
+gateway:1
 334:1
-1179:1
-(E.D.  Mo.:1
-70
-
-elements:1
-"84:1
-the "use:1
+2 d 1164 , 1179:1
+mo:1
 establishes:1
 minimal:1
-this  latter
-degree:1
- procedural  unconscionability 
-determination:1
-"an absence:1
-meaningful  choice,"86:1
-the  supposedly  agreed-upon terms:1
-the bargain:1
-a prolix:1
-printed  form:1
 8 7:1
-The  elements:1
- procedural
-unconscionability:1
-Policy Constitute:1
-an  Adhesion
-Contract:1
-
-adhesion:1
-u]nconscionability:1
+nconscionability:1
 begins:1
-an  inquiry:1
-that Facebook's  :1
-fundamental:1
-these  agreements:1
-An  adhesion  contract:1
-a standardized  agreement:1
-"superior  bargaining  strength:1
 prepares:1
-the  other  party:1
 reject:1
-the
-terms:1
-Simplified, contracts:1
- basis:1
-referred:1
-two  choices:1
+simplified:1
 adherence:1
- rejection:1
-92  Adhesion  contacts:1
 simplifying:1
-business  operations:1
+operations:1
 increasing:1
 reducing:1
-expenses.93:1
-these types:1
- agreements:1
+expenses:1
 commonplace:1
-135 Cal:1
 85:1
-18.15[4][a:1
-Williams:1
 87:1
 88:1
-Nagrampa:1
-MailCoups:1
+nagrampa:1
+mailcoups:1
 469:1
 1257:1
 1281:1
 853:1
-Circuit  City  Stores:1
-Adams:1
+adams:1
 889:1
 893:1
-(9th
-Cir:1
-24  Cal:1
 817-19:1
-28 Cal:1
 817:1
-Theory:1
-A  Suggested Redefinition:1
 1978:1
-See E. ALLEN FARNSWORTH:1
-ASPEN  PUBLISHERS:1
-Id.
-Id.:1
-L.A.  L.  REv:1
-http://digitalcommons.lmu.edu/llr/volll/iss2/8:1
-https://perma.cc/2D5N-G6N3:1
-Banking:1
-11 
-
-Issue:1
-today,95:1
+aspen:1
+publishers:1
+lmu:1
+edu/llr/volll/iss:1
+2/8:1
+n-g:1
+298 11:1
+today:1
 carrying:1
-benefits,9:1
-d]angers:1
- standardization:1
-"9:1
-A  determination:1
+angers:1
+standardization:1
 constitutes:1
-the  inquiry:1
-t]o:1
 describe:1
-character:1
-its
-legal  effect:1
-"98:1
 presumptively:1
-California9:1
- certain  other  factors:1
-legal  rules:1
- Contracts:1
-the  agreement:1
+9 9:1
 meaningfully:1
-a  claim:1
-" 1°:1
 commerce:1
 exposed:1
-many new  situations:1
-the  principles:1
- contract:1
-"10:1
-principles:1
-
-contract law:1
-"[m]utual  manifestation:1
+10 2:1
+utual:1
+manifestation:1
 spoken:1
-
 word:1
-the touchstone:1
-"'0:1
-prospective  users:1
+touchstone:1
 fill:1
-last  name:1
- mobile  number  or  email,  password:1
-date:1
-
-birth:1
-gender.10:1
-A  small  message:1
+gender:1
+10 4:1
 sits:1
-the  sizable  green  "Create
-Account"  button:1
-Create:1
- Account:1
-our Terms:1
-SMS:1
-Notifications:1
-95:1
-Neal:1
-State Farm Ins:1
-690,694:1
-Tloday:1
-the  impact:1
-these standardized  contracts:1
+sizable:1
+green:1
+neal:1
+farm:1
+690:1
+694:1
+tloday:1
 exaggerated:1
-Most contracts:1
-a  standardised  character:1
-contractual:1
+standardised:1
 relations:1
-the  incidents:1
-daily  life:1
-
-agreements:1
+incidents:1
 faits:1
 accomplish:1
 818:1
-n.15:1
- Adhesion Theory:1
-California.- A  Suggested Redefinition:1
-its Application to Banking:1
-L.A.L. REv:1
-297-98:1
-benefits:1
-standardized  contracts:1
-advance
-knowledge:1
-the  enterprise:1
-its relationship:1
-each
-individual  consumer:1
+enterprise:1
+relationship:1
 offeree:1
 uniform:1
 fixed:1
-the device:1
-form contracts:1
-
 introduces:1
-efficiency:1
-stability:1
- such  contracts:1
 savings:1
 energy:1
-benefit:1
 covered:1
-these contracts:1
-the reach:1
-the general public:1
-whose:1
-sheer  size:1
+size:1
 prohibit:1
- the  necessary  contractual
 relationships:1
 individualized:1
-Transactional:1
-therefore the  possible prices:1
-these  goods  and  services:1
+transactional:1
+prices:1
 short:1
-form:1
- mass-consumption  economy:1
-economic
+economic:1
 utility:1
+819:1
 99:1
 820:1
-208 cmt:1
 102:1
- Register.com:1
-Verio:1
+verio:1
 393:1
 404:1
 103:1
-Specht:1
-Netscape Commc'ns  Corp.:1
+specht:1
+netscape:1
+commc'ns:1
 104:1
-Home:1
-https://perma.cc/RFR9-X7DR:1
-""1:1
+819-20:1
+cc/rfr:1
+9-x:1
+dr:1
+1 5:1
 hyperlinked:1
-the
-entirety:1
-10 6  :1
-this  point:1
- the
-prospective  user:1
+10 6:1
 compels:1
 unambiguously:1
 manifest:1
-either assent:1
-rejection:1
-the product,""1:1
+product:1
+1 8:1
 viewed:1
-the  necessary
-element:1
-important:1
-
 arguments:1
 complaining:1
-alternative.0:1
-no element:1
-its  formation:1
-these  additional  elements:1
-Imposed:1
-an  Oppressive Manner:1
-a  procedural  unconscionability  analysis:1
-o]ppression:1
+0 9:1
+formation:1
+ppression:1
 arises:1
-an inequality:1
- power:1
-no real negotiation:1
-'an
-absence:1
-The inequality:1
-bargaining power:1
 illustrated:1
-AT&T.:1
-AT&T mass:1
 mailed:1
-a  Consumer  Services  Agreement:1
-("CSA:1
-a  binding  arbitration
-clause:1
-60  million  customers:1
-Prior  to  this  mass  mailing:1
-a  "market  study:1
- most  customers:1
+60 million:1
 discard:1
-letter:1
 disclaimer:1
-P]lease:1
+lease:1
 assured:1
-your AT&T service:1
 billing:1
-AT&T  Consumer  Services:1
-Agreement:1
-Referred:1
-the Statement:1
- Responsibilities:1
-accessing:1
-the Facebook  Services:1
 accordance:1
- Section:1
-https://www.facebook.com/legal/terms:1
-https://perma.cc/5YFP-9CEW:1
-Apr.
-4, 2017:1
+30 , 2015:1
+com/legal/terms:1
+cc/5:1
+yfp-9:1
+cew:1
 108:1
- Register.corn, Inc.:1
+corn:1
 429:1
 109:1
 769-72:1
- a contract:1
-alternatives:1
 contracting:1
-the
-form:1
-other sources:1
+sources:1
 supply:1
 defeat:1
- Cf  Gatton:1
-T-Mobile:1
+gatton:1
+t-mobile:1
 571:1
 585:1
-existence:1
 availability:1
- alternatives:1
-an
-adhesion contract:1
-some  level:1
 110:1
- Williams:1
-1126:1
+3 d 1126:1
 1133-34:1
-9th  Cir:1
-The  agreement:1
- customers:1
 pay:1
-AT&T's  service:1
-"'114:1
-The  Ting Court:1
 procedurally:1
-its customers:1
-opportunity:1
 modification:1
-waiver:1
-an Indisputable Inequality:1
-Bargaining Power:1
 vein:1
-no  meaningful
-opportunity:1
-a  Facebook  user:1
 reservation:1
-only option:1
 succumb:1
-terms.116:1
-considering:1
 strictly:1
 least:1
-some  element:1
-b.:1
-Meaningful:1
-Choice:1
-Controlling:1
-Their Biometric Data:1
-Obtained:1
-Consensually:1
-the
-inclusion:1
+non-consensually:1
 highlighted:1
-identifiers.118:1
 instruction:1
-
-choice:1
 destroy:1
-any biometric  identifiers:1
-the  company.119:1
 1134:1
 115:1
 1149:1
-Sign:1
-our  Terms:1
-
-SMS Notifications:1
-no alternative  contact
-information:1
-Patel:1
-Facebook,  Inc.:1
-1:15-CV-04265:1
-2015 WL:1
+patel:1
+1:15-cv-04265:1
+wl:1
 2265958:1
-N.D. Ill.:1
-Facebook's  failure:1
-written policy:1
-its  schedule:1
-the retention:1
-permanent:1
-
-biometric  information:1
-their Facebook accounts:1
+14 , 2015:1
 14-day:1
 window:1
- deletion:1
 takes:1
- effect:1
-its Help  Center:1
-Facebook  reserves:1
-(https://www.facebook.com/help/125338004213029:1
-a  more  in-depth  discussion:1
+com/help/125338004213029:1
+in-depth:1
 criticized:1
-the  deletion  process:1
 deceptively:1
-Glenn Stok:1
-Facebook 's Deception ofDeactivated Accounts:1
-TURBOFUTURE:1
+glenn:1
+stok:1
+deception:1
+ofdeactivated:1
+turbofuture:1
 days:1
-b]iometrics:1
+iometrics:1
 biologically:1
-the  individual:1
-no  recourse:1
-manually  opts:1
+recourse:1
+opts-out:1
 retains:1
-regardless:1
-not the  user:1
-the  first place:1
-full Data Policy:1
-her account:1
-the  company  "store[s:1
-products:1
-"'22:1
-This
-clause:1
-neither precise  information:1
- timetable:1
-permanent  destruction:1
-The risk:1
-the business:1
-consumer data:1
-no  meaningful  choice:1
+timetable:1
 unquestionably:1
-such data:1
+opt-:1
 left:1
-the  dark:1
- a user:1
-the  Tag  Suggestions
-:1
 somewhat:1
 misleading:1
 varying:1
-
 interpretations:1
-numerous  occasions:1
+occasions:1
 announced:1
-a  user:1
-a  facial  recognition
-template:1
-profile pictures:1
-Facebook's  Help Center:1
-https://turbofuture.com/internet/Obsolete-Facebook-Profile-Charade:1
-https://perma.cc/RFM9-7PVJ:1
+https://turbofuture:1
+com/internet/obsolete-facebook-profile-charade:1
+cc/rfm:1
+9-7:1
+pvj:1
 95-2400:1
-2nd:1
-Sess:1
-https://www.facebook.com/full-datausepolicy:1
-https://perma.cc/MJS4-8Y2W:1
-Hearing, supra note:1
-
-Privacy  Tech:1
-the  Law:1
-https://www.facebook.com/aboutprivacy/:1
-Data 
-
-FACEBOOK:1
-https://perma.cc/4S7T-MCEM:1
+nd:1
+sess:1
+com/full-datausepolicy:1
+cc/mjs:1
+4-8:1
+com/aboutprivacy/:1
+t-mcem:1
 modified:1
+16 , 2016:1
 sued:1
-Illinois  users:1
-Act:1
-the  U.S. District Court:1
-the  Northern District:1
-The
-plaintiffs:1
-among:1
-other  claims:1
-a  publicly
-available retention schedule:1
 destroying:1
-the biometric identifiers:1
-plaintiffs:1
 class:1
- 'Tag  Suggestions':1
-Information Privacy:1
 124:1
-Jason Kint:1
-the ad:1
-
-CONTENT:1
-https://digitalcontentnext.org/blog/2016/06/16/google-and-facebook-devour-the-ad-and-data-
-pie-scraps:1
-else/:1
-https://perma.cc/6Q75-8VYJ:1
-tags:1
- HELP  CENTER:1
+75-8:1
+vyj:1
 helprefrfaqcontent:1
-https://perma.cc/7SCS-DVAN:1
-a tag:1
-the template:1
-whose  tag:1
-
-Manager:1
-Privacy  & Public Policy:1
-Alexei:1
-Oreskovic:1
+cc/7:1
+scs-dvan:1
+alexei:1
+oreskovic:1
 add:1
-your profile photo:1
-facial recognition database:1
-NBC NEWS:1
-Aug. 29:1
-12:23  PM:1
-http://www.nbcnews.com/technology/facebook-may-add-your-profile-photo-facial-:1
-database-8C11030921:1
-Chief:1
-Officer:1
-Erin  Egan:1
+nbc:1
+29 , 2013 12:23 pm:1
+nbcnews:1
+com/technology/facebook-may-add-your-profile-photo-facial-:1
+recognition-database-8:1
+11030921:1
+officer:1
+erin:1
+egan:1
 stressed:1
- 'opt:1
-the  Tag  :1
-Suggest:1
-https://perma.cc/FUC7-LFAP:1
-associate:1
-your  account:1
+cc/fuc:1
+7-lfap:1
 indication:1
-guarantee:1
-
-any associated facial recognition:1
-the user's profile:1
- Tag Suggestions:1
 disabling:1
-Tag  Suggestion:1
 removes:1
-the  option:1
-one  user  tags:1
-Ultimately:1
-a summary
-template:1
-her pictures:1
-such,  users:1
-no choice:1
-stores:1
-their right:1
-face prints:1
-their face:1
+ultimately:1
 user-:1
-
-uploaded  photographs:1
 develop:1
-its robust  facial  recognition  data
-library:1
-its billion-plus account holders:1
+holders:1
 announcing:1
-the  creation:1
+creation:1
 hastily:1
 publicized:1
- the  feature:1
 deployed:1
 domestically:1
 internationally:1
-its
-users.13°:1
 coming:1
 admit:1
-roll:1
-"13:1
-Simply:1
+roll-out:1
 blatantly:1
-no meaningful  choice:1
-this invasive  biometric
-data  collection:1
-all users:1
-13 2 Thus,
-
-which  case  the  person's  public  profile  photo:1
-HELP:1
-https://www.facebook.com/help/218540514842030?helpref=-faq_content:1
-[https://perma.cc/R6Z5-Q93K:1
+13 2:1
+com/help/218540514842030:1
+helpref=-faq_content:1
+5-q:1
 helpref:1
-=faqcontent:1
-https://perma.cc/8P2K-H9M2:1
-Apr. 3:1
-the  summary data:1
+faqcontent:1
+k-h:1
 unclear:1
-this  step:1
-biometric
-data:1
 forward:1
- THE FACIAL  IDENTIFICATION:1
- Other
-Trade  Commission:1
-https://epic.org/privacy/facebook/EPICFBFRFTCComplaint:1
+org/privacy/facebook/epicfbfrftccomplaint:1
 06:1
-.pdf:1
+10-11:1
 130:1
 131:1
-https://epic.org/privacy/facebook/EPICFBFR:1
-FTCComplaint06_10_l:1
-1.pdf:1
-Trade  Commission:1
-the facial recognition:1
-unsuspecting:1
- 500  million users:1
-2011.133:1
-Facebook's  lack:1
+org/privacy/facebook/epicfbfr:1
+ftccomplaint:1
+06_10_l:1
+500 million:1
 stealth:1
-
-non-consensual  deployment:1
 focal:1
-Senate  Subcommittee:1
-Law  hearing:1
-Senator:1
-Facebook's  Privacy  and
-:1
-Policy  Manager:1
-the  obvious  question:1
-decision:1
-their privacy settings:1
-Facebook's  Privacy  and  :1
-Policy Manager:1
-no  guarantees:1
+subcommittee:1
+senator:1
+guarantees:1
 eerily:1
 remarking:1
-five:1
-10 years:1
+five or 10 years:1
+hard:1
 respond:1
-six  years:1
+35 yet six years later:1
 programmed:1
-
-opt:1
-its biometric data:1
-any notice:1
-this practice:1
-the  company's Terms of Service:1
- factors:1
-meaningful
-choice:1
 supporting:1
-c.:1
-Practically:1
-Speaking:1
-Social Media:1
-Platforms:1
-Comparable:1
-Meaningful
-Alternative:1
- some  California  courts:1
-no
-oppression:1
-unequal
-bargaining:1
-an adhesion  contract:1
-the  customer:1
-meaningful  choices:1
-day:1
-age:1
-a  purely  statistical
-standpoint:1
+practically:1
+comparable:1
+this day:1
+statistical:1
 evidenced:1
-Pew  Research  Center  study:1
-popular:1
-platform:1
-a  "substantial  margin:1
 eight:1
-10  Americans:1
 79%:1
-all
-Internet users:1
-13 7 Instagram:1
- second place:1
-Charles  Arthur:1
-new privacy row:1
-facial recognition feature:1
-June 
-2011:1
-https://www.theguardian.com/technology/201:1
-jun/08:1
-https://perma.cc/56HN-2NPD:1
-Ricardo  Bilton:1
-tough  questions:1
-
-Senate hearing:1
-VENTUREBEAT:1
-July 18:1
-http://venturebeat.com/2012/07/18/facebook-:1
-tough:1
--questions:1
--recognition:1
-senate:1
-hearing/:1
-[https://perma.cc/manage/create:1
-Wayne:1
-Staples:1
-466:1
+arthur:1
+row:1
+com/technology/201:1
+1/jun/08/facebook-privacy-facial-recognition:1
+cc/56:1
+hn-2:1
+npd:1
+ricardo:1
+bilton:1
+hit:1
+venturebeat:1
+july 18 , 2012:1
+http://venturebeat:1
+com/2012/07/18/facebook-:1
+hit-with-tough-questions-on-facial-recognition-in-senate-hearing/:1
+cc/manage/create:1
+wayne:1
+staples:1
 482:1
+2 d 2006:1
 771:1
-Shannon  Greenwood:1
-Social Media Update:1
-
-http://www.pewinternet.org/2016/11/1  1/social-media-update-2016/:1
-[https://perma.cc/N6VM-BP6M:1
-mere:1
+shannon:1
+update:1
+org/2016/11/1:1
+1/social-media-update-2016/:1
+vm-bp:1
 32%:1
-the  photo:1
 hosting:1
-platform.13:1
-The  enormous
 disparity:1
-each respective platform:1
 overstated:1
 comparing:1
-Facebook's  1.86:1
-active users:1
-Instagram's
-600 million14 °:1
-active:1
-first blush:1
-a meaningful
-alternative:1
+86 billion:1
+blush:1
 owns:1
-its  second-place
+second-place:1
 rival:1
- Instagram:1
-Privacy  Policy:1
-
-"'collaborat[ed:1
+collaborat:1
 team:1
-insights:1
-2013.141:1
-how  much
-information:1
-the two  companies:1
-a reporter:1
-The Wall  Street Journal:1
+reporter:1
 fresh:1
-email:1
-didn't  sync:1
-Instagram's  follower:1
-
+sync:1
+follower:1
 recommendations:1
-Facebook  friends:1
 14 2:1
 happened:1
-e]ven:1
-[their]  contacts:1
-the
-network:1
+ven:1
+information-or:1
 calls:1
- contacts:1
-other  tangential  information:1
-Thus:1
-an alternative:1
-total  control:1
-the
-company  "share[s:1
-[its]  family:1
-"1:1
-Facebook-owned  company:1
- a  meaningful  alternative:1
-such, a  consumer:1
+them-from:1
+tangential:1
+total:1
 hoping:1
 bypassing:1
-Facebook's  family:1
 corresponding:1
-social  media site:1
-only
-21%:1
-United:1
-States:1
+only 21%:1
 adult:1
-population:1
 stands:1
-a meaningful  alternative:1
-Facebook.14:1
-p]opular:1
-digital:1
+14 6:1
+opular:1
 monopolies:1
-Microsoft:1
-no free choice:1
- alternative  services:1
-inferior  quality:1
+microsoft:1
+inferior:1
+quality:1
+under-developed:1
 139:1
-generally INSTAGRAM:1
-http://blog.instagram.com/post/154506585127/161215-:1
-600million:1
-https://perma.cc/B9NX-6AAS:1
-141:1
-INSTAGRAM:1
-https://help.instagram.com/155833707900388:1
-https://perma.cc/R6QH-XCXT:1
-Katherine  Bindley:1
-Turning:1
-Bad:1
-WALL  ST:1
- https://www.wsj.com/articles/instagram-is-turning-into-facebook-and-:1
-thats:1
-bad-:1
+http://blog:1
+com/post/154506585127/161215-:1
+nx-6:1
+aas:1
+https://help:1
+com/155833707900388:1
+qh-xcxt:1
+katherine:1
+bindley:1
+turning:1
+wsj:1
+com/articles/instagram-is-turning-into-facebook-and-:1
+thats-bad-:1
 1517422670:1
-https://www.facebook.com/help/1:1
-Apr. 6:1
+com/help/1:1
+6 , 2017:1
 145:1
 146:1
-Companies:1
-https://perma.cc/49NY-HEUK
-
-FEDERAL COMMUNICATIONS LAW JOURNAL
-
-Vol:1
-innovative:1
-not  process
-significant data:1
-their users:1
-significant  half-billion  user
-advantage:1
-the demographics:1
-Facebook's users:1
+cc/49:1
+ny-heuk:1
+half-billion:1
+demographics:1
 bolster:1
-the  argument:1
- platform:1
-a  similar
-alternative:1
- studies:1
+studies:1
 64%:1
-all
-online Americans:1
-the  motivation:1
-social networking  sites:1
-members,148  a  sentiment:1
-that especially  rings:1
-the  baby  boomer:1
-generation:1
+motivation:1
+sentiment:1
+rings:1
+baby:1
+boomer:1
 overlooked:1
 62%:1
-adults:1
 aged:1
 65+:1
-only a mere  8%:1
- 65+  population:1
-Instagram.150:1
-These numbers:1
-utilized:1
+8%:1
++:1
 ranging:1
- teenagers:1
-senior  citizens:1
- family
-members:1
-the sole platform:1
+teenagers:1
 feasible:1
-other
-words:1
-a  variety:1
-other social networking platforms:1
-Facebook's  cross-generational  reach:1
-the argument:1
- social  media:1
+cross-generational:1
 engrained:1
-Anca  D. Chirita:1
-The Rise ofBig Data:1
-the Loss of Privacy:1
-Durham Law School:1
-https://ssrn.com/abstract=-2795992
-
-Paper:1
-https://perma.cc/8QX4-N6MT:1
-148:1
-Aaron  Smith:1
-PEW RESEARCH:1
-http://www.pewintemet.org/2011/11/15/why-americans-use-social-media/:1
-[https://perma.cc/K83  8-UJ84:1
-https://perma.cc/JV8P-LZPN:1
- Nora Krug:1
- Technology:1
-more baby-boomer grandparents:1
- grandkids:1
- WASH:1
-https://www.washingtonpost.conpostlive/technology-helping-more-baby-boomer-:1
-grandkids/2014/10/31/3dda3c26:1
-4ccb-1:1
-1e4-aa5e-:1
-7153e466a02d:1
-story.html?utmterm=.71c3d6bb6743:1
-a useful platform:1
+anca:1
+ofbig:1
+durham:1
+https://ssrn:1
+com/abstract=-2795992:1
+qx:1
+4-n:1
+mt:1
+paper:1
+pewintemet:1
+org/2011/11/15/why-americans-use-social-media/:1
+8-uj:1
+cc/jv:1
+p-lzpn:1
+nora:1
+krug:1
+baby-boomer:1
+plugged:1
+grandkids:1
+wash:1
+31 , 2016:1
+washingtonpost:1
+conpostlive/technology-helping-more-baby-boomer-:1
+grandparents-stay-plugged-in-to-grandkids/2014/10/31/3:1
+dda:1
+26-4:1
+ccb-1:1
+4-aa:1
+e-:1
+7153:1
+02:1
+story:1
+utmterm=:1
+6 bb:1
+6743:1
+useful:1
 families:1
-With  the median:1
+median:1
 household:1
-income:1
 clocking:1
-56,516:1
-Bernadette:1
-D. Proctor:1
-, Income andPoverty:1
-the United
-States:1
-CENSUS:1
-BUREAU:1
- Number:1
-P60:1
-http://www.census.gov/library/publications/2016/demo/p60-256.html:1
-https://perma.cc/4N7C-DGVZ:1
-average round-trip  domestic airfare:1
-400:1
-Dep't  of  Transp:1
-Bureau:1
-Transportation:1
-Statistics:1
-https://www.rita.dot.gov/bts/airfares/programs/economics:1
-finance/air  travelpriceinde:1
-
-x/html:1
-AnnualFares.html:1
-https://perma.cc/27PH-Y4QL:1
+516:1
+bernadette:1
+proctor:1
+andpoverty:1
+13 , 2016:1
+gov/library/publications/2016/demo/p:1
+c-dgvz:1
+average:1
+round-trip:1
+airfare:1
+roughly $400:1
+transp:1
+transportation:1
+rita:1
+dot:1
+gov/bts/airfares/programs/economics:1
+finance/air:1
+travelpriceinde:1
+x/html/annualfares:1
+cc/27:1
+ph-y:1
+ql:1
 traveling:1
-other  states:1
- difficulty:1
-a  2012  AARP  study:1
+difficulty:1
 67%:1
-
-grandparents:1
 reported:1
 infrequent:1
 visits:1
-the
-reason:1
-Cheryl L. Lampkin:1
-PhD:1
-Insights:1
-Spending:1
-Habits:1
-Modern Grandparents:1
-AARP:1
-http://www.aarp.org/research/topics/life/info-2014/grandparenting-:1
-survey.html:1
-[https://perma.cc/JS6X-4G9:1
-G:1
-150:1
-ORLY:1
-SOCIAL  MEDIA:1
-https://socialmediacollective.org/2011/08/1:1
-if-you-dont-like-:1
-dont-use:1
-orly/:1
-https://perma.cc/K5WV-WC8U:1
+cheryl:1
+lampkin:1
+phd:1
+spending:1
+5 , 2012:1
+org/research/topics/life/info-2014/grandparenting-:1
+survey:1
+cc/js:1
+x-4:1
+orly:1
+11 , 2011:1
+https://socialmediacollective:1
+org/2011/08/1:1
+1/if-you-dont-like-:1
+it-dont-use-it-its-that-simple-orly/:1
+wv-wc:1
 easy:1
-this-  technology:1
+this-:1
 refusal-:1
 strategically:1
 overwhelmingly:1
- prevalent  technologies:1
-our  society:1
-a  necessity:1
+prevalent:1
+necessity:1
 losing:1
-any  semblance:1
 voluntariness:1
-statistics:1
 decisive:1
-This lack:1
-New York Times:1
- article:1
-reality:1
+york:1
 quitting:1
 problematic:1
-the  company's  executives:1
+executives:1
 extract:1
-the  intangible  social  capital:1
 export:1
 elsewhere:1
 daunting:1
 afresh:1
-a  new  site:1
 quietly:1
-Facebook's
-privacy bullying:1
-The bare  existence:1
-other  social media platforms:1
-the
-element:1
-California
-law:1
+bullying:1
 defeated:1
 competition:1
-the  marketplace:1
+marketplace:1
 desired:1
-.155:1
-the most  utilized  platform:1
 spectrum:1
 statistically:1
 saturate:1
-the market:1
-a  position:1
 value:1
-judgment:1
 staying:1
 sacrificing:1
-Third Consideration:1
-Explicitly:1
-Omitting:1
-Mention:1
-Policies:1
-Contain:1
-a procedural  unconscionability analysis:1
-"surprise:1
-supposedly:1
-the  bargain:1
 participate:1
 exposing:1
-their faces:1
-public view:1
 connecting:1
- family:1
 broader:1
-world:1
 quickly:1
-necessary) experience:1
-all ages:1
-MEDIA:1
-the leading comment:1
-user Steve Boland:1
-Facebook  in  a  self-righteous  huff:1
+experience:1
+ages:1
+steve:1
+boland:1
+self-righteous:1
+huff:1
 treat:1
-their
-customers:1
 took:1
-Leave:1
- approach:1
 crawling:1
-six  months  later:1
+six months later:1
 isolated:1
 reached:1
-The  cost:1
 participating:1
-the  free  service:1
 high:1
-B.  Ellison:1
-The Benefits:1
-Facebook
-'Friends:'Social Capital and College Students' Use:1
-Online Social Network Sites:1
-Journal:1
-Computer-Mediated 
-Communication:1
-(http://www.michelepolak.com/200fall  1/Weekly  Schedulefiles/Ellison.pdf:1
-https://perma.cc/NDN8-3HET:1
-research:1
-study:1
+ellison:1
+friends:'social:1
+college:1
+students:1
+computer-mediated:1
+communication:1
+michelepolak:1
+com/200:1
+1/weekly:1
+schedulefiles/ellison:1
+cc/ndn:1
+8-3:1
 illustrating:1
-Facebook's  edge:1
 cultivating:1
-
 friendship:1
 predict:1
-social  capital accumulation:1
-intensive  use:1
-Evgeny  Morozov:1
-Surfer:1
-NY  Times:1
-Mich. 
-
-St.  U. 
-
-Surfing:1
+intensive:1
+evgeny:1
+morozov:1
+surfer:1
+1164:1
+surfing:1
 1143:1
-https://perma.cc/96ZV-:1
-http://www.nytimes.com/2010/06/02/opinion/02iht-edmorozov.html:1
-9NY5:1
-Comb:1
-Paypal, Inc.:1
-1165:1
-1173:1
- Dean:1
-Witter Reynolds:1
+1 , 2010:1
+cc/96:1
+zv-:1
+com/2010/06/02/opinion/02:1
+iht-edmorozov:1
+comb:1
+paypal:1
+2 d 1165 , 1173:1
 772:1
-
-
-FEDERAL COMMUNICATIONS LAWJOURAL:1
-prolix:1
- printed  form:1
-The element:1
-Nowhere:1
-the agreement:1
-issue.1:1
-the  phrase:1
-careful  review:1
+lawjoural:1
+70 1:1
+nowhere:1
+phrase:1
+review:1
 assumedly:1
-IP  Content:1
 termed:1
- things:1
-"16:1
-other  words:1
-specifically:1
 searching:1
-Facebook's  Help  Center:1
 separate:1
- Data
-Policy:1
-any information:1
-the  company's use:1
-facial recognition
-technology:1
 description:1
-technology.16:1
-The problem:1
-the Terms of Service:1
-the  element:1
+16 3:1
 tactfully:1
-omitting:1
- "facial  recognition  technology:1
-unsuspecting  users:1
-not  know.164:1
-an  unconscionability
-determination:1
- certain terms:1
 concealed:1
 buried:1
-the  omission:1
-any reference:1
+omission:1
 hide:1
-its right:1
-
-facial recognition:1
 shuffle:1
-other terms:1
 hopes:1
-flat:1
-any  reference:1
-the  two  agreements:1
-A  & MProduce Co.,135  Cal:1
+flat-out:1
 157:1
-https://www.facebook.com/help/122175507864081?helpref-faqcontent:1
-the
-lone  search result:1
- "facial recognition:1
-Facebook's  Help:1
-Apr. 4, 2017:1
-home page:1
-Yasamine:1
-Hashemi:1
-Facebook's  Privacy  Policy  and  Its  Third-Party
-
-Partnerships: Lucrativity and Liability:1
-B.U.:1
-Sci:1
-TECH:1
-L.  REv:1
-https://www.bu.edu/jostl/files/2015/02/Hashemi_WEB_151.pdf:1
-members:1
-these  documents:1
-an argument:1
+helpref-faqcontent:1
+lone:1
+page:1
+yasamine:1
+hashemi:1
+partnerships:1
+lucrativity:1
+edu/jostl/files/2015/02/hashemi_web_151:1
+documents:1
 confusing:1
-no
-possibility:1
-the  language:1
-member:1
-friendly:1
-The
-author:1
-argument:1
-a  user's  failure:1
+member-friendly:1
 excessively:1
 lengthy:1
-procedural unconscionability:1
- M.P.  Ellinghaus:1
-Defense:1
-YALE L.J.  757:1
-764:1
-765:1
+ellinghaus:1
+yale:1
+764-765:1
 1969:1
-the platform.166:1
- and  policies:1
-no  explicit  information:1
- consenting.167:1
-Another:1
 outlining:1
+non-exclusive:1
 transferable:1
 sub-:1
 licensable:1
-royalty:1
-any  IP  content:1
+royalty-free:1
 posted:1
 connection:1
-Essentially:1
- carte blanche:1
-the  company's  discretion:1
-such
-use:1
+carte:1
+blanche:1
 impacted:1
 fail:1
 adequate:1
- sign:1
-the
-company's  facial  recognition  practices:1
-reserves:1
-any  biometric  data:1
 undetermined:1
-undisclosed period:1
-time.170:1
+undisclosed:1
 mind:1
 exclusion:1
 coupled:1
-a  contractual
-surprise:1
-licensure:1
-166:1
-the  company's  practice:1
-THE 
-
-VERGE:1
-167:1
-February:1
-pop-up notices:1
-little  detail:1
-the  company's  facial  recognition
-practices:1
-Russell  Brandom:1
+exclusive:1
+verge:1
+february 27 , 2018:1
+notices:1
+detail:1
+russell:1
+brandom:1
 starting:1
-https://www.theverge.com/20:1
-18/2/27/1 7058268:1
-facial-recognition:1
-the  time:1
+theverge:1
+com/20:1
+18/2/27/1:1
+7058268/facebook-facial-recognition-notification-opt-:1
 publication:1
 excludes:1
-a prospective  user:1
-the  company's  facial  recognition  practices:1
-Facebook's  biometric  data collection:1
-the  sensitive nature:1
 notify:1
-this  technology:1
-its prospective users:1
-either its  Terms:1
 168:1
-Oliver  Smith:1
-Facebook terms:1
-your online
-life:1
-DAiLY:1
-TELEGRAPH:1
-http://www.telegraph.co.uk/technology/social-:1
-media/9780565/Facebook-terms:1
--conditions:1
-dont:1
-life.htmI:1
-your
-content:1
-any way:1
-a license:1
+oliver:1
+4 , 2013:1
+uk/technology/social-:1
+media/9780565/facebook-terms-and-conditions-why-you-dont-own-your-online-life:1
+htmi:1
 goes:1
 covering:1
-the  operation:1
-its  current  form:1
-its  rights:1
-a  user's
-content:1
-another  company:1
+sub-license:1
 organization:1
-the deactivation:1
-a user's account:1
-all other users:1
+deactivation:1
 interacted:1
-the  content:1
 broken:1
-their ties:1
-170:1
- Lynch:1
-a user's privacy:1
-settings:1
-the public:1
-70
-
-a.:1
-Merging:1
-Read-:1
-Remedy and Address This Counterargument:1
-An  important  consideration:1
- a  user's  failure:1
+ties:1
+merging:1
+read-:1
+counterargument:1
 asserting:1
-the defense:1
-[t]he
-suggestion:1
-a knowledgeable  party:1
-Indeed:1
-a  duty:1
-expectation:1
+knowledgeable:1
+indeed:1
+duty:1
 assenting:1
-that  "no authority:1
-a supposed rule:1
-an agreement:1
+authority:1
+supposed:1
 barred:1
-s]uch:1
-rule:1
+uch:1
 seriously:1
-
-defense:1
-speaking:1
 signs:1
-an instrument:1
-the impact:1
-the ground:1
-the instrument:1
-.7:1
-this  general  rule:1
+ground:1
 applicable:1
-the  absence:1
-'overreaching:1
 imposition:1
 helpful:1
-"actual  surprise:1
- sufficient consent:1
 expert:1
-the  area:1
-o]ne:1
-the
-issues:1
-the  consent:1
-h]ow:1
-times:1
-
-people:1
+area:1
+ow:1
 clicked:1
-licenses:1
-Web  sites:1
-a living:1
-a  diligent user:1
-no explicit information:1
+living:1
+diligent:1
 therein:1
 171:1
-adhesion contracts:1
-Instead:1
+regarded:1
 misguidedly:1
 trust:1
-the  good  faith:1
-the  tacit representation:1
+tacit:1
+representation:1
 regularly:1
-similarly:1
- RESTATEMENT:1
-cmt.b:1
 1534:1
- Higgins:1
+higgins:1
 1238:1
 1251:1
 174:1
- Didion:1
+didion:1
 1272:1
 175:1
-Stewart:1
-Preston  Pipeline  Inc.:1
+stewart:1
+preston:1
+pipeline:1
 1565:1
-2005:1
- Bruni:1
-1291(quoting:1
-Jefferson:1
-Dep't of Youth Auth:1
-303:1
+1588:1
+4 th 2005:1
+jefferson:1
+youth:1
+auth:1
 177:1
-160 Cal:1
-Patterson:1
-ITT1:1
-Consumer:1
-Fin:1
- Corp.:1
+patterson:1
+fin:1
 1659:1
 1666:1
 1993:1
-Caroline McCarthy:1
-Legally:1
-Facebook's Social ads:1
-Kosher:1
-CNET NEWS:1
-8:17  PM:1
-http://www.news.com/8301-13577_3-9817421-36.html:1
-Brian:1
-Murphy:1
-a partner:1
-Frankfurt Kumit Klein & Selz:1
+caroline:1
+mccarthy:1
+kosher:1
+cnet:1
+15 , 2007:1
+8:17 pm:1
+com/8301-13577_3-9817421-36:1
+brian:1
+murphy:1
+partner:1
+frankfurt:1
+kumit:1
+klein:1
+selz:1
 specializing:1
-intellectual property  issues:1
- content  licensure:1
-consent.18 °:1
 matters:1
-f]acial:1
-
-recognition:1
-those  categories:1
+acial:1
 prominent:1
-a
-very  clear  consent:1
-"18:1
-Service  and Data policies:1
 inconsequential:1
-The  most
-careful reader:1
-a  failure:1
-question:1
-read.182:1
-the adhesive nature:1
-the unequal bargaining
+reader:1
 positions:1
- the  lack:1
-the surprise:1
- contractual
-terms:1
 prudent:1
 precedent:1
-Substantive Unconscionability:1
-Unlike:1
- procedural  unconscionability:1
-s]ubstantive:1
-" '183  Substantive  unconscionability:1
-allocation:1
+ubstantive:1
 justified:1
 split:1
-rise:1
-a  level:1
-shock[s:1
+shock:1
 180:1
-I]t:1
-these  features:1
 enrolled:1
-Rachel  Adams-Heard:1
-Facebook's Facial Recognition:1
-Software:1
-Draws Privacy:1
-Lawsuit:1
-Complaints:1
-http://www.insurancejoumal.com/news/nationaU2015/07/30/376972.htm:1
-https://perma.cc/6S9J-ZAZY:1
-Alvaro  Bedoya:1
- executive  director:1
-Georgetown:1
-University's  Center:1
-INSURANCE:1
-JOURNAL:1
-182:1
-an  interesting policy:1
-moral question:1
+rachel:1
+complaints:1
+insurancejoumal:1
+com/news/nationau:1
+2015/07/30/376972:1
+j-zazy:1
+alvaro:1
+bedoya:1
+director:1
+georgetown:1
+interesting:1
 liable:1
-unconscionable  adhesion contracts:1
 pondering:1
-this  question:1
-a July 2016  study:1
-the  most part:1
-Service  Agreements:1
-Privacy
-Policies:1
-The  experiment:1
+july 2016:1
+experiment:1
 fictional:1
-Service Agreement:1
- Privacy Policy:1
-the National  Security Agency:1
+agency:1
 participant:1
 employers:1
-the clauses:1
 deliver:1
-born:1
+first-born:1
 child:1
-This  sacrificial-child  clause:1
+sacrificial-child:1
 went:1
 unnoticed:1
-the  study's participants:1
-1.7%:1
-the participants:1
+98%:1
+7%:1
 noticing:1
 raising:1
-a concern:1
-the  clause:1
-Jonathan  A.:1
-Obar:1
-Anne:1
-Oledorf-Hirsch:1
-Biggest:1
-Lie:1
-on  the  Internet:1
-Ignoring:1
-the  Privacy Policies:1
-Service  Policies:1
-Social
-Networking Services:1
-(Aug. 24, 2016:1
-http://dx.doi.org/10.2139/ssrn.2757465:1
-183:1
+jonathan:1
+obar:1
+anne:1
+oledorf-hirsch:1
+lie:1
+24 , 2016:1
+http://dx:1
+org/10:1
+2139/ssrn:1
+2757465:1
 184:1
-n.2:1
- 70
-
 conscience:1
-faith:1
 fair:1
-Regardless:1
- "a
-contractual  term:1
+1 86:1
 suspect:1
 reallocates:1
-unexpected  manner:1
-"'18:1
 assessing:1
- substantive  unconscionability:1
-the contractual  terms:1
 contravene:1
-the public interest:1
-the  questionable  terms:1
-fine  print:1
+18 8:1
+questionable:1
+fine:1
 1 89:1
 negate:1
-the
-reasonable  expectations:1
 nondrafting:1
-" 190  The  Legislative
-Committee  Comments:1
-the California Civil Code:1
-police:1
- the  "clause:1
-dominant:1
-Important:1
-a  substantial  degree:1
+committee:1
+comments:1
 unfairness:1
-a  simple  old-fashioned  bad
-bargain:1
-" 1 92
-
-court] 
-
+old-fashioned:1
+1 92:1
 formulations:1
 understood:1
-n]ot  all  one-sided
-contract provisions:1
+ot:1
 hence:1
-the various  intensifiers:1
-[a]  contract term:1
+intensifiers:1
 gives:1
 side:1
-a  greater  benefit:1
-Supercuts, Inc.:1
-a  'margin:1
-safety:1
-the party:1
-superior bargaining:1
-strength:1
 type:1
-extra protection:1
-the Stirlen court:1
+extra:1
 realities:1
-the  special need:1
-such  an
-advantage:1
 factually:1
-Grocers:1
-Ass'n:1
-Bank of Am:1
-th:1
+grocers:1
 186:1
-Donovan:1
-Rrl Corp.:1
-129 F.Supp.3d:1
+donovan:1
+rrl:1
+290-91:1
 189:1
-190:1
 191:1
-Code  §:1
-commentary:1
 192:1
 1160:1
-Sanchez v.  Valencia Holding  Co.:1
-LLC:1
+sanchez:1
+valencia:1
 899:1
 911:1
 194:1
-Pinnacle Museum:1
-Tower Ass'n:1
-Pinnacle Market:1
- Dev:1
-(US:1
+museum:1
+tower:1
+dev:1
 1536:1
-Public
-Policy:1
-the Public Interest:1
-arbitration  provision:1
-best  illustration:1
-a  court:1
+illustration:1
 deeming:1
-its  contravention:1
- public  policy:1
-banking:1
-violate[d:1
+contravention:1
 jail:1
-free'  card:1
 compromising:1
-important  consumer rights:1
-The  court:1
 reasoned:1
- Discover:1
 granted:1
-the boundaries:1
-their  furthest  limits:1
+furthest:1
 fully:1
 aware:1
-legal remedies:1
-any  remedies:1
 pertain:1
-collateral  estoppel  effect:1
-the  court:1
-overwhelming:1
- the  adhesive  arbitration  provision:1
+collateral:1
+estoppel:1
 imparted:1
 contradicted:1
-the California Legislature's:1
 discouraging:1
-unlawful  business practices:1
-"198:1
-
-
-Facebook's  non-consensual  biometric  data  collection  practices:1
+run:1
 afoul:1
-California Constitution:1
-an "inalienable  right:1
-California residents:1
-the state  constitution:1
 moving:1
- force:1
-the  new  constitutional  provision:1
-
-privacy  concern:1
+force:1
 accelerating:1
 encroachment:1
 caused:1
-contemporary  society:1
-pamphlet:1
+contemporary:1
 enticed:1
- voters:1
- support:1
-the  privacy  amendment:1
 flundamental:1
 circulation:1
-[t]he proliferation:1
-
-business  records:1
-no  control  limits:1
-our ability:1
- control:1
-our personal  lives:1
-Often:1
-that these records:1
-"'20:1
+proliferation:1
 promises:1
 fears:1
 simultaneous:1
 corporate:1
 charged:1
-California  voters:1
-their  state
-constitution:1
 favor:1
-this highly important public policy:1
-2 2:1
 196:1
 1094:1
 1101:1
-198:1
 199:1
-757:1
 201:1
 202:1
+42 years later:1
 driving:1
 factor:1
-the  amendment:1
-a]t:1
-no  effective  restraints:1
-the  information  activities:1
-
-business:1
-This  amendment:1
-every
-Californian:1
+restraints:1
+activities:1
+californian:1
 mitigate:1
- the  privacy  amendment:1
-intrusive
-government  data  collection:1
-California
-Supreme Court,20:1
-a
-mere  six  month period:1
+20 3:1
+a mere six month period:1
 complied:1
 nearly 85%:1
-domestic  law
-enforcement:1
-a public-private  surveillance
 quid:1
+pro:1
 quo:1
 worked:1
 pursuance:1
-their respective  agendas:1
-certain  domestic
-surveillance  measures:1
+agendas:1
+measures:1
 supplement:1
- those  deficiencies:1
-
+deficiencies:1
 datasets:1
-billion-plus:1
-users.206:1
-burdensome red-tape and
-regulations:1
-seemingly  indomitable
-growth:1
+burdensome:1
+red-tape:1
+indomitable:1
 pave:1
-the  way:1
 knock:1
 roadblocks:1
-Facebook's  way.20 7:1
-my back:1
 'll:1
-yours" partnership:1
 facilitated:1
 carves:1
-a subjective standard:1
-user  data:1
-law  enforcement  agencies:1
-its very
-terms:1
 loose:1
 deciding:1
-share
-user data:1
-a warrant:1
-subpoena:1
-other legal request:1
 grounded:1
-"a  good  faith belief:1
-the  law:1
-"20:1
- agencies:1
-a  valid subpoena:1
- search warrant:1
- court order:1
-national  security  letter:1
-data,2:1
-10  inclusion:1
-"good
-faith  belief'  catch:1
+20 9:1
+2 10:1
+catch-all:1
 dismantles:1
 purported:1
-legal  privacy
-protections:1
-Good  faith:1
-a  legal  standard:1
-sufficient clarity:1
-guidance:1
+clarity:1
 guaranteed:1
-the  California  Constitution:1
-Given:1
-the  background:1
 203:1
 761:1
 204:1
-
-FACEBOOK:1
-Gov't:1
-https://govtrequests.facebook.com/country/United%20States/2016-H2/:1
-Rep.:1
-Cf:1
-Listen:1
-The  Public-Private
-
-Surveillance  Partnership:1
-Still:1
-Going:1
-Strong:1
-ATLANTIC:1
-https://www.theatlantic.com/technology/archive/2014/03/don-t-listen-to-google-and-:1
-partnership:1
-strong/284612/:1
- Cory
-Bennett:1
+https://govtrequests:1
+com/country/united%20:1
+states/2016-h:1
+2/ 2017:1
+july 27:1
+listen:1
+atlantic:1
+theatlantic:1
+com/technology/archive/2014/03/don-t-listen-to-google-and-:1
+facebook-the-public-private-surveillance-partnership-is-still-going-strong/284612/:1
+cory:1
 accused:1
 secretly:1
 lobbying'for:1
-cyber  bill:1
-HILL:1
-http://thehill.com/policy/cybersecurity/258060-advocate-accuses-facebook-of-secretly-:1
-lobbying:1
 cyber:1
-bill:1
-(conflicting reports:1
+26 , 2015:1
+http://thehill:1
+com/policy/cybersecurity/258060-advocate-accuses-facebook-of-secretly-:1
+lobbying-for-cyber-bill:1
+conflicting:1
 lobbied:1
-Cybersecurity:1
-Sharing  Act:1
-(CISA:1
+cybersecurity:1
+cisa:1
 incentivized:1
- private  companies:1
-potential  hacking
 threats:1
-206:1
-The  Public/Private  Surveillance  Partnership:1
-Schneier:1
-https://www.schneier.com/blog/archives/2013/08/thepublicprival:1
-Corporations:1
+25 , 2014:1
+public/private:1
+com/blog/archives/2013/08/thepublicprival:1
 rely:1
 ensure:1
-unfettered use:1
+unfettered:1
 209:1
 210:1
-https://www.facebook.com/safety/groups/law/guidelines/:1
-Enforcement:1
-Guidelines:1
+com/safety/groups/law/guidelines/:1
+july 10 , 2017:1
 utterly:1
-the  rights:1
-dissemination:1
-Terms of
-
-Service  and Data Policy Impose:1
-Unreasonable:1
-Unexpected  Allocation:1
-Risk:1
-The overly harsh allocation:1
-Facebook's policies:1
 reaps:1
-the  overwhelming  advantages:1
-biometric identifiers:1
-more  powerful
-party:1
-companies,212:1
-any applications:1
+powerful:1
 integrations:1
-Facebook.213  Facebook:1
-ownership:1
-our  Services:1
-their  assets:1
-[the  company:1
-the  new  owner:1
-2 14  :1
-if  a  user:1
-her  account:1
-Facebook's  Terms of Service:1
+assets:1
 persist:1
-backup  copies:1
- this  provision:1
+backup:1
+copies:1
 conveniently:1
-reason:1
-other  users:1
-the
-licensed  right to  use:1
- distribute:1
-any  entity:1
+licensed:1
+distribute:1
 chooses:1
-this conclusion:1
 contradiction:1
-the  summary:1
 findings:1
-Figure  B:1
-a
-whole:1
 distributing:1
-their  personal data.21:1
-this  2015  study:1
-that  the  top  two  consumer  privacy
-concerns:1
-kept.21:1
-such  pervasive  consumer  privacy  concerns:1
- Facebook's  Terms  of:1
-
-Service and Data Policy:1
+21 7:1
+kept:1
 artfully:1
-ambiguous  phrases:1
-F.Supp.3d:1
-8 Williston:1
-4th ed.2010:1
-212:1
-https://www.facebook.com/help/l:1
-Apr. 2:1
-213:1
-Chirita:1
-"personal  data:1
+phrases:1
+williston:1
+owned:1
+com/help/l:1
+2 , 2017:1
 economically:1
 relevant:1
-third  parties:1
-a dominant market position:1
-some  ideas:1
-FORTUNE  MAGAZINE:1
-http://fortune.com/2015/07/06/consumer-:1
-
-data:1
-the Internet:1
-GROUP:1
-http://go.pardot.com//69102/2015-07-12/pxzlm:1
+july 6 , 2015:1
+com/2015/07/06/consumer-:1
+data-privacy/:1
+com//69102/2015-07-12/pxzlm:1
 1 218:1
-FEDERAL COMMUNICATIONS LAWJOURNAL:1
-indisputable:1
 unbounded:1
-all user  data:1
-dark:1
-next:1
-1 9  All  things:1
-pressed:1
-contain:1
-unreasonably  favorable  terms:1
-FIGURE 6A:1
-TOP PRIVACY:1
-CONCERNS:1
- SELLING:1
-STORAGE:1
-ACCESS:1
-THE ABILITY:1
-IDENTIFIED:1
-INDIVIDUALLY:1
-Q.:1
-ycrId:1
-
-
-Oft pdfa:1
+1 9:1
+hard-pressed:1
+ycrid:1
+oft:1
+pdfa-y:1
 oen:1
-ac:1
-aa:1
+ac-aa:1
 ah:1
 athefoaoig:1
-
-
-atpaat-  bta:1
-y a  do:1
+atpaat-:1
+bta:1
 78 %:1
-3 68s  :1
-f7:1
-61%:1
+3 68 s:1
+7 61%:1
 59%:1
 diwtthe:1
 w"te:1
-Howe 
-UWe:1
+howe:1
+uwe:1
 tab:1
-haP:1
+hap:1
 mydate:1
 mydata:1
 measna:1
 myctl:1
 ientffj:1
-W  Yto:1
-Hfot y:1
-Ih" ham  tee  wila:1
+yto:1
+hfot:1
+ih:1
+tee:1
+wila:1
 etalyze:1
 getsmy:1
 thedot:1
-Wmen  H0:1
- Haw &:1
-Hm%:1
+wmen:1
+haw:1
+hm%:1
 ey:1
-Howthey
-
-&:1
+howthey:1
 tm:1
 oneta:1
 panom:1
 o-:1
 eov:1
+m-ea:1
 partda:1
 iomoa:1
-ie:1
+to-ie:1
 rza:1
-Ntt Thaaa:1
+ntt:1
+thaaa:1
 paaasotsqa:1
 tct:1
 oo:1
 tejwtt:1
- ttaa~:1
-tthod;a:1
+ttaa~:1
+tthod:1
 aw:1
 toayaadaooch:1
-a scale:1
-raWd:1
+t-s:1
+rawd:1
 tor:1
 ccm:1
 tdyr:1
 orya:1
-g:1
-a4:1
 adtamt:1
-a  h:1
-B:1
-no  concrete justification:1
 self-restraint:1
- Facebook's  :1
 continue:1
 sweep:1
-a  massive  amount:1
-sensitive  user:1
-an unexpected  allocation:1
 advantageous:1
 219:1
- Data Policy, supra note:1
-a user's privacy settings:1
 networks-:1
-Higginbotham:1
-GROuP:1
-Privacy 
-http://go.pardot.com/1/69102/2015-07-12/pxzlm:1
-government,221:1
- developers:1
-advertisers224:1
-an interest:1
-Similar to  Szetela:1
-the  boundaries:1
-sound  business
-practices:1
-an alluring goldmine:1
-consent.225:1
-its  own subjective  standards:1
-"good  faith:1
-user data:1
-advertisers:1
-the  sheer  amount:1
- personal  user  data:1
-discretion:1
-a  conclusion:1
- function:1
-the  detriment:1
-sell227:1
-its entire  data:1
-the  federal  government:1
+com/1/69102/2015-07-12/pxzlm:1
+developers:1
+alluring:1
+goldmine:1
+standards:1
+detriment:1
+entire:1
 subjecting:1
- millions:1
-the  FBI  facial  recognition:1
-database.22:1
-Facebook's  dataset:1
-attractive:1
-the  FBI:1
-Next:1
-Generation:1
-Identification:1
-"NGI:1
+dataset:1
 pales:1
-John Lynch &:1
-Jenny Ellickson:1
-U.S. Dep't:1
-Computer Crime:1
-Intellectual Property Section:1
-Obtaining:1
-Using:1
-Evidence:1
-Social Networking
-Sites:1
-Linkedn:1
-http://www.eff.org/files/filenode/social:1
-network/20100303_crim-socialnetworking.pdf:1
- MySpace:1
-Julie Masis:1
-this Lawman:1
-your Facebook Friend:1
-, BOSTON GLOBE:1
-11,2009:1
-http://www.boston.com/news/local/articles/2009/01/11/is:1
-this-lawmanyour  facebookfrien
-d?mode=PF:1
+jenny:1
+linkedn:1
+org/files/filenode/social:1
+network/20100303_crim-socialnetworking:1
+myspace:1
+julie:1
+masis:1
+lawman:1
+globe:1
+11 , 2009:1
+com/news/local/articles/2009/01/11/is:1
+this-lawmanyour:1
+facebookfrien:1
+mode:1
+pf:1
 17-:1
-224:1
-225:1
-Weinstein:1
- button:1
 blindly:1
-hand:1
-your  life:1
- billion-dollar  corporations:1
-Oftentimes:1
-your information:1
+billion-dollar:1
+oftentimes:1
 highest:1
 bidder:1
-your
-government:1
 realize:1
-Our  government:1
-Republicans:1
-
-Democrats:1
-a treasure trove:1
-the data candy bowl:1
-ELECTRONIC PRIVACY:1
-INFORMATION  CENTER:1
-Lauren:1
-Effron:1
-New Facial Recognition Feature:1
-Eyebrows:1
-//abcnews.go.com:1
-facial-recognition-feature-raises-:1
-eyebrows:1
-
-British  Internet  security  firm:1
-Sophos:1
-Maybe  in  the  future  [Facebook]  :1
-this
-information:1
+republicans:1
+democrats:1
+treasure:1
+trove:1
+reaching:1
+candy:1
+bowl:1
+//abcnews:1
+com/technology/facebook-facial-recognition-feature-raises-:1
+maybe:1
 willingly:1
 slowly:1
-our control:1
+abc 10:1
 228:1
- further reserves:1
-user information:1
-governmental:1
-a  "good  faith belief:1
-their acquiescence:1
-https://www.facebook.com/about/privacy/:1
-Apr. 5:1
-Biometric  identifiers:1
-such  requests:1
-Department:1
- the  "standard  data  production:1
- "photoprint:1
- individual  contact  information:1
+acquiescence:1
+com/about/privacy/:1
+department:1
+production:1
+photoprint:1
 cooperative:1
-emergency
-requests:1
-Ellickson:1
-70
-
-comparison:1
-Facebook's  accuracy:1
-facial recognition.22:1
-9 The difference:1
+emergency:1
+22 9:1
+difference:1
 attributed:1
 working:1
-one  frontal-facing  photograph:1
+frontal-facing:1
 mug:1
 shot:1
-passport  photo:1
-driver's  license  photo,23 °:1
+passport:1
 consistently:1
 refined:1
 improved:1
-
-tags:1
-each tag:1
 shows:1
-the algorithm:1
-different  angles:1
-light[]."23:1
-systems:1
+angles:1
+23 2:1
 struggle:1
 adapting:1
 aging:1
 subjects:1
-inconsistent  lighting:1
- single, front-facing  photos:1
-Facebook's  database:1
+inconsistent:1
+lighting:1
+front-facing:1
 cultivated:1
-1.65  billion users.235:1
-the  glaring  issue:1
+65 billion:1
+glaring:1
 diligently:1
- facial
-recognition  database:1
 lacking:1
- user  consent:1
-Consequently:1
-a  brief pop-up:1
+23 6:1
+consequently:1
 quite:1
-their  sensitive  biometric  information:1
 distributed:1
-entity:1
-no risk:1
-any prior notice:1
-consumers.23:1
 229:1
-Plans:1
-52 Million Photos:1
-its NGI Face Recognition:1
-Database:1
-Next  Year:1
- ELECTRONIC  FRONTIER  FOUNDATION:1
-https://www.eff.org/deeplinks/2014/04/fbi-plans-have-52-million-photos-its-ngi-face-:1
-next-year:1
-a particular  face:1
- NGI:1
-those  50 possibilities:1
-reports:1
-an unimpressive:1
+plans:1
+52 million:1
+14 , 2014:1
+next year:1
+org/deeplinks/2014/04/fbi-plans-have-52-million-photos-its-ngi-face-:1
+recognition-database-next-year:1
+possibilities:1
+unimpressive:1
 85%:1
-successful  facial recognition:1
+successful:1
 230:1
- New  Report:1
-Access:1
-Hundreds:1
-Millions:1
-Recognition  Photos:1
-https://www.eff.org/deeplinks/2016/06/fbi-can-search-400-million-face-recognition-photos:1
-The
-FBI:1
-http://www.npr.org/sections/alltechconsidered/2016/05/18/477819617/facebooks-facial-
-recognition-software:1
-FOUNDATION:1
-FRONTIER:1
-June 
-
-2016:1
-The  FBI:1
-
-http://www.npr.org/sections/alltechconsidered/20  16/05/18/477819617/facebooks-facial-
-recognition-software:1
-enormous:1
-wealth:1
-Every:1
-National:1
+hundreds of millions:1
+org/deeplinks/2016/06/fbi-can-search-400-million-face-recognition-photos:1
+org/sections/alltechconsidered/2016/05/18/477819617/facebooks-facial-:1
+june 2016:1
+org/sections/alltechconsidered/20:1
+16/05/18/477819617/facebooks-facial-:1
+user-driven:1
 232:1
-Yue:1
-Liu:1
-e.g.,  Martin  Kaste:1
-Look:1
-Facebook's Potential:1
-Recognize Anybody's:1
-,
-
-Face:1
-http://www.npr.org/sections/alltechconsidered/2013/10/28/228181778/a-look-into-facebooks-:1
-anybodys:1
-Theoretically,  every time  :1
+martin:1
+kaste:1
+anybody:1
+org/sections/alltechconsidered/2013/10/28/228181778/a-look-into-facebooks-:1
+potential-to-recognize-anybodys-face:1
+theoretically:1
 label:1
-a
-picture:1
 chipping:1
-those two big challenges:1
-universal facial  recognition:1
-build:1
-super:1
-labeled  faces:1
- multiple
+big:1
+universal:1
+super-database:1
+labeled:1
 versions:1
-each  person's  face:1
 improve:1
-a system's  accuracy:1
-Public:1
-Radio:1
-235:1
 236:1
-237:1
-,  Weinstein:1
- result:1
- 'justification:1
 manifested:1
-Outlined:1
-Foundation Health Psychcare Services:1
-Supreme:1
-Court:1
+outlined:1
 receptive:1
-a  provision:1
-authorize[d:1
-the  Court:1
-the "clear  implication:1
-mutuality.2:1
-a
-"reasonable justification:1
-contractual  provisions:1
+authorize:1
 fashioned:1
 maximizing:1
- employer:1
-
-advantage:1
+employer:1
 24 2:1
-Justification:1
-the One-Sided Terms:1
-its biometric  data  collection practices:1
-its Terms:1
-a California  court:1
-agreement:1
 2 43:1
-any  possible justification:1
-Facebook's
-failure:1
-the  two
-agreements:1
-only time:1
-a justification:1
-its  implementation:1
-a congressional  hearing:1
-manually  tag:1
-
-photos:1
+congressional:1
 keeping:1
 aspect:1
 alive:1
-Facebook's  introduction:1
-
-facial recognition technology:1
-245  Facebook:1
 contends:1
-many  people:1
 entering:1
-each  person:1
-every  photo:1
- and  effort:1
-a  bare  assertion:1
+assertion:1
 surveys:1
 inquiries:1
 demonstrating:1
 487:1
 239:1
 240:1
-Soltani:1
-W.:1
-Life  Ins:1
-1046:1
-9th Cir:1
+soltani:1
+3 d 1038 , 1046:1
 242:1
 243:1
 244:1
-What Facial Recognition  Technology Means:1
-Civil Liberties:1
-the  S. Subcomm:1
-the S.  Comm:1
-Manager:1
-Privacy  & Public
-:1
-https://www.judiciary.senate.gov/imo/media/doc/12-7-:1
-18ShermanTestimony.pdf:1
-245:1
-Id.
-
-FEDERAL:1
-COMMUNICATIONS LA  WJOURNAL:1
- 70
-
-number:1
+gov/imo/media/doc/12-7-:1
+shermantestimony:1
+wjournal:1
 deeply:1
 manual:1
-warrant:1
-the
-implementation:1
-sole:1
-alternative.2 47:1
-Third:1
-Consideration:1
-The  Lack:1
-Mutuality:1
-a Legitimate  Commercial:1
-Need:1
-only  business  operation:1
+2 47 third:1
 imposing:1
-wide:1
 suggesting:1
-proper:1
-whether  the  contract
-provisions:1
 extreme:1
 mores:1
-the  current
-business practice:1
-standardized  agreements:1
 ethically:1
-that  such  privacy  policies:1
 immune:1
-unconscionability.24:1
-all other businesses:1
-its  facial  recognition  data  collection:1
-a
-facial  recognition  feature:1
-unlike:1
+24 9:1
 intentionally:1
 leaves:1
-the recognition:1
-in.250:1
-Facebook  could have  set up  its facial  recognition  system:1
-opt-out:1
-the  feature:1
-suggested:1
-.25:1
+25 1:1
 maintained:1
-the  facial  recognition:1
-an  opt-out
-program:1
 247:1
-no qualitative  data:1
-the public  reception:1
-several  articles:1
+qualitative:1
+reception:1
 published:1
 initial:1
 rollout:1
 indicating:1
-the  suggestions:1
-,  Lauren Effron:1
-FacebookIn Your Face::1
-New Facial:1
-Feature:1
-Few  Eyebrows:1
-(June 
-2011),
-http://abcnews.go.com/Technology/facebook-facial-recognition-  feature-raises-
-eyebrows:1
-British Internet  security firm Sophos:1
-a huge backlash:1
-the idea:1
-Internet  companies:1
-Nathan Olivarez-Giles:1
+facebookin:1
+abc:1
+http://abcnews:1
+com/technology/facebook-facial-recognition-:1
+feature-raises-:1
+huge:1
+backlash:1
+idea:1
+nathan:1
+olivarez-giles:1
 scrutiny:1
-face-
-recognition feature:1
- privacy  group:1
- lawmakers:1
-L.A.:1
-http://articles.latimes.com/2011 /jun/08/business/la:1
-fi-0609:1
-Corbin:1
+face-:1
+lawmakers:1
+8 , 2011:1
+http://articles:1
+latimes:1
+com/2011:1
+/jun/08/business/la-fi-0609-facebook-faces-mobile:1
+corbin:1
 551:1
 249:1
-;  DIDN'T  READ:1
-https://tosdr.org/:1
-https://perma.cc/44TB-:1
-H6VC:1
+https://tosdr:1
+org/:1
+cc/44:1
+tb-:1
+vc:1
 rating:1
-various  networking  platforms:1
-the  broad,  wide-reaching  nature:1
-company  privacy policies:1
- copyright
-licenses:1
-250:1
 251:1
-BEST PRACTICES:1
-COMMON  USES:1
-iii:1
-https://www.ftc.gov/sites/default/files/documents/reports/facing-:1
-TECHNOLOGIES 
-facts:1
-common-uses:1
-technologies/121022facialtechrpt.pdf:1
-https://perma.cc/Q8FT-PTCZ:1
-the particular  user:1
-her privacy:1
-settings.252:1
+gov/sites/default/files/documents/reports/facing-:1
+facts-best-practices-common-uses-facial-recognition-technologies/121022:1
+cc/q:1
+ft-ptcz:1
+years:1
 criticism:1
- biometric identifiers:1
-this  sensitive  personal  data  absent explicit  consent:1
-people.253:1
+billion:1
 refrain:1
-form agreements:1
 preposterous:1
-its  user
-agreements:1
-plus:1
-Standardized
-agreements:1
-
-stability:1
 25 4:1
-the  obvious  danger:1
+danger:1
 exists:1
-
-the  party:1
 2 55:1
 accrue:1
-its user's biometric
-data:1
-any ownership:1
- SOLUTION:1
-MULTIPLE  LEGAL CHANNELS:1
- BEST POSITIONED:1
-PRIVACY-INVASIVE:1
-THE  COMPANY'S  USE:1
 related:1
 governed:1
- District Court:1
-a  state  court:1
- jurisdiction:1
-the  lead:1
-Facebook's overarching biometric
-data  collection  practices:1
-The  standing  requirement:1
-a
-California  state  court:1
+overarching:1
 straightforward:1
-252:1
-Adams-Heard:1
 powers:1
-'tag  suggestions:1
-a Facebook  account:1
-their settings:1
-253:1
-Graham Cluely:1
-privacy settings:1
--facial:1
-https://nakedsecurity.sophos.com/2011/06/07/facebook-privacy-settings-facial-recognition-:1
+https://nakedsecurity:1
+com/2011/06/07/facebook-privacy-settings-facial-recognition-:1
 enabled/:1
-https://perma.cc/E6XQ-EADH:1
-SOPHOS:1
+xq-eadh:1
 254:1
 255:1
-Article  VI:1
-the  state constitution:1
+256:1
 grants:1
-Superior  Courts power:1
 hear:1
 cause:1
-action.2:1
-only threshold  requirement:1
+2 57:1
 dictated:1
-the California Code of Civil Procedure:1
+procedure:1
 mandates:1
 prosecuted:1
-the  name:1
-the  real  party:1
-District  Court:1
-the  other  hand:1
-a
-federal  court:1
- a  plaintiff:1
 meet:1
-the  standing
 requirements:1
-Article III:1
- Constitution.259 Regardless:1
 following:1
-legal  avenues:1
-strike:1
-privacy-invasive  terms:1
- state  contract
-law:1
- state  constitutional  law:1
- state tort law:1
-Each possibility:1
-A.  Option No:1
-Based:1
-the extensive reasoning:1
-Section III:1
 secretive:1
-California  Civil  Code:1
 finds:1
-any clause:1
-the court:1
 refuse:1
-the remainder:1
-the unconscionable  clause:1
-the
-application:1
-any  unconscionable
-result:1
-6  :1
-The  Code:1
+remainder:1
+2 6:1
 flexibility:1
-the
-proper  balance:1
-Facebook's  desire:1
-its  utilization:1
- new  technologies:1
+balance:1
+desire:1
 dismantling:1
-its entirety:1
 voiding:1
-the  provisions:1
 inferring:1
-unrestricted
-access:1
-user's biometric:1
-6 1:1
-California  court:1
 deem:1
-Facebook's
-:1
 injured:1
 257:1
-CONST:1
-Art:1
-Code  Civ:1
-Proc:1
+proc:1
 367:1
-259:1
-III  standing:1
-a favorable
-ruling:1
-Amnesty Int'l USA:1
 260:1
-Cal Civ  Code:1
-Privacy Principles:1
-
-https://f.org/wp-
-
-Discussion 
-content:1
-uploads/2015/12/Dec9Working-Paper-FacialRecognitionPrivacyPrinciples-:1
-For-:1
-Web.pdf:1
+https://f:1
 recommending:1
- "companies:1
- disposal:1
-
-practices:1
-Facial  recognition  template  data:1
 personally:1
-an  individual:1
-aggregate  information:1
-classification  data:1
-legitimate  business
-purposes:1
+aggregate:1
+classification:1
 destroyed:1
-a secure  manner:1
-Dec. 
-
-Issue:1
-data.262:1
-Likely:1
-the  question:1
-This determination:1
- the  user:1
-how  their
-Facebook  data:1
-their  face:1
-its  facial
-recognition database:1
-a significant biometric breach:1
 occurs:1
-concrete  harm:1
-Article  I1 26 5:1
-Constitution  :1
-However,  in  Spokeo, Inc.:1
- real  harm:1
-III  concrete  injury
-requirement:1
 prove:1
 measure:1
 2 66:1
-The
-Spokeo Court:1
-[c]oncrete:1
+oncrete:1
 synonymous:1
 tangible:1
-Taking:1
-Article:1
-two apparent
-risks:1
-the company's  utilization:1
-little regard:1
-information.2:1
-Estimated:1
-responsible:1
-38%269:1
-all  advertisement:1
-revenue:1
-the United  States:1
-Facebook's  wealth:1
-262:1
-California  Courts:1
-Filing:1
-a  Lawsuit:1
-http://www.courts.ca.gov/9616.htm:1
+apparent:1
+2 68 estimated:1
+roughly 38%269:1
+gov/9616:1
 presupposes:1
-the
-Northern  District:1
-a  federal  court:1
-the  most recent
-and preeminent litigation:1
+preeminent:1
 involving:1
 brought:1
-this court:1
- Google:1
-Meg  Graham:1
-Next Illinois Biometrics Lawsuits:1
-Define Rules:1
-
-P.M.:1
-TRn:1
-http://www.chicagotribune.com/bluesky/originals/ct-biometric-illinois-privacy-whats-next-:1
-bsi-20170113-story.html:1
-2:57 
-
-:1
-Kate:1
- MacArthur:1
- TRIB:1
-5:26  :1
-A.M.:1
-http://www.chicagotribune.com/bluesky/originals/ct-:1
-carla-michelotti-biometric-tracking-bsi-20160420-story.html:1
+lawsuits:1
+trn:1
+com/bluesky/originals/ct-biometric-illinois-privacy-whats-next-:1
+bsi-20170113-story:1
+2:57:1
+kate:1
+macarthur:1
+trib:1
+20 , 2016:1
+5:26:1
+com/bluesky/originals/ct-:1
+carla-michelotti-biometric-tracking-bsi-20160420-story:1
 265:1
-Article  III  standing:1
-a  favorable
-ruling:1
-Amnesty:1
-Int'l:1
 266:1
-Spokeo, Inc.:1
-136 S.:1
 268:1
-the digital age:1
 data-:1
 wideopen:1
 door'-is:1
@@ -6174,1116 +4143,531 @@ freely:1
 resold:1
 reused:1
 aggregated:1
-profit:1
-the knowing:1
-voluntary  consent:1
-the  consumer
-subject:1
-almost:1
+voluntary:1
 repair:1
- Jason  Kint:1
-the  ad and data pie:1
-https://digitalcontentnext.org/blog/2016/06/16/google-and-facebook-devour-the-ad-and-data-:1
-scraps:1
-else/.:1
-
-
-FEDERAL COMMUNICATIONS LAW  JOURNAL:1
 amassed:1
-its billion-plus users:1
 89%:1
 rate:1
-targeted  advertisements.27:1
 garnered:1
-a  $4 billion  profit:1
- advertising
+$4 billion:1
 revenues:1
-sheer:1
 magnitude:1
 poised:1
-an  attractive
-choice:1
-advertising  sales:1
-the  problem:1
-no  limitations:1
-the  extent:1
-selling27:1
-This  problem:1
+sales:1
+limitations:1
+27 2:1
 enhanced:1
-accountability:1
-framework:1
-no
-possible  way  to  trace:1
-any  subsequent  sale:1
-
-distribution:1
+trace:1
+subsequent:1
 pending:1
-a  possible
-shift:1
-the willingness:1
+willingness:1
 fird:1
 uninformed:1
-consumers.27:1
-a  motion:1
-the
-lawsuit:1
- the  plaintiffs:1
+27 4:1
 allege:1
-a  concrete
-injury:1
-the  company's  facial  recognition:1
-practices.275:1
-Facebook's  argument:1
-Article HI:1
+hi:1
 real-:1
-
-world:1
-such .as adverse  employment impacts:1
-even just  'anxiety:1
-270:1
-https://www.facebook.com/business/a/online-sales/targeting-tips-basic:1
-8, 2017:1
-targeting:1
-Kint:1
-,  Jared  Bennett:1
-Public  Integrity:1
-Face Belongs:1
-Us:1
-Daily Beast:1
-July 31:1
-https://www.thedailybeast.com/how-facebook-fights-:1
-https://perma.cc/DHJ4-AHRG:1
-Larry:1
-Ponemon:1
-
-founder:1
-the  Ponemon  Institute:1
- model:1
-a  commercial  model:1
+employment:1
+impacts:1
+anxiety:1
+276 270:1
+com/business/a/online-sales/targeting-tips-basic:1
+8 , 2017:1
+jared:1
+integrity:1
+belongs:1
+beast:1
+thedailybeast:1
+com/how-facebook-fights-:1
+to-stop-laws-on-facial-recognition:1
+cc/dhj:1
+4-ahrg:1
+larry:1
+institute:1
 basically:1
-them  products:1
-that
-information:1
 prone:1
-consequences:1
 settled:1
-a  class-action  lawsuit:1
-advertising  companies:1
- advertisements:1
- race:1
+class-action:1
+roughly $20 million:1
 ethnicity:1
-
-Sapna Maheshwari:1
-Mike:1
-Isaac:1
-Stop:1
-Some Ads:1
-Targeting Users:1
-Race:1
-https://www.nytimes.com/2016/11:1
-/12:1
-some-ads:1
-from-:1
-targeting-users-by-race.html?_r-0:1
+sapna:1
+maheshwari:1
+mike:1
+isaac:1
+com/2016/11 /12/business/media/facebook-will-stop-some-ads-from-:1
+targeting-users-by-race:1
+r-0:1
 274:1
- Biometric  Information  Privacy:1
- Litigation:1
-cv-:1
-03747-JD:1
-the  plaintiffs:1
+15-cv-:1
+03747-jd:1
 suing:1
-the  company's  facial
-recognition:1
-tagging  practices:1
-http://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActlD=3004&ChapterlD=57:1
-275:1
- Biometric  Information Privacy:1
-3:15-
-CV-03747-JD:1
-(Facebook:1
-Subj ect-Matter  Jurisdiction:1
-Order:1
-Denying:1
-Renewed:1
-Subject:1
-Matter  Jurisdiction:1
-November:1
-the  matter:1
-District:1
- James Donato
-:1
+3:15-:1
+cv-03747-jd:1
+subj:1
+ect-matter:1
+276:1
+renewed:1
+november 2017:1
+james:1
 seemed:1
 unconvinced:1
-Facebook's Spokeo argument:1
 tihe:1
-a  valuable  commodity:1
-the most personal  aspects:1
-your life:1
-your  face:1
-your  fingers:1
-the  world:1
-an  order:1
-denying:1
-Facebook's motion:1
-February 2018:1
-Quoting:1
-the Spokeo Supreme
-Court:1
+valuable:1
+commodity:1
+aspects:1
+fingers:1
+february 2018:1
 delineated:1
- "a  plaintiff:1
-the
-'irreducible  constitutional  minimum:1
-of(1:1
+irreducible:1
+minimum:1
 defendants:1
 redressed:1
-a  favorable  judicial  decision:1
-Importantly:1
+importantly:1
 reiterated:1
-t]he  specific  element:1
-the
-plaintiff:1
-"an  invasion:1
- interest:1
 conjectural:1
 hypothetical:1
-2 79  Judge:1
- state  legislatures:1
+2 79:1
+legislatures:1
 equally:1
-an intangible  harm:1
-a concrete  injury:1
-the  sense:1
-Illinois  state  statute:1
-This  case:1
 predicated:1
-codifie[s:1
- personal  biometric  information:1
-Illinois residents:1
-the right:1
-their biometric information:1
- collection:1
+codifie:1
 giving:1
-residents:1
-the power:1
 withholding:1
-28 1 As  a  result:1
-an  online  service:1
-simply
-disregards:1
-the  Illinois procedures:1
- thin
-air:1
-Judge Donato:1
-the abrogation:1
-the procedural rights:1
-BIPA:1
-a  concrete  injury:1
-This  injury:1
-
+2 82:1
+abrogation:1
+bipa:1
 worlds:1
-the  trivial  harm:1
+trivial:1
 mishandled:1
- zip  code:1
-credit  card:1
-
+zip:1
 receipt:1
- California:1
-a biometric privacy law:1
 resembles:1
-other statutorily created  interests:1
-Facebook's  intrusive  facial  recognition  technology  practices:1
-Ninth:1
-Circuit:1
-Joel:1
-Rosenblatt:1
-Frowns:1
-Bid:1
-Toss:1
-Print:1
-https://www.bloomberg.com/news/articles/2017-11-
-Suit:1
-Bloomberg:1
-30/facebook-judge-frowns:1
+ninth:1
+joel:1
+rosenblatt:1
+frowns:1
 bid:1
 toss:1
-biometric-face:1
--print-suit:1
-https://perma.cc/M3GH-:1
-
-HANY:1
-t]he  point:1
-its  citizens:1
-t]he:1
+com/news/articles/2017-11-:1
+30/facebook-judge-frowns-on-bid-to-toss-biometric-face-print-suit:1
+cc/m:1
+gh-:1
+hany:1
 allegation:1
 usurped:1
-a mere technicality:1
-my view:1
+technicality:1
 3-4:1
- Spokeo:1
-Lujan:1
-Defenders:1
-Wildlife:1
-504 U.S.:1
+1540 , 1547:1
+lujan:1
+defenders:1
+wildlife:1
+504:1
 555:1
 560:1
+1547:1
 280:1
-Idat4:1
+idat:1
 281:1
 282:1
-Id.
-
-FEDERAL COMMUNICATIONS LAW JOURNAL
-
-Vol:1
- interests:1
-federal  courts:1
-most diversity  cases:1
-the-mill:1
-property  disputes:1
- State  statutes:1
- state  law:1
-such  interests:1
-"'2:1
-civil  code:1
+diversity:1
+run-of-the-mill:1
+statutes:1
 plausibly:1
 opting:1
-its  facial  recognition  technology  programs:1
-explicitly  state:1
- its  users'  biometric
-data:1
-sign-up:1
-an uphill battle:1
-however:1
- state
+programs:1
+uphill:1
+battle:1
 judges:1
 remarked:1
-
-Mount Everest:1
-data privacy cases:1
-
-the  doctrine:1
-Kilimanjaro:1
-Judge  Donato:1
-recent:1
-ruling:1
+injury-in-fact:1
+mount:1
+everest:1
+kilimanjaro:1
 promising:1
-The  second  risk:1
 disclaims:1
 ensuing:1
-security  implications:1
-the event:1
-a biometric data breach:1
-This  risk:1
 derived:1
- broad  inclusion:1
-an  exculpatory  clause:1
 carving:1
-any  liability:1
-the  event:1
- anything:1
 happens:1
-third parties.287:1
-This free-trade,  zero-liability  exception:1
-an  unprecedented  risk:1
+free-trade:1
+zero-liability:1
 correct:1
 errors:1
-the risk:1
 undeniable:1
-The reality:1
-this information:1
-a  user's privacy:1
- settings:1
-large.-:1
 offending:1
 excluding:1
-Facebook's  exculpatory  clause:1
 decades:1
 invalidated:1
 affect:1
 284:1
-City:1
-Long Beach:1
-(9th Cir:1
-Cal  Civ Code:1
-Privacy Policy Litig:1
- 2013 U.S. Dist:1
 171124:1
-N.D.:1
-287:1
-3, 2013:1
+3 , 2013:1
 288:1
-Privacy  Forum:1
-Principles:1
-https://fpf.org/wp-:1
-Discussion 
-content:1
-uploads/2015/12/Dec9Working-Paper-FacialRecognitionPrivacyPrinciples-For-
-Web.pdf:1
+https://fpf:1
 289:1
- Id.
-
-Issue:1
 2 91:1
-Included:1
-the  exculpatory  clause:1
 releases:1
- abusive  data practices:1
+abusive:1
 bad-faith:1
- actions:1
- advertisers.29:1
-Facebook  is  one  of the  :1
-most  well-known  businesses:1
- third  party  companies:1
-the
-information:1
-the
-consequences:1
-a  biometric  data:1
-massive:1
-permanent  security  consequences:1
+well-known:1
 served:1
 invalidate:1
-the  applicability:1
-data.294:1
-behavioral:1
+applicability:1
 strategies:1
-"293:1
-Adhesion  contracts:1
 eradicated:1
 proactive:1
 shielding:1
-adhesion  contracts:1
 overzealous:1
-unconscionable 
-terms:1
 decline:1
-current:1
-the  grounds:1
 revise:1
-that prospective  users:1
-the  company's biometric data collection practices:1
- schedule:1
-an account:1
-its  tag
-suggestions:1
-program:1
-no
-opportunity:1
 accumulate:1
 hold:1
-sensitive  biometric
-data:1
-a number:1
- ways:1
-unconscionable  provisions:1
-these user:1
 291:1
-Tunkl:1
-Regents  of Univ. of Cal:1
-n]o:1
-the  concept:1
+tunkl:1
+regents:1
+univ:1
 contained:1
-the four comers:1
-a formula:1
-great debate:1
+comers:1
+formula:1
+debate:1
 ranged:1
-the  common law:1
-Hiroshima:1
-Italy:1
+hiroshima:1
+italy:1
 362:1
 1926:1
- Union  Constr.:1
-Western Union:1
-Tel.  Co.:1
+constr:1
+western:1
+tel:1
 292:1
-GUARANTEE:1
-SAFE:1
-SECURE:1
-ERROR:1
-FREE:1
-FUNCTION:1
-WITHOUT:1
- DISRUPTIONS:1
-DELAYS:1
-
-IMPERFECTIONS:1
-RESPONSIBLE:1
-THE  ACTIONS:1
- INFORMATION:1
- DATA:1
-THIRD:1
- PARTIES:1
-293:1
- Justin McHugh:1
-IKnow:1
+error-free:1
+disruptions:1
+delays:1
+imperfections:1
+justin:1
+mchugh:1
+iknow:1
 andi:1
-Social Networks:1
-The  Death:1
-SYRACUSE:1
- SCi:1
- TECH:1
-L.  REP:1
-Lori
-Andrews:1
-Know:1
-Free:1
-Press:1
- ed:1
-294:1
-"social  networks:1
+death:1
+syracuse:1
+lori:1
+andrews:1
 databases:1
-identified  individual  images:1
-the targets:1
-unauthorized individuals:1
-leading:1
-consumers'  facial recognition:1
+targets:1
+unauthorized:1
 anticipate:1
-Option No:1
-California State Constitution:1
-Public Policy:1
 dissuaded:1
-an  unconscionable  contract:1
- state
-courts:1
 independently:1
-unlawful:1
-the
-state  constitution:1
-The  First Amendment:1
-California State  Constitution:1
-a right:1
-All  people:1
 independent:1
-inalienable  rights:1
-Among:1
 enjoying:1
 defending:1
- life:1
 acquiring:1
 possessing:1
-property:1
-
-pursuing:1
- safety:1
 happiness:1
-privacy.295:1
- the  right  to  privacy:1
-absolute,296:1
-the  state  constitution's explicit  inclusion:1
-an inalienable
-right to  privacy:1
-interest.2:1
-contacts:1
+absolute:1
+2 97:1
 implicate:1
-larger  social constructs:1
- public  policy  grounds:1
-California's  1st District Court:1
-Appeal:1
-Anything:1
-sense:1
- individual  rights:1
-private property:1
-any.citizen:1
+larger:1
+constructs:1
+appeal:1
+citizen:1
 ought:1
-An  argument:1
 accepting:1
 thwarted:1
-Civil  Code:1
-any one:1
-the  advantage:1
-a  law:1
-his  benefit:1
- a  law:1
-a  public  reason:1
 contravened:1
-a  private agreement:1
-whether  a
-law:1
-public  benefit:1
-a  "law:1
-a  public reason:1
-tendency:1
 promote:1
-the  welfare:1
-small:1
 percentage:1
-citizens:1
-"301:1
-Article  1
-Section:1
-the public benefit:1
-The bill's sponsor:1
-296:1
-Carrier  IQ:1
- Consumer Privacy  Litig:1
- White:1
+article 1 section 1:1
+sponsor:1
+about 295:1
 773-74:1
- MB Practice  Guide:1
-CA Contract:1
-Noble:1
-Palo Alto:1
+2-18:1
+mb:1
+noble:1
+palo:1
+alto:1
 300:1
-301:1
-Benane:1
-Int'l Harvester  Co.:1
-2d Supp:1
+benane:1
+harvester:1
 874:1
 878:1
 1956:1
-
-accord:1
-Kazas:1
-Cap:1
+kazas:1
+cap:1
 1937:1
- Cal:1
-Stimson:1
+stimson:1
 552:1
 554:1
 1949:1
-Winklemen:1
-Sides:1
+winklemen:1
+sides:1
 387:1
 1939:1
-NETWORK OR:1
 evils:1
- tendency:1
-private  information:1
-perceiv[ing:1
+perceiv:1
+ing:1
 parcel:1
 shrinking:1
 orbit:1
 reveals:1
- the  bill:1
- "government
 cooperation:1
-the  widespread  dissemination:1
-private
-information:1
- "private  businesses:1
-private
-facts:1
-private  people:1
+3 3:1
 incorporated:1
-the  public  welfare:1
-Therefore:1
- Article  1 Section:1
+article 1:1
 circumvented:1
-a  private  agreement:1
--between:1
- the  California  judiciary:1
 holds:1
- "courts:1
 indulge:1
 presumption:1
-a  waiver:1
 right"3:1
 supposing:1
-a court:1
 assume:1
 waived:1
-California
-case:1
- law:1
-w]aiver:1
+aiver:1
 rests:1
 intent:1
-Waiver:1
-the  intentional
-relinquishment:1
-known:1
- knowledge:1
-the  facts:1
-Facebook
-users:1
+intentional:1
+3 5:1
 relinquished:1
-the  full extent:1
-what state  privacy rights:1
-relinquishment:1
-those privacy:1
 entailed:1
-invasion:1
-a  valid public  policy
-concern:1
-no  reason:1
-why  the  courts:1
 shy:1
-most  recent  privacy-invasive
-practices:1
- facial recognition.30:1
- the  legislature:1
-a  state  election  pamphlet:1
+election:1
 stockpiling:1
 unnecessary:1
 misusing:1
 gathered:1
-one purpose:1
 serve:1
-other purposes:1
 embarrass:1
-[consumers:1
-30 7 Analogous:1
-J.  Clark Kelso:1
-California's Constitutional Right:1
-19  PEPP:1
+clark:1
+kelso:1
+pepp:1
 418:1
-http://digitalcommons.pepperdine.edu/cgi/viewcontent.cgi?article=:1
+pepperdine:1
+edu/cgi/viewcontent:1
+cgi:1
+article=:1
 1631:1
-=:1
 plr:1
-.303:1
 304:1
-People:1
-Houston:1
 894:1
 900:1
 1970:1
 305:1
-Wienke:1
-Smith:1
+wienke:1
 1918:1
-Alden:1
-Mayfield:1
-no  valid  waiver:1
+alden:1
+mayfield:1
 attempts:1
 surreptitiously:1
-some  way advantage:1
-Freshko Produce  Servs:1
-Produce Delights:1
-U.S.  Dist:1
+freshko:1
+servs:1
+delights:1
 57004:1
-4  :1
-C.D.:1
-Carrier IQ:1
-Consumer Privacy  Litig:1
-78 F.  Supp:1
-(N.D. Cal:1
-Pioneer Elec:1
-(USA:1
-Superior Court:1
-40 Cal:1
+pioneer:1
+elec:1
 360:1
 370:1
 protects:1
-the  individual's  reasonable expectation:1
-a
-serious invasion:1
 307:1
-3d  757:1
-Judge  Donato's  reasoning:1
-In Re Facebook Biometric Information
-:1
 sweeping:1
 practiced:1
-Since:1
-
-interests:1
-courts,""'3:1
-Constitution's  inalienable  right  to  privacy:1
-intrusive  biometric  data
-collection  practices:1
-ignoring:1
-the will:1
-the  people:1
-an  inalienable
-right  to privacy  in  the now  long-standing  Constitutional  principle:1
- California
-courts:1
+well-regarded:1
+long-standing:1
+principle:1
 engaging:1
-judicial  activism:1
-the  burden:1
+activism:1
+burden:1
 falling:1
-the  backs:1
-C.  State Tort Law:1
-Intrusion:1
-Upon:1
-Seclusion:1
-Lastly:1
-a tortious conduct
-standpoint:1
-the state tort:1
+backs:1
+lastly:1
+tortious:1
 adopted:1
-an intrusion:1
-National Broadcasting Co.:1
-Torts.31:1
-0:1
-u]nder:1
-two elements:1
- (1) intrusion:1
-a private  place:1
-a manner:1
-a reasonable  person:1
-The  first
-element:1
-an  invasion:1
-"an objectively  reasonable  expectation:1
-
+nder:1
 solitude:1
-the  place:1
-source:1
-a  reasonable  expectation:1
-
-privacy:1
-the  intrusion:1
-effective:1
- the  person:1
- harm:1
-the particular conduct:1
 substantially:1
 308:1
-As  the Illinois legislature  :1
-protections:1
 particularly:1
 crucial:1
-our  digital  world:1
 permits:1
 wholesale:1
-unique  biometric  identifiers:1
-identifiers:1
-When an  online service:1
-disregards:1
-the Illinois
-procedures:1
- thin  air:1
-the  Illinois  legislature:1
 realized:1
 309:1
-City of Long  Beach:1
 310:1
-Nat'l Broadcasting Co.:1
 1482:1
-SECOND:1
-652B  :1
+652:1
 1977:1
 311:1
-Shuliman:1
-Group  W Prod:1
+3 d 1064 , 1072:1
+shuliman:1
+prod:1
 1998:1
 312:1
 313:1
-Nat'l:1
-Collegiate:1
-Athletic Ass'n:1
+collegiate:1
+athletic:1
 tortfeasor:1
 exceed:1
-that consent:1
-the  adequacy:1
-Yelp's  Privacy:1
-Policy.315:1
+adequacy:1
 ambiguity:1
-the  Privacy  Policy:1
-
-the  question:1
-Yelp:1
 implies:1
-that data:1
- Yelp's  servers:1
-The  Northern  District:1
+servers:1
 denied:1
-Yelp's:1
-motion:1
- summary:1
-
-judgment:1
 dismissal:1
 jury:1
-Yelp's
-Privacy Policy:1
-not  explicitly  address:1
-thus:1
-Privacy
-Policy.317  Facebook's  :1
-analogous:1
-the
-consent  issues:1
-Yelp's Privacy  :1
+address-and:1
 knowingly:1
-their biometric data:1
-the  inclusion:1
-such,
-under  an intrusion:1
 plausible:1
-Facebook's  facial  recognition:1
-the  outset:1
- the
-company:1
+outset:1
 exceeded:1
 proffered:1
-second:1
-element:1
-an  intrusion:1
-serious:1
-an  egregious  breach:1
-the  social  norms:1
-3 18:1
-[a]
-'reasonable'  expectation:1
-an  objective  entitlement:1
+egregious:1
+objective:1
+entitlement:1
 founded:1
-community  norms:1
-
-California  courts:1
- "community  norms:1
 entails:1
- "'[t]he
-protection:1
 afforded:1
-the plaintiff's  interest:1
-his privacy:1
 relative:1
-the customs:1
-the  occupation:1
-the plaintiff:1
-the
-habits:1
-his  neighbors:1
-fellow citizens:1
-""'32:1
-invasive:1
-
-unwanted means:1
-a person's  mailing  address:1
+occupation:1
+neighbors:1
+fellow:1
+unwanted:1
 314:1
-Oppennan:1
-892A:1
-2(b:1
+oppennan:1
+892:1
 1979:1
-315:1
+3 d 1064:1
 316:1
 1075-76:1
-317:1
 1074:1
 318:1
 1077:1
-Hernandez:1
-Hillsides:1
-Nat'l Broadcasting:1
+hernandez:1
+hillsides:1
 1483-84:1
-A court:1
-offensiveness:1
-the  degree:1
-the  context:1
 surrounding:1
-the
-intrusion:1
-the  intruder's  motives:1
- objectives:1
+intruder:1
+motives:1
+objectives:1
 setting:1
 intrudes:1
-the  expectations:1
-whose privacy:1
 invaded:1
-205 F.  Supp:1
 320:1
-Yahoo  Mail  Litig:1
-7  F.  Supp:1
-1016:1
- 70
-
-behavior:1
-'32 1 Certainly  biometric data:1
-a  mailing address:1
+mail:1
+3 d 1016 , 1038:1
 move:1
-your address:1
 surpassed:1
-any kind:1
-"routine  commercial  behavior:1
-its  facial  recognition  capabilities:1
-seemingly endless patent requests:1
-well.3:1
-paramount  concern:1
-August:1
-patent:1
-filing:1
+3 23:1
+paramount:1
+august:1
 utilize:1
-passive
-imaging 
-information:1
+passive:1
 visually:1
 tracking:1
- user's  emotions:1
- facial
-expressions:1
-social  networks:1
- news  articles:1
 audio:1
- other
-digital  content:1
-3 24:1
-this  patent:1
-advertising  revenue:1
-the patent filing:1
- specifies:1
-advertisement:1
- delivery:1
+delivery:1
 customized:1
 detected:1
 32 5:1
-
-offensiveness:1
 determined:1
-widely-held  community  values:1
+widely-held:1
+values:1
 93%:1
 reporting:1
-the  importance:1
-their
-personal information:1
-only a mere  9%:1
-Accounting:1
-the  68%:1
-American
-adults:1
-daily,327:1
+importance:1
+9%:1
+accounting:1
+the 68%:1
 farfetched:1
 believe:1
 allowing:1
-highly invasive  practices:1
-the  social norm:1
-The Northern
-District:1
+norm:1
 recently:1
-t]hose:1
-customs:1
- habits:1
+hose:1
 flux:1
-a stop:1
 overstepping:1
-the  bounds:1
-any further  irreversible  escalation:1
-numerous  ways:1
-invasions:1
-foray:1
-more innovative  uses:1
-the  legal  tools:1
-shift:1
- pro-
-consumer landscape:1
+bounds:1
+irreversible:1
+escalation:1
+pro-:1
+landscape:1
 insurmountable:1
-challenges:1
- Facebook's  current  facial  recognition:1
 321:1
 1078:1
- Privacy Tech:1
 323:1
 20170140214:1
- capture:1
-
-facial  data points:1
+18 , 2017:1
 generate:1
-an emoji:1
-the user's current  facial emotion:1
+emoji:1
+emotion:1
 20160127360:1
-May 5, 2016:1
-facial recognition data:1
+5 , 2016:1
 speech:1
-the  social  media  site:1
 324:1
-expressions:1
-a  smile:1
- joy:1
- humor:1
- amazement:1
-
+smile:1
+joy:1
+humor:1
+amazement:1
 excitement:1
-a  frown:1
+frown:1
 sadness:1
- disappointment:1
- confusion:1
+disappointment:1
+confusion:1
 jealously:1
- indifference:1
-
+indifference:1
 boredom:1
- anger:1
+anger:1
 depression:1
 pain:1
 325:1
-Aug. 27:1
- Gao:1
- surveillance:1
-national:1
- http://www.pewresearch.org/fact-
-tank/2015/05/29:1
-americans:1
-nsa:1
--nationa:1
-327:1
-PEW  RESEARCH  CENTER:1
-Social  Media:1
-Fact  Sheet:1
-http://www.pewinternet.org/fact-sheet/social-media/.:1
+think:1
+29 , 2015:1
+pewresearch:1
+org/fact-:1
+tank/2015/05/29/what-americans-think-about-nsa-surveillance-nationa-security-and-privacy/:1
+sheet:1
+org/fact-sheet/social-media/:1
 necessitate:1
-significantly  overdue  judicial  intervention:1
-the
-California judiciary:1
-V. CONCLUSION:1
+overdue:1
 wrongfully:1
-unrestricted:1
 disclosure:1
-sensitive  biometric
-identifiers:1
 wise:1
-"[o]paque  privacy waivers:1
+paque:1
 substitute:1
- substantive  consumer  privacy  protections:1
-the  digital  age:1
- Forced
-consent:1
-"329:1
-Acknowledging:1
 gain:1
 lose:1
-the  very  real  risk:1
-accumulation:1
 handling:1
-Pro-consumer  intervention:1
 achieved:1
-avenues:1
-A pro-consumer  privacy:1
 hopefully:1
 spark:1
-meaningful  policy:1
 levels:1
-the  possible  privacy  implications:1
-unregulated  facial  recognition  technology:1
 controls:1
-the
 narrative:1
-step:1
 preventing:1
-the  future:1
-Without:1
 interference:1
 expanding:1
-its  facial recognition:1
+one billion:1
 innocent:1
-non-consenting  users.330:1
-329:1
-330:1
-The author:1
 draw:1
 attention:1
-a 2010 article:1
 featured:1
-The New Yorker:1
- founder:1
-Mark Zuckerberg:1
-the social media
-site:1
-"dumb  fucks:1
+zuckerberg:1
+dumb:1
+fucks:1
 trusting:1
-their personal  data:1
-Jose Antonio Vargas:1
-The
-Face 
-NEw:1
-http://www.newyorker.com/magazine/2010/09/20/the-face-of-facebook:1
-https://perma.cc/LYW9-82FN:1
-YORKER:1
+jose:1
+antonio:1
+vargas:1
+newyorker:1
+com/magazine/2010/09/20/the-face-of-facebook:1
+cc/lyw:1
+9-82:1
+fn:1
 156-:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:40
-consent:17
-Privacy:12
-PRIVACY:2
-hacked:1
-Hacked:1
-Cybersecurity:1
+Privacy:179
+consent:37
+privacy policy:10
+Data breach:4
+data security:2
+hacked:2
+data protection:1
+cybersecurity:1

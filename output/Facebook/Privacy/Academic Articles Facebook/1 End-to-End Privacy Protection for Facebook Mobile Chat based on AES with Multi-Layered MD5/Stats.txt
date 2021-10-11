@@ -3,1021 +3,744 @@
 
 
 With stop word removal 
-Size of original corpus: 3339 
-Size of filtered corpus: 1336
-Size of Lexicon: 917
+Size of original corpus: 3358 
+Size of filtered corpus: 1888
+Size of Lexicon: 731
 
 Tokens that appear in the file, alongside with their frequencies:
-AES:19
-Facebook:15
-based:13
-1:13
-chat:12
-Privacy:11
-users:10
-MD5:10
-Protection:9
-2:9
-Facebook Mobile Chat:8
-Multi-Layer:8
+key:39
+chat:38
+facebook:37
+privacy:32
+process:31
+aes:29
+5:28
+encryption:27
+2:24
+user:23
+mobile:21
+1:21
+based:19
+md:18
+social:18
+users:18
+3:18
+media:17
+protection:16
+data:16
+private:15
+multi-layer:14
+information:14
+application:14
+decryption:13
+end-to-end:12
+performance:12
+time:12
+paper:11
+science:11
+computer:11
+test:10
+4:9
+manipulation:9
+short:8
 used:8
-the user:7
-Malang:6
-Indonesia:6
-encryption:6
+work:8
+7:8
+generation:8
+12:7
+amount:7
+proposed:7
+secure:7
+research:7
+9:7
+brawijaya:6
+university:6
+malang:6
+indonesia:6
+encrypted:6
+algorithm:6
+distribution:6
 conducted:6
+number:6
 27:6
-3:6
-Based:6
-user:5
-proposed:5
-2016:5
-4:5
-encrypted:5
+result:6
+character:6
+https://doi:5
+org/10:5
+system:5
+chatting:5
+increase:5
+http://www:5
+method:5
 sent:5
-secure:5
-key:5
+6:5
+vol:5
+tion:5
+chipertext:5
+real:5
 shown:5
-10:5
-Game:5
-East Java:5
+b:5
+results:5
+0:5
+experiment:5
+multimedia:5
+game:5
+group:5
+department:5
+faculty:5
+east:5
+java:5
+company:4
 share:4
-private:4
+content:4
+use:4
 make:4
-5:4
+security:4
+i-jim:4
+org:4
+implementation:4
+advanced:4
+related:4
 128:4
-layer:4
-iJIM:4
-Vol:4
-12:4
+form:4
+ijim:4
 able:4
+figure:4
+message:4
 +:4
-
-Brawijaya University:4
-Multimedia:4
- Department:4
-Computer  Science:4
-Faculty  of  Computer  Science:4
-Chat:3
-social media:3
-use:3
-increase:3
-information:3
+f:4
+ms:4
+10:4
+2016:4
+technology:4
+multi-layered:3
+personal:3
+another:3
+inc:3
+although:3
+fundamental:3
+case:3
+platform:3
+communication:3
+parties:3
+study:3
+value:3
+times:3
+standard:3
+history:3
 give:3
+section:3
 advantage:3
-6:3
-7:3
-2.2:3
+plaintext:3
 serve:3
 safely:3
+8:3
+prototype:3
+xmpp:3
 distributed:3
-tion:3
+design:3
 would:3
-Figure:3
+recipient:3
+'s:3
+integer:3
+combined:3
+ascii:3
+summation:3
+table:3
+randomize:3
 made:3
-81:3
 =:3
-Fig:3
-test:3
-ms:3
-2.7:3
+fig:3
+50:3
+device:3
+25:3
+100:3
+graph:3
+1 second:3
+ieee:3
 2015:3
-Mobile  Technology 
-Research  Group:3
-Wibisono Sukmo Wardhono:2
+2012:3
+wibisono:2
+sukmo:2
+wardhono:2
+nurizal:2
+dwi:2
+priandani:2
+mahardeka:2
+ananta:2
+komang:2
+candra:2
+brata:2
+herman:2
+tolle:2
 become:2
-privacy:2
-social media company:2
-Although:2
+concern:2
+commodity:2
+government:2
+user’s:2
+mechanism:2
 still:2
 undermine:2
-the most favorite feature:2
-a chat 
+right:2
+violation:2
+provider:2
+favorite:2
+feature:2
 room:2
-communication:2
+cryptography:2
 encrypt:2
-multi-layered MD5:2
-Chatting:2
-the value:2
-chatting:2
+internet:2
+point:2
+situation:2
 must:2
-times:2
-this  paper:2
+monthly:2
+active:2
+worldwide:2
 present:2
-Encryption:2
 obtain:2
+communications:2
+generated:2
 secured:2
 decrypt:2
+next:2
 objective:2
-related:2
 takes:2
-2.1:2
-(AES:2
+electronic:2
+converts:2
 called:2
-plaintext:2
+ciphertext:2
+ahmad:2
+digital:2
+com-:2
+public:2
 11:2
-this research:2
+mechanisms:2
 implemented:2
-this  application:2
 possible:2
 already:2
-the Facebook:2
 app:2
-Short:2
-Paper:2
-2.3:2
 built:2
-8:2
+messaging:2
 within:2
- Chat:2
 experimental:2
-9:2
-XMPP:2
+xo:2
+overlay:2
+service:2
+announcing:2
 main:2
+task:2
+random:2
+ma-:2
+nipulation:2
+pro-:2
+cess:2
+keys:2
+purpose:2
 range:2
-99:2
+10 to 99:2
 16:2
 obtained:2
-integer:2
-combined:2
-b:2
-Splitting:2
-each pair:2
-ASCII:2
-Summation:2
-The result:2
+splitting:2
+digit:2
+pair:2
 converted:2
-result:2
+sequence:2
 aimed:2
 9016:2
-protection:2
+highly:2
 34:2
 21:2
 67:2
-Mergering:2
 34216781901193798477186770402581:2
-0^lu&xjoh-^aC4l:2
-Private:2
-IniIdentifiernya:2
+81:2
+0^lu&xjoh-^ac:2
+iniidentifiernya:2
+714:2
+fe:2
+bc:2
+6707491:2
+ebea:2
+70:2
+221:2
+cb:2
+28:2
+fc:2
+7876:2
+214:2
+58:2
 assumed:2
 see:2
-the message:2
 required:2
 read:2
-the 
-process:2
-The  performance:2
-the application:2
-the encryption and decryption process:2
- the  device:2
-100:2
-decryption process:2
-the encryption:2
+hash:2
+setup:2
+expansion:2
+1 2:2
+longer:2
+less:2
+deadline:2
+experience:2
 felt:2
-the action:2
+action:2
 given:2
-the  application:2
 responded:2
 immediately:2
-a swift manner:2
+swift:2
+manner:2
 millisecond:2
-Information:2
-Last:2
+engineering:2
+statista:2
+online:2
+last:2
 accessed:2
-IEEE:2
+2017:2
+january:2
+international:2
+conference:2
 2010:2
-Short Paper:1
-Facebook Mobile:1
-Multi-Layered MD5:1
-Nurizal Dwi Priandani:1
-Mahardeka Tri Ananta:1
-https://doi.org/10.3991/ijim.v12i1.7472:1
-Komang Candra Brata:1
-Herman Tolle 
-Brawijaya University:1
-wibiwardhono@ub.ac.id:1
-Abstract:1
-As  social  media  environments:1
+samsudin:2
+authors:2
+3991/ijim:1
+7472:1
+wibiwardhono@ub:1
+ac:1
+abstract:1
+environments:1
 interactive:1
-
-amount:1
 grown:1
 tremendously:1
-a matter:1
-increasing concern:1
-personal data:1
-a commodity:1
+matter:1
+increasing:1
 us-:1
-ers data:1
-another party:1
-government:1
-inc:1
-the social 
-media company:1
+ers:1
+party:1
 frequently:1
 asked:1
-user’s data:1
-this private data 
-request mechanism:1
-a formal and valid legal process:1
-the fundamental right:1
-information privacy:1
-This Case:1
-social media users:1
+request:1
+formal:1
+valid:1
+legal:1
 need:1
- protection:1
-privacy  violation:1
-social:1
-media  platform  provider:1
-Private chat:1
-a social media:1
-Inside:1
-their private information contents:1
-Cryptography:1
-data  protection  methods:1
+inside:1
+contents:1
+data protection:1
+methods:1
 hides:1
-data:1
-unauthorized parties:1
-our study:1
-a system:1
-chatting content:1
+unauthorized:1
 ensure:1
- privacy  protection:1
- social  media  company:1
- in-:1
+in-:1
 formations:1
-a  commodity:1
 addition:1
-this  system:1
 conven-:1
-
 ience:1
-their private information:1
-social media platform:1
-Keywords:1
-Social media:1
-Security:1
-Introduction:1
-User’s information privacy:1
+keywords:1
+introduction:1
 recognized:1
-an important issue:1
-social me-
-dia era:1
-its impact:1
+important:1
+issue:1
+me-:1
+impact:1
 continue:1
 continues:1
 grow:1
-Understanding:1
+understanding:1
 protecting:1
-personal privacy:1
-social 
-media:1
 becoming:1
 increasingly:1
 critical:1
-widespread use:1
-the 
-Internet:1
-A fundamental problem:1
-this point:1
+widespread:1
+problem:1
 companies:1
 thirsty:1
 ever:1
-
-more  information:1
-user  data:1
-fundamental:1
-right:1
- infor-
-mation privacy:1
+infor-:1
+mation:1
 buy:1
-some social media users data:1
 like:1
-2][3:1
 defining:1
-a private situation:1
 necessary:1
 define:1
 access:1
 un-:1
-
-der:1
-which  circumstances:1
-The  privacy:1
+circumstances:1
 represents:1
-a 
-good example:1
-the complexity:1
-the restrictions:1
+good:1
+example:1
+complexity:1
+restrictions:1
 placed:1
-a privacy 
-situation:1
-the  third  quarter:1
-1.79  billion:1
-monthly:1
-active:1
-160http://www.i-jim.orgShort Paper:1
-their private content:1
-this massive amount:1
-the demand:1
-Facebook user data:1
+the third quarter of 2016:1
+79 billion:1
+160:1
+massive:1
+demand:1
 linearly:1
-
-information:1
-many reasons:1
+many:1
+reasons:1
 purposes:1
-worldwide governments:1
+governments:1
 requested:1
-Facebook users' data:1
-up to 60,000:1
+60:1
+000:1
 first half of 2016:1
 giving:1
-
-users:1
-another  parties:1
 without:1
 permission:1
- Facebook:1
-Inc.:1
-a  social 
-media platform provider:1
-a serious threat:1
-the Facebook user privacy:1
-an  implementation:1
-Advanced  Encryption  Standard 
-(AES:1
-cryptography:1
-a  basic  concept:1
-this proposed method:1
-secure communications:1
-end users:1
-The chat history:1
-randomly generated 
-key:1
-only corresponding users:1
-the chat content:1
-next step:1
-this encrypted content:1
-Facebook’s data-
+serious:1
+threat:1
+basic:1
+concept:1
+randomly:1
+corresponding:1
+step:1
+facebook’s:1
+data-:1
 base:1
-this  study:1
 propose:1
-a  system:1
-privacy  protection 
-mechanism:1
 never:1
 worried:1
-privacy violation:1
-although:1
-
-inc:1
-their users:1
-history data:1
-another parties:1
-Related:1
-Mobile:1
-This section:1
 discussed:1
 relationship:1
-our Facebook mo-:1
- work:1
+mo-:1
 briefly:1
 summarizes:1
-mobile chat work:1
-our face-
+face-:1
 book:1
-mobile:1
-Due:1
+due:1
 space:1
 limitations:1
 depth:1
-the 
 field:1
-a comprehensive survey:1
-related work:1
+comprehensive:1
+survey:1
 rather:1
 concentrates:1
-the specifics:1
+specifics:1
 adapting:1
 analyzing:1
-our Facebook mobile chat:1
-The Advanced Encryption Standard:1
 specifies:1
-a cryptographic algorithm:1
+cryptographic:1
 protect:1
-electronic data:1
-The AES algorithm:1
-a symmetric block:1
+symmetric:1
+block:1
 cipher:1
 encipher:1
 decipher:1
- information:1
-Encryption 
-converts  data:1
-an  unintelligible  form:1
-ciphertext:1
+unintelligible:1
 decrypting:1
-the  ciphertext:1
-converts:1
-the data:1
 back:1
-its original form:1
-The implementation:1
-Ahmad et.al:1
-The MD5 algorithm:1
+original:1
 intended:1
 applications:1
 preserve:1
-the integrity:1
-digital information:1
-information files:1
-a certain size:1
-com-:1
+integrity:1
+files:1
+certain:1
+size:1
 pressed:1
-a  private  key  (secret:1
-a  public  key  cryp-
+secret:1
+cryp-:1
 tosystem:1
-RSA:1
-the algorithm:1
+rsa:1
 developed:1
-Multi-
+multi-:1
 layer:1
-the  manipulation:1
-algorithm:1
-With  the  com-:1
 bined:1
-mechanisms:1
-the decryption process:1
-2018161:1
-Mobile Chat:1
-The work:1
-this paper:1
-the idea:1
-the facebook:1
+1 , 2018161:1
+idea:1
 leaving:1
-a privacy 
-concern:1
-The previous work:1
-a prototype:1
-system:1
+previous:1
 providing:1
 con-:1
 venient:1
 instant:1
-messaging:1
 focused:1
-the 
-usability evaluation:1
+usability:1
+evaluation:1
 support:1
 scenarios:1
-XO:1
- XMPP  overlay  service:1
 utilize:1
 extensible:1
-Messaging:1
-Presence Protocol:1
+presence:1
+protocol:1
 standards:1
 developing:1
-facebook:1
-mobile chat:1
-Fur-:1
+fur-:1
 thermore:1
 complete:1
-our work:1
 achieve:1
-the privacy protection:1
 taking:1
-Announcing:1
-the Advanced Encryption Standart:1
-[6] work:1
-3 
-
-System Design:1
-this section:1
-design:1
-task:1
-AES Based End-to-End Privacy:1
-Protec-:1
-Facebook  Mobile  :1
+standart:1
+protec-:1
 explained:1
-Chat  history:1
 end-users:1
-random:1
-generated:1
 resulted:1
-manipulation:1
-the  Facebook  server:1
-the key manipulation:1
-the AES algorithm:1
+server:1
 since:1
-ma-:1
-nipulation key:1
-the key:1
 unlock:1
 someone:1
 discover:1
-the manipu-
-lation key:1
+manipu-:1
+lation:1
 automatically:1
 disassemble:1
-the AES encryption:1
-pro-
-cess:1
-implementation:1
- apps:1
-study:1
-two private keys:1
+apps:1
+two:1
 owned:1
-this application:1
-the chipertext:1
 decrypted:1
-recipient:1
-'s:1
-the  encryption  process:1
- the 
-data:1
-the  program:1
+program:1
 account:1
-the  recipient  user:1
 summarize:1
-the major tasks:1
-this work:1
-Key Generation, Encryption and Key 
-distribution:1
-3.1:1
-Key Generation:1
-The key generation:1
-the Manipulation Key:1
-Real:1
-Keyfor:1
-encryption  process  purpose:1
-The  key  generation 
-process:1
-these process:1
-Integer  number  randomization:1
-this  stage:1
-16  pairs:1
+major:1
+tasks:1
+keyfor:1
+randomization:1
+stage:1
+pairs:1
 later:1
-Ma-
-nipulation Key:1
 every:1
-digit:1
-the  Manipulation:1
-Key:1
 asan:1
 early:1
 initialization:1
 conversion:1
 integers:1
-number:1
-this process:1
-ASCII table:1
-the  process:1
-the  point:1
-a  sequence:1
-This 
-
-sequence:1
-the Real Key:1
-encryption purpose:1
-162http://www.i-jim.orgShort Paper:1
-The  randomize:1
- key  generation:1
-the  security:1
-
-message:1
-The  utilization:1
- random  number:1
- the  key 
+162:1
+utilization:1
 possibility:1
 became:1
-highly:1
-
-user privacy:1
-Randomize 
-Number:1
-2 
-digit:1
-Manipulation 
-Key:1
+16 81 mergering:1
 61:1
 48:1
 94:1
 108:1
-Summation 
-Results:1
-Translation:1
-0:1
+translation:1
 ^:1
-Real Key
-
- 
-
-Fig:1
-Key Generation Process:1
-3.2:1
-Key Encryption:1
-Distribution:1
-Plaintext:1
-process:1
-the  key  generation  process:1
-The encryption and distribution process:1
-figure:1
-2018163:1
-Manipulation Key:1
-Real Key:1
-Plain Text:1
+1 , 2018163:1
+plain:1
+text:1
 1234567890123456:1
-Key 1
-
-Private 
-Key 2
-
-Encryption Process:1
-Header:1
+header:1
 identifier:1
-Output:1
-54180F714C1FE5BC5E6707491EBEA50C:1
-792B70CE221CB9F28FC0C7876E214C58 Chipertext:1
-Integration:1
-34216781901193798477186770402581541:1
-80F714C1FE5BC5E6707491EBEA50C79:1
-2B70CE221CB9F28FC0C7876E214C58:1
-Encryption and Key Distribution Process 
-
-Chat Ready:1
-the receiving end:1
-a chipertext mes-:1
+output:1
+mergering:1
+54180:1
+792:1
+integration:1
+34216781901193798477186770402581541 80:1
+79 2:1
+58 fig:1
+ready:1
+receiving:1
+mes-:1
 sage:1
-the user's friend:1
+friend:1
 could:1
-incoming and unread message:1
+incoming:1
+unread:1
 notifi-:1
-
 cation:1
-the form:1
-chipertext:1
-the details:1
-The Manipulation Key:1
-
-multi-layer MD5:1
+details:1
 included:1
 messages:1
-AES decryption pro-
-cess:1
-The application:1
 translated:1
-the hash results:1
-multi-layer MD5:1
 get:1
 val-:1
-ue  of  manipulation:1
-This  value:1
+ue:1
 processed:1
-real:1
-the 
-application:1
 ran:1
-the next process:1
-decryption:1
-The decryption process:1
 received:1
-the  chipertext  form:1
-a key:1
 order:1
-the recipient user:1
-the combined AES:1
-MD5  mechanisms:1
- the  decryption 
-process:1
-chat application:1
 devel-:1
 oped:1
-Experiment:1
-Discussion:1
-this  section:1
-setup:1
-results:1
- experimentation:1
+discussion:1
+experimentation:1
 determine:1
-the  performance:1
- method:1
-this  task:1
-Android:1
-
-application prototype:1
+android-based:1
 created:1
-164http://www.i-jim.orgShort Paper:1
-chat application prototype:1
-4.1:1
-Experiment Setup:1
-The  testing  process:1
-performance  test:1
-a test:1
+164:1
+testing:1
 understand:1
-the speed:1
-
-distribution  features:1
-The  application:1
+speed:1
+features:1
 tested:1
 measuring:1
-time:1
 needed:1
-the expansion:1
-the character 
-amount:1
-the parameter:1
-Smartphone Samsung Galaxy Young GT S5360:1
-the  performance  test:1
-a  low 
-specification device:1
-the worst case performance measurement:1
-4.2:1
-Experiment Results:1
- character  expansion:1
+parameter:1
+smartphone:1
+samsung:1
+galaxy:1
+young:1
+gt:1
+5360:1
+low:1
+specification:1
+worst:1
+measurement:1
 started:1
-1000 characters:1
-the performance test:1
-Table 1:1
-Table:1
-Performance Test Result:1
-Test Case Number:1
-
-
-Character Amount:1
-Encryption Time:1
-Decryption Time:1
-Perf_01:1
-Perf_02:1
-Perf_03:1
-Perf_04:1
-Perf_05:1
-Perf_06:1
-Perf_07:1
-Perf_08:1
-Perf_09:1
-Perf_10:1
-Perf_11:1
-25:1
-50:1
+1 to 1000:1
+characters:1
+perf_01:1
+perf_02:1
+perf_03:1
+perf_04:1
+perf_05:1
+perf_06:1
+perf_07:1
+perf_08:1
+perf_09:1
+perf_10:1
+perf_11:1
 250:1
 500:1
 1000:1
-1.7 
-
-1.5:1
-1.7 
-
-2.9:1
-5.6:1
-6.7:1
-12.1:1
-3.3:1
-4.3:1
-3.7:1
-7.8:1
-10.9:1
-18.9:1
-25.3:1
-2018165Short Paper:1
-The effect:1
-character amount:1
-graph:1
-the performance test result:1
-(b:1
-(a:1
-Decryption:1
-Process Time Graph:1
-the trendline:1
-decryption process time graph:1
-the ef-
+7 1:1
+7 2:1
+6 6:1
+1 3:1
+7 4:1
+8 10:1
+18:1
+2018165:1
+effect:1
+trendline:1
+ef-:1
 fect:1
-the character amount:1
-amount:1
-the character:1
-a longer process:1
 affected:1
-the application respond:1
+respond:1
 took:1
-a 
-longer time:1
-an increase:1
-the process time:1
 aver-:1
-age times:1
-each data:1
-less than allowed deadline:1
-1 second:1
+age:1
+allowed:1
 even:1
-less:1
-0,1  :1
-second:1
-100  ms:1
-the  user's  experience:1
-Human:1
-Computer:1
-Interaction:1
-0,1 second:1
-deadline:1
-a limit:1
-performance:1
+human-computer:1
+interaction:1
+limit:1
 concluded:1
-method:1
-Conclusion:1
-the  experiment:1
-some  results:1
-the performance experiment:1
-time increase:1
-the average time:1
-The maximum time process:1
-
-decryption process:1
-12,1:1
-25,3:1
+conclusion:1
+average:1
+maximum:1
 respectively:1
 stated:1
-the our proposed method:1
 conduct:1
-decryp-
-tion process:1
+decryp-:1
 quickly:1
-the our randomize key genera-
-tion  method:1
- the  probability:1
-key  generation:1
-highly protection:1
-user privacy:1
-Security scheme:1
-key distribution:1
-mul-
-ti-layer MD5 design:1
+genera-:1
+probability:1
+scheme:1
+mul-:1
+ti-layer:1
 makes:1
 easier:1
-keys:1
-the same time:1
 improve:1
-security:1
-key distributions:1
-166http://www.i-jim.orgShort Paper:1
-References:1
-1] Earp:1
-Julia Brande:1
-et al:1
-Examining:1
-Internet privacy policies:1
-the context:1
-user 
-privacy:1
- values:1
-IEEE  Transactions  on  Engineering  :1
-Management:1
-52.2:1
+distributions:1
+166:1
+references:1
+earp:1
+julia:1
+brande:1
+examining:1
+policies:1
+context:1
+values:1
+transactions:1
+management:1
+52:1
+2 ( 2005:1
+227-237:1
+1109/tem:1
 2005:1
-227:1
-237:1
-https://doi.org/10.1109/TEM.2005.844927:1
-Raul:1
-Alan  Charles:1
-The  Digital  State:1
-Balancing:1
-Public:1
-And 
-Personal Privacy:1
-Springer Science & Business Media:1
+844927:1
+raul:1
+alan:1
+charles:1
+state:1
+balancing:1
+springer:1
+business:1
 2002:1
-https://doi.org/10.1007/978-:1
-4615:1
-0889:1
-Hachman:1
-Mark:1
-The price:1
+1007/978-:1
+1-4615-0889-2:1
+hachman:1
+mark:1
+price:1
 free:1
-Apple:1
-Microsoft:1
-Google:1
+apple:1
+microsoft:1
+google:1
 sell:1
 advertisers:1
-Statista:1
-Number:1
-Monthly:1
-Active:1
-Users:1
-Worldwide:1
-3rd Quarter:1
-[online]  https://www.statista.com/statistics/264810/number-of-:1
-monthly-active-facebook-users:1
-worldwide/.:1
-2017 January:1
-Millions:1
-Tom Brant:1
-Government Requests:1
-Facebook Data:1
-27 Percent:1
-Foxnews:1
-Federal:1
-Processing:1
-FIPS:1
-Announcing  the  ADVANCED  ENCRYPTION 
-
-STANDARD (AES:1
+rd:1
+quarter:1
+https://www:1
+com/statistics/264810/number-of-:1
+monthly-active-facebook-users-worldwide/:1
+millions:1
+tom:1
+brant:1
+requests:1
+27 percent:1
+foxnews:1
+federal:1
+processing:1
+fips:1
 2001:1
-Ahmad:1
-Rafidah:1
-Asrulnizam Abd Manaf:1
-Widad Ismail:1
-Implementation:1
-a High-
-Performance:1
-Blowfish:1
-Secure:1
-Wireless:1
-Communication:1
-Journal of Telecommunica-:1
-Electronic and Computer Engineering:1
-JTEC:1
-8.6:1
-147:1
-151:1
-Robison:1
-Chris:1
-International:1
-Conference:1
-Se-:1
+rafidah:1
+asrulnizam:1
+abd:1
+manaf:1
+widad:1
+ismail:1
+high-:1
+blowfish:1
+wireless:1
+journal:1
+telecommunica-:1
+jtec:1
+147-151:1
+robison:1
+chris:1
+se-:1
 curity:1
-Risk:1
-Trust:1
-PASSAT:1
-2012 International Confernece:1
-Social Computing:1
-(SocialCom:1
-2012:1
-https://doi.org/10.1109/SocialCom-PASSAT.2012.58:1
-Robert:1
-N.:1
-Lass:1
-"XO:1
-overlay:1
-service:1
-MILITARY:1
-COMMUNICATIONS CONFERENCE:1
-[10] Nielsen:1
- Jakob:1
+risk:1
+trust:1
+passat:1
+confernece:1
+computing:1
+socialcom:1
+1109/socialcom-passat:1
+robert:1
+lass:1
+military:1
+nielsen:1
+jakob:1
 2009:1
-Powers:1
-Time:1
-Scales  :1
-User  Experience:1
-[online] 
-http://www.nngroup.com/articles/powers-of-10-time-scales-in-ux/:1
-2017:1
-January:1
-Samsudin A.:1
-J S Teh:1
-A Samsudin, A. Akhavan:1
-Parallel:1
+powers:1
+scales:1
+nngroup:1
+com/articles/powers-of-10-time-scales-in-ux/:1
+akhavan:1
+parallel:1
 chaotic:1
-hash:1
 func-:1
-the  shuffle-exchange  network[J:1
-Nonlinear  Dynamics:1
- vol:1
+shuffle-exchange:1
+network:1
+nonlinear:1
+dynamics:1
 pp:1
 1067-1079:1
-https://doi.org/10.1007/s11071-015-2049-6:1
-Authors:1
-the Multimedia:1
-Mobile Technol-:1
-
-ogy Research Group:1
-Department of Computer Science:1
-Faculty:1
-Computer Science:1
-Nurizal:1
-Dwi:1
-Priandani:1
-Herman:1
-Tolle:1
-Mobile  Technology  Research 
-Group:1
-Brawijaya 
-University:1
-Mahardeka:1
-Ananta:1
-Komang:1
-Candra:1
-Brata:1
-Article:1
+1007/s:1
+11071-015-2049-6:1
+technol-:1
+ogy:1
+article:1
 submitted:1
-25 July 2017:1
-Published:1
+25 july 2017:1
+published:1
 resubmitted:1
-the authors:1
-13:1
-September 2017:1
+13 september 2017:1
 2018167:1
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:11
-encryption:6
-privacy:2
-Encryption:2
+Privacy:32
+encryption:27
+data protection:1

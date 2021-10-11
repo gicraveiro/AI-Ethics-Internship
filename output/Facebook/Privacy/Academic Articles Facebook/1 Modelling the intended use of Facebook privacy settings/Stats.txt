@@ -3,1336 +3,1094 @@
 
 
 With stop word removal 
-Size of original corpus: 7224 
-Size of filtered corpus: 3478
-Size of Lexicon: 2080
+Size of original corpus: 10121 
+Size of filtered corpus: 4999
+Size of Lexicon: 1624
 
 Tokens that appear in the file, alongside with their frequencies:
+privacy:104
+information:98
+facebook:71
+settings:69
+rlib:55
+pace:55
+use:55
+influence:55
+security:50
+behaviour:49
+norms:45
+edu/10:42
+users:42
+awareness:42
+threat:40
+https://doi-org:39
+personal:38
+research:35
+subjective:34
+appraisal:33
+individual:33
+social:30
 may:29
-2016:23
-influence:22
-Facebook privacy settings:21
-use:21
-subjective norms:21
+1:28
+model:28
+'s:28
+2016:28
+threats:25
+2015:25
+p:24
+=:24
+authors:24
+article:23
+user:23
+individuals:22
 found:21
-Facebook:21
-threat appraisal:19
-this article:17
-privacy settings:17
+behavioural:21
+2019:21
+journal:20
+intention:20
+theory:20
+protective:20
+study:19
+analysis:18
 aware:17
-users:16
-2019:16
-2015:16
-1:15
-personal information:15
+2:17
+using:16
+2018:16
+peers:16
+behavior:16
 used:15
-using:13
-the use:12
+process:15
+data:14
+thematic:14
+r:14
+therefore:13
+fear:13
+3:13
+systems:12
 11:12
-this study:12
-individuals:12
-M.:12
-https://go-gale-com.rlib.pace.edu/ps/i.do?p=AONE&u=nysl_me_pace:11
-the authors:11
-2018:11
-9/23/2021:11
+themes:12
+computers:12
+firefox:11
+https://go-gale-com:11
+edu/ps/i:11
+aone&u:11
+nysl_me_pace:11
+online:11
+misuse:11
+5:03 pm:11
+extent:11
+even:11
+control:11
 argue:11
-awareness:11
-their peers:10
+1016/j:11
+2017:10
+2014:10
+intentions:10
+review:10
+example:10
 could:9
-information security awareness:9
-5:03 PM
-
-Firefox:9
-the extent:9
+approach:9
+motivation:9
+2008:9
+result:9
+aspects:9
+perceived:9
+knowledge:9
+figure:9
 likely:8
-the behavioural influence:8
-protective behaviour:8
-privacy:8
-PMT:8
-therefore:8
-The authors:8
+protection:8
+part:8
+2009:8
+9/23/2021:8
+context:8
+tpb:8
+pmt:8
+studies:8
 see:8
+associated:8
+g:8
+proposed:8
+intended:7
+22:7
 become:7
 made:7
 evaluate:7
+three:7
 developed:7
+influenced:7
 based:7
-part:7
-2017:7
-their personal information:7
-even:7
-2014:7
-example:7
-3:7
+planned:7
+level:7
+media:7
+enact:7
+within:7
+researchers:7
+specifically:7
+human:7
+understanding:7
+2006:7
+influences:7
+appeals:7
 perceive:7
-C.:7
-the influence:6
-influenced:6
+/j:7
+cose:7
+b:7
+modelling:6
+qualitative:6
+atlas:6
+propositions:6
 turn:6
-2009:6
-behaviour:6
-enact:6
-the privacy settings:6
-an individual:6
-2:6
-Figure:6
+especially:6
+given:6
+although:6
+disclosure:6
+descriptive:6
+measures:6
+maps:6
+specific:6
+codes:6
+candidate:6
 +:6
-Additionally:6
-fear:6
-associated:6
+normative:6
+compliance:6
+phase:6
+theoretical:6
+grimes:6
+marquardson:6
+severity:6
+additionally:6
+role:6
+significant:6
+concerns:6
 pp:6
-A.:6
-https://doi-org.rlib.pace.edu/10.1016:6
-the intended use:5
+1016:6
+10:6
+network:6
+read:5
+schyff:5
+african:5
+management:5
+org:5
+possible:5
 develop:5
-the intention:5
-privacy threats:5
-especially:5
+constructs:5
+fact:5
+author:5
 believed:5
-a result:5
+profile:5
 make:5
-misuse:5
 like:5
-the context:5
 avoid:5
-Users:5
-Therefore:5
-researchers:5
-2006:5
-phase:5
-influences:5
-appraisal:5
+public:5
+secure:5
+scoping:5
+evidence:5
+articles:5
+2012:5
+policies:5
+policy:5
+4:5
+thus:5
+vulnerability:5
 particularly:5
-specifically:5
-fear appeals:5
-Computers & Security:5
-Computers:5
-Schyff:4
+future:5
+sharing:5
+people:5
+regard:5
+respondents:5
+f:5
+communication:5
+x:5
+karl:4
+2020:4
+south:4
+words:4
+1238:4
 protect:4
-Facebook users:4
-the process:4
-Atlas.ti:4
-an individual's intention:4
+selected:4
+relationships:4
 unaware:4
 able:4
+namely:4
+construct:4
+friends:4
+govani:4
+pashley:4
+access:4
+gender:4
+form:4
+advertising:4
 increase:4
 allows:4
-Given:4
-personal
-information:4
-model:4
-the theory:4
+intent:4
+enough:4
+adapted:4
+pbc:4
 conceptualised:4
-Conversely:4
-Information security awareness:4
-the TPB:4
-control:4
-settings:4
-threats:4
+conversely:4
+implications:4
+perspective:4
+several:4
+whilst:4
+students:4
 adequately:4
 adopt:4
-within:4
+coping:4
+responses:4
+effect:4
+tools:4
+safa:4
+secondary:4
+required:4
+systematic:4
+methods:4
 deemed:4
-
-awareness:4
-i.e.:4
-intention:4
+statistical:4
+extracts:4
+development:4
 place:4
-threat:4
-their level:4
-2012:4
+note:4
 terms:4
-this regard:4
+rimal:4
+2005:4
+perceptions:4
+behaviours:4
+case:4
+significantly:4
+park:4
+networking:4
+sites:4
 viewed:4
 important:4
-Understanding:4
-R.:4
-K.:4
-H.:4
+chb:4
+w:4
+technology:4
 https://doi-:4
-Modelling:3
-Karl van der:3
-a research model:3
-subjective
-norms:3
-information security
-awareness:3
+9:4
+15:4
+8:4
+psychology:4
+factors:4
+health:4
+science:4
+gale:4
+kimberley:3
+document:3
+type:3
+4102/sajim:3
+method:3
+results:3
+ineffective:3
+manner:3
+literature:3
 thematically:3
 analysed:3
-planned behaviour:3
 argued:3
-the fact:3
 makes:3
 vulnerable:3
 conducted:3
+corresponding:3
+interaction:3
+identity:3
 enables:3
+recent:3
+strater:3
+lipford:3
 lead:3
+practice:3
+others:3
+number:3
 includes:3
-the form:3
-Although:3
+potential:3
+companies:3
+content:3
 manipulate:3
-Cambridge Analytica:3
+amer:3
+noujaim:3
+cambridge:3
+analytica:3
+much:3
 understand:3
-Within:3
-PBC:3
-an individual's threat appraisal:3
-their intention:3
 regarding:3
-information:3
-security:3
+controls:3
 favour:3
-this context:3
-other words:3
-Stern:3
-norms:3
-profile:3
+stern:3
+instead:3
+zlatolas:3
+default:3
+available:3
 find:3
+matters:3
 still:3
 disclose:3
 making:3
 relevant:3
-Govani:3
-students:3
-2008:3
-coping:3
+general:3
 opposed:3
-the threat:3
-Whilst:3
-Von Solms:3
-Data:3
-FIGURE:3
-PDF:3
+marett:3
+action:3
+2000:3
+boyd:3
+hargittai:3
+2010:3
+golbeck:3
+mauriello:3
+consideration:3
+solms:3
+overall:3
+additional:3
+academic:3
+pdf:3
 image:3
-analysis:3
-thematic maps:3
 rereading:3
-the research model:3
-the development:3
-compliance:3
-Using:3
-4:3
+initial:3
+braun:3
+clarke:3
+coded:3
+sources:3
+source:3
+bauer:3
+nature:3
+resultant:3
+5:3
+first:3
 provides:3
 amongst:3
 followed:3
-both the TPB:3
-intent:3
+discussion:3
+attitude:3
 defined:3
 positively:3
-Subjective norms:3
 whether:3
 exposed:3
-a Facebook user:3
-Ifinedo:3
+1975:3
+actions:3
+ifinedo:3
+two:3
+theories:3
 inadvertently:3
 misused:3
-Grimes & Marquardson 2019:3
-DT:3
+power:3
+costs:3
+benefits:3
+dt:3
 affect:3
-evidence:3
-social norms:3
-an individual's peers:3
-although:3
+particular:3
+white:3
 depend:3
-significantly:3
 blogs:3
+baek:3
 adolescents:3
 concerned:3
-people:3
 exerted:3
-the individual:3
-thus:3
-a user:3
-the dotted lines:3
-Park:3
+previous:3
+bidirectional:3
+dotted:3
+lines:3
 promote:3
 indicate:3
-enough:3
+change:3
+similar:3
+hanus:3
+wu:3
+ernst:3
 exert:3
-The use:3
+levels:3
 focus:3
 useful:3
-planned behavior:3
-J.:3
-S.:3
-B.:3
-83:3
-9:3
-The role:3
-G.:3
-Kimberley Read:2
-African Online Scientific Information Systems:2
-AOSIS:2
-Method:2
-Results:2
-Conclusion:2
-possible:2
+models:3
+arguments:3
+new:3
+proceedings:3
+association:3
+conference:3
+https://www:3
+behaviors:3
+12:3
+jan:2
+vol:2
+scientific:2
+pty:2
+ltd:2
+t/a:2
+aosis:2
+7:2
+conclusion:2
+introduction:2
 harvest:2
-a qualitative approach:2
+persuade:2
+objective:2
 pertaining:2
-This study:2
-
-protection motivation theory:2
-most users:2
-these users:2
+inductive:2
 via:2
+symeonidis:2
 engage:2
-Kusyanti:2
-et al:2
-construct:2
-Strater & Lipford 2008:2
+psychological:2
+debatin:2
+kusyanti:2
 protected:2
-the misuse:2
-given:2
+self-disclosure:2
+often:2
+unintended:2
+consequences:2
+need:2
 imply:2
-others:2
-access:2
-gender:2
-Together:2
+many:2
+actual:2
+strangers:2
+pieces:2
+relatively:2
+age:2
+posts:2
+together:2
+ability:2
+space:2
 enable:2
 monitor:2
-the potential:2
-
-user behaviour:2
+consider:2
+campaigns:2
 carried:2
 persuadable:2
-Amer:2
-companies:2
-such protective behaviour:2
-a Facebook user's intention:2
+personality:2
 effectively:2
-these settings:2
-namely threat appraisal:2
 follows:2
 inclined:2
-controls:2
-an
-individual:2
+susceptibility:2
+views:2
 influenceable:2
-the model:2
 described:2
 contribute:2
+known:2
+salb:2
 evaluated:2
-perspective:2
+system:2
 allow:2
-public:2
-available:2
-matters:2
+lewis:2
+kaufman:2
+christakis:2
+hence:2
 forward:2
-the
-use:2
-a study:2
-Pashley:2
-the information:2
-Research:2
-the Facebook
-privacy settings:2
-any threats:2
-Dickinson:2
+reasons:2
+trust:2
+design:2
+perception:2
+safety:2
+dickinson:2
+holmes:2
 maladaptive:2
-responses:2
 high:2
-Bawden:2
-research:2
-consideration:2
-result:2
+vedadi:2
+durcikova:2
+witte:2
+haynes:2
+bawden:2
+robinson:2
 regardless:2
-This article:2
-secondary data:2
-a scoping review:2
+forms:2
+methodology:2
+databases:2
+european:2
 generally:2
 identify:2
 map:2
 relates:2
-required:2
-a series:2
+interest:2
+munn:2
+series:2
+structured:2
+phrases:2
+screening:2
+42:2
+preferred:2
+reporting:2
+items:2
+reviews:2
+meta-analyses:2
+diagram:2
 created:2
-the propositions:2
 involved:2
-thematic analysis:2
+bowen:2
+joffe:2
+patterns:2
+guide:2
+identified:2
 assume:2
 inductively:2
-the selected articles:2
+means:2
 describe:2
-themes:2
+textual:2
+table:2
 relation:2
 well:2
-these themes:2
 extract:2
-Atlas.ti codes:2
-Source
-
-Candidate
 theme:2
-
-norms:2
-Normative
-influence:2
-Acquisti:2
-Gross:2
-2000:2
-information security policies:2
+acquisti:2
+gross:2
 appear:2
-Ahluwalia:2
-ISA:2
-ISP:2
-Bauer:2
-Bernroider:2
+ahluwalia:2
+merhi:2
+isa:2
+isp:2
+bernroider:2
+chudzikowski:2
+following:2
 culminated:2
-5:2
-first:2
-Ajzen:2
+partial:2
+section:2
+ajzen:2
 1985:2
-Kautonen:2
-Thus:2
+immediate:2
+kautonen:2
+gelderen:2
+fink:2
 takes:2
+attitudes:2
+jeger:2
+ivkovic:2
 negatively:2
-individual:2
-Rogers:2
-1975:2
-Note:2
-the severity:2
+rogers:2
 forgo:2
 believe:2
-i.e. misuse:2
-these two theories:2
-the role:2
 wish:2
-sharing:2
-other studies:2
-The process:2
-benefits:2
+integration:2
+tsai:2
+deterrence:2
+cost-benefit:2
 enacting:2
+sanctions:2
 depending:2
+sanction:2
+abed:2
+weistroffer:2
 assumed:2
-The behavioural influence:2
-2005:2
-the behaviour:2
-a behaviour:2
+punishment:2
+lapinski:2
 taken:2
 desired:2
 expected:2
+saeri:2
 towards:2
-White et al:2
-Baek:2
+acceptance:2
+closely:2
+bae:2
 exist:2
+contexts:2
 might:2
-the case:2
+problematic:2
+marino:2
 suggests:2
-2010:2
-Previous research:2
-a significant influence:2
-e.g.:2
-P1:2
-The influence:2
-the threats:2
-Öütçü:2
-the tools:2
-Instead:2
+accessed:2
+foltz:2
+newkirk:2
+schwager:2
+subsequent:2
+chung:2
+chalub:2
+santos:2
+pacheco:2
+proposition:2
+mechanism:2
+öütçü:2
+testik:2
+chouseinoglou:2
+effective:2
 enacted:2
 affects:2
-not only these individuals:2
+relationship:2
 indicated:2
 stands:2
 reason:2
 received:2
-intentions:2
-article:2
-proposed:2
-their privacy:2
+impact:2
+patients:2
+violations:2
+risk:2
+benson:2
+saridakis:2
+tennakoon:2
 though:2
-change:2
-their privacy settings:2
-respondents:2
 resulted:2
-the adoption:2
-knowledge:2
+adoption:2
+negative:2
+experience:2
 directly:2
-P2:2
 beyond:2
 posit:2
 respond:2
-Marett:2
-privacy
-settings:2
 severe:2
-Hanus:2
+johnston:2
+amount:2
+antecedents:2
 applies:2
 alone:2
-Strycharz:2
-Feng:2
-Vishwanath:2
-Ernst:2
-P3:2
+strycharz:2
+ads:2
+feng:2
+xie:2
+virtual:2
+try-on:2
+apps:2
+vishwanath:2
+xu:2
+ngoh:2
+pfeiffer:2
+rothlauf:2
+6:2
+ethical:2
 without:2
+direct:2
 propose:2
-this model:2
-the proposed research model:2
-components:2
+version:2
+demographic:2
+evaluation:2
 necessarily:2
 resulting:2
 women:2
-their behaviour:2
-Tifferet:2
+tifferet:2
 alluded:2
-the proposed model:2
-Timberg:2
-similar models:2
-future research:2
-7:2
-Proceedings:2
-10:2
-I.:2
-actions:2
-behavior:2
-Y.:2
-Human Behavior:2
-V.:2
-People:2
-E.:2
-77:2
-R.N.:2
-Journal of Computer-Mediated Communication:2
-https://doi-org.rlib.pace.edu:2
-251:2
-F.:2
-social network sites:2
-01 April 2020:2
-An analysis:2
-119:2
-34:2
-A protection motivation theory:2
-L.:2
-https://doi-org.rlib.pace.edu/10.1111:2
-N.:2
-Z.:2
-Security:2
-93:2
-Smith:2
-theory:2
-N.S.:2
-Human
-Behavior:2
-T.:2
-Motivation:2
-Society:2
-Note(s:2
-Read:2
-2020:2
-=:2
-Firefox:1
-Authors:1
-Date:1
-Jan. 1, 2020:1
-South African Journal of Information:1
-Management(Vol:1
-22, Issue:1
-Publisher:1
-Pty:1
-Ltd:1
-Document Type:1
-Article:1
-Length:1
-7,106 words:1
-Lexile Measure:1
-1440L:1
-http://dx.doi.org.rlib.pace.edu/10.4102/sajim.v22i1.1238:1
-Abstract:1
-Background:1
-Objectives:1
-Full Text:1
-Introduction:1
-The ineffective use:1
+differences:2
+minimal:2
+zuckerberg:2
+timberg:2
+romm:2
+dwoskin:2
+limitations:2
+work:2
+structural:2
+cb-sem:2
+competing:2
+funding:2
+agency:2
+quantitative:2
+1-7:2
+th:2
+springer:2
+netflix:2
+31:2
+010:2
+009:2
+28:2
+internet:2
+computer-mediated:2
+edu:2
+/10:2
+1111/j:2
+1083-6101:2
+international:2
+27:2
+01 april 2020:2
+commerce:2
+student:2
+cyberpsychology:2
+02:2
+012:2
+predicting:2
+1111:2
+09:2
+001:2
+1002/asi:2
+smith:2
+applications:2
+society:2
+meta-analysis:2
+copyright:2
+date:1
+issue:1
+publisher:1
+length:1
+106:1
+lexile:1
+measure:1
+1440:1
+http://dx:1
+abstract:1
+background:1
+objectives:1
+full:1
+text:1
 commonplace:1
 corporates:1
-persuade:1
-user behaviour:1
-a manner:1
 always:1
-The objective:1
-Literature:1
-a process:1
-inductive reasoning:1
-three
-propositions:1
-these
-selected constructs:1
-relationships:1
-both the theory:1
-the ineffective use:1
-behavioural:1
+reasoning:1
 compounded:1
-Facebook-based privacy threats:1
+facebook-based:1
 incomplete:1
-
-inaccurate or missing information:1
-Author(s:1
-(corresponding author:1
-Social interaction:1
-over 2 billion users' daily lives:1
-Symeonidis et al:1
-some respects:1
+inaccurate:1
+missing:1
+2 billion:1
+daily:1
+lives:1
+respects:1
 attributed:1
 build:1
-not only social relationships:1
-a shared
-personal identity:1
-Such interaction:1
-a psychological level:1
+shared:1
 satisfies:1
 seek:1
-namely recognition:1
+recognition:1
 belonging:1
-Debatin et al:1
 exemplified:1
-a recent study:1
 revealed:1
 average:1
 check:1
-their accounts:1
+accounts:1
 roughly 14:1
 times:1
 day:1
-These users:1
 tend:1
-their Facebook identities:1
-However:1
-such approaches:1
-self-disclosure:1
-often:1
-unintended consequences:1
+identities:1
+however:1
+approaches:1
 pertinent:1
-a
-composite result:1
+composite:1
 oversharing:1
 paired:1
-the insufficient use:1
-Subjective forces:1
-the need:1
+insufficient:1
+forces:1
 accumulate:1
-more Facebook friends:1
-practice:1
-many platform users:1
+platform:1
 befriend:1
-actual fact:1
-absolute strangers:1
-Govani & Pashley 2014:1
-these so-called Facebook friends:1
-a number:1
-pieces:1
-only those aspects:1
+absolute:1
+so-called:1
 remain:1
-relatively:1
 static:1
-(i.e. a user's age:1
-their thoughts:1
+thoughts:1
 ideas:1
-Facebook posts:1
 likes:1
-these aspects:1
-a user's profile:1
 enhance:1
-Facebook's ability:1
 sell:1
-advertising space:1
-some extent:1
 predict:1
-a user's online behaviour:1
-targeted advertising:1
-the revenues:1
-social media companies:1
-the prediction:1
-user data:1
-fact:1
-the ability:1
-content:1
-the intent:1
+targeted:1
+revenues:1
+prediction:1
 profound:1
-(Amer & Noujaim:1
-consider:1
-the numerous voter-profiling campaigns:1
+numerous:1
+voter-profiling:1
 appreciate:1
-the significance:1
+significance:1
 influencing:1
 way:1
 posting:1
-tailored content:1
+tailored:1
 classified:1
-Noujaim:1
-Such classification:1
+classification:1
 harvesting:1
-much personal information:1
 needed:1
 determine:1
-a user's preferences:1
-possibly even their dominant personality
+preferences:1
+possibly:1
+dominant:1
 traits:1
-enough personal information:1
-these co:1
-called:1
+co-called:1
 persuadables:1
 sense:1
-the behavioural aspects:1
-Facebook users'
-intentions:1
 understood:1
-
-settings:1
 would:1
 limit:1
-the inadvertent disclosure:1
-this influence:1
-adapted:1
-(TPB:1
+inadvertent:1
 replacing:1
-perceived behavioural control:1
 incorporated:1
-an element:1
-These constructs:1
-
-privacy threats:1
-privacy
-threats:1
-the
-knowledge:1
-an individual possesses:1
-the effectiveness:1
+element:1
+possesses:1
+effectiveness:1
 possess:1
-little or no knowledge:1
-the
-process:1
-ineffective:1
-an individual's susceptibility:1
-the views:1
+little:1
 respect:1
-their peers' privacy behaviour:1
-
-privacy settings:1
-the behavioural implications:1
-known theory:1
-few Facebook privacy studies:1
 merged:1
-this manner:1
-Salb:1
-the
-influence:1
 incorporating:1
-both descriptive and subjective norms:1
-modelling:1
-their influence:1
-the
-intended use:1
-instead:1
 focusing:1
-an elaborate system:1
+elaborate:1
 commonly:1
 referred:1
-These settings:1
-even
-strangers:1
-Lewis, Kaufman & Christakis 2008:1
-the activities:1
-other users:1
-friends:1
-the content:1
+activities:1
 marked:1
-public (Zlatolas et al:1
-Some personal information:1
-default:1
-a user's name:1
 picture:1
 cover:1
 photo:1
 language:1
 country:1
-age:1
-These
-pieces:1
-a Facebook profile:1
-hence the ease:1
-persuade individuals:1
+ease:1
 worse:1
-many users:1
-the default privacy settings:1
-this type:1
-
-access:1
-Nevertheless:1
+nevertheless:1
 persistent:1
 problem:1
-Several:1
 explanations:1
 put:1
-possible reasons:1
-Some researchers:1
-social conformance:1
-implicit trust:1
-poor interface design:1
-permissive default settings:1
+conformance:1
+implicit:1
+poor:1
+interface:1
+permissive:1
 investigates:1
-an individual's perception:1
-specifically threats:1
 pertain:1
-the
-safety:1
-individuals' social media:1
-this extent:1
-whilst:1
-i.e. identity theft:1
+theft:1
 stalking:1
-general misuse:1
 provide:1
 failed:1
 implement:1
-protective measures:1
 points:1
-three possible reasons:1
 apathetically:1
 difficult:1
 avoided:1
-Holmes:1
 evasive:1
-the threat level:1
 proactively:1
 reducing:1
-the effect:1
-Marett, Vedadi & Durcikova
-:1
-Often, fear motivates action:1
-these cases:1
-self-protective or avoidant responses:1
-Witte &
-Allen 2000:1
-privacy options:1
+motivates:1
+cases:1
+self-protective:1
+avoidant:1
+options:1
 sophisticated:1
-(Haynes:1
-Robinson:1
-these tools:1
 underutilised:1
-Boyd & Hargittai 2010:1
-Golbeck & Mauriello:1
-the technological
-aspects:1
+technological:1
 solely:1
 guarantee:1
-a secure environment:1
-Researchers:1
-human aspects:1
-Safa &:1
-Overall:1
-studies:1
+environment:1
 confusing:1
-time:1
-consuming:1
+time-consuming:1
 challenging:1
-the accidental or unintentional
-disclosure:1
-the additional forms:1
-control users:1
-Methodology:1
+accidental:1
+unintentional:1
 collection:1
 adopted:1
 performed:1
-in-depth thematic analysis:1
-The purpose:1
+in-depth:1
+purpose:1
 collect:1
-data:1
 entailed:1
 collecting:1
 analysing:1
 obtained:1
 variety:1
-academic databases:1
-These databases:1
 included:1
-ScienceDirect:1
-Taylor & Francis:1
-Oxford
-Academic:1
-the AIS Senior Scholars Basket:1
+sciencedirect:1
+taylor:1
+francis:1
+oxford:1
+ais:1
+senior:1
+scholars:1
+basket:1
 include:1
 journals:1
-the European Journal of Information Systems:1
-
-Information Systems Journal,:1
-Information Systems Research:1
-MIS Quarterly:1
-A scoping review:1
-available evidence:1
-a topic:1
-interest:1
-Munn et al:1
-structured:1
+quarterly:1
+topic:1
 searches:1
-phrases:1
-Facebook privacy
-settings:1
-social media:1
-screening:1
-the titles:1
+titles:1
 abstracts:1
-42 articles:1
 illustrated:1
-the
-Preferred Reporting Items for Systematic Reviews:1
-Meta-Analyses (:1
-PRISMA) diagram:1
+prisma:1
 shown:1
-Preferred:1
-Reporting:1
-Items:1
-Systematic Reviews:1
-Meta-Analyses diagram:1
 illustrating:1
-the search process:1
-the analysis process:1
-This process:1
-a more focused review:1
-the 42 articles:1
-a common practice:1
+search:1
+focused:1
+common:1
 conducting:1
-(Bowen 2009:1
 illuminates:1
-prominent themes:1
+prominent:1
 apparent:1
-the initial screening
-process:1
-Joffe 2012:1
 recognise:1
-specific patterns:1
-these patterns:1
-
 categories:1
-guide:1
-identified themes:1
 reasonable:1
-the
-selected studies:1
 employed:1
-specific research methods:1
-These methods:1
-one such analysis category:1
-This entire process:1
+category:1
+entire:1
 emphasise:1
-the researcher's understanding:1
-the broader
+researcher:1
+broader:1
 phenomena:1
-Braun & Clarke 2006:1
-A deductive approach:1
+deductive:1
 inappropriate:1
-the objective:1
-the article:1
 test:1
-
-statistical means:1
-the inductive analysis:1
-a five-phased approach:1
+five-phased:1
 outlined:1
-Braun:1
-Clarke
-:1
-These phases:1
+phases:1
 becoming:1
 acquainted:1
-the data:1
 reading:1
-* developing initial codes:1
-short phrases:1
-one or more textual extracts:1
-Table:1
-collating codes:1
-potential (or candidate) themes:1
-code groups:1
+developing:1
+short:1
+collating:1
+code:1
+groups:1
 reviewing:1
-coded:1
-extracts:1
 merging:1
 defining:1
 naming:1
 culminating:1
-(networks:1
-TABLE 1:1
-Example:1
-coded extracts:1
-associated themes:1
-sources:1
+networks:1
 willingly:1
 reveal:1
-highly personal information:1
-their friends:1
-descriptive:1
-Siponen:1
+highly:1
+siponen:1
 suggested:1
 account:1
-the notion:1
+notion:1
 morality:1
-the employees:1
-Merhi
-:1
+employees:1
 infosec:1
 improved:1
-Information
-security
-awareness:1
-
-Chudzikowski:1
-Information security:1
-Information security policy:1
-the articles:1
-read:1
 detail:1
-an overall understanding:1
-the core aspects:1
-interesting codes:1
-identified:1
-the nature:1
-the additional behavioural understanding:1
+core:1
+interesting:1
 gained:1
 executing:1
-Following:1
-several codes:1
 collated:1
-candidate themes:1
-Phase:1
-three
-candidate themes:1
-normative influence:1
-these candidate themes:1
-a starting point:1
+starting:1
+point:1
 refined:1
 removing:1
-extraneous coded extracts:1
-the formal specification:1
-three thematic maps:1
-one example:1
-these thematic
-maps:1
-the resultant propositions:1
-Partial:1
-thematic:1
-This section:1
-an outline:1
-related studies:1
-a discussion:1
+extraneous:1
+formal:1
+specification:1
+outline:1
+related:1
 outlines:1
-Development:1
-propositions:1
-Theoretical framework:1
+framework:1
 utilised:1
-the strength:1
-an immediate antecedent:1
-Van Gelderen & Fink 2015:1
-the assumption:1
-most human behaviour:1
-personal attitudes:1
-PBC
-:1
-(Grimes & Marquardson 2019:1
-Jeger & Ivkovic:1
-attitude:1
+strength:1
+antecedent:1
+assumption:1
 either:1
 value:1
-the social pressure:1
-the Facebook privacy settings:1
-the privacy threats:1
-Protection motivation theory:1
-the
-other hand:1
+pressure:1
+hand:1
 proposes:1
-behavioural intentions:1
 motivated:1
-the processes:1
-both threat:1
+processes:1
 argues:1
 necessitates:1
 judging:1
-the vulnerability:1
 attached:1
 determines:1
 self-efficacy:1
-the privacy:1
 equipped:1
 ameliorate:1
-future threats:1
 explain:1
-individuals' behavioural intention:1
-
-protective actions:1
-The research model:1
 merges:1
 arguing:1
 played:1
-the appraisal process:1
 posits:1
-their knowledge:1
 avoidance:1
-specific threats:1
-
 vulnerabilities:1
-This combination:1
-theoretical constructs:1
+combination:1
 contributes:1
 theoretically:1
-one part:1
-The integration:1
 increases:1
-the explanatory power:1
-Tsai et al:1
+explanatory:1
 said:1
 combined:1
 weigh:1
-the costs:1
 explained:1
-
-deterrence theory:1
-simply cost-benefit analysis:1
+simply:1
 involve:1
-a cognitive process:1
+cognitive:1
 weighing:1
-costs:1
-specific behaviour:1
-(Min & Kim 2015:1
-the belief:1
-
-sanctions:1
+belief:1
 participate:1
-deviant behaviour:1
-the sanction severity:1
+deviant:1
 celerity:1
-
 certainty:1
-the particular behaviour:1
-(Abed & Weistroffer:1
-such, individual behaviour:1
 driven:1
-some punishment:1
 performing:1
-the required behaviour:1
 enforced:1
-theories:1
-forms:1
-sanction:1
-two distinct sub:1
-types:1
-namely subjective and descriptive norms:1
-Lapinski &
-:1
-Rimal:1
-Descriptive norms:1
-those perceptions:1
+distinct:1
+sub-types:1
 taking:1
-those behaviours:1
-Kautonen et al:1
-Saeri et al:1
-Both descriptive and subjective norms:1
 drive:1
-an individual's behaviour:1
-social acceptance:1
-Min & Kim:1
-Such acceptance:1
 adjust:1
-their norms:1
 differ:1
-the
-normative required behaviour:1
-These adjustments:1
+adjustments:1
 reinforce:1
 counter:1
-the normative behaviour:1
-closely individuals:1
-much
 emphasis:1
 sustainability:1
-associated behaviours:1
 noted:1
-the user population:1
-case:1
+population:1
 question:1
-game use:1
-not the use:1
-Bae:1
+game:1
 games:1
-voluntary settings:1
-Baek et al:1
-'s:1
+voluntary:1
 argument:1
-strongly individuals:1
-general behavioural rules:1
-these contexts:1
-Individuals:1
-sanctions:1
-normative behaviour:1
+strongly:1
+rules:1
 gaming:1
-a social media perspective:1
-the problematic use:1
-Marino et al:1
-Some research:1
-the result:1
-accessed:1
 hold:1
-immediate power:1
-i.e. parents:1
+parents:1
 teachers:1
-(Boyd & Hargittai:1
 substantiate:1
 latter:1
-Foltz Newkirk:1
-Schwager:1
-
-subjective norms:1
-Master of Business Administration:1
-(MBA:1
-social media
-privacy settings:1
-a relatively weak influence:1
+master:1
+business:1
+administration:1
+mba:1
+weak:1
 reported:1
-mixed outcomes:1
-some research:1
-the weakest
+mixed:1
+outcomes:1
+weakest:1
 predictor:1
-Ham et al:1
-Min & Kim 2015:1
 concluded:1
 shape:1
-not only behavioural intentions:1
-the subsequent
-behaviour:1
-Chung & Rimal:1
-This discrepancy:1
-the literature:1
-the type:1
-closely:1
+discrepancy:1
 identifies:1
-significant others:1
-perceptions:1
-the perceived costs:1
-conformance (Min & Kim 2015:1
-Previous studies:1
+non-conformance:1
 suggest:1
 meaningful:1
-their violation:1
-some
-punishment:1
+violation:1
 repercussion:1
-(Chalub:1
-Santos & Pacheco 2006:1
-the
-discussion:1
 far:1
-the following proposition:1
-Proposition 1:1
-The literature:1
+proposition 1:1
 replete:1
-information security awareness influences behaviour:1
-a form:1
-hence:1
 substituting:1
 knowledgeable:1
 becomes:1
-regard:1
-possible privacy
-threats:1
-the more control:1
-one such control mechanism:1
-the Facebook privacy
-settings:1
-adequate protective measures:1
+adequate:1
 exercising:1
-no control:1
-Testik &:1
-Chouseinoglou:1
 acquire:1
-the requisite knowledge:1
-effective protective measures:1
-tools:1
-the Privacy Checkup tool:1
-protective behaviours:1
-false assumptions:1
-(Golbeck & Mauriello:1
-overall vulnerability:1
-i.e. the bidirectional relationship:1
+requisite:1
+checkup:1
+tool:1
+false:1
+assumptions:1
 acts:1
-peers:1
 increasing:1
-this individual:1
-the same protective behaviour:1
-Proposed research model:1
-the bidirectional relationship:1
-an individual's attitude:1
+this 5 of 11 9/23/2021:1
 plays:1
-a vital role:1
+vital:1
 viewing:1
 holistically:1
-the various theoretical constructs:1
-a mutually exclusive manner:1
-general:1
-several contexts:1
-patient privacy:1
-nursing students:1
-a significant impact:1
-behaviours:1
-
-protective behaviour:1
+various:1
+mutually:1
+exclusive:1
+patient:1
+nursing:1
 considering:1
-the security:1
-patients' personal information:1
-the same effect:1
-measures:1
 informed:1
-social
-networking sites:1
-the extant privacy problems:1
-policies:1
-violations:1
+extant:1
+problems:1
 procedures:1
-Zlatolas et al:1
-Uninformed users:1
+uninformed:1
 fail:1
-the privacy risk:1
-information disclosure benefits:1
 rationally:1
 thoroughly:1
 lack:1
-a root cause:1
-information security incidents:1
-Safa et al:1
-Grimes:1
-Marquardson:1
+root:1
+cause:1
+incidents:1
 arising:1
-a particular action:1
-no protective
-measures:1
 order:1
-more secure online behaviour:1
 mentioned:1
-need:1
-both the threats:1
-the disclosure:1
-those threats:1
-e.g. privacy settings:1
 industry:1
-awareness programmes:1
+programmes:1
 implemented:1
 improve:1
-users' compliance:1
-secure user
-behaviour:1
-Bauer et al:1
-a user's level:1
-policy knowledge:1
-their intentions:1
 comply:1
-such
-policies:1
-Businesses:1
+businesses:1
 begun:1
 relying:1
-privacy policies:1
-a self-regulatory mechanism:1
-an attempt:1
+self-regulatory:1
+attempt:1
 reassure:1
-secure:1
-(Benson, Saridakis & Tennakoon:1
 84%:1
 participants:1
 only 48%:1
@@ -1340,17 +1098,12 @@ actually:1
 educated:1
 seemingly:1
 accept:1
-their personal
-information:1
-Respondents' awareness:1
-the consequent privacy concerns:1
-a negative experience:1
-especially experience:1
+consequent:1
 seen:1
-Proposition 2:1
+proposition 2:1
 goes:1
 merely:1
-the acquired knowledge:1
+acquired:1
 personally:1
 appropriately:1
 willing:1
@@ -1358,886 +1111,527 @@ decide:1
 adopting:1
 stems:1
 involves:1
-the measurement:1
-the perceived vulnerability:1
-a threat:1
-user perceptions:1
+measurement:1
 facing:1
 decisions:1
 relating:1
-Johnston et:1
-
-al:1
 produce:1
-a sufficient amount:1
-enact protective behaviour:1
-means:1
-Similar:1
-Wu:1
+sufficient:1
 focuses:1
-both awareness:1
-antecedents:1
-the intended
-use:1
-Hanus and Wu's (2016) study:1
 demonstrates:1
-a particular behaviour:1
-their perceptions:1
-the countermeasures:1
+countermeasures:1
 address:1
-the perceived threats:1
 help:1
-secure behaviour:1
 theorises:1
-the
-behavioural influence:1
-Several recent studies:1
 attests:1
-(specifically perceived severity:1
-significantly influenced respondents'
-intentions:1
 personalisation:1
-the ads:1
-Similarly:1
-Xie:1
-
-respondents' control:1
-virtual try:1
+similarly:1
 clothing:1
-apps:1
-The additional controls:1
 enabled:1
 less:1
-Xu:1
-Ngoh:1
-perceived threat severity:1
-both expressive privacy:1
-information privacy:1
-perceived vulnerability:1
-accessibility privacy:1
-Pfeiffer:1
-Rothlauf:1
-a significant and positive influence:1
+expressive:1
+accessibility:1
+positive:1
 selectivity:1
 connections:1
 refusal:1
 setting:1
 strictness:1
-a heightened threat appraisal:1
-a risky situation:1
-the risks:1
-6:1
-Proposition:1
-all ethical standards:1
-a research:1
-direct contact:1
-human or animal subjects:1
-Ethical consideration:1
-Discussion:1
-The proposed research model:1
-an adapted version:1
+heightened:1
+risky:1
+situation:1
+risks:1
+standards:1
+contact:1
+animal:1
+subjects:1
 replaced:1
-Both subjective norms:1
 modelled:1
-a
-direct influence:1
-the construct intention:1
-the behavioural
-influence:1
-the sub:1
-the construct threat
-appraisal:1
-i.e. vulnerability:1
-severity:1
-demographic aspects:1
+sub-components:1
 including:1
-negative privacy experiences:1
-
-information security awareness:1
-the actual use:1
+experiences:1
 outside:1
-the scope:1
-this research model:1
-both threat appraisal:1
-The model:1
-the evaluation:1
-individuals'
-intentions:1
-information
-misuse:1
-the
-personal information:1
-perceived:1
+scope:1
 sufficiently:1
-not much
 harm:1
 done:1
 considers:1
-far-reaching implications:1
-just the use:1
-Consider:1
-
-cleverly designed posts:1
+far-reaching:1
+cleverly:1
+designed:1
 susceptible:1
-one's gender:1
 display:1
 messages:1
 invoke:1
 sympathy:1
 higher:1
-usual levels:1
-Abnormal levels:1
-raised levels:1
-Recent evidence:1
-voter profiling:1
-one
-example:1
-known:1
+usual:1
+abnormal:1
+raised:1
+voter:1
+profiling:1
 sympathetic:1
-what their peers:1
 think:1
 get:1
-some indication:1
-the message:1
+indication:1
+message:1
 perpetuated:1
-successful persuasion:1
-the 'Introduction' section:1
-other individual differences:1
-specific psychological aspects:1
-
+successful:1
+persuasion:1
 instances:1
-even a minimal amount:1
 providing:1
-an initial description:1
+description:1
 going:1
-Further statistical
-evaluation:1
-that fear appeals:1
 evoked:1
-a
-significant influence:1
-The thematic analysis:1
-the social nature:1
-demographic:1
-aspects:1
-The results:1
-even minimal amounts:1
+amounts:1
 pronounced:1
-models:1
-the one:1
-social media platforms:1
-their responsibility:1
+platforms:1
+responsibility:1
 educate:1
-susceptibility:1
-exactly what:1
-Mark Zuckerberg:1
-chief executive officer:1
-his senate hearing:1
-Romm &:1
-Dwoskin:1
+exactly:1
+mark:1
+chief:1
+executive:1
+officer:1
+senate:1
+hearing:1
 essentially:1
 stated:1
-the company:1
+company:1
 prevent:1
-its users' personal
-information:1
 assist:1
-Limitations:1
-thematic interpretations:1
-the resultant arguments:1
-the
-authors' ideological frame:1
+interpretations:1
+ideological:1
+frame:1
 reference:1
-future work:1
-different
-arguments:1
-a more rigid structured review:1
-only a
-limited number:1
-secondary sources:1
+different:1
+rigid:1
+limited:1
 formed:1
-the thematic analysis:1
-Moreover:1
-arguments:1
+moreover:1
 supporting:1
-the other
-theoretical relationships:1
 omitted:1
-space limitations:1
-Lastly:1
-no
-statistical measures:1
+lastly:1
 aligned:1
-the constructs:1
-a thematic approach:1
 analyse:1
-a set:1
-secondary data sources:1
-the identification:1
-three themes:1
-these thematic maps:1
-three
-corresponding propositions:1
+set:1
+identification:1
 integrated:1
-an adapted research model:1
 consisting:1
+components:1
 deductively:1
-the adapted research model:1
 conduct:1
-appropriate
-statistical analyses:1
-a covariance approach:1
-structural equation modelling:1
-CB-SEM:1
-the predictive power:1
-R:1
-the resultant structural model:1
-a CB-SEM approach:1
+appropriate:1
+analyses:1
+covariance:1
+equation:1
+predictive:1
 recursive:1
-nature:1
-a non-recursive version:1
-the
-bidirectional relationships:1
-a partial least squares path modelling:1
-Acknowledgements:1
-Competing interests:1
+non-recursive:1
+least:1
+squares:1
+path:1
+acknowledgements:1
+interests:1
 declared:1
-no competing interest:1
 exists:1
-Authors' contributions:1
-All authors:1
+contributions:1
 contributed:1
 equally:1
-this work:1
-Funding:1
-Data availability statement:1
-This research:1
-no specific grant:1
-any funding agency:1
+availability:1
+statement:1
+grant:1
 commercial:1
-profit:1
+not-for-profit:1
 sectors:1
-Data sharing:1
 applicable:1
-no new data:1
-Disclaimer
-
-References:1
-The views:1
+disclaimer:1
+references:1
 opinions:1
 expressed:1
 reflect:1
-the official policy:1
-
+official:1
 position:1
-any affiliated agency:1
-Abed:1
-J. & Weistroffer:1
-H.R.:1
-deterrence theory:1
-security compliance behavior:1
-A quantitative meta-
-analysis approach:1
-Proceedings of:1
-the Southern Association for Information Systems Conference:1
-SAIS:1
-1-7, St.
-Augustine:1
-FL:1
-Imagined communities:1
-Awareness:1
-information sharing:1
-the Facebook:1
-
-Privacy Enhancing Technologies:1
+affiliated:1
+meta-:1
+southern:1
+sais:1
+st:1
+augustine:1
+fl:1
+imagined:1
+communities:1
+enhancing:1
+technologies:1
 4258:1
-36:1
-58:1
-https://doi-org.rlib.pace.edu/10.1007/11957454_3:1
-P. & Merhi:1
-M.I.:1
-Moral and subjective norms:1
-effect:1
-information security compliance:1
-the 24th Americas Conference on Information Systems:1
-AMCIS:1
-New Orleans:1
-A theory:1
-J. Kuhl & J. Beckmann:1
+36-58:1
+1007/11957454_3:1
+24:1
+americas:1
+amcis:1
+1-10:1
+orleans:1
+kuhl:1
+beckmann:1
 eds:1
-Action control:1
 cognition:1
-11-39, Springer, Berlin:1
-K. & Noujaim:1
-The great hack:1
-Netflix:1
-n.d:1
-https://www.netflix.com/za/title/80117542:1
-Y.M.:1
-E.M. & Bae:1
-My privacy:1
+11-39:1
+berlin:1
+great:1
+hack:1
+com/za/title/80117542:1
 okay:1
 endangered:1
-Why comparative optimism matters:1
-online privacy concerns:1
-, Computers:1
-31:1
+comparative:1
+optimism:1
 2414-2419:1
-/j.chb.2013.10.010:1
-E.W.N. & Chudzikowski:1
-Prevention:1
+2013:1
+prevention:1
 better:1
 cure:1
-Designing:1
-information security:1
-awareness programs:1
+designing:1
+programs:1
 overcome:1
+non-compliance:1
 banks:1
 68:1
-145:1
-159:1
-https://doi-org.rlib.pace.edu/10.1016/j.cose.2017.04.009:1
-Benson:1
-Saridakis, G. & Tennakoon:1
-Information disclosure:1
-social media users:1
-user awareness:1
-security notices:1
+145-159:1
+04:1
+notices:1
 matter:1
-Information Technology:1
-28(3:1
-426:1
-441:1
-org.rlib.pace.edu/10.1108/ITP-10-2014-0232:1
-Bowen:1
-G.A.:1
-Document analysis:1
-a qualitative research method:1
-Qualitative Research Journal:1
-9(2:1
+426-441:1
+1108/itp-10-2014-0232:1
 27-40:1
-https://doi-org.rlib.pace.edu/10.3316/QRJ0902027:1
-Boyd:1
-D. & Hargittai:1
+3316/qrj:1
+0902027:1
 cares:1
-First:1
-Monday:1
-Peer-Reviewed Journal:1
-Internet:1
-15(8:1
-https://doi-org.rlib.pace.edu/10.5210/fm.v15i8.3086:1
-Braun, V. & Clarke:1
-psychology:1
-Qualitative Research in Psychology:1
-3(2:1
-101:1
-https://doi-org.rlib.pace.edu/10.1191/1478088706qp063oa:1
-Chalub:1
-F.A.C.C.:1
-Santos:1
-F.C. & Pacheco:1
-J.M.:1
-The evolution:1
-Journal of:1
-Theoretical Biology 241(2:1
-233:1
-240:1
-https://doi-org.rlib.pace.edu/10.1016/j.jtbi.2005.11.028:1
-8:1
-Chung:1
-A. & Rimal:1
-Social norms:1
-A review:1
-Review of Communication Research:1
+monday:1
+peer-reviewed:1
+5210/fm:1
+3086:1
+77-101:1
+1191/1478088706:1
+qp:1
+063:1
+oa:1
+evolution:1
+biology:1
+241:1
+233-240:1
+jtbi:1
+028 8 of 11 9/23/2021:1
 1-28:1
-Debatin:1
-Lovejoy:1
-J.P.:1
-Horn:1
-A.-K.:1
-& Hughes:1
-B.N.:1
-online privacy:1
-Attitudes:1
-behaviors:1
-
-unintended consequences:1
-15(1:1
-108:1
-/10.1111:1
-j.1083:1
-6101.2009.01494.x:1
-S.J. & Holmes:1
-the emotional and coping responses:1
-adolescent individuals:1
-threat appeals:1
-International Journal of Advertising 27(2:1
-278:1
-https://doi-org.rlib.pace.edu/10.1080:1
-/02650487.2008.11073054:1
-Pfeiffer, J. & Rothlauf:1
-Privacy:1
+lovejoy:1
+horn:1
+-k:1
+hughes:1
+83-108:1
+01494:1
+emotional:1
+adolescent:1
+251-278:1
+1080:1
+/02650487:1
+11073054:1
 protecting:1
-C-P.H. Ernst:1
-, Factors:1
+c-p:1
 driving:1
-social network site usage:1
-Springer:1
-Wiesbaden:1
-public information:1
-https://www.facebook.com:1
+site:1
+usage:1
+1-9:1
+wiesbaden:1
 /help/203805466323736:1
-Y. & Xie:1
-Q.:1
-Privacy concerns:1
-perceived intrusiveness:1
-virtual try-on apps:1
-
-Journal of:1
-Interactive Advertising 19(1:1
+q:1
+intrusiveness:1
+interactive:1
+19:1
 43-57:1
-https://doi-org.rlib.pace.edu/10.1080/15252019.2018.1521317:1
-Foltz:1
-B.B.:1
-Newkirk:1
-H.E. & Schwager:1
-P.H.:1
-An empirical investigation:1
-factors:1
-individual behavior:1
+1080/15252019:1
+1521317:1
+empirical:1
+investigation:1
 toward:1
 changing:1
-social networking security settings:1
-Journal of Theoretical and Applied Electronic Commerce Research:1
-11(2:1
-15:1
-https://doi-org.rlib.pace.edu/10.4067/S0718-18762016000200002:1
-Golbeck:1
-J. & Mauriello:1
-User perception:1
-Facebook app data access:1
-A comparison:1
-methods:1
-concerns:1
-Future Internet 8(2:1
-https://doi-org.rlib.pace.edu/10.3390/fi8020009:1
-T. & Pashley:1
-Student awareness:1
-the privacy implications:1
-Cyberpsychology
-8(2:1
+applied:1
+electronic:1
+1-15:1
+4067/s:1
+0718-18762016000200002:1
+app:1
+comparison:1
+3390/fi:1
+8020009:1
 1-17:1
-Grimes, M. & Marquardson:1
-Quality:1
-Evoking:1
+quality:1
+evoking:1
 appraisals:1
-system design:1
-security intentions:1
-Decision Support Systems:1
-23:1
-https://doi-org.rlib.pace.edu/10.1016/j.dss.2019.02.010:1
-Jeger:1
-Ivkovic:1
-A.F.:1
+decision:1
+support:1
+119:1
+23-34:1
+dss:1
 forming:1
 purchase:1
-green food:1
-
-Economic Research-Ekonomska Istrazivanja:1
-28(1:1
-738:1
-748:1
-https://doi-org.rlib.pace.edu/10.1080/1331677X.2015.1083875:1
-B. & Wu:1
-Impact:1
-users' security awareness:1
-desktop security behavior:1
-, Information Systems Management 33(1:1
+green:1
+food:1
+economic:1
+research-ekonomska:1
+istrazivanja:1
+738-748:1
+1080/1331677:1
+1083875:1
+desktop:1
+33:1
 2-16:1
-https://doi-org.rlib.pace.edu/10.1080/10580530.2015.1117842:1
-Haynes:1
-D.:1
-D. & Robinson:1
-A regulatory model:1
-personal data:1
-social networking services:1
-the
-UK:1
-International Journal of Information Management:1
-36(6:1
-872:1
-882:1
-/j.ijinfomgt.2016.05.012:1
-P.:1
-information systems:1
-security policy compliance:1
-An integration:1
-planned
-behavior:1
-the protection motivation theory:1
-31(1:1
-95:1
-/j.cose.2011.10.007:1
-Joffe:1
-Qualitative research methods:1
-mental health:1
+1080/10580530:1
+1117842:1
+regulatory:1
+services:1
+uk:1
+36:1
+872-882:1
+ijinfomgt:1
+05:1
+83-95:1
+2011:1
+007:1
+mental:1
 psychotherapy:1
-A guide:1
 practitioners:1
-209:1
-223:1
-Wiley-Blackwell:1
-New York:1
-NY:1
-Johnston:1
-A.C.:1
-Warkentin:1
-McBride:1
-M. & Carter:1
-Dispositional and situational factors:1
-Influences:1
-information security policy violations:1
-European Journal of Information Systems:1
-25(3:1
-231:1
-/10.1057/ejis.2015.15:1
-T., Van Gelderen:1
-Fink:1
-Robustness:1
-predicting:1
-entrepreneurial
-intentions:1
-Entrepreneurship Theory:1
-Practice:1
-39(3:1
-655:1
-674:1
-/etap.12056:1
-Puspitasari:1
-D.R.:1
-Catherina:1
-H.P.A. & Sari:1
-Y.A.L.:1
-Information privacy concerns:1
+209-223:1
+wiley-blackwell:1
+york:1
+ny:1
+warkentin:1
+mcbride:1
+carter:1
+dispositional:1
+situational:1
+25:1
+231-251:1
+1057/ejis:1
+15 kautonen:1
+robustness:1
+entrepreneurial:1
+entrepreneurship:1
+39:1
+655-674:1
+/etap:1
+12056:1
+puspitasari:1
+catherina:1
+sari:1
 teens:1
-Facebook
-users:1
-Indonesia:1
-Procedia Computer Science:1
+indonesia:1
+procedia:1
+computer:1
 124:1
-632:1
-638:1
-https://doi-org.rlib.pace.edu/10.1016/j.procs.2017.12.199:1
-Lapinski, M.K. & Rimal:1
-An explication:1
-Communication Theory 15(2:1
-127:1
-147:1
-org.rlib.pace.edu/10.1111/j.1468-2885.2005.tb00329.x:1
-Lewis:1
-Kaufman:1
-J. & Christakis:1
-The taste:1
-college student privacy settings:1
-an
-online social network:1
-14(1:1
-79:1
-100:1
-
-/j.1083-6101.2008.01432.x:1
-, 5:03 PM
-
-Firefox:1
-Vedadi, A. & Durcikova:1
-A quantitative textual analysis:1
-three types:1
-threat communication:1
-subsequent:1
+632-638:1
+procs:1
+199:1
+explication:1
+127-147:1
+1468-2885:1
+tb:1
+00329:1
+taste:1
+college:1
+14:1
+79-100:1
+01432:1
+types:1
 80:1
 25-35:1
-/j.cose.2018.09.004:1
-Marino:1
-Vieno:1
-Pastore:1
-Albery:1
-I.P.:1
-Frings:1
-D. & Spada:1
-M.M.:1
-Modeling:1
-the contribution:1
-personality:1
-
-social identity:1
-problematic Facebook use:1
-Addictive Behaviors:1
+004:1
+vieno:1
+pastore:1
+albery:1
+frings:1
+spada:1
+modeling:1
+contribution:1
+addictive:1
 63:1
 51-56:1
-
-org.rlib.pace.edu/10.1016/j.addbeh.2016.07.001:1
-J. & Kim:1
+addbeh:1
+07:1
 enticed:1
 despite:1
-privacy concerns:1
-social network
-sites:1
-The calculus:1
+calculus:1
 benefit:1
 cost:1
-Journal of the Association for Information Science and Technology 66(4:1
-839:1
-857:1
-https://doi-org.rlib.pace.edu/10.1002/asi.23206:1
-Munn:1
-Peters:1
-M.D.J.:1
-Tufanaru:1
-McArthur:1
-Aromataris:1
-E., 2018:1
-Systematic review:1
-scoping:1
-review:1
-Guidance:1
-authors:1
+66:1
+839-857:1
+23206:1
+peters:1
+tufanaru:1
+mcarthur:1
+aromataris:1
+guidance:1
 choosing:1
-a systematic or scoping review approach:1
-BMC Medical Research
-Methodology 18(143:1
-https://doi-org.rlib.pace.edu/10.1186/s12874-018-0611-x:1
-Testik:1
-Ö.M. & Chouseinoglou:1
-O.:1
-Analysis:1
-personal information security behavior:1
+bmc:1
+medical:1
+18:1
+143:1
+1186/s:1
+12874-018-0611-x:1
+ö:1
 56:1
-https://doi-org.rlib.pace.edu/10.1016/j.cose.2015.10.002:1
-E.H.:1
-J. & Park:1
-Y.S.:1
-information security learning:1
-individual factors:1
+83-93:1
+002:1
+learning:1
 disclosing:1
-patients'
-health information:1
 65:1
 64-76:1
-https://doi-org.rlib.pace.edu/10.1016/j.cose.2016.10.011:1
-R.W.:1
-attitude change:1
-The Journal of Psychology 91(1:1
+011:1
+91:1
 93-114:1
-https://doi-org.rlib.pace.edu/10.1080/00223980.1975.9915803:1
-Saeri:1
-A.K.:1
-Ogilvie:1
-La Macchia:1
-S.T.:1
-J.R. & Louis:1
-W.R.:1
-Predicting:1
-online privacy
-protection:1
-Risk:1
-trust:1
+1080/00223980:1
+9915803:1
+ogilvie:1
+macchia:1
+louis:1
 norm:1
-Journal of Social Psychology 154(4:1
-352:1
-369:1
-https://doi-org.rlib.pace.edu/10.1080/00224545.2014.914881
-
-Safa:1
-An information security knowledge sharing model:1
+154:1
+352-369:1
+1080/00224545:1
+914881:1
 organizations:1
 57:1
-442:1
-451:1
-https://doi-org.rlib.pace.edu/10.1016/j.chb.2015.12.037:1
-Safa:1
-Maple:1
-Watson:1
+442-451:1
+037:1
+maple:1
+watson:1
 opportunity:1
 reduce:1
-information
-security insider threats:1
+insider:1
 organisations:1
-Journal of Information Security and Applications:1
 40:1
-247:1
-257:1
-
-org.rlib.pace.edu/10.1016/j.jisa.2017.11.001:1
-T. & Salb:1
-, D.:1
-Examining:1
-online social network use:1
-its effect:1
-
-disclosure:1
-Bulletin:1
-Science:1
-Technology:1
-35(1-2:1
-25:1
-https://doi-org.rlib.pace.edu/10.1177
+247-257:1
+jisa:1
+examining:1
+bulletin:1
+35:1
+1-2:1
+25-34:1
+1177:1
 /0270467615596890:1
-Strater, K. & Lipford, H., 2008, ':1
-Strategies:1
+strategies:1
 struggles:1
-an online social networking community:1
-the 22nd British HCI Group Annual Conference:1
-Culture:1
-Creativity:1
-Interaction:1
-BCS-HCI:1
-111:1
-Liverpool:1
-Van Noort:1
-Smit:1
-E. & Helberger:1
-Protective behavior:1
-personalized ads:1
+community:1
+nd:1
+british:1
+hci:1
+group:1
+annual:1
+culture:1
+creativity:1
+bcs-hci:1
+111-119:1
+liverpool:1
+noort:1
+smit:1
+helberger:1
+personalized:1
 personalization:1
-Cyberpsychology 13(2:1
+13:1
 1-22:1
-https://doi-org.rlib.pace.edu/10.5817/CP2019-2-1
-
-Symeonidis:1
-Biczók:1
-Shirazi:1
-Pérez-Solà:1
-Schroers:1
-J. & Preneel:1
-Collateral damage:1
-Facebook
-third-party applications:1
-A comprehensive study:1
-179:1
-208:1
-/j.cose.2018.03.015:1
-Gender differences:1
-privacy tendencies:1
-A meta-analysis', Computers:1
+5817/cp:1
+2019-2-1:1
+biczók:1
+shirazi:1
+pérez-solà:1
+schroers:1
+preneel:1
+collateral:1
+damage:1
+third-party:1
+comprehensive:1
+77:1
+179-208:1
+03:1
+015:1
+tendencies:1
+93:1
 1-12:1
-https://doi-org.rlib.pace.edu/10.1016/j.chb.2018.11.046:1
-Romm:1
-T. & Dwoskin:1
-Zuckerberg:1
+046:1
 apologizes:1
 promises:1
 reform:1
 senators:1
 grill:1
-Facebook's
 failings:1
-https://www.washingtonpost.com/business/technology/2018/04:1
-/10/b72c09e8-3d03-11e8-974f:1
-aacd97698cef_story.html:1
-Tsai:1
-H.Y.S.:1
-Jiang:1
-Alhabash:1
-LaRose:1
-Rifon:1
-N.J. & Cotten:1
-S.R.:1
-online safety behaviors:1
-A
-protection motivation theory perspective:1
+washingtonpost:1
+com/business/technology/2018/04:1
+/10/b:1
+72:1
+8-3:1
+03-11:1
+8-974:1
+f-aacd:1
+97698:1
+cef_story:1
+html:1
+jiang:1
+alhabash:1
+larose:1
+rifon:1
+cotten:1
 59:1
-138:1
-150:1
-/j.cose.2016.02.009:1
-Xu, W. & Ngoh:1
-A cost-benefit view:1
-Journal of the
-Association for Information Science and Technology 69(5:1
-700:1
-709:1
-https://doi-org.rlib.pace.edu/10.1002/asi.23894:1
-White:1
-K.M.:1
-J.R.:1
-Terry:1
-D.J.:1
-Greenslade:1
-J.H.:1
-Blake:1
-Social influence:1
-descriptive, injunctive, and ingroup norms:1
-48(1:1
-135:1
-158:1
-https://doi-org.rlib.pace.edu/10.1348
-/014466608X295207:1
-Witte:1
-K. & Allen:1
-A meta-analysis:1
-Implications:1
-effective public health campaigns:1
-Health
-Education & Behavior 27(5:1
-591:1
-615:1
-https://doi-org.rlib.pace.edu/10.1177/109019810002700506:1
-Zlatolas:1
-L.N.:1
-Welzer:1
-HeriCko:1
-M. & Hölbl:1
-Privacy antecedents:1
-SNS self-disclosure:1
-The case:1
+138-150:1
+view:1
+69:1
+700-709:1
+23894:1
+terry:1
+greenslade:1
+blake:1
+injunctive:1
+ingroup:1
+48:1
+135-158:1
+1348:1
+/014466608:1
+295207:1
+education:1
+591-615:1
+1177/109019810002700506:1
+welzer:1
+hericko:1
+hölbl:1
+sns:1
 45:1
 158-167:1
-https://doi-org.rlib.pace.edu/10.1016/j.chb.2014.12.012:1
-Department of Information Systems:1
-Faculty of Commerce:1
-Rhodes University:1
-Grahamstown:1
-South Africa:1
-Corresponding author:1
-k.vanderschyff@ru.ac.za:1
-Author Affiliation(s:1
-Author:1
-10.4102:1
-sajim.v22i1.1238:1
-K. & Van:1
-
-South African Journal of Information Management:1
-22(1:1
-a1238:1
-https://doi-org.rlib.pace.edu/10.4102/sajim.v22i1.1238:1
-Copyright:1
-COPYRIGHT:1
-(Pty) Ltd t:1
-http://www.sajim.co.za/index.php/sajim/pages/view/aims-and-scope:1
-Source Citation:1
-(MLA 9th Edition:1
-Kimberley:1
-Karl van der Schyff:1
-South African Journal
-
-of Information Management:1
-vol:1
-22:1
-1 Jan. 2020:1
-p.:1
-Gale Academic OneFile:1
-link.gale.com/apps:1
-/doc/A641962356:1
-AONE?u:1
+department:1
+faculty:1
+rhodes:1
+university:1
+grahamstown:1
+africa:1
+vanderschyff@ru:1
+ac:1
+affiliation:1
+http://www:1
+sajim:1
+co:1
+za/index:1
+php/sajim/pages/view/aims-and-scope:1
+citation:1
+mla:1
+edition:1
+onefile:1
+link:1
+com/apps:1
+/doc/a:1
+641962356/aone:1
 nysl_me_pace&sid:1
-ebsco&xid=32ea6014:1
-Accessed:1
-23 Sept. 2021:1
-Gale:1
-Document:1
-Number:1
-GALE|A641962356:1
-5:03 PM:1
+ebsco&xid=32:1
+6014:1
+23:1
+sept:1
+2021:1
+|:1
+641962356 11 of 11 9/23/2021:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:8
-Privacy:1
+Privacy:104

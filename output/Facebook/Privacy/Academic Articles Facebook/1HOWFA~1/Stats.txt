@@ -3,127 +3,198 @@
 
 
 With stop word removal 
-Size of original corpus: 19068 
-Size of filtered corpus: 6735
-Size of Lexicon: 3439
+Size of original corpus: 15581 
+Size of filtered corpus: 7864
+Size of Lexicon: 2391
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:114
-COPPA:91
-note:69
-Id.:51
+facebook:235
+'s:171
+coppa:136
+inc:119
+users:106
+children:97
+data:95
+information:83
+note:71
+supra:70
+ftc:68
+instagram:59
+user:57
+age:52
+law:48
+child:48
+https://www:47
+see:47
+privacy:46
 thirteen:46
-'s:43
-supra:42
-See:41
-children:39
-Inc.:37
-2018:32
-users:32
-Instagram:31
-2019:30
+account:45
+knowledge:41
+policy:41
+social:39
+actual:39
+websites:38
+use:38
+underage:38
+website:33
+sites:32
+3:29
+personal:29
 would:28
- supra:28
- Inc.:25
-information:24
-use:23
-may:22
-2:22
-FTC:22
+1:28
+practices:27
+parents:25
+online:24
+2:24
+may:24
+312:24
+terms:24
+operator:24
+report:23
+media:22
+7:22
 last:22
 visited:22
-1:21
-4:20
+site:22
+kids:22
+compliance:21
+parent:21
+f:19
+enforcement:19
+nov:18
 16:18
-7:18
-8:18
-data:17
+comment:18
+r:18
+rule:18
+messenger:18
+internet:17
+share:17
+although:16
+2019:16
+provide:16
+action:16
+new:16
+consent:16
+youtube:16
 made:15
-Although:15
-2020:15
-Nov.:15
+b:15
 9:15
-provide:15
+8:15
+5:15
+create:15
+review:15
 collect:15
+parental:15
+act:14
+4:14
+2020:14
+hall:14
+0:14
+vol:14
+50:827:14
+company:14
 comply:14
-share:14
- Facebook:14
-3:13
-5:13
+accounts:14
+collected:14
+app:14
 effectively:13
-COMMENT:13
 must:13
-collected:13
-C.F.R.:13
-13:13
-YouTube:13
- users:12
-0:12
-50:827:12
-actual knowledge:12
-create:12
-websites:12
- children:12
+services:13
+business:13
+musical:13
+zuckerberg:12
+2018:12
+requirements:12
+mandates:12
+access:12
+service:12
+content:12
 whether:12
-15:11
-Terms:11
-the FTC:11
-child:10
-using:10
-reporting:10
-old:10
-directed:10
-68:10
-account:10
-Report:10
-FACEBOOK:9
+ly:12
+complaint:12
+partners:12
+seton:11
+apr:11
+general:11
+using:11
+products:11
+reporting:11
+collects:11
+therefore:11
+many:10
+teens:10
+like:10
+6:10
+time:10
+collection:10
+better:10
+security:10
+could:10
+thirteen years old:10
+form:10
+consumers:10
+protection:9
 protect:9
-online:9
-like:9
-Privacy:9
-Apr.:9
-10:9
-age:9
-[Vol:9
-Facebook,  Inc.:9
-compliance:9
+understanding:9
+15:9
+fact:9
 likely:9
-Facebook, Inc.:9
+current:9
+regarding:9
 required:9
-Rule:9
-parents:9
-better:9
- Id.:9
-collects:9
+12:9
+congress:9
+effort:9
+directed:9
+person:9
 uses:9
 requires:9
-access:9
-underage:9
-could:9
+reported:9
+57:9
 indicate:9
-Policy:9
-Musical.ly:9
-6:8
-Congress:8
+delete:9
+68:9
+public:9
+ccpa:9
+currently:8
+need:8
+simply:8
+despite:8
+trade:8
+networking:8
+way:8
+popular:8
+ranked:8
+statista:8
+disclosure:8
 provides:8
-website:8
-57:8
-$:8
-delete:8
-actual  knowledge:8
-Zuckerberg:7
-social:7
-Children:7
-need:7
-regarding:7
-11:7
-2016:7
-ranked:7
+reasonable:8
+minor:8
+even:8
+younger:8
+change:8
+alleged:8
+consumer:8
+hold:7
+networks:7
+minors:7
+rights:7
+scope:7
+part:7
+child-users:7
+active:7
 collecting:7
+ability:7
 understand:7
-LAW:7
-REVIEW:7
+third:7
+specifically:7
+notice:7
+fed:7
 25:7
+web:7
+several:7
+states:7
+united:7
 reasonably:7
 ensure:7
 able:7
@@ -131,1272 +202,1031 @@ within:7
 however:7
 indicating:7
 brought:7
-Therefore:7
-Data:7
+generally:7
+particularly:7
+html:7
+conditions:7
+snapchat:7
+birth:7
+under 13:7
+guide:7
+civ:7
+pay:7
 manage:7
+continued:6
+ineffectiveness:6
+federal:6
+first:6
+bill:6
 sixteen:6
 imposed:6
-simply:6
-
-COPPA:6
-way:6
-its  sites:6
-teens:6
-Users:6
-report:6
+regulations:6
+largest:6
+definition:6
+tweens:6
+settlements:6
+operators:6
+help:6
+address:6
 maintain:6
-notice:6
-practices:6
-disclosure:6
-18:6
-defines:6
+control:6
+violations:6
+companies:6
+technology:6
 2013:6
-24:6
-Matwyshyn:6
-312.3:6
+defines:6
+third-party:6
+matwyshyn:6
 explicitly:6
-underage  users:6
+procedures:6
 actually:6
-the  age:6
 indicated:6
-reported:6
+yet:6
+often:6
+comm'n:6
 example:6
-generally:6
+actions:6
+protocols:6
 taken:6
-even:6
-accounts:6
 44:6
-see:6
-the  user:6
+iverson:6
+similar:6
 55:6
-Use:6
-Messenger:6
+whatsapp:6
 signing:6
-an  account:6
-birth:6
-App:6
+date:6
+agrees:6
+cal:6
+california:6
 held:6
+profile:6
+measures:6
+3 , 2018:6
+reviewers:6
+birthdate:6
 known:6
-Civ:6
+1798:6
+settlement:6
+google:6
 114:6
-Mark:5
-law:5
-Law:5
-minors:5
-U.S.C.:5
-SETON HALL:5
-the age:5
+musically:6
+cnet:6
+gdpr:6
+accountable:5
+mark:5
+light:5
+response:5
+regulation:5
+guidance:5
+protecting:5
+since:5
+enactment:5
+restriction:5
 adequately:5
 accessing:5
-currently:5
 enforce:5
-hold:5
-ofService:5
-parent:5
-enforcement:5
-the internet:5
-Specifically:5
-address:5
-Vol:5
-general:5
-27:5
-app:5
-actual:5
-knowledge:5
-service:5
-consent:5
-SETON:5
-HALL:5
+relevant:5
+ofservice:5
+common:5
+sense:5
+10:5
+certain:5
+safe:5
+verifiable:5
+among:5
+main:5
 noted:5
-Similarly:5
-often:5
+similarly:5
 implement:5
-action:5
-Social:5
+place:5
+number:5
 n't:5
 63:5
-2012:5
-Sept.:5
+sept:5
 describing:5
-INSTAGRAM:5
+requirement:5
 suggests:5
-the user:5
 allowing:5
-the  site:5
-v.:5
-Iverson:5
+creating:5
+connect:5
 66:5
-user:5
 created:5
-alleged:5
- parents:5
-the company:5
 79:5
-its  site:5
+bickert:5
+reason:5
 suggest:5
-change:5
-CCPA:5
-170:5
-million:5
-the information:5
-the  data:5
-many:4
+tiktok:5
+violated:5
+device:5
+european:5
+sunday:5
+teenagers:4
 addresses:4
-understanding:4
-light:4
-2014:4
-privacy:4
-
-users:4
+teenage:4
+hearing:4
+10 , 2018:4
+post:4
+means:4
+world:4
 effective:4
-accountable:4
-"actual  knowledge:4
-Jan.:4
-19:4
-Lauricella:4
-years:4
-Active:4
-A.:4
+history:4
+=:4
+jan:4
+lauricella:4
+pdf:4
+average:4
+signed:4
+6 years old:4
+millions:4
+11:4
+steps:4
 already:4
-help:4
+concerns:4
+potential:4
 providing:4
-
-children:4
+parties:4
 less:4
-Additionally:4
-control:4
-personal:4
-used:4
+additionally:4
+instead:4
 and/or:4
-since:4
-26:4
-personal information:4
- "child:4
-29:4
-21:4
-17:4
+functionality:4
+24:4
+integrity:4
+p:4
 obtain:4
-the  fact:4
+limited:4
 maintains:4
 including:4
-services:4
+territory:4
+subject:4
+activities:4
 prior:4
-the  information:4
-d.:4
-yet:4
+available:4
+contract:4
+useful:4
+examining:4
+independent:4
 filed:4
 older:4
-its websites:4
-place:4
-media:4
-among:4
+adult:4
+section:4
 show:4
-their websites:4
-Snapchat:4
-WhatsApp:4
-therefore:4
+cnbc:4
 upon:4
 require:4
-minor:4
-Kids:4
-Aug.:4
-creating:4
+old:4
+enough:4
+dec:4
+th:4
+statement:4
+responsibilities:4
+type:4
+aug:4
 64:4
-mandates:4
 without:4
-the account:4
-security:4
-younger:4
+official:4
+view:4
+option:4
+safety:4
+network:4
+tips:4
 know:4
+operational:4
 noting:4
-2011:4
-TRADE:4
+keep:4
+times:4
 determine:4
-child-users:4
 might:4
 evaded:4
-Underage:4
-Google:4
-pay:4
-an operator:4
-Video:4
-Musically:4
-Agrees:4
-Violated:4
+quora:4
+opt-in:4
+120:4
+$170 million:4
+video:4
+settle:4
+allegations:4
+18 , 2019:4
 run:4
-The  Data  Policy:4
-Sunday:4
-CHILDREN:3
-'S:3
-continued:3
-guidance:3
+advertisements:4
+shared:4
+settings:4
+senators:4
+news:3
+manner:3
+seemingly:3
+school:3
+2014:3
+professor:3
 else:3
-protecting:3
+senate:3
+important:3
+think:3
 individual:3
 prevent:3
-Despite:3
+agency:3
 accepted:3
-the scope:3
+practice:3
 allowed:3
-fact:3
 past:3
-the
-law:3
+vast:3
+iii:3
 examine:3
-its sites:3
+iv:3
+recent:3
+6502:3
 56:3
-research:3
-average  age:3
-tweens:3
+19 , 2018:3
+2016:3
 initially:3
-signed:3
-12.6:3
-Ranked:3
-Millions:3
- STATISTA:3
-Next:3
-the time:3
-Finally:3
-response:3
+worldwide:3
+2 , 2018:3
+matecki:3
+next:3
+ripe:3
+gaps:3
+finally:3
+dissemination:3
 passed:3
-an effort:3
- data:3
 indicates:3
-internet:3
+harms:3
 highlighted:3
-ability:3
-personal  information:3
+deceptive:3
+14:3
 argued:3
-12:3
-the  collection:3
-20:3
-April:3
+used:3
+private:3
 conform:3
 23:3
 still:3
 short:3
+goals:3
 remains:3
-relevant:3
-a  website:3
+insight:3
+advertising:3
+developers:3
+13:3
 operates:3
 located:3
 fails:3
 define:3
+goal:3
 ensuring:3
 requiring:3
-
-reasonable  procedures:3
-the confidentiality:3
-integrity:3
-such information:3
-32:3
- operators:3
-review:3
-limited:3
-thirteen years:3
-time:3
-the
-users:3
+confidentiality:3
+critics:3
 maintained:3
 offering:3
-territory:3
-31:3
-30:3
+foreign:3
+indication:3
 towards:3
-312.3(a:3
-examining:3
-Compliance:3
+three:3
+questions:3
+question:3
+survey:3
+standards:3
+inquiry:3
+deal:3
 monitor:3
 disregards:3
 proven:3
-FED:3
-sites:3
- FTC:3
-the  FTC:3
-particularly:3
-Particularly:3
-a  user:3
+violating:3
+popularity:3
+jul:3
 true:3
-
-Instagram:3
-the  websites:3
-conditions:3
-the use:3
-54:3
-2017:3
-facebook:3
-largest:3
+subsidiary:3
+direct:3
+https://help:3
+clear:3
+62:3
 asking:3
-despite:3
-COPPA compliance:3
-60:3
-agrees:3
-Oct.:3
-California:3
-subject:3
+platforms:3
+oct:3
+class:3
+srr:3
 failed:3
-terms:3
-Age:3
+much:3
+safely:3
 established:3
-a user:3
-the site:3
+formal:3
+timeline:3
+connectsafely:3
 significantly:3
-the  account:3
-network:3
 verified:3
-an account:3
-reviewers:3
-75:3
+reports:3
 put:3
+director:3
 seriously:3
-The FTC:3
-First:3
-the  company:3
+became:3
+promises:3
+significant:3
+profiles:3
 taking:3
-content:3
-self:3
+bring:3
+rather:3
 allows:3
-the user's age:3
-COMM'N:3
- the  operator:3
+guideline:3
 answers:3
+96:3
+dictionary:3
 witnessed:3
 inquire:3
-Create:3
-enough:3
-an understanding:3
-Parent:3
-Guide:3
 disregarded:3
-January:3
+facts:3
 anyone:3
+based:3
 revise:3
-Children's Privacy Law:3
-Pay:3
-Record:3
-136:3
+interest:3
+research:3
+researchers:3
+5 million:3
+115:3
+record:3
 cited:3
-the app:3
+press:3
+articles:3
 received:3
 determining:3
-CNET:3
 targeted:3
-a website:3
- COPPA:3
-its  users:3
-information.1:3
-the
-information:3
-shared:3
-Data  Policy:3
-device:3
+members:3
+advertisers:3
 making:3
 145:3
 communicate:3
 compliant:3
-parental:3
 necessarily:3
-Messenger  Kids:3
+portal:3
 154:3
-KIDS:3
 well:3
-collection:3
+union:3
 173:3
-ONLINE:2
-Facebook,
-Inc.:2
+authorization:3
+europe:3
+processing:3
+american:3
+look:2
+ceo:2
 recently:2
 believed:2
-teenagers:2
+discussion:2
 responding:2
-a manner:2
 acknowledging:2
-Currently:2
-teenage:2
+books:2
 handled:2
+teen:2
+university:2
 thank:2
 support:2
-mark:2
-important:2
+esq:2
+amy:2
+forbes:2
+whittaker:2
 establishes:2
-think:2
-312.9:2
+6501-6506:2
 defining:2
-LA  WREVIEW:2
-COPPA's  enactment:2
-the requirements:2
-Commission:2
+wreview:2
+1998:2
+circumvent:2
+commission:2
 tasked:2
 outside:2
-COPPA regulations:2
-the world:2
 easily:2
-a law:2
-ineffectiveness:2
+approach:2
+objectives:2
+highlight:2
+brief:2
+overview:2
+criticisms:2
+policies:2
 argue:2
-IV:2
-the Facebook Products:2
 dp:2
-COMMON:2
-SENSE:2
-MEDIA:2
-networks:2
-number:2
-users/:2
+11 , 2019:2
+php:2
+census:2
+commonsensemedia:2
+update:2
+ineffective:2
+youth:2
 2010:2
-ripe:2
 complying:2
-harms:2
- third  parties:2
-the  internet:2
-deceptive:2
+growing:2
+concern:2
+legislative:2
 enabling:2
-what information:2
-private:2
-instead:2
-the  act:2
-COPPA.1:2
+role:2
+potentially:2
 375:2
-6502:2
+connection:2
 promulgated:2
+21:2
+22:2
 disseminated:2
 become:2
 changes:2
-the Rule:2
-the  scope:2
 strengthen:2
+protections:2
 modified:2
+definitions:2
+revision:2
 falls:2
-insight:2
+stated:2
+strong:2
+26:2
+implications:2
+effects:2
 maintaining:2
-a child:2
-312:2
-Children's  Online  :2
-online  service:2
+27:2
+29:2
+78:2
 meant:2
 apply:2
-Teenagers:2
-Mary:2
-Teens:2
-May:2
-312.2:2
-means:2
-safe:2
-a  website  operator:2
-e]stablish:2
-p]rovide:2
- use:2
+plug-in:2
+mary:2
+http://www:2
+sharing:2
+the age of 13:2
+stablish:2
+rovide:2
+32:2
 2001:2
-site:2
+behalf:2
+commercial:2
 involving:2
-the  United  States:2
-foreign  nation:2
-33:2
+commerce:2
+district:2
+colombia:2
+state:2
+nation:2
 considered:2
 outlines:2
- parental  consent:2
- the  person:2
-34:2
-L.  Allen:2
-the
-requirements:2
-year:2
+exceptions:2
+method:2
+anita:2
+distractions:2
+e-commerce:2
+different:2
+factors:2
+inquiries:2
+effect:2
 continue:2
+effectiveness:2
 today:2
-the  time:2
+study:2
 ignore:2
+39:2
 2002:2
-Survey:2
+full:2
+needed:2
+40:2
 2007:2
-deal:2
-the capacity:2
-available:2
-Commerce:2
+conclusion:2
+flexible:2
+second:2
+capacity:2
+behavior:2
+problematic:2
+38:2
 37:2
-767:2
-TRADE  COMM'N:2
-COMPLIANCE:2
+1-2:2
+2%80%99:2
 thus:2
 far:2
-networking:2
-violating:2
+43:2
+7-8:2
+claim:2
+providers:2
+46:2
 grants:2
-INC:2
-
-protocols:2
- the  sites:2
-"5:2
-Jul.:2
-/facebook:2
--instagram:2
+standard:2
+handles:2
+particular:2
+realm:2
+adults:2
+misrepresentation:2
 always:2
 believe:2
 truly:2
- ads:2
+ads:2
 65:2
-January 2019:2
-the  world:2
-a  subsidiary:2
-
-Inc.:2
+statistics:2
+january:2
 owns:2
+separate:2
 restrict:2
+2012:2
+24 , 2019:2
 showing:2
 amongst:2
-CNBC:2
-instagram:2
+buy:2
 offer:2
-business:2
-Most Popular Social Networks:2
-Worldwide:2
-ofJanuary:2
-Number:2
-third:2
-Interestingly:2
+54:2
+ofjanuary:2
+$1 billion:2
+recode:2
+evident:2
+interestingly:2
+controls:2
+four:2
+legal:2
+info:2
+family:2
 governed:2
 addition:2
-
-conditions:2
 limit:2
 undemge:2
-Yet:2
-seemingly:2
-Old:2
-Enough:2
+lie:2
+sufficient:2
+minimum:2
+60:2
 set:2
-kids:2
+options:2
 reach:2
 gain:2
-Magid:2
-Dec.:2
-62:2
-the  terms:2
-requirement:2
+magid:2
+people:2
+com/:2
 activate:2
-N.D.  Cal:2
-Mar.:2
-
-Facebook Inc.:2
-2015:2
-U.S.:2
-Cal:2
-the  minors:2
+lexis:2
+plaintiffs:2
 represented:2
-contract:2
 enter:2
+code:2
+court:2
 found:2
-rule:2
+disaffirmance:2
 8-9:2
+the years:2
 lied:2
 around:2
-Aiken:2
+aiken:2
+fake:2
+prove:2
 engage:2
-much:2
-its users:2
+verification:2
+infoumation:2
+adequate:2
+organization:2
 called:2
 recognizes:2
 demonstrate:2
-a form:2
 69:2
 requests:2
-The  form:2
+url:2
+drop-down:2
+measure:2
 're:2
-verifiable:2
+false:2
 receive:2
-view:2
 username:2
-connect:2
-Simply:2
-Parent's Guide:2
+password:2
+marketing-interactive:2
+us:2
 connected:2
-an Underage Child:2
 70:2
 include:2
-a parent:2
-measures:2
+appropriate:2
+case:2
+contact:2
 verify:2
 request:2
-72:2
-Likewise:2
- Instagram:2
+likewise:2
+page:2
 scrutiny:2
-reports:2
+documentary:2
+undercover:2
+reporter:2
+kingdom:2
 took:2
 appeared:2
-Parents:2
-Change:2
+constine:2
+crack:2
+tech:2
 saying:2
+blind:2
+blog:2
+program:2
+working:2
+daily:2
 statements:2
-the Senate:2
+timothy:2
+82:2
 takes:2
-became:2
-keep:2
-public:2
-Keep:2
-Bickert:2
- FED:2
-ftc:2
-thirteen  years  old:2
-its
-websites:2
+2011:2
+83:2
+nytimes:2
+examination:2
+cong:2
+failing:2
+fic:2
 86:2
-these
-users:2
+87:2
 monitored:2
 eventually:2
 unlikely:2
-inclusive:2
+88:2
 makes:2
 89:2
-thirteen years old:2
-specifically:2
-these users:2
 formally:2
- Bickert:2
+photo:2
+mail:2
 consider:2
 90:2
-bring:2
-companies:2
-the users:2
-definition:2
-operational:2
+92:2
+clearer:2
 stipulates:2
-"actual
-knowledge:2
 asks:2
-an  operator:2
-"actual knowledge:2
 learn:2
 obtaining:2
-Path:2
+path:2
 audience:2
 triggered:2
-(Apr.:2
 examples:2
-direct:2
+go:2
+black:2
 lead:2
-its  websites:2
+degree:2
 deemed:2
-96:2
-New  Account:2
- FACEBOOK:2
-Nov. 3:2
-Child:2
-birthdate:2
+incidents:2
+100:2
+system:2
+roller:2
+year:2
+edit:2
+situation:2
+wrong:2
+amount:2
 forthcoming:2
-the protocols:2
+valid:2
 qualify:2
-younger
-children:2
-rather:2
+representations:2
 willfully:2
-opt:2
-consumers:2
-B.:2
-Based:2
-Facebook, Inc.  :2
-researchers:2
+january 1 , 2020:2
+whereas:2
+data-sharing:2
+17 , 2019:2
+term:2
+disregard:2
+studies:2
+accessibility:2
+faceb:2
 ignoring:2
 knows:2
 pass:2
-7.5  million:2
-Facebook  users:2
+loose:2
+mandate:2
 applies:2
-SE TON HALL:2
-child data:2
 directly:2
+initial:2
 113:2
 reached:2
- TikTok:2
-14:2
+agreements:2
 agreeing:2
+$:2
+free:2
 watch:2
+videos:2
 116:2
 engages:2
-Matecki:2
-373:2
-Social Networking:2
-Networking:2
-Settle:2
+373-75:2
+feb:2
+4 , 2019:2
+york:2
 117:2
-Allegations:2
-Complaint:2
-Penalties:2
-Equitable:2
-Relief:2
-The complaint:2
-actual
-knowledge:2
-profile:2
+penalties:2
+permanent:2
+injunction:2
+equitable:2
+relief:2
+numerous:2
+complaints:2
 reviewing:2
-its platforms:2
+party:2
+119:2
 127:2
-members:2
+interactions:2
+capability:2
 establish:2
 131:2
 notify:2
-the products:2
-the  users:2
+holder:2
 134:2
-business  partners:2
- advertisers:2
-Facebook,:2
 sees:2
-other services:2
- third-party  business  partners:2
- activities:2
-a
-user:2
-Data Policy:2
+connections:2
 unique:2
+tailoring:2
 helpful:2
-that information:2
-the Data Policy:2
+measurement:2
+analytic:2
 rectify:2
 erase:2
-the sites:2
+richard:2
+hearings:2
+hautala:2
+names:2
 likenesses:2
+sponsored:2
+stories:2
+cambridge:2
 146:2
-their data:2
-COPPA  :2
 revised:2
 closer:2
 148:2
-new:2
-regardless:2
+iso:2
+regard:2
 153:2
+kinds:2
 agree:2
- Cookies  Policy:2
-the  personal
-information:2
+cookies:2
+privacy policy:2
 informs:2
 allow:2
-MESSENGER:2
-Creating:2
-Messenger  Kid:2
+kid:2
 164:2
-their  users:2
+formalized:2
+safeguard:2
 169:2
-breach:2
+analytica:2
+data breach:2
+campaign:2
+commercial-free:2
+childhood:2
+washington:2
 175:2
 176:2
-Regulation:2
-(EU:2
 2016/679:2
 illegal:2
- personal  data:2
-a  child:2
- art:2
-Europe:2
+process:2
+art:2
+proposals:2
 introduced:2
-Bill:2
-BEAT:1
-PRIVACY  PROTECTION ACT:1
-LOOK:1
-CONTINUED:1
-INEFFECTIVENESS:1
-HOLD:1
-SOCIAL MEDIA:1
-SITES:1
-ACCOUNTABLE:1
-THE FUTURE:1
-Shannon Finnegan:1
-I.  INTRODUCTION:1
-the co:1
-founder:1
- chairman:1
-CEO:1
-news:1
+180:2
+engadget:2
+beat:1
+future:1
+shannon:1
+finnegan:1
+introduction:1
+co-founder:1
+chairman:1
 implied:1
 necessary:1
 cover:1
-networks.2:1
 acquiesced:1
-this topic:1
+topic:1
 deserves:1
-a lot:1
-discussion:1
+lot:1
 criticized:1
 interpreted:1
 cavalier:1
-the  sensitive  nature:1
-teens' data:1
-only  one  federal  law:1
-the  books:1
-children's  privacy:1
-the Children's  Online Privacy Protection Act:1
+sensitive:1
+nature:1
 pertain:1
-teenage data:1
 shed:1
-Zuckerberg's
-seemingly lackadaisical  response:1
-the regulation:1
-teen data:1
-J.D.:1
-Candidate:1
-Seton:1
-Hall  University:1
-School:1
-B.A.:1
-Fairfield
-:1
-University:1
-Foremost:1
-Mom:1
-Dad:1
-your  unconditional  love:1
-Sincerest:1
+lackadaisical:1
+candidate:1
+fairfield:1
+foremost:1
+mom:1
+dad:1
+unconditional:1
+love:1
+sincerest:1
 thanks:1
-my  faculty  advisor:1
-Professor  Najarian  Peters:1
-Esq:1
+faculty:1
+advisor:1
+najarian:1
+peters:1
 unwavering:1
 encouragement:1
 belief:1
-sound  counsel:1
+sound:1
+counsel:1
 remiss:1
-Karen  Nachbar:1
- Esq:1
-first:1
+karen:1
+nachbar:1
 teaching:1
 supporting:1
-my  dream:1
-a  fun  lawyer:1
-Amy:1
-Gopinathan:1
-my
-steadfast  law  school  partner:1
-Matthew  :1
-Cook:1
+dream:1
+fun:1
+lawyer:1
+gopinathan:1
+steadfast:1
+partner:1
+matthew:1
+cook:1
 everything:1
-Mark Zuckerberg:1
-FORBES:1
-https://www.forbes.com/profile/mark-:1
-zuckerberg/#e1233153e06d:1
-2  :1
-Zack  Whittaker:1
-Hearing:1
-Facebook's Zuckerberg Rejects Law:1
-Protect:1
-ZERO  DAY  NET:1
-https://www.zdnet/com/article/at-hearing-zuck:1
-erberg:1
+#4 mark:1
+4 , 2018:1
+com/profile/mark-:1
+zuckerberg/#e:1
+1233153:1
+06:1
+zack:1
 rejects:1
-children/.:1
-Bloomberg  Government:1
-Transcript:1
-Senate  Hearing:1
- WASH:1
-PosT:1
-https://www.washingtonpost.com/news/the-switch/wp/2018/04/1:1
+zero day:1
+net:1
+zdnet/com/article/at-hearing-zuck:1
+erberg-rejects-law-to-protect-the-privacy-of-children/:1
+bloomberg:1
+government:1
 transcript:1
-zucke:1
-rbergs:1
-senate:1
-hearing/?noredirect:1
-on&utm:1
-their  privacy:1
+wash:1
+washingtonpost:1
+com/news/the-switch/wp/2018/04/1:1
+0/transcript-of-mark-zucke:1
+rbergs-senate-hearing/:1
+noredirect-on&utm:1
 extremely:1
-
-law:1
-a privacy:1
-bill:1
-rights:1
 'm:1
 sure:1
-term=.0b9b3f867a4e:1
-Whittaker:1
+term=:1
+867:1
+cfr:1
+5 15:1
 6501:1
-6506:1
-CFR:1
-6501(1:1
 827:1
 828:1
-Since:1
-1998,6:1
-(collectively  "Facebook, Inc.":1
+collectively:1
 managed:1
- circumvent:1
 onwebsites:1
 banning:1
-their websites.8:1
-This restriction:1
-these websites:1
-Federal:1
-Trade:1
-FTC)-the agency:1
-the
-enforcement:1
-this practice:1
-an acceptable means:1
+-the:1
+coppa-has:1
+acceptable:1
 determinatively:1
 fall:1
-the  largest  social
-networking  company:1
-circumvent:1
-the only  federal
-general  data privacy law:1
- Zuckerberg's  dispassion:1
-a
-teenage  privacy  law:1
+dispassion:1
 unsurprising:1
 exemplifies:1
- COPPA's
-circuitous  approach 
-continued ineffectiveness:1
-The vast ineffectiveness:1
-the
+circuitous:1
 failure:1
 promotes:1
-its  underlying
-objectives:1
+underlying:1
 supports:1
-Zuckerberg's opinion:1
+opinion:1
 regulate:1
+data-if:1
 bearing:1
 resemblance:1
 unnecessary:1
-This  Comment:1
+coppa-would:1
 explore:1
-Part  II:1
- this Comment:1
 lay:1
-the  history:1
 dating:1
 back:1
-its  enactment:1
-highlight:1
- relevant  components:1
-a brief overview:1
-the criticisms:1
+components:1
 studied:1
-Part III:1
- Inc.'s current policies:1
-
-child-users:1
-Facebook  and Instagram:1
-Part IV:1
-the
-FTC's definition:1
 unduly:1
 restricts:1
-the enforcement:1
-
-COPPA's mandates:1
-Part:1
-recent  FTC:1
-6502(b)(1:1
-https://www.facebook.com/help/:1
-1485474074139?ref:1
-=:1
-https://www.facebook.com/terms.php:1
-A.R.:1
-The  Common  Sense  Census: Plugged-In Parents of Tweens
-
-and Teens:1
-https://www.commonsensemedia.org/sites/de:1
-fault:1
-files:1
-uploads:1
-common:1
-sense:1
-census-:1
+com/help/:1
+1485474074139:1
+ref:1
+com/terms:1
+plugged-in:1
+org/sites/de:1
+fault/files/uploads/research/common-sense-parent-census-:1
 whitepaper:1
-new-for-web.pdf:1
-social  media
-accounts:1
-Popular Social Networks  Worldwide:1
-October:1
-https://www.statista.com/statistics/272014/global-social-:1
-Nov. 2, 2018:1
-Lauren:1
-Matecki,  Note:1
-Update:1
-Ineffective  Legislation:1
-Steps:1
-Protecting:1
-Youth:1
-Privacy Rights in  the Social Networking Era:1
-Nw:1
-J.L.:1
-Soc:1
-Pot'Y:1
+new-for-web:1
+october 2018:1
+com/statistics/272014/global-social-:1
+networks-ranked-by-number-of-users/:1
+lauren:1
+legislation:1
+nw:1
+soc:1
+pot'y:1
 369:1
-829
-
-settlements:1
-other social media site operators:1
-these
-settlements:1
-Part  V:1
-this  Comment:1
+829:1
 demand:1
- Inc.'s
-compliance:1
-withCOPPAby:1
-examininghowFacebook  Inc.:1
-
-compliance:1
+withcoppaby:1
+examininghowfacebook:1
 bridge:1
- the  gaps:1
-address growing social concern:1
-data
-privacy:1
-Part VI:1
 conclude:1
-HISTORY:1
-Legislative History:1
- growing concerns:1
-the dissemination:1
-children's
-personal information:1
-1998.12:1
 anticipation:1
-the passing:1
-the law:1
+passing:1
 spearheaded:1
-the  prevalence:1
+prevalence:1
 along:1
-the potential  harms:1
-The report:1
-concerns:1
 weakened:1
 privy:1
 marketing:1
 techniques:1
 susceptible:1
-the  tactics:1
+tactics:1
 marketers:1
-trade:1
-practices.14:1
 importance:1
-
-parents:1
-their children:1
-the
-FTC:1
-a parent's role:1
- access:1
 choice:1
-These  concerns:1
-potentially  harmful  internet
-practices:1
+1 6:1
+harmful:1
 ultimately:1
 motivated:1
 enact:1
-these  concerns:1
 right:1
-
-action:1
 vested:1
-the power:1
-any  violations:1
+power:1
 granted:1
-the
 authority:1
-a rule:1
+1 9:1
 outlined:1
-the
-specific  regulations:1
+specific:1
 follow:1
-6501-6506:1
-312.1:1
 enacted:1
-"prohibit:1
+prohibit:1
 unfair:1
 acts:1
-connection:1
-the Internet:1
+7 18 '9 15:1
 830:1
- HALL:1
-the act:1
-Online:1
-Protection:1
-("the  Rule:1
-2000.21:1
- contextual  guidelines:1
-most importantly website companies:1
+20:1
+april 2000:1
+contextual:1
+guidelines:1
+importantly:1
 theoretically:1
-their website:1
- functionality:1
-Rule.22:1
-the  eighteen  years:1
-the enactment:1
+the eighteen years:1
 grown:1
 stored:1
 complex:1
 prominent:1
-"[I]n  light:1
- online technology:1
 amended:1
+20 13:1
 clarify:1
-its  protections:1
-The amendment:1
- certain
-children's  personal  information:1
-
-definitions:1
+amendment:1
 updated:1
- COPPA's requirements:1
 included:1
-a new provision:1
-data retention:1
+provision:1
+retention:1
 deletion:1
-24  Despite  these efforts:1
+efforts:1
 align:1
-potential:1
- child  internet:1
-the  2013
-revision:1
 meeting:1
-its stated goals:1
- children's
-internet privacy.2:1
-Accordingly,  the need:1
- child  privacy:1
-strong:1
-B. Important Aspects:1
-A  more  in-depth  analysis:1
+2 5:1
+accordingly:1
+aspects:1
+in-depth:1
+analysis:1
 text:1
-its  implications:1
- its  effects:1
 prohibits:1
-any operator:1
-any  operator:1
-a  manner:1
 violates:1
-the  provisions:1
-" 2 8  "operator:1
-a  "website:1
-22:1
-Privacy  Protection  Rule:1
-78:1
-Fed:1
-Reg:1
+provisions:1
+2 8:1
+20 21:1
+reg:1
 3972:1
+17 , 2013:1
 codified:1
- 16 C.F.R.  pt:1
-the  revision:1
+pt:1
 expanded:1
-its  scope:1
 expanding:1
-the
-definition:1
-"personal  information:1
-operator:1
-These  revisions:1
- third-party
-children:1
-advertising:1
-plug:1
- developers:1
-Andrea:1
-M.:1
-Tweenagers:1
-Professor  Allen:1
-Critique:1
-the Children's Online Privacy Protection Act:1
-Historical Perspective:1
-13  APA
-NEWSL:1
-Madden:1
-Social Media:1
-PEw:1
-CTR:1
-http://www.pewintemet.org/2013/05/21/teens-social-media-and-privacy/:1
-sharing:1
- social  media  sites:1
-28:1
- "operator:1
-A]ny  person:1
-Internet:1
+revisions:1
+andrea:1
+tweenagers:1
+critique:1
+historical:1
+perspective:1
+newsl:1
+madden:1
+pew:1
+ctr:1
+pewintemet:1
+org/2013/05/21/teens-social-media-and-privacy/:1
+27 28:1
+ny:1
 831:1
-children,"3:1
 seeks:1
 accomplish:1
-its goal:1
- security:1
-the personal  information:1
-the  FTC's  goal:1
- parental  control:1
-
-children's  information:1
-a website operator:1
-"verifiable
-parental consent:1
-any collection:1
-personal
-information:1
-33  COPPA:1
-a  reasonable way:1
-the personal
-information:1
-their child.3:1
-C.:1
-Brief Overview ofCriticisms ofCOPPA:1
-Many critics:1
-COPPA's adverse  effects:1
-enactment.3:1
-Most  prominently,  critics  attack
-COPPA's  limited  scope:1
+33:1
+3 4:1
+ofcriticisms:1
+ofcoppa:1
+adverse:1
+3 1:1
+prominently:1
+attack:1
 highlighting:1
-the definition:1
-age.3:1
- personal  information:1
+thirteen years of age:1
 visitors:1
-such  web  site:1
-whose  behalf:1
+whose:1
 operated:1
- commercial  purposes:1
-any  person:1
-products:1
-web:1
- commerce:1
-Among  the  several  States:1
-more  foreign
+purposes:1
 nations:1
-the  District:1
-Colombia:1
-Another  such  territory:1
-State:1
-(c:1
-the  District  of Colombia:1
-any State:1
-b:1
-312.4:1
-A  website:1
-the  visual  content:1
-the
-subject  matter:1
- music:1
+another:1
+31:1
+33 30:1
+visual:1
+matter:1
+music:1
 audio:1
-child-oriented  activities:1
+child-oriented:1
 incentives:1
 give:1
-indication:1
-a  portion:1
-the  website:1
-§ 312.3(e:1
-312.5(a)(1:1
- several  exceptions:1
-the
-operator:1
- any  method:1
- consent:1
+portion:1
 calculated:1
-available  technology:1
-the  child's  parent:1
- Id.  §:1
-312.5(b)(1:1
-312.3(c:1
+34:1
 35:1
 36:1
-developmentally 
+developmentally:1
 conflict:1
 minority:1
 doctrine:1
-contract  law:1
-[A]ge:1
 illogically:1
 appears:1
 selected:1
@@ -1404,2333 +1234,1175 @@ creates:1
 arbitrarily:1
 irreconcilable:1
 832:1
-Professor:1
- Anita:1
 authored:1
-a
-comprehensive  article:1
+comprehensive:1
+article:1
 outlining:1
-its  ineffectiveness:1
 entitled:1
-Minor:1
-Distractions:1
-Commerce.3:1
 attributed:1
-
-COPPA's failures:1
-many different factors:1
+failures:1
 focused:1
-her inquiries:1
-
-three  main  questions:1
 supervising:1
-their  children:1
 willing:1
-the  statute:1
-3 8  :1
-These  three  questions:1
+statute:1
+3 8:1
 posed:1
+just one year:1
 went:1
- effect:1
-useful inquiries:1
-the effectiveness:1
-the  first question:1
 concluded:1
-some websites:1
-an  independent  study:1
-most commercial Web sites:1
 sic:1
 geared:1
-children's privacy:1
-39:1
 published:1
-full:1
 attained:1
-needed.40:1
-a  report:1
-"[t]he  FTC's substantial,  ongoing,  commitment:1
-business  education:1
+substantial:1
+ongoing:1
+commitment:1
+education:1
 facilitated:1
 voluntary:1
-the  online  industry:1
-"4:1
-This conclusion:1
+industry:1
 reflective:1
-the FTC's flexible  enforcement standards:1
-The second inquiry:1
 raises:1
 issues:1
-their children's behavior:1
-Critics:1
 presumes:1
-their
-child's internet time:1
-the fact:1
-the  children's
-technology:1
 skills:1
 advanced:1
 respective:1
-parents.4 3:1
-
-Children's technological  savviness:1
-problematic:1
-the
-general enforcement:1
-an immediate work-around:1
+technological:1
+savviness:1
+immediate:1
+work-around:1
 avoid:1
-any age-control  limits:1
-Anita:1
-Minor  Distractions:1
-38:1
-HOUSTON L.  REV:1
+age-control:1
+limits:1
+houston:1
+rev:1
 751:1
-38  Allen:1
-
-39  Allen:1
-
-40  FED:1
-PROTECTING:1
-PRIVACY:1
-A  SURVEY:1
-1-2:1
- https://www.ftc.gov/sites/default/files/documents/rules/childre:1
-
-n%E2%80%99s-online-privacy-protection-rule-coppa/coppasurvey.pdf:1
+767:1
+767-68:1
+gov/sites/default/files/documents/rules/childre:1
+n%e:1
+s-online-privacy-protection-rule-coppa/coppasurvey:1
 41:1
-IMPLEMENTING:1
-PRIVACY  PROTECTION:1
-ACT:1
-A REPORT:1
-CONGRESS:1
-https://www.ftc.gov/sites/default/files/documents/rep:1
-
-orts:1
-implementing-childrens-online-privacy-protection:1
--act:1
--federal-trade-commission:1
--report-:1
-
-congress/07coppareportLto-congress.pdf:1
+implementing:1
+gov/sites/default/files/documents/rep:1
+orts/implementing-childrens-online-privacy-protection-act-federal-trade-commission-report-:1
+congress/07:1
+coppareportlto-congress:1
 42:1
-"[tihe  agency's  approach:1
+tihe:1
 applying:1
-the  flexible  standards:1
-new  online  services:1
-43:1
 833:1
-website  operator:1
-place.4:1
-claim:1
-the website.4:1
- Allen's third inquiry:1
-the willingness:1
-
-FTC  enforcement:1
-some FTC enforcement  actions:1
-a number:1
-developers:1
-third-party  service providers:1
-COPPA,46:1
-B]ecause:1
-no private rights:1
-
-enforcement:1
-the  sole  province:1
+4 5:1
+willingness:1
+ecause:1
+sole:1
+province:1
 understaffed:1
 overburdened:1
-"48:1
-this Comment:1
-standard:1
-rigid.4:1
-III:1
-How FACEBOOK:1
-CURRENTLY:1
-HANDLES:1
-The  criticisms:1
+48:1
+rigid:1
+4 9:1
 remain:1
 context:1
 ofsocialmediawebsites:1
 looking:1
-Inc.-in:1
-particular:1
-the  ease:1
+-in:1
+instagram-one:1
+ease:1
 evade:1
- COPPA's  mandates:1
 purport:1
-their sites:1
-the minimal actions:1
-these  sites:1
+minimal:1
 existence:1
 obsolete:1
-realm:1
 unlawfully:1
-children's  data:1
-Current Facebook, Inc. Practices:1
-popularity:1
- adults:1
-A Common Sense  Media census report:1
 dicated:1
-
-"parents:1
 56%:1
-youth:1
-social  media:1
- the  study:1
 showed:1
-Amy  Iverson:1
-Cracking:1
-Underage Users:1
-DESERET:1
-NEWS:1
-https://www.deseretnews.com/article/9000:1
-25957:1
 cracking:1
-users.html:1
-Commenting:1
-the  potential  harm:1
- a  child's  misrepresentation:1
-their  age:1
+deseret:1
+26 , 2018:1
+deseretnews:1
+com/article/9000:1
+25957/facebook-and-instagram-are-cracking-down-on-underage-users:1
+commenting:1
+harm:1
 prematurely:1
 exposing:1
 mature:1
- content:1
-Facebook  would  :1
-several  years:1
+21 several years:1
 meaning:1
- user:1
 alcohol:1
- gambling:1
- graphic  violence:1
-adult  users:1
+gambling:1
+graphic:1
+violence:1
 45:1
-7-8:1
-46:1
-Irwin:1
-Reyes:1
-Somebody:1
-Think:1
-the  Children:1
-Examining:1
-Scale:1
- 3  PROCEEDINGS:1
-ON  PRIVACY  ENHANCING  :1
-TECHS:1
+irwin:1
+reyes:1
+somebody:1
+scale:1
+proceedings:1
+enhancing:1
+techs:1
 47:1
-48:1
-49:1
+48 49:1
 infra:1
-Section  III:1
- C.:1
 50:1
 owned:1
-Are  the Facebook:1
-Products:1
 51:1
 834:1
-LAWREVIEW:1
-average:1
-the social media:1
-old.5:1
-Statistics:1
-the most popular social media  sites:1
+lawreview:1
 53:1
-the leading social media site:1
-2.27  billion:1
-active  users.5:1
-one billion active users:1
-the
-sixth largest social media site:1
- similar practices:1
-Each website:1
-separate terms:1
+leading:1
+27 billion:1
+5 4:1
+one billion:1
+sixth:1
 say:1
-similar things:1
-Both websites'
-terms:1
-least  thirteen  years  old:1
-5 9  :1
-This  restriction:1
-a  direct,  practical  effect:1
-STATISTA:1
-https://www.statista.com/statistics/250172/social-network-usage-of-us-:1
-Popular:1
-Networks:1
-the  United States:1
+things:1
+at least thirteen years old:1
+5 9:1
+practical:1
+com/statistics/250172/social-network-usage-of-us-:1
 52:1
-young:1
-adults/:1
-popular  social  media  site:1
-John:1
-Shinal:1
-Could:1
-Buy:1
-Years:1
-Ago:1
-Close:1
-Destroying:1
-the  Company:1
-July:1
-12, 2017:1
-1:40  PM:1
-https://www.cnbc.com/2017/07/1:1
-zuckerberg:1
-crush:1
+teens-and-young-adults/:1
+john:1
+shinal:1
+years ago:1
+close:1
+destroying:1
+july 12 , 2017:1
+1:40 pm:1
+com/2017/07/1:1
+2/how-mark-zuckerberg-has-used-instagram-to-crush-evan-spiegels-snap:1
 evan:1
-spiegels:1
-snap.html:1
-how  in  2013,  Snapchat  CEO  Evan:1
-Spiegel:1
+spiegel:1
 rejected:1
-buy:1
-billion:1
-popular:1
+$3 billion:1
 insiders:1
 speculate:1
-Inc's  ability:1
 mimic:1
-Snapchat's  functionality:1
+functionality-as:1
 done:1
-Instagram's  Story feature:1
+story:1
+feature-may:1
 impact:1
-Snapchat's  sustainability:1
-https://www.statista.com/statistics/272014/global-soci:1
-al-networks:1
-https://help.instagram.com/58106616558:1
-Kurt  Wagner:1
-Facebook's  $1  Billion  Instagram:1
+sustainability:1
+com/statistics/272014/global-soci:1
+al-networks-ranked-by-number-of-users/:1
+5 , 2019:1
+com/58106616558:1
+kurt:1
+wagner:1
 1870:1
-Acquisition:1
-a Great Deal:1
-RECODE:1
- https://www.recode.net/2017/4:1
-/9/15235940:1
 acquisition:1
-anniversary:1
-Instagram's  evident  success:1
+great:1
+2017:1
+net/2017/4:1
+/9/15235940/facebook-instagram-acquisition-anniversary:1
+success:1
 acquired:1
-$1  billion:1
 sent:1
-a  clear  message:1
- market  leaders:1
+message:1
+market:1
+leaders:1
 play:1
 big:1
 work:1
-second:1
-1,900  million  users:1
-1,500  million users:1
+900 million:1
+500 million:1
 fourth:1
- 1,300  million  users:1
-WeChat:1
+300 million:1
+wechat:1
 fifth:1
- 1,058
-million  users:1
-Facebook Messenger:1
-controls:1
-four:1
+058 million:1
 six:1
- social  media  websites:1
-Legal  Info:1
-WHATSAPP:1
-(August  25,  2016),  https://www.whatsapp.com/legal/:1
-family:1
+august:1
+25 , 2016:1
+com/legal/:1
 joined:1
-Facebook 
-companies:1
-a
-Facebook  Product:1
-part:1
-57  Data Policy:1
-https://www.facebook.com/about/privacy:1
-the  same Data  Policy:1
+product:1
+com/about/privacy:1
 58:1
 59:1
 835:1
-COPPA.6:1
-this  age  restriction:1
 explicated:1
-its  terms:1
-the
-user:1
 input:1
-her birth date:1
-the  age  requirement:1
-company:1
 liability:1
-an account.62:1
-This  effort:1
- often kids:1
-lie:1
-parental  consent:1
-The  reality:1
-age
-misrepresentation:1
+consent-to:1
+reality:1
 undermines:1
-the  suggestion:1
-a user's age:1
+suggestion:1
 accepting:1
-that user's response:1
- sufficient COPPA compliance:1
 challenged:1
-practice:1
 thereby:1
- simple  age  disclosure:1
+simple:1
 coupled:1
-a  minimum  age
-requirement:1
 foregone:1
-this fagade:1
-her age:1
-date:1
-Rachel:1
-Withers:1
-Going:1
-Share:1
-Your Personal Data:1
-SLATE:1
-https://slate.com/technology/2018/04/why-not-apply-the-childrens-online-:1
-privacy-protection-act-to-everyone.html:1
+fagade:1
+rachel:1
+withers:1
+going:1
+slate:1
+https://slate:1
+com/technology/2018/04/why-not-apply-the-childrens-online-:1
+privacy-protection-act-to-everyone:1
 easier:1
 pricey:1
 ban:1
-junior  users:1
+junior:1
 altogether:1
- verifiable  consent  options:1
-Instead,  many
-platforms:1
 wait:1
-the  ripe  old  age:1
-unsupervised  access:1
- mine:1
-their  personal  data  riches:1
-Larry:1
-Unintended:1
-Consequences:1
-FTC's
-New COPPA:1
-Children's Online Privacy Rules:1
-HUFFPOST:1
-Dec:1
-https://www.huffi:1
-ngtonpost.comlarry-magid/unintended-consequences:1
-o_I_b_1741703.html:1
-
-"discourage[d:1
- companies:1
- services:1
- people:1
- pre-
-teens:1
+unsupervised:1
+riches:1
+larry:1
+unintended:1
+consequences:1
+rules:1
+huffpost:1
+6 , 2017:1
+huffi:1
+ngtonpost:1
+comlarry-magid/unintended-consequences-o_i_b_1741703:1
+discourage:1
+pre-:1
 benefit:1
-(COPPA:1
 61:1
-Create a New Account:1
-https://en-gb.facebook.com/:1
-A  question:1
+https://en-gb:1
 arises:1
-the  enforceability:1
-a  contract:1
+enforceability:1
 circumvents:1
- conditions:1
 order:1
-her  account:1
-C.M.D.  v.  Facebook Inc.:1
 12-:1
 1216:1
-U.S.  Dist:1
-LEXIS:1
+dist:1
 41371:1
-aff'd C.M.D.:1
- LEXIS:1
+26 , 2014:1
+aff'd:1
+2015:1
 18939:1
-(9th  Cir:1
- the  plaintiffs:1
-class:1
+cir:1
+30 , 2015:1
 utilized:1
 bound:1
-the  consent
 clauses:1
-Facebook's  Statement  of Rights  and  Responsibilities:1
-"SRR:1
-SRR:1
-a  type:1
 legally:1
-Family:1
-Code:1
 6701:1
-The  court:1
-an  adult:1
- disaffirmance:1
-the  plaintiffs:1
 enumerated:1
- exceptions:1
-this  rule:1
 applied:1
-their  Facebook  sites:1
 preempted:1
-any
 argument:1
-disaffirmance:1
-the  court:1
-the
-SRR:1
 dismissed:1
-the  claim:1
 10-14:1
-Over  the  years:1
- many  parents:1
-their  kids:1
 get:1
 anyway:1
-Lie:1
-Join:1
-ATLANTIC:1
-https://www.theatlantic.com/technology/archive/2016/08/the-
-social-media:1
--invisibles/497729/:1
-"These  underage  users:1
-a  fake
-profile:1
+join:1
+atlantic:1
+30 , 2016:1
+theatlantic:1
+com/technology/archive/2016/08/the-:1
+social-media-invisibles/497729/:1
 awareness:1
 approval:1
-their  parents:1
 836:1
-Neither  COPPA:1
- an
-operator:1
-age  information:1
-prove:1
-the website:1
-age  verification:1
+neither:1
 prevents:1
-website.6:1
-when a website:1
-any age  infoumation:1
+6 5:1
 relies:1
 primarily:1
-its official age  restriction:1
-common sense infers:1
-the
-website:1
-adequate measures:1
+infers:1
 promulgates:1
-a "Guide for Parents:1
-its  website:1
-a collaborative  effort:1
-a third-party organization:1
-Connect:1
-Safely:1
-the  guide:1
+collaborative:1
 highlights:1
-the terms:1
-many younger children:1
-the service:1
-p arents'
+arents:1
 permission:1
-6 7   :1
-,  in  an  effort:1
-both
-Instagram:1
-formal procedures:1
-users.6:1
-Facebookhas:1
-This form:1
-a URL:1
-a
-person:1
-a  drop-down  measure:1
+6 8:1
+facebookhas:1
 choose:1
-7 0  :1
-a child's  account:1
 registered:1
-a  false
-date:1
-the child's age:1
 promptly:1
 confirmation:1
-this action:1
 longer:1
-this child's timeline:1
-Our ability:1
-https://www.instagram.com/accounts/emailsignup/?hl=en:1
-only  mobile  number  or  email:1
-full  name:1
-a password:1
-the  option:1
+com/accounts/emailsignup/:1
+hl:1
+mobile:1
+email:1
 chosen:1
 links:1
-the  accounts:1
-Rezwana:1
-Manjur:1
-
-Media Perils:1
-Age  Gating Adequate:1
-MARKETING-INTERACTIVE:1
-https://www.marketing-interactive.com/social-med  ia-perils:1
+rezwana:1
+manjur:1
+1 , 2016:1
+perils:1
+gating:1
+com/social-med:1
+ia-perils-is-s:1
 imply-:1
-age-gating-ad equatel:1
-CONNECT SAFELY:1
-https://www.connectsafely.org/wp-
-content/uploads:1
-Instagram.pdf:1
-Us:1
-CONNECT:1
-SAFELY:1
-Silicon  Valley:1
-Calif.-based:1
- nonprofit  organization:1
+age-gating-ad:1
+equatel:1
+org/wp-:1
+content/uploads/instagram:1
+silicon:1
+valley:1
+calif:1
+-based:1
+nonprofit:1
 dedicated:1
-ConnectSafely.org:1
+org:1
 educating:1
-technology:1
- safety:1
-https://www.connectsafely.org/about-us/:1
+org/about-us/:1
 67:1
-https://www.facebook.com/help/contact/209:1
+com/help/contact/209:1
 046679279097:1
-Underage  User:1
-
-
-https://help.instagram.com/contact/723586364339719?helpref-faqscontent:1
-drop-down menu  options:1
+com/contact/723586364339719:1
+helpref-faqscontent:1
+menu:1
+under 9 , 10 , 11:1
 13+:1
 837:1
-appropriate  action:1
-a report:1
 improves:1
-the completeness:1
-the report:1
-(ex:1
- URL:1
-the timeline:1
-the reported child's  age:1
-this case:1
-not the parent:1
-this child:1
+completeness:1
+ex:1
 strongly:1
 recommend:1
 encourage:1
-contact:1
-us:1
 personally:1
-this form:1
 detail:1
-the steps:1
-the reported user:1
-a  birthday change:1
+birthday:1
 suspended:1
 investigates:1
-underage
-accounts:1
+72:1
 73:1
-form:1
-underage  user:1
-the  year:1
- underage  user:1
- user's  relationship:1
-the  underage  user:1
-7 4  :1
-Instagram's  form:1
+the year:1
+relationship:1
 contains:1
-similar  language:1
-Facebook's  form:1
-the
-potential  inability:1
-thirteen.75:1
-its help page:1
-a
-notice:1
-i]f yourchild:1
-their
-account:1
-B. Facebook:1
-'sPublic:1
-the  lax way:1
-handles:1
- a  documentary:1
-an
-undercover reporter:1
-the United Kingdom's:1
-Channel:1
-Four:1
-the slack:1
- Facebook and Instagram's:1
-content reviewers:1
-such reports.7:1
-the undercover reporting:1
-reporter:1
+language:1
+inability:1
+75:1
+yourchild:1
+spublic:1
+lax:1
+channel:1
+slack:1
+7 7:1
 learned:1
 instructed:1
-71:1
-an Underage User:1
-74:1
-a  false  date:1
-the  child's  age:1
+under 71 72:1
+74 75:1
 'll:1
-child's  age:1
- action:1
 76:1
-Tips:1
-https://help.instagram.com/1:1
+com/1:1
 54475974694511:1
-/?helpre:1
-f:1
-hc_fnav&bc[0]=Instagram%20Help&bc[1:1
-]=Privacy%20and%2OSafety%2OCenter:1
-Josh  Constine:1
-Crack Down:1
-Underage
-Children:1
- TECH  CRUNCH:1
-https://techcrunch.com/2018/07/19/facebok-under-13/:1
+helpre:1
+f-hc_fnav&bc:1
+instagram%20:1
+help&bc:1
+privacy%20:1
+and%2:1
+osafety%2:1
+ocenter:1
+3 , 2019:1
+josh:1
+crunch:1
+https://techcrunch:1
+com/2018/07/19/facebok-under-13/:1
 838:1
-w]e:1
-an  admission:1
-
-underage:1
+w:1
+admission:1
 wejust:1
 pretend:1
-blind:1
 looks:1
-this  documentary:1
 issued:1
-a blog post:1
 instituted:1
-a formal operational
-change:1
-the reviewers:1
-the person:1
 proof:1
-their
-age:1
 7 9:1
-The blog post:1
-s]ince:1
-the program:1
-working:1
-update:1
-the guidance:1
-a hold:1
-any account:1
+ince:1
 encounter:1
-a strong indication:1
-the
-report:1
 something:1
-"o:1
-The  discovery  of  these  daily  practices:1
+discovery:1
 undermined:1
-official:1
 previously:1
-a
-statement:1
-April 29,20 10:1
-Timothy  Sp:1
+april 29:1
+20 10:1
+sp:1
 arapani:1
-Director:1
-Public Policy:1
-that time:1
 tactfully:1
 assured:1
-the
-public:1
-take[s:1
-[its] responsibilities:1
 enhance:1
-teen:1
-online  safety:1
-"Facebook:1
 built:1
-COPPA's requirements:1
 mind:1
-" 82  Despite  the
-verbal assumnces:1
-its responsibilities:1
-the  company's  culture:1
+verbal:1
+assumnces:1
+culture:1
 turning:1
-a  blind  eye:1
+eye:1
 nonetheless:1
-an institutionalized  pattern:1
+institutionalized:1
+pattern:1
 procedure:1
-FTC ENFORCEMENT OF  COPPA AGAINST FACEBOOK:1
-
-OTHERS:1
-Unfortunately:1
- Facebook Inc.:1
+others:1
+unfortunately:1
 pnivacy:1
-promises:1
 settled:1
-an FTC charge:1
-deceiv[ing:1
-that user's information:1
-
-consumers:1
+charge:1
+deceiv:1
+ing:1
 telling:1
 repeatedly:1
-[that information:1
-"83:1
- seveml:1
-78 
-79  Monika Bickert:1
-Working:1
-Safe:1
- https://
-
-newsroom.fb.com/news/2018/07/working-to-keep-facebook-safe/. 
-note:1
+seveml:1
+monika:1
+17 , 2018:1
+https://:1
+newsroom:1
+fb:1
+com/news/2018/07/working-to-keep-facebook-safe/:1
 77:1
-Constine:1
 80:1
 81:1
-Brad  Stone:1
-Facebook Gets:1
-New  Public Policy Director:1
-N.Y.:1
-TIMES:1
-Brrs:1
-2009:1
-6:39 PM:1
-https:/Ibits.blogs.nytimes.com/2009/03/24:1
+brad:1
+stone:1
 gets:1
-new-public-policy:1
--directo/.:1
-82:1
-An  Examination of Children's Privacy: New  Technologies and the Children's Online
-
-Privacy Protection Act:  Hearing Before  the Subcomm:1
-Consumer Prot:1
-, Prod:1
-Safety:1
-Comm:1
- Sci:1
-Transp., 111th  Cong:1
+brrs:1
+24 , 2009:1
+6:39 pm:1
+https:/ibits:1
+blogs:1
+com/2009/03/24/facebook-gets-new-public-policy:1
+directo/:1
+technologies:1
+subcomm:1
+prot:1
+prod:1
+comm:1
+sci:1
+transp:1
+111:1
 13-14:1
-(statement:1
-Timothy  Sparapani:1
- Director:1
-Public  Policy:1
-83:1
-Facebook Settles:1
-Charges:1
-Deceived:1
-Consumers:1
-Failing:1
-https://www.fic.gov/news-:1
-Privacy  Promises:1
-COMM'N 
-events/press:1
-releases/20:1
-11/11:1
+sparapani:1
 settles:1
 charges:1
--deceived-consumers:1
-failing-:1
-839
-
-standards:1
-Facebook,  :1
-Inc.  livedup:1
-its promises.8:1
-No  similar
-FTC enforcement  action:1
-Inc.  regarding
-its  deceptive  practices:1
+deceived:1
+29 , 2011:1
+gov/news-:1
+events/press-releases/20:1
+11/11:1
+/facebook-settles-ftc-charges-it-deceived-consumers-failing-:1
+839:1
+livedup:1
+8 4:1
 concerning:1
-The Enforcement:1
-Stronger:1
+stronger:1
 suggesting:1
-its
-continued effort:1
-the issue:1
-certain practices:1
-age  requirements:1
-its  current practices:1
+issue:1
 closely:1
 scrutinized:1
-the goals:1
 intentions:1
-to crack-down:1
-users,87:1
+crack-down:1
 result:1
 locked:1
 continuing:1
-
-review:1
+under-inclusive:1
 considers:1
- accounts:1
-those users:1
 flagged:1
 someway:1
-any  unreported  underage
-user:1
-his or her account.88:1
+unreported:1
 protocol:1
-significant  manpower:1
+manpower:1
 optimal:1
-the
-significant investment:1
-needed:1
- review content:1
-user profiles:1
-these manual reviewers:1
+investment:1
+manual:1
 flag:1
-each  underage
-user:1
-the sheer impossibility:1
-every user:1
+sheer:1
+impossibility:1
+every:1
 said:1
- improvements:1
+improvements:1
 keeps:1
-its  promise:1
-its  responsibility:1
+promise:1
+responsibility:1
 spearhead:1
-this effort:1
-that
-these  web sites:1
 target:1
 purportedly:1
 complied:1
-84:1
-85:1
-87:1
-88:1
-Phoebe:1
-Weston:1
- Facebook and Instagram to Crack Down:1
-Underage
-Users:1
-Social Networks  Pledge:1
-Lock:1
-Younger:1
-Users' Accounts:1
-PROVE:1
-an Official  Photo ID:1
-DAILY MAIL:1
-(Jul.  20,  2018),  https://www.dailymail.co.uk/sci
-encetech/article-5974347/Facebook-Instagram-pledge-lock-younger-users-accounts:1
-html:1
-any  reason:1
-the  moderator:1
-page:1
+84 85:1
+phoebe:1
+weston:1
+pledge:1
+lock:1
+20 , 2018:1
+dailymail:1
+co:1
+uk/sci:1
+encetech/article-5974347/facebook-instagram-pledge-lock-younger-users-accounts:1
+moderator:1
 employs:1
- 7,500  content:1
+500:1
 investing:1
 heavily:1
- new  technology:1
-Facebook 
-problematic  content:1
 840:1
-failing:1
-any
-enforcement  action:1
-this prohibition:1
-a sufficient means:1
-identify:1
-operators:1
+prohibition:1
+self-identify:1
 recognize:1
-
-COPPA's  regulations:1
-formal:1
+self-directed:1
 recognition:1
-underage
-users:1
-any  other website:1
 purporting:1
-that underage
-users:1
-its site.92:1
-Rather:1
-clearer:1
-stricter mandates:1
-COPPA requirements:1
+stricter:1
 starting:1
 acknowledge:1
- any
-operator:1
-
-personal  information:1
-the  requirements:1
 constitutes:1
-" 9 3   The  FTC:1
-the  agency:1
+9 3:1
 governance:1
- "an  operator:1
-a
-user's age:1
-receives:1
-the person's  age:1
-94  :1
-This  guideline:1
+for-and:1
+receives-information:1
+94:1
 restrictive:1
-Essentially,  this  guideline  purports:1
-affirmative steps:1
+essentially:1
+purports:1
+affirmative:1
+age-it:1
 ask:1
-This guideline:1
-other
 avenues:1
-this understanding:1
-United  States:1
-0448:1
-JCS:1
-WL:1
+13 0448 jcs , 2012:1
+wl:1
 7006381:1
-N.D.  Ca:1
-although:1
+31 , 2012:1
 intended:1
 91:1
 mandating:1
- any  operator:1
- actual  knowledge:1
- age  information:1
 abide:1
-the  regulations:1
 forth:1
-92:1
-Underage User:1
-an  Underage
-
-Child:1
-93 
-94:1
-Privacy Protection Rule:1
-Kids' Sites:1
-https://www.ftc.gov/tips-advice/business-center/guidance/childrens-:1
-protection:1
--kids:1
- the  user:1
-an  age:1
+93 94:1
+gov/tips-advice/business-center/guidance/childrens-:1
+online-privacy-protection-rule-not-just-kids-sites:1
 lower:1
-an  "age:1
 identifying:1
- question:1
-What  grade:1
-type:1
-
-school:1
-go:1
+grade:1
 95:1
 841:1
 otherwise:1
 activation:1
-identified:1
- thirteen  years:1
-old.96:1
-an account.97:1
-Black's Law Dictionary:1
-explicit "actual knowledge:1
-clear  knowledge:1
+self-identified:1
+97:1
+explicit:1
 distinguished:1
- constructive  knowledge:1
+constructive:1
 employer:1
-the accident:1
-the worker's injury:1
+accident:1
+worker:1
+injury:1
 98:1
-Black'sLaw:1
-Dictionary:1
-implicit actual knowledge:1
-a  reasonable  person:1
-9 9:1
-these
-definitions:1
-own  construction:1
-a
-minimum, Facebook,  Inc.:1
-
+black'slaw:1
+implicit:1
+construction:1
 applications:1
-the  degree:1
-a reasonable  person:1
 evidence:1
-this defmition:1
-Several 
-this  requisite
-understanding:1
-COPPA-:1
-
-mandated requirements:1
-good faith:1
-incidents:1
-the measures:1
-a
-form:1
-the  sites:1
+defmition:1
+requisite:1
+coppa-:1
+mandated:1
+good:1
+faith:1
 utilizing:1
-the restriction:1
-conditions.100:1
-system:1
 turned:1
 fonally:1
-their  fake
-birthdate:1
-their  real  birthdate:1
+real:1
 encountered:1
-https://www.facebook.com/r.php:1
-97 
-98:1
-Knowledge:1
-BLACK'S  LAw:1
-DICTIONARY:1
-llth  ed:1
-
-99  Id.:1
-100:1
-Underage User on  Instagram:1
-Terms of Service:1
-Alex  Roller:1
- IfI:1
-Signed:1
-Way:1
-Year:1
-ofBirth:1
-the Correct Year Now:1
-That I:1
-QUORA:1
-https://www.quora.com/If-1-signed-up-for-:1
-the-correct-:1
-year-now:1
--I:1
-Edit:1
-Basic  Info
-section:1
-some  other  relevant  condition:1
-the
-appropriate  section:1
-the  Help:1
- Center:1
+com/r:1
+97 98 knowledge:1
+llth:1
+99:1
+alex:1
+ifi:1
+ofbirth:1
+correct:1
+18 , 2013:1
+com/if-1-signed-up-for-:1
+facebook-when-i-was-underage-is-there-a-way-to-change-my-year-of-birth-to-the-correct-:1
+year-now-that-i-am-old-enough:1
+basic:1
+condition:1
+center:1
 explain:1
-the  situation:1
-your  birthdate:1
 842:1
- 50:827
-
-situation:1
-the reason:1
-the
-change:1
-the  reason:1
-the  wrong birth date:1
-a
 copy:1
-a photo ID:1
-verification:1
-Assuming:1
-even a fraction:1
+assuming:1
+fraction:1
 honest:1
-their responses:1
-Fac ebo:1
+responses:1
+fac:1
+ebo:1
 ok:1
-further information:1
 leadto:1
- a  significant
-amount:1
-Facebook accounts:1
-Even:1
+birthdate-change:1
 requesters:1
-valid:1
-ID:1
 shows:1
-a  clear  indicator:1
-current:1
-method:1
+indicator:1
 restricting:1
- Facebook, Inc.:1
 implemented:1
-operational  protocols:1
-the number:1
-their  access:1
-the
-sites:1
-its website:1
-representations:1
 pertaining:1
-this  fact:1
-stated:1
-the  service:1
 03:1
-the
-representations:1
 hard:1
-that Facebook:1
-its  web sites:1
 seems:1
-the  facts:1
-a bill:1
-the California  Consumer
-Privacy Act:1
-CCPA).1:1
-04:1
-The CCPA,  whichbecame:1
+1 04:1
+whichbecame:1
+january 1 , 2019:1
 operative:1
-California  consumers:1
-certain  rights:1
 enable:1
-the personal  infoumation:1
 distinguishes:1
- general  consumers:1
- consumers:1
-sixteen years:1
-10 6  :1
-Whereas:1
- general consumers:1
-the option:1
-certain data-sharing  practices:1
-"10:1
-The CCPA:1
+sixteen years old:1
+opt-out:1
 incorrect:1
- birthdate:1
-your  official:1
-Facebook  birthdate:1
-couple:1
-days:1
+a couple of days:1
 102:1
-Verify:1
-Identity:1
-a Facebook Account:1
-Wrong:1
-Date:1
-Birth:1
-Log:1
-Asks:1
-Send:1
-My  ID Card:1
-QuoRA:1
-https://www.quora:1
-my-identity:1
-a-Facebook-account:1
-the-wrong:1
--date:1
-of-:1
+identity:1
 log:1
 send:1
-my-ID-card:1
+card:1
+com/how-can-i-verify-my-identity-if-i-create-a-facebook-account-with-the-wrong-date-of-:1
+birth-when-i-log-in-it-asks-me-to-send-my-id-card:1
 103:1
 104:1
-Consumer Privacy  Act:1
-CAL:1
- CIV:1
-CODE:1
-1798.100-99:1
-West:1
+100-99:1
+west:1
 105:1
-Assem:1
-§ 2(i:1
-(Cal:1
+assem:1
 106:1
- 1798.120(c)-(d:1
 107:1
- 1798.120(a:1
-b)-(d:1
-Compared:1
+compared:1
 843:1
-this "opt:1
- option:1
-the business:1
-the consumer:1
-16 years of age:1
-."1os:1
-the  law:1
-the  term:1
- "a
-business:1
-the consumer's age:1
+less than 16 years of age:1
 shall:1
-the consumer's  age:1
-"'0:1
-the above:1
- Inc.'s current practices:1
-willful disregard:1
-its  policies:1
-underage Californian users:1
-its own information:1
- instances:1
-the  demographics:1
+willful:1
+californian:1
+instances:1
+demographics:1
 consumer-base:1
-an interest:1
-several independent  studies:1
 shown:1
-Facebook,  Inc.'s  websites:1
- independent  research  groups:1
+groups:1
 presumably:1
-less accessibility:1
-user data:1
-the  operator:1
+site-and:1
 unearth:1
-the  sake:1
- discussion:1
-if  for  some  reason:1
-independent  researchers:1
+sake:1
 additional:1
-Facebook consumers:1
 unavailable:1
-Faceb:1
-a  sincere interest:1
-these  findings:1
-disregard:1
-statistical  studies:1
+sincere:1
+findings:1
+statistical:1
 qualifying:1
-the degree:1
 proving:1
-some users:1
-thirteen years  old:1
-Nevertheless:1
-the CCPA mandates:1
-its current practices:1
-muster.1:1
-loose:1
+nevertheless:1
+muster:1
 implementation:1
 treats:1
 differently:1
-that a  consumer  between  the  ages:1
- "opt:1
- data-sharing  practices:1
-whereas:1
-the parents:1
-the  ones:1
+ages:1
+ones:1
 affirmatively:1
 authorize:1
-the  minor's  data:1
-1798.120(c:1
-mandate:1
- complies:1
-COPPA  regulation:1
+complies:1
 108:1
-§ 1798.120(c:1
 109:1
 110:1
 referencing:1
-20
-million:1
-those  users:1
-12.6 years:1
-e.g.:1
-CR:1
-7.5  Million:1
-Violating:1
-the  Site:1
-Terms,  CONSUMER  REP:1
-https://www.consumerreports.org/media-room/press-releases/2011/05/cr-survey-75-million-
-facebook-users:1
-the-age:1
-of-13:1
--terms-/:1
+20 million:1
+g:1
+cr:1
+rep:1
+10 , 2011:1
+consumerreports:1
+org/media-room/press-releases/2011/05/cr-survey-75-million-:1
+facebook-users-are-under-the-age-of-13-violating-the-sites-terms-/:1
 finding:1
 112:1
-all  businesses:1
-844:1
-LAW REVIEW:1
-the term:1
-Facebook,  Inc.  :1
-COPPA's mandates:1
+businesses:1
+844 se ton:1
 concernedly:1
 virtue:1
-the
-minor  users:1
 disseminating:1
 contradicts:1
-the initial  purpose:1
-Recent FTC Enforcement Actions:1
-Social Media Sites:1
-enforcement actions:1
-settlement  agreements:1
-the  social  media  sites:1
-its  subsidiary:1
-These  settlements:1
-the  largest  COPPA  settlements:1
-
-history:1
-$5.7  million:1
-These settlements:1
-useful:1
-a  similar action:1
-a  free  social network:1
-share videos:1
-The Department of Justice:1
-behalf:1
-a complaint:1
-February of 2019:1
+purpose:1
+7 million:1
+department:1
+justice:1
+february:1
 alleging:1
-violations:1
 determined:1
-under thirteen years  old:1
+under thirteen years old:1
 customers:1
-this  practice:1
-the
-1798.115(a:1
-the California:1
- law:1
- Data Policy:1
-Settle  FTC Allegations:1
-(Feb.:1
-27, 2019:1
- https://www.ftc.go
-v/news-events/press:1
-releases/2019/02:1
-/video-social-networking:1
-musically:1
--settle-:1
- Google:1
- Million:1
-Alleged Violations of:1
-Children's
-Privacy Law:1
-https://www.fic.gov/news-events/press-:1
-releases/2019/09/google-youtube-will-pay-record-  170-million-alleged-violations:1
-115:1
- FTC Allegations:1
-Million:1
-Alleged  Violations:1
-the  settlement:1
-New:1
-York:1
-Ultimate:1
-TikTok:1
-https://www.commonsensemedia.org/blog/parents-ultimate-guide-to-tiktok:1
-TIKTOK:1
-https://www.tiktok.com/en/:1
-Musical:1
-ly:1
-Permanent
-Injunction:1
-2:19:1
-cv-1439:1
-C.D.:1
-Feb.:1
-[hereinafter:1
-Musically  Complaint:1
+27 , 2019:1
+v/news-events/press-releases/2019/02/video-social-networking-app-musically-agrees-settle-:1
+gov/news-events/press-:1
+releases/2019/09/google-youtube-will-pay-record-:1
+170-million-alleged-violations:1
+$136 million:1
+$34 million:1
+ultimate:1
+27 , 2018:1
+org/blog/parents-ultimate-guide-to-tiktok:1
+com/en/:1
+2:19-cv-1439:1
+19:1
+hereinafter:1
 845:1
-Musical.ly  accounts:1
-numerous facts:1
 proved:1
-"numerous  press articles:1
-[that]
-highlight[ed:1
-the  popularity:1
-The  FTC:1
-Musical.1y:1
+between 2016 and 2018:1
 provided:1
-parents guidance:1
-their child's use:1
-the complaint:1
 thousands:1
-complaints:1
-their child:1
-their parents' consent.12:1
 reasoned:1
 apparent:1
 perusing:1
 pictures:1
- users'
-profiles:1
-old.1:1
- facts:1
 implicate:1
 citing:1
- press
-articles:1
-party:1
 analyses:1
 consideration:1
 implicates:1
-the  readily-
-available  statistics:1
- press  articles:1
- Facebook  Inc.'s
-popularity:1
-tweens.1:1
-the complaints:1
+readily-:1
 paralleled:1
-functionality.1:1
-this
-settlement:1
-users'  profiles:1
 appear:1
 changing:1
 auser'sbirthdate:1
 kicking:1
 pmve:1
-the phenomenon:1
+phenomenon:1
 occurring:1
-The  settlement:1
-useful insight:1
-Similar:1
 118:1
-MusicaLly:1
-Settle FTC:1
-119  Musical.ly  Complaint:1
-at6:1
-120:1
-121:1
-The  complaint:1
+120 121:1
 contacted:1
 forty-six:1
-its most popular
-users:1
- thirteen  years  old:1
 told:1
-edit:1
-a  parent:1
-adult:1
 talent:1
 description:1
 manager:1
 122:1
 123:1
-Michelle:1
-Meyers:1
-Became:1
-the  Social  Network:1
-Tweens:1
-https://www.cnet.com/news/how-instagram-became-the-social-:1
-tweens/:1
-Robyn  Gearey:1
-Tween  Tech:1
-Need:1
-Know:1
- Vine:1
-SCARY:1
-MOMMY:1
-https://www.scarymommy.com/tween-tech-what-:1
-vine/:1
+michelle:1
+meyers:1
+8 , 2012:1
+com/news/how-instagram-became-the-social-:1
+network-for-tweens/:1
+robyn:1
+gearey:1
+tween:1
+vine:1
+scary:1
+mommy:1
+scarymommy:1
+com/tween-tech-what-:1
+parents-need-to-know-about-instagram-and-vine/:1
 124:1
-User:1
 125:1
-Roller:1
 101:1
 846:1
-LAW  RE VIEW:1
- 50:827
-
-comment:1
 upload:1
-their own videos:1
-complaint:1
- many  of  its  channels:1
-this
-examination:1
+1 2 6:1
+channels:1
 viewed:1
-YouTube's  behavior:1
-its  totality:1
-COPPA's  mandates:1
+totality:1
 1 28:1
 marketed:1
-its  advertising  partners:1
-its own  content:1
 rating:1
- system:1
-an  option:1
-select  content:1
-child-directed
-content.1:1
-a company's interactions:1
+select:1
+child-directed:1
+1 29:1
 board:1
- its  business  partners:1
-Facebook Inc.'s:1
-protocols:1
-
-interactions:1
-Hopefully:1
-these  settlement  agreements:1
+hopefully:1
 pursue:1
- violators:1
-particularly
-Facebook Inc.:1
-Using:1
-these settlements:1
+violators:1
 becomes:1
-evident:1
-V. IMPLICATIONS:1
-INC.'S  DATA  PRACTICES:1
 enforced:1
-the functional  capability:1
-One
-main  goal:1
- website:1
-dissemination:1
- the  operators:1
-reasonable  steps:1
-
-websites:1
+functional:1
 orhave:1
-the  standard:1
 126:1
-Explained:1
- WEB  WISE:1
-https://www.webwise.ie/parents/what-is-:1
+explained:1
+wise:1
+webwise:1
+ie/parents/what-is-:1
 youtube/:1
-generally YouTUBE:1
-https://www.youtube.com/:1
-Million  for  :1
-Alleged:1
-Violations:1
 128:1
-Permanent  Injunction:1
 8-:1
-Google  LLC:1
-1:19:1
-cv-2642:1
-D.C.:1
-129 
-130:1
-847
-
-use:1
+llc:1
+1:19-cv-2642:1
+129 130:1
+847:1
 disseminate:1
 accordance:1
 aligns:1
-the  type:1
-Facebook  and Instagram  :1
-such  data:1
-these
-practices:1
-A.  Facebook, Inc. 's Current Data Policy
-
-Facebook:1
-a single Data Policy:1
+single:1
+1 32:1
 communications:1
-what type:1
 transactions:1
-the websites.1:1
-based:1
-the account
-holder's use:1
-the platform:1
-the websites:1
-the
+1 33:1
+platform:1
 computers:1
- phones:1
- other  devices:1
- the  Data  Policy:1
-location-related information:1
+phones:1
+devices:1
+location-related:1
 geo-tags:1
- information:1
-
-application developers:1
+application:1
 publishers:1
-the sites' social plug:1
-s.:1
-These partners:1
-the user's
-activities:1
+136:1
 visits:1
-the  advertisements:1
 13 7:1
-According:1
-the Data  Policy:1
-vast:1
+according:1
 array:1
-
-information:1
 formation:1
 personalize:1
 improve:1
-"  its  products:1
-3 
-Facebook:1
 combines:1
-each  user:1
-particular  user's  "connections:1
- preferences:1
+preferences:1
 interests:1
 132:1
-section:1
 encourages:1
 activity:1
-the  products:1
- different  actions:1
 visible:1
-other  users:1
-Id.  Facebook:1
 warns:1
-its  Data  Policy:1
- third-party  apps:1
- websites:1
- other  services:1
-those third  parties:1
-the  user's public  profile:1
+apps:1
 133:1
-This  information:1
 includes:1
 attributes:1
 operations:1
- identifiers:1
- device
+identifiers:1
 signals:1
-settings:1
-connections:1
- cookie
-data:1
-Id.
-135 
-
-Id.
-Id.
-Id.:1
-The  data:1
-137:1
- purchases:1
- store:1
+cookie:1
+135:1
+136 137:1
+purchases:1
+store:1
 138:1
 848:1
-WREVZEW:1
+wrevzew:1
 tailored:1
 experience:1
-user.13:1
-this tailoring:1
-Facebook, Inc.
-:1
+13 9:1
 analyzes:1
-the user profile:1
-the  compilation:1
-collected  data:1
- advertisements:1
+compilation:1
 prefer:1
- act:1
 marketable:1
-advertising companies:1
-their  products:1
-
-consumers.1:1
-states:1
-provide measurement:1
- analytics:1
-other business  services:1
-third -
-party business partners.1:1
+1 4:1
+analytics:1
+1 4 ':1
 essence:1
 helps:1
-
-other  partners:1
- measure:1
-the  effectiveness:1
- distribution:1
-their
-advertisements:1
-the types:1
-people:1
+distribution:1
+types:1
 interact:1
-their services.1:1
-the user data
-profile:1
-just  advertisers:1
-business
-partners:1
- Inc's analytic services:1
- measurement partners:1
-
-partners:1
+1 4 2:1
 goods:1
-Facebook  products:1
- vendors:1
-service providers:1
+vendors:1
 academics:1
-legal:1
- these sites:1
-a vast amount:1
-potentially:1
-a variety:1
+variety:1
 instructs:1
-their  data:1
 explains:1
-Facebook Inc.'s  sites:1
-the  ability:1
-their own data.1:1
+1 4 4:1
 examined:1
 revamped:1
-Instagram  users:1
-several  incidents:1
+april of 2018:1
 came:1
 notably:1
-139:1
-140:1
+139 140:1
 notes:1
-their  choices:1
-Instagram  Settings  pages:1
-Richard:1
- Nieva:1
-Twitter  Hearings:1
-Needs:1
-Bring:1
-A-Game:1
-https://www.cnet.com/news/at-facebook-and-twitter-hearings-congress-needs-to-brin:1
-g:1
-game/:1
+choices:1
+pages:1
+nieva:1
+twitter:1
+needs:1
+a-game:1
+31 , 2018:1
+com/news/at-facebook-and-twitter-hearings-congress-needs-to-brin:1
+g-its-a-game/:1
 asked:1
-a  senator:1
-hearing:1
+senator:1
 sustains:1
- model:1
-the  services:1
+model:1
 responded:1
-14 1  Data Policy:1
+14 1:1
 142:1
-I43  Id.:1
-144  Id.:1
-Laura  Hautala:1
- Facebook's New  Data Policy: Answers:1
-Privacy Questions:1
-8:32  AM:1
-https://www.cnet.com/news/facebook-data-policy-:1
-Fraley:1
+144:1
+laura:1
+21 , 2018:1
+8:32 am:1
+com/news/facebook-data-policy-:1
+fraley:1
 966:1
-your-privacy:1
-questions:1
-cambridge:1
--analytica/.:1
-F.  Supp:1
-2d:1
+answers-to-your-privacy-questions-cambridge-analytica/:1
+supp:1
 939:1
 940:1
-a  class  action  case:1
-150:1
+about 150 million:1
 sued:1
 misappropriating:1
-their names:1
 promote:1
- products:1
-Facebook's  "Sponsored  Stories:1
- program:1
-The
-to  the  class  members:1
 claims:1
-
-parties:1
-a  settlement:1
 gave:1
 849:1
-March 2018:1
- news:1
+march:1
 broke:1
-millions:1
-Facebookusers'  data:1
+facebookusers:1
 leaked:1
-a political  consulting firm:1
-Cambridge:1
-Analytic a.:1
-The
-public's  concern:1
+political:1
+consulting:1
+firm:1
 led:1
-its Data Policy:1
 exactly:1
-what  the  company:1
-B.  Bridging Facebook's Gaps:1
+1 4 1:1
+bridging:1
 brings:1
-its
-site:1
-what  information:1
-its  disclosure
-practices:1
-such  information:1
 communicates:1
-what data:1
+users-regardless:1
+age-what:1
 discloses:1
-14 9  :1
-a
-Facebookor Instagram account:1
-Iso  and  so,
-the parent:1
-Facebook user:1
-the collection:1
-their child's data:1
+14 9:1
+facebookor:1
 pursuant:1
-this
 respect:1
 addressed:1
-several  factors:1
 imperative:1
- Inc.'s practices:1
-regard:1
-parental review:1
- requirements:1
-Typically:1
-the parental consent:1
-parental  review:1
-
-mandates:1
+typically:1
 difficult:1
-this requirement:1
 make:1
-the  Statement:1
-Rights:1
-
-Responsibilities:1
-more  information:1
-their  names:1
 employed:1
-
-connection:1
-Sponsored  Stories:1
-Hautala:1
 147:1
-C.F.R.  §:1
-149  Data Policy:1
-The  first  three  headings:1
+149:1
+headings:1
 titled:1
-What
-kinds:1
-this  information:1
-this
-information:1
-iso:1
 clicking:1
-Sign:1
-our
-Terms:1
- INSTAGRAM:1
-our Terms:1
-§ 312.3(b:1
+sign:1
 152:1
-[o]btain  verifiable  parental  consent:1
-any  collection:1
-reasonable:1
-312.3(b)-(c:1
- one challenge:1
+btain:1
+challenge:1
 continues:1
 predicated:1
-the  idea:1
- an  adult  parent's  proficiency:1
- technology:1
+idea:1
+proficiency:1
 surpasses:1
- an  assumption:1
+assumption:1
 demonstrates:1
 unsustainable:1
 850:1
-its  development:1
-its app:1
-Kids.1:1
-Messenger Kids:1
+development:1
+1 54:1
 video-:1
 calling:1
 messaging:1
 developed:1
-
-kids:1
-parent-approved  contacts:1
-A  child:1
-Messenger
-:1
+parent-approved:1
+contacts:1
 activated:1
-the parent:1
 authenticating:1
-his or her child's
-device:1
-own Facebook  account:1
-the  child:1
-the  parent:1
- the  child:1
 communicating:1
-the  child's contact  list:1
-a "Parent Portal:1
-main:1
-the  Parent  Portal:1
-delete  their  child's
-information:1
-Like:1
- Inc.'s  main  Data  Policy:1
-Messenger  Kids's
-Privacy  :1
-the  kinds:1
-shared.15:1
-The main difference:1
-their  child:1
- Inc.'s Data Policy:1
-own  information:1
-share.16:1
-new procedures:1
-this functionality:1
-current users:1
-Instead:1
-the  accessibility:1
-their child's  account:1
+list:1
+15 9:1
+difference:1
+1 60:1
+16 1:1
 connecting:1
-https://messengerkids.com:1
-Caroline  Spiezio:1
- Senators Probe
-Facebook:1
-More Possible Privacy Violations:1
-Time:1
-Over  COPPA:1
-LAW.COM:1
-4:53  PM:1
-https://www.law.com/corpcounsel/2019/08/06/senators-probe-facebook-:1
-on-more-possible-privacy-violations:1
-coppa/?slretum=20191018130159:1
-Senators:1
+https://messengerkids:1
+caroline:1
+spiezio:1
+probe:1
+possible:1
+6 , 2019:1
+4:53:1
+pm:1
+com/corpcounsel/2019/08/06/senators-probe-facebook-:1
+on-more-possible-privacy-violations-this-time-over-coppa/:1
+slretum=20191018130159:1
 pushing:1
-more  transparency:1
+transparency:1
 flaw:1
 unauthorized:1
-adults:1
-
 violation:1
 155:1
-MESSENGERS:1
+messengers:1
 156:1
 linked:1
-separate:1
-Facebook  account:1
 157:1
 158:1
-Messenger Kids Privacy Policy:1
-https://www.facebook.comlegal/messe:1
-ngerkids:1
-privacypolicy:1
-Dec. 4:1
-160 
-161  Data Policy:1
+comlegal/messe:1
+ngerkids/privacypolicy:1
+4 , 2017:1
+160:1
+161:1
 port:1
-a  link:1
-Settings:1
-Instagram  Settings:1
-the  account  holder:1
-portal:1
+link:1
 159:1
-Id.
-Id.:1
 162:1
-2020]1:1
 851:1
-their child's Facebook account:1
-the  functionality:1
 exhibited:1
-its realm:1
 capabilities:1
-6 5:1
-Data
-Policy:1
-[p]romote  safety:1
-that the procedures:1
-formalized:1
-a look:1
+romote:1
 beyond:1
-Faceb ook:1
-
-Inc.'s Data Policy:1
-'6:1
 promulgate:1
-"Security  Tips:1
 inform:1
-proactive
-measures:1
-safeguard:1
-extra  security:1
+proactive:1
+extra:1
 features:1
-better safeguard:1
-their account.1:1
-useful  tips:1
+1 6 8:1
 puts:1
 onus:1
-dissemination  measures:1
 secure:1
- safe
-data practices:1
 following:1
-the reported Cambridge:1
-Analytica:1
 affected:1
-an estimated  87 million users'  data:1
-Amidst:1
-social  dismay:1
- an
-FTC  inquiry:1
- several  federal  hearings:1
-Facebook  founder:1
+an estimated 87 million:1
+amidst:1
+dismay:1
+founder:1
 publicly:1
 apologized:1
 sorry:1
 163:1
-Advocates:1
-Tell:1
-Facebook Is  Violating  :1
-Children's  Privacy Law:1
-CAMPAIGN:1
-COMMERCIAL:1
-FREE:1
-CHILDHOOD:1
-3, 2018:1
-http://www.commercialfreec:1
-hildhood.org/blog/advocates-tell-ftc-facebook-violating-childrenE2%80%99s-privacy-law:1
-the  Campaign:1
-Commercial:1
-Free:1
-Childhood:1
-a  complaint:1
-Kids  Facebook:1
-violated:1
-no
-FTC action  regarding  this  complaint:1
-C.F.R.  § 312.3(e:1
+advocates:1
+tell:1
+commercialfreec:1
+hildhood:1
+org/blog/advocates-tell-ftc-facebook-violating-childrene:1
+s-privacy-law:1
 165:1
 166:1
 167:1
 168:1
-Security  Tips:1
-https://www.facebook.com/help/379220725465972?ref=:1
+com/help/379220725465972:1
+ref=:1
 suggestions:1
-your  password:1
 logging:1
 away:1
-your  computer:1
+computer:1
 thinking:1
 click:1
 download:1
 anything:1
-Sam  Meredith:1
- Facebook-Cambridge Analytica:1
-A  Timeline:1
-the  Data Hyacking
-:1
-Scandal:1
-9:51:1
-https://www.cnbc.com/2018/04/10/facebook-:1
-cambridge-analytica-a-timeline-of-the-data-hijacking-scandal.html:1
+170:1
+sam:1
+meredith:1
+facebook-cambridge:1
+hyacking:1
+scandal:1
+9:51 am:1
+com/2018/04/10/facebook-:1
+cambridge-analytica-a-timeline-of-the-data-hijacking-scandal:1
 quoting:1
-advertisements:1
 originally:1
 appearing:1
-The  New  :1
-York  Times:1
-The
-Washington  Post:1
-The  Wall  Street  Journal:1
-United  Kingdom:1
-The  Observer:1
+wall:1
+street:1
+journal:1
+observer:1
 852:1
-SETONHALL:1
+setonhall:1
 stepsto:1
 happen:1
-"l:1
 responds:1
-this backlash:1
-more formalized  practices:1
+backlash:1
 representing:1
-the  integrity  and  security  of  the  personal  information:1
-that  it
-collects:1
 addressing:1
-
-collects:1
-its ability:1
-parental controls:1
-its  current
 reexamination:1
-its data practices:1
 proves:1
 officially:1
 fully:1
-Furthermore:1
-the  European
-Union's General Data Privacy Regulation:1
-(GDPR:1
-certain
-regulations:1
- children's  data:1
+furthermore:1
 17 4:1
-which  Facebook:1
-The GDPRrequiresthat:1
-any data:1
-parental  consent  or  authorization:1
+gdprrequiresthat:1
 betweenthirteenand:1
-its
-websites.17:1
+17 7:1
 unless:1
 locks:1
-all
-European accounts:1
 under sixteen:1
-an  effort:1
-the
-GDPR:1
-this mandate:1
-the mandates:1
-tailoring:1
-its practices:1
-the  GDPR:1
-no reason:1
+inclusive:1
 simultaneously:1
-the gaps:1
-its
-COPPA compliance:1
-the United  States:1
-an equivalent  law:1
-the
-books:1
-Europe's GDPR:1
-some federal legislative  action:1
-Times:1
-The  Mail  on  :1
-Mirror:1
-Sunday  Express:1
-Telegraph:1
+equivalent:1
+mirror:1
+express:1
+telegraph:1
 172:1
-European:1
-Parliament:1
-the  Council:1
-April  :1
-the  Protection:1
-Natural  Persons:1
-Regard:1
-Processing:1
-Personal:1
-the  Free  Movement:1
-Such  Data:1
-Repealing:1
-Directive 95/46/EC:1
-O.J.:1
-119:1
+parliament:1
+council:1
+27 april 2016:1
+natural:1
+persons:1
+movement:1
+repealing:1
+directive:1
+95/46/ec:1
 174:1
- process:1
-sixteen  years:1
-authorization:1
-GDPR:1
-processing:1
-personal  data:1
+under sixteen years old:1
 subjects:1
-the
-European  Union:1
-the  processing:1
+regardless:1
 processor:1
-the  European  Union:1
-Id:1
-the  second quarter:1
-385:1
-Facebook's Monthly  :1
-(MAU:1
-4th:1
-Quarter 2012 to 2nd Quarter 2019:1
-https://www.statista.com/sta:1
-tistics/745400:1
-europe:1
-quarter/:1
-process:1
-16  years:1
-
-authorization:1
+the second quarter of 2019:1
+about 385 million:1
+monthly:1
+quarter 2012:1
+nd:1
+quarter:1
+com/sta:1
+tistics/745400/facebook-europe-mau-by-quarter/:1
+under 16 years old:1
 177:1
-178:1
+178 16:1
 853:1
 match:1
-the GDPR's objectives:1
-no bills:1
-law,1:1
-recent proposals:1
-the American public:1
+bills:1
+1 79:1
 increasingly:1
 concerned:1
-data privacy:1
-May 2018:1
-a federal bill:1
-Do Not Track Kids
-Act  of  2018:1
-the  House:1
-Representatives:1
-t]o:1
-protections:1
+track:1
+house:1
+representatives:1
 relating:1
-the  online collection:1
-"180:1
-This  bill:1
 broadened:1
-much  more  stringent requirements:1
-
-use:1
-20 18:1
-two  senators:1
-act:1
-the  Consent  Act:1
+stringent:1
+april 20 18:1
+two:1
 18 2:1
-This proposed  law:1
-other sites:1
-
-"opt:1
-the  users'
-information:1
+proposed:1
 agreement:1
-Washington:1
-general American dataprivacy  law:1
-these  proposals:1
+dataprivacy:1
 died:1
-no indication:1
 soon:1
 184:1
-the
-COPPA definition:1
-its  practices:1
-these actions:1
-a
-clearer  expectation:1
-a new American
-privacy  law:1
-VI. CONCLUSION:1
-a  valid law:1
-the capability:1
-safe  data-
-sharing:1
-The loose  enforcement:1
+expectation:1
+data-:1
 evidenced:1
- Inc.'s handling:1
-ineffective:1
-The landscape:1
+handling:1
+landscape:1
 evolving:1
-a  moment:1
- internet:1
+moment:1
 particularized:1
-interest:1
-the  security:1
-active:1
-role:1
 demanding:1
-their information:1
 pertinent:1
 reevaluate:1
-how  Facebook:1
-the initiative:1
-i7:1
-David:1
-McCabe:1
-Trump:1
-Agreed:1
-a  National Privacy:1
-ItIs Nowhere:1
-Sight:1
-N.Y. TIMES:1
-https://www.nytimes.com/2019/10/:1
-1/technology/national-privacy:1
-law.html:1
-180:1
-H.R.  Res:1
+initiative:1
+david:1
+mccabe:1
+trump:1
+agreed:1
+national:1
+itis:1
+nowhere:1
+sight:1
+1 , 2019:1
+com/2019/10/:1
+0 1/technology/national-privacy-law:1
 5930:1
- 115th  Cong:1
 181:1
 182:1
-Richard  Lawler:1
- Senators:1
-Introduce:1
- Rights:1
-ENGADGET:1
-https://www.engadget.com/2018/04/10/senators-introduce-bill-:1
-a-privacy-bill:1
-rights/.:1
-183:1
-184  McCabe:1
+lawler:1
+introduce:1
+com/2018/04/10/senators-introduce-bill-:1
+creating-a-privacy-bill-of-rights/:1
+183 184 mccabe:1
 179:1
 854:1
-LA  WRE VIEW:1
+wre:1
 situated:1
 realize:1
- COPPA's  initial  goals:1
 empowering:1
-parental  control:1
-the  web:1
-the "actual  knowledge:1
 prong:1
-COPPA
-:1
-an  action:1
-the  years:1
 knowingly:1
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:9
-consent:5
-privacy:4
-Soc:1
-PRIVACY:1
+Privacy:46
+consent:16
+privacy policy:2
+Data breach:2
+SOC:1

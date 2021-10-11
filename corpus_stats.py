@@ -3,6 +3,7 @@ import os
 import pdfx
 import spacy
 import nltk
+import re
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 #nltk.download('stopwords')
@@ -30,12 +31,10 @@ def plot_graph(tokens,path,title):
     return freq
 def compute_stats(tokens, filename, output_file, gen_path): 
     # GRAPH OF WORD FREQUENCY
-    #freq = nltk.FreqDist(tokens) # NOW LOCATED INSIDE THE FUNCTION
     graph_path='output/'+gen_path+'/'+filename+'/Graph.png'
     os.makedirs(os.path.dirname(graph_path), exist_ok=True)
     freq = plot_graph(tokens,graph_path,filename)
-    
-    # TO DO: TOTAL NUMBER OF UTTERANCES (SENTENCES)
+
     print('Size of Lexicon:', len(freq), file=output_file)
 
     # ORDERING LEXICON BY FREQUENCY COUNT
@@ -48,7 +47,7 @@ def compute_stats(tokens, filename, output_file, gen_path):
         print(str(key) + ':' + str(val), file=output_file)
         for keyword in keywords:
             if (keyword.lower() == key.lower()):
-                keywords_present.append(str(key) + ':' + str(val))
+                keywords_present.append(str(keyword) + ':' + str(val))
 
     print("\nKeywords that appear in the file, alongside with their frequencies:", file=output_file)
     for keyword in keywords_present:
@@ -62,12 +61,63 @@ def string_search(document, index,keyword):
         counter += string_search(document,index,keyword)
     return counter
 
+def parser(corpus):
+    for token in corpus:
+        for keyword in keywords:
+            if(token.text == keyword):
+                print("NEW FOUND:\n",token.text, token.dep_)
+                for descendant in token.subtree:
+                    print(descendant.text, descendant.dep_,"\n")
+# reconstructs hyphen, slash and apostrophes
+def reconstruct_hyphenated_words(corpus):
+    i = 0
+    while i < len(corpus):
+        if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
+            #print("reconstruction 1:", corpus[i-1]," ->", corpus[i-1:i+2] )
+            with corpus.retokenize() as retokenizer:
+                retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word            
+        elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
+            #print("reconstruction 2:", corpus[i-1]," ->",corpus[i-1:i+1] )
+            with corpus.retokenize() as retokenizer:
+                retokenizer.merge(corpus[i-1:i+1])           
+        else: 
+            i += 1
+    return corpus
+
+# noun chunks that correspond to keywords
+def reconstruct_noun_chunks(corpus,keywords):
+    i = 0
+    while i < len(corpus):
+        counter = i
+        token = corpus[i].text
+        for keyword in keywords:
+            kw_lower = keyword.lower()
+            index = kw_lower.find(token)
+            aux = index
+            while (aux != -1 and counter < len(corpus)-1 and token != kw_lower):
+                counter += 1
+                token += ' '+corpus[counter].text
+                aux = kw_lower.find(token)
+                if(aux == -1):
+                    counter -=1
+                    token = corpus[i].text
+            if(i != counter):
+                if(token == kw_lower): #str(corpus[i:counter+1])
+                    #print("reconstruction", token) #str(corpus[i:counter+1]))
+                    with corpus.retokenize() as retokenizer:
+                        retokenizer.merge(corpus[i:counter+1])
+                    break 
+                else: 
+                    counter = i               
+        if(i == counter):
+            i += 1
+    return corpus
 
 def process_document(title, source_path,source,keywords):
+    
     # CREATING OUTPUT FILES
     stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
     keyword_guide_path = 'output/'+source_path+'/'+title+'/KeywordGuide.txt'
-    #print(stats_path)
     os.makedirs(os.path.dirname(stats_path), exist_ok=True)
     os.makedirs(os.path.dirname(keyword_guide_path), exist_ok=True)
     output_file = open(stats_path, 'w')
@@ -78,14 +128,18 @@ def process_document(title, source_path,source,keywords):
     path = 'data/'+source_path+'/'+title+'.pdf' #'data/'+file_input_path_general+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
-    #filename = source+title
+
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
-    input_file = input_file.replace('  ', ' ')
-    input_file = input_file.replace('\n', ' ')
-    input_file = input_file.replace('  ', ' ')
+
     input_file = input_file.lower()
 
+    input_file = re.sub(" +", " ", input_file)
+    input_file = re.sub("(\s+\-)", r" - ", input_file)
+    input_file = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", input_file)
+    input_file = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", input_file)
+    input_file = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", input_file)
+    
     with open(keyword_guide_path,'w') as keyword_guide_file:
         print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
         for keyword in keywords:
@@ -94,13 +148,16 @@ def process_document(title, source_path,source,keywords):
                 print(keyword+":"+str(kw_counter), file=keyword_guide_file)
 
     doc = nlp(input_file)
-    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
-    print(tokens)
-    
+    doc = reconstruct_hyphenated_words(doc)
+    doc = reconstruct_noun_chunks(doc,keywords)
+    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()] # token for parser, token.text for frequency test
+    #nlp.add_pipe("merge_noun_chunks") # NOT NEEDED WITH THE NEW LOGIC THAT PUTS TOKETHER KEYWORDS
+    #print(tokens)
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
-    compute_stats(tokens,title, output_file, source_path) #surce+title
+    compute_stats(tokens,title, output_file, source_path) #source+title
+    #parser(tokens)
 
     output_file.close()
 
@@ -112,14 +169,13 @@ def analyse_folder(source):
         else:
             file_name, file_extension = os.path.splitext(filename)
             process_document(file_name, source, keywords)
-
-
+    
 #####
 #  MAIN 
 #####
 
 nlp = spacy.load('en_core_web_sm')
-nlp.add_pipe("merge_noun_chunks")
+#nlp.add_pipe("merge_noun_chunks")
 nlp.add_pipe("merge_entities")
 
 # KEYWORDS 
@@ -151,10 +207,8 @@ elif(folder == 3):
 
 for filename in os.listdir('data/'+path):#'data/'+folder):
     print(filename)
-    #print("!"+source+"!")
     file_name, file_extension = os.path.splitext(filename)
     process_document(file_name, path, source, keywords)
-    #print(path, source, keywords)
 
 # IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
 #plt.savefig('output/JointGraph.png', bbox_inches='tight')
@@ -168,8 +222,8 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 
 # LEMMATIZATION, STEMMING - I THINK IT'S A GOOD IDEA BUT WE SHOULD CHECK THE KEYWORDS
 # EXPANDING ABBREVIATIONS?
-# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN
-# CURRENTLY EVALUATING WORDS INSIDE NOUN CHUNKS ONLY AS THE NOUN CHUNK SET, SO MAYBE WE ARE MISSING KEYWORDS INSIDE OF NOUN CHUNKS?
+# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN check
+# CURRENTLY EVALUATING WORDS INSIDE NOUN CHUNKS ONLY AS THE NOUN CHUNK SET, SO MAYBE WE ARE MISSING KEYWORDS INSIDE OF NOUN CHUNKS? now evaluating noun chunks separately
 
 # B - TEST WITH DIFFERENT FILES -> DONE, NOT MUCH HELP...
 
@@ -201,8 +255,8 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 # NUMBERS TO WORDS? REMOVE NUMBERS? probably not needed
 # EXPANDING ABBREVIATIONS? 
 # READING OUT DATES? probably not needed
-# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN!!!!
-# TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI?
+# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN!!!! check
+# TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI? find a debugger
 # AFTER ORGANIZING THIS ALL -> MOVE ON TO DEPENDENCY PARSING
 
 # I realized I should sent an email warning you whenever I update the output in the folders, from now on I will, and where to find the changes
@@ -215,7 +269,7 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 # Take a look at stats, come up with an opinion in new keywords --- do not follow this angle yet
 
 
-# To debug f5, import gc gc.collect() but I'm not yet satidfied with the results
+# To debug f5, import gc gc.collect() but I'm not yet satisfied with the results
 
 # BRAINSTORMING
 
@@ -224,11 +278,19 @@ for filename in os.listdir('data/'+path):#'data/'+folder):
 
 ### NEXT STEPS:
 
-# SEARCH STRING OF ALL TERMS
-# CLEANING
+# SEARCH STRING OF ALL TERMS check but search string misses some terms...
+# CLEANING check but cleaning misses some terms...
 # FILTERING
 # TOKENIZATION
 # TESTING WITH SPACY DEPENDENCY PARSER
 # DEPENDENCY PARSING
 # VERSION WITH LEMMATIZATION TOO
 
+# include plural forms! e.g. data breaches
+# NIST 's () --- how to deal
+
+#
+# Apostrophe held specifically in english
+
+#
+# NEXT STEP: TAKE CARE OF WEIRDLY TOGETHER CASES "5 3", "1 THIRD"

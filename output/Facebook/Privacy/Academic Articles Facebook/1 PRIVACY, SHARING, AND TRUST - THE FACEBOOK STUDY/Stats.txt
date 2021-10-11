@@ -3,1162 +3,1485 @@
 
 
 With stop word removal 
-Size of original corpus: 30034 
-Size of filtered corpus: 9897
-Size of Lexicon: 5283
+Size of original corpus: 24880 
+Size of filtered corpus: 11845
+Size of Lexicon: 3817
 
 Tokens that appear in the file, alongside with their frequencies:
-Facebook:143
-trust:103
-See:77
-2016:69
-us:69
+trust:266
+facebook:201
+privacy:176
+social:140
+information:129
+r:127
+sharing:109
+users:90
+friends:88
+see:88
+w:87
+share:75
+us:75
+data:73
+law:61
 1:61
-Privacy:61
-share:57
-note:46
-information:45
-’s:42
-67:39
-Trust:39
-sharing:38
-may:38
-users:35
- Sharing:33
-like:32
-social:31
-Issue:30
-2:30
-r:29
-Id.:27
- supra:27
-3:25
-■:24
-privacy:24
+p:59
+online:56
+personal:52
+supra:47
+note:47
+2:46
+like:45
+design:44
+67:43
+2016:43
+f:40
+people:40
+may:39
+particular:38
+case:34
+others:34
+estern:33
+issue:33
+general:33
+3:33
+ftc:33
+https://perma:30
+use:30
+platform:28
+volume:27
+g:26
+based:26
+posts:26
+networks:25
+relationship:25
+state:24
 protect:24
 know:24
 could:24
-W:23
-friends:23
-based:23
-data:23
+close:24
+respondents:24
+=:24
+propensity:23
+disclose:23
+■:23
 likely:23
+individuals:23
+network:23
+eview:22
 make:22
- Trust:22
+facebook’s:22
+user:22
+research:22
 would:22
-w:22
-=:22
 eserve:21
-online:20
-supra:20
-use:20
-Law:19
- trust:18
-others:18
+grimmelmann:21
+website:21
+platforms:21
+websites:21
+number:21
+two:20
+survey:20
+attorneys:20
+4:20
+news:20
+behavior:19
+asked:18
 used:18
-asked:17
-R:17
-Volume:16
-people:16
-design:16
- privacy:16
-Law  R eview:15
-P:15
-estern:15
+friend:18
+example:17
+advertisements:17
+content:17
+several:16
+5:16
+many:16
+last:16
+shared:16
+post:16
+article:15
+willingness:15
+new:15
+questions:15
+less:15
 including:15
-Grimmelmann:15
-example:15
-general:15
-shared:15
- share:14
-less:14
-disclose:14
-4:14
-2012:14
-among:14
+confidentiality:15
+among:15
+practices:15
+https://www:15
+b:14
+internet:14
+9:14
 encourage:14
-FTC:14
-respondents:14
-June:14
-last:14
-particular:13
- users:13
-well:13
-2015:13
+well:14
+strangers:14
+native:14
+mobile:14
+norms:14
+groupon:14
+significant:13
+way:13
+rivacy:13
+part:13
+even:13
+7:13
+6:13
+8:13
+associated:13
+consumers:13
 manuscript:13
+business:13
+web:13
+intimate:13
+active:13
 visited:13
-Sharing:12
-5:12
-associated:12
+stranger:13
+citron:12
+review:12
+advertising:12
+total:12
+2012:12
+reserve:12
+interaction:12
+third:12
 already:12
-13:12
-confidentiality:11
-see:11
-time:11
+role:12
+feed:12
+pdf:12
+first:12
+ways:12
+request:12
+time:12
+companies:12
+age:12
+http://www:12
+variables:12
+complaint:12
+consumer:11
+important:11
+much:11
+disclosure:11
+factors:11
+security:11
+trusted:11
+another:11
+generally:11
+similar:11
+size:11
+page:11
+gender:11
+using:10
 designed:10
+unfair:10
 helps:10
-f:10
- R:10
-even:10
+regulators:10
+step:10
+center:10
+hartzog:10
+john:10
+given:10
 whether:10
-W estern  R:10
-websites:10
-22:10
+acquisti:10
+tend:10
 explaining:10
-v.:10
+control:10
 included:10
-Groupon:10
+photos:10
+button:10
+level:10
+regression:10
+instagram:10
 suggesting:9
-two:9
-our  friends:9
-behavior:9
-personal:9
-2013:9
-user:9
-individuals:9
-2011:9
-Part:9
-tend:9
-trusted:9
-18:9
+federal:9
+technology:9
+university:9
+particularly:9
+decisions:9
+networking:9
+members:9
+science:9
+13:9
+link:9
+expectations:9
 n’t:9
-2014:9
-Brady:9
+making:9
+according:9
 accept:9
-generally:9
-close:9
+someone:9
+sexual:9
+deal:9
 made:9
 allow:9
-particular social trust:9
-Like:9
-stranger:9
-Sony:9
-the  platform:8
- others:8
+cues:9
+education:9
+sony:9
+times:8
+manipulate:8
+policy:8
+media:8
+scholars:8
+rev:8
 arguing:8
-much:8
-6:8
-Online:8
+higher:8
+2011:8
+https:8
+correlation:8
+ev:8
+perma:8
+15:8
 23:8
+recommendations:8
+2014:8
+brady:8
+model:8
+context:8
+notes:8
+action:8
 trusting:8
-someone:8
-attorneys:8
+best:8
 identify:8
-Citron:8
- Facebook:8
-.000:8
-the  trust:7
+community:8
+profile:8
+location:8
+good:8
+change:8
+section:8
+amazon:8
+acebook:8
+variable:8
+000:8
+frostwire:8
+study:7
+manipulation:7
 exists:7
-manipulate:7
-step:7
+interface:7
+york:7
+richards:7
+analysis:7
+regulatory:7
+responses:7
 shown:7
-John:7
+interactions:7
+studies:7
+james:7
+motivations:7
+risks:7
+loewenstein:7
 trustworthy:7
-using:7
-11:7
+literature:7
+party:7
+contexts:7
 suggests:7
-15:7
+real:7
+networked:7
+2015:7
+current:7
+18:7
+harris:7
 ie:7
 else:7
-Alice:7
+alice:7
+group:7
 never:7
+life:7
+strong:7
+understanding:7
+mutual:7
+confidence:7
 need:7
+parties:7
 found:7
-W estern:7
-important:7
+interests:7
+ttp:7
+www:7
+https://perm:7
+contextual:7
+proxies:7
+email:7
+second:7
+profiles:7
+greater:7
+nytimes:7
+laws:7
+family:7
 provide:7
-control:7
-Apr.:7
-many:7
-age:7
-g:6
-way:6
-the platform:6
+different:7
+sample:7
+names:7
+top:7
+apr:7
+orientation:7
+deceptive:7
+hill:7
+1 • 2016:6
+protection:6
 designs:6
+advertisers:6
 give:6
-A.:6
-Hartzog:6
+uses:6
+effects:6
+woodrow:6
+digital:6
 noted:6
-personal  information:6
-160:6
+sensitive:6
+sites:6
+essential:6
 builds:6
- sharing:6
+levels:6
 http://w:6
+answers:6
+feb:6
+11:6
+tactics:6
 12:6
-research:6
-Feed:6
- consumers:6
-e.g.:6
-Acquisti:6
- P:6
-o l:6
+play:6
+protecting:6
+45:6
+office:6
+specific:6
+certain:6
+cal:6
+comm’n:6
 ssu:6
-particularly:6
-according:6
 20:6
-21:6
-strangers:6
- personal  information:6
- information:6
-best:6
- Volume:6
+set:6
+support:6
+therefore:6
+22:6
+knowledge:6
+perhaps:6
+united:6
+states:6
+user’s:6
 around:6
-
-information:6
-consumers:6
-active:6
+rather:6
+common:6
+problem:6
+0:6
+transference:6
+right:6
+collection:6
+ase:6
+olum:6
+fact:6
+test:6
+account:6
 appear:6
-the  number:6
-the  relationship:6
- friends:6
-notes:6
-Article  :5
-platform:5
+likes:6
+company:6
+ads:6
+scale:6
+independent:6
+figure:6
+130:6
+evidence:5
+works:5
 create:5
 determine:5
-uses:5
-regulators:5
-P rivacy:5
-Center:5
-B.:5
-given:5
- data:5
+school:5
+danielle:5
+leslie:5
+disclosures:5
+background:5
+significance:5
 explain:5
-7:5
-website:5
+alessandro:5
+impact:5
+160:5
 designing:5
+2013:5
+experiences:5
+tools:5
 shows:5
-J.:5
-9:5
+'s:5
+matters:5
+/perma:5
 manipulating:5
-contexts:5
-play:5
-protecting:5
+statistically:5
+lawyers:5
+connection:5
 describing:5
+contacts:5
 build:5
-networking:5
-16:5
+things:5
+advertisement:5
+address:5
+since:5
+discretion:5
+david:5
 discussing:5
-Cal:5
-Comm’n:5
 true:5
+trusts:5
 individual:5
+public:5
+available:5
+development:5
+importance:5
+noting:5
 keep:5
 rely:5
-confidence:5
-essential:5
-stigmatizing:5
 26:5
-29:5
+doctors:5
+effective:5
+professional:5
+stigmatizing:5
 makes:5
-interests:5
+sense:5
 ew:5
+increase:5
+still:5
 lets:5
-our friends:5
-making:5
-intimate:5
-location:5
-ttp:5
+big:5
+pages:5
+although:5
+respect:5
+relationships:5
+known:5
+unknown:5
+find:5
 difficult:5
-mobile:5
-Amazon:5
+eser:5
+businesses:5
+turk:5
+population:5
+high:5
+june:5
+fb:5
+add:5
 tag:5
+june 22 , 2016:5
 day:5
-content:5
- gender:5
-the  propensity:5
+requests:5
+pictures:5
+tracking:5
+files:5
+large:5
+go:5
+amount:5
+videos:5
 controlling:5
-Regression:5
-network:5
-Figure:5
-state:5
-130:5
-DRM:5
-Complaint:5
-Case:4
+predictive:5
+coefficient:5
+trustworthiness:5
+text:5
+practice:5
+drm:5
+software:5
 presents:4
-personal information:4
-unfair:4
-manipulation:4
-Disclose:4
-Woodrow:4
-Richards:4
+safe:4
+neil:4
+transparency:4
+participants:4
+comments:4
+quantitative:4
+iii:4
+221:4
+steps:4
 means:4
-their data:4
-internet:4
-browsing:4
-Rev.:4
+settings:4
+third-party:4
+apps:4
+partners:4
+variety:4
+standards:4
+49:4
 argued:4
+human:4
 encourages:4
-its  platform:4
-its  users:4
+cue:4
 turn:4
- posts:4
-w w:4
-answers:4
+multiple:4
 10:4
-networks:4
+previous:4
+37:4
 creates:4
-Given:4
-Facebook’s:4
+strategy:4
 argues:4
-date:4
+results:4
 suggest:4
- individuals:4
+expectation:4
 157:4
+taking:4
 40:4
-14:4
+waldman:4
+69:4
+private:4
 together:4
-
-sharing:4
 mean:4
-expectations:4
-security:4
-Making:4
+16:4
+california:4
+attorney:4
+reasons:4
+subject:4
+risk:4
+institutional:4
+kamala:4
 ublic:4
-  R e:4
-platforms:4
+rust:4
 behave:4
-trusts:4
-therefore:4
+actions:4
+predictable:4
 includes:4
-available:4
-Mgmt:4
-noting:4
+th:4
+90:4
+google:4
+clear:4
+computers:4
+kirsten:4
+martin:4
+137:4
+mgmt:4
+economic:4
+35:4
+63:4
 1985:4
 familiar:4
-28:4
+privilege:4
 continue:4
-perhaps:4
-R e:4
+causes:4
+30:4
 willing:4
-a  series:4
+series:4
+bad:4
+44:4
+pewinternet:4
+faith:4
+code:4
 collect:4
-Reserve  Law  R eview:4
 within:4
-the  presence:4
-disclosure:4
-contextual:4
+concerns:4
+type:4
+presence:4
+possible:4
+decision:4
+51:4
 162:4
- proxies:4
-First:4
 must:4
 ever:4
 thus:4
+feeds:4
 course:4
-understanding:4
-Mar.:4
-strong:4
+spaces:4
+47:4
+http:4
+max:4
+line:4
+sources:4
 might:4
 refers:4
-2007:4
+furthermore:4
+america:4
+implicit:4
 discussed:4
-respect:4
-real:4
-Many:4
-N.Y.:4
-Feb.:4
+home:4
+firm:4
+96:4
+79:4
+imes:4
+html:4
 transfer:4
-group:4
+in-group:4
 identity:4
-interaction:4
-post:4
-family:4
-rather:4
-still:4
-L.  Rev.:4
+put:4
+62:4
+argument:4
+julie:4
 2004:4
-R eser ve:4
- V olum:4
-companies:4
+solove:4
+idea:4
+access:4
+consent:4
+cc/2:4
 detailing:4
+increases:4
 correlated:4
-Respondents:4
+mechanical:4
 collected:4
-sample:4
+complete:4
+average:4
 least:4
- F acebook:4
 without:4
-top:4
+join:4
+picture:4
+photo:4
+management:4
 drop:4
 person:4
 next:4
-add:4
 send:4
-Friends:4
-right:4
-likes:4
-first:4
+help:4
+tagging:4
+81:4
+comment:4
+collects:4
+88:4
+cookies:4
 none:4
-[https:4
-set:4
+computer:4
+click:4
+jcrew:4
+pieces:4
+categories:4
+race:4
+value:4
+correlations:4
 highly:4
-significant:4
- Sig:4
-close friends:4
-Coefficient:4
+degree:4
+dependent:4
+statistical:4
+table:4
 accepting:4
-predictive:4
-Instagram:4
+indicators:4
+e-commerce:4
+sponsored:4
 affecting:4
-Frostwire:4
-Hill:4
-the  Deal:4
-Using:3
+commerce:4
+copyright:4
+iv:3
+empirical:3
+factor:3
+in­:3
 explains:3
+legal:3
 nudge:3
-School:3
- Citron:3
-Internet:3
-Consumer:3
-221:3
+interact:3
+197:3
+200:3
+professor:3
+keats:3
+jonathan:3
+frankie:3
+frank:3
+conference:3
+feedback:3
+208:3
+report:3
+demographics:3
+exploits:3
 present:3
-Scholars:3
 concerned:3
+actively:3
+browsing:3
 order:3
+94:3
 1151:3
-2009:3
+george:3
+relative:3
+marketing:3
 172:3
-sensitive:3
- platforms:3
-looking:3
+nature:3
+western:3
+work:3
+overall:3
 improve:3
+tool:3
 routinely:3
+choice:3
 taken:3
-Based:3
-8:3
-37:3
-Information:3
-31:3
-https:3
+’s:3
+cc:3
+74:3
+knows:3
+one’s:3
+briefly:3
+literatures:3
+relevant:3
+sociology:3
+date:3
+underappreciated:3
 reports:3
-the  connection:3
-James  Grimmelmann:3
-contacts:3
-other things:3
-17:3
-L.  R ev:3
+adding:3
+going:3
+position:3
+161:3
+ech:3
+http://papers:3
+ssrn:3
+com/sol:3
+3/papers:3
+cfm:3
+https://:3
+q:3
 connecting:3
-69:3
-disclosures:3
+14:3
 advantage:3
-science:3
- user  privacy:3
-risks:3
+trade:3
+commission:3
 transparent:3
-their  privacy:3
 speaking:3
 say:3
-since:3
-R ev:3
- confidentiality:3
-J ustice:3
-Recommendations:3
- F ed:3
+association:3
+sys:3
+gen:3
+ustice:3
+developing:3
 talking:3
+persons:3
+accepted:3
 regarding:3
 hold:3
-a willingness:3
-Technology:3
-Acad:3
+spare:3
+keys:3
+112:3
+services:3
+approach:3
+organizational:3
+acad:3
 proposing:3
-the 
-importance:3
+andrew:3
+eds:3
+soc:3
 2001:3
-knowledge:3
- people:3
+personally:3
+reality:3
+basis:3
+neighbor:3
+privileges:3
+confidences:3
+positive:3
+25:3
+notion:3
 disclosing:3
-doctors:3
-27:3
+lovers:3
 tell:3
+28:3
+medical:3
+full:3
+doney:3
+influence:3
+heart:3
 feel:3
 allowing:3
-Action:3
+feelings:3
+integrity:3
+depression:3
+38:3
 2002:3
-a se  W e:3
-our propensity:3
-Loewenstein:3
+31:3
+shares:3
+infor­:3
+mation:3
+mechanism:3
+com­:3
+judgments:3
+32:3
+34:3
 respond:3
 told:3
-similar:3
-professional:3
-32:3
-increase:3
+emotional:3
 influenced:3
+effect:3
+links:3
+heuristics:3
 43:3
+policies:3
+implications:3
+lives:3
+prevailing:3
 effectively:3
 bigness:3
-times:3
-size:3
+largest:3
+place:3
 invite:3
- mutual  friends:3
-common:3
 liked:3
-its  size:3
 think:3
 ’re:3
-profile:3
-matters:3
-Google:3
-http:3
-profiles:3
-networked:3
+word:3
+merely:3
+rich:3
 appears:3
 seem:3
-line:3
+obvious:3
+explicit:3
 52:3
-Furthermore:3
-America:3
-Erving:3
-Goffman:3
-Life:3
+advice:3
+2007:3
+views:3
+erving:3
+goffman:3
+everyday:3
+history:3
+54:3
 often:3
-office:3
+55:3
+process:3
+113:3
 120:3
+plaintiffs:3
 prove:3
-greater:3
-Aug.:3
-recommendations:3
+mark:3
+matter:3
+cc/8:3
+success:3
+aug:3
+actors:3
 embedded:3
-put:3
-good:3
-the  FTC:3
-(Sept.:3
+60:3
+act:3
+effort:3
+sept:3
+91:3
+groups:3
+west:3
 recently:3
-taking:3
-
-trust:3
-clear:3
-known:3
+statute:3
+pro­:3
+petabytes:3
+oct:3
+every:3
+cohen:3
 119:3
-our 
-information:3
-practices:3
-web:3
+daniel:3
 leveraging:3
-apps:3
-access:3
-the website:3
+seeing:3
+68:3
 overlapping:3
-Businesses:3
-link:3
-increases:3
 exploiting:3
-active  users:3
-complete:3
-the  survey:3
-survey:3
-1000:3
+source:3
+various:3
+distribution:3
+methods:3
+running:3
 ensure:3
-FACEBOOK:3
-https://perm:3
+http://newsroom:3
 iew:3
 birth:3
 get:3
-education:3
-gender:3
 speak:3
-support:3
+political:3
+music:3
+76:3
+com/:3
+author:3
+list:3
 log:3
- button:3
-According:3
-81:3
-facebook:3
-causes:3
-button:3
-collects:3
+5 billion:3
+tracks:3
 hobbies:3
-88:3
-Design:3
-Notably:3
-Law  Review:3
+roesner:3
+kohno:3
+wetherall:3
+notably:3
 visit:3
-go:3
-the  amount:3
+92:3
 spend:3
+file:3
 start:3
-the survey:3
- education  level:3
+terabytes:3
+105:3
+selected:3
+ethnicity:3
 maintain:3
-Yes:3
-analysis:3
+reach:3
+audience:3
+items:3
 constituted:3
-respondent:3
-pictures:3
-fact:3
+question:3
+wider:3
 compared:3
-a  stranger:3
-test:3
-degree:3
-the relationship:3
+however:3
+103:3
+ct:3
+educated:3
+hypotheses:3
+partial:3
+income:3
 111:3
-total sharing:3
-total intimate sharing:3
-variable:3
-Table:3
+actually:3
+olume:3
 122:3
 indicates:3
+predictors:3
+piece:3
 158:3
-trustworthiness:3
-accompanying text:3
-Reserve:3
-cues:3
-0:3
+partic­:3
+offline:3
+accompanying:3
+114:3
+measures:3
 larger:3
- design:3
-join:3
+connections:3
+ones:3
 tells:3
-News:3
+default:3
+face-:3
+126:3
 posted:3
 look:3
- social  posts:3
-click:3
-help:3
-change:3
- companies:3
-practice:3
-commerce:3
-the FTC:3
-137:3
+thing:3
+commercial:3
+incentives:3
+acts:3
+authority:3
+manipulative:3
 139:3
 developed:3
+class:3
+hereinafter:3
 deceive:3
- Hill:3
+participating:3
 155:3
-business:3
- T r u:2
-T he:2
-t r:2
+guide:3
+ari:2
+ezra:2
+net­:2
 argue:2
 built:2
-interface:2
-Sometimes:2
-safe:2
-Federal:2
-c t:2
-I.:2
- Director:2
-New:2
-York:2
-the  author:2
+leverage:2
+sometimes:2
+dynamic:2
+environment:2
+knowing:2
+leverages:2
+pause:2
+194:2
+196:2
+associate:2
+director:2
+innovation:2
+columbia:2
+thanks:2
 presented:2
-University:2
- comments:2
-208:2
-The  Survey:2
-C.  Data  Report:2
+symposium:2
+future:2
+regulation:2
+205:2
+methodology:2
+213:2
 215:2
-Quantitative Data Analysis:2
-III:2
-Steps:2
-Forward:2
-State Attorneys:2
- General:2
-Online  social  networks:2
-seeking:2
+216:2
+forward:2
+225:2
+226:2
+230:2
+conclusion:2
+233:2
+increased:2
 ostensibly:2
 secure:2
- our  privacy:2
-the  information:2
-actively:2
+voracious:2
+appetite:2
 sweeps:2
-interactions:2
-Several  studies:2
+clicks:2
 suggested:2
-a variety:2
-rivacy:2
-94:2
+stuntzman:2
+gross:2
+silent:2
+saving:2
+2009:2
+pjeople’s:2
 comparative:2
-Facebook’s  design:2
-overall:2
+aesthetics:2
+nudges:2
 explained:2
-feedback:2
+looking:2
 enhance:2
+inspire:2
+engineers:2
 plays:2
-This  Article  :2
+options:2
+goal:2
+left:2
+gap:2
 motivates:2
-
-personal  information:2
-particular  social 
-trust:2
-those  individuals:2
-Alessandro:2
-Strangers:2
-Willingness:2
+primary:2
+divulge:2
 864:2
-Leon:2
-Security:2
-Dec.:2
-Answers:2
+leon:2
+affect:2
+symp:2
+usable:2
+brian:2
 keeping:2
-/perma.cc:2
+ash:2
+dec:2
 1156:2
- personal 
-information:2
-knows:2
-advertisements:2
- other  users:2
-the  content:2
+radiolab:2
 gain:2
+frequently:2
 clicking:2
-Regulators:2
-briefly:2
-relevant:2
+four:2
+per­:2
 protected:2
 describes:2
 growing:2
-literature:2
-adding:2
+tru:2
+st:2
 poking:2
-Evans:2
-161:2
-Stan:2
+wojdynski:2
+evans:2
+language:2
+finding:2
+stan:2
 forthcoming:2
-https://:2
-Personal:2
-private:2
-address:2
+world:2
+theoretical:2
+otherwise:2
+scientists:2
 summarize:2
 show:2
 bring:2
-Much:2
 either:2
 perceived:2
+17:2
+indeed:2
 examining:2
 participate:2
 changed:2
- general  social  trust:2
- most  people:2
+types:2
+belief:2
 careful:2
 dealing:2
-the trust:2
-this research:2
+newton:2
+zmerli:2
+three:2
+sc:2
+form:2
 considering:2
-the effects:2
- discretion:2
- transparency:2
 building:2
-Info:2
-Sys:2
- perceptions:2
+paul:2
+structures:2
+info:2
+perceptions:2
 ractices:2
-Developing:2
-Mobile:2
 3-4:2
+smartphones:2
+promises:2
 19:2
 learn:2
-This Article:2
-specific other people:2
+lot:2
 called:2
+capital:2
 concerning:2
-accepted:2
- norms:2
-keys:2
-risk:2
+21:2
+alcoholics:2
+anonymous:2
+vulnerability:2
 grease:2
+wheels:2
+activity:2
+niklas:2
+luhmann:2
+statement:2
+offer:2
+controls:2
 simply:2
-Understanding:2
-Development:2
+contract:2
+bus:2
 551:2
-Kirsten:2
-Martin:2
-Business:2
-rust:2
-Embeddedness:2
-35:2
-Sociology:2
-171:2
+integrative:2
+michael:2
+determinants:2
+usiness:2
+embeddedness:2
 relates:2
-personally:2
-63:2
-the basis:2
+everyone:2
 ower:2
 stated:2
-certain:2
-interact:2
-Woodrow Hartzog:2
-discreet:2
-
-discretion:2
-expect:2
-sexual:2
-doctor:2
-patient:2
-full:2
-necessary:2
 24:2
-Waldman:2
+core:2
+doctrines:2
+basic:2
+assumption:2
+recipient:2
+discreet:2
+27:2
+richards’s:2
+hartzog’s:2
+expect:2
+attorney-client:2
+spousal:2
+necessary:2
+culture:2
 decide:2
-25:2
-deal:2
+alcott:2
+arsons:2
 heory:2
+condition:2
 1978:2
-feelings:2
-integrity:2
+competence:2
+plus:2
 giving:2
-depression:2
+successful:2
 discussion:2
-particular  social  trust:2
 605:2
-38:2
+contracts:2
+love:2
 lack:2
-sense:2
 thinking:2
-shares:2
 perceive:2
+33:2
 required:2
 admit:2
 engaged:2
-a  link:2
-30:2
-United  States:2
-U.S.:2
+admissions:2
+36:2
 thereby:2
 promote:2
-law:2
-44:2
-Mary  Madden:2
-33:2
+broader:2
+modern:2
+marriage:2
+mary:2
+madden:2
 165:2
-34:2
-73:2
-Lorrie:2
-a website:2
-the user:2
-other  words:2
- disclosure:2
-a privacy policy:2
+lorrie:2
+cranor:2
+words:2
+privacy policy:2
 correlate:2
-influence:2
-context:2
-subject:2
-Another:2
-possible:2
-establishes:2
-Websites:2
-274:2
-2008:2
-Web:2
-2003:2
- Loewenstein:2
+39:2
+website’s:2
 41:2
-their information:2
+42:2
+admission:2
+establishes:2
+274:2
+2003:2
+ing:2
+details:2
 assess:2
-proxies:2
- size:2
-Rather:2
- other  people:2
+201:2
+simple:2
+lots:2
+millions:2
 wrong:2
-predictable:2
+massive:2
 anything:2
-going:2
-Step:2
-a request:2
+member:2
 added:2
-our  network:2
-the 
-number:2
-a  post:2
- pages:2
-Although:2
-several:2
+46:2
+faces:2
+perception:2
+safety:2
 short:2
-decisions:2
- Id.:2
-merely:2
-47:2
- Danielle  Keats:2
- interactions:2
- “friends:2
-the  development:2
-variety:2
+players:2
+anonymity:2
+48:2
+weber:2
+closest:2
+50:2
+conversation:2
 kept:2
- a  friend:2
+subtler:2
+crowd:2
 ask:2
-49:2
-views:2
-Protestant:2
-H.:2
+protestant:2
+membership:2
+defined:2
 concrete:2
-51:2
-112:2
 analyzing:2
-Law  Review • Volume:2
-home:2
-explicit:2
-implicit:2
+1 ■ 2016:2
+53:2
+long:2
 indicia:2
-prevailing:2
 encouraging:2
 namely:2
-their  degrees:2
+degrees:2
 transferring:2
-the 
-trust:2
-113:2
+school’s:2
+reputation:2
+56:2
+estate:2
+57:2
+58:2
+today:2
 duty:2
-relationship:2
-290:2
+idaho:2
 bank:2
-breach:2
-Social:2
+290:2
+exchange:2
+requires:2
+regularly:2
+credit:2
 95:2
-96:2
-55:2
-79:2
-T imes:2
-the  importance:2
+firms:2
+https:/:2
+x:2
 elaborate:2
+locations:2
+project:2
+offices:2
+s://:2
+204:2
 59:2
-Mark:2
-Granovetter:2
-60:2
+granovetter:2
 61:2
-the  heart:2
-Therefore:2
-
-privacy:2
-laws:2
-California:2
-Privacy  Protection  Act:2
-62:2
-Find:2
-Right:2
-91:2
+cases:2
+individual’s:2
+view:2
+collecting:2
+identifiable:2
+structure:2
 relations:2
-Group:2
 385:2
-West:2
-Delaware:2
+delaware:2
+ann:2
 tecting:2
 require:2
 honest:2
 meet:2
- laws:2
-petabytes:2
-our  data:2
-the  hands:2
-F ed:2
-effective:2
-the  United  States:2
-Big:2
-different  ways:2
-2000:2
+64:2
+invasions:2
+substantive:2
+65:2
+hands:2
+66:2
+government:2
+path:2
+versus:2
+informal:2
+petabyte:2
+pretty:2
+academic:2
 relying:2
-collection:2
+infrastructure:2
 happen:2
-90:2
-ase:2
-seeing:2
-the  fact:2
+regime:2
 sharers:2
-re­:2
+direction:2
 notifications:2
 obtain:2
- consent:2
- social  norms:2
-a link:2
+express:2
+point:2
+product:2
 far:2
 70:2
-different:2
- interests:2
+single:2
 understood:2
 omm’n:2
 rotecting:2
+ra:2
+apid:2
+olicymakers:2
 release:2
- test:2
 asking:2
-Section:2
+71:2
+trust-sharing:2
+popular:2
 monthly:2
 daily:2
-million:2
-Mechanical  Turk:2
-Turk:2
+72:2
+tasks:2
+surveys:2
+workers:2
+researchers:2
+random:2
+demographic:2
 roughly:2
-Research:2
-800:2
+comparable:2
+crowdsourcing:2
+appropriate:2
 2010:2
-Turkers:2
+turkers:2
+paid:2
 resulting:2
 $:2
+approval:2
 rating:2
 completed:2
 relatively:2
-high:2
+experience:2
 meant:2
-company:2
-our  names:2
- genders:2
-members:2
+accurate:2
+newsroom:2
+com/company-info/:2
+hand:2
+worth:2
+73:2
+genders:2
 started:2
 sits:2
+select:2
+recent:2
+trip:2
 something:2
+image:2
 75:2
+employment:2
+past:2
+meeting:2
 religious:2
+status:2
+events:2
+teams:2
+restaurants:2
 77:2
+messages:2
+poke:2
 upon:2
-account:2
-https://www.facebook.com/:2
-back:2
-stage:2
+phone:2
+summary:2
 scratch:2
-How  Tagging  Works:2
-https://www.facebook.com/about/:2
-tagging:2
-eview:2
+com/about/:2
+cc/c:2
 ssue:2
-1  •  :2
-
-comments:2
-those  posts:2
+78:2
+farmville:2
+timeline:2
+80:2
+timelines:2
 stories:2
-Twitter:2
+82:2
+twitter:2
+reactions:2
+83:2
 white:2
-approximately:2
-Cohen:2
-obvious:2
+blue:2
+84:2
+flirting:2
+back:2
 hard:2
+colors:2
+cc/6:2
+85:2
 engaging:2
-management:2
 showing:2
-second:2
-tracking:2
-the web:2
-cookies:2
-Cart:2
-
-Jonathan  Frankie:2
-Georgetown:2
-Data  Policy:2
-the data:2
-Times:2
-nytimes.com:2
-page:2
+reasonably:2
+kinds:2
+87:2
+voluntarily:2
+cookie:2
+plush:2
+judy:2
+hopps:2
+zootopia:2
+cart:2
+usenix:2
+staff:2
+technologist:2
+georgetown:2
+cc/d:2
+june 23 , 2016:2
+tagged:2
+consider:2
+site:2
+house:2
+clinton:2
+storage:2
 onto:2
 track:2
 follow:2
+buttons:2
+93:2
 clicked:2
-a post:2
- Technology:2
-file:2
-Tom  Simonite:2
- M IT:2
-c h:2
- Facebook’s:2
-JCrew:2
-our  networks:2
+hat’s:2
+june 21 , 2016:2
+developers:2
+tom:2
+simonite:2
+technologyreview:2
 yet:2
+97:2
 along:2
-tracks:2
-history:2
- respondents:2
-ethnicity:2
-pieces:2
-every:2
+partner:2
+98:2
+corporate:2
+brokers:2
+targeted:2
+99:2
+slate:2
 spent:2
-selected:2
-The  questions:2
+funny:2
 column:2
 aggregated:2
+yes:2
 considered:2
-Generally:2
- strangers:2
-question:2
-no trust:2
+100:2
+standard:2
+likert:2
 potential:2
-The  information:2
+respondent’s:2
+respondent:2
+college:2
+preferences:2
 sought:2
 protects:2
 knew:2
 elicit:2
-a  “friend  request:2
+admittedly:2
 proxy:2
-the  data:2
+entire:2
+629:2
 287:2
+female:2
 differs:2
-however:2
+101:2
 women:2
+102:2
 slightly:2
-Ct:2
-Oct.:2
-103:2
- Res:2
-Ctr:2
-educated:2
+hampton:2
+ctr:2
 85%:2
- sites:2
-The  Article’s:2
-The  data:2
- other  variables:2
+104:2
+article’s:2
+106:2
+statista:2
+bivariate:2
 predicted:2
 analyze:2
 serve:2
-the 
-relationship:2
-variables:2
 include:2
 obtained:2
+annual:2
 107:2
 108:2
 109:2
 confirms:2
-a relationship:2
 110:2
- the  relationship:2
 ordinal:2
 reported:2
-
-education level:2
-number:2
 indicating:2
-statistical significance:2
-tool:2
-the  value:2
- relationship:2
+multicollinearity:2
 violated:2
-actually:2
-Constant:2
-the number:2
-V olume  67  •  Issue:2
-a  “friend 
-request:2
-These 
-factors:2
+football:2
+player:2
+std:2
+error:2
+constant:2
+184:2
+n=629:2
+specifically:2
+similarly:2
+focus:2
+ular:2
 expecting:2
-although:2
-unknown:2
-another:2
-cue:2
+3%:2
+res­:2
+entities:2
+participation:2
+mitigating:2
 inside:2
-share  information:2
- social  networks:2
-114:2
+power:2
+115:2
 terms:2
-statistically:2
-personal 
-information:2
+117:2
+weak:2
+notable:2
+predictor:2
+elements:2
 holds:2
 able:2
-e-commerce websites:2
+118:2
+affinity:2
 121:2
-find:2
-community:2
-connections:2
+reciprocal:2
+123:2
 124:2
 immediately:2
 visible:2
+algorithm:2
 125:2
+cc/z:2
 updates:2
-July:2
-Face- 
 book:2
 stepped:2
-the top:2
 connected:2
+127:2
+publishers:2
 limit:2
-third  parties:2
+naked:2
+128:2
 better:2
-126:2
+backstrom:2
+fyi:2
 miss:2
 <:2
 seen:2
@@ -1166,4654 +1489,2346 @@ notify:2
 mentioned:2
 reads:2
 applied:2
-p:2
-native  advertisements:2
-Adidas:2
-an  advertisement:2
-text:2
-the  difference:2
+expensive:2
+adidas:2
+written:2
+difference:2
 endorsement:2
+deceitful:2
 coercive:2
-the  incentives:2
+enforcement:2
+129:2
+131:2
+brill:2
 underlying:2
-everyday:2
+132:2
 placing:2
-its  News  :2
-native  advertising:2
-the  interface:2
-L.J.:2
-olum:2
+133:2
+134:2
+application:2
+articles:2
+headline:2
+berkeley:2
+opening:2
+notification:2
 ^:2
-neighbor:2
-trust  cues:2
-the  role:2
-U.S.C.:2
+property:2
+135:2
+competition:2
 hereby:2
-The FTC:2
 prevent:2
 136:2
+endorsements:2
 138:2
-manipulative:2
+bmg:2
+rights:2
+140:2
 remove:2
+141:2
 automatically:2
-Solove:2
-Fraley:2
-F.T.C.:2
-WL:2
+sony’s:2
+company’s:2
+fraley:2
+wl:2
+term:2
+owners:2
 distributed:2
 575:2
- advertisements:2
+goods:2
+142:2
+ftc’s:2
 misled:2
 143:2
- Frostwire:2
-peer:2
-software:2
 144:2
 145:2
 146:2
 147:2
-fake  websites:2
-AOL:2
+fake:2
+aol:2
+148:2
 149:2
-the use:2
-S.D.:2
-Tex:2
+permanent:2
+injunction:2
+equitable:2
+relief:2
+13-14:2
+tex:2
 03-5537:2
+gov/:2
+sites/default/files/documents/cases/2004/03/040322:2
+cmp:2
+0323102:2
+cc/eq:2
+54-cbms:2
+false:2
+hill’s:2
+150:2
+151:2
 coerce:2
-state  attorneys:2
+152:2
+legislation:2
+153:2
+committees:2
 stating:2
-statute:2
+person’s:2
 154:2
-Deal:2
-participating:2
 provided:2
 156:2
-Platform  Policy:2
+instagram’s:2
+setting:2
 purchased:2
+159:2
+4 , 2016:2
 creating:2
+litigation:2
+weapon:2
+ag:2
+task:2
+forces:2
+agreements:2
 issued:2
 guides:2
 163:2
-native advertisements:2
-164:2
-state attorneys:2
-Go:2
+guidance:2
+ecosystem:2
+app:2
 t’y:2
-Gen.:2
-Dep’t:2
-estern  R:1
-iv:1
-Sh:1
-a r:1
-F acebo:1
+dep’t:2
+misuse:2
+sh:1
+acebo:1
 ok:1
-Study:1
-Ari Ezra:1
-Waldmav:1
-A b:1
-a c t:1
-a  case  study:1
-empirical  evidence:1
-a  significant  factor:1
-in­
-dividuals’ willingness:1
-online social net­
-works:1
+waldmav:1
+dividuals:1
 arguments:1
-why  Facebook:1
 calls:1
- legal  protection:1
 describe:1
- leverage:1
-a  dynamic  social 
-environment:1
-knowing:1
- interact:1
-Other  times:1
- Facebook  leverages  trust:1
- advertisers:1
-pause:1
-trust-based  design:1
+trust-based:1
 confused:1
-the  privacy  effects:1
-their  behavior:1
- state 
-consumer and  privacy protection:1
-194:1
-196:1
- Trust?:1
-197:1
-B.  Particular Social  :1
-the  Propensity  :1
-200:1
-Associate:1
-Professor:1
-Innovation  Center:1
-
-Technology:1
-Law  School:1
-Affiliate  Scholar:1
-Princeton  University:1
-Information Technology Policy:1
- Ph.D.:1
- Columbia University:1
- J.D.:1
-Harvard:1
-Special  thanks:1
-Peter  Bearman:1
-Debbie:1
-Becher:1
-Robert  Blecker:1
-Richard:1
-Chused:1
-Danielle  Keats:1
-Greg:1
-Eirich:1
-Gil:1
-Eyal:1
-Joshua  Fairfield:1
-Jonathan  Frankie:1
-Jeffrey:1
-Goldfarb:1
-Leslie John:1
-Melanie Kim:1
- Frank Pasquale:1
-Rebecca Reinhardt:1
-Neil 
-:1
-Matthew:1
- Sag:1
-part:1
+affiliate:1
+scholar:1
+princeton:1
+ph:1
+harvard:1
+special:1
+bearman:1
+debbie:1
+becher:1
+robert:1
+blecker:1
+richard:1
+chused:1
+greg:1
+eirich:1
+gil:1
+eyal:1
+joshua:1
+fairfield:1
+jeffrey:1
+goldfarb:1
+melanie:1
+pasquale:1
+rebecca:1
+reinhardt:1
+matthew:1
+sag:1
 chapter:1
+author’s:1
 doctoral:1
 dissertation:1
-Columbia  University:1
-A  version:1
-this 
-Article  :1
-Works:1
-Progress:1
-Conference:1
- Society  Conference:1
-Minneapolis:1
-Minnesota:1
-Toronto:1
-Faculty:1
-Law  Symposium:1
-“The 
-Future of Online Privacy Regulation:1
-the Loyola University Chicago 
-:1
-Law  Review  symposium:1
-Advertising  in:1
-Digital 
-Media:1
-Disclosures:1
-Transparency:1
-Social  Media:1
-Thank:1
-all 
-conference  participants:1
-their  questions:1
-
-important 
-feedback:1
-All errors:1
+version:1
+works-in-progress:1
+society:1
+minneapolis:1
+minnesota:1
+toronto:1
+faculty:1
+loyola:1
+chicago:1
+thank:1
+errors:1
 forgive:1
-193
-
-Case:1
-C.  Trust:1
-205:1
-R esearch  Design:1
-Methodology:1
- Data:1
-213:1
-Background  Demographics:1
-216:1
-Significance:1
-Findings:1
-How Facebook Exploits Trust:1
-225:1
-Design,:1
-226:1
-Federal Regulatory  Responses:1
-227:1
-230:1
-Conclusion:1
-233:1
-a  privacy  puzzle:1
+193:1
+esearch:1
+215 1:1
+findings:1
+227 3:1
+puzzle:1
 between 2005 and 2011:1
-both total sharing:1
-increased.1:1
-Facebook  users:1
-much  personal  information:1
+privacy-seeking:1
 changing:1
-their privacy settings:1
 seems:1
- counterintuitive:1
-more.2:1
-particularly  jarring  contradiction:1
- Facebook’s  voracious 
-appetite:1
+counterintuitive:1
+jarring:1
+contradiction:1
 sated:1
-our  clicks:1
- third-party  apps:1
-our 
-its  partners:1
-
-advertisers:1
-their disclosure decisions:1
- factors:1
- disclosed,3:1
-Fred  Stuntzman:1
-Ralph:1
-Gross:1
-Alessandro  Acquisti:1
-Silent  Listeners:1
-The 
-Evolution  of  Privacy  and  Disclosure:1
-J.  P:1
-Confidentiality:1
+disclosed:1
+fred:1
+ralph:1
+listeners:1
+evolution:1
 8-9:1
-Professor James Grimmelmann:1
-the same mystery:1
+mystery:1
 seven years ago:1
-
-James Grimmelmann:1
- Saving Facebook:1
-Iowa:1
-L.  :1
+iowa:1
 1137:1
- social  motivations:1
 regardless:1
-its privacy risks:1
-Alessandro Acquisti:1
-Leslie K.  :1
-George  Loewenstein:1
-Impact:1
-Relative Standards:1
-the Propensity:1
-49 J.  MARKETING  Res:1
-(“[PJeople’s  decisions:1
-nature:1
-194
-
-Case:1
-Western  Reserve  Law  Review:1
-questions,4:1
-aesthetics,5:1
-motivations,6:1
-James  :1
- social 
-networking  sites:1
 executing:1
- essential  human  social 
 needs:1
-nudges:1
-disclose.7:1
-This  Article 
-:1
-this  work:1
- cue  trust:1
-its 
-members:1
-A  spokesperson:1
+spokesperson:1
 service:1
-experiences.8:1
-an inherently social 
-tool:1
- foster:1
+inherently:1
+foster:1
 expand:1
-interaction.9:1
 tinkers:1
-its  user  interface:1
-inspire:1
-Its  committee:1
-Engineers:1
- wording:1
- multiple  choice  options:1
-
-questions:1
-other tools:1
+committee:1
+wording:1
 honestly:1
-report:1
-down.10:1
-an  important  goal:1
 aware:1
 linked:1
 begins:1
-left:1
+seeking:1
 fill:1
-a gap:1
-the legal and social science literature:1
- manipulation:1
- previous  studies:1
-'s:1
-primary  empirical  research:1
-Facebook 
-users:1
-this  Article:1
- sociologists:1
+sociologists:1
 call:1
-Higher:1
-levels:1
-higher  levels:1
-Leslie  K.  :1
-Aequisti  &  George  Loewenstein:1
-a 
-Plane:1
-Context-Dependent:1
-Divulge:1
-Sensitive  Information:1
+aequisti:1
+plane:1
+context-dependent:1
 858:1
-Pedro:1
-Giovanni:1
-Matters:1
-Users:1
-Factors:1
-Affect 
-Users:1
-Share:1
-Advertisers:1
- Symp:1
-Usable  P rivacy:1
-Brian Fung:1
-Wants:1
-Know:1
-Keeping:1
-ash:1
+pedro:1
+giovanni:1
+fung:1
+wants:1
 ost:1
-washingtonpost.com/blogs/the-switch/wp/2013/12/31/facebook-wants-to-:1
-/F9WN:1
-E74S:1
-The  Trust  Engineers:1
-RadioLab:1
-(Feb.:1
-09:1
-8:01  PM:1
-
-radiolab.org/story/trust-engineers/:1
-[https://perma.cc/NPZ5-BSRY:1
-195
-
-Case:1
-Law  Review  ■  Volume:1
-a  higher  propensity:1
- benefit:1
-Among:1
-many  other  tactics:1
- Facebook  prefaces:1
-both  social 
-posts:1
-native:1
-how one:1
+31 , 2013:1
+washingtonpost:1
+com/blogs/the-switch/wp/2013/12/31/facebook-wants-to-:1
+know-if-you-trust-it-but-its-keeping-all-the-answers-to-itself:1
+/f:1
+wn-e:1
+09 , 2015:1
+8:01 pm:1
+org/story/trust-engineers/:1
+cc/npz:1
+5-bsry:1
+195:1
+benefit:1
+prefaces:1
 interacted:1
-the circumstances:1
-social interaction:1
-exploits:1
+circumstances:1
 families:1
 financial:1
- third  party 
-advertisers:1
-how  frequently users:1
 confuse:1
-native 
-advertisements:1
- other  content:1
-strategy:1
-leverage:1
-those  advertisements:1
-us  pause:1
 proceeds:1
- four  parts:1
+parts:1
 summarizes:1
-the 
-two  literatures:1
-this  study:1
- users’  propensity:1
-share  per­
-sonal  information:1
-the  sociology:1
+sonal:1
 played:1
-an  underappreciated  role:1
-our  under­:1
+under­:1
 standing:1
 defines:1
-the  methodology:1
-the 
-research:1
-results:1
-the  statistically 
-significant correlation:1
-the willingness:1
-The 
-results:1
-sensitive 
-information:1
-the expectation:1
-their privacy:1
-IV:1
 reflected:1
-Facebook’s  News  :1
- privacy  lawyers:1
-a  role:1
-
-manipulation:1
-tru st:1
-Several  scholars:1
 1155:1
-Facebook’s features:1
-other users:1
+features:1
 mechanisms:1
-the online platform:1
-Bartosz:1
-W.:1
-Wojdynski:1
-Nathaniel:1
-Going:1
-Native:1
-Effects:1
-Disclosure:1
-Position:1
-Language:1
-Recognition:1
-
-Evaluation:1
-Online Native Advertising:1
-45 J.  Advertising:1
-(finding:1
-242  subjects:1
+bartosz:1
+nathaniel:1
+recognition:1
+evaluation:1
+only 17:1
+242:1
+subjects:1
 distinguish:1
-a native advertisement:1
-a real  news story:1
-e.g.,  Neil:1
-Taking:1
-Seriously:1
-
-Privacy  Law:1
- T ech:1
+story:1
+seriously:1
 37-:1
-http://papers.ssrn.com/sol3/papers.cfm?abstract_jd=2655719:1
-perma.cc/P724-5W5Q:1
- Ari  Ezra 
-Waldman:1
-Networked:1
-World:1
-U.:1
-Miami  L.  R ev:1
+abstract_jd=2655719:1
+cc/p:1
+724-5:1
+miami:1
 559:1
 560:1
-
-contexts:1
-196
-
-Case:1
 conducted:1
-theoretical:1
- em­
-pirical studies:1
-our motivations:1
+em­:1
+pirical:1
 brings:1
-otherwise  isolated  literatures:1
+isolated:1
 provides:1
-quantitative  evidence:1
-an  important  factor:1
- users’  decisions:1
-The  Article  :1
-this  link:1
-the  current  state:1
-scientists:1
 hypothesize:1
-its 
-connection:1
-individuals’  propensity:1
-the 
-current social science literature:1
-other 
-people:1
-an underappreciated force:1
-that research:1
- legal  literatures:1
+force:1
 tease:1
-the 
-theoretical relationship:1
-work:1
-15  sharing:1
 focuses:1
- trust16:1
-how  the  per­
 ception:1
- a  website:1
-can 
 assuage:1
-Indeed:1
-the  California  Attorney:1
-Federal  Trade  Commission:1
-
-General’s office:1
+general’s:1
 recommend:1
- online platforms:1
-data practices:1
-inspire  consumer  trust:1
-the  social  reasons:1
- Stuntzman:1
-Gross  &  Acquisti:1
 documenting:1
 peoples:1
- willingness:1
- two  types:1
-the  social  science  literature:1
-Briefly:1
-the  belief:1
-most  people:1
-question—“Generally:1
-people?”—has:1
-the General Social Survey:1
+question—“generally:1
 1972:1
-Ken:1
-Newton  &  Sonja  Zmerli:1
-Three:1
-Forms:1
-Their  Association:1
-Eur:1
-Pol:1
-Sc i.:1
+ken:1
+sonja:1
+forms:1
+eur:1
+pol:1
 169:1
 177:1
- Particular social trust:1
-specific  other  people:1
 170-72:1
-This  last  form:1
-the 
-subject:1
 37-44:1
-certain  factors:1
- honesty:1
-social  networking platforms:1
-e.g., David Gefen & Paul A.  Pavlou:1
-The Boundaries of Trust:1
-Risk:1
-The  Quadratic:1
-Moderating:1
-Role:1
-Institutional  Structures:1
+honesty:1
+gefen:1
+pavlou:1
+boundaries:1
+quadratic:1
+moderating:1
 940:1
-the  impact:1
-
-security:1
-consumer practices:1
-Kamala D.  Harris:1
-t ’y Gen.:1
-De p’t:1
-Meaningful  P rivacy  P:1
+p’t:1
+meaningful:1
 olicy:1
-P rivacy  Disclosures:1
- B:1
 uilding:1
-T rust:1
 hrough:1
-T ransparency:1
-Protecting:1
-Mobile  Privacy:1
-Your Smartphones:1
-Tablets:1
-Cell:1
-Phones:1
-Your  Privacy:1
-Hearing:1
-the  Subcomm:1
-197
-
-C:1
+ransparency:1
+tablets:1
+cell:1
+phones:1
+hearing:1
+subcomm:1
 fulfill:1
-their  data  privacy:1
-promises:1
- safeguard  customer  data:1
-what bases:1
-these websites:1
+safeguard:1
+customer:1
+bases:1
 contends:1
-a  lot:1
- online  social networks:1
-The trust:1
- particular social 
-trust:1
-a  resource:1
- social  capital:1
-more 
-persons:1
-the  expectations:1
-the  “favourable  expectation:1
-other 
-people’s  actions:1
+resource:1
+favourable:1
+people’s:1
 intentions:1
-the belief:1
-a  predictable  manner:1
+manner:1
 asks:1
-her 
-spare set:1
 break:1
 steal:1
 speaks:1
-relative:1
-a  support 
-group:1
-Alcoholics:1
-Anonymous:1
-divulge:1
-her  secrets:1
-vulnerability:1
+secrets:1
 toward:1
-the wheels:1
-social activity:1
-my social life:1
 paralyzed:1
-Niklas Luhmann:1
-the  S.  Comm:1
-the  Judiciary:1
- 112th  Cong:1
-90 
-:1
-(statement:1
-Alan  Davidson:1
-Public  Policy:1
- Google  Inc.:1
+comm:1
+judiciary:1
+cong:1
+alan:1
+davidson:1
+inc:1
 fail:1
-offer:1
-clear, usable privacy controls:1
-our privacy 
-practices:1
- strong  security:1
-our  users:1
 switch:1
-another 
 provider:1
-our services:1
-mobile devices:1
-desktop computers:1
-e.g.,  Kirsten Martin:1
- Online:1
-a 
-Social  Contract Approach:1
-137 J.  Bus:1
-E thics:1
-http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2598963:1
-perma.cc/9CK6-QTKU:1
-online privacy:1
-a social contract 
-approach:1
-Roger  C.  Mayer:1
- James H.  Davis:1
-F.:1
-David 
-Schoorman:1
-Integrative:1
-Model:1
-Organizational  Trust:1
+devices:1
+desktop:1
+thics:1
+abstract_id=2598963:1
+cc/9:1
+ck:1
+6-qtku:1
+roger:1
+mayer:1
+davis:1
+schoorman:1
 709:1
 1995:1
-a dyadic  model:1
+dyadic:1
 studying:1
-an organizational context:1
- Michael Pirson:1
-Bidhan L.  Parmar:1
-Public:1
-Its 
-Determinants:1
-B usiness:1
+pirson:1
+bidhan:1
+parmar:1
 116-53:1
-Jared D.:1
-Harris:1
-Brian T.  Moriarty:1
-Andrew  C.  Wicks eds:1
-the business context:1
-Alejandro  Portes:1
-Julia  Sensenbrenner:1
-Immigration:1
-Notes:1
-the Social:1
-Determinants:1
-Economic Action:1
-98 Am:1
-J.  Soc:1
-1320:1
-1332:1
+jared:1
+moriarty:1
+wicks:1
+alejandro:1
+portes:1
+julia:1
+sensenbrenner:1
+immigration:1
+98 am:1
+1320 , 1332:1
 1993:1
-Guido:1
-Mollering:1
-The  Nature:1
-Georg:1
- Simmel:1
-Theory:1
-
-Expectation:1
-Interpretation:1
- Suspension:1
+guido:1
+mollering:1
+georg:1
+simmel:1
+theory:1
+interpretation:1
+suspension:1
 403:1
 404:1
-Newton:1
- Zmerli:1
- particular 
-trust:1
+171:1
 opposed:1
-general trust:1
-everyone:1
-David:1
-Lewis:1
-Andrew:1
-Weigert:1
-Social  Reality:1
-Soc:1
-F:1
+lewis:1
+weigert:1
 orces:1
 967:1
 968:1
-Niklas  Luhmann:1
 1979:1
 presenting:1
-a 
-
-“necessity:1
-proper social conduct:1
-198
-
-Case:1
-ends.23:1
-the  mutual 
-“faithfulness:1
-all  social  interaction:1
-depends.24:1
-my  neighbor:1
+necessity:1
+proper:1
+conduct:1
+198:1
+ends:1
+faithfulness:1
+depends:1
 abuse:1
- her  key  privileges:1
-my  fellow  support  group  members:1
-my  confidences:1
+key:1
+fellow:1
 allows:1
 earn:1
 sorts:1
-positive:1
 rewards:1
-result.25:1
-Lawyers:1
- particular  social  trust:1
-core:1
-the  general  notion:1
-the  more 
-specific doctrines:1
-privilege.26:1
-Neil  Richards:1
-“perhaps  the  most  basic  assumption:1
- lovers:1
- ISPs:1
-the recipient:1
+result:1
+isps:1
 reveal:1
-our health and mental state:1
-lovers:1
+health:1
+mental:1
 kiss:1
- Hartzog:1
 formulation:1
-the  expectation:1
-
-individuals:1
-accepted  social norms:1
- doctors:1
-our  medical  confidences:1
-our  lovers:1
 conforms:1
 presiding:1
-
-norms:1
-These expectations:1
 justify:1
-privilege doctrines:1
-Mutual trust:1
-attorney-client:1
-spousal:1
-privileges26:1
- such  norms:1
+doctor-patient:1
 kind:1
-
-frank  disclosure:1
-effective  counsel:1
-supportive  care:1
+counsel:1
+supportive:1
 33-34:1
-Patricia  M.  Doney:1
-Joseph  P.  Cannon  &  :1
-Michael  R. 
-:1
-Mullen:1
+patricia:1
+joseph:1
+cannon:1
+mullen:1
 601:1
 603:1
 1998:1
-knowledge-based tru st:1
-Influence:1
-National  Culture:1
+knowledge-based:1
+national:1
 602:1
-[Trust  :1
 inter­:1
-action:1
-the heart:1
-our privacy:1
 invaded:1
 uncertainty:1
 complexity:1
-the recommendations:1
-T alcott P arsons:1
-Human:1
-Condition:1
 45-47:1
-the 
-professional  context:1
- competence:1
-Plus:1
 therapeutic:1
-all  individuals:1
- alcoholics:1
 suffering:1
-the confidence:1
-e.g.,  Aaron 
-T.  Beck:1
-Brad A.:1
-Alford:1
-Depression:1
- Causes:1
+aaron:1
+beck:1
+brad:1
+alford:1
 reatment:1
 292-:1
 324:1
-(2d ed:1
-a patient:1
+patient:1
 therapist:1
 integral:1
-successful treatment:1
--depth:1
-the social benefits:1
- Waldman:1
-Richards &:1
+treatment:1
+in-depth:1
+benefits:1
 37-41:1
-R ichard  A.  Lord:1
-23  W illiston:1
-Contracts:1
+29:1
+ichard:1
+lord:1
+illiston:1
 62:12:1
-(4th ed:1
-199
-
-C:1
-love.30:1
- several  studies:1
+199:1
 deeply:1
-one  website:1
- third 
-parties.31:1
-Perhaps:1
- this  concern:1
+concern:1
 stems:1
-our  inability:1
-
+inability:1
 opportunity:1
- those  third 
-parties:1
-Particular Social  :1
-Propensity:1
-infor­:1
-mation:1
-that  information:1
-the  applicable  norms:1
- comfort:1
-Despite  the  intuitive  appeal:1
-that  mechanism:1
-silent:1
+applicable:1
+comfort:1
+despite:1
+intuitive:1
+appeal:1
 undercurrent:1
- liter­:1
+liter­:1
 ature:1
- Alessandro  Acquisti:1
-Leslie  John:1
-George:1
- disclosure  behavior:1
- com­
-parative judgments32:1
-disclose;33:1
- the  information:1
+parative:1
 intrusive:1
-disclose.34:1
-his  colleagues:1
-
-ethics questions:1
-
-behavior:1
-The  individuals:1
- bad  behaviors:1
- previous  respondents:1
-admissions.35:1
+colleagues:1
+ethics:1
+behaviors:1
 established:1
 looks:1
-its  security,36:1
-Leslie  :1
-Upjohn  Co.:1
+upjohn:1
+co:1
 449:1
 383:1
 389:1
 1981:1
- the 
 purpose:1
-the attorney-client  privilege:1
- frank  com­
 munication:1
-their clients:1
-broader:1
-public:1
-the observance:1
+clients:1
+observance:1
 administration:1
 justice:1
-Trammel:1
+trammel:1
 445:1
 1980:1
-modern:1
 justification:1
-privilege:1
-adverse  spousal  testimony:1
- role:1
+adverse:1
+testimony:1
 fostering:1
 harmony:1
 sanctity:1
-the  marriage 
-relationship:1
-P erceptions:1
-the  P ost-Snowden  Era:1
- Research  Center:1
-h ttp:1
-www.pewinternet.org/files/2014/ll/PI_PublicPerceptionsofPrivacy__11121:1
-4.pdf:1
-[https://perm a.ee/P2SM:1
--AQPX:1
-Pjeople’s 
-decisions:1
-sensitive information:1
- nature:1
-36:1
-Faith  Cranor:1
-Web  P rivacy:1
-P3P:1
-uniform internet:1
-code th:1
- internet  users:1
-200
-
-Case:1
+erceptions:1
+ost-snowden:1
+3 , 29:1
+org/files/2014/ll/pi_publicperceptionsofprivacy__11121:1
+ee/p:1
+sm:1
+aqpx:1
+171-73:1
+3 p:1
+uniform:1
 counterintuitively:1
-bad  behavior:1
+unprofessional-looking:1
 unprofessional:1
-websites.37:1
-contextual  cues:1
-an  unprofessional  website:1
 caused:1
-
-people:1
 suppress:1
-concerns:1
- disclosure.38:1
-Other 
-scholars:1
 emotionally:1
 manipulated:1
-positive  emotional  feelings:1
 inspired:1
-website  design:1
-the type:1
 requested:1
-a higher willingness:1
-disclose.39:1
-Still:1
-a website’s data use practices:1
-behavior.40:1
-This  literature:1
 teaches:1
 partly:1
-the  other 
-individuals:1
-us.41:1
-a  herding  effect:1
-disclose.42:1
+herding:1
 explanation:1
-
-others:1
 admitted:1
 inspires:1
-particular social 
-trust:1
-the  admission:1
- vulnerability:1
-links:1
-even  strangers:1
-basis:1
-social  norms:1
 showed:1
-our  decisions:1
- online  social  networks:1
 ident­:1
 ified:1
- several  heuristics:1
 evaluate:1
-the  privacy  risks:1
-here.43:1
-All
-
 habits:1
-Faith  Cranor et al:1
- P3P Deployment:1
-7 
-Electronic  Com:1
-Applications:1
- policies:1
-Eric  C.  Turner:1
-Subhasish 
-Dasgupta:1
-n  Examination:1
-User  Concerns:1
-Implications:1
-Organizations:1
-Individuals:1
+deployment:1
+electronic:1
+applications:1
+2008:1
+eric:1
+turner:1
+subhasish:1
+dasgupta:1
+examination:1
+organizations:1
 16-17:1
-the  use:1
 privacy­:1
 enhancing:1
-technology:1
-online trust:1
-42:1
-39:1
-Han Li:1
-Rathindra Sarathy:1
-Heng Xu:1
-The Role:1
-Affect:1
- Cognition:1
-Consumers’ Decision:1
-Personal Information:1
-Unfamiliar:1
-Online  Vendors:1
-51  Decision  Support:1
- Sys:1
+rathindra:1
+sarathy:1
+heng:1
+xu:1
+cognition:1
+unfamiliar:1
+vendors:1
 434:1
-441:1
-noting participants:1
+441-43:1
 will­:1
-
-ing:1
 believed:1
-collect­
-ed:1
-any website:1
-the internet:1
-W]hen:1
+collect­:1
+hen:1
 surrounded:1
 revealing:1
-intimate details:1
-their lives:1
 conform:1
-the prevailing norm:1
+norm:1
 divulgence:1
 1160-64:1
-a  user’s conscious 
-and  subconscious  reliance:1
-social 
-media:1
- these  heuristics:1
+conscious:1
+subconscious:1
+reliance:1
 always:1
 accurately:1
-201
-
-Case:1
-trust.44:1
-Facebook’s  pride:1
-the  largest  social  network:1
+pride:1
 planet:1
 rooted:1
-a  simple 
 obsession:1
-lots:1
-Grimmelmann  notes:1
-millions:1
-Our “Facebook-trusting friends:1
+facebook-trusting:1
 shields:1
-the risk:1
 singled:1
-a  privacy:1
-invasion.45:1
-these  ways:1
-one 
-way:1
-a context:1
-one  billion  users:1
+invasion:1
+more than one billion:1
 safeguarding:1
-spare  keys:1
-billion:1
+brady’s:1
+one billion:1
 growth:1
-a  safe  place:1
- massive  crowds:1
+crowds:1
 posting:1
 rarely:1
 hear:1
 emphasize:1
 signing:1
-our email contacts:1
-
-members:1
-the community:1
 bigger:1
-Whenever:1
-another member:1
+whenever:1
 sends:1
-a  “friend request:1
 lists:1
- her  network:1
 commented:1
-our  News  Feeds:1
 brags:1
-all  the  time.46:1
-big:1
-Second:1
- community:1
-controlled spaces:1
-others’ faces:1
-a  perception:1
-safety.47:1
-The  members:1
-our  social 
-networks:1
-some  ways:1
-the  word  “trust:1
-Saving:1
+controlled:1
 stops:1
 grouping:1
-tools:1
-45:1
 1161-62:1
-46:1
 comes:1
 revenue:1
-the  web:1
-e.g.,  Jim 
-Edwards:1
-In  Just  2  Years:1
-Control:1
+edwards:1
+just 2 years:1
 75%:1
-All Mobile Advertising:1
- B usiness:1
-Insider:1
-5:29 PM:1
-www.businessinsider.com/google-and-facebook-dominate-mobile:1
--advertising-2014:1
-https://perma.cc/36HB-YB8U:1
-the  largest  companies:1
-web  advertising:1
+insider:1
+20 , 2014:1
+5:29 pm:1
+businessinsider:1
+com/google-and-facebook-dominate-mobile:1
+advertising-2014-3:1
+cc/36:1
+hb-yb:1
 gone:1
-a  position:1
-big,  fast-growing  players:1
- mobile 
-advertising:1
+fast-growing:1
 dominating:1
 completely:1
-type:1
-rich:1
-an  effective design  strategy:1
-safe  online  environments:1
-Danielle:1
+environments:1
 humanize:1
 stimulate:1
-interaction  norms:1
- online 
 harassment:1
-Hate:1
-Crimes:1
-Cyberspace:1
-239:1
-Just  as  the  anonymity  :1
-in­:1
+hate:1
+crimes:1
+cyberspace:1
+239-41:1
 fluence:1
-our behavior:1
-a site’s environment:1
-202
-
-Case:1
-Law  Review  •  Volume:1
+site’s:1
+202:1
 assume:1
-lot:1
-ways.48:1
- Max Weber:1
- Talcott  Parsons:1
-confidences.49:1
+talcott:1
+parsons:1
 breeds:1
-a  sense:1
 familiarity:1
-all  friends:1
 fungible:1
-our  closest 
-friend:1
 guy:1
 yoga:1
 defaulted:1
-similar  information:1
-.50:1
-these qualities:1
+qualities:1
 risky:1
-discretion:1
 arise:1
-The most obvious sources:1
-the  context:1
-explicit  cues:1
 clause:1
 prefacing:1
-a conversation:1
-Subtler:1
 indications:1
-two 
-people:1
 secret:1
-a  party:1
 physically:1
-their  bodies:1
+bodies:1
 away:1
-the crowd:1
 huddle:1
-whisper.51:1
+whisper:1
 heuristic:1
-another  friend:1
- advice:1
- personal  problem:1
 implied:1
-48:1
-Cass:1
-R.:1
-Sunstein:1
- Republic:1
-2.0:1
+cass:1
+sunstein:1
+republic:1
 53-54:1
-that uni­
+uni­:1
 formity:1
-social networks:1
-echo  chambers:1
-Max:1
-Weber:1
-Sects:1
-Spirit:1
-Capitalism:1
-From  Max  W eber:1
-Essays:1
+echo:1
+chambers:1
+sects:1
+spirit:1
+capitalism:1
+eber:1
+essays:1
 303:1
 312:1
-Gerth  &  C. 
-Wright  Mills  eds:1
+gerth:1
+wright:1
+mills:1
 1948:1
-membership:1
 sect:1
 early:1
 allowed:1
 really:1
 competent:1
- contractual  partners:1
-alcott:1
- P arsons:1
-the  Human  Condition:1
-People  defined  as  sharing  one’s  :1
+contractual:1
 values:1
 goals:1
-whose competence:1
+whose:1
 thought:1
-‘types:1
-50:1
 1162:1
-private things:1
 great:1
-
-lots:1
-These  implicit  cues:1
 length:1
-P resentation:1
-Self:1
-Everyday:1
+resentation:1
+self:1
+112-32:1
 1959:1
-
-interaction:1
-Strategic:1
-Interaction:1
-Hymes:1
-eds:1
+strategic:1
+hymes:1
 1969:1
-interpersonal  dealings:1
-the  intersection:1
- emotional 
+interpersonal:1
+dealings:1
+intersection:1
 expression:1
-human intelligence:1
-the  “backstage:1
+intelligence:1
+backstage:1
 1163:1
-203
-
-Case:1
-contexts53:1
-a long history:1
-interaction54:1
-spare:1
+203:1
+alice’s:1
 broke:1
- security:1
- party:1
-recipient:1
-her  information:1
-norms:1
-the  first  place:1
-works:1
-transference:1
-
+home’s:1
 knowns:1
 unknowns:1
 experts:1
- other  professionals:1
-a  school’s  reputation:1
-its 
+professionals:1
 graduates:1
-not.55:1
-some  evidence:1
-
-lawyers:1
-firm or hospital affiliations:1
- respectively,56:1
+hospital:1
+affiliations:1
+respectively:1
 prime:1
-estate57:1
-design.58:1
-The 
-transference  process:1
 choose:1
-
-doctors:1
 solely:1
-53:1
-54:1
-e.g.,  Alberts  v.  Devine:1
+alberts:1
+devine:1
 479:1
-N.E.2d:1
-Mass.:1
-today:1
+mass:1
 arises:1
-physician:1
- Peterson:1
-Idaho First:1
+physician-patient:1
+peterson:1
 at’l:1
-Bank:1
 367:1
-P.2d:1
 284:1
-(Idaho:1
 1961:1
 holding:1
 manager:1
 liable:1
+breach:1
+bank’s:1
 divulged:1
- details:1
-the  plaintiffs:1
 unsteady:1
 finances:1
-the plaintiffs employer:1
+employer:1
 eter:1
-M.  Blau:1
-Exchange:1
+blau:1
 98-99:1
 1964:1
-Since  social  exchange:1
-requires:1
- reciprocate:1
-the 
-initial  problem:1
+reciprocate:1
+initial:1
 oneself:1
-regularly 
 discharge:1
-their  obligations:1
- further 
-credit:1
-John  K.  :1
-Rempel:1
-Close:1
-Relationships:1
-J. 
-P ersonality  &  Soc:1
-P sychol:1
- Doney:1
-T]he:1
- experiences:1
+obligations:1
+rempel:1
+ersonality:1
+sychol:1
 generated:1
- knowledge:1
 base:1
-target:1
+target’s:1
 becomes:1
 citation:1
 omitted:1
-Doney:1
 606:1
-T]rust:1
 develop:1
-a 
-transference process:1
 trustor:1
 transfers:1
-a known 
 entity:1
-an unknown one:1
-56:1
-Mark A.:1
-Hall:1
-Physicians:1
-Medical  Institutions:1
-Measured:1
-Matter:1
-Milbank:1
-Q.:1
+hall:1
+physicians:1
+institutions:1
+measured:1
+milbank:1
 613:1
 619-20:1
-57:1
-Shawn:1
-G.  Kennedy:1
-Real  Estate:1
-Law  Firms:1
-Actively:1
-Leasing 
-Office  :1
-Space:1
-Midtown:1
-1987:1
-nytimes.com/1987/02/18/business/about-real-estate-la:1
-firms:1
-activeiy-:1
-leasing-office-space-in-midtown.html:1
-https:/:1
-/perma.cc/8X2Y-P8YD:1
+shawn:1
+kennedy:1
+leasing:1
+space:1
+midtown:1
+18 , 1987:1
+com/1987/02/18/business/about-real-estate-la:1
+w-firms-activeiy-:1
+leasing-office-space-in-midtown:1
+y-p:1
+yd:1
 des­:1
 cribing:1
-spaces:1
- centralized  locations:1
-
-law firms:1
-project:1
-success:1
-their services:1
-58:1
- David  Lat:1
-Best:1
-Law  Firm:1
- Offices:1
-The  Finalists:1
-6:19  PM:1
-http://abovethelaw.com:1
+centralized:1
+lat:1
+finalists:1
+6:19 pm:1
+http://abovethelaw:1
 /2012/08/the-best-law:1
--firm:1
--offices:1
-erica:1
-the-finalists/2/:1
-s://:1
-
-perma.cc/82VU-LVNE:1
+offices-in-am:1
+erica-the-finalists/2/:1
+cc/82:1
+vu-lvne:1
 naming:1
-the “best law firm offices:1
-architectural aesthetics:1
+architectural:1
 furnishings:1
 refined:1
- decor:1
-204
-
-Case:1
-This  transference  of  trust:1
+decor:1
 operates:1
 lay:1
-
-economic  actors:1
-an  unknown  party:1
-the  unknown  actor:1
- social 
-network:1
-And  several  studies:1
- social  actors:1
-This  transference  mechanism:1
-Acquisti’s  study:1
+actor:1
+acquisti’s:1
 readily:1
 learning:1
 done:1
-Transference:1
-Grimmelmann’s:1
- heuristics:1
- herds:1
+grimmelmann’s:1
+herds:1
 intimates:1
-
-confidential  situations:1
- specific  cases:1
-
-Facebook:1
-C. 
-
-Trust:1
-a  correlation:1
-an individual’s propensity:1
-online  social  networks:1
- privacy  risks:1
+confidential:1
+situations:1
 evolve:1
 recognized:1
-all,  the  relationship:1
 usually:1
 functional:1
-a  view:1
-
-business:1
 adequately:1
- personal privacy:1
-the age:1
-Implicit:1
-which  requires  that  any  website  collecting  personally  identifiable  in­
 formation:1
-a California resident:1
-Roni:1
-Caryn:1
- Rabin:1
-Dr.:1
-Some  Effort:1
-http://www.nytimes.com:1
-/2008/09/30:1
-health/:1
-30find.html 
-the  difficulty:1
+resident:1
+roni:1
+caryn:1
+rabin:1
+dr:1
+29 , 2008:1
+/2008/09/30/health/:1
+difficulty:1
 objectively:1
 measuring:1
-physician qualifications:1
-https://perma.cc/GW8B-MYJH:1
-Economic:1
-Social  Structure:1
-The 
-Problem:1
-c.:1
+physician:1
+qualifications:1
+doctor:1
+cc/gw:1
+b-myjh:1
 481:1
 490:1
-the 
-“role:1
-structures:1
-‘networks:1
 generating:1
 discouraging:1
 malfeasance:1
-Michele  Williams:1
- Membership:1
-an 
-Affective  Context:1
-Trust  Development:1
+michele:1
+williams:1
+affective:1
 377:1
 381:1
-People  tend  to  associate  positive  beliefs  :1
-the 
-groups:1
+beliefs:1
 belong:1
-Bus:1
-P rof:1
-Code  §:1
+rof:1
 22575-22579:1
 passed:1
-a similar statute:1
-Del.  C ode Ann:1
+ode:1
 tit:1
-1201C-1206C:1
-(West:1
-205
-
-C:1
-practices,63:1
-the  notion:1
- pro­:1
-These  policies:1
- web 
-platforms:1
-data uses:1
+1201:1
+c-1206:1
 aggressively:1
- identifiable  information:1
-these  policies:1
 equal:1
-a  website:1
 failure:1
-negatively  impact:1
- the  trust:1
-those  users:1
-the  website.64:1
-Neil 
-Richards:1
-furthermore:1
+negatively:1
 conceptualized:1
-a  builder:1
+builder:1
 shield:1
-invasions:1
-Part  rhetorical,  part:1
-substantive:1
- Richards’s:1
-
-Hartzog’s  argument:1
-the  tools:1
-information sharing relationships.65:1
-first  steps:1
+rhetorical:1
 reminding:1
-online  platforms:1
-good business:1
 occurs:1
-particular 
-social  trust:1
-these  understandings:1
+understandings:1
 sufficient:1
 adapt:1
-the digital age:1
-a world:1
-third:1
-parties66:1
- government:1
- actors:1
 saying:1
 doctrinal:1
-path:1
 continued:1
-protection:1
-others.67:1
-Merely:1
 emphasizing:1
 accessible:1
-online  users:1
-64:1
- Kirsten Martin:1
-Formal:1
-Versus  Informal Privacy  Contracts:1
-Comparing:1
-the 
-Impact:1
-Privacy Notices:1
-Norms:1
-Consumer  Trust:1
-(Oct.:1
-http://www.law.uchicago.edu 
-/files/file/martin_formaLversus_informaLprivacy__contracts.pdf:1
-[https://:1
-perma.cc/KKP7-RSJB:1
+formal:1
+comparing:1
+notices:1
+uchicago:1
+edu:1
+/files/file/martin_formalversus_informalprivacy__contracts:1
+cc/kkp:1
+7-rsjb:1
 unpublished:1
-65:1
-Richards  &  Hartzog:1
-66:1
-A petabyte’s size:1
+petabyte’s:1
 conceive:1
-a petabyte:1
-one 
-quadrillion  bytes:1
-pretty:1
+quadrillion:1
+bytes:1
 inscrutable:1
-Put:1
-all United States academic libraries:1
-just two petabytes:1
+libraries:1
 consequently:1
-about  150 times more data:1
-every academic 
+about 150:1
 library:1
-Julian  Bunn:1
-Petabyte:1
- Exabyte:1
-Zettabyte:1
-Yottabyte:1
+julian:1
+bunn:1
+exabyte:1
+zettabyte:1
+yottabyte:1
 ig:1
-SCALABILITY:1
-9:15  AM:1
-http://highscalability.eom/blog/2012/9/ll/how-big-is-a-petabyte:1
--exabyte-zettabyte:1
--a-yottabyte.html:1
-https://perma.cc/H5TD-4G3J:1
-scholars:1
+scalability:1
+11 , 2012:1
+9:15 am:1
+http://highscalability:1
+eom/blog/2012/9/ll/how-big-is-a-petabyte:1
+exabyte-zettabyte-or-a-yottabyte:1
+cc/h:1
+5 td-4:1
 addressed:1
-this problem:1
-e.g.,  Julie 
-E.  Cohen:1
-Examined:1
-Lives:1
-Informational:1
-Subject:1
- Object:1
+examined:1
+informational:1
+object:1
 1373:1
 1427-28:1
-a  “constitutive” 
-relationship:1
-the  flow:1
+2000:1
+constitutive:1
+flow:1
 self-development:1
-Paul M. 
-Schwartz:1
-the  State:1
-Conn.:1
+schwartz:1
+conn:1
 815:1
-856-57:1
- “bandwagon effects:1
-the  government:1
+856-57 ( 2000:1
+bandwagon:1
 serves:1
-a 
-model:1
-infrastructure:1
 limiting:1
 transmission:1
 falsified:1
-Helen  Nissenbaum:1
- Contextual  Integrity:1
-79 
-W ash:1
+helen:1
+nissenbaum:1
 aggregation:1
-
-personal  information  disrupts:1
-our  expectations:1
- Daniel  J.  Solove:1
-Conceptualizing:1
+disrupts:1
+conceptualizing:1
 206:1
 requiring:1
 notice:1
 governing:1
 notice-and-:1
-choice:1
-approach:1
 ignores:1
-the  myriad  ways:1
-our  propensity:1
- other  tools:1
-our  social  networks:1
-a  byproduct:1
-a  func­:1
+myriad:1
+byproduct:1
+func­:1
 tioning:1
-regime  misses:1
+misses:1
 pri­:1
-vacy protection:1
-Seeing:1
+vacy:1
 antecedent:1
- privacy  judgments:1
-the 
-right  direction:1
-the  idea:1
+privacy-re­:1
 lated:1
- decisions:1
 opt-:1
 clauses:1
+just-in-time:1
 rec­:1
 ommends:1
 concurrent:1
 impending:1
 affirmative:1
-express:1
-users.68:1
 providing:1
-the  point:1
 prior:1
-the collection:1
-such information:1
 informed:1
- choices:1
-such  information:1
-the only ways:1
-their 
-users:1
-our trust:1
-our expectations:1
- specific  determinations:1
-clicks:1
+choices:1
+determinations:1
 buys:1
-a product:1
-shares information:1
-Privacy scholars:1
 inching:1
 closer:1
-this 
 trust-building:1
-
-information-sharing  mechanism:1
-Meanwhile:1
- social 
-networks:1
+information-sharing:1
+meanwhile:1
 ahead:1
 contending:1
 1087:1
-privacy  invasions:1
-the  collection:1
-digital:1
 dossiers:1
 implicate:1
- one  single  common  denominator:1
- information  privacy:1
-relationships:1
- private 
-information:1
-some others:1
-68:1
-also F ed:1
-an  E ra  of  R apid:1
- Change:1
-
-R ecommendations:1
- P olicymakers:1
-60  :1
-http://www.ftc.gov/os/2012/03/120326privacyreport.pdf:1
-perma.cc/2HVK-5P2Y:1
- privacy 
-companies 
+denominator:1
+ecommendations:1
+gov/os/2012/03/120326:1
+privacyreport:1
+hvk-5:1
 statements:1
 clearer:1
 shorter:1
 standardized:1
-reasonable access:1
+reasonable:1
 undertake:1
-consumer education efforts:1
-,  use:1
- F e d:1
+efforts:1
 1151-60:1
-the ways:1
 drives:1
-207
-
-C:1
-l o:1
-a t:1
-an  empirical  study:1
-What effect:1
-
-internet users’ willingness:1
-online social 
-networks:1
-This  study:1
-survey  questions:1
-what 
-information  respondents:1
-what reasons:1
-strangers.71 
-:1
-this survey:1
-this Article:1
+207:1
 concludes:1
-participants:1
-online social networks:1
- particular social trust:1
 contributes:1
- individuals’  propensity:1
 cede:1
-policy:1
- regulatory 
-implications:1
- conclusion:1
 chosen:1
-its  massive  data  collection  practices:1
-largest:1
-most  popular  online  social  network:1
-March:1
-1.65  billion:1
-1.09  billion:1
-989:1
-1.51  billion  :1
-users.72:1
-voracious:1
+march:1
+more than 1:1
+65 billion:1
+09 billion:1
+989 million:1
+51 billion:1
 gatherer:1
-71:1
 recruited:1
-an  online 
 marketplace:1
 pays:1
-crowd:1
-source:1
-the completion:1
-various 
-tasks:1
-research  surveys:1
-Responses:1
+completion:1
 points:1
-Workers:1
 permitted:1
 offers:1
-researchers:1
-random:1
-a  demographic  distribution:1
-comparable:1
- population:1
-Tara:1
-S.:1
-Behrend:1
-
-al:1
-Viability:1
-Crowdsourcing:1
-Survey:1
-Behav:1
-Methods:1
+tara:1
+behrend:1
+viability:1
+behav:1
+800:1
+800-13:1
 concluding:1
-that crowdsourcing platforms:1
 efficient:1
-appropriate  alternative:1
-a university participant pool:1
-Gabriele Paolacci:1
-Running:1
-Experiments:1
-Amazon Mechanical  Turk:1
+alternative:1
+participant:1
+pool:1
+gabriele:1
+paolacci:1
+experiments:1
 udgment:1
-Decision:1
 416:1
 confirming:1
-Mechanical:1
-a  “reliable source:1
+reliable:1
 experimental:1
 judgment:1
 decision-making:1
-paid:1
-their  time:1
-
-average:1
 took:1
-nineteen  minutes  and  :1
-twenty-eight:1
-seconds:1
-4.62:1
-hourly  rate:1
+nineteen minutes and:1
+twenty-eight seconds:1
+hourly:1
+rate:1
 eligible:1
 95%:1
- approval:1
-tasks:1
-the platforms:1
+1000:1
 pay:1
-approval:1
-experience:1
-plus:1
 screening:1
- checks:1
+checks:1
 determined:1
- workers:1
- a  good  faith  effort:1
-accurate responses:1
-72:1
-Newsroom:1
-https://web.archive.org/web/:1
-20160626012315:1
-http://newsroom:1
-.fb.com:1
-info/:1
-a.cc:1
-/2S8D-KV6A:1
-the  current  statistics:1
- Newsroom:1
-http://newsroom.fb.com/company-info/:1
-208
-
-C ase:1
+26 , 2016:1
+https://web:1
+archive:1
+org/web/:1
+20160626012315/http://newsroom:1
+/2:1
+d-kv:1
+statistics:1
+june 26 , 2016:1
 aw:1
-ev:1
-hand:1
 directly:1
 gathered:1
-our  knowledge:1
-worth:1
 summarizing:1
-both  processes:1
+processes:1
 sign:1
-an  account:1
- email 
 addresses:1
-numbers,73:1
+numbers:1
 dates:1
-our  email:1
-join.74:1
-These  contacts:1
 constitute:1
-the  core:1
 aptly:1
-‘friends:1
 filling:1
- our  profiles:1
 up­:1
 loading:1
-a picture:1
 cover:1
-photo:1
-our profile 
-page:1
- post:1
 helpful:1
-Select  a  photo  :1
-your  profile:1
-recent:1
-trip:1
 proud:1
- image  management:1
 easy:1
-Adding:1
-a  profile  photo:1
 reminds:1
-other people:1
-Facebook’s design:1
 easily:1
-employment:1
-past:1
 contact:1
-a  personal 
-website:1
- URL:1
+url:1
 interested:1
- meeting:1
- the 
 languages:1
-political:1
-status:1
 pronounce:1
-events:1
- graduation:1
- marriage:1
+graduation:1
 braces:1
-
-memorable trip:1
-Florence:1
-sports teams:1
-music:1
+memorable:1
+florence:1
+sports:1
 enjoy:1
 movies:1
 television:1
 watch:1
 books:1
 read:1
- athletes:1
- celebrities:1
-even 
-restaurants:1
-like.76:1
+athletes:1
+celebrities:1
 removed:1
 ready:1
- data 
-sharing:1
-only  increases:1
 upload:1
- photos:1
-their  profile:1
-consent:1
 decline:1
-their unlinked  name:1
-the photo:1
-its  caption:1
-direct  “Messages:1
- “Poke:1
-your  mobile  number:1
- registration:1
-frequently:1
+unlinked:1
+caption:1
+direct:1
+registration:1
 remind:1
-Help:1
-Asked:1
-Add My  :1
-Phone  Number:1
-Account:1
-?,  F acebook:1
-https://www.facebook.com/help/1137953062904148:1
-[https://perma.cc/HT55-AJW:1
-74:1
-gettingstarted/?step:1
-=contact_im porter:1
-October:1
- G offman:1
-an  extended  metaphor:1
-front:1
-ways:1
-the reality:1
-76:1
-This  summary:1
-a  summary:1
-the steps:1
-a Facebook account:1
-https://perma.cc/C47H-3EJN:1
-209
-
-C ase:1
-the  Facebook  platform:1
-flirt.78:1
-the multitude:1
+com/help/1137953062904148:1
+cc/ht:1
+55-ajw:1
+gettingstarted/:1
+contact_im:1
+porter:1
+october 21 , 2016:1
+offman:1
+extended:1
+metaphor:1
+back-stage:1
+front-stage:1
+h-3:1
+ejn:1
+209:1
+flirt:1
+multitude:1
 games:1
-FarmVille.79:1
-a  friend:1
- “timeline:1
-our  own.80:1
+friend’s:1
 universe:1
-are.81:1
 unless:1
 restrict:1
-certain  posts:1
 appearing:1
-our  timelines:1
-a  “News 
-Feed:1
-the running list:1
 contributions:1
-in.82:1
-comment:1
-these  posts:1
-our  own  network:1
-another  network:1
 react:1
-the post:1
-six reactions:1
-Love:1
- Laugh:1
-Wow,  Sad:1
- Angry:1
-Like.83:1
-The  Facebook:1
-handed:1
+six:1
+laugh:1
+wow:1
+sad:1
+angry:1
+right-handed:1
 thumbs:1
-Facebook  blue  background,84:1
-the  greatest  source:1
-Facebook  collects:1
-some  sources:1
-a total:1
-1.13 trillion:1
-Today:1
-4.5  billion:1
-3.1:1
-78:1
-Jackie:1
-Rules:1
- Flirting:1
-Social  T imes:1
-11:11  AM:1
- http://www.adweek.com/socialtimes/facebook-flirting/:1
+greatest:1
+13 trillion:1
+approximately:1
+jackie:1
+rules:1
+14 , 2009:1
+11:11 am:1
+adweek:1
+com/socialtimes/facebook-flirting/:1
 308415:1
-https://perma.cc/4HER-M8N6:1
-(“A  girlfriend  :1
-the  concept:1
-
-someone:1
-flirting:1
-Back:1
-
-second  grade:1
-the boys:1
+cc/4:1
+her-m:1
+girlfriend:1
+concept:1
+grade:1
+boys:1
 chase:1
-the room:1
- grab:1
+room:1
+grab:1
 hit:1
-poke:1
 giggled:1
- ‘accidents:1
-just me:1
-FarmVille  Page:1
-, 
-
-F acebook:1
-https://www.facebook.com/FarmVille/:1
-https://perma.cc/QV6Y-8CM3:1
-Saqib 
-Khan:1
-Block:1
-Annoying:1
-Game Requests:1
-Your Facebook Friends:1
-3:17  PM:1
-http://www.valuewalk.com/ 
-ValueW alk 
-2014/03/block-game-requests:1
-facebook/:1
-https://perma.ee/5VL7-LHFU:1
-80:1
-Post:1
-Timeline:1
+accidents:1
+com/farmville/:1
+cc/qv:1
+6 y-8 cm:1
+saqib:1
+khan:1
+block:1
+annoying:1
+game:1
+4 , 2013:1
+3:17 pm:1
+valuewalk:1
+valuew:1
+alk:1
+2014/03/block-game-requests-on-facebook/:1
+ee/5:1
+vl:1
+7-lhfu:1
 help/1462219934017791:1
-https://perma.cc/ST7W:1
--BBQ8:1
-June 
-:1
-some sources:1
-seventeen billion location-tagged posts:1
-Kevin  Ho:1
-Date:1
-Facebook Facts:1
- Stats:1
-
-W ishpond:1
-http://blog.wishpond.com/post/115675435109/:1
+cc/st:1
+bbq:1
+seventeen billion:1
+location-tagged:1
+kevin:1
+up-to-date:1
 facts:1
 stats:1
-https://perma.cc/8U97-DXM:1
-82:1
-How  News:1
-Feed  Works:1
-https://www.facebook.com/help/:1
+ishpond:1
+http://blog:1
+wishpond:1
+com/post/115675435109/:1
+40-up-to-date-facebook-facts-and-stats:1
+97-dxm:1
+com/help/:1
 327131014036297/:1
-https://perma.cc/GFR9-AX3B:1
-83:1
-Sammi  Krug:1
-Reactions:1
-Available:1
-Globally,  F acebook:1
-//newsroom.fb.com:1
-news/2016/02:1
-reactions:1
+cc/gfr:1
+9-ax:1
+sammi:1
+krug:1
 globally:1
-9N7X-EEA3:1
-84:1
-Leo:1
-Widrich:1
-Facebook  Blue:1
-Science:1
-Behind:1
-Colors:1
-
-Marketing:1
- F ast  Company:1
-May:1
-6:02  AM:1
-fastcompany.com/3009317/why-is-facebook-blue-the-science-behind-colors-:1
--marketing:1
-https://perma.cc/6K3J-K455:1
-various 
-colors:1
-marketing:1
+24 , 2016:1
+//newsroom:1
+news/2016/02/reactions-now-available-globally:1
+x-eea:1
+leo:1
+widrich:1
+behind:1
+ast:1
+6 , 2013:1
+6:02 am:1
+fastcompany:1
+com/3009317/why-is-facebook-blue-the-science-behind-colors-:1
+in-marketing:1
+j-k:1
+455:1
 viewers:1
-210
-
-Case:1
-minute.85:1
-our  friends’  posts:1
- pictures:1
-two tilings:1
-image:1
-
-reputation:1
-Facebook  networks:1
+210:1
+million:1
+minute:1
+tilings:1
 engages:1
-us;86:1
+86 second:1
 rounding:1
-reasonably  rich  picture:1
- several 
-posts:1
-the  Democratic  candidate:1
-President:1
+democratic:1
+candidate:1
+president:1
 alongside:1
 reduce:1
-our  carbon  footprint:1
-infrastructure 
+carbon:1
+footprint:1
 spending:1
 fight:1
- discrimination:1
-a pretty good 
-idea:1
-the kinds:1
+discrimination:1
 candidates:1
-us.87:1
 crosses:1
 divide:1
-voluntarily  hand:1
 understand:1
-how  Facebook:1
 gather:1
-a brief primer:1
-
-data tracking.88:1
+brief:1
+primer:1
 remember:1
 travel:1
 leave:1
- tiny  files:1
-our  computers:1
-
-websites:1
+tiny:1
 visiting:1
-Cookies:1
-the  internet’s  memory  capsules:1
-Thanks:1
-Amazon’s:1
-cookie:1
-a plush:1
-Judy Hopps:1
-the 
-Disney  movie:1
-Zootopia)8s:1
-the  window:1
-85:1
+internet’s:1
+memory:1
+capsules:1
+amazon’s:1
+disney:1
+movie:1
+window:1
 86:1
-Veikko  Eranti:1
-Markku  Lonkila:1
-The  Social  Significance:1
-Button:1
-Monday 
-:1
+veikko:1
+eranti:1
+markku:1
+lonkila:1
+first monday:1
+june 1 , 2015:1
 firstm:1
-onday.org/ojs/index.php/fm:1
-/article:1
-view:1
-/5505/4581#3a:1
-[h ttp s:// 
-perma.cc/2LQM-M6DB:1
-how  Facebook  tracks:1
-a  user:1
+onday:1
+org/ojs/index:1
+php/fm:1
+/article/view:1
+/5505/4581#3:1
+lqm-m:1
+db:1
 via:1
-that  user’s use:1
-87:1
-Robinson  Meyer:1
-Could:1
-Tilt:1
-Election:1
-Atlantic:1
-ww:1
-.theatlantic.com:1
-technology/:1
-archive/2016/04:1
-ilt:1
-the-2016:1
+robinson:1
+meyer:1
+tilt:1
 election:1
-donald:1
-trump:1
+atlantic:1
+18 , 2016:1
+ww:1
+theatlantic:1
+com/technology/:1
+archive/2016/04/how-facebook-could-t:1
+ilt-the-2016-election-donald-trump:1
 478764/:1
-https://perma.cc/DB4C-KGNM:1
-the  effects:1
-voter turnout:1
+cc/db:1
+c-kgnm:1
+voter:1
+turnout:1
 following:1
-Franziska  Roesner:1
-Tadayoshi:1
-Kohno:1
-David  Wetherall:1
-Detecting:1
-Defending:1
-Third-Party:1
-Tracking:1
-the  Web:1
-9th  USENIX:1
-Symp:1
-Networked  :1
-Systems:1
-Implementation:1
- https://www.usenix.org/system 
-/files/conference/nsdil2/nsdil2-finall7.pdf,  and  on  email  conversations:1
-Staff:1
-Technologist:1
-Facebook’s  :1
- Data  Policy:1
+franziska:1
+tadayoshi:1
+detecting:1
+defending:1
+systems:1
+implementation:1
+org/system:1
+/files/conference/nsdil:1
+2/nsdil:1
+2-finall:1
+conversations:1
 https://w:1
-.facebook.com:1
-/policy.php:1
-http s://p:1
+/policy:1
+php:1
+s://p:1
 erm:1
-a.cc/D P P 5-C P R S:1
+5-c:1
 89:1
+t’s:1
 adorable:1
-Zootopia:1
-Large  Plush  Office:1
-Judy:1
-Hopps:1
- Amazon.com:1
-https://www.amazon.com/Zootopia-Large-Plush-Office-Hopps/dp/:1
-
-B016LBYL42/ref:1
-sr_l__4?s:1
-toys:1
--games&ie:1
-UTF8&qid=:1
+com/zootopia-large-plush-office-hopps/dp/:1
+016:1
+lbyl:1
+42/ref:1
+sr_l__4:1
+toys-and-games&ie:1
+utf:1
+8&qid=:1
 211:1
 item:1
-days:1
-later:1
-The  cookie:1
-my  computer:1
-tagged:1
+days later:1
 uniquely:1
-this seamless:1
+seamless:1
 convenient:1
 tailored:1
- experience.90:1
 central:1
 flows:1
-Consider:1
-the 
-New York Times website:1
-www.nytimes.com.Nytimes.com:1
 runs:1
-several 
-ads:1
-its homepage:1
-the site:1
-the ads:1
+homepage:1
 saw:1
-Penguin  Random  House:1
-Hillary  Clinton  Victory  Fund:1
-Indochino:1
-Beach:1
-(“luxury condominiums:1
+penguin:1
+hillary:1
+victory:1
+fund:1
+indochino:1
+beach:1
+luxury:1
+condominiums:1
 detailed:1
-Tribeca:1
-the 
-New  York:1
- EMC:1
-(a  computer  storage  company:1
-
-Southwest  Airlines.91:1
-These  ads:1
-“iframes:1
+tribeca:1
+emc:1
+southwest:1
+airlines:1
+iframes:1
 main:1
-page.92:1
-this  way:1
-otherwise:1
 grant:1
-these companies:1
-its  code:1
 insert:1
-their  ad  language:1
-a  page:1
-,  these  ads:1
-
-cookies:1
-our computers:1
 wherever:1
 wanted:1
- similar  advertisements:1
-the 
-same company:1
-”  buttons:1
 operate:1
-similar  way:1
 begs:1
-Like Us on Facebook:1
-a 
-simple click.93:1
-these pages:1
 receiving:1
-a 
-significant  amount:1
-the page:1
 browser:1
 operating:1
 system:1
- name:1
-W hat:1
-collecting:1
-our internet behavior:1
-button.94:1
-And  Facebook:1
- channels:1
-that 
-information:1
-user-targeted advertisements.96:1
-92:1
-
-
-1466705009&sr=l-4&keywords:1
+channels:1
+user-targeted:1
+1466705009&sr:1
+l-4&keywords:1
 judy+hopps+plush:1
-PJ9P-5LV4:1
+pj:1
+p-5:1
+lv:1
 s://perm:1
-a.cc/:1
-Roesner:1
-Kohno & Wetherall:1
-their storage:1
-tracking usages:1
-imes:1
-.nytim:1
-es.com:1
- Roesner:1
-Kohno  &:1
-Wetherall:1
+cc/:1
+usages:1
+nytim:1
 embed:1
-different  domains:1
-mail:1
- Staff Technologist:1
-University  Law  Center:1
-Author:1
-8:27  AM:1
-author:1
-93:1
-Any developer:1
-the code:1
-their  page:1
-Like  Button  for  the  Web:1
-
-DEVELOPERS:1
-https://developers.facebook.com/docs/plugins/like-button:1
-https://perma.cc/NV9X-YZTF:1
-Facebook  Knows:1
-https://www.technologyreview.eom/s/428150/what-facebook-knows/:1
-https://perma.cc/CFF2-7DVN:1
-the  enormous  amount:1
-its users:1
-the  “Like” button:1
-Buttons:1
-Soon:1
-Track:1
-Target:1
-Ads:1
-T e:1
-Browsing 
-
-212
-
-C ase:1
- W ester:1
-R eser:1
-advice:1
-reasonably:1
+domains:1
+e-mail:1
+8:27 am:1
+developer:1
+https://developers:1
+com/docs/plugins/like-button:1
+cc/nv:1
+x-yztf:1
+13 , 2012:1
+eom/s/428150/what-facebook-knows/:1
+cc/cff:1
+2-7:1
+dvn:1
+enormous:1
+soon:1
+16 , 2015:1
+target:1
+212:1
+ester:1
 priced:1
-modern  suit:1
- work:1
+suit:1
 popping:1
 everywhere:1
-300:1
-us.96:1
+more than 300:1
 truly:1
-a data behemoth:1
+behemoth:1
 revealed:1
-2.5  billion  pieces:1
-
-content:1
-more than 500 terabytes:1
+more than 500:1
 each day:1
-2.7 billion:1
-actions:1
-300 million photos:1
+7 billion:1
+300 million:1
 analyzes:1
-nearly 
-“105 terabytes:1
-each half hour,”97:1
-the personal data:1
-our  smartphones:1
-The  company:1
-third-party and partner websites:1
- purchases:1
-content.98:1
+nearly:1
+each half hour:1
+real-time:1
+web-browsing:1
+purchases:1
 teamed:1
-
-corporate  data  brokers:1
-Datalogix:1
- Epsilon:1
-Acxiom:1
-BlueKai:1
+datalogix:1
+epsilon:1
+acxiom:1
+bluekai:1
 display:1
-targeted ads:1
-those  brokers:1
-users.99:1
-the success:1
-Facebook’s  business  model:1
-behavioral  advertising:1
+behavioral:1
 targeting:1
 tailoring:1
-users’  online 
-experiences:1
-Knowing:1
-both 
-privacy:1
 advocates:1
-information gatherers:1
-basic demographic data:1
-selected age categories:1
- sexual orientation:1
-
-race:1
-select:1
-a list:1
-all the social networking 
-websites:1
-active profiles:1
+gatherers:1
 referred:1
-any  website:1
 viewed:1
 updated:1
-regularly:1
-These
-
-https:1
-/ www.technologyreview.com/s/541351/ facebooks:1
--buttons-:1
-soon:1
-your-web:1
-target-ads/:1
-[https://perm a.cc/K B76-X SA:1
-97:1
-Josh  Constine:1
-Data:1
-2.5 Billion  :1
-Pieces:1
-Content:1
-500+  Terabytes  :1
-Ingested:1
-Every  Day:1
-echCrunch:1
-http://techcrunch.com/2012/08/22/how-big-is-facebooks-data-2-5-billion-:1
-and-500:1
-terabytes:1
+com/s/541351/:1
+facebooks-like-buttons-:1
+will-soon-track-your-web-browsing-to-target-ads/:1
+cc/k:1
+76-x:1
+josh:1
+constine:1
+500+:1
 ingested:1
-day/:1
-perma.cc/UGA4-GGFQ:1
-98:1
-https://www.facebook.com/about/privacy/:1
+every day:1
+echcrunch:1
+http://techcrunch:1
+com/2012/08/22/how-big-is-facebooks-data-2-5-billion-:1
+pieces-of-content-and-500-terabytes-ingested-every-day/:1
+cc/uga:1
+4-ggfq:1
+com/about/privacy/:1
 update/:1
-https://perma.cc/V8HP-EKW:1
-also Will Oremus:1
-Two:1
-Kinds:1
-Likes:1
-Talk:1
-Slate:1
-http://www.slate.com/blogs/:1
-4:37  PM:1
+cc/v:1
+hp-ekw:1
+oremus:1
+talk:1
+com/blogs/:1
+4:37 pm:1
 future_tense/2014/ll/13/facebook_privacy_basics_page_w:1
-hat_Jt_w:1
-tell_you_about_personal_data.htm:1
-a.cc/X:1
-576-K 4X:1
-all the ways:1
-Nov.:1
-99:1
-New  Ways:1
-Reach:1
-Audience,  F acebook:1
-https://www.facebook-studio.com/news/item/new-ways-to-reach-the:1
--audience:1
-[https://perma.cc/D2L6-B5S6:1
-213
-
-C:1
-a w   R e:1
-two questions:1
+hat_jt_w:1
+tell_you_about_personal_data:1
+htm:1
+cc/x:1
+576-k:1
+nov:1
+27 , 2013:1
+facebook-studio:1
+com/news/item/new-ways-to-reach-the:1
+6-b:1
 commonly:1
-social science researchers:1
-a  high  number:1
-hours:1
-increased:1
-Part II:1
-what type:1
-information users:1
-Twenty-seven  different  items:1
-Pew’s  research:1
- observations:1
-
-advice:1
-research  assistants:1
- Respondents:1
-No  ques­
+many hours:1
+twenty-seven:1
+pew’s:1
+observations:1
+assistants:1
+yes/no:1
+ques­:1
 tions:1
 ranged:1
 jokes:1
-funny  videos:1
-your personal  email  address:1
 coding:1
-the  responses:1
 created:1
-a  “Total  Sharing:1
-separate  “Total  Intimate  Sharing:1
- items:1
-consider:1
-the  “Total  Intimate 
-Sharing” data set:1
-personal value judgments:1
-The 
-relative  position:1
-the  scale:1
+separate:1
 purposes:1
-matter:1
-“personal telephone 
-number:1
- “information:1
+telephone:1
 illnesses:1
-
 medication:1
 qualified:1
-”100:1
-III  of  the  survey:1
-the  standard  trust  question:1
- baseline  information:1
-general  feel­
+baseline:1
+feel­:1
 ings:1
-This section:1
-how  many  of  their  close 
-friends:1
 rated:1
-their  trust:1
-a 
-scale:1
-absolute trust:1
-IV  of  the  survey:1
-Likert  scale 
-questions:1
-their  motivations:1
-The  diverse  list:1
+absolute:1
+diverse:1
 captured:1
-emotional:1
 rational:1
- social 
-motivations:1
 felt:1
 compelled:1
-because  “everyone:1
- Other 
-questions:1
- certain  people:1
-100:1
-Total:1
-Intimate:1
 follows:1
- personal  email  address:1
- location  data:1
- personal  phone  number:1
 romantic:1
-life:1
-suggestive 
-pictures:1
- sexual  orientation:1
-last  name:1
-the respondent’s  partner:1
-any children:1
- admissions:1
+suggestive:1
+children:1
 illegal:1
 stigmatized:1
 kissing:1
 drunk:1
 drinking:1
 excess:1
-,  names:1
- family 
-members:1
-home  address:1
-admission:1
 sadness:1
-
 year:1
-medical information:1
-This information:1
- funny  videos:1
- news  items:1
-college:1
 attended:1
-professional 
 accomplishments:1
- non-intimate  selfies:1
-place:1
-
-employment:1
-political views:1
-current  affairs:1
+non-intimate:1
+selfies:1
+affairs:1
 issues:1
-214
-
-Case:1
+214:1
 stay:1
-those  people:1
-reach:1
-wider  audience:1
 uhave:1
-privacy 
-preferences:1
-[their]  information:1
- outsiders:1
- Other 
-options:1
-their  perception:1
-
-11 nothing:1
-bad:1
+outsiders:1
+nothing:1
 happened:1
 anyone:1
-The  goal:1
-this  section:1
-different  possible 
-motivations:1
-This  data:1
-the  revelation  data:1
-the  previous  section:1
-Section V:1
- Likert  scale  questions:1
-These 
-questions:1
-certain contextual factors:1
-admittedly:1
+revelation:1
 imperfect:1
-a 
-willingness:1
 avoid:1
-a response bias:1
-This  Section:1
-
-background:1
-demographics:1
-the  survey responses:1
-Background Demographics:1
-Although  the  entire  survey:1
-anonymous:1
+response:1
+bias:1
+re­:1
 quired:1
-their  age  bracket:1
- sexual 
-orientation:1
- race  or  ethnicity:1
-net­:1
+bracket:1
 working:1
- profiles:1
-629  valid  responses:1
-629:1
+valid:1
 46%:1
-female:1
 54%:1
 342:1
 male:1
-the wider  Facebook 
-community:1
 remains:1
-majority female.101:1
-The gender gap:1
+majority:1
 shrinking:1
-social 
-media  platforms:1
-comparable  rates.102:1
+rates:1
 unsurprising:1
 samples:1
 deviate:1
-the 
-average gender distribution:1
-Users  ages:1
+ages:1
 18-24:1
-14.4%:1
-the  sample:1
+4%:1
 25-34 year-olds:1
-51%:1
-The  first  group:1
+just over 51%:1
 underrepresented:1
- the  second  group:1
 overrepresented:1
-most recent  available data.103:1
-this significant  deviation:1
-101:1
-Monica:1
-Anderson:1
-Catch:1
-Women:1
-Overall:1
-Social  Media 
-Use:1
-Ct r:1
-http://www.pewresearch.org/fact-:1
-tank/2015/08/28:1
+deviation:1
+monica:1
+anderson:1
 catch:1
-overall-social-media-use/:1
-/perma.cc/3XNV-YZ4S:1
-102:1
-Andrew  Perrin:1
-Media:1
-Usage:1
+28 , 2015:1
+pewresearch:1
+org/fact-:1
+tank/2015/08/28/men-catch-up-with-women-on-overall-social-media-use/:1
+cc/3:1
+xnv-yz:1
+perrin:1
+usage:1
 2005-2015:1
-r.:1
-http://www.pewinternet.org/files/2015/10/PI_2015-10-08:1
-Social-Networking-Usage-2005-2015_FINAL.pdf:1
-[https:/ /perma.cc/B68Q-:1
-NG5D:1
-Keith N.  Hampton et al.:1
-Social Networking Sites:1
-Our Lives:1
-http://www.pewinternet.org/files/old-:1
-media//Files/Reports/2011/PIP%20-%20Social%20networking%20sites%:1
-215
-
-C:1
-the  distribution:1
- age:1
-any  correlations:1
+org/files/2015/10/pi_2015-10-08:1
+social-networking-usage-2005-2015_final:1
+cc/b:1
+q-:1
+ng:1
+keith:1
+org/files/old-:1
+media//files/reports/2011/pip%20-%20:1
+social%20:1
+networking%20:1
+sites%:1
 involving:1
 questioned:1
 retested:1
-another sample:1
 reporting:1
- some  college:1
-Several  surveys:1
-the Facebook population:1
-educated,104:1
 resemble:1
-Facebook  population:1
-population:1
-The 
-sample:1
-Approximately 71%:1
+approximately 71%:1
 definition:1
-Facebook  profile:1
-most 
-popular  platforms:1
-Linkedln:1
-quantitative:1
-the  data  co­:1
-llected.105:1
-hypotheses:1
-that  (1)  higher  levels:1
-our  privacy  and  higher  levels:1
-a  higher 
-propensity:1
-a  network:1
- high  levels:1
-our  privacy:1
+linkedln:1
+co­:1
+llected:1
 lend:1
 credibility:1
-both 
-hypotheses:1
-Social scientists:1
-online social network participants:1
-Al­:1
+al­:1
 though:1
-several pieces:1
-
-sexual orientation:1
-race:1
-networked level:1
-
-general  social trust:1
- user privacy:1
- how 
-many  friends:1
-only those factors:1
-any 
-statistically significant association.106:1
-https://perma.cc/64HG-NTM:1
-Number:1
-20and%20our%201ives.pdf:1
-Facebook  Users:1
-United:1
-States:1
-February:1
-Age  :1
-Millions:1
-Statista:1
-(Feb.  2016),  http://www.statista.com /statistics:1
-/398136:1
-groups/:1
-https://perma.cc/C9R7-SK7A:1
-104:1
-Hampton:1
-105:1
-The raw data:1
-New York Law School’s Innovation  Center:1
+cc/64:1
+hg-ntm:1
+and%20:1
+our%201:1
+ives:1
+february 2016:1
+/statistics:1
+/398136/us-facebook-user-age-groups/:1
+7-sk:1
+raw:1
+technology’s:1
 ata:1
-Privacy  Project:1
-106:1
-bivariate correlation:1
- relationships:1
-then partial correlation:1
 stood:1
-Correlation:1
-direction:1
- association:1
-
-variable phenomena:1
-Bivariate 
-correlations:1
-two variables:1
+phenomena:1
 mainly:1
- hypotheses:1
-further  research:1
-Partial  correlations:1
-more  variables:1
 removing:1
- highest  degree  level:1
- annual 
-income:1
-A  partial  correlation:1
-216
-
-Case:1
-Reserve  Law  Review • Volume:1
-a  greater  propensity:1
+highest:1
 positively:1
-Facebook  friends:1
-the 
 extent:1
- user:1
-more  friends:1
-institutional:1
-greater sharing:1
-the other 
-variables:1
- these  associations:1
+associations:1
 remained:1
-a  form:1
-predictive analysis:1
 tries:1
-one dependent variable:1
-one or more independent variables:1
-regression  techniques:1
+techniques:1
 answer:1
-questions:1
 left-hand:1
 dominant:1
-independent  variable:1
-the  general  population:1
- high  SAT  scores:1
-dependent  variable:1
+sat:1
+scores:1
 redheads:1
 architects:1
 vote:1
-Republican:1
-independent  variables:1
-an  impact:1
-a  single 
-dependent  variable:1
-the  willingness:1
-more  information:1
-
-more personal  information:1
- income:1
-
-annual income:1
-.197:1
-.200:1
-Spearman’s rho correlation:1
-a correlation:1
-almost  all  variables:1
-i.e.:1
+republican:1
+spearman’s:1
+rho:1
+almost:1
 ranked:1
- categories:1
-categories:1
-Facebook friends:1
-All  r  coefficients:1
-the  0.01  level:1
-tailed:1
-.235:1
-.201:1
-.311:1
-.301:1
-statistical:1
+coefficients:1
+01:1
+2-tailed:1
+235:1
+311:1
+301:1
 predict:1
-Correlations:1
 powerful:1
-assumption:1
-multiple:1
-the  multicollinearity:1
-the  independent  variables:1
-the  model:1
-regression:1
-Multicollinearity:1
 happens:1
-two or more independent variables:1
 decipher:1
 causing:1
-dependent:1
 differ:1
-an 
-example:1
-one football player:1
 sacks:1
-the quarterback:1
-a good idea:1
- three  football  players:1
+quarterback:1
 tackle:1
- man:1
 biggest:1
 contribution:1
-the  sack:1
-the model:1
-older 
-people:1
+sack:1
+older:1
 fix:1
-this  problem:1
 eliminated:1
-the  regression analysis:1
-217
-
-Case:1
-V olume  67 •  Issue:1
-Results:1
-Coefficient Std:1
-Error:1
+217:1
 599:1
 489:1
--1:1
 059:1
 275:1
 657:1
 465:1
-.969:1
-1.997:1
-1 534:1
+969:1
+997:1
+534:1
 568:1
 460:1
 409:1
 395:1
 081:1
 363:1
-.475:1
-Gender:1
-Sexual:1
-Orientation:1
-Race
-Networked
-Time Online
-General Trust
-Trust:1
-# Facebook Friends:1
-Close Friends:1
-99% level:1
-squared:1
-184:1
-n=629
-
-As  evident  from  Table  1,  proxies:1
-“Facebook  friends:1
-the only 
-statistically  significant  predictors:1
-a  willingness:1
-specifically:1
+475:1
+99%:1
+r-squared:1
+evident:1
 notches:1
-the  trust  scale:1
-Trust 
-:1
-“complete 
-trust:1
-an  additional  piece:1
-Similarly:1
-“Facebook 
-friends:1
-average  1  more piece:1
-501:1
-“many”  close  friends:1
-the  website:1
-average:1
-these factors:1
-20%:1
-(rs=.184:1
-
-factors:1
+additional:1
+more than 1000:1
+501-1000:1
+just under 20%:1
+rs=:1
 related:1
-the  conversation:1
-our 
-propensity:1
-
-the  effect:1
-focus:1
-intimate or  personal  information:1
-218
-
-Case:1
-Regression  Results:1
-Std  Error:1
-G:1
+218:1
 ender:1
-Sexual Orientation
-R ace:1
-N etw:1
+ace:1
+etw:1
 orked:1
-Tim e:1
-General Trust:1
-Facebook
-#:1
-Facebook  Friends:1
-Close  Friends:1
+tim:1
 646:1
 167:1
 060:1
 291:1
-.3:1
-.6:1
-.7:1
+7 4 3:1
 936:1
 348:1
 280:1
 075:1
-249:1
-241:1
+249 241:1
 049:1
- statistical  significance:1
 99 %:1
-  level:1
--squared:1
-n=629:1
-Other  data:1
- partic­
-ular social trust:1
-the decision:1
-motivations:1
-Facebook  “friend  requests:1
+squared:1
 over­:1
 lapping:1
-strong  indicators:1
 stran­:1
-gers.112:1
-The  survey:1
- several  questions:1
-piece:1
-defined:1
-offline:1
-the  stranger:1
-friend:1
- request:1
+gers:1
+stranger’s:1
 covered:1
-a wide range:1
-possible reasons:1
-a “friend request:1
- “large  number:1
-your  close  friends:1
- “physical  attractiveness:1
-real  life:1
- second  questions:1
-the  strength:1
-their  minority  status:1
+wide:1
+range:1
+physical:1
+attractiveness:1
+strength:1
+minority:1
 determining:1
-the role:1
-developing:1
-a  connection:1
 tested:1
-any  relationship:1
-user privacy:1
-a role:1
-institutional trust:1
-the  factors:1
 received:1
 overwhelming:1
 concentration:1
- answers:1
-partic­
-ular  social  trust:1
-a  large  number:1
- mutual 
-friends:1
-More  than  81%  of  respondents:1
-a  request:1
-their  close  friends:1
-only  18.3%:1
+more than 81%:1
+only 18:1
 60-61:1
-219
-
-Case:1
-Review:1
-their  same  sexual  orientation:1
-half:1
-those  res­
+219:1
+approximately half:1
 pondents:1
 identified:1
- members:1
-the  LGBT  community:1
-known entities:1
-
-entities:1
-strangers).113:1
-most  important  factor:1
-evidence:1
-active  participation:1
-63.3%:1
-active participation:1
-the account:1
-mitigating:1
-the  risks:1
+lgbt:1
 bringing:1
-a 
-network:1
-precisely the role:1
-particular social trust.114:1
-“friend  requests:1
-the  power:1
+precisely:1
 par­:1
-ticular  social  trust:1
-Attractive­:1
+ticular:1
+attractive­:1
 ness:1
-similar  names:1
 hometowns:1
- locations:1
-a  few 
-cases:1
-the “friend request:1
 unrelated:1
-strong 
-indicators:1
-predictable  behavior:1
 27%:1
-their  network:1
-the 
-stranger:1
- anonymity:1
-an  invitation:1
+invitation:1
 hypothesis:1
-our 
-privacy:1
 sound:1
 strange:1
 little:1
-user  privacy:1
- this  relationship:1
-our  trust:1
-actually  pro­:1
-more  infor­
-mation:1
-our relationships:1
 strongly:1
-institu­
-tional trust:1
+institu­:1
+tional:1
 weakly:1
-Responding:1
-Facebook  trust  scale:1
-others.115:1
- current  research:1
-well.116:1
-network size:1
+responding:1
+more than one:1
+1-10:1
+116:1
 55-61:1
 20-25:1
-115:1
-a  multiple  regression  model:1
-1.263:1
- D.:1
-Harrison:1
-McKnight,  Vivek  Choudhury  &  Charles  Kacmar:1
-Validating:1
-Trust  Measures:1
-Commerce:1
-An Integrative 
-Typology:1
-S y s:1
-finding:1
-
-institutional trust:1
-successful internet experiences:1
-the 
-past:1
-that  institution:1
-the future:1
-220
-
-Case:1
-These  factors:1
-weaker  predictors:1
-a 
-0.62 increase:1
-one’s privacy:1
-more close friends:1
-an even smaller increase.117:1
-Admittedly:1
-the indicators:1
-weak predictors:1
-weak:1
-notable:1
-I I:1
-S i:1
-a n c e:1
-f   F:1
- ex­
+263:1
+1 1 6:1
+harrison:1
+mcknight:1
+vivek:1
+choudhury:1
+charles:1
+kacmar:1
+validating:1
+typology:1
+1 3:1
+institution:1
+220:1
+weaker:1
+smaller:1
+ex­:1
 pectation:1
-her  privacy:1
-b:1
-a large network:1
-many close friends:1
-another  predictor:1
-(c:1
-a  stronger  predictor:1
-the 
-network:1
-This  data  lends:1
-the argument:1
-self:1
-that 
-the  propensity:1
-The  implications:1
-this 
-research:1
+stronger:1
+lends:1
+self-disclosure:1
 fall:1
- two  categories:1
-various  facets:1
-some 
-elements:1
+facets:1
 intend:1
-Privacy  lawyers:1
- scholars:1
 recognize:1
 tends:1
 characterized:1
-
-particular social trust:1
-web platforms:1
 deceitfully:1
- Exploits:1
-online platforms:1
 establishing:1
 critical:1
-our personal information:1
-This study:1
-indicators:1
 predicting:1
-a  users’ 
-willingness:1
 letting:1
-their  friends:1
-shared.118:1
-117:1
-Network  size:1
-.627:1
-Number  of  close  friends:1
-.204:1
-.002:1
-118:1
-the current  literature:1
-221
-
-Case:1
-social  itches:1
+627:1
+002:1
+itches:1
 craft:1
- public  profiles:1
 articulate:1
-a  particular  message:1
- we:1
- affinity  groups:1
+message:1
 publicizes:1
-’  Timelines:1
 deepens:1
- our  connections:1
 establish:1
- new  ones:1
-
-“friends:1
-messages:1
-birthday cakes:1
-our 
-friends’  names:1
-our own content:1
+birthday:1
+cakes:1
 publicly:1
-reciprocal sharing:1
-123 Facebook:1
-our value:1
-our  passions:1
-similarly:1
+passions:1
 situated:1
-
 mates:1
-our  social  capital:1
- leverages:1
 tell­:1
-ing:1
 joined:1
 friendly:1
-faces:1
 seek:1
-affinity  groups:1
- those  pages:1
-also  members:1
-the  community:1
 viewpoints:1
-the  home  page:1
-a  default:1
-organizational:1
-algorithm:1
-privileges:1
-the 
-social  interactions:1
-closest:1
 receive:1
- “Friend 
-Requests:1
-Facebook  user:1
-the user’s  name:1
-Hovering:1
- our  mutual  friends:1
-both  networks:1
-This  information:1
+hovering:1
 gives:1
 clues:1
-the  requester’s  trustworthiness:1
-
-offline:1
+requester’s:1
 1152-53:1
 1153:1
-https://perma.cc/Z92V-G6DQ:1
-June 21:1
-123:1
-reciprocal  behavior:1
-the  gesture-and-return  cycle:1
-
+v-g:1
+dq:1
+gesture-and-return:1
+cycle:1
 salient:1
 1157-58:1
-the Pew Research Center:1
+pew:1
 31%:1
-young people:1
-“Friend Requests:1
-i.e., persons:1
- offline:1
-Amanda:1
-Lenhart  &:1
- Friendship:1
-Safety:1
-Social Networks:1
-www.pewinternet.org/2007/:1
-04/18:1
-friendship-:1
-
-strangers:1
--safety:1
-networks/:1
-a.ee/R V R 8-:1
-28HT:1
+young:1
+amanda:1
+lenhart:1
+friendship:1
+org/2007/:1
+04/18/friendship-:1
+strangers-and-safety-in-online-social-networks/:1
+ee/r:1
+8-:1
+ht:1
 222:1
-April:1
-its  strategy:1
-More specifically,  the  News:1
-Feed  algorithm:1
+april , 2015:1
+july:1
 tweaked:1
-greater  preference:1
- family:1
+preference:1
 pushing:1
-Feed.126 Facebook:1
 sold:1
-this change:1
-a way:1
 realize:1
+platform’s:1
 founding:1
-“idea:1
-their 
-friends:1
-the people:1
- places:1
-
-things:1
-”127:1
-no 
-Facebook  design  change:1
-independent:1
-the  plat­
-form:1
+places:1
+plat­:1
+form’s:1
 insatiable:1
-appetite:1
-Privileging:1
-the  posts:1
-the posts:1
-third party publishers:1
-the reach:1
-a naked post:1
-Vocativ:1
-Upworthy:1
-their  videos:1
-friend.128:1
+privileging:1
+vocativ:1
+upworthy:1
 ideal:1
-two reasons:1
 dislike:1
-posts:1
-second,  under  the  new  design,  most  third  party  content:1
-their trusted social networks:1
-This cues:1
-the 
-trustworthiness:1
-the  post:1
-naked:1
-a 
 publisher:1
-Lars Backstrom:1
- News Feed FYI:1
-Helping:1
-Make:1
-Sure:1
-Miss Stories:1
-http://newsroom.fb.com:1
-/news/2016/06:1
-news:1
-feed:1
-fyi:1
+lars:1
 helping:1
 sure:1
-dont:1
--friends/:1
-https://perma.cc/2GZ4-T35C:1
-Max Eulenstein & Lauren Scissors:1
-FYI:1
-Balancing  Content:1
- Pages:1
-http://newsroom.fb.com/news/2015/04/news-feed-fyi-:1
-balancing-content:1
-pages/:1
-https://perma.cc/5VMK:1
--Z8UL:1
- prioritize  content:1
-
-friends:1
+june 29 , 2016:1
+/news/2016/06/news-feed-fyi-helping-make-sure-you-dont-miss-stories-from:1
+friends/:1
+gz:1
+4-t:1
+eulenstein:1
+lauren:1
+scissors:1
+balancing:1
+21 , 2015:1
+com/news/2015/04/news-feed-fyi-:1
+balancing-content-from-friends-and-pages/:1
+cc/5:1
+vmk:1
+prioritize:1
 cares:1
-127:1
-Backstrom:1
-128:1
-Mike:1
-Isaac:1
-Sydney  Ember:1
-Change:1
- News:1
-Focus:1
- Family:1
-(June:1
-www.nytimes.com/2016/06/30/technology/facebook-to-change-news-feed-to-:1
-focus-on-friends-and-family.html:1
-https://perma.cc/PHG2-HLLM:1
-“[C]on- 
+mike:1
+isaac:1
+sydney:1
+ember:1
+29 , 2016:1
+com/2016/06/30/technology/facebook-to-change-news-feed-to-:1
+focus-on-friends-and-family:1
+cc/phg:1
+2-hllm:1
+on-:1
 tent:1
- publishers:1
-prominently  in  news  feeds:1
-significantly less traffic:1
-the hundreds:1
-news media sites:1
-223
-
-Case:1
+prominently:1
+significantly:1
+traffic:1
+hundreds:1
+223:1
 woutd:1
 surprised:1
 ere:1
-a  credible threat:1
--e:1
+credible:1
+threat:1
 tio:1
- 
-
-Kenneth Shenil:1
-a professor:1
+kenneth:1
+shenil:1
 eritus:1
-f political science:1
-H unter CoBege:1
-
-sa:1
-Rose:1
+cobege:1
+rose:1
 erg:1
 campaign:1
-Nadler Primary:1
-an Iran Deal Test:1
-Pro* Israel New York 
-District:1
-Nddi:1
-New York City's ©rty:1
-Jewish Oemociatc:1
-U S:1
-House nwraos:1
-saseon PwmwH Bwwc:1
-* K:1
-a's:1
+nadler:1
+iran:1
+pro:1
+israel:1
+district:1
+nddi:1
+city:1
+©:1
+rty:1
+jewish:1
+oemociatc:1
+nwraos:1
+saseon:1
+pwmwh:1
+bwwc:1
 rm:1
-r e*a:1
+e*a:1
 t*c:1
 ternary:1
 >:1
 ike:1
-W  Comment:1
-$tsar:1
-$ m m:1
-Sobers:1
- member  posts:1
+tsar:1
+$ m:1
+sobers:1
 outside:1
-our 
-networks:1
-comment—“Lisa 
-Simpson:1
+comment—“lisa:1
+simpson:1
 replied:1
-a  comment:1
 post”—or:1
-the post—“Charlie:1
-Brown:1
-Peppermint  Patty:1
+post—“charlie:1
+brown:1
+peppermint:1
+patty:1
 listing:1
-“likes:1
-a given  post:1
-Abbi  Jacobson:1
+abbi:1
+jacobson:1
 liana:1
-Glazer:1
-
-76  others:1
- the 
-note:1
- “9  people:1
+glazer:1
 update:1
-This  design  strategy:1
-
-social  posts:1
-the  wheels:1
- the post:1
+july , 2016:1
 224:1
-Most Expensive Schools Worth:1
-Every:1
-Penny:1
-Sfcrtenfc:1
-9m:1
+2 2 $:1
+schools:1
+penny:1
+sfcrtenfc:1
 cla:1
 ss:1
-f 2029 m:1
+2029:1
 cc^ogos:1
-V:<t ip:1
-Jn:1
-Kjcafeoft:1
-a *:1
-sc:1
+v:<t:1
+ip:1
+jn:1
+kjcafeoft:1
 tp:1
-p«*s»ne#:1
-f G foes life:1
+p«*s»ne:1
+foes:1
 tftifttc:1
-senewHJ:1
-»  toes:1
-new:1
-t u:1
-C u:1
-a m:1
+senewhj:1
+toes:1
 tto:1
-2 M  :1
 sir:1
-Jur:1
-Comment:1
-Siwwo:1
-the  News:1
-this 
+jur:1
+siwwo:1
 tactic:1
 confuses:1
 obscures:1
-a  third 
-party’s  post:1
-Native  advertisements:1
-third-party  links:1
+party’s:1
 de­:1
 signed:1
-Feeds:1
-the  social  posts:1
- these  advertisements:1
 preceded:1
-the  names:1
-the  advertiser’s  page:1
-statement:1
-Clara 
-Oswald:1
-Sarah:1
-Jane  Smith:1
-Martha:1
-Jones:1
- 7  others:1
- JCrew:1
-a JCrew advertisement:1
-the new Spring 
-line:1
-And  “Alice,  Barry:1
-Catherine:1
- 22  others:1
+advertiser’s:1
+clara:1
+oswald:1
+sarah:1
+jane:1
+smith:1
+martha:1
+jones:1
+spring:1
+barry:1
+catherine:1
 newest:1
-running:1
- shoe:1
-the  advertisement:1
-the  first 
-thing:1
-The  only  thing:1
+shoe:1
 distinguishes:1
-these  advertisements:1
-our  friends’  social  posts:1
-the word:1
-Sponsored:1
-written:1
 light:1
 grey:1
-the name:1
-the company:1
 sandwiched:1
-the 
-advertisement:1
+advertisement’s:1
 graphic:1
 bolded:1
- cue:1
-These tactics:1
 exploit:1
-propensity:1
-a  “Friend 
-Request:1
-especially our close 
-friends:1
-the  link:1
-
-data:1
-our  preferences:1
-its  third party partners:1
- accurate  portrayals:1
- Face- 
-book:1
-social  interaction:1
+especially:1
+portrayals:1
+book’s:1
 obscure:1
-be­
+be­:1
 tween:1
- commercial  posts:1
-225
-
-Case:1
-deceitful:1
-This  problem:1
 solved:1
 changes:1
- regulatory  enforcement:1
-Since:1
-these  design:1
-tactics,129  regulators:1
-partic­:1
 ularly:1
-Trade:1
-Commission:1
-(FTC:1
-general,130:1
 paying:1
 attention:1
-how  social  platforms:1
 deploy:1
-our 
-friends:1
-the notion:1
 engineer:1
-our  online 
-platforms:1
 ground:1
-mind.131:1
- FTC  Com­
+mind:1
 missioner:1
-Julie:1
-Brill:1
 involves:1
 baking:1
-structure:1
 environ­:1
-ment.132:1
+ment:1
 databases:1
-internal  cyber­:1
+internal:1
+cyber­:1
 incorporating:1
- corporate 
-security  measures:1
-
-practice:1
 limits:1
-data collection:1
 everything:1
-between.133:1
-a long way:1
-a privacy-by­
-design:1
+privacy-by­:1
 adopter:1
-The  word:1
-sponsored:1
 confusing:1
-many users,134:1
 obscured:1
-a  light-colored  font:1
- richer  content:1
-The 
-Associated  Press:1
-application:1
-(Figure:1
-a  good  model:1
-Standard  news  articles:1
-a  black 
-background:1
-A  picture:1
-the  article:1
- the 
-headline:1
-the left:1
-Sponsored posts:1
-reserve:1
-the positioning:1
-picture:1
- headline:1
+light-colored:1
+font:1
+richer:1
+press:1
+black:1
+positioning:1
 prefaced:1
-a  bright  yellow 
+bright:1
+yellow:1
 bar:1
-Paid:1
 pop:1
-129:1
-Ira S.  Rubinstein:1
-Regulating:1
- Design:1
-Berkeley:1
-ech:1
+ira:1
+rubinstein:1
+regulating:1
 1409:1
 1436:1
-The  Privacy  Policymaking  of  State  Attorneys 
-General:1
-Notre  :1
-Dame:1
+policymaking:1
+dame:1
 2017:1
-7-8):1
-http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2733297:1
+7-8:1
+abstract_id=2733297:1
 ban:1
-deceptive commercial 
-acts:1
-131:1
-Ann  Cavoukian:1
-https://www.ipc.on.ca/:1
-wp:1
-uploads:1
-Resources:1
-pbd:1
-primer.pdf:1
-[https://perm a.cc/6RA F- 
-G5YG]  (“[Privacy:1
+cavoukian:1
+ipc:1
+ca/:1
+wp-content/uploads/resources/pbd-primer:1
+f-:1
+yg:1
 anticipates:1
 prevents:1
-privacy invasive events:1
-132:1
-Julie Brill:1
- Commissioner:1
-Fed:1
-Trade  Comm’n:1
- Opening Remarks:1
-W3C:1
-www.ftc.gov/speeches/brill/:1
-Meeting:1
-1 
-120411w3cremarks.pdf:1
-[https://perm a.cc/F7CA:1
--Q:1
-P69:1
-133:1
-Consumer  P rivacy:1
- R apid  C hange:1
-A  P:1
+invasive:1
+commissioner:1
+fed:1
+remarks:1
+gov/speeches/brill/:1
+1 120411:1
+3 cremarks:1
+cc/f:1
+hange:1
 roposed:1
- F ramework:1
-
-P olicymakers:1
-44  :1
+ramework:1
 framework:1
- consumer privacy:1
-134:1
-Wojdynski  &  :1
 164-65:1
-226
-
-C ase:1
-Privacy,  Sharing,  and  Trust
-
-privacy  notification:1
-sponsored  links:1
-some information:1
-•SOPO:1
-Verizon:1
-Home:1
-Top:1
-America's beauty:1
+•sopo:1
+verizon:1
+beauty:1
 n't:1
 faded:1
-its greatness:1
-Memphis:1
-US:1
-economic averages:1
-big pi:1
+greatness:1
+memphis:1
+averages:1
+pi:1
 faid:1
-Realtor$8:1
-Buying:1
-Property:1
-Realtors:1
-Evangelicals:1
+realtor$8:1
+buying:1
+realtors:1
+evangelicals:1
 alienated:1
 anxious:1
 amid:1
 declining:1
 clout:1
-Montana:1
+montana:1
 vs:1
 welcoming:1
 refu:1
-Clinton:1
 imminent:1
-
-Obama:1
-Sand:1
-PLAY:1
-MEN+CA8E:1
-UNDERARM DEFENDER:1
-lM:1
-f MOW:1
-Federal Regulatory Responses:1
-Ultimately:1
-a change:1
-culture:1
-The social network:1
+obama:1
+sand:1
+men+ca 8:1
+underarm:1
+defender:1
+lm:1
+mow:1
+ultimately:1
 neither:1
 adopt:1
-these mitigating 
-design  strategies:1
-voluntarily:1
+strategies:1
 leaves:1
-opening:1
- regulators:1
-The 
-FTC:1
 facto:1
 regulator:1
 late:1
-1990s:1
+1990:1
 pursuant:1
-its authority:1
-Section 5  :1
-the FTC Act,135:1
-
-state attorneys general:1
-arguably more active and more effective privacy:1
-135:1
-45(a)(1:1
-Unfair  methods  of competition  :1
-
-commerce:1
-unfair or deceptive acts:1
+section 5:1
+arguably:1
 declared:1
 unlawful:1
-the authority:1
-such  practices:1
 subsection:1
-a)(2:1
-45(a)(2:1
-The 
-Commission  :1
 empowered:1
 directed:1
-unfair  methods:1
-competition:1
-deceptive acts:1
-227
-
-Case:1
-users’  names:1
-’  News  Feeds, 
-Facebook  :1
+227:1
 takes:1
-social  interactions:1
-
-persons:1
 reframes:1
-these interactions:1
-commercial endorsements:1
-the same way:1
-the same design:1
-social posts:1
 obscuring:1
-advertising:1
-social spaces:1
-
-third parties:1
-This type:1
-unfair and deceitful design tactics:1
 previously:1
- FTC  enforcement:1
-a threshold:1
-
-matter:1
+threshold:1
 regulated:1
-BMG Music  Entertainment:1
- its 
-CDs:1
+entertainment:1
+cds:1
 install:1
- digital  rights  management:1
-140  software:1
-computers:1
-such a way:1
 unreasonably:1
-141 Sony:1
-its bundled 
-media  player:1
+bundled:1
 servers:1
-Daniel  :1
- the  FTC ’s  authority:1
 regulate:1
- deceptive  practices:1
 broad:1
-Daniel:1
-New  Common:1
 583:1
 585-86:1
 588:1
-the authors:1
-point:1
-a broader  view:1
-unfair or  deceptive practices:1
- personal 
-example:1
- “deception:1
- omission:1
-,”  “inducement:1
+authors:1
+deception:1
+omission:1
+inducement:1
 pretexting:1
-630:1
-Their 
-persuasive argument:1
-a common law-like process:1
-the FT C:1
-
-actions:1
-a  rich jurisprudence:1
-the land:1
-businesses:1
+630-33:1
+persuasive:1
+law-like:1
+ft:1
+jurisprudence:1
+land:1
 clarifying:1
-its standards:1
 beyond:1
-a company’s privacy promises:1
 poised:1
 enforce:1
-a holistic and  robust privacy regulatory regime:1
+holistic:1
+robust:1
 draws:1
-industry standards:1
-consumer expectations:1
+industry:1
 589:1
-The plaintiffs:1
-argument:1
 albeit:1
-a full understanding:1
-
-Second Amended  Class Action  Complaint:1
-Damages:1
+amended:1
+damages:1
 32-35:1
-830  F.  Supp:1
-2d:1
+830:1
+supp:1
 785:1
-N.D.  Cal:1
-CV-:1
-01726:1
-LHK:1
-Facebook  misleads:1
-Sony BMG Music Entm ’t:1
-File No. 062 3019, No.  C-4195:1
+16 , 2011:1
+11-cv-:1
+01726-lhk:1
+misleads:1
+entm:1
+062:1
+3019:1
+c-4195:1
 1942983:1
-[hereinafter:1
- Complaint:1
-140:1
-a catch:1
-term:1
-technological  measures:1
- copyright  owners  use:1
-their content:1
-Julie E.  :1
-Berkeley  T ech:1
-In  an  effort  :1
-the proliferation:1
-unauthorized copies:1
+28 , 2007:1
+catch-all:1
+technological:1
+proliferation:1
+unauthorized:1
+copies:1
 maximize:1
 profit:1
-
-information  goods:1
-the  Internet:1
- copyright:1
-owners:1
-their 
-technology:1
- partners:1
- digital  rights:1
-
 technologies:1
 perfect:1
-
-digital files:1
-141:1
-228
-
-Case:1
-targeted:1
-142  Per  the  FTC’s  complaint:1
-these  tactics:1
- unfair  design  practices:1
+228:1
 deceived:1
 constrained:1
-a similar case:1
 misleading:1
-to-:1
+peer-to-:1
+peer:1
 downloaded:1
-a  computer:1
 enabled:1
-other  users:1
-the network:1
 search:1
-files:1
-computer:1
-Frostwire  Setup 
-Wizard:1
-the impression:1
-which files:1
+setup:1
+wizard:1
+impression:1
 searchable:1
-reality:1
-limited  control:1
- its 
-software:1
+limited:1
 designate:1
-pre-existing files:1
+pre-existing:1
 extraordinarily:1
 opt:1
 moved:1
-their  users:1
 handing:1
-a particularly egregious  case:1
+egregious:1
 phishing:1
 scheme:1
 masquerade:1
 trick:1
- credit 
-card information:1
-148 Hill:1
-AOL marks:1
+card:1
+marks:1
 logos:1
-the web­
-site:1
-affiliated:1
-all  respects:1
-The elements:1
-advertisers:1
+web­:1
+aol-affiliated:1
+respects:1
 suffer:1
-the  same  faults:1
- Hill  actions:1
+faults:1
 complaints:1
- objections:1
-a  platform:1
+objections:1
 erode:1
-recapture control:1
+recapture:1
 focused:1
 manipula­:1
-tive  default:1
-settings:1
 addition:1
- deceptive  defaults:1
+defaults:1
 challenged:1
-the design:1
-an entire interface:1
-142:1
-Solove  &  Hartzog:1
+1 21:1
 642:1
-
 instances:1
-Permanent Injunction:1
-Equitable Relief:1
--cv-23643:1
-LLC:1
-http://www.ftc.gov/enforcement/cases-proceedings/112-3041/ffostwire-llc-:1
-angel:1
-leon:1
-https://perma.cc/HS2F-7VAZ:1
-hereinafter Frostwire Complaint]:1
-S.D.  Fla.:1
+ll-cv-23643:1
+llc:1
+gov/enforcement/cases-proceedings/112-3041/ffostwire-llc-:1
+angel-leon:1
+cc/hs:1
+f-7:1
+vaz:1
+fla:1
 5-11:1
-13-14:1
 http://ww:1
-w.ftc.gov/ 
-sites/default/files/documents/cases/2004/03/040322cmp0323102.pdf:1
-perma.cc/EQ54-CBMS:1
-148:1
-Permanent:1
-Injunction:1
-Other  Equitable:1
-Relief:1
 10-11:1
- http://www.ftc.gov/ 
-sites/default/files/documents/cases/2004/03/040322cmp0323102.pdf:1
-//perma.cc:1
-/EQ54-CBMS:1
+//perma:1
 229:1
 erecting:1
-controls:1
-a  false  sense:1
 involved:1
-evoke  trust 
-and manipulate sharing:1
-Facebook’s  manipulative behavior:1
+evoke:1
 overt:1
-default:1
- settings:1
-endorsements:1
-the dark:1
+dark:1
 leads:1
-its 
-users:1
-a false sense:1
-Its  News:1
-Feed  design:1
 subtly:1
-
-Frostwire:1
-P2P  software:1
+frostwire’s:1
 wrests:1
- personal  data:1
 hidden:1
-Attorneys:1
-only  ones:1
 maneuver:1
 redesigning:1
-
-advertisements:1
-Danielle Citron:1
 equipped:1
- personal  privacy:1
-general.150:1
 cemented:1
-privacy  norms:1
 throughout:1
 spectrum:1
-privacy  matters:1
-transparency:1
-
-practices:1
-notification:1
- real  choice:1
+data breach:1
 restricting:1
-res­:1
 pecting:1
 youth:1
-privacy.151:1
 considerable:1
-power:1
 flexibility:1
-other platforms:1
-more  nimble  privacy 
+nimble:1
 enforcers:1
 free:1
-Byzantine:1
-federal:1
+byzantine:1
 bureaucracies:1
-large 
-teams:1
-lawyers:1
-privacy expertise:1
-a wider array:1
-state 
-privacy:1
-disposal.152:1
-several  regulatory  tools:1
- them:1
+expertise:1
+array:1
+disposal:1
 protectors:1
- federal  regulators:1
-a 
-significant  role:1
 drafting:1
-state  privacy:1
-legislation,153:1
 lead:1
 charge:1
 apply:1
-existing  laws:1
-online 
-platforms’  manipulation:1
+existing:1
 write:1
-new ones:1
-150:1
-151:1
 18-34:1
-152:1
-153:1
 adopted:1
-four  privacy  laws:1
 proposed:1
-attorney:1
- M:1
-n.54:1
 testified:1
- federal  committees:1
-the 
 adoption:1
- federal  privacy  laws:1
-d.:1
 12-13:1
-n.322:1
-that  state  attorneys:1
+322:1
 testify:1
-congressional 
-committees:1
-230
-
-Case:1
-Illinois:1
+congressional:1
+illinois:1
 publicity:1
 prohibits:1
-a person’s name:1
 photograph:1
-the sale:1
 adver­:1
-
 tisement:1
-goods:1
-services:1
 encouraged:1
-a group:1
-a social  e-commerce  company:1
 sells:1
 vouchers:1
-“Deals:1
+deals:1
 discounts:1
-participating businesses:1
-restaurants:1
- other  establishments:1
+establishments:1
 challenge:1
-the  complaint:1
 putative:1
-Groupon  class  action:1
-own  webpage:1
-the  name:1
- location:1
+webpage:1
 description:1
- business:1
-the  offer:1
- several  photographs:1
-the  establishment:1
-the  business:1
+photographs:1
+establishment:1
 pic­:1
 tures:1
-the  location:1
-these  photos:1
 allegedly:1
 scraped:1
-Instagram’s  application  pro­
-gramming interface:1
-Instagram photos “tagged” 
-with  the  name:1
-all photos:1
-its  Deal page:1
-Setting:1
+gramming:1
+business’s:1
 aside:1
-the fact:1
-Instagram’s:1
-the  photos:1
-the 
-individuals:1
 enjoyed:1
 endorse:1
-the business:1
-product:1
-159 Groupon:1
 placed:1
-the photos:1
- “Tips”  section:1
-where actual  Groupon users:1
-Instagram  photos:1
-If  these  allegations:1
-Its  tactics:1
-765  III:1
-Comp:1
-Stat:1
-1075/30(a:1
- Class Action Complaint:1
-Demand:1
-Jury Trial:1
-Dancel:1
-Cir:1
-Cook Cnty:1
-5, 2016:1
-2016CH01716:1
+deal’s:1
+tips:1
+actual:1
+allegations:1
+765:1
+comp:1
+stat:1
+1075/30:1
+demand:1
+jury:1
+trial:1
+dancel:1
+cir:1
+cook:1
+cnty:1
+5 , 2016:1
+ch:1
+01716:1
 464011:1
-(hereinafter:1
-“Groupon  Complaint:1
-Instagram  https://www.instagram.com/about/legal/:1
-term s:1
-api/:1
-https://perma.cc/Z3CV-XQN3:1
-API:1
-o]btain:1
- a  person’s  consent:1
-User  Content:1
-any  ad:1
-Let:1
- Advertisers:1
-Use:1
-Photos:1
-Videos:1
- Instagram:1
-https://help.instagram.com:1
+5-6:1
+com/about/legal/:1
+s/api/:1
+cv-xqn:1
+api:1
+btain:1
+let:1
+https://help:1
 /206875879493855:1
-https://perma.cc/2FW:1
-K4FF:1
-your own photos:1
-videos:1
-Advertising:1
-159:1
+fw:1
+y-k:1
+ff:1
 6-7:1
-231
-
-Case:1
-R eview:1
-subtler:1
-deceptive:1
-a  bad  thing:1
-dynamic 
-social  spaces:1
+231:1
 raises:1
-significant  privacy  concerns:1
- third  parties:1
-both  strangers:1
-our  privacy  settings:1
-State:1
-those concerns:1
-legislation:1
- litigation:1
-weapon:1
- persua­
+persua­:1
 sion:1
-California 
-Attorney General Kamala Harris:1
-161 AG  Harris:1
 convened:1
-task forces:1
-business  leaders:1
-informal  business  agreements:1
-
-technology  companies:1
-Yahoo  to  Facebook:1
+leaders:1
+yahoo:1
 extensive:1
 flesh:1
- state:1
-statutory  require­
+statutory:1
+require­:1
 ments:1
- industries:1
-significant  incentives:1
+industries:1
 comply:1
 adherence:1
- agreements:1
 negotiated:1
-faith:1
 stave:1
- expensive 
 lawsuits:1
 destroy:1
- policymakers:1
-damage  user 
-confidence:1
-Similar  guidance:1
-appropriate:1
+policymakers:1
+damage:1
 inappropriate:1
-social  posts:1
-versus:1
- native 
-advertisements:1
 suffici­:1
-ently contrast:1
-the balance:1
-its ways:1
+ently:1
+contrast:1
+balance:1
+164 160:1
 identifying:1
- “litigation:1
-another weapon:1
- several  other  state  attorneys:1
-Vermont:1
-Massachusetts:1
- Connecticut:1
-task  forces:1
- cajole  companies:1
-Attorney:1
-General:1
- Harris:1
+vermont:1
+massachusetts:1
+connecticut:1
+cajole:1
 pioneering:1
- leader:1
+leader:1
 30-31:1
-AG  Harris’s:1
-the Mobile Ecosystem:1
-a guide:1
-app developers:1
-
-platform  providers:1
-mobile  app  users:1
-adequate  privacy 
+harris’s:1
+providers:1
+adequate:1
 protections:1
-Your Privacy Practices Public:1
-a practice guide:1
-particularly  notable 
+california’s:1
 examples:1
-Kamala  D.  Harris:1
-Ecosystem:1
-http://oag.ca.gov/sites/all/files/agweb/pdfs/privacy/privacy_on:1
-
-the_go.pdf:1
-https://perma.cc/8BHK-WVS2:1
- Kamala  D.  Harris:1
-Your  P rivacy:1
-https://oag.ca.gov/sites/all/files/agweb/pdfe/cybersecurity:1
-/making_your_privacy_practices_public.pdf:1
-https://perma.cc/J6HW:1
-F45H:1
-relevant regulatory standards:1
- guidance:1
-E.g., 
-Native  Advertising:1
-A  Guide:1
-https://www.ftc.gov/tips-advice/business-center/guidance/native- 
+http://oag:1
+gov/sites/all/files/agweb/pdfs/privacy/privacy_on:1
+the_go:1
+bhk-wvs:1
+https://oag:1
+gov/sites/all/files/agweb/pdfe/cybersecurity:1
+/making_your_privacy_practices_public:1
+cc/j:1
+hw:1
+164:1
+gov/tips-advice/business-center/guidance/native-:1
 advertising-guide-businesses:1
-[https://perma.cc/UN3U-894A:1
-Evidence:1
-their  success:1
+cc/un:1
+u-894:1
 mixed:1
-State  attorneys:1
-232
-
-Case:1
-C onclusion:1
- our  friends:1
-similar  infor­
-mation:1
+232:1
+onclusion:1
 extends:1
-current:1
-that,  with  respect:1
- higher levels:1
 translate:1
-a  greater  willingness:1
-Previous  studies:1
 heavily:1
-the  knowledge:1
-indeed:1
-users’ 
-trust:1
 adds:1
 highlighting:1
-
-users:1
-our decisions:1
- a  user’s  propensity:1
 nudged:1
-a 
-community:1
-a user trusts:1
 notifies:1
 dislikes:1
-activity:1
-These 
-nudges:1
-experiences:1
 equivalent:1
-personal recommendations:1
-trusted sources:1
 mislead:1
-underappreciated:1
- misuse:1
 escaped:1
-privacy  regulation:1
-This  research:1
 opens:1
-a  new 
-path:1
-the online misuse:1
-setting:1
-privacy norms:1
 compliance:1
-
-substantive and design requirements:1
-233
-
-Copyright:1
-Case Western Reserve Law Review:1
-the property:1
-Case Western Reserve
-:1
-University School:1
-its content:1
+requirements:1
 copied:1
 emailed:1
-multiple sites:1
-a listserv:1
-the copyright holder's express written permission:1
-However:1
+listserv:1
+holder:1
+permission:1
 print:1
 download:1
-email articles:1
-individual use:1
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:61
-privacy:24
-Soc:1
-consent:1
+Privacy:176
+consent:4
+SOC:3
+privacy policy:2
+Data breach:1

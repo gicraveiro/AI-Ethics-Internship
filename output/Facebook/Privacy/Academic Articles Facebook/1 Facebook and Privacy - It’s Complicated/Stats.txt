@@ -3,3377 +3,2047 @@
 
 
 With stop word removal 
-Size of original corpus: 12487 
-Size of filtered corpus: 5688
-Size of Lexicon: 2948
+Size of original corpus: 14969 
+Size of filtered corpus: 7503
+Size of Lexicon: 2035
 
 Tokens that appear in the file, alongside with their frequencies:
-participants:65
-Facebook:50
+participants:149
+privacy:139
+users:124
+friend:114
+facebook:112
+friends:91
+concerns:82
+content:64
+posts:52
+1:52
+sharing:51
+4:49
+2:48
 asked:47
-users:43
+3:45
+network:43
+proﬁle:42
+people:40
+access:40
+settings:40
+family:38
+networks:37
+strangers:35
+speciﬁc:35
+lists:35
+members:34
 using:34
-sharing:33
+person:34
+threat:33
+use:33
+concerned:33
 see:33
-concerned:29
-260:26
-strangers:26
+260:31
+questions:30
+sns:30
+groups:30
+work:29
+proﬁles:28
+selected:28
+photo:27
+social:26
 n’t:25
 found:24
+data:24
+sample:24
 would:24
-content:23
+controls:23
+5:23
 used:23
-people:22
-access:21
-1:19
-selected:19
-privacy:18
-4:18
+concern:23
+information:22
+many:22
+cid:88:22
+table:22
+ten:22
+study:21
+group:20
+g:19
+section:19
+strategies:18
+time:18
 whether:18
-a friend:18
-friends:17
-3:17
-e.g.:16
+audiences:17
+view:17
+based:17
+control:17
+ever:17
+general:16
+6:16
+coworkers:16
 reported:16
-ever:16
-2:15
+participant:16
+application:15
+posted:15
+someone:15
+con-:15
+ing:15
+survey:15
+photos:15
+in-:15
+number:15
+scenarios:15
 know:15
+0%:15
+custom:15
 yes:15
-concerns:14
-their concerns:14
+5%:14
+uncomfortable:14
 likely:14
+insider:14
 created:14
-use:14
-their proﬁles:14
-their friend networks:14
-(cid:88:14
-questions:13
+thus:14
+2%:14
+pages:14
 observed:13
-view:13
-members:13
-Thus:13
 like:13
-uncomfortable:12
+stranger:13
+comment:13
+university:12
+shared:12
+able:12
 manage:12
+inappropriate:12
+question:12
+results:12
 viewing:12
 address:12
+new:12
 feel:12
+list:12
+however:12
 could:12
-person:12
-our sample:12
-posts:11
-able:11
-the insider threat:11
-based:11
-ing:11
-concern:11
-family members:11
-coworkers:11
-the friend network:10
-posted:10
+immediate:12
+nine:12
+percentage:12
+interpersonal:11
+prior:11
+signiﬁcant:11
+level:11
+likert:11
+member:11
+extended:11
+coworker:11
+acm:11
+randomly:10
+mitigate:10
+management:10
+personal:10
+pri-:10
 well:10
-the use:10
-However:10
+6%:10
+preserving:10
+9:10
+user:10
+status:10
+7:10
+14:10
+individual:10
+ﬁrst:10
 may:10
 unconcerned:10
-comment:10
-your proﬁle:10
-pages:10
-ACM:10
+5-point:10
+scale:10
+school:10
+column:10
+=:10
+8:10
+4%:10
+either:10
+comfortable:10
+2010:10
 measure:9
-
-participants:9
-mitigate:9
-someone:9
-SNS users:9
-photos:9
+at least one:9
+mitigating:9
+vacy:9
 present:9
-5:9
-the number:9
+online:9
 identify:9
+relationship:9
 2009:9
+scenario:9
+composition:9
 shows:9
-=:9
-comfortable:9
+indiﬀerent:9
+average:9
+employer:9
 saw:9
-7:8
+share:8
+terms:8
+focus:8
+several:8
+situations:8
+related:8
+others:8
+limited:8
+updates:8
+indicated:8
 might:8
 included:8
-6:8
+28:8
+par-:8
 uploaded:8
-cid:88:8
-Table:8
+figure:8
+8%:8
+3%:8
+private:8
 monitor:8
-either:8
+delete:8
+reasons:8
 described:8
 asking:7
-our participants:7
-Facebook users:7
-Participants:7
+post:7
+cerns:7
+research:7
+levels:7
+comfort:7
 indicate:7
+existing:7
+usage:7
+real:7
+re-:7
+features:7
+default:7
 changed:7
-indicated:7
-their level:7
-data:7
+two:7
+select:7
+behaviors:7
+behavior:7
+demographics:7
+ticipants:7
+frequency:7
+following:7
+socialize:7
+10:7
+9%:7
 less:7
-the percentage:7
-Your employer:7
+7%:7
+option:7
 presented:7
 unopposed:7
-the participants:7
-delete:7
+additional:7
 deleted:7
 anyone:7
-a photo:7
-2010:7
-share:6
-randomly:6
 trust:6
 viewed:6
-mitigating:6
-People:6
-focus:6
-the study:6
-privacy concerns:6
-Based:6
-9:6
-others:6
-updates:6
-2008:6
-28:6
-Someone:6
+audience:6
+context:6
+usable:6
+amount:6
+problem:6
+21:6
+be-:6
+speciﬁcally:6
+studies:6
+media:6
+reports:6
+face-:6
+book:6
+0:6
+common:6
+15:6
+intended:6
+26:6
+inappropriately:6
+deleting:6
+among:6
+untagging:6
+rate:6
+similar:6
+much:6
+55:6
+whose:6
+set:6
+potential:6
 answered:6
+100:6
+answers:6
 provided:6
-family:6
-track:6
-an inappropriate photo:6
-8:6
 least:6
-my proﬁle:6
-the person:6
-a speciﬁc person:6
-’s:5
-
-strangers:5
+certain:6
+neutral:6
+median:6
+r:6
+responses:6
+track:6
+17:6
+12:6
+reason:6
+cases:6
+items:6
+request:6
+feature:6
+hours:6
+columbia:5
+16:5
 spend:5
-time:5
-21:5
-speciﬁc friends:5
-many users:5
+sites:5
+large:5
+22:5
+age:5
+partic-:5
+global:5
+hoc:5
 including:5
-situations:5
+future:5
 examine:5
-re-:5
-limited:5
+regulation:5
+11:5
+students:5
+2005:5
+since:5
 2006:5
-etc:5
-the amount:5
-related:5
-Concerns:5
-in-:5
+increase:5
+18:5
+unwanted:5
+threats:5
+parties:5
+political:5
+rather:5
 comments:5
+2008:5
+20:5
 managing:5
-inappropriately:5
-terms:5
 include:5
-among:5
-reports:5
+31:5
+stutzman:5
 2011:5
+case:5
+de-:5
+often:5
 collected:5
-information:5
-the scenarios:5
-rate:5
-each scenario:5
-select:5
+perceived:5
+second:5
+report:5
+instance:5
 whereas:5
-each participant:5
-their friends:5
-the following questions:5
-your extended family:5
-socialize:5
-10:5
+high:5
+sure:5
+participant’s:5
+eight:5
+1%:5
 represents:5
+times:5
+account:5
 opposed:5
-the neutral option:5
+accounts:5
+p:5
 ’re:5
-work:5
 knew:5
 13:5
+98:5
+longer:5
+update:5
 believe:5
-The study application:5
-users’ strategies:4
-their friend network:4
+proceedings:5
+egelman:4
 quantify:4
-their content:4
+likelihood:4
 already:4
 37%:4
 allow:4
 eﬀectively:4
+outsider:4
+security:4
+systems:4
 without:4
-2012:4
-22:4
-be-:4
+known:4
+24:4
+correctly:4
+ipants:4
+signiﬁcantly:4
 employ:4
 within:4
 across:4
+23:4
 create:4
 via:4
-an SNS:4
-university students:4
-status:4
+addition:4
+net-:4
+gross:4
+acquisti:4
+etc:4
+facebook’s:4
+later:4
 understand:4
-14:4
-the list:4
-audiences:4
 mentioned:4
-rather:4
+frequently:4
+third:4
+30:4
 example:4
 compared:4
-presence:4
+changes:4
+life:4
+interested:4
+co-presence:4
+communication:4
 focused:4
-26:4
 associated:4
 provide:4
-their friend:4
+ac-:4
+young:4
+quan-haase:4
+kramer-duﬃeld:4
 employed:4
-proﬁle:4
+curating:4
+possible:4
 unlikely:4
-the survey:4
+therefore:4
+subgroups:4
+api:4
 us:4
+correlations:4
 describing:4
-the photo:4
-FRIEND-NAME:4
-sure:4
-Friends:4
+activities:4
+means:4
+understanding:4
+friend-name:4
+25%:4
+picture:4
 actually:4
-ten posts:4
 posed:4
 listed:4
-Table 1:4
-ten:4
+95%:4
 though:4
 week:4
-times:4
-Figure:4
-since:4
+larger:4
+20%:4
 blocked:4
-most users:4
-private:4
-the sample:4
+numbers:4
+majority:4
+broad:4
+com-:4
+lower:4
+interface:4
 locate:4
-“indiﬀerent:4
-the participant:4
+victim:4
+conduct:4
+estimate:4
 slightly:4
-indiﬀerent:4
-a coworker:4
-the content:4
+97:4
+96:4
+diﬀerences:4
+91:4
 examined:4
-longer:4
-the lists:4
-at least one:4
-a friend request:4
-a person:4
+explanations:4
+descriptions:4
 describe:4
-Proceedings:4
-your Facebook friends:4
-Members:4
-Privacy:3
+way:4
+per-post:4
+b:4
+school/college/grad:4
+johnson:3
+edu:3
 toward:3
-shared:3
-the likelihood:3
+sensitivity:3
+unintended:3
 taken:3
-a speciﬁc friend:3
 raised:3
 conclude:3
-the outsider threat:3
-Security:3
-SNS:3
+factors:3
+design:3
+networking:3
+2012:3
+usa:3
 19:3
-this paper:3
+paper:3
 arise:3
-known:3
-24:3
-correctly:3
+25:3
+task:3
+particular:3
+goal:3
 designing:3
-their levels:3
+mechanism:3
 deny:3
-signiﬁcantly:3
+block:3
 accessing:3
+experience:3
 involve:3
 set-:3
-
 tings:3
-Speciﬁcally:3
-the threat:3
-the privacy:3
-our data:3
-our results:3
+subsets:3
+infor-:3
+mation:3
+sider:3
 suggest:3
+approach:3
+need:3
+dynamic:3
 satisfy:3
-the results:3
-online:3
-11:3
-2005:3
+available:3
+active:3
+three:3
 creating:3
 researchers:3
-features:3
-privacy controls:3
+actual:3
 match:3
-18:3
-the privacy settings:3
-unwanted audiences:3
+failure:3
+limitations:3
 cluded:3
-frequently:3
+employers:3
 posting:3
-30:3
+even:3
 expressed:3
-stranger:3
-addition:3
-participants’ friend networks:3
-group:3
-intended:3
+relatively:3
+gender:3
+interests:3
+total:3
+model:3
 noted:3
 maintaining:3
 attempted:3
-31:3
-curating:3
+previously:3
+upon:3
+techniques:3
+identiﬁed:3
+mechanisms:3
+wall:3
 adjusting:3
-
-friends:3
+separate:3
+29:3
+internet:3
 unfriended:3
-privacy settings:3
-possible:3
-all users:3
+oﬄine:3
+desired:3
+help:3
+range:3
 involved:3
 needed:3
-ﬁrst:3
-users’ privacy concerns:3
-Prior work:3
 enough:3
 designed:3
+improved:3
 prevent:3
 determine:3
 occur:3
+answer:3
 regard:3
-interested:3
-report:3
+scenar-:3
+ios:3
 ask:3
-often:3
 spent:3
-many:3
+law:3
+enforcement:3
+thieves:3
+predators:3
+instead:3
 happen:3
-these questions:3
-
-concern:3
-con-
+sense:3
 tent:3
-this section:3
-instance:3
-a participant:3
+ﬁne-grained:3
 restricted:3
+pre-:3
 measuring:3
-much:3
-your relationship:3
-Coworker:3
-the groups:3
-individual posts:3
-55:3
+college:3
 recorded:3
-nine:3
+83:3
 ranged:3
 σ:3
 order:3
 rely:3
-New York:3
+istrategylabs:3
+york:3
 day:3
-account:3
-0%:3
-20%  40%:3
-60%  80%:3
+overall:3
+40%:3
+60%:3
+80%:3
 accessible:3
 say:3
-a 5-point Likert scale:3
-participants’ concerns:3
-p:3
+84:3
+measured:3
+aforementioned:3
+random:3
+correlation:3
+mean:3
+negative:3
 <:3
-Responses:3
 browse:3
-the strategies:3
-com-:3
-a potential victim:3
+partici-:3
+pants:3
+public:3
 seeing:3
-your conduct:3
-therefore:3
-controls:3
+illegal:3
+46:3
 never:3
-these groups:3
+options:3
 applied:3
 shown:3
 claimed:3
-each group:3
+sampling:3
+smith:3
+340:3
 responded:3
 un-:3
-real life:3
-97.0%:3
-98.9%:3
+95:3
 represented:3
-that group:3
+follow-up:3
 discuss:3
+test:3
 choose:3
-custom lists:3
-lists:3
-95%:3
-a custom list:3
-school:3
-whose nine friends:3
-the ten content items:3
+600:3
+better:3
+needs:3
+ex-:3
+555:3
+372:3
+hierarchy:3
+analysis:3
+0005:3
+p<0:3
+past:3
 unsure:3
-deleting:3
-a Facebook friend:3
-later:3
+pro-:3
+circumstances:3
+more than half:3
+looking:3
+popular:3
 made:3
-the feature:3
+single:3
 highly:3
-a ‘friends:3
-12:3
-the problem:3
+world:3
 27:3
-, pages:3
-settings:3
-Less than 1 hour:3
+workshop:3
+society:3
+http://www:3
+f:3
+international:3
+conference:3
+ieee:3
+less than 1 hour:3
 1 and 2 hours:3
-2 and 4 hours:3
-4 hours:3
-how much time:3
-your immediate family:3
-a time:3
-interpersonal privacy:2
+anchor:3
+points:3
+it’s:2
+berkeley:2
+bellovin:2
 recruited:2
 install:2
-a
-Facebook application:2
-their privacy concerns:2
-the sensitivity:2
-their
-proﬁles:2
-the extent:2
-unintended audiences:2
-those concerns:2
-the same time:2
-16.5%:2
+compositions:2
+privacy-preserving:2
+se-:2
+lected:2
+extent:2
+concerning:2
+ability:2
+current:2
 become:2
-the context:2
-access control:2
+categories:2
+computing:2
+system:2
+protection:2
+human:2
 held:2
+digital:2
+part:2
 granted:2
-personal information:2
-age:2
+soups:2
 preferences:2
-25:2
+diﬃcult:2
 sur-:2
-pri-:2
-vacy settings:2
-the goal:2
-94.6%:2
-
-posts:2
-speciﬁc posts:2
-block:2
-our
-results:2
+conﬁguring:2
+type:2
+tion:2
+pieces:2
+94:2
 increasingly:2
 mitigated:2
-subsets:2
 allowing:2
-their proﬁle:2
 cope:2
 adequately:2
 observe:2
-preserving:2
+approaches:2
 discussing:2
-SNS usage:2
-(Section:2
+mitigation:2
+methodology:2
 execute:2
-Next:2
+next:2
+tech-:2
 niques:2
-our approach:2
-need:2
+shift:2
 adjusted:2
 ensure:2
-their interpersonal
-privacy:2
 interacting:2
-other users:2
+deﬁnition:2
+boundary:2
+process:2
 regulate:2
-their interactions:2
-dynamic:2
+interactions:2
+palen:2
+discussion:2
 contexts:2
-23:2
-prior
-work:2
-Despite:2
-real:2
-Privacy concerns:2
-Gross:2
-Acquisti:2
-the default settings:2
+qualitative:2
+despite:2
+multitude:2
+base:2
+membership:2
+06%:2
 introduced:2
-the increase:2
+ways:2
+overview:2
+evolution:2
+recent:2
 aware:2
-Facebook privacy settings:2
+ties:2
 experienced:2
-a failure:2
-Users:2
-the relationship:2
-vacy concerns:2
+krasnova:2
+berlin:2
+theme:2
+collection:2
+another:2
+tufekci:2
 disclosure:2
-a proﬁle:2
-gender:2
+static:2
+lampe:2
+imagined:2
 changing:2
-15:2
-increase:2
 attributed:2
-a social network:2
-users’ friend networks:2
 under-:2
+lampinen:2
 conducted:2
-co:2
 attempt:2
-context:2
 carefully:2
 selecting:2
-
-coworkers:2
+medium:2
+skeels:2
+grudin:2
+workplace:2
+contacts:2
+awareness:2
 limit:2
 protecting:2
 preventing:2
-
-users:2
-networks:2
 build:2
-upon:2
-social spheres:2
-29:2
-20:2
+previous:2
+generalizable:2
+bound-:2
+ary:2
+spheres:2
+snss:2
+besmer:2
+lipford:2
+pictures:2
+place:2
 remove:2
-Summary:2
-the case:2
+summary:2
+critical:2
+wide:2
 necessary:2
 addressed:2
 beneﬁt:2
+important:2
 suggests:2
-improved:2
+cess:2
+metrics:2
+problems:2
 currently:2
-their
-friend networks:2
+method:2
 chose:2
-the API:2
-speciﬁcally:2
-The survey:2
-the ﬁrst section:2
-par-
-ticipants:2
-the user:2
-the people:2
-other means:2
-Young:2
-Quan-Haase:2
+sections:2
+tions:2
+habits:2
+em-:2
 occurring:2
-a 5-point Likert
-scale:2
-participants’ levels:2
-The questions:2
-help:2
-a situation:2
-her friend network:2
-the frequency:2
-these concerns:2
-an understanding:2
-Face-
-book users:2
-the information:2
-college:2
-Friend:2
+situation:2
+manner:2
 throughout:2
-pre-:2
 sented:2
-5%:2
+18-24:2
+25-34:2
+female:2
+male:2
 75%:2
-25%:2
-The table:2
+sample’s:2
+ﬁctitious:2
 took:2
-their friend
-networks:2
-eight questions:2
-comfort:2
-each post:2
+fortable:2
+last:2
+researchmatch:2
+cruiting:2
+email:2
 requested:2
-demographics:2
-answers:2
+fake:2
+ﬁve:2
+completed:2
+surveys:2
+form:2
+detailed:2
+demographic:2
+statistics:2
+population:2
 undergraduates:2
+states:2
 13%:2
-68.8%:2
 said:2
-Overall:2
-The application:2
+newsfeed:2
+ure:2
+february:2
+45:2
+formation:2
+complete:2
 prohibited:2
-Additionally:2
+additionally:2
 partially:2
-these numbers:2
-measured:2
-a result:2
-prior work:2
-i.e.:2
+vast:2
+result:2
+ers:2
 involving:2
-private proﬁles:2
+statistically:2
 showed:2
-previously:2
-a stranger:2
-average:2
-the ten posts:2
+51:2
 performing:2
-whose posts:2
+deﬁne:2
 reporting:2
-
-
-Figure:2
 look:2
-ﬁnd new friends:2
-interface:2
-inappropriate content:2
-this context:2
+upload:2
+ﬁnd:2
 check:2
 viewable:2
-6.5%:2
-Thieves:2
-an inappropriate
-photo:2
+add:2
 assess:2
-your suitability:2
-the company:2
-Sexual predators:2
+suitability:2
+company:2
+sexual:2
 away:2
-A stranger:2
-Political parties:2
 target:2
-data mining:2
-Your university:2
-Law enforcement:2
-Concerned M:2
-62.7%:2
-55.0%:2
-a 5-point
-Likert scale:2
-The second
-column:2
-third:2
-the median rating:2
-each question:2
-median:2
-Stutzman:2
-Kramer-Duﬃeld:2
-friend network composition:2
-The choices:2
-a minority:2
+mining:2
+code:2
+violator:2
+62:2
+rating:2
+size:2
+long:2
+kelley:2
+choices:2
+minority:2
 increments:2
+75:2
+63:2
 categorize:2
-Alice:2
-Smith:2
-the friends:2
-42.6%:2
+alice:2
+category:2
+42:2
+remaining:2
 chosen:2
-the nine friends:2
-estimate:2
-a member:2
 felt:2
-a text
+text:2
 box:2
 explain:2
 immedi-:2
 ate:2
-Socialize:2
-Extended:2
-The majority:2
-Section 4.1.2:2
+explanation:2
+distinction:2
 cer-:2
+mcnemar’s:2
 yielded:2
 χ2:2
-these two groups:2
 examining:2
+small:2
 beyond:2
-A coworker:2
-A family member:2
-91.2%:2
-2,600:2
-groups:2
+given:2
 explained:2
-The groups:2
 depicts:2
 give:2
-partic-
-ipants:2
-participant:2
 basis:2
-the eight groups:2
+43:2
 positively:2
-identiﬁed:2
-uncomfortable sharing:2
+item:2
 consists:2
+unlike:2
 culling:2
-needs:2
-additional access:2
-LIST-NAME:2
-the explanations:2
-555 lists:2
+more than one:2
+list-name:2
+58:2
+themes:2
 67%:2
 categorized:2
 exclude:2
 unclear:2
-the custom lists:2
-Although:2
-friend:2
+although:2
+user’s:2
+multiple:2
+tests:2
 shar-:2
-diﬀerences:2
-immediate family:2
-this analysis:2
 realized:2
 appropriate:2
+individu-:2
+game:2
 unfriend:2
-Nearly:2
+nearly:2
 turned:2
 followed:2
-stop:2
-the circumstances:2
 untagged:2
 ’ve:2
+tagged:2
 spam:2
-some cases:2
-the request:2
-my kids:2
-looking:2
-The most popular reason:2
+kids:2
+party:2
 seem:2
--post:2
-the
-time:2
-the post:2
-a single status update:2
-an instance:2
-the
-global privacy settings:2
-the situations:2
-de-:2
-speciﬁc people:2
-the purpose:2
-means:2
-86.2%:2
-interpersonal sharing concerns:2
-lower:2
+clear:2
+purpose:2
+subset:2
+link:2
+implications:2
+unmitigated:2
+generalizability:2
+86:2
+ﬁle:2
+ﬁgure:2
+repre-:2
 bound:2
-Furthermore:2
+furthermore:2
 ment:2
-the privacy controls:2
-better:2
 self-censorship:2
-the posts section:2
-their concern:2
-
-privacy concerns:2
+types:2
+al-:2
 fail:2
 accurately:2
-the threat model:2
 contextual:2
-this problem:2
-17:2
-16:2
+first:2
 sent:2
+bias:2
 participate:2
 must:2
-A follow-up study:2
-the past:2
-the
-threat:2
-Instead:2
 communicate:2
-N. B. Ellison:2
-Journal of
-Computer-Mediated Communication:2
-M. Johnson:2
+communities:2
+technologies:2
+1975:2
+boyd:2
+ellison:2
+journal:2
+computer-mediated:2
 good:2
-growing:2
-demographic:2
-a case study:2
-NY:2
-USA:2
+cscw:2
+errors:2
+aspx:2
+revelation:2
+w:2
+th:2
+grouping:2
+identity:2
+ny:2
 right:2
-GROUP:2
-an online social network:2
-Proc:2
-IEEE:2
-each week:2
+proc:2
+nielsen:2
+month:2
+news:2
+friend’s:2
 suspected:2
-the proﬁles:2
-(parents/siblings:2
-Coworkers:2
-high school/college/grad school:2
-the comment:2
-Likert items:2
-a 5-point scale:2
-the
-anchor points:2
-What percentage:2
+parents/siblings:2
 gard:2
-high:2
-Complicated:1
-Maritza Johnson:1
-
-Columbia University:1
-maritzaj@cs.columbia.edu:1
-Serge Egelman:1
-
-UC Berkeley:1
-
-egelman@cs.berkeley.edu:1
-Steven M. Bellovin:1
-Columbia University:1
-smb@cs.columbia.edu:1
-ABSTRACT:1
-users’ attitudes:1
+publication:2
+stats:2
+complicated:1
+maritza:1
+maritzaj@cs:1
+serge:1
+uc:1
+egelman@cs:1
+steven:1
+smb@cs:1
+abstract:1
+attitudes:1
 rec-:1
 onciling:1
-their desire:1
+desire:1
 on-:1
-
 line:1
-260 Facebook users:1
 surveyed:1
-their friend network compositions:1
-posted
-content:1
-their privacy-preserving strategies:1
 targeted:1
-se-:1
-lected:1
-their “friends:1
-the most concerning audience:1
 almost 95%:1
 steps:1
-at least one post:1
-the
-ability:1
-more general con-:1
-
-cerns:1
-the current privacy controls:1
 unsuitable:1
 dynamically:1
-inappropriate
-audiences:1
-a post:1
-Categories:1
-Subject Descriptors:1
-K.6:1
-Management of Computing and Information:1
-Sys-:1
+subject:1
+descriptors:1
+sys-:1
 tems:1
-System Management:1
-Protection:1
-H.1.2:1
-[Models and Principles]: User/Machine Systems:1
-Human
-Factors:1
-General Terms:1
-Human:1
-Factors:1
-Design:1
-Keywords:1
-Social networking:1
-Copyright:1
-the author/owner:1
-Permission:1
+models:1
+principles:1
+user/machine:1
+keywords:1
+copyright:1
+author/owner:1
+permission:1
 make:1
-digital or hard
+hard:1
 copies:1
-part:1
-this work:1
-personal or classroom use:1
+classroom:1
 fee:1
-Symposium:1
-Usable Privacy:1
-(SOUPS:1
-July 11–13:1
-Washington:1
-DC USA:1
-INTRODUCTION:1
-an unprecedented amount:1
+symposium:1
+july 11–13 , 2012:1
+washington:1
+dc:1
+introduction:1
+unprecedented:1
 interact-:1
-social network sites:1
 uploading:1
-large
 quantities:1
-The dramatic
+dramatic:1
 growth:1
-SNS use:1
-a myriad:1
-privacy con-
-cerns:1
-the interpersonal privacy:1
+myriad:1
 man-:1
 expressing:1
 allowed:1
-posted content:1
-Access control management:1
-a diﬃcult:1
-
-problem:1
 end-users:1
-other domains:1
+domains:1
 prisingly:1
-the task:1
-correctly conﬁguring privacy controls:1
-a particular type:1
-access control management task:1
 reach:1
-many SNS users:1
-Knowing:1
-diﬃcult:1
-our research:1
+knowing:1
 furthers:1
-a more usable mechanism:1
 ginning:1
-the question:1
-share content:1
-what mitiga-
-tion strategies:1
+mitiga-:1
 constructed:1
-an interactive Facebook application:1
-survey:1
-speciﬁc pieces:1
-comfort sharing content:1
-randomly selected people:1
-many partic-
-ipants:1
-their proﬁle content:1
+interactive:1
 outside:1
-experience:1
-sharing concerns:1
-these
-concerns:1
-the existing access control:1
-
-sharing speciﬁc posts:1
-infor-
-mation:1
-global privacy settings:1
 helped:1
-the “in-
-sider threat:1
 necessity:1
 developed:1
-several ad hoc approaches:1
-in-
-terpersonal privacy:1
+terpersonal:1
 begin:1
-prior research:1
-
-prior studies:1
-SNS users’ privacy concerns:1
-mitigation
-strategies:1
-Section 2:1
-our methodology:1
-a description:1
-the Facebook applica-:1
-tion:1
+description:1
+applica-:1
 implemented:1
-
-
-data:1
-users experience:1
-the tech-:1
-Section 4:1
 demonstrate:1
-shift:1
 outsiders:1
-a new focus:1
-future research:1
 highlight:1
 aspects:1
-meaningful progress:1
-usable privacy controls:1
-BACKGROUND:1
-RELATED WORK:1
+meaningful:1
+progress:1
+background:1
 subscribe:1
-Altman’s deﬁnition:1
-equate inter-
-personal privacy:1
-an interpersonal boundary regulation
-process:1
-
-others:1
-Palen and Dourish’s discussion:1
-digital pri-:1
-
-vacy:1
+altman’s:1
+equate:1
+inter-:1
+dourish’s:1
 relevant:1
-speciﬁcally the point:1
+point:1
 requires:1
 constraints:1
 vary:1
-our discussion:1
-related work:1
-Facebook privacy:1
-the available privacy controls:1
 diﬃculties:1
-their attempts:1
-interper-
-sonal privacy:1
-qualitative studies:1
-SNS users’ privacy con-
-cerns:1
-The aggregate:1
-media reports:1
-a perplexing view:1
-the multitude:1
+attempts:1
+interper-:1
+sonal:1
+aggregate:1
+perplexing:1
 accompany:1
-
-SNS use:1
-active SNS users:1
 continues:1
 grow:1
 beneﬁts:1
 motivated:1
 lated:1
 grown:1
-the addition:1
-
-new features:1
-an expanding user base:1
-Originally:1
-Face-
-book membership:1
-the default privacy settings:1
+expanding:1
+originally:1
 conﬁgured:1
-net-
-work members’ access:1
-user content:1
-only 0.06%:1
-a university network:1
-three people:1
-Since:1
-many new sharing
 opportunities:1
-photo albums:1
+albums:1
 notes:1
 giving:1
-more ways:1
-more personal infor-
-mation:1
-a fertile ground:1
-an overview:1
-the evolution:1
-Facebook’s:1
+fertile:1
+ground:1
 light:1
-recent research results:1
 indicating:1
-users’ actual privacy
-settings:1
-their sharing intentions:1
+intentions:1
 particu-:1
 larly:1
 troubling:1
-These results:1
 conﬁrm:1
-earlier
-work:1
-Acquisti et al:1
-a signiﬁcant:1
+earlier:1
 minor-:1
 ity:1
-available:1
-A
-later study:1
-Egelman et al:1
 dif-:1
 ﬁculty:1
-conﬁguring:1
-task
 requirements:1
 laboratory:1
 setting:1
-the diﬃcul-:1
-ties:1
-the limitations:1
-2.1:1
-categories:1
-SNS privacy concerns:1
-Krasnova:1
-et al:1
-focus groups:1
-Berlin:1
-Facebook use:1
-The most fre-
-quent theme:1
-
-shared content:1
-future employers:1
+diﬃcul-:1
+fre-:1
+quent:1
 supervisors:1
 peers:1
 subordinates:1
-“organizational threats:1
-the collection:1
-their data:1
-the SNS provider:1
-third parties:1
-social threats:1
-another common theme:1
-con-
-cerns:1
+organizational:1
+provider:1
 purposefully:1
 harm:1
-the individual:1
-general concern:1
-a lack:1
-control:1
-the actions:1
-Tufekci:1
+lack:1
+actions:1
 investigated:1
-users’ pri-:1
-no relationship:1
-Even users:1
-many
-privacy concerns:1
 divulged:1
-large amounts:1
-personal infor-
-mation:1
-the relatively static ﬁelds:1
+amounts:1
+ﬁelds:1
 sex:1
 religion:1
-political aﬃliation:1
-interests:1
-favorite
+aﬃliation:1
+favorite:1
 books:1
-dynamic content:1
 sta-:1
-a three year longitudinal study:1
-Lampe et al:1
-imagined:1
-signiﬁcantly more users:1
+three year:1
+longitudinal:1
 expected:1
-49%:1
-70%:1
-Similarly:1
-more students:1
+49% to 70%:1
+similarly:1
 thought:1
-total:1
 24%:1
 14%:1
-the changes:1
 attitude:1
-the
-evolution:1
-Facebook’s sharing features:1
-default privacy
-settings:1
-The shift:1
-universi-
-ties:1
+universi-:1
 everyone:1
 forced:1
 adapt:1
-a new model:1
 suddenly:1
-other
-life stages:1
+stages:1
 classmates:1
-Interested:1
 standing:1
-the tensions:1
-a heterogeneous friend
-network:1
-Lampinen et al:1
-20 semi-structured in-
+tensions:1
+heterogeneous:1
+semi-structured:1
 terviews:1
-their meth-
+meth-:1
 ods:1
 fear:1
-a boss:1
+boss:1
 acquaintance:1
-some-
+some-:1
 thing:1
 embarrassing:1
 avoid:1
-these situations:1
-self-
+self-:1
 censorship:1
-a suitable
-communication medium:1
-Skeels:1
-Grudin:1
+suitable:1
 studied:1
-the dynamics:1
-group co-:1
-
+dynamics:1
+co-:1
 presence:1
-the workplace:1
 trouble:1
 coping:1
-the co:1
-other contacts:1
-an SNS friend network:1
-Many participants:1
-the burden:1
-con-:1
+burden:1
 stantly:1
-an awareness:1
-the two groups:1
-their audience:1
-the need:1
-select content:1
-relationship:1
-These studies:1
-a strong foundation:1
-the obser-
+strong:1
+foundation:1
+obser-:1
 vation:1
-simply a matter:1
-ac-
-cessing proﬁles:1
+simply:1
+matter:1
+cessing:1
 unaware:1
-any large-scale
-studies:1
-previously
-posted content:1
-previous work:1
+large-scale:1
 recruiting:1
-a more generalizable
-sample:1
-a particular institution:1
-2.2 Strategies for Mitigating Privacy Concerns
-:1
-their privacy
-concerns:1
-many techniques:1
-the oﬃcial
-
-privacy controls:1
-Young and Quan-Haase identiﬁed bound-
-ary regulation mechanisms:1
-deleting tags:1
-direct messages:1
-Stutzman and
-Kramer-Duﬃeld:1
+institution:1
+oﬃcial:1
+tags:1
+direct:1
+messages:1
 supplemen-:1
-tal privacy preserving behaviors:1
-the posts:1
-their wall:1
+tal:1
 collaboratively:1
-SNS behavior:1
-a “friends:1
-Several papers:1
+papers:1
 conﬂict-:1
-separate proﬁles:1
 limiting:1
-a
-communication medium:1
-separate SNSs:1
-diﬀerent
-audiences:1
-PEW Internet:1
+diﬀerent:1
+pew:1
 63%:1
 removed:1
-
-network:1
 the 56%:1
-The same
-survey:1
-deleting and untagging posts:1
-common:1
-all user demographics:1
-Some users:1
 resort:1
-their oﬄine behavior:1
 mit-:1
 igate:1
-a study:1
-Besmer:1
-Lipford:1
-their
-oﬄine:1
-online behavior:1
-their privacy con-
-cerns:1
 avoiding:1
-their pictures:1
-the ﬁrst place:1
-untagging photos:1
-2.3:1
-Usable privacy controls:1
-critical:1
-bound-:1
-
-ary regulation process:1
-some
-users:1
 achieve:1
-their desired privacy:1
-the help:1
-
-technical mechanisms:1
+technical:1
 considering:1
-the wide range:1
-the overhead:1
-ad hoc techniques:1
-Usable
-privacy controls:1
+overhead:1
 thorough:1
 understand-:1
-the de-
 sign:1
 optimize:1
-the
-number:1
 leaves:1
-an important question:1
 unanswered:1
-which privacy concerns:1
 rampant:1
 ought:1
-the controls:1
-be-
 haviors:1
 prevalent:1
 motivate:1
-the design:1
-new
-privacy controls:1
 demonstrated:1
-the wide
-range:1
-their
-concerns:1
-a number:1
-techniques:1
-the access controls:1
-the existing ac-
-cess controls:1
 unreasonable:1
 expect:1
-an access control mechanism:1
-all
-users:1
-ever sharing content:1
-Therefore:1
-metrics:1
-how often problems:1
-an acceptable failure rate:1
-our study:1
-answer:1
+acceptable:1
 former:1
-METHOD:1
-Facebook users’ interpersonal pri-:1
-speciﬁc subgroups:1
-Face-
-book:1
-the functionality:1
-the large user base:1
+functionality:1
 instrumented:1
-a Face-
-book application:1
 enabled:1
 pose:1
-
-real proﬁle data:1
-their use:1
-Facebook’s pri-:1
-vacy:1
 rounding:1
-their posted content:1
-3.1 Survey Content:1
-three sections:1
-general questions:1
-their Facebook
-usage:1
 compute:1
-correlations:1
-perceived privacy risks:1
-the second section:1
-general scenar-
-ios:1
-common unwanted audiences:1
-Finally:1
-the third section:1
-ques-
-tions:1
-individual Facebook friends:1
-shared posts:1
-3.1.1:1
-General:1
-Usage:1
-participants’ Facebook habits:1
-the activities:1
+risks:1
+finally:1
+ques-:1
 engage:1
-each activity:1
+activity:1
 controlling:1
-3.1.2:1
-Unwanted Audiences:1
-Previous work:1
-the perceived likeli-:1
+likeli-:1
 hood:1
-speciﬁc audiences:1
-e.g., em-
 ployers:1
-law enforcement:1
-thieves:1
-political parties:1
 sex-:1
-ual predators:1
+ual:1
 reused:1
-instead:1
 guess:1
-the scenario:1
-the general sense:1
-similar questions:1
-3.1.3:1
-Incorporating:1
-Proﬁle Data:1
-the ﬁnal section:1
-the Facebook
-API:1
-participants’ proﬁles:1
+incorporating:1
+ﬁnal:1
 incorporated:1
-that content:1
 ascertain:1
-the composition:1
-participants’
-friend networks:1
-the perceived level:1
-sensitivity:1
-speciﬁc instances:1
-participants’ posts:1
-a speciﬁc photo:1
-her friends:1
-net-:1
-
-work:1
-
-ﬁne-grained control:1
+instances:1
 particularly:1
 anything:1
 granular:1
-this manner:1
-which privacy violations:1
-pre-
-vious work:1
+violations:1
+vious:1
 qualitatively:1
-privacy
-concerns:1
-the like-
+like-:1
 lihood:1
 fruition:1
-nine ran-:1
-domly selected friends:1
+about nine:1
+ran-:1
+domly:1
 gain:1
-the members:1
-
-access:1
-their proﬁle information:1
-these friends:1
-
-
-General Friends Posts:1
-Member:1
-your immediate family
-Member:1
-high school:1
-grad school:1
-Stranger:1
-common Facebook audi-
+grad:1
+audi-:1
 ences:1
-‘General:1
-the
-groups:1
-a question:1
-general friend net-
-work composition:1
-the classiﬁcation:1
-individual friends:1
-Posts:1
-Sample Facebook:1
-Age:1
-18-24:1
-25-34:1
+classiﬁcation:1
 35-54:1
 +:1
-Gender
-
-female
-male:1
 16%:1
 48%:1
 31%:1
-25%
-
-25%:1
 30%:1
 11%:1
 55%:1
 43%:1
-Comparison:1
-demograph-
+comparison:1
+demograph-:1
 ics:1
-the demographics:1
-iStrategy-
-Labs.com:1
-only the age groups:1
-iStrategyLab’s num-
+istrategy-:1
+labs:1
+istrategylab’s:1
+num-:1
 bers:1
-total 98%:1
-2%:1
+98%:1
 unknown:1
 diligent:1
-a ﬁctitious friend:1
-whose proﬁle picture:1
-a free
-stock photo archive:1
-ten
-friends:1
-the tenth:1
+free:1
+stock:1
+archive:1
+tenth:1
 assigned:1
-male:1
-female:1
-ﬁctitious:1
-person.1:1
-the type:1
-a user:1
-uncom-
-fortable sharing:1
-the participant’s proﬁle:1
-The
-audiences:1
-this set:1
-the last
-column:1
-3.2 Participants:1
-ResearchMatch:1
-a website:1
+uncom-:1
+website:1
 pairs:1
-potential participants.2:1
-The re-
-cruiting email:1
 mention:1
-a twenty minute survey:1
-their Facebook
-usage habits:1
+twenty:1
+minute:1
 compensation:1
 entered:1
-1The fake proﬁle picture:1
 appeared:1
-the ﬁfth:1
-83.1%:1
-this person:1
-95% CI:1
-78.0:1
-87.2:1
-no correlations:1
-usage:1
-thus:1
+ﬁfth:1
+78:1
+87:1
 analyze:1
-2www.researchmatch.org/about/
-
-Figure:1
-Estimated time:1
-a drawing:1
-ﬁve $100 gift cards:1
+www:1
+org/about/:1
+estimated:1
+drawing:1
+$:1
+gift:1
+cards:1
 received:1
-completed surveys:1
-260 respondents:1
+respondents:1
 ages:1
 18-62:1
 µ:1
-33.8:1
-10.6:1
+33:1
 remotely:1
 communicated:1
-email:1
-application.3:1
-The re-
-cruiting material speciﬁed:1
+material:1
+speciﬁed:1
 quired:1
-a Facebook application:1
-par-:1
 ticipate:1
-Prior:1
 encountering:1
-the installation dialog:1
-all
-potential participants:1
+installation:1
+dialog:1
 reviewed:1
-a consent form:1
-the research:1
-our data collection and storage policies:1
+consent:1
+storage:1
+policies:1
 minimized:1
 risk:1
-the appli-
+appli-:1
 cation:1
 require:1
-only the permissions:1
+permissions:1
 minimizing:1
 retaining:1
-the shortest time:1
+shortest:1
 tained:1
-the survey questions:1
 temporarily:1
 stored:1
-the Facebook identiﬁers:1
-
+identiﬁers:1
 uniqueness:1
-uninstallation instructions:1
+uninstallation:1
+instructions:1
 completion:1
 publish:1
-detailed demographic data:1
-the statistics:1
-iStrategyLabs:1
-their most recent demographics report:1
 released:1
-June 2010:1
+june 2010:1
 closely:1
 resembles:1
-the larger Facebook
-population:1
 underrepresent:1
-the 18-24
-group:1
 overrepresent:1
-the 25-34 age group:1
-Table 2:1
-Our underrepresentation:1
-younger users:1
+underrepresentation:1
+younger:1
 contrast:1
-the related work:1
 youths:1
 participation:1
-the
-United States:1
-several
-states:1
-Alabama:1
-Minnesota:1
-(10%:1
-California:1
-9%:1
-Approximately 50%:1
-completed:1
-at least some college:1
-several:1
-very few participants:1
+united:1
+alabama:1
+minnesota:1
+10%:1
+california:1
+approximately 50%:1
+68:1
 log:1
-the
-participants:1
-their Facebook:1
-more than
-two years:1
-77.3%:1
-speciﬁc activities:1
+more than two years:1
+77:1
 reading:1
-the newsfeed:1
-new posts:1
 browsing:1
-friends’ proﬁles:1
-Fig-:1
-ure:1
-general:1
-more time:1
+fig-:1
 consuming:1
-RESULTS:1
-February to April 2011:1
+april 2011:1
 exam-:1
-
-ine Facebook users’ privacy concerns:1
-
-strategies:1
+ine:1
 concern-:1
-3Columbia University IRB protocol:1
-#AAAI1077:1
-100%Reading:1
-newsfeedCreating:1
-new postsBrowsing posts:1
-eachLess than 1 hour1−2 hours2−4:1
-hoursMore than 4 hours:1
-Almost half:1
-45.4%:1
-no in-
-formation:1
-be-
-yond complete strangers:1
-certain subsets:1
-certain content:1
-Facebook’s default privacy settings:1
+irb:1
+protocol:1
+aaai:1
+1077:1
+100%reading:1
+newsfeedcreating:1
+postsbrowsing:1
+eachless:1
+1 hour 1−2 hours:1
+2−4:1
+hoursmore than 4 hours:1
+almost half:1
+yond:1
 deﬁnitively:1
 actively:1
-this
-content:1
-changes:1
-de-
-fault settings:1
-the
-vast majority:1
-either pho-:1
+fault:1
+pho-:1
 tos:1
-84.6%:1
-both photos:1
-4.1.2:1
-Broad Scenarios:1
-general privacy concerns:1
-ten scenar-:1
-ios:1
 dicate:1
 mark-:1
-
-ers:1
-neutral:1
-measured participants’ level:1
 hap-:1
 pen:1
-similar scenarios:1
-users’ belief:1
+belief:1
 tak-:1
-ing place:1
-The set:1
 depicted:1
-Table 3:1
 presents:1
-each scenario,4:1
-the median:1
 rank-:1
-the Likert scale:1
-Twenty-eight participants:1
-10.8%:1
-the scenar-:1
-
-ios:1
-85.7%:1
-those participants:1
-a
-private proﬁle:1
-neither photos:1
+twenty-eight:1
+10 . 8%:1
+85:1
+neither:1
 walls:1
-no statistically signiﬁcant correla-
-tions:1
-pri-
-vate proﬁles:1
+correla-:1
 hypothesize:1
-four:1
-1.5%:1
-4.1.3:1
-Speciﬁc Concerns:1
-The aforementioned scenarios:1
+only four:1
 plausible:1
-vari-
-ous media accounts:1
+vari-:1
+ous:1
 aﬀect:1
-a more realistic view:1
-how often Facebook users
-share content:1
-ten
-random pieces:1
-status
-updates:1
-each piece:1
-
-“indiﬀerent:1
-only 48 participants:1
-18.5%:1
-all ten posts:1
-a com-
-plete stranger:1
-51.6%:1
-Upon:1
-a Pearson
-correlation:1
-participants’ mean levels:1
+realistic:1
+piece:1
+only 48:1
+plete:1
+pearson:1
 av-:1
 eraged:1
-a statistically signiﬁcant negative
-correlation:1
-(r = −0.141:1
-0.023:1
-lower average rates:1
-4We deﬁne concern:1
-Answers:1
+−0:1
+141:1
+023:1
+rates:1
 correspond:1
-upload photos:1
-
-friends’ photos:1
-proﬁles:1
-ing threat:1
-participants’ privacy:1
 comes:1
 fears:1
-the vast majority:1
 successfully:1
 navigate:1
-the
-privacy settings:1
-this concern:1
-certain subgroups:1
 prepared:1
 deal:1
-these threats:1
-problems:1
-the intermingling:1
-“friends:1
+intermingling:1
 diﬀering:1
-e.g., work:1
-Partici-
-pants:1
-a variety:1
-ad hoc approaches:1
+variety:1
 completely:1
-par-
-ticipants’ strategies:1
-their
-content:1
 disclosures:1
-spe-
-ciﬁc examples:1
+spe-:1
+ciﬁc:1
+examples:1
 call:1
-“the in-
-sider threat:1
 involves:1
-the compositions:1
-speciﬁc
-subgroups:1
-4.1 Stranger Danger:1
-4.1.1:1
-Strategies:1
-Block Strangers:1
-the survey application:1
-proﬁle information:1
-all Facebook users:1
-(i.e., the number:1
-any access control:1
+danger:1
 checked:1
-the visibility:1
-partic-:1
-ipant:1
-wall:1
-her photos:1
-• 14.2%:1
-a public wall:1
-a public photo album:1
-• 53.8%:1
+visibility:1
+ipant’s:1
+album:1
+53:1
 ments:1
-public:1
-Add:1
-photosView:1
-photosBrowseFind:1
-eachNeverSometimesAlways:1
-100%Look:1
-Scenario:1
-a
-potential victim:1
+photosview:1
+photosbrowsefind:1
+eachneversometimesalways:1
+100%look:1
 ads:1
-a university code violator:1
-
-drug use:1
-other illegal activities:1
-51.9%:1
-46.2%:1
-44.6%:1
-40.8%:1
-30.4%:1
-20.0%:1
-17.3%:1
-One interpretation:1
+4 68:1
+44:1
+40:1
+interpretation:1
 happening:1
-The corol-
+corol-:1
 lary:1
-4.2:1
-The Insider Threat
-
-4.2.1 Friend Network Composition
-
-:1
-Our sample’s average friend network size:1
-357 friends:1
+357:1
 291:1
-range:1
 3280:1
-319.5:1
-larger:1
-the statistic:1
-the average
-user:1
-130 friends:1
-this discrepancy:1
+319:1
+statistic:1
+130:1
+discrepancy:1
 indicative:1
-a very long tail:1
-the average
-network size:1
-add:1
+tail:1
 handful:1
-their accounts:1
-only active users:1
-Our numbers:1
 consistent:1
-other academic studies:1
-active Facebook
-users:1
-Kelley et al:1
-a median:1
-222
-friends:1
-an average:1
-
-401 friends:1
-an
-average:1
-over 400 friends:1
+academic:1
+222:1
+401:1
+over 400:1
 get:1
-a general sense:1
 instructed:1
-all options:1
-this
-question:1
-the ﬁrst column:1
-the other ﬁve
-groups:1
 over 80%:1
-a broad overview:1
-What
-percentage:1
-your friend network:1
 0-100%:1
-you friends:1
-75.4%:1
-26.3:1
 90%:1
-the 55 people:1
 an-:1
 swered:1
 50%:1
 only 35:1
-63.6%:1
 modiﬁed:1
-their privacy settings:1
-their
-friends:1
 validated:1
-participants’ perceptions:1
-their friend
-network composition:1
-a random
-sampling:1
-nine people:1
-each participant’s friend network:1
-each selected friend:1
-Alice’s proﬁle
-picture:1
-one category:1
-the ‘Friends’ column:1
-A plurality:1
-
-school:1
-2,340:1
-The remaining groups:1
-immediate family members:1
-frequently.5:1
-the cate-
+perceptions:1
+alice’s:1
+plurality:1
+cate-:1
 gorization:1
-the average
-composition:1
-the
-frequency:1
-the ‘Frequency’
-column:1
-Table 4:1
 hypothesized:1
 labeling:1
-in-
-dividual friends:1
+dividual:1
 discover:1
-net-
 works:1
 contained:1
-more groups:1
 remembered:1
-How-:1
+how-:1
 none:1
-the nine
-randomly selected friends:1
-a group:1
-a
-participant:1
-the ﬁrst part:1
-the
-survey:1
-large:1
-the
-composition:1
 cat-:1
 egorize:1
-that friend:1
 view-:1
-all the content:1
-Partic-
-ipants:1
 optionally:1
-their responses:1
-deﬁne:1
-the rest:1
-mean participants:1
+rest:1
 consider:1
-5This:1
 says:1
-the not sure category:1
 infrequently:1
-only a limited number:1
-
-immediate family members:1
-relatively:1
 speaking:1
-100%ImmediateExtendedCoworkersSchoolThru:1
-FriendsNot Met %:1
-eachSchool:1
-
-Immediate family:1
-Frequency Participants Comfort:1
-96.9%:1
-95.4%:1
-95.2%:1
-98.0%:1
-75.0%:1
+100%immediateextendedcoworkersschoolthru:1
+friendsnot:1
 88%:1
-57.3%:1
+57:1
 45%:1
-48.5%:1
-20%:1
-14.2%:1
-15.4%:1
-12.4%:1
-11.1%:1
-9.4%:1
-5.3%:1
-2.1%:1
-1.7%:1
-responses:1
-individual
-friends:1
-‘Frequency:1
-the sampling:1
-
-2,340 friends:1
-i.e., nine friends:1
-260 par-
-ticipants:1
-the frequency column:1
-‘Comfort:1
-selected friends:1
-the
-selected friends:1
-79.2%:1
-their
-proﬁle:1
-3.3%:1
-the 2,340 selected friends:1
-number:1
+48:1
+79:1
+3 .:1
 corresponds:1
-54 unique participants:1
-a follow-up question:1
+54:1
+unique:1
 prompt:1
-an explanation:1
-this data:1
-Section 5:1
-two additional scenarios:1
-similar:1
-the ﬁrst ten scenarios:1
+section 5:1
 centered:1
 around:1
 appear:1
-par-
-ticipants’ friend networks:1
-the additional scenarios:1
-known
 recipients:1
-employers:1
-cowork-
-ers:1
-the distinction:1
-
-employers:1
+cowork-:1
 latter:1
-management positions:1
-the ability:1
+positions:1
 hire:1
 ﬁre:1
 apart:1
-participants’ social circles:1
+circles:1
 tainty:1
-this distinction:1
 apparent:1
-all participants:1
-However, McNemar’s test:1
-participants’ concern:1
 lev-:1
-
 els:1
-an employer:1
-an inap-
-propriate photo:1
+inap-:1
+propriate:1
 statis-:1
-tically signiﬁcant diﬀerences:1
-9.50:1
-0.002:1
+tically:1
+50:1
+002:1
 indicates:1
 diﬀer-:1
 ently:1
-the prospect:1
-5.80:1
-0.016:1
+prospect:1
+80:1
+016:1
 per-:1
 formed:1
-Phi correlations:1
-participants’
-concerns:1
+phi:1
 correlated:1
-no signiﬁcant correlations:1
-both coworkers:1
-a correlation:1
-small:1
-our relatively large sample:1
-either case:1
-roughly:1
-half:1
-these scenarios:1
-Table 5:1
-ways:1
-friend networks:1
-Scenario:1
-46.5%:1
-Immediate:1
-School
-Friend:1
-Stranger
-
-Posts Participants:1
-99.0%:1
-96.5%:1
-95.0%:1
-98.8%:1
-90.0%:1
-97.2%:1
-83.9%:1
-72.3%:1
-91.6%:1
-55.4%:1
-84.4%:1
-individual
-posts:1
-Columns:1
+roughly half:1
+4 55:1
+99:1
+90:1
+72:1
+columns:1
 depict:1
-percentage:1
-given:1
-partici-
-pants:1
-the given groups:1
-4.2.2:1
-Speciﬁc Content:1
-Access control decisions:1
+decisions:1
 typically:1
 phrased:1
-a particular resource:1
-this reason:1
-
-speciﬁc posts:1
-Section 4.1.3:1
-each participant’s proﬁle:1
-perceived:1
-the
-form:1
-the last column:1
-an optional explanation:1
+resource:1
+optional:1
 comfort-:1
 respec-:1
 tively:1
-comfort sharing:1
-their ten posts:1
-the various groups:1
-The ﬁrst column:1
-the table:1
-the total percentage:1
-an accurate representation:1
-sensitive content:1
-the second
-column:1
-this information:1
-all ten randomly se-
-lected posts:1
+various:1
+accurate:1
+representation:1
+sensitive:1
+per-participant:1
 op-:1
 versus:1
-the eight
-groups:1
-McNemar’s test:1
-each pair:1
-Table 1
+pair:1
 together:1
-43 participants:1
-at least one content item:1
 quantitatively:1
-the
-friend network:1
-varying subgroups:1
+varying:1
 always:1
-Unlike:1
-its con-
 tents:1
-set:1
 employing:1
-ﬁne-grain privacy settings:1
-any other strategies:1
+ﬁne-grain:1
 restrict:1
-certain groups:1
-
 individuals:1
-4.3 Strategies for Mitigating Concerns:1
-qualitative surveys:1
 anec-:1
-dotal experience:1
-a multitude:1
-tech-:1
-their interpersonal privacy:1
-the actual privacy settings:1
-deleting posts:1
-untagging posts:1
-delete posts:1
-more than one ac-
+dotal:1
 count:1
-a better understanding:1
-SNS users’
-privacy management:1
 collecting:1
-the in-
 stances:1
-these privacy preserving behaviors:1
-em-:1
 ployed:1
-our survey:1
-each technique:1
-an ex-
+technique:1
 planation:1
-
-
-4.3.1 Custom Friend Lists:1
-Custom friend lists:1
 subdivide:1
 conﬁgure:1
-ﬁne-grained privacy
-settings:1
 accessed:1
-each participant’s set:1
-cus-
-tom friend lists:1
-the Facebook API:1
-each list:1
-the custom list:1
-Our sample:1
-555 custom
-friend lists:1
-at least one list:1
-52.3%:1
-46.3:1
-58.3:1
-three
-themes:1
+cus-:1
+tom:1
+52:1
 emerged:1
-100 lists:1
 18%:1
-372:1
-other features:1
-83:1
-reasons:1
 remem-:1
 ber:1
 15%:1
-Approximately a quarter:1
-privacy reasons:1
-23.8%:1
-the privacy lists:1
-Exclusive:1
-the 100
-privacy lists:1
-Inclusive lists:1
-additional
-access:1
+approximately:1
+quarter:1
+exclusive:1
+inclusive:1
 17%:1
-the 100 privacy lists:1
-some
-cases:1
-the intended use:1
-8%:1
-the
-100 privacy lists:1
-separate:1
-
-groups:1
 diﬀerentiate:1
-contacts:1
 closeness:1
-A
-few users:1
-24 lists:1
-14 lists:1
-other Facebook features:1
-136
-participants:1
-The descriptions:1
+136:1
 generic:1
-66.1%:1
-
-372 lists:1
-these lists:1
-
-vacy reasons:1
-the names:1
-descriptions:1
+66:1
+names:1
 insight:1
-network composition:1
-the user’s many
-social identities:1
-shared interests:1
-activities:1
+identities:1
 location:1
-The hierarchy:1
-participants’ comfort:1
-all ten randomly selected posts:1
-the Holm-Bonferroni correction:1
-multiple tests:1
-these tests:1
+holm-bonferroni:1
+correction:1
 partition:1
-signiﬁcant
-diﬀerences:1
-This hierarchy:1
 seen:1
-ex-:1
 pected:1
-complete strangers:1
-any other group:1
-most comfortable sharing:1
-signiﬁcant:1
-
-extended family:1
-no signiﬁcant:1
 tween:1
 consolidated:1
-our hierarchy:1
-four discrete levels:1
+four:1
+discrete:1
 step:1
 detect:1
-speciﬁc groups:1
-those groups:1
-the ten aforementioned posts:1
-the nine aforementioned friends:1
 performed:1
-individu-
 ally:1
-extended family:1
-117 (12.0%:1
-one coworker:1
+117:1
 37:1
-(2.7%:1
-one immediate family member:1
 125:1
-7.2%:1
-one extended family member:1
 uncomfort-:1
-able sharing:1
-
-extended family members:1
-metImmediate:1
-familyExtended:1
-familySchoolSocialize:1
-withStrangerCoworkerp<0.0005p<0.001Friend:1
-a friendSocialize withp<0.004p<0.0005p<0.0005:1
-Several participants:1
-group friends:1
+metimmediate:1
+familyextended:1
+familyschoolsocialize:1
+withstrangercoworkerp<0:1
+001:1
+friendsocialize:1
+withp<0:1
+004:1
 play:1
-the same Facebook game:1
 ﬁlter:1
-their newsfeed:1
-their chat list:1
-14.7%:1
-6.7%:1
-the
-372 lists:1
+chat:1
 respectively:1
-4.3.2:1
-Curating:1
-the Friend Network:1
-a friend relationship:1
 reciprocal:1
-a privacy preserving
-behavior:1
-The options:1
-every participant:1
-past:1
-96.2%:1
-their
-reasons:1
-The most common answer:1
-the
-person:1
+every:1
 211:1
-(129
-times:1
-Most participants:1
-at least one person:1
-69.6%:1
-A commonly selected reason:1
-no longer friends:1
-Forty-ﬁve participants:1
-the forty-six explanations:1
-pro-:1
+129:1
+69:1
+commonly:1
+forty-ﬁve:1
+forty-six:1
 vided:1
-twenty-ﬁve participants:1
+twenty-ﬁve:1
 wished:1
+stop:1
 kept:1
-
-negative or critical things:1
+things:1
 relent:1
-their political
 views:1
 exactly:1
 opposite:1
 agree:1
-their posts:1
-4.3.3 Control:1
-Deletion:1
-the data:1
-‘untagging’ posts:1
-a set:1
-untagging:1
-a privacy preserving
-manner:1
-Each question:1
-the format:1
-all the reasons:1
-the options:1
-your-
+deletion:1
+format:1
+your-:1
 self:1
-Over half:1
-58.5%of:1
-the par-
-ticipants:1
-sixty-two descriptions:1
-the de-
+over half:1
+5%of:1
+sixty-two:1
 scriptions:1
 reputation:1
-image management:1
-the
-picture:1
+image:1
 looked:1
 bad:1
 making:1
-a very unattrac-
-tive face:1
+unattrac-:1
 party-:1
-ing/drinking:1
-tagged:1
-More than half the participants:1
+ing/drinking/etc:1
 aﬃrmatively:1
-60.8%:1
-The explanations:1
+60:1
 varied:1
-a relative:1
-other cases:1
+relative:1
 preserve:1
-the
-pictures:1
 oﬀ:1
 think:1
 weird:1
-random people:1
-About one-ﬁfth:1
-22.3%:1
+one-ﬁfth:1
 getting:1
 drunk:1
-a party:1
-a status
-update:1
-More than half:1
-(65.4%:1
+65:1
 decided:1
 stupid:1
 written:1
-personal:1
-the way:1
-4.3.4:1
-Control:1
-Per-Post Privacy Settings:1
 providing:1
-global access control settings:1
-
-Facebook:1
 allows:1
 customize:1
-a drop-down menu:1
-the 92 participants:1
-the ex-:1
+drop-down:1
+menu:1
+92:1
 planations:1
-clear:1
-only 47 participants:1
-18.1%:1
-45:1
+only 47:1
 conﬂated:1
-feature:1
 coded:1
-the 47 participants:1
+47:1
 sired:1
 specify:1
-Thirty-one answers:1
-
+thirty-one:1
 exclusivity:1
-conservative friends:1
-status updates:1
-inappropriate:1
+conservative:1
 talking:1
-my roommates:1
+roommates:1
 hidden:1
 announce:1
-a surprise:1
-party:1
-Fourteen answers:1
-some subset:1
-a personal link regard-:1
-a vacation:1
-a speciﬁc group:1
-The remaining descriptions:1
+surprise:1
+fourteen:1
+regard-:1
+vacation:1
 unspeciﬁed:1
 ambiguous:1
-4.3.5:1
-Multiple:1
-Accounts:1
-the terms:1
-service mandate:1
-each person:1
-at most one account:1
-twenty-two participants:1
-8.5%:1
-two or more accounts:1
-Among:1
-, sixteen cited
-reasons:1
+service:1
+mandate:1
+twenty-two:1
+sixteen:1
+cited:1
 divid-:1
-ing friends:1
-game friends:1
-their
-professional and social lives:1
-
-
-IMPLICATIONS:1
-Our results:1
+professional:1
+lives:1
 contribute:1
-Facebook
-users’ privacy concerns:1
-inappropriately
-sharing content:1
-Many
-users:1
-i.e., proﬁles:1
 visi-:1
-default:1
 manually:1
-these settings:1
 go:1
-unmitigated:1
-the implications:1
-the limi-
+limi-:1
 tations:1
-generalizability:1
-our work:1
-future work:1
-5.1:1
-Concerned:1
-Strangers:1
-Many:1
-Effectively:1
-Mitigate:1
-Their Concern:1
+effectively:1
 evidence:1
-the possibility:1
-an outsider:1
-their shared content:1
+possibility:1
 fact:1
-the broad scenarios:1
 elicited:1
-the highest concern:1
-most participants’ friend networks:1
-Table 3 and Figure:1
-Table 4).6:1
-89.2%:1
-(232 of 260 indicated concern:1
-This ﬁg-
-ure:1
-the general scenarios:1
-this
-set:1
-concerned participants:1
-84.5%:1
-a private proﬁle:1
-overall:1
-15.5%:1
-our
-participants:1
-the available pri-:1
-
-vacy controls:1
-Put:1
-another way:1
+highest:1
+89:1
+232:1
+ﬁg-:1
+put:1
 224:1
-81.4:1
-91.1:1
-the stranger threat:1
+81:1
 opting:1
-only’
-proﬁle:1
-more than half:1
-their participants:1
-only’ pro-:1
-
-ﬁle:1
-a signiﬁcant increase:1
 adoption:1
-2005 observation:1
-0.06%:1
-their
-sample:1
-only’ proﬁle:1
-the existing pri-:1
+acquisti’s:1
+observation:1
+0 .:1
 reason-:1
 ably:1
 regarding:1
-5.2 The Insider Threat Prevails:1
-Unmitigated:1
-sample:1
-96:1
-31.0:1
-43.1:1
-, this ﬁgure repre-
+prevails:1
 sents:1
-a speciﬁc post:1
-reason:1
-this
-ﬁgure:1
-such a
-small portion:1
-most users’ friend networks:1
-shared data:1
-Even:1
-this group:1
+portion:1
 supple-:1
-ad hoc strategies:1
 unsuited:1
 dealing:1
-this
-threat:1
-important:1
-the characteristics:1
-
-users’ actual privacy concerns:1
+characteristics:1
 handled:1
 removal:1
-our ﬁndings:1
+ﬁndings:1
 recommend:1
-additional:1
-research:1
-the taxonomy:1
-users’ conceptualization:1
-the in-
-sider threat:1
+taxonomy:1
+conceptualization:1
 varies:1
 depending:1
-some participants:1
-their relationship:1
-6The option:1
-two sections:1
-the section:1
-the real world:1
-however:1
 understood:1
-the intended meaning:1
+meaning:1
 oﬀered:1
 equated:1
-some par-
-ticipants:1
-their discomfort:1
-a general distrust:1
-speciﬁc types:1
-their in-
-tended audience:1
-the
-people:1
+discomfort:1
+distrust:1
+tended:1
 excluded:1
 almost:1
-broad groups:1
-an artifact:1
-our question style:1
-Section
-4.3.2:1
-sample participant responses:1
+artifact:1
+style:1
 illustrate:1
-
-users’ reasons:1
-per-post pri-:1
-
-vacy settings:1
-custom friend lists:1
 seems:1
-this feature:1
 largely:1
 uti-:1
 lized:1
-additional privacy preserving behaviors:1
 according:1
-al-:1
 organize:1
 useless:1
-the user-created lists:1
+user-created:1
 capture:1
-their desired audiences:1
-shared
-content:1
-edge cases:1
-One reason:1
+edge:1
 priori:1
 fore:1
 thinks:1
 note:1
-other SNSs:1
-audience management:1
-Google Plus:1
-5.3 Generalizability:1
+google:1
+plus:1
 reﬂects:1
-the
-current demographics:1
-most prior
-work:1
-this topic:1
-signiﬁcant changes:1
-the demo-
+topic:1
+demo-:1
 graphics:1
-the empirical research:1
-Facebook users’ privacy concerns:1
-
+empirical:1
 graduates:1
 teenagers:1
-Notable
+notable:1
 exceptions:1
-two studies:1
-group co:1
 the early days:1
-membership:1
 lim-:1
 ited:1
 studying:1
-sense:1
-popular:1
-other demographics:1
-College-aged individu-
-als:1
+college-aged:1
 represent:1
-the Facebook population:1
-5.4 Limitations:1
-The numbers:1
 inexact:1
 due:1
-several confounding factors:1
-First:1
-a limited number:1
-repre-:1
-lower bounds:1
-their perceived
-likelihood:1
-negative outcomes:1
+confounding:1
+bounds:1
+outcomes:1
 regretted:1
-
-sharing speciﬁc content:1
-
-concerns:1
-what circumstances:1
-these con-
-cerns:1
 rise:1
-the level:1
-altering behavior:1
-our method:1
+altering:1
 inherently:1
-bias:1
-
-least two people:1
+at least two:1
 refused:1
-how many others:1
-similar reasons:1
 biased:1
-the users:1
-mitigation strategies:1
-very clear privacy concerns:1
-this bias:1
 reﬂect:1
-even stronger privacy concerns:1
-5.5 Future Work:1
-The existing privacy:1
+stronger:1
 empower:1
 ad-:1
 equately:1
 mostly:1
-Our study:1
 identiﬁes:1
-several privacy preserving
-behaviors:1
-that familiarity:1
-
-speciﬁc weaknesses:1
-future privacy controls:1
-mean:1
+familiarity:1
+weaknesses:1
 imply:1
 replace:1
-all
-privacy preserving behaviors:1
-the only way:1
-Rather:1
-improved controls:1
-their needs:1
-Facebook users’ interpersonal privacy con-
-cerns:1
 learned:1
-a signiﬁcant con-
 cern:1
-detailed data:1
-a subset:1
-Our data:1
-users’ con-
 ceptualization:1
 individualized:1
-
 pendent:1
 reveal:1
-generalizable
-themes:1
-a similar approach:1
-our estimate:1
-the insider
-threat:1
-test:1
-a similar methodology:1
-a
-larger sample:1
-the participants’ friend networks:1
-a larger
-sample:1
-the participants’ shared content:1
-most cases:1
-our sampling:1
-the friend networks:1
-3%:1
-a user’s friends:1
-understanding:1
+less than 3%:1
 useful:1
 devise:1
-a way:1
 interest:1
-shared items:1
 problematic:1
 evolved:1
-which sug-
+sug-:1
 gests:1
 evolve:1
-the usability:1
-access con-
-trol interfaces:1
-strict terms:1
-How many unintended parties:1
-How many intended audiences:1
-These metrics:1
+usability:1
+trol:1
+interfaces:1
+strict:1
 served:1
 applying:1
 move:1
 forward:1
-a mis-
-take:1
-One complication:1
-unlike:1
-the more static stranger threat:1
-the
+mis-:1
+complication:1
 appropriateness:1
-the audience:1
-More-:1
-the complexity:1
-an interface:1
+more-:1
+complexity:1
 provides:1
-perfect coverage:1
-all situ-
+perfect:1
+coverage:1
+situ-:1
 ations:1
-ﬁne-grained controls:1
-Ideally a mechanism:1
+ideally:1
 achieves:1
-this goal:1
-its limitations:1
 promote:1
-al-
-ternative privacy preserving behaviors:1
-users’
-residual concerns:1
-CONCLUSION:1
-Our survey:1
+ternative:1
+residual:1
+conclusion:1
 contributes:1
-human-centered design eﬀorts:1
+human-centered:1
+eﬀorts:1
 correct:1
-the inadequacies:1
-existing SNS privacy settings:1
-users’ privacy settings:1
-their desired level:1
-that more usable ac-
-cess control mechanisms:1
-the prob-:1
-
+inadequacies:1
+prob-:1
 lems:1
 keep:1
-certain pro-:1
-
-ﬁle information:1
-global privacy
-settings:1
-the
-greatest threat:1
-threats:1
-concerning:1
-
-privacy settings:1
-our 260 partici-
-pants:1
+greatest:1
 showing:1
-certain posted content:1
-
-tain groups:1
-their friend lists:1
-The existing
-privacy settings:1
-these types:1
-threat:1
-ad hoc mitigations:1
-no access control system:1
-all
-privacy concerns:1
-existing:1
-systems:1
-emergent threats:1
-ACKNOWLEDGMENTS:1
-This work:1
+tain:1
+mitigations:1
+emergent:1
+acknowledgments:1
 supported:1
-NSF Grant:1
-CNS-:1
+nsf:1
+grant:1
+cns-:1
 0905403:1
-Intel:1
-the ISTC:1
-Secure Computing:1
-REFERENCES:1
-[1] A. Acquisti:1
-R. Gross:1
-Imagined communities:1
-Awareness:1
-information sharing:1
-the
-Facebook:1
-Privacy Enhancing Technologies:1
+intel:1
+istc:1
+secure:1
+references:1
+enhancing:1
 36–58:1
-Springer Berlin:1
-[2] I. Altman:1
-The Environment and Social Behavior:
-Privacy, Personal Space:1
-Territory:1
-Crowding:1
-Brooks/Cole Pub.:1
-Co.:1
-1975:1
-3] A. Besmer:1
-H. Richter Lipford:1
-Moving:1
-
-untagging:1
-photo privacy:1
-a tagged world:1
+springer:1
+altman:1
+environment:1
+space:1
+territory:1
+crowding:1
+brooks/cole:1
+pub:1
+co:1
+richter:1
+moving:1
 1563–1572:1
-d. boyd:1
-E. Hargittai:1
+hargittai:1
 cares:1
-First Monday:1
-15(8:1
-August 2010:1
-[5] d. m. boyd:1
-Social network sites:1
-Deﬁnition:1
+monday:1
+august:1
 history:1
 scholarship:1
 13:210–230:1
 2007:1
-6] S. Egelman:1
-the sisyphean struggle:1
-optimal privacy
-settings:1
-Proceedings of:1
-the CSCW Reconciling
-Privay:1
-Social Media Workshop:1
-7] S. Egelman:1
-A. Oates:1
-S. Krishnamurthi:1
-Oops:1
-Mitigating:1
-repeated access control errors:1
-2295–2304, 2011:1
-8] Facebook:1
-http://newsroom.fb.com/content/:1
-default.aspx?NewsAreaId=22:1
-9] R. Gross:1
-A. Acquisti:1
-Information revelation:1
-
-privacy:1
-online social networks:1
-Workshop:1
-the Electronic Society:1
+sisyphean:1
+struggle:1
+optimal:1
+reconciling:1
+privay:1
+oates:1
+krishnamurthi:1
+oops:1
+repeated:1
+2295–2304 , 2011:1
+http://newsroom:1
+fb:1
+com/content/:1
+newsareaid=22:1
+electronic:1
 71–80:1
-[10] istrategylabs:1
-statistics:1
-http://www.istrategylabs.com/2010/06/facebook-
+com/2010/06/facebook-:1
 demographics-and-statistics-report-june-2010:1
-dont:1
-growth/:1
-June
-2010:1
-http://www.insidefacebook.com/2009/02/02/fastest-:1
-facebook:1
-women-over-55/.:1
-[28] F. Stutzman:1
-J. Kramer-Duﬃeld:1
-a privacy-enhancing behavior:1
+privacy-concerns-dont-stop-growth/:1
+june:1
+insidefacebook:1
+com/2009/02/02/fastest-:1
+growing-demographic-on-facebook-women-over-55/:1
+privacy-enhancing:1
 1553–1562:1
-[29] F. D. Stutzman:1
-W. Hartzog:1
-Boundary
-
-Regulation:1
-Social Media:1
-SSRN eLibrary:1
-Z. Tufekci:1
-audience:1
-regulation:1
-online social network sites:1
-Bulletin:1
-Science, Technology & Society:1
-28(1):20–36, 2008:1
-31] A. L. Young:1
-A. Quan-Haase:1
-Information
-
-revelation and Internet privacy concerns:1
-social
-network sites:1
-the 4th International Conference on
-:1
-Communities and Technologies, C&T ’09, pages:1
+hartzog:1
+ssrn:1
+elibrary:1
+bulletin:1
+science:1
+technology:1
+20–36 , 2008:1
+c&t:1
+’09:1
 265–274:1
-
-
-[11] A. N. Joinson:1
-Looking:1
+joinson:1
 keeping:1
-: motives:1
+motives:1
 1027–1036:1
-[12] S. Jones:1
-E. O’Neill:1
-Feasibility:1
-structural
-
-network:1
+jones:1
+o’neill:1
+feasibility:1
+structural:1
 clustering:1
-group-based privacy control:1
-
-social networks:1
-SOUPS:1
+group-based:1
 9:1–9:13:1
-
-ACM:1
-P. G. Kelley:1
-R. Brewer:1
-Y. Mayer:1
-L. F. Cranor:1
-
-N. Sadeh:1
-An investigation:1
-Facebook friend
-grouping:1
-INTERACT:1
+brewer:1
+mayer:1
+cranor:1
+sadeh:1
+investigation:1
+interact:1
 ’11:1
 216–233:1
-Springer-Verlag:1
-[14] H. Krasnova:1
-O. G¨unther:1
-S. Spiekermann:1
-K. Koroleva:1
-identity:1
-online
-social networks:1
-Identity:1
-the Information Society:1
+springer-verlag:1
+g¨unther:1
+spiekermann:1
+koroleva:1
 2:39–63:1
-
-
-[15] C. Lampe:1
-C. Steinﬁeld:1
-Changes:1
+steinﬁeld:1
 perception:1
-CSCW:1
 ’08:1
 721–730:1
-[16] A. Lampinen:1
-S. Tamminen:1
-A. Oulasvirta:1
-my people:1
-: management:1
-a social networking site:1
+tamminen:1
+oulasvirta:1
+site:1
 281–290:1
-
-
-[17] K. Lewis:1
-J. Kaufman:1
-N. Christakis:1
-The taste:1
-An analysis:1
-college student privacy
-settings:1
-14(1):79–100:1
-Y. Liu:1
-K. Gummadi:1
-B. Krishnamurthy:1
-
-
-A. Mislove:1
-Analyzing:1
-User
+lewis:1
+kaufman:1
+christakis:1
+taste:1
+student:1
+79–100 , 2008:1
+liu:1
+gummadi:1
+krishnamurthy:1
+mislove:1
+analyzing:1
 expectations:1
-vs.:1
+vs:1
 reality:1
-Internet
-Measurement Conference:1
-IMC:1
-S. Lohr:1
+measurement:1
+imc:1
+lohr:1
 vanishes:1
-March 17 2010:1
-http://www.nytimes.com/2010/03/17/technology/:1
-17privacy.html:1
-[20] M. Madden:1
-Privacy management:1
-social media:1
-sites:1
-http://pewinternet.org/Reports/2012/
-Privacy-management-on-social-media.aspx:1
-February 2012:1
-21] M. Madejski:1
-S. M. Bellovin:1
-A study:1
-errors:1
-the 4th IEEE International
-Workshop on Security and Social Networking:1
-SESOC:1
-’12, 2012:1
-Nielsen:1
-Social media report:1
-http://blog.nielsen.com/nielsenwire/social/.:1
-[23] L. Palen:1
-P. Dourish:1
-Unpacking:1
-“privacy:1
-a
-networked world:1
+march:1
+nytimes:1
+com/2010/03/17/technology/:1
+html:1
+madden:1
+http://pewinternet:1
+org/reports/2012/:1
+privacy-management-on-social-media:1
+february 2012:1
+madejski:1
+sesoc:1
+’12 , 2012:1
+http://blog:1
+com/nielsenwire/social/:1
+dourish:1
+unpacking:1
+networked:1
 ’03:1
 129–136:1
-April 5-10 2003:1
-R. W. Reeder:1
-R. A. Maxion:1
-User interface
-
+april 5-10 2003:1
+reeder:1
+maxion:1
 dependability:1
-goal-error prevention:1
-the International Conference on Dependable
-Systems:1
-Networks 2005:1
+goal-error:1
+prevention:1
+dependable:1
 60–69:1
-25] J. H. Saltzer:1
-M. D. Schroeder:1
-The protection:1
-
-information:1
-computer systems:1
-63(9):1278–1308:1
-Sept. 1975:1
-26] M. Skeels:1
-J. Grudin:1
-social networks:1
+saltzer:1
+schroeder:1
+computer:1
+1278–1308:1
+sept:1
 cross:1
 boundaries:1
-workplace use:1
-Linkedin:1
+linkedin:1
 95–104:1
-J. Smith:1
-Fastest:1
-Women:1
-February 2 2009:1
-APPENDIX:1
-A. QUESTIONS:1
-FACEBOOK:1
-USAGE:1
-PRIVACY:1
-PRESERVING:1
-BEHAVIORS:1
-long:1
-a Facebook account:1
-0:1
-99:1
+fastest:1
+growing:1
+women:1
+2 2009:1
+appendix:1
+0-99:1
 100-299:1
-300:1
-599:1
-600:1
-How many Facebook friends:1
-an estimate:1
+300-599:1
 ﬁne:1
-more than one:1
-How many accounts:1
-Less than 1 year:1
-Between 1 and 2 years:1
-years:1
-Several:1
-every:1
-days:1
-month:1
-Less:1
-once a month:1
-Facebook read-:1
-your news feed:1
+less than 1 year:1
+between 1 and 2 years:1
+more than 2 years:1
+every few days:1
+read-:1
+feed:1
+each week 4:1
 post-:1
-ing information:1
 updating:1
-Facebook brows-:1
-your friend’s proﬁles:1
-3
-• 4:1
-the option:1
+brows-:1
+each week:1
 change:1
-Please:1
-a single update:1
+please:1
 turn:1
-the proﬁle:1
-fake:1
-the following:1
-upload:1
-your friends:1
-a link:1
-a news story:1
-Facebook friends:1
-common interests:1
+story:1
 meeting:1
-oﬄine:1
-your privacy settings:1
-your
-proﬁle:1
-limited access:1
-An employer:1
-no
-
-book:1
-no
-
-photo:1
 untag:1
-your friend’s photo:1
-Face-:1
-your Facebook friend:1
-a status update:1
-a comment:1
-B. GENERAL:1
-SCENARIOS:1
-conduct:1
-your Facebook:1
-illegal:1
 activ-:1
 ities:1
-illegal drug use:1
-underage drinking:1
-Facebook postings:1
-personal in-
-formation:1
+underage:1
+drinking:1
+postings:1
 images:1
-a university
-code violator:1
 advertisements:1
-C. QUESTIONS:1
-PROFILE:1
-INFORMATION:1
-the possible answers:1
+profile:1
 percentages:1
-0% to 100%:1
-application:1
-the second question:1
-each network:1
-shared information:1
-the NETWORK-NAME network:1
-
-members:1
-your proﬁle data:1
-C.1 Custom Friend Lists:1
-the following question:1
-the participant’s custom friend lists:1
-the friend list:1
-Friend lists:1
-a Facebook
-feature:1
-grouping friends:1
+0% to:1
+network-name:1
 remember:1
 enter:1
-your response:1
-C.2:1
-Individual Facebook Friends:1
-the participants’ Facebook friends:1
-The sec-
-ond question:1
-a 5-point Likert item:1
-Select:1
-the answer:1
+response:1
+sec-:1
+ond:1
 ﬁts:1
 best:1
-A member:1
-(parent/sibling:1
-• A member:1
-• A coworker:1
-grad:1
-A friend:1
-C.3:1
-Individual Posts:1
-the participants’ posts:1
-the anchor points:1
-fortable:1
-member:1
-immediate:1
-school/college/grad school:1
-
-
-person:1
-View:1
-publication stats:1
-
-View publication stats:1
+parent/sibling:1
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy:18
-Privacy:3
-PRIVACY:1
+Privacy:139
+consent:1
