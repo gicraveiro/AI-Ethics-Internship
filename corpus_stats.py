@@ -48,7 +48,7 @@ def compute_stats(tokens, filename, output_file, gen_path):
         for keyword in keywords:
             if (keyword.lower() == key.lower()):
                 keywords_present.append(str(keyword) + ':' + str(val))
-
+    print("----------------------------------------------------------------------------------------", file=output_file)
     print("\nKeywords that appear in the file, alongside with their frequencies:", file=output_file)
     for keyword in keywords_present:
         print(keyword, file=output_file)
@@ -61,14 +61,20 @@ def string_search(document, index,keyword):
         counter += string_search(document,index,keyword)
     return counter
 
-def parser(corpus):
+def parser(corpus, output_file):
     for token in corpus:
         for keyword in keywords:
             if(token.text == keyword):
-                print("\nKEYWORD:",token.text,"->", token.dep_)
+                print("\nKEYWORD:",token.text,"->", token.dep_, file=output_file)
+                print("Descendants:", file=output_file)
                 for descendant in token.subtree:
                     if(descendant.dep_ != "det" and descendant.dep_ != "punct" and descendant.dep_ != "prep" and descendant.dep_ != "aux" and descendant.dep_ != "auxpass"):
-                        print(descendant.text, "->", descendant.dep_)
+                        print(descendant.text, "->", descendant.dep_, file=output_file)
+                print("Ancestors:",file=output_file)
+                for ancestor in token.ancestors:
+                    if(ancestor.dep_ != "det" and ancestor.dep_ != "punct" and ancestor.dep_ != "prep" and ancestor.dep_ != "aux" and ancestor.dep_ != "auxpass"):
+                        print(ancestor.text, "->", ancestor.dep_, file=output_file)
+
 # reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
     i = 0
@@ -151,8 +157,10 @@ def process_document(title, source_path,source,keywords):
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
-    #compute_stats([token.text for token in tokens],title, output_file, source_path) 
-    parser(tokens)
+    compute_stats([token.text for token in tokens],title, output_file, source_path) 
+    print("---------------------------------------------------------------------------------------", file=output_file)
+    print("Dependency relations of keywords that appear in the file:", file=output_file)
+    parser(tokens, output_file)
 
     output_file.close()
 
