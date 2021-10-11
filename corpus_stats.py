@@ -64,15 +64,15 @@ def string_search(document, index,keyword):
 def parser(corpus, output_file):
     for token in corpus:
         for keyword in keywords:
-            if(token.text == keyword):
+            if(token.text == keyword.lower()):
                 print("\nKEYWORD:",token.text,"->", token.dep_, file=output_file)
                 print("Descendants:", file=output_file)
                 for descendant in token.subtree:
-                    if(descendant.dep_ != "det" and descendant.dep_ != "punct" and descendant.dep_ != "prep" and descendant.dep_ != "aux" and descendant.dep_ != "auxpass"):
+                    if(descendant != token and descendant.dep_ != "det" and descendant.dep_ != "punct" and descendant.dep_ != "prep" and descendant.dep_ != "aux" and descendant.dep_ != "auxpass"):
                         print(descendant.text, "->", descendant.dep_, file=output_file)
                 print("Ancestors:",file=output_file)
                 for ancestor in token.ancestors:
-                    if(ancestor.dep_ != "det" and ancestor.dep_ != "punct" and ancestor.dep_ != "prep" and ancestor.dep_ != "aux" and ancestor.dep_ != "auxpass"):
+                    if(ancestor != token and ancestor.dep_ != "det" and ancestor.dep_ != "punct" and ancestor.dep_ != "prep" and ancestor.dep_ != "aux" and ancestor.dep_ != "auxpass"):
                         print(ancestor.text, "->", ancestor.dep_, file=output_file)
 
 # reconstructs hyphen, slash and apostrophes
@@ -158,6 +158,7 @@ def process_document(title, source_path,source,keywords):
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
     compute_stats([token.text for token in tokens],title, output_file, source_path) 
+    
     print("---------------------------------------------------------------------------------------", file=output_file)
     print("Dependency relations of keywords that appear in the file:", file=output_file)
     parser(tokens, output_file)
