@@ -858,7 +858,6 @@ Dependency relations of keywords that appear in the file:
 KEYWORD: privacy -> conj
 Descendants:
 user -> compound
-privacy -> conj
 Ancestors:
 advertising -> pobj
 relating -> acl
@@ -869,7 +868,6 @@ needs -> ROOT
 KEYWORD: privacy -> pobj
 Descendants:
 user -> compound
-privacy -> pobj
 2 -> nummod
 quantitative -> amod
 
@@ -885,7 +883,6 @@ percentage -> ROOT
 
 KEYWORD: data breaches -> pobj
 Descendants:
-data breaches -> pobj
 Ancestors:
 number -> nmod
 number -> nsubj
@@ -893,7 +890,6 @@ affected -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 risks -> dobj
 addressing -> advcl
@@ -901,7 +897,6 @@ affected -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 standards -> pobj
 use -> pobj
@@ -923,7 +918,6 @@ infrastructure -> compound
 
  -> compound
 data -> compound
-privacy -> pobj
  
  -> compound
 advertising -> nmod
@@ -958,7 +952,6 @@ expression -> compound
 
 
  -> nsubj
-data security -> compound
 Ancestors:
 
 
@@ -972,7 +965,6 @@ affected -> ROOT
 
 KEYWORD: data breaches -> pobj
 Descendants:
-data breaches -> pobj
 Ancestors:
 response -> pobj
 implemented -> acl
@@ -988,7 +980,6 @@ Descendants:
 
  -> compound
 data -> compound
-privacy -> nsubj
   -> compound
 advertising -> compound
 standards -> conj
@@ -1003,7 +994,6 @@ rely -> ROOT
 
 KEYWORD: privacy -> compound
 Descendants:
-privacy -> compound
 Ancestors:
 concerns -> dobj
 raises -> ROOT
@@ -1016,7 +1006,6 @@ behavioral -> amod
 advertising -> nmod
 and -> cc
 user -> conj
-privacy -> pobj
 Ancestors:
 relating -> acl
 policies -> pobj
@@ -1026,7 +1015,6 @@ describe -> ROOT
 KEYWORD: privacy -> pobj
 Descendants:
 user -> compound
-privacy -> pobj
 Ancestors:
 related -> acl
 policies -> pobj
@@ -1037,13 +1025,11 @@ KEYWORD: privacy -> dobj
 Descendants:
 individuals -> poss
 ’ -> case
-privacy -> dobj
 Ancestors:
 affect -> ROOT
 
 KEYWORD: consent -> pobj
 Descendants:
-consent -> pobj
 individual -> pobj
 Ancestors:
 collected -> conj
@@ -1052,7 +1038,6 @@ be -> ROOT
 KEYWORD: consent -> dobj
 Descendants:
 opt-in -> nmod
-consent -> dobj
   -> conj
 Ancestors:
 require -> relcl
@@ -1061,7 +1046,6 @@ be -> ROOT
 
 KEYWORD: privacy -> compound
 Descendants:
-privacy -> compound
 Ancestors:
 provisions -> dobj
 implementing -> pcomp
@@ -1071,7 +1055,6 @@ act -> ROOT
 
 KEYWORD: privacy -> compound
 Descendants:
-privacy -> compound
 Ancestors:
 impact -> compound
 assessments -> conj
@@ -1079,7 +1062,6 @@ act -> ROOT
 
 KEYWORD: privacy -> pobj
 Descendants:
-privacy -> pobj
 Ancestors:
 regulatory -> amod
  
@@ -1092,7 +1074,6 @@ determines -> ROOT
 
 KEYWORD: privacy -> compound
 Descendants:
-privacy -> compound
 Ancestors:
 risks -> dobj
 mitigate -> acl
@@ -1105,7 +1086,6 @@ determines -> ROOT
 
 KEYWORD: consent -> conj
 Descendants:
-consent -> conj
 particular -> amod
 uses -> pobj
 information -> pobj
@@ -1115,7 +1095,6 @@ uses -> ROOT
 
 KEYWORD: consent -> dobj
 Descendants:
-consent -> dobj
   -> conj
 and -> cc
   -> conj
@@ -1128,7 +1107,6 @@ uses -> ROOT
 
 KEYWORD: privacy -> pobj
 Descendants:
-privacy -> pobj
 Ancestors:
 related -> acl
 policies -> nsubj
@@ -1138,7 +1116,6 @@ discuss -> ROOT
 KEYWORD: privacy -> dobj
 Descendants:
 children’s -> poss
-privacy -> dobj
  
 
  -> appos
@@ -1153,14 +1130,12 @@ discuss -> ROOT
 
 KEYWORD: privacy -> compound
 Descendants:
-privacy -> compound
 Ancestors:
 protection -> compound
 act -> ROOT
 
 KEYWORD: data security -> appos
 Descendants:
-data security -> appos
 Ancestors:
 
 
@@ -1169,7 +1144,6 @@ data -> ROOT
 
 KEYWORD: consent -> dobj
 Descendants:
-consent -> dobj
 Ancestors:
 obtaining -> advcl
 having -> conj
@@ -1182,7 +1156,6 @@ data -> ROOT
 KEYWORD: privacy -> pobj
 Descendants:
 user -> compound
-privacy -> pobj
 Ancestors:
 associated -> acl
 proceedings -> pobj
@@ -1193,7 +1166,6 @@ disclose -> ROOT
 KEYWORD: privacy -> pobj
 Descendants:
 user -> compound
-privacy -> pobj
 Ancestors:
 relating -> acl
 incidents -> pobj
@@ -1209,26 +1181,22 @@ disclose -> ROOT
 KEYWORD: privacy -> compound
 Descendants:
 consumer -> compound
-privacy -> compound
 Ancestors:
 act -> ROOT
 
 KEYWORD: privacy -> compound
 Descendants:
-privacy -> compound
 Ancestors:
 shield -> ROOT
 
 KEYWORD: data protection -> compound
 Descendants:
 general -> amod
-data protection -> compound
 Ancestors:
 regulation -> ROOT
 
 KEYWORD: privacy -> compound
 Descendants:
-privacy -> compound
 Ancestors:
 protection -> compound
 act -> ROOT
@@ -1238,13 +1206,11 @@ Descendants:
 federal -> amod
 trade -> compound
 commission -> compound
-privacy -> compound
 Ancestors:
 act -> ROOT
 
 KEYWORD: data protection -> compound
 Descendants:
-data protection -> compound
 Ancestors:
 supervisor -> dobj
 act -> ROOT
@@ -1255,14 +1221,12 @@ Descendants:
 
  -> nummod
 children’s -> nmod
-privacy -> appos
 Ancestors:
 monitoring -> appos
   -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 
 
@@ -1276,7 +1240,6 @@ are -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 threats -> pobj
 remediation -> conj
@@ -1287,7 +1250,6 @@ influence -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 threats -> dobj
 addressing -> conj
@@ -1297,14 +1259,12 @@ protect -> ROOT
 
 KEYWORD: data breaches -> pobj
 Descendants:
-data breaches -> pobj
 Ancestors:
 number -> appos
    -> ROOT
 
 KEYWORD: data breaches -> pobj
 Descendants:
-data breaches -> pobj
 identified -> acl
 reporting -> compound
 period -> pobj
@@ -1319,20 +1279,17 @@ Descendants:
 
 
  -> compound
-data breach -> nsubjpass
 Ancestors:
 defined -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 careers -> pobj
 initiative -> ROOT
 
 KEYWORD: data breaches -> pobj
 Descendants:
-data breaches -> pobj
 that -> nsubj
 resulted -> relcl
 deviation -> pobj
@@ -1347,7 +1304,6 @@ limited -> ROOT
 
 KEYWORD: data breaches -> pobj
 Descendants:
-data breaches -> pobj
 Ancestors:
 percentage -> dobj
   -> nsubj
@@ -1355,14 +1311,12 @@ was -> ROOT
 
 KEYWORD: data breach -> pobj
 Descendants:
-data breach -> pobj
 Ancestors:
 subject -> acomp
 was -> ROOT
 
 KEYWORD: encryption -> pobj
 Descendants:
-encryption -> pobj
 key -> amod
 that -> nsubjpass
 also -> advmod
@@ -1375,13 +1329,11 @@ include -> ROOT
 KEYWORD: encryption -> nsubjpass
 Descendants:
 1 -> nummod
-encryption -> nsubjpass
 Ancestors:
 defined -> ROOT
 
 KEYWORD: data breaches -> pobj
 Descendants:
-data breaches -> pobj
   -> appos
 which -> nsubj
 includes -> relcl
@@ -1402,7 +1354,6 @@ number -> ROOT
 
 KEYWORD: data breach -> pobj
 Descendants:
-data breach -> pobj
 Ancestors:
 compromised -> relcl
 those -> dobj
@@ -1416,7 +1367,6 @@ number -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 disclosures -> pobj
 statement -> nsubj
@@ -1424,7 +1374,6 @@ provide -> ROOT
 
 KEYWORD: data breaches -> pobj
 Descendants:
-data breaches -> pobj
 Ancestors:
 response -> pobj
 taken -> acl
@@ -1436,7 +1385,6 @@ provide -> ROOT
 KEYWORD: privacy -> dobj
 Descendants:
 data -> compound
-privacy -> dobj
 and -> cc
 security -> conj
 Ancestors:
@@ -1447,7 +1395,6 @@ be -> ROOT
 
 KEYWORD: data breaches -> dobj
 Descendants:
-data breaches -> dobj
 Ancestors:
 disclosing -> pcomp
 policy -> dobj
@@ -1455,7 +1402,6 @@ disclose -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 
  -> compound
@@ -1467,7 +1413,6 @@ describe -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 standards -> pobj
 use -> pobj
@@ -1477,7 +1422,6 @@ describe -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 
 
@@ -1490,14 +1434,12 @@ describe -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 risk -> nsubjpass
 defined -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 risks -> dobj
 addressing -> pcomp
@@ -1505,7 +1447,6 @@ describe -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 risk -> compound
 management -> compound
@@ -1515,7 +1456,6 @@ describe -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 risk -> compound
 management -> compound
@@ -1524,7 +1464,6 @@ defined -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 threats -> dobj
 identifying -> pcomp
@@ -1537,7 +1476,6 @@ defined -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 incidents -> dobj
 remediating -> conj
@@ -1547,7 +1485,6 @@ defined -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 risk -> compound
 management -> compound
@@ -1558,11 +1495,66 @@ examples -> pobj
  -> nsubj
 include -> ROOT
 
-KEYWORD: cybersecurity -> dobj
+KEYWORD: american institute of certified public accountants -> nsubj
 Descendants:
-cybersecurity -> dobj
+1 -> nummod
+  -> pobj
+aicpa -> appos
 Ancestors:
 service organization controls -> ROOT
+
+KEYWORD: aicpa -> appos
+Descendants:
+Ancestors:
+  -> pobj
+american institute of certified public accountants -> nsubj
+service organization controls -> ROOT
+
+KEYWORD: service organization controls -> ROOT
+Descendants:
+1 -> nummod
+american institute of certified public accountants -> nsubj
+  -> pobj
+aicpa -> appos
+  -> compound
+  -> dobj
+soc -> appos
+  -> appos
+
+
+ -> pobj
+cybersecurity -> dobj
+3 -> nummod
+2 -> dobj
+Ancestors:
+
+KEYWORD: soc -> appos
+Descendants:
+Ancestors:
+  -> dobj
+service organization controls -> ROOT
+
+KEYWORD: cybersecurity -> dobj
+Descendants:
+Ancestors:
+service organization controls -> ROOT
+
+KEYWORD: isaca’s cobit 5 -> ROOT
+Descendants:
+2 -> nummod
+
+
+ -> appos
+3 -> nummod
+Ancestors:
+
+KEYWORD: iso/iec 27000-series -> nmod
+Descendants:
+Ancestors:
+
+
+ -> compound
+cybersecurity -> ROOT
 
 KEYWORD: cybersecurity -> ROOT
 Descendants:
@@ -1571,15 +1563,32 @@ iso/iec 27000-series -> nmod
 
 
  -> compound
-cybersecurity -> ROOT
   -> nsubj
 version -> conj
 1 -> nummod
 Ancestors:
 
+KEYWORD: national institute of standards and technology’s -> ROOT
+Descendants:
+4 -> nummod
+  -> nmod
+nist -> appos
+  -> compound
+framework -> appos
+improving -> pcomp
+critical -> amod
+infrastructure -> dobj
+3 -> nummod
+Ancestors:
+
+KEYWORD: nist -> appos
+Descendants:
+  -> nmod
+Ancestors:
+national institute of standards and technology’s -> ROOT
+
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 risk -> compound
 management -> compound
@@ -1589,7 +1598,6 @@ are -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 risk -> compound
 management -> compound
@@ -1600,7 +1608,6 @@ description -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 risk -> compound
 management -> compound
@@ -1609,7 +1616,6 @@ role -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 risks -> dobj
 addressing -> conj
@@ -1620,7 +1626,6 @@ role -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 risk -> compound
 management -> compound
@@ -1635,7 +1640,6 @@ conducted -> advcl
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 risk -> compound
 management -> compound
@@ -1647,7 +1651,6 @@ discuss -> ROOT
 KEYWORD: data security -> pobj
 Descendants:
 its -> poss
-data security -> pobj
 and -> cc
 Ancestors:
 attacks -> pobj
@@ -1661,7 +1664,6 @@ discuss -> ROOT
 
 KEYWORD: cybersecurity -> compound
 Descendants:
-cybersecurity -> compound
 Ancestors:
 disclosures -> pobj
 statement -> nsubj
@@ -1669,7 +1671,6 @@ provide -> ROOT
 
 KEYWORD: data security -> compound
 Descendants:
-data security -> compound
 Ancestors:
 risks -> dobj
 addressing -> pcomp
@@ -1681,7 +1682,6 @@ provide -> ROOT
 KEYWORD: privacy -> dobj
 Descendants:
 data -> compound
-privacy -> dobj
 and -> cc
 security -> conj
 Ancestors:

@@ -3,9 +3,9 @@
 
 
 With stop word removal 
-Size of original corpus: 15581 
-Size of filtered corpus: 7864
-Size of Lexicon: 2391
+Size of original corpus: 18881 
+Size of filtered corpus: 7942
+Size of Lexicon: 2367
 
 Tokens that appear in the file, alongside with their frequencies:
 facebook:235
@@ -21,27 +21,29 @@ supra:70
 ftc:68
 instagram:59
 user:57
-age:52
+age:51
 law:48
 child:48
 https://www:47
 see:47
 privacy:46
-thirteen:46
+thirteen:45
 account:45
-knowledge:41
+knowledge:42
 policy:41
 social:39
 actual:39
 websites:38
 use:38
 underage:38
+3:37
+2018:34
+2019:33
 website:33
 sites:32
-3:29
+1:32
 personal:29
 would:28
-1:28
 practices:27
 parents:25
 online:24
@@ -52,17 +54,19 @@ terms:24
 operator:24
 report:23
 media:22
-7:22
 last:22
 visited:22
 site:22
 kids:22
 compliance:21
 parent:21
+7:20
+4:19
 f:19
+16:19
 enforcement:19
 nov:18
-16:18
+5:18
 comment:18
 r:18
 rule:18
@@ -70,7 +74,8 @@ messenger:18
 internet:17
 share:17
 although:16
-2019:16
+2020:16
+9:16
 provide:16
 action:16
 new:16
@@ -78,18 +83,14 @@ consent:16
 youtube:16
 made:15
 b:15
-9:15
+0:15
 8:15
-5:15
 create:15
 review:15
 collect:15
 parental:15
 act:14
-4:14
-2020:14
 hall:14
-0:14
 vol:14
 50:827:14
 company:14
@@ -103,7 +104,6 @@ services:13
 business:13
 musical:13
 zuckerberg:12
-2018:12
 requirements:12
 mandates:12
 access:12
@@ -115,11 +115,13 @@ complaint:12
 partners:12
 seton:11
 apr:11
+15:11
 general:11
 using:11
 products:11
 reporting:11
 collects:11
+thirteen years old:11
 therefore:11
 many:10
 teens:10
@@ -130,13 +132,12 @@ collection:10
 better:10
 security:10
 could:10
-thirteen years old:10
 form:10
 consumers:10
 protection:9
 protect:9
 understanding:9
-15:9
+10:9
 fact:9
 likely:9
 current:9
@@ -168,6 +169,8 @@ ranked:8
 statista:8
 disclosure:8
 provides:8
+2013:8
+25:8
 reasonable:8
 minor:8
 even:8
@@ -182,6 +185,7 @@ rights:7
 scope:7
 part:7
 child-users:7
+11:7
 active:7
 collecting:7
 ability:7
@@ -189,8 +193,8 @@ understand:7
 third:7
 specifically:7
 notice:7
+24:7
 fed:7
-25:7
 web:7
 several:7
 states:7
@@ -208,7 +212,6 @@ html:7
 conditions:7
 snapchat:7
 birth:7
-under 13:7
 guide:7
 civ:7
 pay:7
@@ -218,12 +221,12 @@ ineffectiveness:6
 federal:6
 first:6
 bill:6
-sixteen:6
 imposed:6
 regulations:6
 largest:6
 definition:6
 tweens:6
+2016:6
 settlements:6
 operators:6
 help:6
@@ -231,12 +234,14 @@ address:6
 maintain:6
 control:6
 violations:6
+18:6
 companies:6
 technology:6
-2013:6
+27:6
 defines:6
 third-party:6
 matwyshyn:6
+13:6
 explicitly:6
 procedures:6
 actually:6
@@ -248,7 +253,6 @@ example:6
 actions:6
 protocols:6
 taken:6
-44:6
 iverson:6
 similar:6
 55:6
@@ -261,7 +265,6 @@ california:6
 held:6
 profile:6
 measures:6
-3 , 2018:6
 reviewers:6
 birthdate:6
 known:6
@@ -289,7 +292,6 @@ relevant:5
 ofservice:5
 common:5
 sense:5
-10:5
 certain:5
 safe:5
 verifiable:5
@@ -300,12 +302,15 @@ similarly:5
 implement:5
 place:5
 number:5
+44:5
 n't:5
 63:5
+2012:5
 sept:5
 describing:5
 requirement:5
 suggests:5
+under 13:5
 allowing:5
 creating:5
 connect:5
@@ -315,6 +320,7 @@ created:5
 bickert:5
 reason:5
 suggest:5
+120:5
 tiktok:5
 violated:5
 device:5
@@ -323,8 +329,8 @@ sunday:5
 teenagers:4
 addresses:4
 teenage:4
+2014:4
 hearing:4
-10 , 2018:4
 post:4
 means:4
 world:4
@@ -332,13 +338,13 @@ effective:4
 history:4
 =:4
 jan:4
+19:4
 lauricella:4
 pdf:4
 average:4
 signed:4
 6 years old:4
 millions:4
-11:4
 steps:4
 already:4
 concerns:4
@@ -349,8 +355,10 @@ less:4
 additionally:4
 instead:4
 and/or:4
+21:4
 functionality:4
-24:4
+26:4
+17:4
 integrity:4
 p:4
 obtain:4
@@ -372,6 +380,7 @@ adult:4
 section:4
 show:4
 cnbc:4
+2017:4
 upon:4
 require:4
 old:4
@@ -382,7 +391,6 @@ statement:4
 responsibilities:4
 type:4
 aug:4
-64:4
 without:4
 official:4
 view:4
@@ -394,18 +402,17 @@ know:4
 operational:4
 noting:4
 keep:4
+2011:4
 times:4
 determine:4
 might:4
 evaded:4
 quora:4
 opt-in:4
-120:4
 $170 million:4
 video:4
 settle:4
 allegations:4
-18 , 2019:4
 run:4
 advertisements:4
 shared:4
@@ -415,11 +422,11 @@ news:3
 manner:3
 seemingly:3
 school:3
-2014:3
 professor:3
 else:3
 senate:3
 important:3
+sixteen:3
 think:3
 individual:3
 prevent:3
@@ -435,11 +442,8 @@ iv:3
 recent:3
 6502:3
 56:3
-19 , 2018:3
-2016:3
 initially:3
 worldwide:3
-2 , 2018:3
 matecki:3
 next:3
 ripe:3
@@ -455,6 +459,7 @@ deceptive:3
 argued:3
 used:3
 private:3
+20:3
 conform:3
 23:3
 still:3
@@ -462,9 +467,9 @@ short:3
 goals:3
 remains:3
 insight:3
+29:3
 advertising:3
 developers:3
-13:3
 operates:3
 located:3
 fails:3
@@ -477,6 +482,8 @@ critics:3
 maintained:3
 offering:3
 foreign:3
+31:3
+30:3
 indication:3
 towards:3
 three:3
@@ -504,6 +511,7 @@ oct:3
 class:3
 srr:3
 failed:3
+64:3
 much:3
 safely:3
 established:3
@@ -511,6 +519,7 @@ formal:3
 timeline:3
 connectsafely:3
 significantly:3
+year:3
 verified:3
 reports:3
 put:3
@@ -599,7 +608,6 @@ criticisms:2
 policies:2
 argue:2
 dp:2
-11 , 2019:2
 php:2
 census:2
 commonsensemedia:2
@@ -617,7 +625,6 @@ potentially:2
 375:2
 connection:2
 promulgated:2
-21:2
 22:2
 disseminated:2
 become:2
@@ -630,12 +637,9 @@ revision:2
 falls:2
 stated:2
 strong:2
-26:2
 implications:2
 effects:2
 maintaining:2
-27:2
-29:2
 78:2
 meant:2
 apply:2
@@ -647,6 +651,7 @@ the age of 13:2
 stablish:2
 rovide:2
 32:2
+33:2
 2001:2
 behalf:2
 commercial:2
@@ -673,7 +678,6 @@ today:2
 study:2
 ignore:2
 39:2
-2002:2
 full:2
 needed:2
 40:2
@@ -686,7 +690,6 @@ behavior:2
 problematic:2
 38:2
 37:2
-1-2:2
 2%80%99:2
 thus:2
 far:2
@@ -696,6 +699,7 @@ claim:2
 providers:2
 46:2
 grants:2
+48:2
 standard:2
 handles:2
 particular:2
@@ -712,8 +716,6 @@ january:2
 owns:2
 separate:2
 restrict:2
-2012:2
-24 , 2019:2
 showing:2
 amongst:2
 buy:2
@@ -746,6 +748,7 @@ people:2
 com/:2
 activate:2
 lexis:2
+2015:2
 plaintiffs:2
 represented:2
 enter:2
@@ -788,7 +791,9 @@ case:2
 contact:2
 verify:2
 request:2
+72:2
 likewise:2
+75:2
 page:2
 scrutiny:2
 documentary:2
@@ -810,7 +815,6 @@ statements:2
 timothy:2
 82:2
 takes:2
-2011:2
 83:2
 nytimes:2
 examination:2
@@ -834,6 +838,7 @@ consider:2
 clearer:2
 stipulates:2
 asks:2
+94:2
 learn:2
 obtaining:2
 path:2
@@ -841,7 +846,9 @@ audience:2
 triggered:2
 examples:2
 go:2
+97:2
 black:2
+98:2
 lead:2
 degree:2
 deemed:2
@@ -849,7 +856,6 @@ incidents:2
 100:2
 system:2
 roller:2
-year:2
 edit:2
 situation:2
 wrong:2
@@ -859,10 +865,9 @@ valid:2
 qualify:2
 representations:2
 willfully:2
-january 1 , 2020:2
+january 1:2
 whereas:2
 data-sharing:2
-17 , 2019:2
 term:2
 disregard:2
 studies:2
@@ -888,7 +893,6 @@ videos:2
 engages:2
 373-75:2
 feb:2
-4 , 2019:2
 york:2
 117:2
 penalties:2
@@ -909,6 +913,7 @@ establish:2
 notify:2
 holder:2
 134:2
+136:2
 sees:2
 connections:2
 unique:2
@@ -951,6 +956,7 @@ commercial-free:2
 childhood:2
 washington:2
 175:2
+under sixteen:2
 176:2
 2016/679:2
 illegal:2
@@ -979,6 +985,7 @@ interpreted:1
 cavalier:1
 sensitive:1
 nature:1
+only one:1
 pertain:1
 shed:1
 lackadaisical:1
@@ -1015,7 +1022,6 @@ matthew:1
 cook:1
 everything:1
 #4 mark:1
-4 , 2018:1
 com/profile/mark-:1
 zuckerberg/#e:1
 1233153:1
@@ -1041,7 +1047,6 @@ sure:1
 term=:1
 867:1
 cfr:1
-5 15:1
 6501:1
 827:1
 828:1
@@ -1133,9 +1138,7 @@ enacted:1
 prohibit:1
 unfair:1
 acts:1
-7 18 '9 15:1
 830:1
-20:1
 april 2000:1
 contextual:1
 guidelines:1
@@ -1168,10 +1171,8 @@ prohibits:1
 violates:1
 provisions:1
 2 8:1
-20 21:1
 reg:1
 3972:1
-17 , 2013:1
 codified:1
 pt:1
 expanded:1
@@ -1188,17 +1189,15 @@ pew:1
 ctr:1
 pewintemet:1
 org/2013/05/21/teens-social-media-and-privacy/:1
-27 28:1
+28:1
 ny:1
 831:1
 seeks:1
 accomplish:1
-33:1
 3 4:1
 ofcriticisms:1
 ofcoppa:1
 adverse:1
-3 1:1
 prominently:1
 attack:1
 highlighting:1
@@ -1209,8 +1208,6 @@ operated:1
 purposes:1
 nations:1
 another:1
-31:1
-33 30:1
 visual:1
 matter:1
 music:1
@@ -1252,6 +1249,7 @@ went:1
 concluded:1
 sic:1
 geared:1
+2002:1
 published:1
 attained:1
 substantial:1
@@ -1280,6 +1278,7 @@ rev:1
 751:1
 767:1
 767-68:1
+1-2  ( 2002:1
 gov/sites/default/files/documents/rules/childre:1
 n%e:1
 s-online-privacy-protection-rule-coppa/coppasurvey:1
@@ -1293,14 +1292,12 @@ coppareportlto-congress:1
 tihe:1
 applying:1
 833:1
-4 5:1
 willingness:1
 ecause:1
 sole:1
 province:1
 understaffed:1
 overburdened:1
-48:1
 rigid:1
 4 9:1
 remain:1
@@ -1321,7 +1318,6 @@ dicated:1
 showed:1
 cracking:1
 deseret:1
-26 , 2018:1
 deseretnews:1
 com/article/9000:1
 25957/facebook-and-instagram-are-cracking-down-on-underage-users:1
@@ -1345,7 +1341,7 @@ proceedings:1
 enhancing:1
 techs:1
 47:1
-48 49:1
+49:1
 infra:1
 50:1
 owned:1
@@ -1353,6 +1349,7 @@ owned:1
 834:1
 lawreview:1
 53:1
+january 2019:1
 leading:1
 27 billion:1
 5 4:1
@@ -1360,7 +1357,7 @@ one billion:1
 sixth:1
 say:1
 things:1
-at least thirteen years old:1
+least:1
 5 9:1
 practical:1
 com/statistics/250172/social-network-usage-of-us-:1
@@ -1371,7 +1368,7 @@ shinal:1
 years ago:1
 close:1
 destroying:1
-july 12 , 2017:1
+july 12:1
 1:40 pm:1
 com/2017/07/1:1
 2/how-mark-zuckerberg-has-used-instagram-to-crush-evan-spiegels-snap:1
@@ -1390,14 +1387,12 @@ impact:1
 sustainability:1
 com/statistics/272014/global-soci:1
 al-networks-ranked-by-number-of-users/:1
-5 , 2019:1
 com/58106616558:1
 kurt:1
 wagner:1
 1870:1
 acquisition:1
 great:1
-2017:1
 net/2017/4:1
 /9/15235940/facebook-instagram-acquisition-anniversary:1
 success:1
@@ -1415,10 +1410,10 @@ fourth:1
 300 million:1
 wechat:1
 fifth:1
-058 million:1
+058
+million:1
 six:1
 august:1
-25 , 2016:1
 com/legal/:1
 joined:1
 product:1
@@ -1460,7 +1455,6 @@ unintended:1
 consequences:1
 rules:1
 huffpost:1
-6 , 2017:1
 huffi:1
 ngtonpost:1
 comlarry-magid/unintended-consequences-o_i_b_1741703:1
@@ -1477,12 +1471,9 @@ order:1
 1216:1
 dist:1
 41371:1
-26 , 2014:1
 aff'd:1
-2015:1
 18939:1
 cir:1
-30 , 2015:1
 utilized:1
 bound:1
 clauses:1
@@ -1494,11 +1485,11 @@ preempted:1
 argument:1
 dismissed:1
 10-14:1
+44  :1
 get:1
 anyway:1
 join:1
 atlantic:1
-30 , 2016:1
 theatlantic:1
 com/technology/archive/2016/08/the-:1
 social-media-invisibles/497729/:1
@@ -1516,6 +1507,7 @@ collaborative:1
 highlights:1
 arents:1
 permission:1
+6 7 so:1
 6 8:1
 facebookhas:1
 choose:1
@@ -1531,7 +1523,6 @@ chosen:1
 links:1
 rezwana:1
 manjur:1
-1 , 2016:1
 perils:1
 gating:1
 com/social-med:1
@@ -1556,7 +1547,7 @@ com/help/contact/209:1
 com/contact/723586364339719:1
 helpref-faqscontent:1
 menu:1
-under 9 , 10 , 11:1
+under 9:1
 13+:1
 837:1
 improves:1
@@ -1570,14 +1561,12 @@ detail:1
 birthday:1
 suspended:1
 investigates:1
-72:1
 73:1
-the year:1
 relationship:1
+7 4:1
 contains:1
 language:1
 inability:1
-75:1
 yourchild:1
 spublic:1
 lax:1
@@ -1586,8 +1575,8 @@ slack:1
 7 7:1
 learned:1
 instructed:1
-under 71 72:1
-74 75:1
+71:1
+74:1
 'll:1
 76:1
 com/1:1
@@ -1600,7 +1589,6 @@ privacy%20:1
 and%2:1
 osafety%2:1
 ocenter:1
-3 , 2019:1
 josh:1
 crunch:1
 https://techcrunch:1
@@ -1650,7 +1638,6 @@ telling:1
 repeatedly:1
 seveml:1
 monika:1
-17 , 2018:1
 https://:1
 newsroom:1
 fb:1
@@ -1662,7 +1649,7 @@ brad:1
 stone:1
 gets:1
 brrs:1
-24 , 2009:1
+2009:1
 6:39 pm:1
 https:/ibits:1
 blogs:1
@@ -1681,7 +1668,6 @@ sparapani:1
 settles:1
 charges:1
 deceived:1
-29 , 2011:1
 gov/news-:1
 events/press-releases/20:1
 11/11:1
@@ -1723,12 +1709,12 @@ spearhead:1
 target:1
 purportedly:1
 complied:1
-84 85:1
+84 
+85:1
 phoebe:1
 weston:1
 pledge:1
 lock:1
-20 , 2018:1
 dailymail:1
 co:1
 uk/sci:1
@@ -1753,7 +1739,6 @@ constitutes:1
 governance:1
 for-and:1
 receives-information:1
-94:1
 restrictive:1
 essentially:1
 purports:1
@@ -1761,16 +1746,16 @@ affirmative:1
 age-it:1
 ask:1
 avenues:1
-13 0448 jcs , 2012:1
+0448:1
+jcs:1
 wl:1
 7006381:1
-31 , 2012:1
 intended:1
 91:1
 mandating:1
 abide:1
 forth:1
-93 94:1
+93:1
 gov/tips-advice/business-center/guidance/childrens-:1
 online-privacy-protection-rule-not-just-kids-sites:1
 lower:1
@@ -1781,7 +1766,6 @@ grade:1
 otherwise:1
 activation:1
 self-identified:1
-97:1
 explicit:1
 distinguished:1
 constructive:1
@@ -1789,7 +1773,6 @@ employer:1
 accident:1
 worker:1
 injury:1
-98:1
 black'slaw:1
 implicit:1
 construction:1
@@ -1807,14 +1790,12 @@ fonally:1
 real:1
 encountered:1
 com/r:1
-97 98 knowledge:1
 llth:1
 99:1
 alex:1
 ifi:1
 ofbirth:1
 correct:1
-18 , 2013:1
 com/if-1-signed-up-for-:1
 facebook-when-i-was-underage-is-there-a-way-to-change-my-year-of-birth-to-the-correct-:1
 year-now-that-i-am-old-enough:1
@@ -1824,6 +1805,7 @@ center:1
 explain:1
 842:1
 copy:1
+10 2:1
 assuming:1
 fraction:1
 honest:1
@@ -1844,12 +1826,13 @@ hard:1
 seems:1
 1 04:1
 whichbecame:1
-january 1 , 2019:1
 operative:1
 enable:1
 distinguishes:1
 sixteen years old:1
+10 6:1
 opt-out:1
+the age of sixteen:1
 incorrect:1
 a couple of days:1
 102:1
@@ -1895,6 +1878,7 @@ implementation:1
 treats:1
 differently:1
 ages:1
+thirteen and sixteen:1
 ones:1
 affirmatively:1
 authorize:1
@@ -1903,18 +1887,18 @@ complies:1
 109:1
 110:1
 referencing:1
-20 million:1
+20
+million:1
 g:1
 cr:1
 rep:1
-10 , 2011:1
 consumerreports:1
 org/media-room/press-releases/2011/05/cr-survey-75-million-:1
 facebook-users-are-under-the-age-of-13-violating-the-sites-terms-/:1
 finding:1
 112:1
 businesses:1
-844 se ton:1
+844:1
 concernedly:1
 virtue:1
 disseminating:1
@@ -1928,7 +1912,6 @@ alleging:1
 determined:1
 under thirteen years old:1
 customers:1
-27 , 2019:1
 v/news-events/press-releases/2019/02/video-social-networking-app-musically-agrees-settle-:1
 gov/news-events/press-:1
 releases/2019/09/google-youtube-will-pay-record-:1
@@ -1936,11 +1919,9 @@ releases/2019/09/google-youtube-will-pay-record-:1
 $136 million:1
 $34 million:1
 ultimate:1
-27 , 2018:1
 org/blog/parents-ultimate-guide-to-tiktok:1
 com/en/:1
 2:19-cv-1439:1
-19:1
 hereinafter:1
 845:1
 proved:1
@@ -1951,6 +1932,7 @@ reasoned:1
 apparent:1
 perusing:1
 pictures:1
+1 2 2:1
 implicate:1
 citing:1
 analyses:1
@@ -1966,7 +1948,7 @@ pmve:1
 phenomenon:1
 occurring:1
 118:1
-120 121:1
+121:1
 contacted:1
 forty-six:1
 told:1
@@ -1977,7 +1959,6 @@ manager:1
 123:1
 michelle:1
 meyers:1
-8 , 2012:1
 com/news/how-instagram-became-the-social-:1
 network-for-tweens/:1
 robyn:1
@@ -2022,7 +2003,8 @@ youtube/:1
 8-:1
 llc:1
 1:19-cv-2642:1
-129 130:1
+129 
+130:1
 847:1
 disseminate:1
 accordance:1
@@ -2040,7 +2022,6 @@ location-related:1
 geo-tags:1
 application:1
 publishers:1
-136:1
 visits:1
 13 7:1
 according:1
@@ -2065,7 +2046,7 @@ identifiers:1
 signals:1
 cookie:1
 135:1
-136 137:1
+137:1
 purchases:1
 store:1
 138:1
@@ -2078,7 +2059,6 @@ analyzes:1
 compilation:1
 prefer:1
 marketable:1
-1 4:1
 analytics:1
 1 4 ':1
 essence:1
@@ -2099,7 +2079,8 @@ revamped:1
 april of 2018:1
 came:1
 notably:1
-139 140:1
+139:1
+140:1
 notes:1
 choices:1
 pages:1
@@ -2107,7 +2088,6 @@ nieva:1
 twitter:1
 needs:1
 a-game:1
-31 , 2018:1
 com/news/at-facebook-and-twitter-hearings-congress-needs-to-brin:1
 g-its-a-game/:1
 asked:1
@@ -2119,7 +2099,6 @@ responded:1
 142:1
 144:1
 laura:1
-21 , 2018:1
 8:32 am:1
 com/news/facebook-data-policy-:1
 fraley:1
@@ -2128,14 +2107,15 @@ answers-to-your-privacy-questions-cambridge-analytica/:1
 supp:1
 939:1
 940:1
-about 150 million:1
+about 150:1
+million:1
 sued:1
 misappropriating:1
 promote:1
 claims:1
 gave:1
 849:1
-march:1
+march 2018:1
 broke:1
 facebookusers:1
 leaked:1
@@ -2144,7 +2124,7 @@ consulting:1
 firm:1
 led:1
 exactly:1
-1 4 1:1
+1 4:1
 bridging:1
 brings:1
 communicates:1
@@ -2167,8 +2147,10 @@ headings:1
 titled:1
 clicking:1
 sign:1
+64  :1
 152:1
 btain:1
+8  :1
 challenge:1
 continues:1
 predicated:1
@@ -2201,9 +2183,7 @@ caroline:1
 spiezio:1
 probe:1
 possible:1
-6 , 2019:1
-4:53:1
-pm:1
+4:53 pm:1
 com/corpcounsel/2019/08/06/senators-probe-facebook-:1
 on-more-possible-privacy-violations-this-time-over-coppa/:1
 slretum=20191018130159:1
@@ -2220,7 +2200,6 @@ linked:1
 158:1
 comlegal/messe:1
 ngerkids/privacypolicy:1
-4 , 2017:1
 160:1
 161:1
 port:1
@@ -2306,8 +2285,8 @@ betweenthirteenand:1
 17 7:1
 unless:1
 locks:1
-under sixteen:1
 inclusive:1
+1 7:1
 simultaneously:1
 equivalent:1
 mirror:1
@@ -2316,7 +2295,7 @@ telegraph:1
 172:1
 parliament:1
 council:1
-27 april 2016:1
+april 2016:1
 natural:1
 persons:1
 movement:1
@@ -2336,9 +2315,10 @@ nd:1
 quarter:1
 com/sta:1
 tistics/745400/facebook-europe-mau-by-quarter/:1
+1-2:1
 under 16 years old:1
 177:1
-178 16:1
+178:1
 853:1
 match:1
 bills:1
@@ -2380,9 +2360,8 @@ national:1
 itis:1
 nowhere:1
 sight:1
-1 , 2019:1
 com/2019/10/:1
-0 1/technology/national-privacy-law:1
+1/technology/national-privacy-law:1
 5930:1
 181:1
 182:1
@@ -2390,7 +2369,8 @@ lawler:1
 introduce:1
 com/2018/04/10/senators-introduce-bill-:1
 creating-a-privacy-bill-of-rights/:1
-183 184 mccabe:1
+183:1
+184 mccabe:1
 179:1
 854:1
 wre:1
@@ -2399,10 +2379,637 @@ realize:1
 empowering:1
 prong:1
 knowingly:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:46
+privacy:46
 consent:16
 privacy policy:2
-Data breach:2
+data breach:2
 SOC:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+act -> dobj
+beat -> advcl
+accountable -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+children -> poss
+'s -> case
+Ancestors:
+addresses -> relcl
+books -> pobj
+law -> attr
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+act -> dep
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+protect -> advcl
+whittaker -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+protecting -> conj
+minors -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+bill -> dobj
+establishes -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+general -> amod
+data -> compound
+Ancestors:
+law -> dobj
+circumvent -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> pobj
+dispassion -> appos
+law -> dobj
+circumvent -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+youth -> compound
+Ancestors:
+rights -> dobj
+protecting -> pcomp
+  -> ROOT
+
+KEYWORD: soc -> conj
+Descendants:
+Ancestors:
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+data -> nmod
+Ancestors:
+concern -> dobj
+address -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+rule -> dobj
+promulgated -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+children -> poss
+'s -> case
+
+ -> compound
+internet -> compound
+Ancestors:
+protecting -> pcomp
+goals -> dobj
+meeting -> pcomp
+falls -> ccomp
+face -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+child -> compound
+Ancestors:
+protect -> acl
+need -> nsubj
+remains -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+rule -> pobj
+d -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+act -> pobj
+critique -> appos
+matwyshyn -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+media -> appos
+  -> dep
+res -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+verifiable -> amod
+
+ -> nmod
+parental -> amod
+Ancestors:
+obtain -> xcomp
+requiring -> pcomp
+addresses -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+parental -> amod
+Ancestors:
+obtain -> xcomp
+need -> relcl
+exceptions -> dobj
+outlines -> advcl
+  -> nsubjpass
+calculated -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+Ancestors:
+obtain -> acl
+method -> appos
+  -> conj
+  -> conj
+exceptions -> dobj
+outlines -> advcl
+  -> nsubjpass
+calculated -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+Ancestors:
+providing -> csubj
+is -> ccomp
+ensure -> advcl
+calculated -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> compound
+  -> conj
+and -> cc
+e-commerce -> conj
+Ancestors:
+children -> appos
+distractions -> dobj
+entitled -> conj
+authored -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+children -> poss
+'s -> case
+and -> cc
+requirements -> conj
+coppa -> pobj
+Ancestors:
+ignore -> ccomp
+indicated -> ccomp
+noted -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> compound
+  -> conj
+and -> cc
+e-commerce -> conj
+Ancestors:
+children -> appos
+distractions -> dobj
+allen -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+children -> poss
+'s -> case
+Ancestors:
+protecting -> acl
+  -> appos
+comm'n -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+
+
+ -> dobj
+implementing -> acl
+  -> appos
+comm'n -> nsubj
+act -> ROOT
+
+KEYWORD: privacy -> npadvmod
+Descendants:
+Ancestors:
+enhancing -> pcomp
+proceedings -> pobj
+  -> dative
+examining -> advcl
+think -> ROOT
+
+KEYWORD: consent -> compound
+Descendants:
+Ancestors:
+options -> dobj
+set -> xcomp
+is -> advcl
+'s -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+rules -> pobj
+consequences -> dobj
+larry -> ROOT
+
+KEYWORD: consent -> compound
+Descendants:
+Ancestors:
+clauses -> pobj
+by -> agent
+bound -> ccomp
+argued -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> compound
+and -> cc
+security -> conj
+Ancestors:
+safety -> pobj
+technology -> pobj
+users -> dobj
+educating -> advcl
+org -> compound
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+children -> poss
+'s -> case
+Ancestors:
+examination -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+act -> appos
+technologies -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+promises -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+rule -> appos
+
+
+ -> dep
+fed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+
+ -> compound
+Ancestors:
+act -> pobj
+known -> acl
+bill -> dobj
+passed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+act -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+parental -> amod
+children -> pobj
+thirteen -> pobj
+Ancestors:
+obtaining -> pcomp
+regulation -> pobj
+complies -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> dobj
+violated -> acl
+allegations -> dobj
+settle -> xcomp
+agrees -> ccomp
+fed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> pobj
+violations -> pobj
+pay -> conj
+go -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> dobj
+violated -> acl
+allegations -> dobj
+settle -> xcomp
+agrees -> ccomp
+note -> ccomp
+pay -> ccomp
+note -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> pobj
+violations -> pobj
+$170 million -> dobj
+pay -> ccomp
+note -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> dobj
+violated -> acl
+allegations -> dobj
+settle -> xcomp
+agrees -> ccomp
+note -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+their -> poss
+parents -> poss
+' -> case
+Ancestors:
+created -> ccomp
+received -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> dobj
+violated -> acl
+allegations -> dobj
+settle -> xcomp
+agrees -> relcl
+is -> ccomp
+note -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> pobj
+
+
+ -> pobj
+violations -> pobj
+pay -> ccomp
+note -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+questions -> pobj
+answers -> appos
+hautala -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+parental -> amod
+and -> cc
+parental -> amod
+review -> compound
+requirements -> conj
+Ancestors:
+regard -> pobj
+comply -> ROOT
+
+KEYWORD: consent -> nmod
+Descendants:
+parental -> amod
+and -> cc
+parental -> amod
+review -> conj
+Ancestors:
+mandates -> nsubj
+proven -> conj
+comply -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+[ -> nmod
+o -> dep
+btain -> nmod
+verifiable -> amod
+parental -> amod
+prior -> advmod
+collection -> pobj
+  -> nsubj
+use -> conj
+  -> conj
+and/or -> cc
+disclosure -> conj
+personal -> amod
+information -> pobj
+children -> pobj
+Ancestors:
+operator -> dobj
+requires -> ROOT
+
+KEYWORD: privacy policy -> appos
+Descendants:
+messenger -> compound
+kids -> poss
+'s -> case
+
+ -> compound
+Ancestors:
+policy -> dobj
+inc -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+violations -> pobj
+facebook -> dobj
+probe -> ROOT
+
+KEYWORD: privacy policy -> appos
+Descendants:
+158 -> nummod
+messenger -> compound
+kids -> compound
+  -> compound
+facebook -> conj
+Ancestors:
+d -> ROOT
+
+KEYWORD: data breach -> dobj
+Descendants:
+reported -> amod
+cambridge -> compound
+analytica -> compound
+Ancestors:
+following -> acl
+practices -> dobj
+maintains -> ccomp
+asking -> ccomp
+apologized -> ROOT
+
+KEYWORD: data breach -> pobj
+Descendants:
+Ancestors:
+apologized -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> dobj
+violating -> ccomp
+tell -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+general -> amod
+data -> compound
+Ancestors:
+regulation -> appos
+  -> nsubj
+imposed -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+parental -> amod
+or -> cc
+authorization -> conj
+Ancestors:
+be -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+parental -> amod
+or -> cc
+authorization -> conj
+Ancestors:
+process -> advcl
+illegal -> ccomp
+making -> acl
+   -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+parental -> amod
+or -> cc
+
+ -> compound
+authorization -> conj
+Ancestors:
+process -> advcl
+illegal -> ccomp
+making -> acl
+   -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+data -> compound
+Ancestors:
+concerned -> acomp
+become -> ccomp
+demonstrate -> ROOT
+
+KEYWORD: consent -> compound
+Descendants:
+Ancestors:
+act -> pobj
+known -> acl
+senate -> pobj
+act -> dobj
+introduced -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+opt-in -> nmod
+their -> poss
+users -> pobj
+Ancestors:
+obtain -> xcomp
+required -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+data -> compound
+Ancestors:
+compliance -> pobj
+expectation -> dobj
+establish -> conj
+were -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> nsubj
+pass -> advcl
+establish -> conj
+were -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+national -> amod
+Ancestors:
+
+
+ -> nsubj
+law -> dobj
+want -> ccomp
+agreed -> ccomp
+see -> ccomp
+take -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+bill -> nsubj
+engadget -> ROOT

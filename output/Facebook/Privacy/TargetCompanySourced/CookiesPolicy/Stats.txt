@@ -456,7 +456,7 @@ terms:1
 
 Keywords that appear in the file, alongside with their frequencies:
 hacked:1
-Privacy:1
+privacy:1
 ---------------------------------------------------------------------------------------
 Dependency relations of keywords that appear in the file:
 
@@ -465,7 +465,6 @@ Descendants:
 that -> mark
 your -> poss
 account -> nsubjpass
-hacked -> ccomp
 Ancestors:
 tell -> advcl
 forget -> relcl
@@ -475,3 +474,11 @@ allows -> relcl
 information -> dobj
 store -> xcomp
 use -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+cookies -> appos
+Ancestors:
+careers -> advcl
+sign -> ccomp
+facebook -> ROOT

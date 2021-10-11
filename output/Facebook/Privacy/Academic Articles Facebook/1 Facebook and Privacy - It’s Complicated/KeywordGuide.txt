@@ -2,6 +2,6 @@
 1 Facebook and Privacy - It’s Complicated
 Keywords found by String Search
 
-Privacy:144
+privacy:144
 consent:1
 SOC:45

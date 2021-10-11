@@ -781,22 +781,51 @@ cookies:1
 ----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:4
+privacy:4
 consent:2
 ---------------------------------------------------------------------------------------
 Dependency relations of keywords that appear in the file:
 
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+choices -> dobj
+review -> relcl
+time -> pobj
+go -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+people -> poss
+'s -> case
+Ancestors:
+protecting -> pcomp
+
+
+ -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+your -> poss
+and -> cc
+application -> compound
+settings -> conj
+  -> appos
+Ancestors:
+create -> conj
+translate -> conj
+perform -> ROOT
+
 KEYWORD: consent -> pobj
 Descendants:
 our -> poss
-consent -> pobj
 Ancestors:
 transfer -> ROOT
 
 KEYWORD: consent -> dobj
 Descendants:
 clear -> amod
-consent -> dobj
 Ancestors:
 expressing -> acl
 document -> conj
@@ -808,3 +837,10 @@ person -> conj
  -> appos
   -> nsubj
 be -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+careers -> advcl
+facebook -> advcl
+sign -> ROOT

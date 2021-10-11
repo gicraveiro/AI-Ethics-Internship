@@ -2,7 +2,7 @@
 DataPolicy
 Keywords found by String Search
 
-Privacy:9
+privacy:9
 right to object:3
 data protection:3
 consent:2

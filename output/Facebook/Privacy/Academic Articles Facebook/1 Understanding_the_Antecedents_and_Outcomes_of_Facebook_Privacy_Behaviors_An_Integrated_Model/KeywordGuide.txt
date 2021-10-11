@@ -2,6 +2,6 @@
 1 Understanding_the_Antecedents_and_Outcomes_of_Facebook_Privacy_Behaviors_An_Integrated_Model
 Keywords found by String Search
 
-Privacy:336
+privacy:336
 SOC:110
 NIST:1

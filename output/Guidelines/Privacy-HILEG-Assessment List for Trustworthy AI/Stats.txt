@@ -267,7 +267,6 @@ KEYWORD: privacy -> dobj
 Descendants:
 # -> quantmod
 3 -> nummod
-privacy -> dobj
 and -> cc
 data -> compound
 governance -> conj
@@ -279,7 +278,6 @@ requirement -> ROOT
 
 KEYWORD: privacy -> nmod
 Descendants:
-privacy -> nmod
 Ancestors:
 governance -> dobj
 requirement -> appos
@@ -291,7 +289,6 @@ KEYWORD: privacy -> appos
 Descendants:
 # -> nmod
 3 -> nummod
-privacy -> appos
 and -> cc
 data -> compound
 governance -> conj
@@ -304,13 +301,11 @@ linked -> ROOT
 
 KEYWORD: privacy -> attr
 Descendants:
-privacy -> attr
 Ancestors:
 linked -> ROOT
 
 KEYWORD: privacy -> pobj
 Descendants:
-privacy -> pobj
 Ancestors:
 harm -> pobj
 prevention -> nsubj
@@ -318,7 +313,6 @@ necessitates -> ROOT
 
 KEYWORD: privacy -> dobj
 Descendants:
-privacy -> dobj
 Ancestors:
 protects -> relcl
 manner -> pobj
@@ -330,7 +324,6 @@ necessitates -> ROOT
 
 KEYWORD: anonymisation -> conj
 Descendants:
-anonymisation -> conj
 Ancestors:
 aggregation -> appos
 glossary -> nmod
@@ -338,15 +331,39 @@ lifecycle -> ROOT
 
 KEYWORD: data protection -> nmod
 Descendants:
-data protection -> nmod
 Ancestors:
+assessment -> dep
+lifecycle -> ROOT
+
+KEYWORD: dpia -> appos
+Descendants:
+Ancestors:
+  -> appos
+assessment -> dep
+lifecycle -> ROOT
+
+KEYWORD: data protection officer -> appos
+Descendants:
+  -> nmod
+  -> appos
+dpo -> appos
+  -> appos
+Ancestors:
+assessment -> dep
+lifecycle -> ROOT
+
+KEYWORD: dpo -> appos
+Descendants:
+  -> appos
+Ancestors:
+  -> appos
+data protection officer -> appos
 assessment -> dep
 lifecycle -> ROOT
 
 KEYWORD: encryption -> appos
 Descendants:
   -> compound
-encryption -> appos
 Ancestors:
 assessment -> dep
 lifecycle -> ROOT
@@ -355,7 +372,6 @@ KEYWORD: pseudonymisation -> conj
 Descendants:
  
  -> compound
-pseudonymisation -> conj
   -> compound
 standards -> conj
 Ancestors:
@@ -366,14 +382,12 @@ Descendants:
  
 
  -> nummod
-privacy -> nsubj
 subsection -> pobj
 Ancestors:
 helps -> ROOT
 
 KEYWORD: privacy -> pobj
 Descendants:
-privacy -> pobj
 and -> cc
 
  -> compound
@@ -388,7 +402,6 @@ KEYWORD: data protection -> conj
 Descendants:
 
  -> compound
-data protection -> conj
 Ancestors:
 privacy -> pobj
 impact -> pobj
@@ -398,7 +411,6 @@ helps -> ROOT
 
 KEYWORD: privacy -> pobj
 Descendants:
-privacy -> pobj
 Ancestors:
 right -> pobj
 impact -> dobj
@@ -406,7 +418,6 @@ consider -> ROOT
 
 KEYWORD: data protection -> pobj
 Descendants:
-data protection -> pobj
 Ancestors:
 right -> conj
 integrity -> ccomp
@@ -414,7 +425,6 @@ consider -> ROOT
 
 KEYWORD: privacy -> pobj
 Descendants:
-privacy -> pobj
 Ancestors:
 related -> ccomp
 allow -> relcl
@@ -423,7 +433,6 @@ establish -> ROOT
 
 KEYWORD: data protection -> dobj
 Descendants:
-data protection -> dobj
 Ancestors:
 concerning -> acl
 elements -> pobj
@@ -433,7 +442,6 @@ helps -> ROOT
 KEYWORD: data protection -> compound
 Descendants:
 general -> amod
-data protection -> compound
 Ancestors:
 regulation -> pobj
 are -> relcl
@@ -441,16 +449,45 @@ measures -> pobj
 any -> dobj
 put -> ROOT
 
+KEYWORD: data protection impact assessment -> dep
+Descendants:
+ -> dep
+  -> appos
+dpia -> appos
+23 -> appos
+Ancestors:
+designate -> ROOT
+
+KEYWORD: dpia -> appos
+Descendants:
+Ancestors:
+  -> appos
+data protection impact assessment -> dep
+designate -> ROOT
+
+KEYWORD: data protection officer -> dobj
+Descendants:
+  -> appos
+dpo -> appos
+24 -> appos
+Ancestors:
+designate -> ROOT
+
+KEYWORD: dpo -> appos
+Descendants:
+Ancestors:
+  -> appos
+data protection officer -> dobj
+designate -> ROOT
+
 KEYWORD: oversight mechanisms for data processing -> npadvmod
 Descendants:
  -> nummod
-oversight mechanisms for data processing -> npadvmod
 Ancestors:
 designate -> ROOT
 
 KEYWORD: logging data access -> pcomp
 Descendants:
-logging data access -> pcomp
 and -> cc
 Ancestors:
 mechanisms -> dobj
@@ -459,7 +496,6 @@ designate -> ROOT
 
 KEYWORD: privacy-by-design -> dobj
 Descendants:
-privacy-by-design -> dobj
 and -> cc
 default -> conj
   -> conj
@@ -473,7 +509,6 @@ KEYWORD: encryption -> nsubj
 Descendants:
 g -> meta
   -> compound
-encryption -> nsubj
  
 
  -> compound
@@ -494,7 +529,6 @@ Descendants:
  
 
  -> compound
-pseudonymisation -> conj
   -> compound
 aggregation -> conj
   -> compound
@@ -510,7 +544,6 @@ encryption -> nsubj
 KEYWORD: anonymisation -> conj
 Descendants:
   -> compound
-anonymisation -> conj
   -> appos
 Ancestors:
 aggregation -> conj
@@ -524,7 +557,6 @@ encryption -> nsubj
 KEYWORD: data minimisation -> nsubj
 Descendants:
  -> nummod
-data minimisation -> nsubj
  
  -> compound
 categories -> conj
@@ -546,14 +578,12 @@ implement -> ROOT
 
 KEYWORD: right to withdraw consent -> dobj
 Descendants:
-right to withdraw consent -> dobj
 Ancestors:
 implement -> ROOT
 
 KEYWORD: right to object -> dobj
 Descendants:
   -> nmod
-right to object -> dobj
 and -> cc
 
 
@@ -570,7 +600,6 @@ Descendants:
 
 
  -> nsubj
-right to be forgotten -> conj
 development -> pobj
 ai -> amod
 system -> pobj
@@ -580,7 +609,6 @@ implement -> ROOT
 
 KEYWORD: privacy -> nmod
 Descendants:
-privacy -> nmod
 and -> cc
 data protection -> conj
 Ancestors:
@@ -590,7 +618,6 @@ consider -> ROOT
 
 KEYWORD: data protection -> conj
 Descendants:
-data protection -> conj
 Ancestors:
 privacy -> nmod
 implications -> nsubj
@@ -599,7 +626,6 @@ consider -> ROOT
 
 KEYWORD: privacy -> nmod
 Descendants:
-privacy -> nmod
 and -> cc
 data protection -> conj
 Ancestors:
@@ -608,7 +634,6 @@ consider -> ROOT
 
 KEYWORD: data protection -> conj
 Descendants:
-data protection -> conj
 Ancestors:
 privacy -> nmod
 implications -> dobj

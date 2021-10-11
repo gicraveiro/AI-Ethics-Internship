@@ -3,9 +3,9 @@
 
 
 With stop word removal 
-Size of original corpus: 10315 
-Size of filtered corpus: 5204
-Size of Lexicon: 1565
+Size of original corpus: 12188 
+Size of filtered corpus: 5238
+Size of Lexicon: 1583
 
 Tokens that appear in the file, alongside with their frequencies:
 privacy:190
@@ -14,10 +14,10 @@ post:77
 users:73
 friends:62
 tool:52
+1:51
 interactions:50
-1:46
+2:45
 figure:44
-2:42
 number:37
 may:34
 proposed:33
@@ -36,11 +36,11 @@ solution:23
 awareness:23
 online:22
 settings:22
+10:22
 =:22
 screen:22
 issues:21
 possible:21
-10:21
 graph:21
 nodes:21
 4:20
@@ -65,6 +65,7 @@ website:16
 5:16
 real:16
 according:15
+20%:15
 his/her:15
 mock-up:15
 networks:14
@@ -73,12 +74,12 @@ detected:14
 simulation:14
 hence:14
 public:14
-20%:14
 th:14
 people:13
 risks:13
 leakages:13
 interaction:13
+6:13
 accessed:13
 following:13
 8:13
@@ -90,7 +91,6 @@ however:12
 work:12
 level:12
 see:12
-6:12
 rules:12
 f:12
 2019:11
@@ -149,6 +149,7 @@ related:8
 shown:8
 values:8
 decision:8
+10%:8
 len:8
 service:8
 conference:8
@@ -169,7 +170,6 @@ access:7
 application:7
 privometer:7
 13:7
-10%:7
 pf:7
 average:7
 computer:6
@@ -209,9 +209,11 @@ selected:5
 finally:5
 among:5
 approximately:5
+2016:5
 could:5
 sites:5
 19-10-2018:5
+0:5
 journal:5
 visible:5
 beyond:5
@@ -257,7 +259,6 @@ usage:4
 need:4
 become:4
 active:4
-2016:4
 2017:4
 keeps:4
 provide:4
@@ -320,7 +321,6 @@ mainly:3
 taking:3
 computing:3
 track:3
-0:3
 interface:3
 account:3
 allow:3
@@ -548,6 +548,7 @@ fd:2
 demonstrate:2
 collected:2
 supports:2
+networkx:2
 tests:2
 evaluate:2
 software:2
@@ -753,11 +754,7 @@ introduce:1
 completely:1
 misinformed:1
 billions:1
-2016 1:1
-6 1 0:1
-97 1:1
-2 1 2018 2:1
-2 1:1
+97:1
 community:1
 getting:1
 connect:1
@@ -805,6 +802,7 @@ mckeon:1
 http://mattmckeon:1
 com/facebook-privacy/:1
 edens:1
+j  ( 2018:1
 less:1
 transparent:1
 harder:1
@@ -1034,7 +1032,6 @@ webpage:1
 democratic:1
 specifies:1
 transformed:1
-networkx:1
 simplify:1
 satisfy:1
 aforementioned:1
@@ -1046,7 +1043,6 @@ large:1
 collection:1
 https://snap:1
 edu/data:1
-10 networkx:1
 complex:1
 https://networkx:1
 3422:1
@@ -1086,7 +1082,6 @@ withdraw:1
 testing:1
 representing:1
 withdrawal:1
-10% , 20%:1
 respectively:1
 trial:1
 update:1
@@ -1095,8 +1090,26 @@ rows:1
 start:1
 downwards:1
 vs:1
-164:21 88:88 58:92:1
-41:50 30:59 22:66 16:91 12:23 8:05 3:91 32:94 17:85 11:79 8:34 6:11 4:54 3:39 2:46 1:61 0:78:1
+164:21:1
+88:88:1
+58:92
+41:50:1
+30:59
+22:66
+16:91
+12:23
+8:05
+3:91:1
+32:94
+17:85
+11:79:1
+8:34:1
+6:11:1
+4:54:1
+3:39:1
+2:46
+1:61
+0:78:1
 458:78:1
 391:88:1
 332:85:1
@@ -1107,14 +1120,70 @@ vs:1
 173:96:1
 134:34:1
 106:97:1
-0 117:85 92:50 75:72 64:07 57:02 48:10 38:79 36:35 27:76 21:68:1
-88:60 76:67 65:42 57:02 51:85 44:41 36:13:1
-34:53 26:66 21:33 75:47 69:54 60:66 53:58 49:53 42:63 34:78 33:50:1
-26:06 20:98 85:32:1
-74:79 64:22 56:13 51:33 43:99 35:81 34:31 26:57 21:21 77:25 70:60 61:26 54:15 49:77:1
-42:85 34:91 33:78 26:12 21:04 81:85 73:18:1
-63:17:1
-55:31 50:73 43:51 35:48 34:12 26:38 21:20:1
+117:85:1
+92:50:1
+75:72:1
+64:07
+57:02
+48:10
+38:79
+36:35:1
+27:76:1
+21:68:1
+88:60:1
+76:67
+65:42
+57:02:1
+51:85
+44:41
+36:13
+34:53
+:1
+26:66
+21:33:1
+75:47
+69:54:1
+60:66
+53:58
+49:53
+42:63
+34:78
+33:50
+26:06
+20:98:1
+85:32
+74:79
+64:22
+56:13
+51:33
+:1
+43:99
+35:81:1
+34:31:1
+26:57:1
+21:21:1
+81:85:1
+73:18
+63:17
+55:31:1
+50:73:1
+43:51
+35:48
+34:12
+26:38
+21:20
+
+77:25
+70:60
+61:26
+:1
+54:15
+49:77:1
+42:85
+34:91
+33:78
+26:12
+21:04:1
 split:1
 column:1
 six:1
@@ -1573,7 +1642,1629 @@ print:1
 download:1
 email:1
 articles:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:190
+privacy:190
 privacy policy:12
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> nsubj
+dimitrios -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> nsubj
+exist -> ccomp
+understand -> xcomp
+is -> relcl
+functionalities -> dobj
+studying -> pcomp
+  -> dep
+be -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> dobj
+emphasize -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+facebook’s -> poss
+Ancestors:
+existing -> xcomp
+
+
+ -> advcl
+emphasize -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> dobj
+detected -> relcl
+solution -> dobj
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+effect -> dobj
+visualizes -> relcl
+  -> dobj
+featuring -> acl
+  -> nsubj
+directs -> conj
+propose -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+control -> advcl
+directs -> conj
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+observe -> ccomp
+allows -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+changes -> pobj
+aware -> ccomp
+make -> advcl
+provides -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+interaction -> pobj
+Ancestors:
+protect -> acl
+chance -> dobj
+give -> xcomp
+aiming -> advcl
+make -> advcl
+provides -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+change -> nsubj
+takes -> advcl
+deleting -> pcomp
+protect -> acl
+chance -> dobj
+give -> xcomp
+aiming -> advcl
+make -> advcl
+provides -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+increase -> acl
+survey -> nsubj
+illuminated -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> compound
+Ancestors:
+analysis -> conj
+networks -> appos
+words -> pobj
+
+
+ -> dep
+facebook -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> dobj
+introduce -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+posts -> pobj
+Ancestors:
+adjust -> advcl
+be -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+creates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+highlight -> xcomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+level -> pobj
+inform -> advcl
+propose -> conj
+detected -> relcl
+risks -> dobj
+highlight -> xcomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+change -> pobj
+case -> pobj
+actions -> dobj
+control -> ccomp
+allow -> conj
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> nsubj
+change -> conj
+became -> ccomp
+was -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+personal -> amod
+setting -> acl
+their -> poss
+personal -> amod
+data -> pobj
+Ancestors:
+select -> xcomp
+asking -> pcomp
+served -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+criticisms -> conj
+debates -> pobj
+result -> pobj
+
+
+ -> nsubj
+unveiled -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+
+ -> compound
+Ancestors:
+setting -> compound
+page -> dobj
+unveiled -> ROOT
+
+KEYWORD: privacy -> npadvmod
+Descendants:
+Ancestors:
+setting -> pcomp
+levels -> attr
+were -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> dobj
+prevent -> xcomp
+was -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+facebook -> advcl
+applied -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+option -> dobj
+applied -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+preference -> dobj
+set -> ccomp
+allows -> relcl
+option -> dobj
+applied -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+structure -> nsubjpass
+removed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+options -> dobj
+proposed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+evolution -> dobj
+  -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+facebook -> ccomp
+say -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+control -> compound
+options -> dobj
+improved -> advcl
+claimed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+problems -> pobj
+complaining -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+structure -> conj
+problems -> pobj
+complaining -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+facebook -> pobj
+Ancestors:
+worked -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+facebook -> compound
+Ancestors:
+policies -> nsubj
+became -> ccomp
+showed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policies -> pobj
+transparency -> conj
+  -> conj
+clearness -> conj
+usability -> nsubj
+are -> ccomp
+stated -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+easy -> amod
+Ancestors:
+interface -> dobj
+offer -> relcl
+tools -> dobj
+need -> ccomp
+confirmed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> pobj
+focus -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+increase -> acl
+tool -> dobj
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> conj
+usage -> pobj
+focusing -> acl
+  -> appos
+list -> dobj
+prepared -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+facebook’s -> poss
+
+ -> compound
+7 -> appos
+which -> nsubj
+is -> relcl
+interestingly -> advmod
+high -> amod
+percentage -> attr
+mostly -> advmod
+well-educated -> amod
+people -> pobj
+Ancestors:
+aware -> acomp
+were -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+increase -> relcl
+tool -> pobj
+need -> ccomp
+shows -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> dobj
+explain -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> dobj
+detected -> ccomp
+detected -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> dobj
+detected -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+facebook -> compound
+Ancestors:
+detected -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+Ancestors:
+setting -> ccomp
+changes -> advcl
+inform -> conj
+interacts -> advcl
+be -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+facebook -> pobj
+Ancestors:
+disagree -> ccomp
+claim -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+friends -> pobj
+Ancestors:
+something -> dobj
+posts -> ccomp
+assume -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+post -> compound
+Ancestors:
+becomes -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issue -> dobj
+creates -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+facebook -> pobj
+Ancestors:
+disagree -> ccomp
+claim -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> pobj
+results -> dobj
+survey -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+7 -> nummod
+facebook -> compound
+  -> appos
+2019 -> npadvmod
+  -> appos
+Ancestors:
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> pobj
+proposal -> nsubj
+suggested -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+users -> poss
+’ -> case
+Ancestors:
+protect -> acl
+applications -> conj
+solutions -> dobj
+suggested -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> nsubj
+exist -> ccomp
+grows -> ccomp
+proposes -> ccomp
+arise -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+change -> ccomp
+facebook -> conj
+proposes -> ccomp
+arise -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> conj
+  -> appos
+  -> dobj
+proposes -> ccomp
+arise -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> dobj
+detected -> conj
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+increasing -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+facebook -> compound
+Ancestors:
+tool -> pobj
+design -> pobj
+solution -> conj
+problem -> dobj
+visualizing -> pcomp
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tool -> dobj
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> pobj
+impact -> dobj
+clarify -> advcl
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> pobj
+change -> pobj
+effect -> dobj
+simulate -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+change -> pobj
+depending -> acl
+actions -> dobj
+change -> acl
+fact -> dobj
+considering -> acl
+  -> dobj
+observe -> advcl
+simulate -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+protect -> acl
+interactions -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+change -> pobj
+case -> pobj
+apply -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+mentioned -> amod
+Ancestors:
+solution -> dobj
+provide -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> pobj
+works -> nsubj
+revises -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> dobj
+revises -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+breach -> nsubj
+took -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+received -> relcl
+  -> npadvmod
+took -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+and -> cc
+advertising -> compound
+rules -> conj
+that -> nsubjpass
+respected -> relcl
+Ancestors:
+entered -> conj
+attracted -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+its -> poss
+Ancestors:
+evaluation -> dobj
+undergo -> xcomp
+decided -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+analysis -> pobj
+focusing -> acl
+researchers -> nsubj
+shown -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> dobj
+shown -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> pobj
+existence -> ccomp
+proved -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tools -> pobj
+awareness -> pobj
+lack -> pobj
+  -> npadvmod
+proved -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tool -> nsubj
+increase -> ccomp
+emphasized -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+awareness -> dobj
+increase -> ccomp
+emphasized -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> nsubj
+hide -> ccomp
+claimed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakage -> pobj
+level -> dobj
+measure -> advcl
+called -> conj
+developed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+raise -> conj
+measure -> acl
+application -> dobj
+created -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+mitigation -> appos
+   -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+combining -> csubj
+provided -> ccomp
+stated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> pobj
+
+
+ -> appos
+timeline -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tool -> dobj
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> nsubjpass
+changed -> advcl
+act -> xcomp
+manages -> relcl
+tool -> dobj
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+change -> pobj
+effects -> dobj
+visualizes -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+decisions -> pobj
+having -> xcomp
+pos -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+comments -> pobj
+Ancestors:
+protect -> conj
+use -> advcl
+deliver -> ccomp
+pos -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakage -> dobj
+cover -> relcl
+solution -> dep
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+facebook -> compound
+Ancestors:
+tool -> dobj
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+increase -> advcl
+propose -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+changes -> pobj
+check -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+issues -> dobj
+detect -> conj
+check -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+own -> amod
+Ancestors:
+protect -> advcl
+direct -> acl
+order -> pobj
+suggest -> conj
+inform -> conj
+check -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> pobj
+based -> acl
+post -> pobj
+area -> dobj
+shows -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> nsubjpass
+changed -> ccomp
+checks -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> nsubjpass
+changed -> advcl
+delete -> ccomp
+demonstrate -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+detected -> conj
+demonstrate -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> pobj
+change -> nsubj
+affect -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+preferences -> pobj
+by -> agent
+caused -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> pobj
+
+
+ -> advcl
+find -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+expand -> advcl
+seeing -> acl
+number -> npadvmod
+sci -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+change -> advcl
+gets -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+his/her -> poss
+Ancestors:
+protect -> acl
+precautions -> dobj
+take -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+protect -> advcl
+set -> advcl
+shows -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> pobj
+interactions -> pobj
+number -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> dobj
+changing -> advcl
+step -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> appos
+setting -> dobj
+changing -> advcl
+step -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+Ancestors:
+changes -> advcl
+figure -> pcomp
+is -> ccomp
+seen -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+changing -> pcomp
+increase -> advcl
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> pobj
+according -> advcl
+is -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+friends -> appos
+  -> appos
+Ancestors:
+  -> dobj
+spreading -> acl
+  -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+friends -> appos
+  -> appos
+Ancestors:
+  -> appos
+graph -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+fof -> appos
+  -> appos
+Ancestors:
+  -> dobj
+spreading -> acl
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> dobj
+changing -> advcl
+step -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> appos
+setting -> dobj
+changing -> advcl
+step -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+fof -> appos
+  -> appos
+Ancestors:
+  -> appos
+graph -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+public -> amod
+Ancestors:
+  -> dobj
+spreading -> acl
+  -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+public -> amod
+  -> appos
+Ancestors:
+  -> appos
+graph -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issue -> appos
+  -> appos
+scenario -> pobj
+informs -> conj
+welcomes -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+setting -> acl
+  -> dobj
+Ancestors:
+select -> ccomp
+directs -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> dobj
+select -> advcl
+directs -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> appos
+Ancestors:
+check -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+comment -> pobj
+Ancestors:
+check -> xcomp
+asked -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+its -> poss
+Ancestors:
+protect -> acl
+comment -> pobj
+rule -> dobj
+set -> acl
+prefers -> dobj
+asks -> relcl
+message -> dobj
+shows -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> dobj
+change -> ccomp
+represents -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> dobj
+change -> xcomp
+try -> conj
+select -> xcomp
+directed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+change -> dobj
+applying -> pcomp
+  -> nsubj
+demonstrates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+level -> dobj
+control -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+changes -> pobj
+by -> agent
+affected -> acl
+interactions -> pobj
+level -> dobj
+control -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+demonstrates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> dobj
+changing -> pcomp
+prevent -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+change -> ccomp
+allows -> advcl
+served -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+change -> pobj
+case -> pobj
+notification -> pobj
+send -> ccomp
+allow -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+his/her -> poss
+Ancestors:
+concerned -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+protect -> advcl
+pay -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+cause -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+handle -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> nsubj
+offer -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+serious -> amod
+Ancestors:
+face -> ccomp
+facebook -> advcl
+giving -> pcomp
+plays -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+increase -> ccomp
+verified -> conj
+plays -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> dobj
+face -> acl
+fact -> pobj
+by -> agent
+triggered -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+control -> ccomp
+allow -> acl
+need -> attr
+is -> conj
+be -> advcl
+triggered -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+scope -> pobj
+issue -> pobj
+focused -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+analyzed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issue -> pobj
+focused -> relcl
+tool -> dobj
+proposed -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+preferred -> amod
+setting -> acl
+post -> pobj
+Ancestors:
+level -> pobj
+spreading -> pcomp
+observing -> acl
+  -> appos
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+threats -> pobj
+related -> acl
+studies -> nsubj
+
+
+ -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> appos
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+problem -> pobj
+reason -> appos
+  -> dep
+is -> ROOT
+
+KEYWORD: privacy policy -> nsubj
+Descendants:
+facebook -> compound
+and -> cc
+facebook -> compound
+members -> conj
+Ancestors:
+assume -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> nsubj
+remain -> conj
+are -> ccomp
+assume -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+defining -> advcl
+evaluate -> advcl
+created -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> pobj
+focused -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> dobj
+detected -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issue -> pobj
+investigates -> relcl
+  -> conj
+  -> appos
+study -> dobj
+compare -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risk -> dobj
+explain -> acl
+tool -> dobj
+propose -> ccomp
+present -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+challenge -> dobj
+study -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concern -> pobj
+study -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+analyze -> acl
+survey -> dobj
+study -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+analyze -> relcl
+survey -> nsubj
+creates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risk -> dobj
+creates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+con- -> nmod
+cerns -> dobj
+analyzing -> advcl
+creates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+improving -> acl
+identification -> nsubj
+identified -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+problem -> pobj
+simulation -> dobj
+identified -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+detecting -> advcl
+identified -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+preferences -> pobj
+stemming -> acl
+risks -> dobj
+detecting -> advcl
+identified -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+risks -> dobj
+analyzing -> xcomp
+allows -> conj
+identified -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> pobj
+detection -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> dobj
+detected -> pobj
+
+
+ -> nsubj
+are -> ccomp
+pose -> ccomp
+are -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+improve -> acl
+efforts -> pobj
+this -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+survey -> pobj
+settings -> dobj
+improve -> acl
+efforts -> pobj
+this -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risk -> dobj
+identify -> conj
+extending -> advcl
+monitor -> ccomp
+tries -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+leakages -> dobj
+presented -> advcl
+detected -> ccomp
+applied -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+facebook -> compound
+Ancestors:
+rooted -> acomp
+are -> relcl
+  -> appos
+leakages -> dobj
+presented -> advcl
+detected -> ccomp
+applied -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+preferences -> pobj
+investigated -> conj
+applied -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> dobj
+handling -> conj
+analyzing -> pcomp
+approach -> dobj
+  -> dep
+applied -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> nsubjpass
+explored -> conj
+applied -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+system -> nsubj
+create -> ccomp
+consider -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+facebook -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issues -> conj
+sites -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+facebook’s -> poss
+Ancestors:
+evolution -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+preservation -> pobj
+study -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+concern -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+security -> pobj
+conference -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+issues -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+awareness -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+privometer -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+behavior -> dobj
+predicting -> acl
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+prediction -> compound
+model -> appos
+ppm -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+awareness -> dobj
+raise -> acl
+application -> pobj
+design -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+facebook -> dep
+it’s -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+usable -> amod
+and -> cc
+security -> conj
+Ancestors:
+symposium -> pobj
+proceedings -> appos
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+select -> amod
+setting -> acl
+
+  -> dobj
+friends -> appos
+Ancestors:
+screens -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+change -> pobj
+screen -> ROOT

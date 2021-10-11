@@ -780,7 +780,7 @@ Keywords that appear in the file, alongside with their frequencies:
 data protection:3
 right to object:3
 consent:2
-Privacy:2
+privacy:2
 ---------------------------------------------------------------------------------------
 Dependency relations of keywords that appear in the file:
 
@@ -790,7 +790,6 @@ your -> poss
 explicit -> amod
 
  -> compound
-consent -> dobj
   -> appos
 Ancestors:
 given -> ccomp
@@ -802,14 +801,12 @@ use -> ROOT
 KEYWORD: consent -> pobj
 Descendants:
 your -> poss
-consent -> pobj
 Ancestors:
 consistent -> amod
 collect -> ROOT
 
 KEYWORD: data protection -> compound
 Descendants:
-data protection -> compound
 Ancestors:
 regulation -> pobj
 
@@ -819,7 +816,6 @@ have -> ROOT
 
 KEYWORD: right to object -> dobj
 Descendants:
-right to object -> dobj
 
 
  -> dobj
@@ -834,7 +830,6 @@ have -> ROOT
 
 KEYWORD: right to object -> conj
 Descendants:
-right to object -> conj
 our -> poss
 processing -> pobj
 your -> poss
@@ -864,7 +859,6 @@ Ancestors:
 
 KEYWORD: right to object -> appos
 Descendants:
-right to object -> appos
 our -> poss
 processing -> pobj
 your -> poss
@@ -890,9 +884,14 @@ party -> pobj
 Ancestors:
   -> ROOT
 
+KEYWORD: privacy -> nsubj
+Descendants:
+Ancestors:
+works -> pcomp
+learn -> ROOT
+
 KEYWORD: data protection -> compound
 Descendants:
-data protection -> compound
 Ancestors:
 oﬃcer -> dobj
 contact -> advcl
@@ -900,8 +899,14 @@ dublin -> ROOT
 
 KEYWORD: data protection -> compound
 Descendants:
-data protection -> compound
 Ancestors:
 commissioner -> dobj
   -> dep
 have -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+careers -> advcl
+facebook -> advcl
+sign -> ROOT

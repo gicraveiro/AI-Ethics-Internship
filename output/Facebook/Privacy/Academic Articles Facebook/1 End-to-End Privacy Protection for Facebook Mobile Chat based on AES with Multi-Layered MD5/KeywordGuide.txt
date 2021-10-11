@@ -2,7 +2,7 @@
 1 End-to-End Privacy Protection for Facebook Mobile Chat based on AES with Multi-Layered MD5
 Keywords found by String Search
 
-Privacy:32
+privacy:32
 encryption:27
 data protection:1
 SOC:20

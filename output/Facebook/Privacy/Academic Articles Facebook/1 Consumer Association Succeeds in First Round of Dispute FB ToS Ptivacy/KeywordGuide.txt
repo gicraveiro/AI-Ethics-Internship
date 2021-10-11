@@ -2,7 +2,7 @@
 1 Consumer Association Succeeds in First Round of Dispute FB ToS Ptivacy
 Keywords found by String Search
 
-Privacy:14
+privacy:14
 data protection:5
 consent:13
 SOC:12

@@ -2,9 +2,9 @@
 1 Privacy and user awareness on Facebook
 Keywords found by String Search
 
-Privacy:70
+privacy:70
 data minimisation:1
 consent:2
-privacy policy:4
+privacy policy:3
 SOC:37
 hacked:1

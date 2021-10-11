@@ -306,18 +306,213 @@ sitemap:1
 ----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:32
+privacy:32
 encryption:2
 data security:1
 data protection:1
 ---------------------------------------------------------------------------------------
 Dependency relations of keywords that appear in the file:
 
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+choices -> pobj
+control -> dobj
+giving -> conj
+protecting -> pcomp
+committed -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+your -> poss
+Ancestors:
+manage -> xcomp
+knowing -> acl
+  -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> advcl
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+your -> poss
+Ancestors:
+give -> relcl
+tools -> dobj
+build -> ccomp
+that’s -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+your -> poss
+Ancestors:
+control -> dobj
+give -> relcl
+tools -> dobj
+build -> parataxis
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+
+ -> compound
+checkup -> nsubj
+helps -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> pcomp
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+shortcuts -> pobj
+
+
+ -> dep
+made -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tools -> nsubj
+easier -> ccomp
+made -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> advcl
+learn -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+Ancestors:
+part -> dobj
+make -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+people’s -> poss
+
+
+ -> appos
+Ancestors:
+
+
+ -> nsubj
+look -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+progress -> compound
+
+ -> compound
+update -> pobj
+response -> xcomp
+enable -> conj
+balanced -> relcl
+
+
+ -> appos
+look -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+
+ -> nmod
+global -> amod
+Ancestors:
+build -> xcomp
+doing -> advcl
+look -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+ongoing -> amod
+Ancestors:
+sharing -> acl
+program -> dobj
+look -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+
+ -> compound
+Ancestors:
+designing -> pcomp
+
+
+ -> dep
+ensuring -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+
+
+ -> pobj
+mind -> pobj
+Ancestors:
+built -> conj
+ensuring -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+designing -> advcl
+learn -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+our -> poss
+
+
+ -> compound
+Ancestors:
+matters -> pobj
+products -> pobj
+designing -> advcl
+learn -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> advcl
+designing -> advcl
+learn -> ROOT
+
 KEYWORD: encryption -> pobj
 Descendants:
 
  -> compound
-encryption -> pobj
 Ancestors:
 
 
@@ -326,7 +521,6 @@ give -> ROOT
 
 KEYWORD: encryption -> pobj
 Descendants:
-encryption -> pobj
 
 
  -> pobj
@@ -335,9 +529,26 @@ addition -> dobj
 built -> ccomp
 give -> ROOT
 
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> pcomp
+
+
+ -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> advcl
+learn -> ROOT
+
 KEYWORD: data security -> pobj
 Descendants:
-data security -> pobj
 and -> cc
 Ancestors:
 establish -> xcomp
@@ -346,11 +557,97 @@ help -> advcl
 
  -> ROOT
 
+KEYWORD: privacy -> pobj
+Descendants:
+
+
+ -> nmod
+digital -> amod
+Ancestors:
+solutions -> dobj
+design -> advcl
+created -> ccomp
+trust -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+  -> compound
+and -> cc
+
+
+ -> conj
+safety -> conj
+Ancestors:
+questions -> dobj
+tackle -> relcl
+center -> appos
+5 million -> dep
+partnership -> ROOT
+
 KEYWORD: data protection -> compound
 Descendants:
 
 
  -> nsubj
-data protection -> compound
 Ancestors:
 facebook -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> advcl
+facebook -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+messenger -> compound
+Ancestors:
+vision -> pobj
+approach -> pobj
+read -> pcomp
+ways -> dobj
+develop -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+portability -> dobj
+whatsapp -> advcl
+develop -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+matters -> compound
+series -> dobj
+whatsapp -> advcl
+develop -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> advcl
+whatsapp -> advcl
+develop -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+
+ -> compound
+Ancestors:
+are -> conj
+see -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+protecting -> advcl
+see -> advcl
+are -> conj
+see -> ROOT

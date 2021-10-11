@@ -2,7 +2,7 @@
 CookiesPolicy
 Keywords found by String Search
 
-Privacy:1
+privacy:1
 SOC:2
 NIST:1
 hacked:1

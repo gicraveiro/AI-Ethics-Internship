@@ -3,9 +3,9 @@
 
 
 With stop word removal 
-Size of original corpus: 3358 
-Size of filtered corpus: 1888
-Size of Lexicon: 731
+Size of original corpus: 4079 
+Size of filtered corpus: 1904
+Size of Lexicon: 721
 
 Tokens that appear in the file, alongside with their frequencies:
 key:39
@@ -14,17 +14,17 @@ facebook:37
 privacy:32
 process:31
 aes:29
+2:29
 5:28
+1:28
 encryption:27
-2:24
 user:23
 mobile:21
-1:21
 based:19
+3:19
 md:18
 social:18
 users:18
-3:18
 media:17
 protection:16
 data:16
@@ -37,20 +37,21 @@ end-to-end:12
 performance:12
 time:12
 paper:11
+7:11
 science:11
 computer:11
+4:10
 test:10
-4:9
 manipulation:9
 short:8
 used:8
 work:8
-7:8
 generation:8
 12:7
 amount:7
 proposed:7
 secure:7
+6:7
 research:7
 9:7
 brawijaya:6
@@ -73,7 +74,6 @@ increase:5
 http://www:5
 method:5
 sent:5
-6:5
 vol:5
 tion:5
 chipertext:5
@@ -83,6 +83,7 @@ b:5
 results:5
 0:5
 experiment:5
+10:5
 multimedia:5
 game:5
 group:5
@@ -104,14 +105,14 @@ related:4
 128:4
 form:4
 ijim:4
+8:4
 able:4
 figure:4
 message:4
 +:4
+fig:4
 f:4
 ms:4
-10:4
-2016:4
 technology:4
 multi-layered:3
 personal:3
@@ -134,7 +135,6 @@ advantage:3
 plaintext:3
 serve:3
 safely:3
-8:3
 prototype:3
 xmpp:3
 distributed:3
@@ -143,15 +143,17 @@ would:3
 recipient:3
 's:3
 integer:3
+16:3
 combined:3
 ascii:3
 summation:3
 table:3
 randomize:3
 made:3
+81:3
 =:3
-fig:3
 50:3
+58:3
 device:3
 25:3
 100:3
@@ -159,6 +161,7 @@ graph:3
 1 second:3
 ieee:3
 2015:3
+2016:3
 2012:3
 wibisono:2
 sukmo:2
@@ -238,7 +241,6 @@ keys:2
 purpose:2
 range:2
 10 to 99:2
-16:2
 obtained:2
 splitting:2
 digit:2
@@ -251,8 +253,8 @@ highly:2
 34:2
 21:2
 67:2
+mergering:2
 34216781901193798477186770402581:2
-81:2
 0^lu&xjoh-^ac:2
 iniidentifiernya:2
 714:2
@@ -267,7 +269,6 @@ cb:2
 fc:2
 7876:2
 214:2
-58:2
 assumed:2
 see:2
 required:2
@@ -275,7 +276,7 @@ read:2
 hash:2
 setup:2
 expansion:2
-1 2:2
+1000:2
 longer:2
 less:2
 deadline:2
@@ -289,6 +290,7 @@ swift:2
 manner:2
 millisecond:2
 engineering:2
+2005:2
 statista:2
 online:2
 last:2
@@ -446,7 +448,7 @@ developed:1
 multi-:1
 layer:1
 bined:1
-1 , 2018161:1
+2018161:1
 idea:1
 leaving:1
 previous:1
@@ -508,27 +510,25 @@ integers:1
 utilization:1
 possibility:1
 became:1
-16 81 mergering:1
 61:1
 48:1
 94:1
 108:1
 translation:1
 ^:1
-1 , 2018163:1
+2018163:1
 plain:1
 text:1
 1234567890123456:1
 header:1
 identifier:1
 output:1
-mergering:1
 54180:1
 792:1
 integration:1
-34216781901193798477186770402581541 80:1
-79 2:1
-58 fig:1
+34216781901193798477186770402581541
+80:1
+79:1
 ready:1
 receiving:1
 mes-:1
@@ -577,7 +577,6 @@ specification:1
 worst:1
 measurement:1
 started:1
-1 to 1000:1
 characters:1
 perf_01:1
 perf_02:1
@@ -592,13 +591,6 @@ perf_10:1
 perf_11:1
 250:1
 500:1
-1000:1
-7 1:1
-7 2:1
-6 6:1
-1 3:1
-7 4:1
-8 10:1
 18:1
 2018165:1
 effect:1
@@ -645,10 +637,8 @@ values:1
 transactions:1
 management:1
 52:1
-2 ( 2005:1
 227-237:1
 1109/tem:1
-2005:1
 844927:1
 raul:1
 alan:1
@@ -680,6 +670,8 @@ brant:1
 requests:1
 27 percent:1
 foxnews:1
+2016 
+ :1
 federal:1
 processing:1
 fips:1
@@ -739,8 +731,556 @@ published:1
 resubmitted:1
 13 september 2017:1
 2018167:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:32
+privacy:32
 encryption:27
 data protection:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+paper -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+paper -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+  -> compound
+Ancestors:
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+information -> compound
+Ancestors:
+right -> dobj
+undermine -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+violation -> pobj
+protection -> dobj
+need -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+
+ -> compound
+Ancestors:
+methods -> pobj
+one -> attr
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> dobj
+have -> ccomp
+ensure -> advcl
+encrypt -> relcl
+system -> dobj
+proposed -> ROOT
+
+KEYWORD: privacy -> nsubjpass
+Descendants:
+ 
+
+ -> compound
+1 -> nummod
+
+
+ -> compound
+introduction -> nmod
+user’s -> poss
+information -> compound
+Ancestors:
+recognized -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+personal -> amod
+social -> amod
+
+ -> compound
+media -> pobj
+Ancestors:
+protecting -> conj
+understanding -> nsubj
+becoming -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+infor- -> nmod
+mation -> compound
+Ancestors:
+right -> dobj
+undermine -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+private -> amod
+chatting -> pobj
+facebook -> pobj
+Ancestors:
+represents -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+situation -> pobj
+placed -> relcl
+restrictions -> pobj
+complexity -> pobj
+example -> dobj
+represents -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+org -> nsubj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+facebook -> compound
+user -> compound
+Ancestors:
+threat -> attr
+be -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+advanced -> amod
+Ancestors:
+standard -> pobj
+implementation -> dobj
+present -> ROOT
+
+KEYWORD: encryption -> nsubj
+Descendants:
+  -> compound
+Ancestors:
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> nmod
+mechanism -> dobj
+have -> relcl
+system -> dobj
+propose -> xcomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+violation -> pobj
+worried -> acomp
+be -> advcl
+is -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+advanced -> amod
+Ancestors:
+standard -> dobj
+aes -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+  -> compound
+Ancestors:
+data -> ccomp
+converts -> ccomp
+called -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+  -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+concern -> dobj
+leaving -> xcomp
+chat -> acl
+idea -> pobj
+built -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> dobj
+achieve -> advcl
+complete -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+advanced -> amod
+Ancestors:
+standart -> dobj
+announcing -> pcomp
+taking -> pcomp
+achieve -> advcl
+complete -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+aes -> npadvmod
+based -> amod
+end-to-end -> nmod
+Ancestors:
+design -> appos
+  -> appos
+
+
+ -> ROOT
+
+KEYWORD: encryption -> dobj
+Descendants:
+Ancestors:
+unlock -> relcl
+key -> attr
+was -> advcl
+was -> ROOT
+
+KEYWORD: encryption -> dobj
+Descendants:
+aes -> amod
+Ancestors:
+disassemble -> xcomp
+able -> acomp
+be -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+Ancestors:
+process -> pobj
+  -> dep
+sent -> ROOT
+
+KEYWORD: encryption -> conj
+Descendants:
+  -> compound
+and -> cc
+key -> amod
+
+ -> compound
+distribution -> conj
+Ancestors:
+generation -> attr
+were -> ccomp
+summarize -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+Ancestors:
+process -> compound
+purpose -> conj
+distributed -> relcl
+key -> dobj
+obtain -> xcomp
+conducted -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+Ancestors:
+purpose -> pobj
+key -> pobj
+used -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+org -> nsubj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+
+ -> compound
+user -> compound
+Ancestors:
+protection -> dobj
+give -> conj
+make -> ROOT
+
+KEYWORD: encryption -> nsubjpass
+Descendants:
+2 -> nummod
+key -> amod
+and -> cc
+distribution -> compound
+
+
+ -> conj
+Ancestors:
+conducted -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+plaintext -> compound
+Ancestors:
+process -> nsubjpass
+conducted -> ROOT
+
+KEYWORD: encryption -> nmod
+Descendants:
+and -> cc
+distribution -> conj
+Ancestors:
+process -> nsubjpass
+shown -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+paper -> appos
+  -> nsubj
+manipulation -> nmod
+
+
+ -> nsubj
+md -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+Ancestors:
+process -> dobj
+manipulation -> nmod
+
+
+ -> nsubj
+md -> ROOT
+
+KEYWORD: encryption -> nsubj
+Descendants:
+  -> compound
+and -> cc
+key -> amod
+distribution -> compound
+process -> conj
+
+
+ -> conj
+Ancestors:
+chat -> advcl
+assumed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+facebook -> ccomp
+ 
+ -> nsubjpass
+created -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+org -> ROOT
+
+KEYWORD: encryption -> pobj
+Descendants:
+and -> cc
+
+ -> compound
+distribution -> compound
+features -> conj
+Ancestors:
+serve -> acl
+application -> pobj
+speed -> dobj
+understand -> xcomp
+aimed -> relcl
+test -> attr
+was -> ROOT
+
+KEYWORD: encryption -> nmod
+Descendants:
+and -> cc
+decryption -> conj
+Ancestors:
+process -> dobj
+conducted -> advcl
+measuring -> pcomp
+tested -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+Ancestors:
+time -> npadvmod
+result -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+paper -> appos
+  -> dep
+shown -> ROOT
+
+KEYWORD: encryption -> pobj
+Descendants:
+and -> cc
+decryption -> compound
+process -> conj
+Ancestors:
+effect -> pobj
+  -> dep
+shown -> ROOT
+
+KEYWORD: encryption -> compound
+Descendants:
+Ancestors:
+  -> nsubjpass
+obtained -> ROOT
+
+KEYWORD: encryption -> pobj
+Descendants:
+or -> cc
+decryption -> compound
+process -> compound
+time -> compound
+graph -> conj
+Ancestors:
+trendline -> pobj
+based -> acl
+  -> nsubjpass
+obtained -> ROOT
+
+KEYWORD: encryption -> pobj
+Descendants:
+and -> cc
+decryption -> compound
+process -> conj
+Ancestors:
+serve -> xcomp
+able -> acomp
+was -> ccomp
+concluded -> ROOT
+
+KEYWORD: encryption -> nmod
+Descendants:
+and -> cc
+decryption -> conj
+Ancestors:
+process -> pobj
+time -> pobj
+increase -> attr
+was -> ROOT
+
+KEYWORD: encryption -> pobj
+Descendants:
+Ancestors:
+process -> dobj
+  -> nsubj
+were -> ROOT
+
+KEYWORD: encryption -> dobj
+Descendants:
+and -> cc
+decryp- -> compound
+
+ -> compound
+tion -> compound
+process -> conj
+Ancestors:
+conduct -> xcomp
+able -> acomp
+was -> ccomp
+stated -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+user -> compound
+Ancestors:
+protection -> dobj
+give -> conj
+make -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> appos
+org -> nsubj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+internet -> compound
+Ancestors:
+policies -> dobj
+examining -> acl
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+values -> pobj
+context -> pobj
+examining -> acl
+  -> ROOT
+
+KEYWORD: privacy -> ROOT
+Descendants:
+  -> compound
+and -> cc
+digital -> amod
+state -> conj
+balancing -> acl
+public -> amod
+information -> dobj
+and -> cc
+
+ -> nmod
+personal -> amod
+privacy -> conj
+Ancestors:
+
+KEYWORD: privacy -> conj
+Descendants:
+
+ -> nmod
+personal -> amod
+Ancestors:
+information -> dobj
+balancing -> acl
+privacy -> ROOT
+
+KEYWORD: encryption -> dobj
+Descendants:
+advanced -> amod
+Ancestors:
+announcing -> acl
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+conference -> ROOT

@@ -2,7 +2,7 @@
 OpenSourcePrivacyPolicy
 Keywords found by String Search
 
-Privacy:26
+privacy:26
 consent:4
-privacy policy:16
+privacy policy:14
 SOC:1

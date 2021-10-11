@@ -3,57 +3,57 @@
 
 
 With stop word removal 
-Size of original corpus: 3573 
-Size of filtered corpus: 1872
-Size of Lexicon: 898
+Size of original corpus: 4318 
+Size of filtered corpus: 1896
+Size of Lexicon: 893
 
 Tokens that appear in the file, alongside with their frequencies:
 facebook:40
 data:36
-1:22
+1:25
 law:20
 users:20
 terms:18
+3:18
 <:18
 >:18
 court:17
 accessed:17
 information:16
 use:15
+2018:14
 service:14
 settings:14
-3:14
 federal:13
 consent:13
 's:12
 privacy:12
 german:12
 vzbv:12
+february:12
+act:12
+2:11
 berlin:11
-2018:10
+21:11
 consumer:10
 personal:10
 content:10
+4:10
 policy:10
-5:10
-act:10
 gazette:10
 processing:9
-2:9
-4:9
+5:9
 directive:9
 |:8
 edpl:8
 us:8
 unfair:8
 version:8
-21:8
 lg:7
 services:7
 european:7
 commercial:7
 amended:7
-february:7
 concerning:6
 ing:6
 case:6
@@ -61,19 +61,17 @@ free:6
 based:6
 default:6
 https://www:6
-20 february 2018:6
 agree:6
 con-:6
 time:6
 point:6
 general:5
 com-:5
-7:5
 16:5
 provide:5
 data protection:5
 cf:5
-21 february 2018:5
+2017:5
 ac-:5
 provisions:5
 gesetze-im-internet:5
@@ -89,14 +87,19 @@ user:4
 transparency:4
 legal:4
 following:4
+7:4
 11:4
 practices:4
 competition:4
 imprint:4
 united:4
+2016:4
+20 february 2018:4
 see:4
 ireland:4
+12:4
 profile:4
+9:4
 last:4
 using:4
 cookie:4
@@ -122,11 +125,9 @@ sections:3
 face-:3
 book:3
 available:3
-2017:3
-2016:3
 0:3
 uk:3
-8:3
+20:3
 statement:3
 way:3
 make:3
@@ -136,10 +137,11 @@ without:3
 sponsored:3
 picture:3
 pay:3
-9:3
 published:3
+article 4:3
 uwg:3
 html:3
+february 2018:3
 accordance:3
 confirm:3
 view:3
@@ -198,12 +200,13 @@ schweda:2
 authorities:2
 pdf:2
 english:2
+https://:2
 6:2
 limited:2
 com/privacy/explanation:2
 zeit:2
-12 february 2018:2
 http://www:2
+21 february 2018:2
 datenschutzrecht:2
 de/:2
 click:2
@@ -225,6 +228,8 @@ served:2
 enhanced:2
 valuable:2
 related:2
+march:2
+17:2
 telemedia:2
 collect:2
 informa-:2
@@ -249,7 +254,6 @@ rel-:2
 reference:2
 appeal:2
 kg:2
-article 4:2
 requirements:2
 process:2
 provider:2
@@ -257,7 +261,6 @@ offers:2
 opportunity:2
 declarations:2
 poli-:2
-12:2
 civil:2
 code:2
 sense:2
@@ -273,8 +276,9 @@ moreover:2
 commerce:2
 market:2
 =:2
-13:2
+31:2
 promulgated:2
+october:2
 15:2
 ly/2:2
 future:2
@@ -415,12 +419,10 @@ national:1
 16 january 2018:1
 de/sites/default/files/downloads/201:1
 8/02/12/facebookig:1
-1 2 3 4:1
 cessed:1
-https://:1
 en-gb:1
 com/legal/terms/update:1
-https:// de-de:1
+de-de:1
 https://en-gb:1
 report:1
 untersagt:1
@@ -437,6 +439,7 @@ deutsches:1
 pressemitteilung/facebook-verstoesst-gegen-deutsches:1
 https://de-de:1
 com/legal/terms:1
+8:1
 ibid:1
 115:1
 imprint/terms:1
@@ -486,10 +489,8 @@ display:1
 and/or:1
 tent:1
 compensation:1
-3 march 2010:1
+2010:1
 254:1
-article 4 of the act:1
-17 february 2016:1
 233:1
 de/englisch-uwg/englisch:1
 html#p:1
@@ -497,7 +498,8 @@ html#p:1
 26:1
 2007:1
 179:1
-article 1 of the act of:1
+article 1 of the
+act of:1
 28 september:1
 3530:1
 de/tmg/bjn:1
@@ -508,9 +510,7 @@ specific:1
 audience:1
 choice:1
 cessing:1
-30:1
-january:1
-2015:1
+30 january 2015:1
 updated:1
 update:1
 policies:1
@@ -561,10 +561,12 @@ jority:1
 disputed:1
 claimant:1
 injunc-:1
-no 3 and 3:1
+8  :1
 gesetz:1
 unlauteren:1
 wettbewerb:1
+5 
+ :1
 telemediengesetz:1
 tact:1
 via:1
@@ -574,7 +576,8 @@ implementation:1
 116:1
 ticle:1
 commercel:1
-2 , %:1
+5
+ :1
 provides:1
 providers:1
 ren-:1
@@ -619,7 +622,7 @@ stronger:1
 seat:1
 operator:1
 ltd:1
-1 4:1
+1 4  :1
 deviated:1
 previous:1
 kammergericht:1
@@ -634,7 +637,7 @@ classified:1
 establishment:1
 controller:1
 according:1
-9 5:1
+article 4  :1
 /46/eg:1
 background:1
 de-:1
@@ -673,6 +676,7 @@ b:1
 biirgerliches:1
 gesetzbuch:1
 bgb:1
+1 7  :1
 prohibit:1
 shifting:1
 modifies:1
@@ -708,8 +712,7 @@ impossible:1
 applied:1
 agree-:1
 2000/31/ec:1
-june:1
-2000:1
+8 june 2000:1
 aspects:1
 society:1
 inter-:1
@@ -721,12 +724,13 @@ eu/legal-content/en/txt/html/:1
 uri:1
 celex:32000:1
 loo:1
-31:1
-14 january 2003:1
+13:1
+14
+:1
+january 2003:1
 66:1
 recently:1
 article 10 of the act of:1
-31 october 2017:1
 3618:1
 engl:1
 isch-bdsg/engl:1
@@ -734,7 +738,6 @@ isch-bdsg:1
 htm:1
 14:1
 4482/15:1
-march:1
 http://justiz:1
 de/contentblob/5359296/data/1:1
 5-e-4482-1:1
@@ -746,21 +749,18 @@ vom-03-03-201:1
 ly/:1
 fwztgq:1
 95/46/ec:1
-24:1
-october:1
-1995:1
+24 october 1995:1
 individuals:1
 regard:1
 movement:1
 281/0031:1
 hbehug:1
-17:1
 2 january 2002:1
 42:1
 2909:1
 2003 1:1
 738:1
-1 october 2013:1
+2013:1
 3719:1
 de/englisch-bgb/engl:1
 isch-bgb:1
@@ -778,6 +778,8 @@ accusations:1
 applies:1
 particularly:1
 age:1
+13
+ :1
 contrary:1
 formulation:1
 neither:1
@@ -831,14 +833,14 @@ ec:1
 fgb:1
 hl:1
 19:1
-27 august 2002:1
-1 , 3422:1
+27 august
+:1
+2002:1
+3422:1
 4346:1
-article 4 of the act of:1
-17 july 2017:1
-1 , 2446:1
+17 july:1
+2446:1
 de/uklag/_1:1
-20:1
 costs:1
 intangi-:1
 consideration:1
@@ -900,14 +902,308 @@ design/:1
 opt-in/opt-out:1
 so-:1
 lutions:1
-since:1
-years:1
+' since years:1
 possible:1
 decisions:1
 awaited:1
 eagerly:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
 consent:13
-Privacy:12
+privacy:12
 data protection:5
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> conj
+service -> pobj
+terms -> pobj
+succeeds -> ccomp
+reports -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+electronic -> amod
+com- -> conj
+munications -> conj
+or -> cc
+Ancestors:
+regulation -> dobj
+posed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+shield -> conj
+regulation -> dobj
+posed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> conj
+policy -> conj
+terms -> attr
+is -> ROOT
+
+KEYWORD: privacy -> attr
+Descendants:
+friendly -> amod
+its -> poss
+privacy -> compound
+centre -> pobj
+Ancestors:
+are -> relcl
+settings -> dobj
+hides -> relcl
+ing -> appos
+  -> nsubj
+attacked -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+centre -> pobj
+friendly -> amod
+privacy -> attr
+are -> relcl
+settings -> dobj
+hides -> relcl
+ing -> appos
+  -> nsubj
+attacked -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+law -> pobj
+
+ -> dobj
+arguing -> pcomp
+comply -> advcl
+attacked -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+shield -> poss
+  -> pobj
+review -> appos
+klein -> ROOT
+
+KEYWORD: data protection -> pobj
+Descendants:
+e-commerce -> compound
+and -> cc
+  -> appos
+2017 -> npadvmod
+Ancestors:
+interconnection -> appos
+kingdom -> appos
+eg -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+national -> amod
+Ancestors:
+law -> pobj
+investigate -> conj
+  -> ROOT
+
+KEYWORD: consent -> ROOT
+Descendants:
+you -> nsubj
+having -> pcomp
+your -> poss
+personal -> amod
+data -> nsubj
+transferred -> ccomp
+and -> cc
+processed -> conj
+united -> amod
+states -> pobj
+Ancestors:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+
+
+ -> dep
+criticised -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+  -> dep
+asked -> ROOT
+
+KEYWORD: consent -> compound
+Descendants:
+Ancestors:
+settings -> nsubjpass
+set -> ccomp
+know -> advcl
+is -> ROOT
+
+KEYWORD: consent -> compound
+Descendants:
+Ancestors:
+
+ -> pobj
+processed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+settings -> nsubj
+meet -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tour -> nmod
+facebook -> nsubj
+offers -> csubj
+was -> ROOT
+
+KEYWORD: consent -> conj
+Descendants:
+Ancestors:
+proof -> pobj
+declarations -> dobj
+contained -> conj
+held -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+  -> compound
+processing -> pobj
+users -> compound
+names -> pobj
+Ancestors:
+interpreted -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+Ancestors:
+identify -> xcomp
+able -> acomp
+were -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+Ancestors:
+scope -> conj
+meaning -> dobj
+underlined -> ccomp
+argued -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+law -> conj
+al -> ROOT
+
+KEYWORD: consent -> compound
+Descendants:
+informed -> amod
+Ancestors:
+
+ -> nsubj
+was -> ccomp
+process -> conj
+transferred -> ccomp
+eg -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+federal -> amod
+Ancestors:
+act -> pobj
+
+
+ -> nsubj
+promulgated -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+effective -> amod
+present -> amod
+Ancestors:
+constitute -> ROOT
+
+KEYWORD: consent -> nsubjpass
+Descendants:
+processing -> pobj
+
+ -> nmod
+personal -> amod
+data -> pobj
+accordance -> pobj
+% -> pobj
+4 -> nummod
+and -> cc
+4 -> conj
+bdsg -> pobj
+Ancestors:
+given -> ccomp
+stated -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+data -> pobj
+process- -> pobj
+
+ -> compound
+ing -> pobj
+Ancestors:
+as -> conj
+considered -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+informed -> amod
+and -> cc
+
+ -> compound
+obligations -> conj
+transparency -> pobj
+consumers -> pobj
+Ancestors:
+meaning -> pobj
+includes -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+ad- -> nmod
+
+ -> nmod
+missibilityof -> nmod
+pre-formulated -> amod
+and -> cc
+default -> conj
+set- -> conj
+tings -> conj
+general -> amod
+Ancestors:
+confrontation -> dobj
+avoided -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+
+ -> poss
+' -> case
+Ancestors:
+heading -> pobj
+discussed -> advcl
+is -> ROOT

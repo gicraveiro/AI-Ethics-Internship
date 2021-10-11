@@ -2,7 +2,7 @@
 General Info ProtectingPrivacyAndSecurity
 Keywords found by String Search
 
-Privacy:43
+privacy:43
 data security:1
 encryption:2
 data protection:1

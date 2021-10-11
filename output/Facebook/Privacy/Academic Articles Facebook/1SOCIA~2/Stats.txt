@@ -3,16 +3,16 @@
 
 
 With stop word removal 
-Size of original corpus: 33461 
-Size of filtered corpus: 16697
-Size of Lexicon: 4653
+Size of original corpus: 41519 
+Size of filtered corpus: 16795
+Size of Lexicon: 4618
 
 Tokens that appear in the file, alongside with their frequencies:
 facebook:436
 's:269
-data:252
+data:253
 facial:182
-privacy:179
+privacy:180
 recognition:178
 see:163
 cal:152
@@ -20,29 +20,30 @@ california:151
 terms:146
 users:127
 social:113
+policy:105
 service:104
-policy:104
 technology:102
+3:100
 information:97
 biometric:95
-3:90
 law:88
 note:85
 courts:81
 company:81
 user:79
+1:75
 https://perma:74
 4:72
 app:72
 supra:68
 consumer:67
-1:66
 use:65
 unconscionability:65
 consumers:63
-th:61
 contract:61
-2:52
+2016:55
+th:54
+2:54
 federal:51
 https://www:51
 collection:47
@@ -52,28 +53,29 @@ may:45
 would:43
 court:41
 network:38
-2016:38
 inc:38
 consent:37
 f:36
+6:35
 issue:35
 nightmare:34
-6:34
 unconscionable:34
+70:33
 whether:33
 right:33
-70:32
 communications:32
 fact:32
 http://www:32
 accessed:32
+2017:32
 could:31
+5:31
+2015:31
 without:31
-7:30
 generally:30
 9:29
-5:29
 tag:29
+7:28
 journal:28
 practices:28
 even:27
@@ -81,14 +83,14 @@ companies:27
 procedural:26
 g:26
 vol:25
+10:25
 adhesion:24
-2015:24
 contracts:24
 quoting:24
 read:24
 rights:23
+8:23
 pdf:23
-10:23
 like:22
 center:22
 apr:22
@@ -103,8 +105,8 @@ co:21
 although:21
 clause:21
 time:21
-8:20
 legal:20
+18:20
 personal:20
 private:20
 however:20
@@ -126,12 +128,14 @@ business:18
 account:18
 party:18
 supp:18
+2018:17
 explicitly:17
 upon:17
 agreements:17
+13:17
 choice:17
 new:17
-18:17
+2013:17
 person:17
 included:17
 w:16
@@ -140,11 +144,13 @@ interest:16
 hearing:16
 due:16
 best:16
+2012:16
 citing:16
 html:16
 district:16
 litigation:16
 access:16
+people:16
 instagram:16
 content:15
 agreement:15
@@ -155,28 +161,28 @@ policies:15
 substantive:15
 commercial:15
 need:15
+2011:15
 12:15
 suggestions:15
-13:15
+15:15
+section:15
 services:15
-people:15
 reasonable:15
 p:14
 second:14
+third:14
 surprise:14
 states:14
 laws:14
+june:14
 term:14
 stated:14
-2017:14
 control:14
 order:14
-2013:14
 jan:14
 alternative:14
 prevent:13
 license:13
-third:13
 intrusion:13
 include:13
 example:13
@@ -188,8 +194,8 @@ networking:13
 tech:13
 lynch:13
 help:13
+19:13
 harm:13
-section:13
 well:13
 finding:13
 template:13
@@ -204,12 +210,11 @@ respect:12
 identifiers:12
 subject:12
 real:12
-2012:12
 every:12
 judiciary:12
-11:12
 must:12
 failure:12
+26:12
 statement:12
 create:12
 based:12
@@ -226,14 +231,14 @@ parties:11
 essentially:11
 civil:11
 protect:11
+11:11
 necessary:11
-15:11
 're:11
 provides:11
 sensitive:11
+24:11
 case:11
 might:11
-28:11
 friends:11
 actually:11
 support:11
@@ -245,7 +250,6 @@ foray:10
 forever:10
 mention:10
 regarding:10
-june:10
 certain:10
 provisions:10
 agree:10
@@ -257,10 +261,9 @@ away:10
 good:10
 northern:10
 argument:10
-24:10
 feb:10
-privacy policy:10
 claim:10
+28:10
 look:10
 meaning:10
 element:10
@@ -271,7 +274,6 @@ supreme:10
 concrete:10
 judge:10
 haunting:9
-2018:9
 current:9
 especially:9
 many:9
@@ -289,13 +291,14 @@ ftc:9
 say:9
 last:9
 collect:9
+16:9
+14:9
 often:9
 surveillance:9
 forum:9
 several:9
-2011:9
 possible:9
-26:9
+privacy policy:9
 two:9
 78:9
 market:9
@@ -333,21 +336,22 @@ part:8
 prospective:8
 sharing:8
 turn:8
-16:8
 legislation:8
-49:8
 someone:8
 aug:8
 provide:8
-19:8
 legislature:8
 despite:8
+27:8
 online:8
 set:8
 constitutional:8
+30:8
 customers:8
 accuracy:8
+2010:8
 51:8
+49:8
 study:8
 tagging:8
 °:8
@@ -360,6 +364,7 @@ daily:8
 at&t:8
 noting:8
 long:8
+yet:8
 fbi:8
 23:7
 rosie:7
@@ -368,7 +373,9 @@ provided:7
 scope:7
 brief:7
 112:7
+2014:7
 doctrine:7
+122:7
 mutuality:7
 single:7
 matter:7
@@ -397,8 +404,8 @@ opportunity:7
 22:7
 noted:7
 elements:7
-30:7
 identify:7
+31:7
 accordingly:7
 algorithm:7
 retention:7
@@ -425,7 +432,6 @@ inclusion:7
 digital:7
 settings:7
 family:7
-yet:7
 faith:7
 national:7
 st:6
@@ -434,6 +440,7 @@ search:6
 implications:6
 constitute:6
 manner:6
+133:6
 option:6
 biometrics:6
 identity:6
@@ -465,6 +472,7 @@ far:6
 photograph:6
 unique:6
 features:6
+29:6
 sept:6
 less:6
 knowledge:6
@@ -476,7 +484,6 @@ another:6
 significant:6
 chairman:6
 manually:6
-2010:6
 make:6
 summary:6
 large:6
@@ -490,7 +497,6 @@ armendariz:6
 containing:6
 plaintiff:6
 offer:6
-94:6
 bargain:6
 seeking:6
 91:6
@@ -501,7 +507,6 @@ conduct:6
 prior:6
 establish:6
 neither:6
-122:6
 failed:6
 news:6
 subsequently:6
@@ -520,7 +525,9 @@ guide:5
 background:5
 fails:5
 university:5
+120:5
 allocation:5
+137:5
 legitimate:5
 tort:5
 risks:5
@@ -548,7 +555,6 @@ signing:5
 rules:5
 evidence:5
 dec:5
-14:5
 currently:5
 white:5
 get:5
@@ -557,12 +563,10 @@ judicial:5
 senate:5
 necessarily:5
 alleged:5
-45:5
 analysis:5
 pursuant:5
 faces:5
 concept:5
-31:5
 called:5
 usa:5
 either:5
@@ -578,7 +582,6 @@ pictures:5
 tagged:5
 software:5
 moreover:5
-19 , 2016:5
 making:5
 nothing:5
 precise:5
@@ -587,6 +590,7 @@ well-established:5
 cmt:5
 93:5
 offered:5
+94:5
 degree:5
 extent:5
 enforce:5
@@ -602,9 +606,9 @@ solely:5
 considering:5
 full:5
 clear:5
-133:5
 pew:5
 136:5
+mere:5
 reason:5
 160:5
 nature:5
@@ -625,7 +629,6 @@ generated:4
 capabilities:4
 116:4
 satisfy:4
-2014:4
 imposed:4
 oppressive:4
 unreasonable:4
@@ -639,6 +642,7 @@ regulating:4
 united:4
 lexis:4
 establishing:4
+july:4
 report:4
 health:4
 specific:4
@@ -675,23 +679,22 @@ opposition:4
 letter:4
 response:4
 economy:4
+breach:4
 com/terms:4
 additionally:4
+45:4
 sound:4
 bill:4
 sufficiently:4
 pro-consumer:4
 adequately:4
 additional:4
-3 , 2017:4
-27:4
 amount:4
 illustrate:4
 32:4
 compare:4
 captured:4
 outside:4
-29:4
 113:4
 htm:4
 three:4
@@ -709,7 +712,6 @@ objectively:4
 50:4
 yahoo:4
 accounts:4
-data breach:4
 consequences:4
 involved:4
 web:4
@@ -754,13 +756,13 @@ contacts:4
 appear:4
 richard:4
 sybert:4
+298:4
 society:4
 principles:4
 opt:4
 widely:4
 substantial:4
 therefore:4
-4 , 2017:4
 consenting:4
 wholly:4
 stop:4
@@ -774,7 +776,6 @@ troubling:4
 guidelines:4
 deletion:4
 keep:4
-120:4
 consented:4
 already:4
 created:4
@@ -786,8 +787,6 @@ billion-plus:4
 sign-up:4
 platforms:4
 true:4
-137:4
-mere:4
 citizens:4
 course:4
 grandparents:4
@@ -796,6 +795,7 @@ similarly:4
 reads:4
 things:4
 liability:4
+period:4
 accepted:4
 actual:4
 bruni:4
@@ -879,6 +879,7 @@ actions:3
 largely:3
 clearly:3
 disclose:3
+43:3
 http:3
 cc/4:3
 home:3
@@ -920,6 +921,7 @@ weinstein:3
 acknowledging:3
 turns:3
 post:3
+11  :3
 across:3
 fundamentally:3
 tools:3
@@ -936,8 +938,6 @@ race:3
 fcc:3
 bureau:3
 american:3
-breach:3
-section 15:3
 advertisements:3
 apple:3
 exclusively:3
@@ -947,6 +947,7 @@ pro-privacy:3
 non-consensual:3
 position:3
 effort:3
+25:3
 includes:3
 govern:3
 regard:3
@@ -961,7 +962,6 @@ learning:3
 points:3
 top:3
 edge:3
-35:3
 compared:3
 2003:3
 2006:3
@@ -970,6 +970,7 @@ inquiry:3
 john:3
 36:3
 37:3
+$:3
 growth:3
 increased:3
 widespread:3
@@ -993,6 +994,7 @@ serious:3
 resulting:3
 numbers:3
 password:3
+data breach:3
 card:3
 207:3
 together:3
@@ -1009,6 +1011,7 @@ hen:3
 illustrates:3
 threshold:3
 237:3
+71:3
 accessing:3
 acting:3
 unprecedented:3
@@ -1057,7 +1060,6 @@ farnsworth:3
 banking:3
 297:3
 benefits:3
-98:3
 unless:3
 render:3
 100:3
@@ -1079,7 +1081,6 @@ csa:3
 mailing:3
 updated:3
 though:3
-2007:3
 319:3
 negotiate:3
 controlling:3
@@ -1133,11 +1134,11 @@ indicated:3
 lead:3
 capital:3
 involves:3
+2007:3
 164:3
 757:3
 contemplate:3
 grant:3
-period:3
 indefinitely:3
 depending:3
 172:3
@@ -1197,11 +1198,10 @@ int'l:3
 suffered:3
 filing:3
 recent:3
+1540:3
 knowing:3
 targeted:3
-july 31 , 2017:3
 290:3
-298:3
 networks:3
 sought:3
 kind:3
@@ -1210,12 +1210,12 @@ broadcasting:3
 torts:3
 nat'l:3
 path:3
+1072:3
 norms:3
 routine:3
 1079:3
 emotions:3
 20150242679:3
-27 , 2015:3
 date:2
 source:2
 lj:2
@@ -1299,7 +1299,6 @@ understanding:2
 cameron:2
 computerworld:2
 clev:2
-43:2
 pg:2
 aaron:2
 //www:2
@@ -1327,7 +1326,6 @@ safe:2
 info:2
 clicks:2
 ideas:2
-july:2
 mark:2
 anonymity:2
 instead:2
@@ -1347,7 +1345,6 @@ pushback:2
 none:2
 proposed:2
 severely:2
-2 1:2
 unregulated:2
 comes:2
 expense:2
@@ -1361,7 +1358,6 @@ acted:2
 towards:2
 messages:2
 litigated:2
-15 , 2018:2
 proactively:2
 remedy:2
 reasonably:2
@@ -1379,9 +1375,9 @@ hindering:2
 discussing:2
 properly:2
 disposal:2
-25:2
 requiring:2
 disputes:2
+section 15:2
 responsibilities:2
 conflict:2
 cc/u:2
@@ -1405,13 +1401,13 @@ ieee:2
 processing:2
 morphotrust:2
 modern:2
+35:2
 woodward:2
+3-4:2
 verification:2
 past:2
 costly:2
 developed:2
-38:2
-$:2
 2022:2
 creates:2
 novel:2
@@ -1465,7 +1461,7 @@ fingerprint:2
 shrg:2
 2000:2
 nicole:2
-14 , 2016:2
+1  :2
 opening:2
 employs:2
 easier:2
@@ -1484,10 +1480,10 @@ robust:2
 carson:2
 count:2
 thresholds:2
-71:2
 cc/2:2
 categories:2
 sees:2
+years:2
 mean:2
 purely:2
 thereby:2
@@ -1510,6 +1506,7 @@ bender:2
 psychcare:2
 carboni:2
 1991:2
+1588:2
 light:2
 contains:2
 80:2
@@ -1552,6 +1549,7 @@ loyola:2
 http://digitalcommons:2
 95:2
 character:2
+98:2
 deemed:2
 enforceable:2
 factors:2
@@ -1633,6 +1631,7 @@ begin:2
 opted-in:2
 cc/r:2
 cc/8:2
+10  :2
 bau-nkm:2
 132:2
 enabled:2
@@ -1645,12 +1644,10 @@ speaking:2
 standpoint:2
 margin:2
 falls:2
-june 2011:2
 466:2
 pewinternet:2
 respective:2
 active:2
-600 million:2
 insights:2
 141:2
 wall:2
@@ -1662,7 +1659,6 @@ engaged:2
 twitter:2
 population:2
 138:2
-13 , 2018:2
 bad:2
 11814505650678:2
 innovative:2
@@ -1853,6 +1849,7 @@ consultant:2
 british:2
 firm:2
 eroded:2
+abc:2
 233:2
 234:2
 235:2
@@ -1867,6 +1864,7 @@ unfairly:2
 implementation:2
 245:2
 deal:2
+1038:2
 opposed:2
 wide-reaching:2
 onto:2
@@ -1881,6 +1879,7 @@ telling:2
 1963:2
 252:2
 unequivocally:2
+billion:2
 253:2
 purport:2
 mandated:2
@@ -1907,18 +1906,17 @@ responsible:2
 advertisement:2
 revenue:2
 chicagotribune:2
-1540:2
 1549:2
 269:2
 271:2
 273:2
 275:2
+276:2
 targeting:2
 272:2
 ponemon:2
 model:2
 later:2
-26 , 2018:2
 denying:2
 277:2
 278:2
@@ -1933,6 +1931,7 @@ air:2
 amounts:2
 283:2
 bloomberg:2
+1547:2
 1992:2
 event:2
 287:2
@@ -1941,6 +1940,7 @@ beach:2
 674:2
 684:2
 dist:2
+july 31:2
 294:2
 293:2
 grounds:2
@@ -1959,6 +1959,7 @@ welfare:2
 301:2
 plain:2
 looking:2
+article 1:2
 carrier:2
 iq:2
 1051:2
@@ -1971,7 +1972,7 @@ kay:2
 offensive:2
 1463:2
 1986:2
-1072:2
+3 d 1064:2
 315:2
 317:2
 customs:2
@@ -1994,12 +1995,12 @@ bluebook:1
 cid:10:1
 alwd:1
 chicago:1
-april 2018:1
+april:1
 mcgill:1
 70:1:1
 aglc:1
 mla:1
-1 , april 2018:1
+april 2018:1
 oscola:1
 pace:1
 indicates:1
@@ -2058,11 +2059,6 @@ echn:1
 olo:1
 gy:1
 1 13:1
-1 18:1
-120 2:1
-122 3:1
-133 1:1
-137 3:1
 clu:1
 sion:1
 lic:1
@@ -2081,7 +2077,6 @@ voice:1
 iris:1
 scanning:1
 manifesting:1
-10 , 2011:1
 org/privacy/facebook/epicfb:1
 frftc:1
 complaint:1
@@ -2090,7 +2085,6 @@ cc/58:1
 tb-rqpb:1
 leuan:1
 llp:1
-july 1 , 2016:1
 https:/iblog:1
 richmond:1
 edulawe:1
@@ -2148,7 +2142,6 @@ less than half:1
 privacy/less-than-half-of-facebook--:1
 cc/lgr:1
 6-wwjn:1
-4 , 2012:1
 com/article/2503822/data-:1
 google-users-understand-sites:1
 privacy-policies:1
@@ -2222,13 +2215,14 @@ soon:1
 serves:1
 worry:1
 suggests:1
+49 
+ ( 2016:1
 ct-bwws:1
 http://newsroom:1
 fb:1
 com/company-info:1
 gk-yutb:1
 i/:1
-1 , 2017:1
 com/2015/07/06/consumer-data-privacy/:1
 ydh-y:1
 pretty:1
@@ -2255,6 +2249,8 @@ fiction:1
 writer:1
 huffington:1
 self-interest:1
+- -
+:1
 shape:1
 marketable:1
 fantasy:1
@@ -2298,7 +2294,6 @@ incompatible:1
 technologically:1
 inevitable:1
 essential:1
-10 , 2017:1
 campbell:1
 4:13-cv-5996:1
 interception:1
@@ -2318,12 +2313,10 @@ arstechnica:1
 com/oppositionletter:1
 alan:1
 lowenthal:1
-27 , 2011:1
 settles:1
 verizon:1
 supercookie:1
 probe:1
-7 , 2016:1
 https://apps:1
 gov/edocspublic/attachmatch/doc-338091:1
 clonsumers:1
@@ -2377,6 +2370,7 @@ eye:1
 inner:1
 eyebrow:1
 represents:1
+'35:1
 danna:1
 voth:1
 intelligent:1
@@ -2414,7 +2408,7 @@ geitgey:1
 fun:1
 deep:1
 medium:1
-july 24 , 2016:1
+july 24:1
 https://medium:1
 com/@ageitgey/machine-leaming-:1
 is-fun-part-4-modem-face-recognition-with-deep-leaming-c:1
@@ -2424,11 +2418,12 @@ nq-4:1
 txm:1
 jr:1
 biomerrics:1
-3-4 rand:1
+rand:1
 investment:1
 predominantly:1
 grown:1
 accurate:1
+'38:1
 ever-increasing:1
 demand:1
 predicted:1
@@ -2446,6 +2441,7 @@ mears:1
 board:1
 member:1
 international:1
+38:1
 39:1
 expected:1
 us$:1
@@ -2520,17 +2516,15 @@ smartphone:1
 cloud:1
 conducts:1
 links:1
-4 8 43:1
+35  :1
 clandestine:1
 covert:1
 capability:1
 observed:1
 44:1
 com/services/retail:1
-18 , 2016:1
 natasha:1
 singer:1
-1 , 2014:1
 com/2014/02/02/technology/when-no-one-is-just-a-face-in-the-:1
 uq-hs:1
 retail:1
@@ -2558,7 +2552,6 @@ strangers:1
 02/augmented-identity-app-helps-you-identify-friend-perfect-strangers:1
 cc/ll:1
 vbn:1
-23 , 2010:1
 popsci:1
 com/technology/article/2010-:1
 buildings:1
@@ -2589,12 +2582,10 @@ encrypted:1
 passwords:1
 unencrypted:1
 reset:1
-5 3:1
 significance:1
 discounted:1
 repercussions:1
 severe:1
-1 49:1
 1-2:1
 hereinafter:1
 gpo:1
@@ -2684,7 +2675,6 @@ fw:1
 periods:1
 joined:1
 yourprivacy:1
-june 2012:1
 consumerreports:1
 org/cro/magazine/2012/06/facebook-:1
 your-privacy/index:1
@@ -2692,7 +2682,6 @@ vn:1
 2-47:1
 bd:1
 exemplified:1
-the people i years:1
 unfriended:1
 businessinsider:1
 com/how-to-download-data-from-facebook-2016-5/#in-the-:1
@@ -2701,7 +2690,6 @@ button-2:1
 cc/48:1
 du-dekt:1
 insider:1
-10 71:1
 apparently:1
 examples:1
 unrestrained:1
@@ -2724,7 +2712,7 @@ fmc:1
 1542:1
 4 th 1997:1
 758:1
-767:1
+767  :1
 3 d 1989:1
 furniture:1
 445:1
@@ -2732,14 +2720,14 @@ furniture:1
 1133:1
 baltazarv:1
 2 l:1
-1237:1
+4 th 1237:1
 1233:1
 matthew:1
 ch:1
 arropside:1
 west:1
 henderson:1
-3 d 1578 , 1588:1
+3 d 1578:1
 lending:1
 compelling:1
 overcome:1
@@ -2804,7 +2792,8 @@ davidson:1
 assocs:1
 gateway:1
 334:1
-2 d 1164 , 1179:1
+2 d 1164:1
+1179:1
 mo:1
 establishes:1
 minimal:1
@@ -2842,7 +2831,6 @@ lmu:1
 edu/llr/volll/iss:1
 2/8:1
 n-g:1
-298 11:1
 today:1
 carrying:1
 angers:1
@@ -2873,6 +2861,7 @@ farm:1
 tloday:1
 exaggerated:1
 standardised:1
+94  :1
 relations:1
 incidents:1
 faits:1
@@ -2936,7 +2925,6 @@ lease:1
 assured:1
 billing:1
 accordance:1
-30 , 2015:1
 com/legal/terms:1
 cc/5:1
 yfp-9:1
@@ -2954,6 +2942,7 @@ gatton:1
 t-mobile:1
 571:1
 585:1
+4 th 2007:1
 availability:1
 110:1
 3 d 1126:1
@@ -2977,7 +2966,6 @@ patel:1
 1:15-cv-04265:1
 wl:1
 2265958:1
-14 , 2015:1
 14-day:1
 window:1
 takes:1
@@ -3020,7 +3008,6 @@ cc/mjs:1
 com/aboutprivacy/:1
 t-mcem:1
 modified:1
-16 , 2016:1
 sued:1
 destroying:1
 class:1
@@ -3034,7 +3021,7 @@ alexei:1
 oreskovic:1
 add:1
 nbc:1
-29 , 2013 12:23 pm:1
+12:23 pm:1
 nbcnews:1
 com/technology/facebook-may-add-your-profile-photo-facial-:1
 recognition-database-8:1
@@ -3091,7 +3078,7 @@ remarking:1
 five or 10 years:1
 hard:1
 respond:1
-35 yet six years later:1
+six years later:1
 programmed:1
 supporting:1
 practically:1
@@ -3101,6 +3088,7 @@ statistical:1
 evidenced:1
 eight:1
 79%:1
+13 7:1
 arthur:1
 row:1
 com/technology/201:1
@@ -3112,7 +3100,7 @@ ricardo:1
 bilton:1
 hit:1
 venturebeat:1
-july 18 , 2012:1
+july 18:1
 http://venturebeat:1
 com/2012/07/18/facebook-:1
 hit-with-tough-questions-on-facial-recognition-in-senate-hearing/:1
@@ -3133,6 +3121,8 @@ disparity:1
 overstated:1
 comparing:1
 86 billion:1
+600:1
+million:1
 blush:1
 owns:1
 second-place:1
@@ -3155,7 +3145,8 @@ total:1
 hoping:1
 bypassing:1
 corresponding:1
-only 21%:1
+only
+21%:1
 adult:1
 stands:1
 14 6:1
@@ -3168,6 +3159,7 @@ under-developed:1
 139:1
 http://blog:1
 com/post/154506585127/161215-:1
+600 million:1
 nx-6:1
 aas:1
 https://help:1
@@ -3181,7 +3173,6 @@ com/articles/instagram-is-turning-into-facebook-and-:1
 thats-bad-:1
 1517422670:1
 com/help/1:1
-6 , 2017:1
 145:1
 146:1
 cc/49:1
@@ -3212,10 +3203,10 @@ ofbig:1
 durham:1
 https://ssrn:1
 com/abstract=-2795992:1
+paper:1
 qx:1
 4-n:1
 mt:1
-paper:1
 pewintemet:1
 org/2011/11/15/why-americans-use-social-media/:1
 8-uj:1
@@ -3227,7 +3218,6 @@ baby-boomer:1
 plugged:1
 grandkids:1
 wash:1
-31 , 2016:1
 washingtonpost:1
 conpostlive/technology-helping-more-baby-boomer-:1
 grandparents-stay-plugged-in-to-grandkids/2014/10/31/3:1
@@ -3251,13 +3241,13 @@ clocking:1
 bernadette:1
 proctor:1
 andpoverty:1
-13 , 2016:1
 gov/library/publications/2016/demo/p:1
 c-dgvz:1
 average:1
 round-trip:1
 airfare:1
-roughly $400:1
+roughly:1
+400:1
 transp:1
 transportation:1
 rita:1
@@ -3279,13 +3269,11 @@ cheryl:1
 lampkin:1
 phd:1
 spending:1
-5 , 2012:1
 org/research/topics/life/info-2014/grandparenting-:1
 survey:1
 cc/js:1
 x-4:1
 orly:1
-11 , 2011:1
 https://socialmediacollective:1
 org/2011/08/1:1
 1/if-you-dont-like-:1
@@ -3364,17 +3352,16 @@ surfer:1
 1164:1
 surfing:1
 1143:1
-1 , 2010:1
 cc/96:1
 zv-:1
 com/2010/06/02/opinion/02:1
 iht-edmorozov:1
 comb:1
 paypal:1
-2 d 1165 , 1173:1
+2 d 1165:1
+1173:1
 772:1
 lawjoural:1
-70 1:1
 nowhere:1
 phrase:1
 review:1
@@ -3430,7 +3417,7 @@ exclusion:1
 coupled:1
 exclusive:1
 verge:1
-february 27 , 2018:1
+february 27:1
 notices:1
 detail:1
 russell:1
@@ -3445,7 +3432,6 @@ excludes:1
 notify:1
 168:1
 oliver:1
-4 , 2013:1
 uk/technology/social-:1
 media/9780565/facebook-terms-and-conditions-why-you-dont-own-your-online-life:1
 htmi:1
@@ -3495,13 +3481,12 @@ higgins:1
 1251:1
 174:1
 didion:1
-1272:1
+4 th 1272:1
 175:1
 stewart:1
 preston:1
 pipeline:1
-1565:1
-1588:1
+4 th 1565:1
 4 th 2005:1
 jefferson:1
 youth:1
@@ -3509,14 +3494,13 @@ auth:1
 177:1
 patterson:1
 fin:1
-1659:1
+4 th 1659:1
 1666:1
-1993:1
+4 th 1993:1
 caroline:1
 mccarthy:1
 kosher:1
 cnet:1
-15 , 2007:1
 8:17 pm:1
 com/8301-13577_3-9817421-36:1
 brian:1
@@ -3575,7 +3559,6 @@ obar:1
 anne:1
 oledorf-hirsch:1
 lie:1
-24 , 2016:1
 http://dx:1
 org/10:1
 2139/ssrn:1
@@ -3662,8 +3645,9 @@ simultaneous:1
 corporate:1
 charged:1
 favor:1
+2 2:1
 196:1
-1094:1
+4 th 1094:1
 1101:1
 199:1
 201:1
@@ -3676,7 +3660,7 @@ activities:1
 californian:1
 mitigate:1
 20 3:1
-a mere six month period:1
+six month:1
 complied:1
 nearly 85%:1
 quid:1
@@ -3695,6 +3679,7 @@ indomitable:1
 pave:1
 knock:1
 roadblocks:1
+20 7:1
 'll:1
 facilitated:1
 carves:1
@@ -3714,7 +3699,8 @@ guaranteed:1
 https://govtrequests:1
 com/country/united%20:1
 states/2016-h:1
-2/ 2017:1
+2/ 
+2017:1
 july 27:1
 listen:1
 atlantic:1
@@ -3726,7 +3712,6 @@ accused:1
 secretly:1
 lobbying'for:1
 cyber:1
-26 , 2015:1
 http://thehill:1
 com/policy/cybersecurity/258060-advocate-accuses-facebook-of-secretly-:1
 lobbying-for-cyber-bill:1
@@ -3736,7 +3721,6 @@ cybersecurity:1
 cisa:1
 incentivized:1
 threats:1
-25 , 2014:1
 public/private:1
 com/blog/archives/2013/08/thepublicprival:1
 rely:1
@@ -3745,7 +3729,7 @@ unfettered:1
 209:1
 210:1
 com/safety/groups/law/guidelines/:1
-july 10 , 2017:1
+july 10:1
 utterly:1
 reaps:1
 powerful:1
@@ -3762,16 +3746,16 @@ contradiction:1
 findings:1
 distributing:1
 21 7:1
+this 2015:1
 kept:1
 artfully:1
 phrases:1
 williston:1
 owned:1
 com/help/l:1
-2 , 2017:1
 economically:1
 relevant:1
-july 6 , 2015:1
+july 6:1
 com/2015/07/06/consumer-:1
 data-privacy/:1
 com//69102/2015-07-12/pxzlm:1
@@ -3789,8 +3773,11 @@ athefoaoig:1
 atpaat-:1
 bta:1
 78 %:1
-3 68 s:1
-7 61%:1
+3 68:1
+7
+
+:1
+61%:1
 59%:1
 diwtthe:1
 w"te:1
@@ -3893,7 +3880,6 @@ com/technology/facebook-facial-recognition-feature-raises-:1
 maybe:1
 willingly:1
 slowly:1
-abc 10:1
 228:1
 acquiescence:1
 com/about/privacy/:1
@@ -3932,10 +3918,10 @@ lacking:1
 consequently:1
 quite:1
 distributed:1
+23 7:1
 229:1
 plans:1
 52 million:1
-14 , 2014:1
 next year:1
 org/deeplinks/2014/04/fbi-plans-have-52-million-photos-its-ngi-face-:1
 recognition-database-next-year:1
@@ -3947,7 +3933,6 @@ successful:1
 hundreds of millions:1
 org/deeplinks/2016/06/fbi-can-search-400-million-face-recognition-photos:1
 org/sections/alltechconsidered/2016/05/18/477819617/facebooks-facial-:1
-june 2016:1
 org/sections/alltechconsidered/20:1
 16/05/18/477819617/facebooks-facial-:1
 user-driven:1
@@ -3990,7 +3975,7 @@ demonstrating:1
 239:1
 240:1
 soltani:1
-3 d 1038 , 1046:1
+1046:1
 242:1
 243:1
 244:1
@@ -3999,7 +3984,7 @@ shermantestimony:1
 wjournal:1
 deeply:1
 manual:1
-2 47 third:1
+2 47:1
 imposing:1
 suggesting:1
 extreme:1
@@ -4012,6 +3997,7 @@ leaves:1
 25 1:1
 maintained:1
 247:1
+5  :1
 qualitative:1
 reception:1
 published:1
@@ -4019,7 +4005,6 @@ initial:1
 rollout:1
 indicating:1
 facebookin:1
-abc:1
 http://abcnews:1
 com/technology/facebook-facial-recognition-:1
 feature-raises-:1
@@ -4031,7 +4016,6 @@ olivarez-giles:1
 scrutiny:1
 face-:1
 lawmakers:1
-8 , 2011:1
 http://articles:1
 latimes:1
 com/2011:1
@@ -4050,9 +4034,7 @@ gov/sites/default/files/documents/reports/facing-:1
 facts-best-practices-common-uses-facial-recognition-technologies/121022:1
 cc/q:1
 ft-ptcz:1
-years:1
 criticism:1
-billion:1
 refrain:1
 preposterous:1
 25 4:1
@@ -4129,13 +4111,13 @@ bsi-20170113-story:1
 kate:1
 macarthur:1
 trib:1
-20 , 2016:1
 5:26:1
 com/bluesky/originals/ct-:1
 carla-michelotti-biometric-tracking-bsi-20160420-story:1
 265:1
 266:1
 268:1
+45  :1
 data-:1
 wideopen:1
 door'-is:1
@@ -4170,9 +4152,8 @@ real-:1
 employment:1
 impacts:1
 anxiety:1
-276 270:1
+270:1
 com/business/a/online-sales/targeting-tips-basic:1
-8 , 2017:1
 jared:1
 integrity:1
 belongs:1
@@ -4205,7 +4186,6 @@ suing:1
 cv-03747-jd:1
 subj:1
 ect-matter:1
-276:1
 renewed:1
 november 2017:1
 james:1
@@ -4233,6 +4213,7 @@ predicated:1
 codifie:1
 giving:1
 withholding:1
+28 1:1
 2 82:1
 abrogation:1
 bipa:1
@@ -4256,15 +4237,12 @@ hany:1
 allegation:1
 usurped:1
 technicality:1
-3-4:1
-1540 , 1547:1
 lujan:1
 defenders:1
 wildlife:1
 504:1
 555:1
 560:1
-1547:1
 280:1
 idat:1
 281:1
@@ -4301,7 +4279,6 @@ invalidated:1
 affect:1
 284:1
 171124:1
-3 , 2013:1
 288:1
 https://fpf:1
 289:1
@@ -4326,6 +4303,7 @@ hold:1
 tunkl:1
 regents:1
 univ:1
+98  :1
 contained:1
 comers:1
 formula:1
@@ -4376,9 +4354,7 @@ thwarted:1
 contravened:1
 promote:1
 percentage:1
-article 1 section 1:1
 sponsor:1
-about 295:1
 773-74:1
 2-18:1
 mb:1
@@ -4412,7 +4388,6 @@ reveals:1
 cooperation:1
 3 3:1
 incorporated:1
-article 1:1
 circumvented:1
 holds:1
 indulge:1
@@ -4495,7 +4470,6 @@ realized:1
 652:1
 1977:1
 311:1
-3 d 1064 , 1072:1
 shuliman:1
 prod:1
 1998:1
@@ -4533,7 +4507,6 @@ unwanted:1
 oppennan:1
 892:1
 1979:1
-3 d 1064:1
 316:1
 1075-76:1
 1074:1
@@ -4541,6 +4514,7 @@ oppennan:1
 1077:1
 hernandez:1
 hillsides:1
+295  :1
 1483-84:1
 surrounding:1
 intruder:1
@@ -4551,7 +4525,7 @@ intrudes:1
 invaded:1
 320:1
 mail:1
-3 d 1016 , 1038:1
+1016:1
 move:1
 surpassed:1
 3 23:1
@@ -4593,12 +4567,10 @@ insurmountable:1
 1078:1
 323:1
 20170140214:1
-18 , 2017:1
 generate:1
 emoji:1
 emotion:1
 20160127360:1
-5 , 2016:1
 speech:1
 324:1
 smile:1
@@ -4618,7 +4590,6 @@ depression:1
 pain:1
 325:1
 think:1
-29 , 2015:1
 pewresearch:1
 org/fact-:1
 tank/2015/05/29/what-americans-think-about-nsa-surveillance-nationa-security-and-privacy/:1
@@ -4643,7 +4614,7 @@ narrative:1
 preventing:1
 interference:1
 expanding:1
-one billion:1
+over one:1
 innocent:1
 draw:1
 attention:1
@@ -4661,13 +4632,2168 @@ cc/lyw:1
 9-82:1
 fn:1
 156-:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:179
+privacy:180
 consent:37
-privacy policy:10
-Data breach:4
+privacy policy:9
+data breach:3
 data security:2
 hacked:2
 data protection:1
 cybersecurity:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+  -> dep
+fed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+prevent -> relcl
+network -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+brinckerhoff -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+brinckerhoff -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+brinckerhoff -> nsubj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+network -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+brinckerhoff -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+haunting -> pcomp
+prevent -> ccomp
+use -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+implications -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+risks -> dobj
+introduced -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+and -> cc
+Ancestors:
+regulating -> acl
+law -> attr
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+consumer -> compound
+data -> compound
+Ancestors:
+respect -> pobj
+system -> dobj
+has -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+laws -> pobj
+consisting -> advcl
+has -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+state -> compound
+Ancestors:
+laws -> appos
+system -> dobj
+has -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+discussion -> pobj
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+information -> compound
+center -> dobj
+see -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+data security -> conj
+Ancestors:
+law -> appos
+leuan -> ROOT
+
+KEYWORD: data security -> conj
+Descendants:
+Ancestors:
+privacy -> nmod
+law -> appos
+leuan -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+act -> pobj
+provisions -> nsubj
+restrict -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+consumer -> compound
+Ancestors:
+protecting -> pcomp
+way -> dobj
+leads -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+act -> dobj
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+laws -> pobj
+information -> pobj
+note -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+consumer -> compound
+data -> compound
+Ancestors:
+regulating -> pcomp
+approach -> nsubjpass
+described -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+  -> compound
+consumer -> compound
+Ancestors:
+becoming -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+clauses -> dobj
+click-through -> conj
+depends -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+data -> compound
+Ancestors:
+enforcement -> compound
+actions -> nsubj
+been -> parataxis
+   -> appos
+bwws -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+disclosures -> conj
+was -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policies -> dobj
+understand -> parataxis
+was -> ROOT
+
+KEYWORD: data protection -> conj
+Descendants:
+  -> compound
+& -> cc
+privacy -> conj
+Ancestors:
+simpson -> nmod
+  -> nsubj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+data protection -> conj
+simpson -> nmod
+  -> nsubj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+internet -> compound
+Ancestors:
+protections -> pobj
+repeal -> nsubj
+is -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+internet -> compound
+data -> compound
+Ancestors:
+loss -> appos
+  -> nsubj
+concern -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+civil -> amod
+
+ -> compound
+liberties -> conj
+Ancestors:
+means -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+critical -> amod
+and -> cc
+
+ -> compound
+security -> compound
+risks -> conj
+inherent -> amod
+facial -> amod
+recognition -> compound
+data -> compound
+collection -> pobj
+Ancestors:
+protect -> xcomp
+enough -> acomp
+are -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policies -> conj
+agreements -> dobj
+overreaching -> xcomp
+maintaining -> pcomp
+  -> nsubj
+leave -> advcl
+demanding -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+their -> poss
+Ancestors:
+semblance -> dobj
+signing -> pcomp
+choose -> ccomp
+demanding -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+consumer -> compound
+
+ -> compound
+Ancestors:
+protect -> advcl
+taken -> xcomp
+needs -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+comprehensive -> amod
+federal -> amod
+consumer -> compound
+Ancestors:
+
+ -> compound
+legislation -> nsubj
+is -> advcl
+16 -> nsubj
+serves -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+clauses -> dobj
+click-through -> conj
+agree -> parataxis
+depends -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> compound
+& -> cc
+security -> conj
+connected -> amod
+world -> pobj
+Ancestors:
+commission -> dobj
+see -> ROOT
+
+KEYWORD: data security -> compound
+Descendants:
+Ancestors:
+enforcement -> compound
+tools -> dobj
+strengthen -> advcl
+enact -> advcl
+recommended -> advcl
+cc/tx -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+consumer -> compound
+Ancestors:
+protecting -> pcomp
+alternative -> attr
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+
+ -> nsubj
+comes -> acl
+argument -> appos
+  -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+consumer -> compound
+Ancestors:
+protect -> xcomp
+is -> ccomp
+stated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+invasions -> dobj
+justify -> xcomp
+enough -> acomp
+is -> advcl
+  -> nsubj
+have -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+
+ -> compound
+data -> compound
+Ancestors:
+legislation -> dobj
+implementing -> pcomp
+acted -> conj
+have -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+care -> ccomp
+noted -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+reasonably -> advmod
+sound -> amod
+consumer -> compound
+
+ -> compound
+and -> cc
+rapidly -> advmod
+emerging -> amod
+technology -> compound
+endeavors -> conj
+Ancestors:
+divide -> dobj
+remedy -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+bill -> dobj
+pass -> advcl
+ 
+ -> nsubj
+bring -> ccomp
+demonstrate -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+efforts -> dobj
+bring -> ccomp
+demonstrate -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+implications -> conj
+technology -> pobj
+overview -> dobj
+provide -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+consumer -> compound
+Ancestors:
+protect -> relcl
+agreements -> pobj
+terms -> pobj
+set -> relcl
+position -> pobj
+are -> pcomp
+explanation -> pobj
+conclude -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+consumer -> compound
+Ancestors:
+technology -> nmod
+implications -> dobj
+creates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+implications -> nsubj
+
+
+ -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+loss -> attr
+is -> ROOT
+
+KEYWORD: consent -> conj
+Descendants:
+Ancestors:
+knowledge -> pobj
+identify -> xcomp
+able -> acomp
+be -> acl
+fact -> pobj
+stems -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+regulations -> conj
+liu -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+law -> pobj
+  -> nsubj
+govern -> advcl
+are -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+issue -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+implication -> nsubj
+stems -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+protect -> conj
+try -> advcl
+acted -> ccomp
+assuming -> advcl
+52 -> dep
+presents -> ROOT
+
+KEYWORD: hacked -> ROOT
+Descendants:
+  -> nsubjpass
+instance -> pobj
+  -> appos
+
+ -> nmod
+2013 -> nummod
+cyber-attack -> pobj
+  -> nmod
+1 billion -> nummod
+yahoo -> compound
+accounts -> nsubjpass
+  -> nsubj
+encrypted -> amod
+passwords -> appos
+and -> cc
+unencrypted -> amod
+security -> nmod
+questions -> conj
+that -> nsubjpass
+used -> relcl
+reset -> xcomp
+password -> dobj
+  -> appos
+resulting -> acl
+data -> compound
+
+ -> compound
+breach -> nsubj
+consisting -> pcomp
+sensitive -> amod
+user -> compound
+information -> pobj
+  -> nsubj
+names -> pobj
+  -> nummod
+telephone -> nmod
+numbers -> conj
+  -> nsubj
+dates -> ccomp
+birth -> pobj
+Ancestors:
+
+KEYWORD: data breach -> pobj
+Descendants:
+yahoo -> poss
+'s -> case
+Ancestors:
+significance -> nsubjpass
+discounted -> advcl
+
+ -> nsubj
+had -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+civil -> amod
+liberties -> conj
+Ancestors:
+means -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+
+
+ -> ROOT
+
+KEYWORD: hacked -> ccomp
+Descendants:
+1 billion -> nummod
+user -> compound
+accounts -> nsubjpass
+
+
+  -> nmod
+dec -> conj
+Ancestors:
+says -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> pobj
+operating -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+information -> compound
+act -> pobj
+sued -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+litigation -> dobj
+facebook -> pcomp
+see -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+& -> cc
+public -> amod
+policy -> conj
+Ancestors:
+manager -> appos
+sherman -> pobj
+statement -> appos
+  -> pobj
+note -> parataxis
+add -> ccomp
+nbc -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+officer -> compound
+egan -> appos
+facebook -> nsubj
+stressed -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+explicit -> amod
+its -> poss
+users -> pobj
+Ancestors:
+obtaining -> pcomp
+prior -> advmod
+began -> ccomp
+is -> ROOT
+
+KEYWORD: consent -> conj
+Descendants:
+Ancestors:
+knowledge -> pobj
+develop -> acl
+order -> pobj
+began -> ROOT
+
+KEYWORD: consent -> conj
+Descendants:
+Ancestors:
+notice -> dobj
+absent -> conj
+deployed -> ccomp
+publicized -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+information -> compound
+center -> dobj
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+information -> compound
+center -> dobj
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+subcommittee -> pobj
+point -> attr
+became -> ccomp
+programmed -> ccomp
+absent -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+facebook -> poss
+'s -> case
+and -> cc
+
+ -> compound
+policy -> compound
+manager -> conj
+Ancestors:
+asked -> relcl
+point -> attr
+became -> ccomp
+programmed -> ccomp
+absent -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+recognition -> pobj
+decision -> dobj
+make -> acl
+question -> dobj
+asked -> relcl
+point -> attr
+became -> ccomp
+programmed -> ccomp
+absent -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+Ancestors:
+manager -> nsubj
+offered -> advcl
+became -> ccomp
+programmed -> ccomp
+absent -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+row -> pobj
+facebook -> appos
+arthur -> dobj
+see -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+instagram -> poss
+'s -> case
+Ancestors:
+has -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+loss -> conj
+data -> conj
+  -> conj
+chirita -> appos
+d -> nsubj
+paper -> ROOT
+
+KEYWORD: consent -> conj
+Descendants:
+  -> nsubj
+so -> mark
+they -> nsubj
+quietly -> advmod
+facebook -> xcomp
+'s -> case
+
+ -> compound
+privacy -> compound
+bullying -> dobj
+Ancestors:
+find -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+bullying -> dobj
+facebook -> xcomp
+consent -> conj
+find -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+sacrificing -> conj
+connected -> acomp
+staying -> pcomp
+judgment -> dobj
+make -> acl
+position -> pobj
+put -> ROOT
+
+KEYWORD: consent -> ccomp
+Descendants:
+that -> mark
+users -> nsubj
+terms -> pobj
+service -> nmod
+and -> cc
+data -> compound
+policy -> pobj
+  -> dep
+not -> neg
+help -> pobj
+center -> npadvmod
+  -> npadvmod
+meaning -> advcl
+that -> mark
+they -> nsubj
+simply -> advmod
+not -> neg
+
+ -> intj
+agree -> ccomp
+something -> pobj
+that -> nsubj
+is -> relcl
+not -> neg
+there -> advmod
+Ancestors:
+is -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+  -> compound
+facebook -> poss
+'s -> case
+and -> cc
+its -> poss
+third-party -> compound
+
+
+ -> conj
+partnerships -> conj
+lucrativity -> appos
+and -> cc
+liability -> conj
+Ancestors:
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+depending -> acl
+  -> npadvmod
+stored -> ccomp
+be -> ROOT
+
+KEYWORD: consent -> nsubjpass
+Descendants:
+sufficient -> amod
+Ancestors:
+given -> pcomp
+respect -> pobj
+said -> ROOT
+
+KEYWORD: consent -> nsubjpass
+Descendants:
+Ancestors:
+obtained -> ccomp
+be -> ccomp
+said -> ROOT
+
+KEYWORD: consent -> poss
+Descendants:
+Ancestors:
+licenses -> pobj
+clicked -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+Ancestors:
+issue -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+very -> advmod
+clear -> amod
+Ancestors:
+one -> attr
+is -> advcl
+matters -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+prior -> amod
+Ancestors:
+enrolled -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+
+
+ -> dobj
+draws -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+& -> cc
+technology -> conj
+Ancestors:
+center -> nsubj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+
+ -> compound
+policies -> conj
+agreements -> pobj
+terms -> dobj
+read -> ccomp
+showed -> relcl
+study -> dobj
+consider -> xcomp
+is -> ROOT
+
+KEYWORD: privacy policy -> conj
+Descendants:
+Ancestors:
+agreement -> pobj
+terms -> dobj
+read -> xcomp
+asked -> conj
+created -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policies -> dobj
+ignoring -> acl
+lie -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+prescribes -> relcl
+  -> npadvmod
+run -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+include -> advcl
+amend -> advcl
+' -> dep
+was -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concern -> dobj
+focused -> acl
+  -> attr
+was -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+amendment -> dobj
+support -> xcomp
+enticed -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+  -> compound
+Ancestors:
+is -> ccomp
+noting -> pcomp
+enticed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+
+ -> compound
+overreaching -> conj
+Ancestors:
+
+ -> pobj
+fears -> nsubj
+are -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+include -> advcl
+amend -> xcomp
+charged -> ccomp
+are -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+creates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+amendment -> nsubj
+was -> advcl
+mitigate -> xcomp
+included -> ccomp
+need -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+legal -> amod
+Ancestors:
+protections -> dobj
+dismantles -> conj
+obtain -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+protect -> conj
+is -> ROOT
+
+KEYWORD: cybersecurity -> compound
+Descendants:
+Ancestors:
+information -> compound
+sharing -> compound
+act -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+two -> nummod
+consumer -> compound
+Ancestors:
+concerns -> nsubj
+are -> ccomp
+showed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+concerns -> pobj
+8 -> nsubj
+includes -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+perceptions -> conj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> nsubj
+are -> ccomp
+figure -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+be -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+note -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+user -> compound
+Ancestors:
+sold -> conj
+shared -> relcl
+goldmine -> dobj
+retaining -> advcl
+grant -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+information -> compound
+center -> dobj
+see -> ccomp
+note -> ccomp
+see -> parataxis
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+information -> compound
+center -> dobj
+see -> ccomp
+note -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+electronic -> amod
+Ancestors:
+information -> compound
+center -> dep
+note -> ROOT
+
+KEYWORD: consent -> attr
+Descendants:
+arguably -> advmod
+lacking -> amod
+user -> compound
+Ancestors:
+is -> ccomp
+remains -> ROOT
+
+KEYWORD: consent -> xcomp
+Descendants:
+Ancestors:
+required -> relcl
+agreements -> pobj
+use -> dobj
+mention -> acl
+failure -> attr
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+civil -> amod
+liberties -> conj
+Ancestors:
+means -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+& -> cc
+Ancestors:
+manager -> appos
+sherman -> pobj
+testimony -> appos
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policies -> dobj
+overreaching -> xcomp
+write -> xcomp
+be -> advcl
+argue -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policies -> nsubj
+are -> conj
+  -> attr
+is -> ccomp
+mean -> relcl
+  -> dobj
+write -> xcomp
+be -> advcl
+argue -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+group -> pobj
+feature -> pobj
+facebook -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policies -> pobj
+nature -> pobj
+rating -> acl
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+changes -> conj
+issue -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+absent -> amod
+explicit -> amod
+well -> advmod
+over -> pcomp
+a -> quantmod
+billion -> nummod
+people -> pobj
+Ancestors:
+collecting -> advcl
+continues -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+protecting -> pcomp
+take -> xcomp
+positioned -> acomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+changes -> xcomp
+facebook -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+consumer -> compound
+Ancestors:
+balance -> dobj
+striking -> pcomp
+deal -> dobj
+offers -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+forum -> pobj
+future -> dobj
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+principles -> conj
+see -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+Ancestors:
+give -> xcomp
+agreed -> conj
+gave -> conj
+used -> pcomp
+informed -> pcomp
+based -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+litigation -> dobj
+facebook -> ccomp
+see -> ROOT
+
+KEYWORD: consent -> conj
+Descendants:
+voluntary -> amod
+Ancestors:
+knowing -> pobj
+note -> parataxis
+eroded -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+  -> nsubjpass
+eroded -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+litigation -> dobj
+facebook -> pcomp
+
+
+ -> dep
+signals -> ROOT
+
+KEYWORD: consent -> conj
+Descendants:
+Ancestors:
+notice -> pobj
+collection -> nsubj
+support -> ccomp
+was -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+Ancestors:
+likes -> pobj
+companies -> pobj
+data -> dobj
+sharing -> pcomp
+roughly $20 million -> pobj
+lawsuit -> dobj
+settled -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+litigation -> dobj
+facebook -> xcomp
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+act -> pobj
+suing -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+litigation -> dobj
+facebook -> xcomp
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+litigation -> dobj
+facebook -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+litigation -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+act -> pobj
+predicated -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> conj
+predicated -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+withholding -> compound
+Ancestors:
+say -> acl
+power -> dobj
+giving -> conj
+requiring -> pcomp
+predicated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+vanishes -> dobj
+maintain -> advcl
+  -> nsubj
+amounts -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> dobj
+have -> advcl
+
+
+ -> dep
+provides -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+data -> compound
+Ancestors:
+cases -> pobj
+  -> nsubjpass
+described -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+efforts -> pobj
+promising -> conj
+described -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+security -> conj
+Ancestors:
+implications -> pobj
+liability -> dobj
+disclaims -> acl
+fact -> pobj
+stems -> ROOT
+
+KEYWORD: data breach -> pobj
+Descendants:
+biometric -> amod
+Ancestors:
+event -> pobj
+follow -> relcl
+implications -> pobj
+liability -> dobj
+disclaims -> acl
+fact -> pobj
+stems -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+depending -> acl
+  -> dep
+stored -> ccomp
+is -> ROOT
+
+KEYWORD: privacy policy -> compound
+Descendants:
+Ancestors:
+litig -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+forum -> pobj
+future -> nsubj
+org/wp- -> nmod
+
+
+ -> nsubj
+content/uploads/2015/12/dec -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+principles -> conj
+future -> nsubj
+org/wp- -> nmod
+
+
+ -> nsubj
+content/uploads/2015/12/dec -> ROOT
+
+KEYWORD: data breach -> pobj
+Descendants:
+biometric -> amod
+Ancestors:
+consequences -> dobj
+use -> relcl
+companies -> pobj
+sell -> conj
+mine -> relcl
+businesses -> pobj
+one -> attr
+is -> advcl
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+death -> conj
+networks -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+forum -> pobj
+future -> appos
+  -> dep
+note -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+prescribes -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+happiness -> conj
+acquiring -> conj
+defending -> conj
+enjoying -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> nsubj
+is -> advcl
+
+
+ -> nsubj
+found -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> pobj
+inclusion -> dobj
+found -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+waive -> relcl
+argument -> npadvmod
+
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> nsubjpass
+included -> relcl
+section -> attr
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+litig -> appos
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+orbit -> pobj
+part -> pobj
+information -> pobj
+collection -> appos
+   -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+rights -> nsubjpass
+incorporated -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+waived -> ccomp
+assume -> xcomp
+were -> ccomp
+supposing -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+relinquished -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+rights -> dobj
+had -> conj
+needed -> advcl
+relinquished -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+rights -> pobj
+relinquishment -> nsubj
+entailed -> conj
+had -> conj
+needed -> advcl
+relinquished -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+invasion -> dobj
+accepted -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> nmod
+
+ -> nsubjpass
+included -> ccomp
+stated -> relcl
+pamphlet -> dobj
+received -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> appos
+kelso -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+litig -> appos
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> nsubj
+protects -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+expectation -> dobj
+protects -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+litigation -> dobj
+facebook -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+use -> conj
+create -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> dobj
+protect -> acl
+order -> pobj
+use -> conj
+create -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> dobj
+include -> xcomp
+voted -> relcl
+people -> pobj
+will -> dobj
+ignoring -> pcomp
+
+
+ -> nsubj
+engaging -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+invasion -> dobj
+claiming -> advcl
+is -> ccomp
+show -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+
+ -> compound
+Ancestors:
+expectation -> dobj
+have -> advcl
+' -> ROOT
+
+KEYWORD: consent -> nsubj
+Descendants:
+Ancestors:
+is -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+information -> compound
+Ancestors:
+litigation -> dobj
+facebook -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+biometric -> amod
+Ancestors:
+vanishes -> dobj
+maintain -> advcl
+right -> dobj
+done -> xcomp
+alleged -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+Ancestors:
+scope -> dobj
+exceed -> advcl
+issue -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+intrusion -> pobj
+seclusion -> compound
+claim -> pobj
+Ancestors:
+illustrates -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+consumer -> compound
+Ancestors:
+adequacy -> dobj
+involved -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+yelp -> poss
+'s -> case
+Ancestors:
+notice -> conj
+involved -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+Ancestors:
+ambiguity -> nsubj
+was -> ROOT
+
+KEYWORD: consent -> nsubj
+Descendants:
+consumer -> compound
+Ancestors:
+allow -> advcl
+was -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+upload -> acl
+data -> dobj
+yelp -> poss
+'s -> case
+servers -> pobj
+Ancestors:
+implies -> dep
+was -> ROOT
+
+KEYWORD: privacy policy -> compound
+Descendants:
+Ancestors:
+provisions -> nsubj
+address-and -> ccomp
+find -> ccomp
+noting -> acl
+  -> dobj
+denied -> ccomp
+was -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+knowing -> amod
+Ancestors:
+obtain -> conj
+address-and -> ccomp
+find -> ccomp
+noting -> acl
+  -> dobj
+denied -> ccomp
+was -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+stated -> pcomp
+purposes -> pobj
+obtain -> conj
+address-and -> ccomp
+find -> ccomp
+noting -> acl
+  -> dobj
+denied -> ccomp
+was -> ROOT
+
+KEYWORD: consent -> compound
+Descendants:
+Ancestors:
+issues -> pobj
+analogous -> acomp
+are -> ccomp
+are -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+yelp -> poss
+'s -> case
+opperman -> pobj
+Ancestors:
+issues -> pobj
+analogous -> acomp
+are -> ccomp
+are -> ROOT
+
+KEYWORD: consent -> advcl
+Descendants:
+as -> mark
+consumers -> pobj
+not -> neg
+
+ -> intj
+knowingly -> advmod
+something -> pobj
+which -> pobj
+Ancestors:
+  -> appos
+terms -> nsubj
+are -> ccomp
+are -> ROOT
+
+KEYWORD: consent -> ROOT
+Descendants:
+  -> nsubj
+specifically -> advmod
+
+ -> compound
+facebook -> compound
+users -> nsubj
+not -> neg
+company -> pobj
+collecting -> acl
+their -> poss
+biometric -> amod
+data -> dobj
+since -> mark
+inclusion -> nsubjpass
+facial -> amod
+recognition -> compound
+technology -> pobj
+not -> neg
+stated -> advcl
+terms -> pobj
+service -> pobj
+or -> cc
+data -> conj
+policy -> pobj
+to -> dep
+which -> pobj
+users -> nsubjpass
+required -> relcl
+consent -> xcomp
+Ancestors:
+
+KEYWORD: consent -> xcomp
+Descendants:
+Ancestors:
+required -> relcl
+policy -> pobj
+stated -> advcl
+consent -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+proffered -> amod
+consumer -> compound
+that -> dobj
+it -> nsubj
+received -> relcl
+Ancestors:
+scope -> dobj
+exceeded -> ccomp
+find -> advcl
+be -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+expectation -> nsubj
+is -> ccomp
+noted -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+his -> poss
+Ancestors:
+interest -> pobj
+afforded -> acl
+protection -> dobj
+
+ -> ccomp
+entails -> ccomp
+clarified -> ccomp
+said -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+whose -> poss
+Ancestors:
+invaded -> ccomp
+consider -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+consumer -> compound
+and -> cc
+privacy -> conj
+Ancestors:
+bounds -> pobj
+overstepping -> dobj
+facebook -> advcl
+put -> ccomp
+meaning -> advcl
+are -> ccomp
+noted -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+consent -> pobj
+bounds -> pobj
+overstepping -> dobj
+facebook -> advcl
+put -> ccomp
+meaning -> advcl
+are -> ccomp
+noted -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+invasions -> pobj
+protect -> relcl
+ways -> attr
+are -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+consumer -> compound
+Ancestors:
+challenges -> dobj
+present -> advcl
+have -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tech -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+surveillance -> conj
+nsa -> pobj
+think -> relcl
+gao -> dobj
+see -> ROOT
+
+KEYWORD: consent -> conj
+Descendants:
+explicitly -> advmod
+Ancestors:
+understand -> relcl
+ways -> pobj
+allows -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+waivers -> nsubj
+are -> ccomp
+accept -> xcomp
+wise -> acomp
+be -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+protections -> pobj
+substitute -> attr
+are -> ccomp
+accept -> xcomp
+wise -> acomp
+be -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+
+ -> compound
+Ancestors:
+forced -> csubj
+is -> ROOT
+
+KEYWORD: consent -> acomp
+Descendants:
+at -> advmod
+all -> advmod
+Ancestors:
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+consumer -> compound
+Ancestors:
+rights -> conj
+  -> appos
+everything -> dobj
+has -> ccomp
+recognize -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+pro-consumer -> amod
+holding -> acl
+california -> pobj
+Ancestors:
+  -> nsubj
+spark -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+implications -> dobj
+address -> advcl
+spark -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+unequivocally -> advmod
+controlling -> amod
+consumer -> nmod
+  -> conj
+both -> advmod
+now -> advmod
+and -> cc
+in -> conj
+future -> pobj
+Ancestors:
+preventing -> pcomp
+lead -> conj
+step -> advcl
+is -> ROOT
