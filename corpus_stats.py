@@ -143,12 +143,12 @@ def process_document(title, source_path,source,keywords):
     input_file = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", input_file)
     input_file = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", input_file)
     
-    #with open(keyword_guide_path,'w') as keyword_guide_file:
-    #    print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
-    #    for keyword in keywords:
-    #        kw_counter = string_search(input_file,0,keyword.lower())
-    #        if (kw_counter != 0):
-    #            print(keyword+":"+str(kw_counter), file=keyword_guide_file)
+    with open(keyword_guide_path,'w') as keyword_guide_file:
+        print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
+        for keyword in keywords:
+            kw_counter = string_search(input_file,0,keyword.lower())
+            if (kw_counter != 0):
+                print(keyword+":"+str(kw_counter), file=keyword_guide_file)
 
     doc = nlp(input_file)
     doc = reconstruct_hyphenated_words(doc)

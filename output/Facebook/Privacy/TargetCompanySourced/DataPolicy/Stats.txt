@@ -3,9 +3,9 @@ DataPolicy
 
 
 With stop word removal 
-Size of original corpus: 5235 
-Size of filtered corpus: 2390
-Size of Lexicon: 767
+Size of original corpus: 6050 
+Size of filtered corpus: 2396
+Size of Lexicon: 766
 
 Tokens that appear in the file, alongside with their frequencies:
 information:109
@@ -51,6 +51,7 @@ communicate:8
 law:8
 make:8
 apps:8
+7:8
 cookies:8
 business:8
 websites:8
@@ -66,6 +67,7 @@ described:7
 may:7
 devices:7
 personalize:7
+20/09/2021:7
 14:35:7
 rights:7
 audience:7
@@ -114,7 +116,6 @@ social:5
 visit:5
 providing:5
 experience:5
-7:5
 understand:5
 violations:5
 interest:5
@@ -139,7 +140,6 @@ review:4
 improve:4
 relevant:4
 consistent:4
-20/09/2021:4
 sponsored:4
 select:4
 security:4
@@ -310,6 +310,7 @@ demographic:2
 reports:2
 performing:2
 identiﬁes:2
+4:2
 something:2
 seller:2
 vendors:2
@@ -428,7 +429,7 @@ humans:1
 bots:1
 family:1
 associated:1
-1 of 7 20/09/2021:1
+1:1
 bluetooth:1
 wi-fi:1
 points:1
@@ -521,7 +522,7 @@ engines:1
 media:1
 visibility:1
 consider:1
-3 of 7 20/09/2021:1
+3:1
 speciﬁc:1
 screenshot:1
 virtual:1
@@ -597,7 +598,6 @@ engineering:1
 conﬁrm:1
 led:1
 advertiser:1
-4 of 7 20/09/2021:1
 oﬀering:1
 goods:1
 subscribe:1
@@ -735,7 +735,6 @@ works:1
 controller:1
 responsible:1
 mail:1
-4:1
 square:1
 harbour:1
 dublin:1
@@ -775,9 +774,134 @@ voting:1
 careers:1
 ©:1
 2021:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
 data protection:3
 right to object:3
 consent:2
 Privacy:2
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: consent -> dobj
+Descendants:
+your -> poss
+explicit -> amod
+
+ -> compound
+consent -> dobj
+  -> appos
+Ancestors:
+given -> ccomp
+provide -> xcomp
+choose -> relcl
+data -> pobj
+use -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+your -> poss
+consent -> pobj
+Ancestors:
+consistent -> amod
+collect -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+data protection -> compound
+Ancestors:
+regulation -> pobj
+
+
+ -> dep
+have -> ROOT
+
+KEYWORD: right to object -> dobj
+Descendants:
+right to object -> dobj
+
+
+ -> dobj
+and -> cc
+restrict -> conj
+certain -> amod
+processing -> dobj
+your -> poss
+data -> pobj
+Ancestors:
+have -> ROOT
+
+KEYWORD: right to object -> conj
+Descendants:
+right to object -> conj
+our -> poss
+processing -> pobj
+your -> poss
+data -> pobj
+direct -> amod
+marketing -> pobj
+  -> dobj
+which -> dobj
+you -> nsubj
+exercise -> relcl
+using -> pcomp
+unsubscribe -> amod
+link -> dobj
+such -> amod
+
+
+ -> nmod
+marketing -> compound
+communications -> pobj
+  -> conj
+and -> cc
+
+
+ -> conj
+Ancestors:
+  -> ROOT
+
+KEYWORD: right to object -> appos
+Descendants:
+right to object -> appos
+our -> poss
+processing -> pobj
+your -> poss
+data -> pobj
+where -> advmod
+we -> nsubj
+performing -> ccomp
+task -> dobj
+public -> amod
+interest -> pobj
+or -> cc
+pursuing -> conj
+our -> poss
+legitimate -> amod
+
+
+ -> compound
+interests -> dobj
+or -> cc
+those -> conj
+third -> amod
+party -> pobj
+Ancestors:
+  -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+data protection -> compound
+Ancestors:
+oﬃcer -> dobj
+contact -> advcl
+dublin -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+data protection -> compound
+Ancestors:
+commissioner -> dobj
+  -> dep
+have -> ROOT

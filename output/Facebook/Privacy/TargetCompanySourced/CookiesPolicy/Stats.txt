@@ -3,7 +3,7 @@ CookiesPolicy
 
 
 With stop word removal 
-Size of original corpus: 2492 
+Size of original corpus: 2804 
 Size of filtered corpus: 1250
 Size of Lexicon: 444
 
@@ -452,7 +452,26 @@ developers:1
 careers:1
 privacy:1
 terms:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
 hacked:1
 Privacy:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: hacked -> ccomp
+Descendants:
+that -> mark
+your -> poss
+account -> nsubjpass
+hacked -> ccomp
+Ancestors:
+tell -> advcl
+forget -> relcl
+event -> pobj
+recover -> ccomp
+allows -> relcl
+information -> dobj
+store -> xcomp
+use -> ROOT
