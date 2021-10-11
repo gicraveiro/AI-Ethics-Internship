@@ -50,7 +50,6 @@ def compute_stats(tokens, filename, output_file, gen_path):
         for keyword in keywords:
             if (keyword.lower() == key.lower()):
                 keywords_present.append(str(keyword) + ':' + str(val))
-                print(key, key.dep_)
 
     print("\nKeywords that appear in the file, alongside with their frequencies:", file=output_file)
     for keyword in keywords_present:
@@ -64,16 +63,23 @@ def string_search(document, index,keyword):
         counter += string_search(document,index,keyword)
     return counter
 
+def parser(corpus):
+    for token in corpus:
+        for keyword in keywords:
+            if(token.text == keyword):
+                print("NEW FOUND:\n",token.text, token.dep_)
+                for descendant in token.subtree:
+                    print(descendant.text, descendant.dep_,"\n")
 # reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
     i = 0
     while i < len(corpus):
         if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
-            print("reconstruction 1", corpus[i-1]," ->", corpus[i-1:i+2] )
+            print("reconstruction 1:", corpus[i-1]," ->", corpus[i-1:i+2] )
             with corpus.retokenize() as retokenizer:
                 retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word            
         elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
-            print("reconstruction 2", corpus[i-1]," ->",corpus[i-1:i+1] )
+            print("reconstruction 2:", corpus[i-1]," ->",corpus[i-1:i+1] )
             with corpus.retokenize() as retokenizer:
                 retokenizer.merge(corpus[i-1:i+1])
             
@@ -130,13 +136,19 @@ def process_document(title, source_path,source,keywords):
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
 
-    input_file = re.sub("\s+", r"  ", input_file)
+    input_file = input_file.lower()
+    #input_file = nlp(input_file)
+    #tokens = [token.text for token in input_file]
+    #print("1:", tokens)
+    #input_file = " ".join([token.text for token in input_file])
+    #print("2:", input_file)
+
+    input_file = re.sub(" +", " ", input_file)
     input_file = re.sub("(\s+\-)", r" - ", input_file)
     input_file = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", input_file)
     input_file = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", input_file)
     input_file = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", input_file)
-    input_file = re.sub("\s+", " ", input_file)
-    input_file = input_file.lower()
+    #input_file = re.sub("\s+", " ", input_file)
     
     with open(keyword_guide_path,'w') as keyword_guide_file:
         print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
@@ -148,13 +160,14 @@ def process_document(title, source_path,source,keywords):
     doc = nlp(input_file)
     doc = reconstruct_hyphenated_words(doc)
     doc = reconstruct_noun_chunks(doc,keywords)
-    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
+    tokens = [token.text for token in doc] # if not token.is_space if not token.is_punct if not token.text in stopwords.words()] # token for parser, token.text for frequency test
     #nlp.add_pipe("merge_noun_chunks") # NOT NEEDED WITH THE NEW LOGIC THAT PUTS TOKETHER KEYWORDS
     print(tokens)
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
     compute_stats(tokens,title, output_file, source_path) #source+title
+    #parser(tokens)
 
     output_file.close()
 
