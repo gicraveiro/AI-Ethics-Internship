@@ -10,7 +10,7 @@ data minimisation:1
 encryption:2
 logging data access:1
 oversight mechanisms for data processing:1
-Data Protection Impact Assessment:2
+Data Protection Impact Assessment:1
 DPIA:2
 Data Protection Officer:2
 DPO:2

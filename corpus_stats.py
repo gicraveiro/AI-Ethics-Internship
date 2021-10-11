@@ -31,12 +31,10 @@ def plot_graph(tokens,path,title):
     return freq
 def compute_stats(tokens, filename, output_file, gen_path): 
     # GRAPH OF WORD FREQUENCY
-    #freq = nltk.FreqDist(tokens) # NOW LOCATED INSIDE THE FUNCTION
     graph_path='output/'+gen_path+'/'+filename+'/Graph.png'
     os.makedirs(os.path.dirname(graph_path), exist_ok=True)
     freq = plot_graph(tokens,graph_path,filename)
-    
-    # TO DO: TOTAL NUMBER OF UTTERANCES (SENTENCES)
+
     print('Size of Lexicon:', len(freq), file=output_file)
 
     # ORDERING LEXICON BY FREQUENCY COUNT
@@ -75,14 +73,13 @@ def reconstruct_hyphenated_words(corpus):
     i = 0
     while i < len(corpus):
         if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
-            print("reconstruction 1:", corpus[i-1]," ->", corpus[i-1:i+2] )
+            #print("reconstruction 1:", corpus[i-1]," ->", corpus[i-1:i+2] )
             with corpus.retokenize() as retokenizer:
                 retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word            
         elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
-            print("reconstruction 2:", corpus[i-1]," ->",corpus[i-1:i+1] )
+            #print("reconstruction 2:", corpus[i-1]," ->",corpus[i-1:i+1] )
             with corpus.retokenize() as retokenizer:
-                retokenizer.merge(corpus[i-1:i+1])
-            
+                retokenizer.merge(corpus[i-1:i+1])           
         else: 
             i += 1
     return corpus
@@ -90,7 +87,6 @@ def reconstruct_hyphenated_words(corpus):
 # noun chunks that correspond to keywords
 def reconstruct_noun_chunks(corpus,keywords):
     i = 0
-    #max_length = len(corpus)
     while i < len(corpus):
         counter = i
         token = corpus[i].text
@@ -100,14 +96,14 @@ def reconstruct_noun_chunks(corpus,keywords):
             aux = index
             while (aux != -1 and counter < len(corpus)-1 and token != kw_lower):
                 counter += 1
-                token += ' '+corpus[counter].text  # +' ' 
+                token += ' '+corpus[counter].text
                 aux = kw_lower.find(token)
                 if(aux == -1):
                     counter -=1
                     token = corpus[i].text
             if(i != counter):
                 if(token == kw_lower): #str(corpus[i:counter+1])
-                    print("reconstruction", token) #str(corpus[i:counter+1]))
+                    #print("reconstruction", token) #str(corpus[i:counter+1]))
                     with corpus.retokenize() as retokenizer:
                         retokenizer.merge(corpus[i:counter+1])
                     break 
@@ -132,23 +128,17 @@ def process_document(title, source_path,source,keywords):
     path = 'data/'+source_path+'/'+title+'.pdf' #'data/'+file_input_path_general+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
-    #print(input_file)
+
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
 
     input_file = input_file.lower()
-    #input_file = nlp(input_file)
-    #tokens = [token.text for token in input_file]
-    #print("1:", tokens)
-    #input_file = " ".join([token.text for token in input_file])
-    #print("2:", input_file)
 
     input_file = re.sub(" +", " ", input_file)
     input_file = re.sub("(\s+\-)", r" - ", input_file)
     input_file = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", input_file)
     input_file = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", input_file)
     input_file = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", input_file)
-    #input_file = re.sub("\s+", " ", input_file)
     
     with open(keyword_guide_path,'w') as keyword_guide_file:
         print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
@@ -160,9 +150,9 @@ def process_document(title, source_path,source,keywords):
     doc = nlp(input_file)
     doc = reconstruct_hyphenated_words(doc)
     doc = reconstruct_noun_chunks(doc,keywords)
-    tokens = [token.text for token in doc] # if not token.is_space if not token.is_punct if not token.text in stopwords.words()] # token for parser, token.text for frequency test
+    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()] # token for parser, token.text for frequency test
     #nlp.add_pipe("merge_noun_chunks") # NOT NEEDED WITH THE NEW LOGIC THAT PUTS TOKETHER KEYWORDS
-    print(tokens)
+    #print(tokens)
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
@@ -180,8 +170,6 @@ def analyse_folder(source):
             file_name, file_extension = os.path.splitext(filename)
             process_document(file_name, source, keywords)
     
-
-
 #####
 #  MAIN 
 #####
@@ -219,10 +207,8 @@ elif(folder == 3):
 
 for filename in os.listdir('data/'+path):#'data/'+folder):
     print(filename)
-    #print("!"+source+"!")
     file_name, file_extension = os.path.splitext(filename)
     process_document(file_name, path, source, keywords)
-    #print(path, source, keywords)
 
 # IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
 #plt.savefig('output/JointGraph.png', bbox_inches='tight')

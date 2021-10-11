@@ -3,17 +3,17 @@ SASB-Privacy-Internet_Media_Services_Standard_2018
 
 
 With stop word removal 
-Size of original corpus: 5494 
-Size of filtered corpus: 3004
+Size of original corpus: 6600 
+Size of filtered corpus: 3010
 Size of Lexicon: 825
 
 Tokens that appear in the file, alongside with their frequencies:
-1:89
+1:91
 information:80
 data:73
 entity:70
-2:67
-3:60
+2:68
+3:62
 shall:49
 disclosure:34
 number:32
@@ -76,6 +76,7 @@ result:9
 proceedings:9
 monitoring:9
 blocking:9
+third-party:9
 related:9
 includes:9
 records:9
@@ -85,7 +86,6 @@ system:8
 monetary:8
 remove:8
 identifying:8
-third-party:8
 note:8
 entity’s:8
 specific:8
@@ -415,7 +415,9 @@ sics:1
 tc-im:1
 prepared:1
 october 2018:1
-2018-10 © 2018:1
+2018-10:1
+©:1
+2018:1
 foundation:1
 rights:1
 reserved:1
@@ -435,7 +437,9 @@ regions:1
 extremely:1
 baseline:1
 stress:1
-2 thousand cubic meters:1
+thousand:1
+cubic:1
+meters:1
 m³:1
 integration:1
 considerations:1
@@ -778,7 +782,6 @@ denial:1
 operational:1
 structure:1
 selection:1
-1 third-party:1
 frameworks:1
 developed:1
 explicit:1
@@ -790,11 +793,8 @@ american institute of certified public accountants:1
 aicpa:1
 service organization controls:1
 soc:1
-isaca’s:1
-cobit:1
-5 3:1
+isaca’s cobit 5:1
 iso/iec 27000-series:1
-1 3:1
 institute:1
 technology’s:1
 nist:1
@@ -846,5 +846,6 @@ American Institute of Certified Public Accountants:1
 AICPA:1
 Service Organization Controls:1
 SOC:1
+ISACA’s COBIT 5:1
 ISO/IEC 27000-series:1
 NIST:1

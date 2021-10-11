@@ -3,16 +3,16 @@ SASB-Privacy-Software_IT_Services_Standard_2018
 
 
 With stop word removal 
-Size of original corpus: 5302 
-Size of filtered corpus: 2876
+Size of original corpus: 6383 
+Size of filtered corpus: 2883
 Size of Lexicon: 822
 
 Tokens that appear in the file, alongside with their frequencies:
-1:87
+1:89
 information:79
-data:75
-2:65
-3:61
+data:76
+2:66
+3:63
 entity:59
 shall:45
 disclosure:33
@@ -42,8 +42,8 @@ individual:16
 describe:15
 standards:14
 tc-si-220:14
-data security:14
 products:13
+data security:13
 government:13
 law:12
 enforcement:12
@@ -57,6 +57,7 @@ identifiable:11
 actions:11
 limited:11
 product:11
+security:11
 risk:11
 practices:10
 behavioral:10
@@ -66,7 +67,6 @@ result:10
 personally:10
 pii:10
 records:10
-security:10
 discuss:10
 disclose:10
 quantitative:9
@@ -80,6 +80,7 @@ protection:9
 service:9
 system:8
 monetary:8
+third-party:8
 note:8
 entity’s:8
 related:8
@@ -92,7 +93,6 @@ associated:7
 affected:7
 approach:7
 identifying:7
-third-party:7
 relevant:7
 companies:7
 demographic:7
@@ -408,7 +408,9 @@ sics:1
 tc-si:1
 prepared:1
 october 2018:1
-2018-10 © 2018:1
+2018-10:1
+©:1
+2018:1
 foundation:1
 rights:1
 reserved:1
@@ -428,7 +430,9 @@ regions:1
 extremely:1
 baseline:1
 stress:1
-2 thousand cubic meters:1
+thousand:1
+cubic:1
+meters:1
 m³:1
 integration:1
 considerations:1
@@ -773,7 +777,6 @@ denial:1
 operational:1
 structure:1
 selection:1
-1 third-party:1
 frameworks:1
 developed:1
 explicit:1
@@ -785,16 +788,13 @@ american institute of certified public accountants:1
 aicpa:1
 service organization controls:1
 soc:1
-isaca’s:1
-cobit:1
-5 3:1
+isaca’s cobit 5:1
 iso/iec 27000-series:1
 institute:1
 technology’s:1
 nist:1
 framework:1
 critical:1
-1 3:1
 identification:1
 geography:1
 role:1
@@ -834,7 +834,7 @@ info@sasb:1
 Keywords that appear in the file, alongside with their frequencies:
 Privacy:24
 cybersecurity:17
-data security:14
+data security:13
 consent:5
 data protection:3
 Data breach:3
@@ -843,5 +843,6 @@ American Institute of Certified Public Accountants:1
 AICPA:1
 Service Organization Controls:1
 SOC:1
+ISACA’s COBIT 5:1
 ISO/IEC 27000-series:1
 NIST:1

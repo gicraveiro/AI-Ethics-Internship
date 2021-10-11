@@ -3,23 +3,23 @@ Privacy-HILEG-Assessment List for Trustworthy AI
 
 
 With stop word removal 
-Size of original corpus: 747 
-Size of filtered corpus: 411
+Size of original corpus: 944 
+Size of filtered corpus: 414
 Size of Lexicon: 233
 
 Tokens that appear in the file, alongside with their frequencies:
 data:15
 privacy:12
 system:11
+assessment:8
 requirement:8
-assessment:7
 governance:7
+data protection:7
 list:6
 trustworthy:6
 altai:6
-data protection:6
+impact:6
 use:5
-impact:5
 right:5
 :5
 12:4
@@ -61,7 +61,6 @@ access:2
 protocols:2
 aggregation:2
 anonymisation:2
-data protection impact assessment:2
 dpia:2
 data protection officer:2
 dpo:2
@@ -89,6 +88,7 @@ non-personal:2
 iso:2
 25:2
 ieee:2
+26:2
 html:2
 isbn:2
 doi:10:2
@@ -188,6 +188,7 @@ regulation:1
 gdpr:1
 non-european:1
 equivalent:1
+data protection impact assessment:1
 designate:1
 include:1
 early:1
@@ -224,13 +225,12 @@ cycle:1
 training-data:1
 align:1
 relevant:1
-26:1
 widely:1
 adopted:1
 daily:1
 https://www:1
 org/committee/6794475:1
-26 https://standards:1
+https://standards:1
 org/industry-connections/ec/autonomous-systems:1
 13:1
 book:1
@@ -244,14 +244,14 @@ kk-02-20-479-en-n:1
 
 Keywords that appear in the file, alongside with their frequencies:
 Privacy:12
-data protection:6
+data protection:7
 anonymisation:2
-Data Protection Impact Assessment:2
 DPIA:2
 Data Protection Officer:2
 DPO:2
 encryption:2
 pseudonymisation:2
+Data Protection Impact Assessment:1
 oversight mechanisms for data processing:1
 logging data access:1
 privacy-by-design:1
