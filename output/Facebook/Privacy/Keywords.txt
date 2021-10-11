@@ -2,7 +2,7 @@ Descriptive Statistics of Facebook Sourced Files on Privacy
 
 Keywords:
 
-Privacy
+privacy
 anonymization
 anonymisation
 pseudonymization
@@ -35,8 +35,11 @@ Service Organization Controls
 ISACA’s COBIT 5
 ISO/IEC 27000-series
 National Institute of Standards and Technology’s (NIST) Framework for Improving Critical Infrastructure Cybersecurity
+National Institute of Standards and Technology’s Framework for Improving Critical Infrastructure Cybersecurity
 NIST
 National Institute of Standards and Technology
-Data breach
+National Institute of Standards and Technology’s
+data breach
+data breaches
 hacked
 ransomware

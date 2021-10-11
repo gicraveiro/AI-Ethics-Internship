@@ -2,10 +2,9 @@
 1 WHAT’S IN A NAME – Privacy and FB REAL NAME POLICY
 Keywords found by String Search
 
-Privacy:32
-data minimization:1
+privacy:32
 DPO:1
-data protection:12
+data protection:11
 consent:12
 SOC:82
 NIST:7

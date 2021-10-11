@@ -3,26 +3,26 @@
 
 
 With stop word removal 
-Size of original corpus: 5800 
-Size of filtered corpus: 2991
-Size of Lexicon: 1204
+Size of original corpus: 7013 
+Size of filtered corpus: 3013
+Size of Lexicon: 1205
 
 Tokens that appear in the file, alongside with their frequencies:
 facebook:108
-data:43
+data:44
 belgian:42
 privacy:42
 commission:35
 's:31
-data protection:30
+data protection:29
 court:25
 2015:24
 social:24
 cookie:24
+4:23
 users:23
-1:21
+1:22
 activities:20
-4:19
 case:19
 law:18
 datr:18
@@ -36,6 +36,7 @@ bdpa:15
 service:14
 website:14
 personal:14
+13:13
 establishment:13
 european:12
 edpl:12
@@ -45,9 +46,10 @@ legal:12
 would:12
 information:11
 plug-ins:11
-13:11
 directive:11
 art:11
+article:10
+2:10
 3:10
 see:10
 territory:10
@@ -60,7 +62,6 @@ terms:9
 judgment:9
 con-:9
 6:8
-2:8
 may:8
 face-:8
 book:8
@@ -73,7 +74,6 @@ internet:8
 cjeu:8
 stephanie:7
 th:7
-article:7
 cookies:7
 subject:7
 application:7
@@ -81,6 +81,7 @@ apply:7
 interests:7
 cf:7
 state:7
+29:7
 293:6
 reports:6
 re-:6
@@ -96,11 +97,11 @@ must:6
 national:6
 fundamental:6
 opinion:6
-29:6
 wp:6
 ip:6
 7:5
 review:5
+8:5
 conditions:5
 scope:5
 report:5
@@ -113,6 +114,7 @@ in-:5
 valid:5
 clear:5
 accessed:5
+protection:5
 95/46/ec:5
 relating:5
 us:5
@@ -138,7 +140,7 @@ heinonline:4
 eur:4
 prot:4
 rev:4
-8:4
+9:4
 obtain:4
 revised:4
 ap-:4
@@ -153,7 +155,6 @@ addition:4
 non-user:4
 visits:4
 page:4
-protection:4
 subsidiary:4
 ltd:4
 pro-:4
@@ -183,7 +184,6 @@ date:3
 cid:9:3
 293-298:3
 17:3
-9:3
 pdf:3
 available:3
 search:3
@@ -206,6 +206,7 @@ plug-:3
 without:3
 <:3
 >:3
+december:3
 request:3
 ber:3
 sent:3
@@ -222,10 +223,10 @@ bel-:3
 within:3
 en-:3
 territorial:3
-article 4:3
 carried:3
 actual:3
 public:3
+20:3
 on-:3
 troller:3
 several:3
@@ -245,6 +246,7 @@ operator:3
 pursuant:3
 arr:3
 cass:3
+11:3
 vs:3
 decision:3
 always:3
@@ -266,6 +268,7 @@ achieve:3
 placed:3
 actively:3
 relevant:3
+16:3
 com-:3
 well:3
 provider:3
@@ -296,7 +299,6 @@ critical:2
 policies:2
 version:2
 https://www:2
-december:2
 kuleuven:2
 uniquely:2
 site:2
@@ -307,6 +309,7 @@ event:2
 implements:2
 communications:2
 act:2
+june:2
 04/2015:2
 english:2
 privacycommission:2
@@ -314,6 +317,7 @@ nounced:2
 sided:2
 appeal:2
 suspend:2
+territo-:2
 courts:2
 implementing:2
 di-:2
@@ -322,7 +326,6 @@ rective:2
 context:2
 effective:2
 applies:2
-20:2
 community:2
 pur:2
 equip-:2
@@ -427,7 +430,6 @@ commis-:2
 sion:2
 recently:2
 secondly:2
-16:2
 enough:2
 processed:2
 14:2
@@ -471,7 +473,6 @@ guide:1
 aglc:1
 mla:1
 vol:1
-4 , 2015:1
 oscola:1
 provided:1
 pace:1
@@ -544,7 +545,6 @@ sought:1
 injunction:1
 prohibiting:1
 giving:1
-1 2:1
 associate:1
 loyens:1
 loeff:1
@@ -566,7 +566,7 @@ https://secure-:1
 homes:1
 esat:1
 bet-gacar/fbjracking/:1
-13 decem-:1
+decem-:1
 long-term:1
 lifespan:1
 2 years:1
@@ -590,7 +590,7 @@ maintenance:1
 relation:1
 24 october 1995:1
 electronic:1
-13 june 2005:1
+2005:1
 provisions:1
 12 july 2002:1
 concerning:1
@@ -605,7 +605,7 @@ documents/recommendation:1
 04201:1
 50:1
 de-:1
-cember:1
+cember 2015:1
 294:1
 spect:1
 ent:1
@@ -637,10 +637,10 @@ findings:1
 much:1
 debated:1
 issue:1
-territo-:1
 rial:1
 ju-:1
 risdiction:1
+article 4:1
 defines:1
 plication:1
 follows:1
@@ -681,7 +681,8 @@ subsequent:1
 introductory:1
 hearing:1
 scheduled:1
-early january 2016:1
+early january
+2016:1
 probably:1
 prohibition:1
 unofficial:1
@@ -726,7 +727,6 @@ automatically:1
 claimants:1
 situation:1
 fear:1
-8 9:1
 limited-liability:1
 incorporated:1
 2001:1
@@ -759,19 +759,22 @@ cassation:1
 judgments:1
 march:1
 1985:1
-1984-85 , 1008:1
+1984-85:1
+1008:1
 1987:1
-1986-87 , 1287:1
+1986-87:1
+1287:1
 11 may 1990:1
 w:1
 987:1
-13 september 1990:1
+13 september:1
+1990:1
 42:1
-11:1
 4/2007:1
-20 june 2007:1
+2007:1
 1/2008:1
-4 april 2008:1
+april:1
+2008:1
 related:1
 engines:1
 document:1
@@ -782,7 +785,8 @@ c-70/10:1
 scarlet:1
 extended:1
 sabam:1
-24 novem-:1
+24:1
+novem-:1
 2011:1
 51:1
 preliminary:1
@@ -831,7 +835,7 @@ means:1
 computer:1
 opinions:1
 arti-:1
-cle 29:1
+cle:1
 line:1
 jurispru-:1
 dence:1
@@ -955,7 +959,6 @@ plained:1
 fails:1
 proportionality:1
 test:1
-article 2:1
 95/46/:1
 interpreted:1
 protocol:1
@@ -967,10 +970,9 @@ required:1
 requirements:1
 described:1
 no 15/2011 of 13 july 2011:1
-297 11:1
+297:1
 comments:1
 ry:1
-territo- 11:1
 judg-:1
 confirms:1
 complied:1
@@ -1034,7 +1036,7 @@ sanctioning:1
 310:1
 18:1
 8/2010:1
-16 december 2010:1
+2010:1
 8/2014:1
 recent:1
 developments:1
@@ -1212,10 +1214,796 @@ eu-us:1
 safe:1
 harbour:1
 framework:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:42
-data protection:30
+privacy:42
+data protection:29
 consent:17
 privacy policy:1
 right to be forgotten:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+european -> amod
+Ancestors:
+law -> compound
+review -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+european -> amod
+Ancestors:
+law -> compound
+review -> advcl
+loses -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> poss
+  -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+european -> amod
+Ancestors:
+law -> compound
+review -> advcl
+loses -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+law -> compound
+review -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> poss
+  -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+belgian -> amod
+Ancestors:
+commission -> compound
+
+
+ -> nsubj
+stdphanie -> relcl
+round -> dobj
+loses -> xcomp
+use -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+commission -> pobj
+by -> agent
+commissioned -> advcl
+published -> ROOT
+
+KEYWORD: privacy policy -> conj
+Descendants:
+Ancestors:
+use -> pobj
+terms -> appos
+report -> dobj
+published -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+both -> preconj
+european -> amod
+and -> cc
+belgian -> conj
+Ancestors:
+
+ -> compound
+legislation -> dobj
+violated -> ccomp
+concluded -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+issued -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+dations -> nsubj
+are -> advcl
+4 -> nsubjpass
+obeyed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+
+
+ -> nsubj
+are -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+in- -> nmod
+
+ -> intj
+dividual -> poss
+'s -> case
+Ancestors:
+relies -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+howev- -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+  -> compound
+Ancestors:
+conditions -> nsubjpass
+met -> ccomp
+concluded -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+sued -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+Ancestors:
+data protection -> pobj
+  -> dobj
+giving -> pcomp
+was -> ccomp
+stephanie -> ROOT
+
+KEYWORD: data protection -> pobj
+Descendants:
+
+ -> nmod
+privacy -> nmod
+and -> cc
+  -> appos
+Ancestors:
+  -> dobj
+giving -> pcomp
+was -> ccomp
+stephanie -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+request -> pobj
+written -> acl
+  -> nsubj
+https://secure- -> conj
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+law -> pobj
+
+
+ -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+directive -> nmod
+95/46/ec -> dobj
+implements -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+protection -> conj
+ing -> pobj
+relating -> acl
+provisions -> appos
+article 129 -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+sued -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+sided -> ROOT
+
+KEYWORD: data protection -> pobj
+Descendants:
+Ancestors:
+article 4 -> dobj
+implementing -> acl
+article -> nsubj
+di- -> nmod
+9 5/46/ec -> nsubj
+defines -> ROOT
+
+KEYWORD: data protection -> pobj
+Descendants:
+Ancestors:
+  -> appos
+article -> appos
+   -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+irish -> amod
+Ancestors:
+
+ -> compound
+legislation -> nsubj
+apply -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+limited -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> dobj
+take -> xcomp
+scheduled -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> poss
+website -> pobj
+available -> acomp
+is -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+belgian -> amod
+Ancestors:
+commission -> pobj
+judgment -> pobj
+implementation -> dobj
+negotiating -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+announced -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+given -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> poss
+argument -> pobj
+agreed -> ROOT
+
+KEYWORD: privacy -> oprd
+Descendants:
+Ancestors:
+deemed -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+directive -> pobj
+preamble -> pobj
+recital -> dobj
+see -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+issues -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+internet -> pobj
+Ancestors:
+art -> ROOT
+
+KEYWORD: data protection -> pobj
+Descendants:
+on-line -> nmod
+
+ -> compound
+Ancestors:
+approach -> dobj
+art -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+
+ -> conj
+bpda -> nmod
+directive -> pobj
+meaning -> pobj
+collection -> meta
+that -> dobj
+confirmed -> ROOT
+
+KEYWORD: consent -> ROOT
+Descendants:
+data -> compound
+subject -> poss
+'s -> case
+prior -> amod
+express -> amod
+Ancestors:
+
+KEYWORD: consent -> dobj
+Descendants:
+unambiguous -> amod
+Ancestors:
+requires -> conj
+pursuant -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+Ancestors:
+
+ -> pobj
+respect -> pobj
+  -> dep
+sided -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+sided -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+
+ -> nmod
+valid -> amod
+Ancestors:
+conditions -> nsubjpass
+met -> ccomp
+held -> ROOT
+
+KEYWORD: consent -> compound
+Descendants:
+adequate -> amod
+prior -> amod
+data -> compound
+subject -> amod
+Ancestors:
+
+ -> dobj
+obtain -> advcl
+conse- -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commis- -> dobj
+followed -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+valid -> amod
+and -> cc
+unambiguous -> conj
+Ancestors:
+amount -> ccomp
+considered -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+directive -> appos
+art -> appos
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+directive -> pobj
+  -> dobj
+implementing -> acl
+
+
+ -> pobj
+
+
+ -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+valid -> amod
+described -> acl
+art -> pobj
+29 -> nummod
+wp -> appos
+Ancestors:
+requirements -> pobj
+
+
+ -> dep
+opinion -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+Ancestors:
+definition -> pobj
+no 15/2011 of 13 july 2011 -> dobj
+opinion -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+directive -> pobj
+
+
+ -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+legislation -> pobj
+application -> ROOT
+
+KEYWORD: data protection -> nmod
+Descendants:
+multiple -> amod
+national -> amod
+Ancestors:
+laws -> nsubj
+apply -> ccomp
+confirms -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+laws -> dobj
+apply -> ccomp
+confirms -> ROOT
+
+KEYWORD: right to be forgotten -> conj
+Descendants:
+Ancestors:
+comment -> dobj
+held -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+legislation -> pobj
+application -> pobj
+scope -> dobj
+  -> nsubj
+was -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+national -> amod
+Ancestors:
+legislation -> pobj
+applicability -> dobj
+trigger -> xcomp
+suffice -> ccomp
+found -> ccomp
+comment -> dep
+approach -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> conj
+  -> appos
+  -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+regime -> pobj
+  -> dep
+is -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+authorities -> pobj
+is -> ccomp
+is -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+national -> amod
+Ancestors:
+legisla- -> nmod
+tion -> pobj
+take -> xcomp
+advised -> ROOT
+
+KEYWORD: data protection -> nmod
+Descendants:
+general -> amod
+Ancestors:
+regulation -> pobj
+aim -> pobj
+is -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+law -> dobj
+creating -> pcomp
+accommodate -> xcomp
+is -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+authority -> pobj
+deal -> xcomp
+enables -> advcl
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+limited -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+extend -> ccomp
+  -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+
+ -> nmod
+valid -> amod
+opt-in -> nmod
+Ancestors:
+conditions -> nsubjpass
+met -> ccomp
+demonstrate -> advcl
+be -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+facebook -> nsubj
+need -> relcl
+Ancestors:
+
+ -> xcomp
+is -> relcl
+  -> dobj
+under -> ROOT
+
+KEYWORD: consent -> nsubjpass
+Descendants:
+  -> nmod
+specific -> amod
+Ancestors:
+requested -> ROOT
+
+KEYWORD: consent -> appos
+Descendants:
+users -> poss
+' -> case
+gen- -> nmod
+
+ -> nmod
+eral -> amod
+terms -> pobj
+and -> cc
+conditions -> conj
+Ancestors:
+activities -> pobj
+requested -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+their -> poss
+informed -> amod
+Ancestors:
+give -> xcomp
+able -> acomp
+be -> advcl
+received -> ccomp
+found -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+
+ -> poss
+unambiguous -> amod
+Ancestors:
+requirement -> dobj
+satisfy -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> dobj
+  -> nmod
+
+ -> nsubj
+pointed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+warned -> ROOT
+
+KEYWORD: consent -> ROOT
+Descendants:
+  -> nsubj
+
+ -> compound
+addition -> pobj
+  -> appos
+most -> amod
+types -> pobj
+cookies -> pobj
+and -> cc
+plug-ins -> compound
+  -> conj
+in- -> appos
+cluding -> acl
+facebook -> compound
+plug-ins -> dobj
+  -> dobj
+  -> compound
+website -> compound
+owners -> dobj
+ob- -> dep
+
+ -> compound
+tain -> compound
+internet -> compound
+users -> dobj
+prior -> advmod
+express -> amod
+before -> mark
+they -> nsubjpass
+
+ -> appos
+activated -> advcl
+Ancestors:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubj
+ferred -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+Ancestors:
+commis- -> advcl
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> pobj
+available -> oprd
+made -> ccomp
+depend -> ROOT
+
+KEYWORD: data protection -> nmod
+Descendants:
+Ancestors:
+com- -> nmod
+status -> dobj
+review -> xcomp
+vised -> advcl
+be -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+commission -> nsubjpass
+confronted -> parataxis
+
+
+ -> advcl
+requested -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+  -> nmod
+belgian -> amod
+and -> cc
+german -> conj
+Ancestors:
+authori- -> appos
+irish -> dobj
+requested -> ROOT

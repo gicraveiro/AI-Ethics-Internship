@@ -2,9 +2,9 @@
 1 Facebook Loses the First Round of Its Battle with the Belgian Privacy Commission
 Keywords found by String Search
 
-Privacy:48
+privacy:48
 right to be forgotten:1
-data protection:30
+data protection:29
 consent:18
 privacy policy:1
 SOC:25

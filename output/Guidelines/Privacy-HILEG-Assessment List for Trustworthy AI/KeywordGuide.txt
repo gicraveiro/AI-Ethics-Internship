@@ -2,7 +2,7 @@
 Privacy-HILEG-Assessment List for Trustworthy AI
 Keywords found by String Search
 
-Privacy:13
+privacy:13
 anonymisation:2
 pseudonymisation:2
 privacy-by-design:1

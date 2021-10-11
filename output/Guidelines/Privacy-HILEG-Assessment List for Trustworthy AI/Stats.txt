@@ -241,9 +241,10 @@ pdf:1
 2759/002360:1
 kk-02-20-479-en-c:1
 kk-02-20-479-en-n:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:12
+privacy:12
 data protection:7
 anonymisation:2
 DPIA:2
@@ -259,3 +260,381 @@ data minimisation:1
 right to withdraw consent:1
 right to object:1
 right to be forgotten:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> dobj
+Descendants:
+# -> quantmod
+3 -> nummod
+and -> cc
+data -> compound
+governance -> conj
+Ancestors:
+requirement -> appos
+reliability -> nmod
+avoidance -> nsubj
+requirement -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+governance -> dobj
+requirement -> appos
+reliability -> nmod
+avoidance -> nsubj
+requirement -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+# -> nmod
+3 -> nummod
+and -> cc
+data -> compound
+governance -> conj
+Ancestors:
+requirement -> appos
+
+
+ -> appos
+linked -> ROOT
+
+KEYWORD: privacy -> attr
+Descendants:
+Ancestors:
+linked -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+harm -> pobj
+prevention -> nsubj
+necessitates -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+protects -> relcl
+manner -> pobj
+process -> acl
+capability -> conj
+protocols -> conj
+relevance -> dobj
+necessitates -> ROOT
+
+KEYWORD: anonymisation -> conj
+Descendants:
+Ancestors:
+aggregation -> appos
+glossary -> nmod
+lifecycle -> ROOT
+
+KEYWORD: data protection -> nmod
+Descendants:
+Ancestors:
+assessment -> dep
+lifecycle -> ROOT
+
+KEYWORD: dpia -> appos
+Descendants:
+Ancestors:
+  -> appos
+assessment -> dep
+lifecycle -> ROOT
+
+KEYWORD: data protection officer -> appos
+Descendants:
+  -> nmod
+  -> appos
+dpo -> appos
+  -> appos
+Ancestors:
+assessment -> dep
+lifecycle -> ROOT
+
+KEYWORD: dpo -> appos
+Descendants:
+  -> appos
+Ancestors:
+  -> appos
+data protection officer -> appos
+assessment -> dep
+lifecycle -> ROOT
+
+KEYWORD: encryption -> appos
+Descendants:
+  -> compound
+Ancestors:
+assessment -> dep
+lifecycle -> ROOT
+
+KEYWORD: pseudonymisation -> conj
+Descendants:
+ 
+ -> compound
+  -> compound
+standards -> conj
+Ancestors:
+lifecycle -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+ 
+
+ -> nummod
+subsection -> pobj
+Ancestors:
+helps -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+
+ -> compound
+data protection -> conj
+Ancestors:
+impact -> pobj
+impact -> dobj
+self-assess -> xcomp
+helps -> ROOT
+
+KEYWORD: data protection -> conj
+Descendants:
+
+ -> compound
+Ancestors:
+privacy -> pobj
+impact -> pobj
+impact -> dobj
+self-assess -> xcomp
+helps -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+right -> pobj
+impact -> dobj
+consider -> ROOT
+
+KEYWORD: data protection -> pobj
+Descendants:
+Ancestors:
+right -> conj
+integrity -> ccomp
+consider -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+related -> ccomp
+allow -> relcl
+mechanisms -> dobj
+establish -> ROOT
+
+KEYWORD: data protection -> dobj
+Descendants:
+Ancestors:
+concerning -> acl
+elements -> pobj
+  -> dep
+helps -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+general -> amod
+Ancestors:
+regulation -> pobj
+are -> relcl
+measures -> pobj
+any -> dobj
+put -> ROOT
+
+KEYWORD: data protection impact assessment -> dep
+Descendants:
+ -> dep
+  -> appos
+dpia -> appos
+23 -> appos
+Ancestors:
+designate -> ROOT
+
+KEYWORD: dpia -> appos
+Descendants:
+Ancestors:
+  -> appos
+data protection impact assessment -> dep
+designate -> ROOT
+
+KEYWORD: data protection officer -> dobj
+Descendants:
+  -> appos
+dpo -> appos
+24 -> appos
+Ancestors:
+designate -> ROOT
+
+KEYWORD: dpo -> appos
+Descendants:
+Ancestors:
+  -> appos
+data protection officer -> dobj
+designate -> ROOT
+
+KEYWORD: oversight mechanisms for data processing -> npadvmod
+Descendants:
+ -> nummod
+Ancestors:
+designate -> ROOT
+
+KEYWORD: logging data access -> pcomp
+Descendants:
+and -> cc
+Ancestors:
+mechanisms -> dobj
+limiting -> pcomp
+designate -> ROOT
+
+KEYWORD: privacy-by-design -> dobj
+Descendants:
+and -> cc
+default -> conj
+  -> conj
+e -> appos
+Ancestors:
+achieve -> relcl
+measures -> conj
+designate -> ROOT
+
+KEYWORD: encryption -> nsubj
+Descendants:
+g -> meta
+  -> compound
+ 
+
+ -> compound
+pseudonymisation -> conj
+  -> compound
+aggregation -> conj
+  -> compound
+anonymisation -> conj
+  -> appos
+Ancestors:
+ 
+
+ 
+ -> ROOT
+
+KEYWORD: pseudonymisation -> conj
+Descendants:
+ 
+
+ -> compound
+  -> compound
+aggregation -> conj
+  -> compound
+anonymisation -> conj
+  -> appos
+Ancestors:
+encryption -> nsubj
+ 
+
+ 
+ -> ROOT
+
+KEYWORD: anonymisation -> conj
+Descendants:
+  -> compound
+  -> appos
+Ancestors:
+aggregation -> conj
+pseudonymisation -> conj
+encryption -> nsubj
+ 
+
+ 
+ -> ROOT
+
+KEYWORD: data minimisation -> nsubj
+Descendants:
+ -> nummod
+ 
+ -> compound
+categories -> conj
+data -> pobj
+  -> appos
+ 
+
+ -> appos
+particular -> amod
+personal -> amod
+data -> pobj
+  -> pobj
+special -> amod
+
+
+ -> pobj
+Ancestors:
+implement -> ROOT
+
+KEYWORD: right to withdraw consent -> dobj
+Descendants:
+Ancestors:
+implement -> ROOT
+
+KEYWORD: right to object -> dobj
+Descendants:
+  -> nmod
+and -> cc
+
+
+ -> nsubj
+right to be forgotten -> conj
+development -> pobj
+ai -> amod
+system -> pobj
+Ancestors:
+implement -> ROOT
+
+KEYWORD: right to be forgotten -> conj
+Descendants:
+
+
+ -> nsubj
+development -> pobj
+ai -> amod
+system -> pobj
+Ancestors:
+right to object -> dobj
+implement -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+data protection -> conj
+Ancestors:
+implications -> nsubj
+collected -> ccomp
+consider -> ROOT
+
+KEYWORD: data protection -> conj
+Descendants:
+Ancestors:
+privacy -> nmod
+implications -> nsubj
+collected -> ccomp
+consider -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+data protection -> conj
+Ancestors:
+implications -> dobj
+consider -> ROOT
+
+KEYWORD: data protection -> conj
+Descendants:
+Ancestors:
+privacy -> nmod
+implications -> dobj
+consider -> ROOT

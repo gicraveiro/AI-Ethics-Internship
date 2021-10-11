@@ -3,9 +3,9 @@
 
 
 With stop word removal 
-Size of original corpus: 24880 
-Size of filtered corpus: 11845
-Size of Lexicon: 3817
+Size of original corpus: 30971 
+Size of filtered corpus: 11871
+Size of Lexicon: 3796
 
 Tokens that appear in the file, alongside with their frequencies:
 trust:266
@@ -23,17 +23,17 @@ share:75
 us:75
 data:73
 law:61
-1:61
 p:59
 online:56
 personal:52
+2:48
 supra:47
 note:47
-2:46
 like:45
 design:44
 67:43
-2016:43
+1:42
+2016:41
 f:40
 people:40
 may:39
@@ -43,8 +43,9 @@ others:34
 estern:33
 issue:33
 general:33
-3:33
 ftc:33
+1 • 2016:30
+3:30
 https://perma:30
 use:30
 platform:28
@@ -52,6 +53,7 @@ volume:27
 g:26
 based:26
 posts:26
+■:25
 networks:25
 relationship:25
 state:24
@@ -63,13 +65,13 @@ respondents:24
 =:24
 propensity:23
 disclose:23
-■:23
 likely:23
 individuals:23
 network:23
 eview:22
 make:22
 facebook’s:22
+4:22
 user:22
 research:22
 would:22
@@ -82,18 +84,17 @@ number:21
 two:20
 survey:20
 attorneys:20
-4:20
 news:20
 behavior:19
 asked:18
 used:18
 friend:18
+5:17
 example:17
+many:17
 advertisements:17
 content:17
 several:16
-5:16
-many:16
 last:16
 shared:16
 post:16
@@ -109,7 +110,8 @@ practices:15
 https://www:15
 b:14
 internet:14
-9:14
+2012:14
+6:14
 encourage:14
 well:14
 strangers:14
@@ -122,15 +124,16 @@ way:13
 rivacy:13
 part:13
 even:13
-7:13
-6:13
 8:13
+9:13
+2015:13
 associated:13
 consumers:13
 manuscript:13
 business:13
 web:13
 intimate:13
+first:13
 active:13
 visited:13
 stranger:13
@@ -138,7 +141,7 @@ citron:12
 review:12
 advertising:12
 total:12
-2012:12
+7:12
 reserve:12
 interaction:12
 third:12
@@ -146,7 +149,6 @@ already:12
 role:12
 feed:12
 pdf:12
-first:12
 ways:12
 request:12
 time:12
@@ -181,6 +183,7 @@ given:10
 whether:10
 acquisti:10
 tend:10
+13:10
 explaining:10
 control:10
 included:10
@@ -197,12 +200,16 @@ particularly:9
 decisions:9
 networking:9
 members:9
+2013:9
 science:9
-13:9
+2011:9
 link:9
+18:9
 expectations:9
 n’t:9
+23:9
 making:9
+2014:9
 according:9
 accept:9
 someone:9
@@ -212,6 +219,7 @@ made:9
 allow:9
 cues:9
 education:9
+june:9
 sony:9
 times:8
 manipulate:8
@@ -221,15 +229,12 @@ scholars:8
 rev:8
 arguing:8
 higher:8
-2011:8
 https:8
 correlation:8
 ev:8
 perma:8
 15:8
-23:8
 recommendations:8
-2014:8
 brady:8
 model:8
 context:8
@@ -267,19 +272,20 @@ risks:7
 loewenstein:7
 trustworthy:7
 literature:7
+11:7
 party:7
 contexts:7
 suggests:7
 real:7
 networked:7
-2015:7
 current:7
-18:7
 harris:7
 ie:7
 else:7
+20:7
 alice:7
 group:7
+22:7
 never:7
 life:7
 strong:7
@@ -311,7 +317,6 @@ apr:7
 orientation:7
 deceptive:7
 hill:7
-1 • 2016:6
 protection:6
 designs:6
 advertisers:6
@@ -321,6 +326,7 @@ effects:6
 woodrow:6
 digital:6
 noted:6
+160:6
 sensitive:6
 sites:6
 essential:6
@@ -329,7 +335,6 @@ levels:6
 http://w:6
 answers:6
 feb:6
-11:6
 tactics:6
 12:6
 play:6
@@ -341,12 +346,11 @@ certain:6
 cal:6
 comm’n:6
 ssu:6
-20:6
 set:6
 support:6
 therefore:6
-22:6
 knowledge:6
+26:6
 perhaps:6
 united:6
 states:6
@@ -385,9 +389,7 @@ significance:5
 explain:5
 alessandro:5
 impact:5
-160:5
 designing:5
-2013:5
 experiences:5
 tools:5
 shows:5
@@ -404,6 +406,7 @@ build:5
 things:5
 advertisement:5
 address:5
+16:5
 since:5
 discretion:5
 david:5
@@ -418,11 +421,12 @@ importance:5
 noting:5
 keep:5
 rely:5
-26:5
 doctors:5
+28:5
 effective:5
 professional:5
 stigmatizing:5
+29:5
 makes:5
 sense:5
 ew:5
@@ -443,11 +447,9 @@ businesses:5
 turk:5
 population:5
 high:5
-june:5
 fb:5
 add:5
 tag:5
-june 22 , 2016:5
 day:5
 requests:5
 pictures:5
@@ -492,6 +494,7 @@ multiple:4
 10:4
 previous:4
 37:4
+31:4
 creates:4
 strategy:4
 argues:4
@@ -504,9 +507,9 @@ taking:4
 waldman:4
 69:4
 private:4
+14:4
 together:4
 mean:4
-16:4
 california:4
 attorney:4
 reasons:4
@@ -521,7 +524,6 @@ actions:4
 predictable:4
 includes:4
 th:4
-90:4
 google:4
 clear:4
 computers:4
@@ -560,7 +562,6 @@ thus:4
 feeds:4
 course:4
 spaces:4
-47:4
 http:4
 max:4
 line:4
@@ -568,6 +569,7 @@ sources:4
 might:4
 refers:4
 furthermore:4
+2007:4
 america:4
 implicit:4
 discussed:4
@@ -608,6 +610,7 @@ person:4
 next:4
 send:4
 help:4
+june 22:4
 tagging:4
 81:4
 comment:4
@@ -654,6 +657,7 @@ conference:3
 feedback:3
 208:3
 report:3
+215:3
 demographics:3
 exploits:3
 present:3
@@ -663,6 +667,7 @@ browsing:3
 order:3
 94:3
 1151:3
+2009:3
 george:3
 relative:3
 marketing:3
@@ -701,7 +706,6 @@ cfm:3
 https://:3
 q:3
 connecting:3
-14:3
 advantage:3
 trade:3
 commission:3
@@ -717,6 +721,7 @@ talking:3
 persons:3
 accepted:3
 regarding:3
+21:3
 hold:3
 spare:3
 keys:3
@@ -728,21 +733,22 @@ acad:3
 proposing:3
 andrew:3
 eds:3
+98:3
 soc:3
 2001:3
 personally:3
 reality:3
 basis:3
+24:3
 neighbor:3
 privileges:3
 confidences:3
 positive:3
-25:3
 notion:3
 disclosing:3
 lovers:3
+27:3
 tell:3
-28:3
 medical:3
 full:3
 doney:3
@@ -755,7 +761,6 @@ integrity:3
 depression:3
 38:3
 2002:3
-31:3
 shares:3
 infor­:3
 mation:3
@@ -784,6 +789,7 @@ invite:3
 liked:3
 think:3
 ’re:3
+47:3
 word:3
 merely:3
 rich:3
@@ -793,7 +799,6 @@ obvious:3
 explicit:3
 52:3
 advice:3
-2007:3
 views:3
 erving:3
 goffman:3
@@ -826,10 +831,10 @@ statute:3
 pro­:3
 petabytes:3
 oct:3
-every:3
 cohen:3
 119:3
 daniel:3
+90:3
 leveraging:3
 seeing:3
 68:3
@@ -840,6 +845,7 @@ various:3
 distribution:3
 methods:3
 running:3
+$:3
 ensure:3
 http://newsroom:3
 iew:3
@@ -946,11 +952,11 @@ regulation:2
 205:2
 methodology:2
 213:2
-215:2
 216:2
 forward:2
 225:2
 226:2
+227:2
 230:2
 conclusion:2
 233:2
@@ -966,7 +972,6 @@ stuntzman:2
 gross:2
 silent:2
 saving:2
-2009:2
 pjeople’s:2
 comparative:2
 aesthetics:2
@@ -1042,7 +1047,6 @@ structures:2
 info:2
 perceptions:2
 ractices:2
-3-4:2
 smartphones:2
 promises:2
 19:2
@@ -1051,7 +1055,6 @@ lot:2
 called:2
 capital:2
 concerning:2
-21:2
 alcoholics:2
 anonymous:2
 vulnerability:2
@@ -1076,14 +1079,13 @@ relates:2
 everyone:2
 ower:2
 stated:2
-24:2
+25:2
 core:2
 doctrines:2
 basic:2
 assumption:2
 recipient:2
 discreet:2
-27:2
 richards’s:2
 hartzog’s:2
 expect:2
@@ -1134,6 +1136,7 @@ website’s:2
 admission:2
 establishes:2
 274:2
+2008:2
 2003:2
 ing:2
 details:2
@@ -1168,7 +1171,6 @@ membership:2
 defined:2
 concrete:2
 analyzing:2
-1 ■ 2016:2
 53:2
 long:2
 indicia:2
@@ -1186,7 +1188,6 @@ today:2
 duty:2
 idaho:2
 bank:2
-290:2
 exchange:2
 requires:2
 regularly:2
@@ -1231,6 +1232,8 @@ informal:2
 petabyte:2
 pretty:2
 academic:2
+every:2
+2000:2
 relying:2
 infrastructure:2
 happen:2
@@ -1273,7 +1276,6 @@ appropriate:2
 turkers:2
 paid:2
 resulting:2
-$:2
 approval:2
 rating:2
 completed:2
@@ -1349,7 +1351,6 @@ staff:2
 technologist:2
 georgetown:2
 cc/d:2
-june 23 , 2016:2
 tagged:2
 consider:2
 site:2
@@ -1363,7 +1364,7 @@ buttons:2
 93:2
 clicked:2
 hat’s:2
-june 21 , 2016:2
+june 21:2
 developers:2
 tom:2
 simonite:2
@@ -1372,7 +1373,6 @@ yet:2
 97:2
 along:2
 partner:2
-98:2
 corporate:2
 brokers:2
 targeted:2
@@ -1471,6 +1471,7 @@ algorithm:2
 125:2
 cc/z:2
 updates:2
+july:2
 book:2
 stepped:2
 connected:2
@@ -1578,7 +1579,6 @@ instagram’s:2
 setting:2
 purchased:2
 159:2
-4 , 2016:2
 creating:2
 litigation:2
 weapon:2
@@ -1590,6 +1590,7 @@ issued:2
 guides:2
 163:2
 guidance:2
+164:2
 ecosystem:2
 app:2
 t’y:2
@@ -1650,9 +1651,7 @@ errors:1
 forgive:1
 193:1
 esearch:1
-215 1:1
 findings:1
-227 3:1
 puzzle:1
 between 2005 and 2011:1
 privacy-seeking:1
@@ -1700,13 +1699,12 @@ giovanni:1
 fung:1
 wants:1
 ost:1
-31 , 2013:1
 washingtonpost:1
 com/blogs/the-switch/wp/2013/12/31/facebook-wants-to-:1
 know-if-you-trust-it-but-its-keeping-all-the-answers-to-itself:1
 /f:1
 wn-e:1
-09 , 2015:1
+09:1
 8:01 pm:1
 org/story/trust-engineers/:1
 cc/npz:1
@@ -1788,6 +1786,8 @@ olicy:1
 uilding:1
 hrough:1
 ransparency:1
+3-4 
+ :1
 tablets:1
 cell:1
 phones:1
@@ -1813,6 +1813,8 @@ paralyzed:1
 comm:1
 judiciary:1
 cong:1
+90 
+ :1
 alan:1
 davidson:1
 inc:1
@@ -1846,8 +1848,8 @@ portes:1
 julia:1
 sensenbrenner:1
 immigration:1
-98 am:1
-1320 , 1332:1
+1320:1
+1332:1
 1993:1
 guido:1
 mollering:1
@@ -1927,7 +1929,6 @@ treatment:1
 in-depth:1
 benefits:1
 37-41:1
-29:1
 ichard:1
 lord:1
 illiston:1
@@ -1976,7 +1977,6 @@ harmony:1
 sanctity:1
 erceptions:1
 ost-snowden:1
-3 , 29:1
 org/files/2014/ll/pi_publicperceptionsofprivacy__11121:1
 ee/p:1
 sm:1
@@ -2007,7 +2007,6 @@ habits:1
 deployment:1
 electronic:1
 applications:1
-2008:1
 eric:1
 turner:1
 subhasish:1
@@ -2076,7 +2075,6 @@ edwards:1
 just 2 years:1
 75%:1
 insider:1
-20 , 2014:1
 5:29 pm:1
 businessinsider:1
 com/google-and-facebook-dominate-mobile:1
@@ -2146,6 +2144,8 @@ allowed:1
 really:1
 competent:1
 contractual:1
+47 
+ :1
 values:1
 goals:1
 whose:1
@@ -2192,6 +2192,8 @@ peterson:1
 at’l:1
 367:1
 284:1
+290 
+ :1
 1961:1
 holding:1
 manager:1
@@ -2204,7 +2206,8 @@ finances:1
 employer:1
 eter:1
 blau:1
-98-99:1
+98-99 
+ :1
 1964:1
 reciprocate:1
 initial:1
@@ -2237,7 +2240,7 @@ kennedy:1
 leasing:1
 space:1
 midtown:1
-18 , 1987:1
+1987:1
 com/1987/02/18/business/about-real-estate-la:1
 w-firms-activeiy-:1
 leasing-office-space-in-midtown:1
@@ -2283,7 +2286,6 @@ roni:1
 caryn:1
 rabin:1
 dr:1
-29 , 2008:1
 /2008/09/30/health/:1
 difficulty:1
 objectively:1
@@ -2355,7 +2357,6 @@ zettabyte:1
 yottabyte:1
 ig:1
 scalability:1
-11 , 2012:1
 9:15 am:1
 http://highscalability:1
 eom/blog/2012/9/ll/how-big-is-a-petabyte:1
@@ -2368,14 +2369,13 @@ informational:1
 object:1
 1373:1
 1427-28:1
-2000:1
 constitutive:1
 flow:1
 self-development:1
 schwartz:1
 conn:1
 815:1
-856-57 ( 2000:1
+856-57:1
 bandwagon:1
 serves:1
 limiting:1
@@ -2438,6 +2438,9 @@ standardized:1
 reasonable:1
 undertake:1
 efforts:1
+/ /
+
+:1
 1151-60:1
 drives:1
 207:1
@@ -2446,7 +2449,6 @@ contributes:1
 cede:1
 chosen:1
 march:1
-more than 1:1
 65 billion:1
 09 billion:1
 989 million:1
@@ -2492,7 +2494,6 @@ pay:1
 screening:1
 checks:1
 determined:1
-26 , 2016:1
 https://web:1
 archive:1
 org/web/:1
@@ -2500,7 +2501,7 @@ org/web/:1
 /2:1
 d-kv:1
 statistics:1
-june 26 , 2016:1
+june 26:1
 aw:1
 directly:1
 gathered:1
@@ -2554,8 +2555,9 @@ cc/ht:1
 gettingstarted/:1
 contact_im:1
 porter:1
-october 21 , 2016:1
+october 21:1
 offman:1
+25  :1
 extended:1
 metaphor:1
 back-stage:1
@@ -2585,7 +2587,6 @@ greatest:1
 approximately:1
 jackie:1
 rules:1
-14 , 2009:1
 11:11 am:1
 adweek:1
 com/socialtimes/facebook-flirting/:1
@@ -2604,13 +2605,12 @@ giggled:1
 accidents:1
 com/farmville/:1
 cc/qv:1
-6 y-8 cm:1
+6 y-8 cm 3:1
 saqib:1
 khan:1
 block:1
 annoying:1
 game:1
-4 , 2013:1
 3:17 pm:1
 valuewalk:1
 valuew:1
@@ -2641,7 +2641,6 @@ cc/gfr:1
 sammi:1
 krug:1
 globally:1
-24 , 2016:1
 //newsroom:1
 news/2016/02/reactions-now-available-globally:1
 x-eea:1
@@ -2649,7 +2648,6 @@ leo:1
 widrich:1
 behind:1
 ast:1
-6 , 2013:1
 6:02 am:1
 fastcompany:1
 com/3009317/why-is-facebook-blue-the-science-behind-colors-:1
@@ -2658,8 +2656,7 @@ j-k:1
 455:1
 viewers:1
 210:1
-million:1
-minute:1
+million per minute:1
 tilings:1
 engages:1
 86 second:1
@@ -2698,8 +2695,7 @@ veikko:1
 eranti:1
 markku:1
 lonkila:1
-first monday:1
-june 1 , 2015:1
+monday:1
 firstm:1
 onday:1
 org/ojs/index:1
@@ -2714,7 +2710,6 @@ meyer:1
 tilt:1
 election:1
 atlantic:1
-18 , 2016:1
 ww:1
 theatlantic:1
 com/technology/:1
@@ -2743,6 +2738,7 @@ php:1
 s://p:1
 erm:1
 5-c:1
+june 23:1
 89:1
 t’s:1
 adorable:1
@@ -2812,14 +2808,12 @@ https://developers:1
 com/docs/plugins/like-button:1
 cc/nv:1
 x-yztf:1
-13 , 2012:1
 eom/s/428150/what-facebook-knows/:1
 cc/cff:1
 2-7:1
 dvn:1
 enormous:1
 soon:1
-16 , 2015:1
 target:1
 212:1
 ester:1
@@ -2886,12 +2880,11 @@ htm:1
 cc/x:1
 576-k:1
 nov:1
-27 , 2013:1
 facebook-studio:1
 com/news/item/new-ways-to-reach-the:1
 6-b:1
 commonly:1
-many hours:1
+hours:1
 twenty-seven:1
 pew’s:1
 observations:1
@@ -2976,7 +2969,6 @@ deviation:1
 monica:1
 anderson:1
 catch:1
-28 , 2015:1
 pewresearch:1
 org/fact-:1
 tank/2015/08/28/men-catch-up-with-women-on-overall-social-media-use/:1
@@ -2996,6 +2988,9 @@ media//files/reports/2011/pip%20-%20:1
 social%20:1
 networking%20:1
 sites%:1
+16 ,  
+
+9:1
 involving:1
 questioned:1
 retested:1
@@ -3076,7 +3071,7 @@ eliminated:1
 465:1
 969:1
 997:1
-534:1
+1 534:1
 568:1
 460:1
 409:1
@@ -3109,8 +3104,10 @@ tim:1
 348:1
 280:1
 075:1
-249 241:1
+249:1
+241:1
 049:1
+290:1
 99 %:1
 squared:1
 over­:1
@@ -3163,7 +3160,7 @@ more than one:1
 55-61:1
 20-25:1
 263:1
-1 1 6:1
+1 1 6  :1
 harrison:1
 mcknight:1
 vivek:1
@@ -3173,6 +3170,8 @@ kacmar:1
 validating:1
 typology:1
 1 3:1
+3 3 4  :1
+3 3 7:1
 institution:1
 220:1
 weaker:1
@@ -3239,8 +3238,7 @@ ee/r:1
 8-:1
 ht:1
 222:1
-april , 2015:1
-july:1
+april:1
 tweaked:1
 preference:1
 pushing:1
@@ -3261,7 +3259,6 @@ publisher:1
 lars:1
 helping:1
 sure:1
-june 29 , 2016:1
 /news/2016/06/news-feed-fyi-helping-make-sure-you-dont-miss-stories-from:1
 friends/:1
 gz:1
@@ -3270,7 +3267,6 @@ eulenstein:1
 lauren:1
 scissors:1
 balancing:1
-21 , 2015:1
 com/news/2015/04/news-feed-fyi-:1
 balancing-content-from-friends-and-pages/:1
 cc/5:1
@@ -3281,7 +3277,6 @@ mike:1
 isaac:1
 sydney:1
 ember:1
-29 , 2016:1
 com/2016/06/30/technology/facebook-to-change-news-feed-to-:1
 focus-on-friends-and-family:1
 cc/phg:1
@@ -3328,7 +3323,7 @@ ternary:1
 >:1
 ike:1
 tsar:1
-$ m:1
+$ m m:1
 sobers:1
 outside:1
 comment—“lisa:1
@@ -3345,11 +3340,9 @@ jacobson:1
 liana:1
 glazer:1
 update:1
-july , 2016:1
 224:1
-2 2 $:1
 schools:1
-penny:1
+every penny:1
 sfcrtenfc:1
 cla:1
 ss:1
@@ -3462,7 +3455,7 @@ commissioner:1
 fed:1
 remarks:1
 gov/speeches/brill/:1
-1 120411:1
+120411:1
 3 cremarks:1
 cc/f:1
 hange:1
@@ -3508,8 +3501,7 @@ strategies:1
 leaves:1
 facto:1
 regulator:1
-late:1
-1990:1
+late 1990:1
 pursuant:1
 section 5:1
 arguably:1
@@ -3518,7 +3510,6 @@ unlawful:1
 subsection:1
 empowered:1
 directed:1
-227:1
 takes:1
 reframes:1
 obscuring:1
@@ -3533,6 +3524,8 @@ bundled:1
 servers:1
 regulate:1
 broad:1
+& 
+:1
 583:1
 585-86:1
 588:1
@@ -3563,7 +3556,6 @@ damages:1
 830:1
 supp:1
 785:1
-16 , 2011:1
 11-cv-:1
 01726-lhk:1
 misleads:1
@@ -3572,7 +3564,6 @@ entm:1
 3019:1
 c-4195:1
 1942983:1
-28 , 2007:1
 catch-all:1
 technological:1
 proliferation:1
@@ -3677,6 +3668,7 @@ charge:1
 apply:1
 existing:1
 write:1
+3-4:1
 18-34:1
 adopted:1
 proposed:1
@@ -3729,7 +3721,6 @@ dancel:1
 cir:1
 cook:1
 cnty:1
-5 , 2016:1
 ch:1
 01716:1
 464011:1
@@ -3772,7 +3763,6 @@ suffici­:1
 ently:1
 contrast:1
 balance:1
-164 160:1
 identifying:1
 vermont:1
 massachusetts:1
@@ -3796,7 +3786,6 @@ gov/sites/all/files/agweb/pdfe/cybersecurity:1
 /making_your_privacy_practices_public:1
 cc/j:1
 hw:1
-164:1
 gov/tips-advice/business-center/guidance/native-:1
 advertising-guide-businesses:1
 cc/un:1
@@ -3825,10 +3814,2142 @@ holder:1
 permission:1
 print:1
 download:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:176
+privacy:176
 consent:4
 SOC:3
 privacy policy:2
-Data breach:1
+data breach:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+effects -> pobj
+confused -> acomp
+be -> conj
+give -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+consumer -> nmod
+protection -> compound
+regulators -> nsubj
+step -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+regulation -> pobj
+future -> conj
+  -> dep
+presented -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+volume -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+sharing -> conj
+trust -> ROOT
+
+KEYWORD: privacy -> ROOT
+Descendants:
+  -> compound
+design -> pobj
+  -> appos
+  -> appos
+  -> appos
+Ancestors:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+puzzle -> dobj
+present -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> dobj
+changing -> advcl
+sharing -> ccomp
+means -> relcl
+1 -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+our -> poss
+Ancestors:
+protect -> ccomp
+concerned -> acomp
+are -> advcl
+share -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+disclosure -> conj
+Ancestors:
+evolution -> appos
+listeners -> dobj
+  -> dep
+ralph -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+regardless -> advmod
+  -> nsubj
+  -> ccomp
+explain -> ccomp
+suggesting -> acl
+  -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+questions -> conj
+4 -> nummod
+website -> compound
+design -> conj
+and -> cc
+aesthetics -> conj
+5 -> nummod
+and -> cc
+social -> conj
+motivations -> conj
+Ancestors:
+volume -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+networks -> conj
+Ancestors:
+volume -> pobj
+
+
+ -> dep
+associated -> ROOT
+
+KEYWORD: privacy -> nsubjpass
+Descendants:
+their -> poss
+
+ -> appos
+Ancestors:
+protected -> acl
+expectation -> pobj
+  -> dobj
+share -> xcomp
+tend -> ccomp
+suggest -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+lawyers -> nsubj
+have -> ccomp
+suggests -> conj
+describes -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+grimmelmann -> pobj
+connection -> pobj
+literature -> attr
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+law -> pobj
+taking -> acl
+  -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+trust -> pobj
+Ancestors:
+waldman -> conj
+cc/p -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+alessandro -> compound
+acquisti -> conj
+  -> conj
+and -> cc
+others -> conj
+Ancestors:
+volume -> pobj
+
+
+ -> dep
+conducted -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+sharing -> conj
+trust -> pobj
+relationship -> dobj
+tease -> advcl
+bring -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+sharing -> conj
+focuses -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+protecting -> amod
+Ancestors:
+build -> pcomp
+focuses -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> compound
+Ancestors:
+protect -> xcomp
+trusted -> relcl
+ception -> nsubj
+assuage -> pcomp
+on -> conj
+build -> pcomp
+focuses -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+assuage -> pcomp
+on -> conj
+build -> pcomp
+focuses -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+data -> conj
+Ancestors:
+practices -> pobj
+transparent -> acomp
+be -> ccomp
+recommend -> relcl
+  -> conj
+  -> dep
+
+
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+peoples -> conj
+’ -> case
+Ancestors:
+expectations -> dobj
+changed -> ccomp
+documenting -> ccomp
+note -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+mobile -> amod
+Ancestors:
+protecting -> xcomp
+see -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+your -> poss
+Ancestors:
+phones -> conj
+tablets -> conj
+smartphones -> nsubj
+hearing -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+  -> nsubj
+
+
+ -> nsubj
+s -> ccomp
+ssu -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+1 -> nummod
+• -> nmod
+2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+Ancestors:
+ssu -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+data -> compound
+Ancestors:
+promises -> dobj
+fulfill -> ccomp
+have -> advcl
+talking -> ccomp
+ssu -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+controls -> dobj
+offer -> xcomp
+fail -> meta
+ 
+  -> nsubj
+switch -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+our -> poss
+Ancestors:
+transparency -> nsubj
+practices -> appos
+ 
+  -> nsubj
+switch -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+understanding -> acl
+  -> dobj
+kirsten -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+approach -> pobj
+development -> dobj
+kirsten -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+online -> amod
+Ancestors:
+examining -> acl
+   -> ROOT
+
+KEYWORD: soc -> ROOT
+Descendants:
+  -> compound
+j -> nmod
+  -> compound
+Ancestors:
+
+KEYWORD: soc -> pobj
+Descendants:
+63 -> nummod
+Ancestors:
+  -> conj
+lewis -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+trust -> conj
+Ancestors:
+issue -> pobj
+
+
+ -> nsubj
+exists -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+our -> poss
+Ancestors:
+invaded -> ccomp
+feel -> advcl
+helps -> conj
+note -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+trust -> pobj
+Ancestors:
+waldman -> dobj
+see -> ccomp
+note -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+1 -> nummod
+• -> nmod
+2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+ssu -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+volume -> dep
+allow -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> dobj
+suppress -> ccomp
+caused -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+Ancestors:
+presence -> conj
+  -> dobj
+requested -> ccomp
+ 
+ -> conj
+found -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+evaluate -> xcomp
+use -> relcl
+heuristics -> dobj
+ified -> ccomp
+ident­ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policies -> pobj
+importance -> dobj
+explaining -> acl
+  -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+web -> pobj
+n -> cc
+examination -> appos
+user -> compound
+concerns -> pobj
+ 
+ -> compound
+technology -> conj
+  -> conj
+and -> cc
+implications -> conj
+business -> compound
+organizations -> pobj
+and -> cc
+individuals -> conj
+Ancestors:
+dasgupta -> nsubj
+ 
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+proxies -> pobj
+considering -> advcl
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> dobj
+assess -> ccomp
+noted -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+issue -> appos
+volume -> nsubj
+are -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+invasion -> pobj
+singled -> pcomp
+risk -> pobj
+shields -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+and -> cc
+sharing -> conj
+Ancestors:
+understanding -> pcomp
+proxies -> pobj
+grouping -> pcomp
+short -> advmod
+stops -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+issue -> nsubj
+assume -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 -> nummod
+2016 -> nummod
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+Ancestors:
+
+
+ -> nsubj
+contexts -> ROOT
+
+KEYWORD: soc -> conj
+Descendants:
+Ancestors:
+ersonality -> dobj
+ 
+ -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+issue -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+sharing -> conj
+trust -> nsubj
+be -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+understanding -> attr
+is -> advcl
+  -> nsubj
+evolve -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+
+ -> compound
+and -> cc
+trust -> conj
+Ancestors:
+relationship -> nsubj
+is -> conj
+evolve -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+ 
+ -> conj
+or -> cc
+privacy -> conj
+Ancestors:
+builds -> conj
+is -> conj
+evolve -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+ 
+ -> conj
+privacy -> dobj
+builds -> conj
+is -> conj
+evolve -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+Ancestors:
+good -> ccomp
+make -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+personal -> amod
+Ancestors:
+protect -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+act -> pobj
+laws -> pobj
+implicit -> amod
+
+
+ -> dep
+ 
+ -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+  -> conj
+62 -> nummod
+and -> cc
+explicit -> conj
+Ancestors:
+post -> ccomp
+requires -> relcl
+ 
+ -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+1 -> nummod
+• -> nmod
+2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+transparent -> amod
+their -> poss
+data -> compound
+use -> compound
+practices -> pobj
+Ancestors:
+ssu -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+Ancestors:
+builds -> acl
+notion -> attr
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+expectations -> dobj
+meet -> acl
+failure -> dobj
+ 
+ -> ccomp
+argues -> dobj
+kirsten -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+
+ -> nsubjpass
+conceptualized -> ccomp
+argued -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+laws -> nsubj
+be -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+
+ -> compound
+Ancestors:
+is -> relcl
+steps -> attr
+are -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+understandings -> nsubj
+are -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+adapt -> xcomp
+sufficient -> acomp
+are -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+Ancestors:
+builds -> compound
+trust -> dobj
+saying -> acl
+  -> appos
+  -> nsubj
+provide -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+path -> dobj
+provide -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+disclosures -> conj
+  -> conj
+effective -> conj
+emphasizing -> advcl
+note -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+contracts -> dobj
+kirsten -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+notices -> pobj
+impact -> dobj
+comparing -> advcl
+kirsten -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+informational -> amod
+and -> cc
+subject -> conj
+object -> pobj
+Ancestors:
+examined -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+internet -> compound
+and -> cc
+state -> conj
+Ancestors:
+schwartz -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+contextual -> amod
+integrity -> pobj
+Ancestors:
+nissenbaum -> dobj
+see -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+conceptualizing -> acl
+  -> dep
+cal -> conj
+solove -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+Ancestors:
+ase -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+approach -> dobj
+ase -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+regime -> conj
+  -> nsubj
+misses -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+judgments -> pobj
+antecedent -> pobj
+seeing -> pcomp
+is -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+affirmative -> amod
+express -> amod
+Ancestors:
+obtain -> conj
+provide -> ccomp
+rec­ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+scholars -> nsubj
+inching -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+information -> compound
+Ancestors:
+invasions -> dobj
+ 
+ -> ccomp
+implicate -> ROOT
+
+KEYWORD: privacy -> nsubjpass
+Descendants:
+information -> compound
+Ancestors:
+understood -> ccomp
+arguing -> advcl
+note -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+companies -> nsubj
+statements -> nsubj
+clearer -> ccomp
+make -> ccomp
+give -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+1 -> nummod
+• -> nmod
+2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+ssu -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+iew -> ROOT
+
+KEYWORD: consent -> xcomp
+Descendants:
+someone -> pobj
+else -> advmod
+tag -> advcl
+them -> dobj
+Ancestors:
+have -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+facebook -> compound
+platform -> pobj
+Ancestors:
+ssue -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+volume -> npadvmod
+
+
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+
+ -> compound
+technology -> conj
+Ancestors:
+center -> pobj
+technologist -> appos
+frankie -> pobj
+conversations -> pobj
+on -> conj
+pdf -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+s -> nmod
+toys-and-games&ie -> attr
+= -> advmod
+utf -> nmod
+8&qid= -> nummod
+211 -> nummod
+
+
+ -> compound
+case -> pobj
+estern -> amod
+r -> compound
+eserve -> compound
+law -> compound
+review -> pobj
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+Ancestors:
+item -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+technology -> conj
+Ancestors:
+center -> conj
+technologist -> appos
+frankie -> pobj
+e-mail -> dobj
+see -> ccomp
+georgetown -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+e -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+
+
+ -> appos
+Ancestors:
+law -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+advocates -> pobj
+matters -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+kinds -> attr
+are -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+2016 -> nummod
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+ssu -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+protect -> xcomp
+trusted -> conj
+  -> dobj
+used -> advcl
+had -> ccomp
+asked -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+
+
+ -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+preferences -> dobj
+set -> advcl
+share -> conj
+stay -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+protects -> pcomp
+sought -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+1 -> nummod
+• -> nmod
+2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+distribution -> pobj
+facebook -> compound
+users -> pobj
+age -> pobj
+  -> conj
+correlations -> appos
+involving -> acl
+
+ -> compound
+age -> dobj
+Ancestors:
+ssu -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+our -> poss
+and -> cc
+higher -> amod
+levels -> conj
+trust -> pobj
+Ancestors:
+protect -> ccomp
+are -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+our -> poss
+Ancestors:
+protect -> ccomp
+are -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> compound
+Ancestors:
+protect -> conj
+spent -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+project -> attr
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+w -> mark
+estern -> amod
+reserve -> compound
+law -> compound
+review -> nmod
+• -> cc
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+
+
+ -> conj
+and -> cc
+sharing -> conj
+personal -> amod
+information -> dobj
+  -> conj
+greater -> amod
+propensity -> dobj
+share -> relcl
+
+ -> compound
+facebook -> pobj
+Ancestors:
+test -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> compound
+Ancestors:
+protect -> advcl
+facebook -> dobj
+trusts -> relcl
+extent -> conj
+  -> appos
+number -> dobj
+has -> advcl
+associated -> conj
+test -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+v -> quantmod
+olume -> compound
+67 -> compound
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+table -> appos
+1 -> nummod
+regression -> compound
+results -> appos
+sharing -> pobj
+Ancestors:
+
+
+ -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+our -> poss
+Ancestors:
+protect -> ccomp
+indicates -> ccomp
+are -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+v -> quantmod
+olume -> compound
+67 -> compound
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+table -> appos
+2 -> nummod
+regression -> compound
+results -> appos
+sharing -> pcomp
+personal -> amod
+information -> compound
+
+
+ -> nsubj
+coefficient -> relcl
+std -> compound
+error -> compound
+
+
+ -> nsubj
+constant -> advcl
+
+ -> nmod
+ender -> dobj
+sexual -> amod
+orientation -> nmod
+
+ -> nmod
+r -> compound
+ace -> appos
+n -> cc
+etw -> conj
+orked -> conj
+Ancestors:
+
+
+ -> dep
+trust -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> compound
+Ancestors:
+protect -> advcl
+expecting -> pcomp
+relationship -> pobj
+tested -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+
+
+ -> conj
+Ancestors:
+
+
+ -> nsubj
+shared -> ccomp
+identified -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+our -> poss
+
+ -> compound
+Ancestors:
+protect -> advcl
+associated -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> compound
+Ancestors:
+protects -> pcomp
+do -> relcl
+little -> dobj
+has -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+tecting -> amod
+Ancestors:
+gain -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+
+
+ -> nsubj
+serve -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+one’s -> poss
+Ancestors:
+protect -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> compound
+Ancestors:
+protect -> relcl
+predictors -> attr
+are -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+her -> poss
+Ancestors:
+his -> poss
+
+ -> dobj
+protect -> acl
+pectation -> dobj
+  -> ccomp
+suggesting -> acl
+data -> dobj
+presents -> ccomp
+c -> conj
+s -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> compound
+Ancestors:
+protect -> advcl
+expecting -> pcomp
+predictor -> attr
+is -> advcl
+was -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+lawyers -> nsubj
+recognize -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+Ancestors:
+issue -> appos
+volume -> pobj
+
+
+ -> nsubj
+designs -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+v -> quantmod
+olume -> compound
+67 -> compound
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+
+
+ -> dobj
+series -> pobj
+updates -> pobj
+april -> pobj
+  -> conj
+2015 -> npadvmod
+  -> conj
+july -> pobj
+  -> conj
+2016 -> npadvmod
+Ancestors:
+ase -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+
+
+ -> conj
+Ancestors:
+show -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+1 -> nummod
+2016 -> nummod
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+
+
+ -> conj
+Ancestors:
+issue -> appos
+volume -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+endorsement -> conj
+  -> conj
+exploiting -> acl
+trust-sharing -> compound
+link -> dobj
+Ancestors:
+volume -> acl
+case -> nsubj
+be -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+design -> compound
+
+
+ -> nmod
+privacy -> pobj
+design -> pobj
+Ancestors:
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+design -> compound
+
+
+ -> nmod
+Ancestors:
+privacy -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+engineer -> acl
+notion -> attr
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+incorporating -> amod
+Ancestors:
+include -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+regulating -> acl
+  -> appos
+  -> nmod
+  -> nmod
+ech -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+policymaking -> advcl
+citron -> ccomp
+see -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+design -> pobj
+  -> nsubj
+anticipates -> conj
+and -> cc
+prevents -> conj
+privacy -> nmod
+invasive -> amod
+events -> dobj
+Ancestors:
+   -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+events -> dobj
+prevents -> conj
+anticipates -> conj
+privacy -> appos
+   -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+consumer -> compound
+  -> appos
+Ancestors:
+protect -> pcomp
+framework -> dobj
+proposing -> advcl
+rade -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+ssue -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+notification -> nsubj
+notify -> advcl
+ssue -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+design -> pobj
+Ancestors:
+responses -> nsubj
+require -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+regulator -> pobj
+role -> pobj
+stepped -> relcl
+  -> appos
+ftc -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> nmod
+arguably -> advmod
+more -> advmod
+active -> amod
+and -> cc
+more -> advmod
+effective -> conj
+135 -> pobj
+Ancestors:
+ftc -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 • 2016 -> appos
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+regulators -> pobj
+ftc -> compound
+  -> pobj
+Ancestors:
+
+
+ -> dep
+step -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+law -> conj
+ftc -> appos
+  -> conj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+promises -> pobj
+looking -> conj
+clarifying -> pcomp
+  -> nsubjpass
+poised -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+regime -> dobj
+enforce -> xcomp
+poised -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+  -> pobj
+expectations -> conj
+standards -> pobj
+draws -> relcl
+regime -> dobj
+enforce -> xcomp
+poised -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> appos
+cohen -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+Ancestors:
+volume -> npadvmod
+
+
+ -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> compound
+Ancestors:
+erode -> advcl
+
+ -> advcl
+were -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+Ancestors:
+volume -> npadvmod
+
+
+ -> nsubj
+erecting -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+controls -> dobj
+erecting -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+personal -> amod
+  -> conj
+general -> amod
+Ancestors:
+protect -> advcl
+equipped -> ccomp
+argues -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+norms -> dobj
+changed -> conj
+cemented -> relcl
+
+ -> dep
+giving -> advcl
+restricting -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+matters -> pobj
+spectrum -> pobj
+changed -> conj
+cemented -> relcl
+
+ -> dep
+giving -> advcl
+restricting -> ROOT
+
+KEYWORD: data breach -> compound
+Descendants:
+Ancestors:
+notification -> conj
+  -> appos
+
+ -> dep
+giving -> advcl
+restricting -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+sexual -> amod
+Ancestors:
+youth -> dobj
+pecting -> advcl
+restricting -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+enforcers -> attr
+are -> acl
+notes -> nsubj
+have -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+expertise -> pobj
+lawyers -> pobj
+teams -> dobj
+have -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+laws -> pobj
+array -> dobj
+have -> conj
+have -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protectors -> dobj
+effective -> ccomp
+make -> relcl
+tools -> dobj
+have -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+legislation -> dobj
+drafting -> pcomp
+role -> dobj
+play -> advcl
+  -> nsubj
+lead -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+laws -> dobj
+adopted -> acl
+notes -> nsubj
+att -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+laws -> pobj
+adoption -> pobj
+concerning -> acl
+committees -> pobj
+testified -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+volume -> nmod
+67 -> nummod
+• -> nummod
+issue -> nmod
+1 -> nummod
+2016 -> nummod
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> compound
+
+
+ -> conj
+illinois -> conj
+  -> conj
+example -> pobj
+Ancestors:
+
+
+ -> dep
+has -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+Ancestors:
+tisement -> dobj
+has -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+person’s -> poss
+Ancestors:
+btain -> ccomp
+stating -> acl
+  -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+issue -> appos
+volume -> pobj
+
+
+ -> nsubj
+be -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> dobj
+raises -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> conj
+us -> pobj
+are -> relcl
+parties -> pobj
+shared -> advcl
+raises -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+protect -> xcomp
+used -> acl
+tool -> attr
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+protect -> xcomp
+use -> advcl
+weapon -> pobj
+identifying -> acl
+   -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> conj
+but -> cc
+
+ -> nmod
+attorney -> nmod
+general -> amod
+harris -> conj
+Ancestors:
+protecting -> pcomp
+guides -> conj
+reports -> nsubj
+been -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+  -> nmod
+ag -> compound
+harris’s -> poss
+
+
+ -> pobj
+go -> pobj
+
+ -> compound
+recommendations -> appos
+mobile -> amod
+ecosystem -> pobj
+  -> nmod
+guide -> conj
+app -> compound
+developers -> pobj
+and -> cc
+
+ -> compound
+platform -> compound
+providers -> conj
+provide -> advcl
+mobile -> amod
+app -> compound
+users -> dobj
+adequate -> amod
+privacy -> nmod
+protections -> pobj
+  -> conj
+and -> cc
+making -> conj
+your -> poss
+privacy -> nsubj
+practices -> nsubj
+public -> ccomp
+  -> conj
+practice -> compound
+guide -> appos
+
+ -> nmod
+california’s -> poss
+online -> amod
+privacy -> compound
+protection -> compound
+act -> pobj
+Ancestors:
+are -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+protections -> pobj
+provide -> advcl
+guide -> conj
+privacy -> nsubj
+are -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+your -> poss
+Ancestors:
+practices -> nsubj
+public -> ccomp
+making -> conj
+provide -> advcl
+guide -> conj
+privacy -> nsubj
+are -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+act -> pobj
+guide -> appos
+guide -> conj
+privacy -> nsubj
+are -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+
+ -> compound
+  -> compound
+sharing -> conj
+  -> conj
+and -> cc
+trust -> conj
+Ancestors:
+volume -> conj
+presented -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+regulation -> dobj
+escaped -> conj
+been -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+norms -> dobj
+setting -> pcomp
+history -> pobj
+
+
+ -> dep
+need -> ROOT

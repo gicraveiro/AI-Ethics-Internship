@@ -3,15 +3,15 @@ OpenSourcePrivacyPolicy
 
 
 With stop word removal 
-Size of original corpus: 1579 
-Size of filtered corpus: 794
+Size of original corpus: 1898 
+Size of filtered corpus: 802
 Size of Lexicon: 361
 
 Tokens that appear in the file, alongside with their frequencies:
 information:52
 services:27
 may:19
-privacy policy:17
+privacy policy:15
 use:13
 facebook:12
 us:12
@@ -22,17 +22,18 @@ cookies:9
 collect:9
 platform:9
 fb:8
+policy:8
+7:8
 |:7
 https://opensource:7
 com/legal/privacy/:7
+20/09/2021:7
 14:40:7
 data:7
 web:7
-policy:6
-7:6
 time:6
+privacy:5
 date:5
-20/09/2021:5
 certain:5
 browser:5
 platforms:5
@@ -50,7 +51,6 @@ consent:4
 public:4
 signals:4
 similar:4
-privacy:3
 rights:3
 children:3
 questions:3
@@ -80,6 +80,7 @@ security:3
 users:3
 areas:3
 personal:3
+13:3
 pixel:3
 small:3
 get:2
@@ -125,7 +126,7 @@ submit:2
 browsers:2
 clear:2
 whether:2
-13:2
+age:2
 delete:2
 child:2
 tags:2
@@ -139,7 +140,9 @@ showcase:1
 media:1
 table:1
 contents:1
-march 15 , 2020:1
+march:1
+15:1
+2020:1
 describes:1
 handling:1
 interact:1
@@ -248,7 +251,7 @@ transaction:1
 merger:1
 consolidation:1
 asset:1
-3 of 7 20/09/2021:1
+3:1
 unlikely:1
 event:1
 bankruptcy:1
@@ -295,17 +298,14 @@ currently:1
 action:1
 response:1
 knowingly:1
-age:1
 unless:1
 permitted:1
 inadvertently:1
 received:1
 4:1
-7 20/09/2021:1
 upon:1
 reason:1
 believe:1
-the age of 13:1
 endeavor:1
 databases:1
 bits:1
@@ -369,8 +369,236 @@ trademark:1
 ©:1
 202:1
 faceb:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-privacy policy:17
+privacy policy:15
+privacy:5
 consent:4
-Privacy:3
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy policy -> nsubj
+Descendants:
+  -> appos
+| -> npadvmod
+Ancestors:
+facebook -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+
+
+ -> nsubj
+table -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+rights -> pobj
+share -> ccomp
+use -> relcl
+table -> ROOT
+
+KEYWORD: privacy policy -> nsubj
+Descendants:
+
+
+ -> dep
+collection -> pobj
+information -> pobj
+1 -> pobj
+7 -> nummod
+
+
+ -> pobj
+20/09/2021 -> nummod
+  -> npadvmod
+14:40 -> npadvmod
+| -> npadvmod
+Ancestors:
+facebook -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+Ancestors:
+accordance -> pobj
+information -> dobj
+disclose -> xcomp
+use -> conj
+provide -> conj
+share -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+receive -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+your -> poss
+Ancestors:
+pursuant -> conj
+collect -> relcl
+time -> pobj
+disclosed -> acl
+purposes -> pobj
+• -> conj
+meet -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+share -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+your -> poss
+Ancestors:
+
+
+ -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+your -> poss
+Ancestors:
+pursuant -> conj
+collect -> relcl
+time -> npadvmod
+disclosed -> acl
+purposes -> pobj
+share -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+rights -> pobj
+
+
+ -> dep
+share -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+delete -> ROOT
+
+KEYWORD: consent -> ROOT
+Descendants:
+  -> dep
+using -> pcomp
+services -> dobj
+  -> dep
+you -> nsubj
+our -> poss
+use -> pobj
+
+
+ -> pobj
+cookies -> pobj
+and -> cc
+similar -> amod
+technologies -> conj
+Ancestors:
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+modify -> conj
+update -> advcl
+changes -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+update -> relcl
+  -> nsubj
+revise -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+new -> amod
+
+
+ -> compound
+Ancestors:
+post -> conj
+revise -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+review -> ccomp
+recommend -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+practices -> pobj
+informed -> acomp
+stay -> advcl
+visit -> relcl
+time -> npadvmod
+review -> ccomp
+recommend -> ROOT
+
+KEYWORD: privacy policy -> appos
+Descendants:
+Ancestors:
+changes -> pobj
+use -> dobj
+  -> nsubj
+indicate -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+such -> amod
+revised -> amod
+Ancestors:
+
+
+ -> compound
+policy -> pobj
+terms -> pobj
+agreement -> dobj
+indicate -> ROOT
+
+KEYWORD: privacy policy -> pobj
+Descendants:
+or -> cc
+our -> poss
+practices -> conj
+Ancestors:
+questions -> dobj
+have -> advcl
+
+
+ -> dep
+contact -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+Ancestors:
+contact -> ROOT
+
+KEYWORD: privacy policy -> dobj
+Descendants:
+  -> nmod
+14:40 -> npadvmod
+Ancestors:
+follow -> advcl
+involved -> ROOT
+
+KEYWORD: privacy policy -> appos
+Descendants:
+Ancestors:
+
+
+ -> nsubj
+
+
+ -> compound
+policy -> dep
+ook -> ROOT

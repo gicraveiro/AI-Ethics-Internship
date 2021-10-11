@@ -2,10 +2,10 @@
 1 PRIVACY, SHARING, AND TRUST - THE FACEBOOK STUDY
 Keywords found by String Search
 
-Privacy:190
+privacy:190
 cybersecurity:1
 consent:4
 privacy policy:3
 SOC:172
 NIST:1
-Data breach:1
+data breach:1

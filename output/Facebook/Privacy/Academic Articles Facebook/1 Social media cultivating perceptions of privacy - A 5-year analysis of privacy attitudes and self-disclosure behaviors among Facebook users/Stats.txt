@@ -3,9 +3,9 @@
 
 
 With stop word removal 
-Size of original corpus: 11498 
-Size of filtered corpus: 6409
-Size of Lexicon: 1902
+Size of original corpus: 14031 
+Size of filtered corpus: 6466
+Size of Lexicon: 1877
 
 Tokens that appear in the file, alongside with their frequencies:
 privacy:226
@@ -16,10 +16,11 @@ p:79
 facebook:71
 self-disclosure:70
 users:68
+05:67
 threat:62
 information:59
-05:59
 social:58
+4:57
 β:57
 use:56
 disclosure:52
@@ -30,63 +31,62 @@ personal:46
 research:43
 1:42
 snss:39
+5:38
 0:37
 support:35
 attitudes:32
 01:32
 offline:31
 protection:31
+2015:30
 general:30
-2015:29
 light:28
+2010:28
 governmental:28
 significant:28
 heavy:27
 behaviors:26
-4:26
-2010:25
 2012:25
 2011:24
-5:23
+3:24
 effects:22
 new:21
 2013:21
-3:21
 study:20
 communication:20
 may:20
 sd:20
 trends:19
 cultivation:19
+2:19
 ab:19
 20:18
 time:18
-2:18
 analysis:17
 exchange:17
 data:17
 2014:16
+year:16
 interaction:16
 concerns:15
 theory:15
 impact:15
 relationships:15
 specifically:15
+× year:15
 society:14
 risk:14
 sns:14
 b:14
-year:14
 aa:14
 among:13
 tsay-vogel:13
-across:13
 environment:13
 television:13
 common:13
 vacy:13
 using:13
-× year:13
+across:12
 others:12
 2009:12
 practices:12
@@ -95,6 +95,7 @@ patterns:12
 behavior:12
 pri-:12
 figure:12
+06:12
 virtual:11
 risks:11
 less:11
@@ -111,6 +112,7 @@ reality:10
 greater:10
 between 2010 and 2015:10
 differ:10
+6:10
 f:10
 table:10
 journal:10
@@ -121,7 +123,6 @@ sites:9
 2007:9
 perceived:9
 g:9
-6:9
 001:9
 within:9
 case:9
@@ -144,7 +145,6 @@ items:8
 means:8
 lower:8
 subscript:8
-05 4:8
 human:8
 relaxed:7
 implications:7
@@ -157,9 +157,11 @@ weaker:7
 future:7
 vitak:7
 available:7
+2002:7
 revealed:7
 trend:7
 three:7
+78:7
 internet:7
 computers:7
 yielded:7
@@ -198,10 +200,9 @@ identity:6
 possible:6
 participants:6
 standard:6
-78:6
 15:6
 12:6
-06 4:6
+68:6
 moreover:6
 predictor:6
 signorielli:5
@@ -225,7 +226,6 @@ boundaries:5
 content:5
 activities:5
 notion:5
-2002:5
 thus:5
 debatin:5
 tion:5
@@ -250,9 +250,8 @@ cronbach’s:5
 α:5
 84:5
 90:5
-31:5
+79:5
 error:5
-68:5
 holm’s:5
 sequential:5
 bonferroni:5
@@ -280,6 +279,7 @@ furthermore:4
 year-to-year:4
 mass:4
 digital:4
+age:4
 networks:4
 nosko:4
 acquisti:4
@@ -320,14 +320,19 @@ access:4
 76:4
 disclose:4
 rate:4
+87:4
+31:4
+89:4
 perception:4
 16:4
 17:4
 likewise:4
-5 , 2783:4
+2783:4
 indicated:4
 higher:4
+04:4
 02:4
+years:4
 39:4
 the years:4
 positive:4
@@ -344,7 +349,6 @@ findings:3
 increasing:3
 application:3
 department:3
-age:3
 sharing:3
 reveal:3
 fogel:3
@@ -402,6 +406,7 @@ decreased:3
 second:3
 particular:3
 based:3
+petronio:3
 process:3
 strategies:3
 chaikin:3
@@ -430,6 +435,7 @@ different:3
 questionnaire:3
 deviation:3
 29:3
+71:3
 sample:3
 measures:3
 ’s:3
@@ -446,19 +452,21 @@ strongly:3
 adapted:3
 pertaining:3
 reverse-coded:3
+83:3
 scale:3
 unauthorized:3
 computer:3
-79:3
 extent:3
 cfi:3
 rmsea:3
 fit:3
-89:3
 92:3
 determine:3
 26:3
 mediating:3
+81:3
+82:3
+72:3
 indirect:3
 paths:3
 showed:3
@@ -468,12 +476,10 @@ emerged:3
 series:3
 changed:3
 median:3
-06 5:3
-06:3
 columns:3
 upper:3
 illustrates:3
-5 , 2709:3
+2709:3
 ηp:3
 yet:3
 onward:3
@@ -492,6 +498,7 @@ platform:3
 explain:3
 show:3
 way:3
+college:3
 r:3
 proceedings:3
 nb:3
@@ -598,7 +605,6 @@ explained:2
 control:2
 mechanisms:2
 altman:2
-petronio , 2002:2
 goals:2
 regulation:2
 safety:2
@@ -636,7 +642,7 @@ grodzinsky:2
 report:2
 dwyer:2
 familiarity:2
-the previous 5 years:2
+previous:2
 diversification:2
 climate:2
 relied:2
@@ -659,7 +665,6 @@ american:2
 measuring:2
 book:2
 weekday:2
-the weekend:2
 factor:2
 hours:2
 42:2
@@ -678,14 +683,13 @@ tapped:2
 caution:2
 cautious:2
 pay:2
-83:2
+70:2
 well:2
 concern:2
 make:2
 types:2
 much:2
 statements:2
-87:2
 path:2
 χ2:2
 comparative:2
@@ -700,33 +704,29 @@ consistent:2
 asso-:2
 ciated:2
 intervals:2
+65:2
+80:2
 07:2
 91:2
-81:2
+67:2
 one-way:2
 22:2
 post-hoc:2
 significantly:2
 33:2
 35:2
+74:2
 bc:2
-04:2
+69:2
 09:2
-82:2
 steadily:2
-years:2
-×:2
 analyses:2
 hours/day:2
 categorized:2
-2010 4:2
 86:2
 85:2
 interest:2
 interac-:2
-the earlier years of 2010:2
-04 4:2
-the earlier years:2
 30:2
 multiple:2
 progressed:2
@@ -781,12 +781,10 @@ spaces:2
 baym:2
 identities:2
 decline:2
-the past 5 years:2
 help:2
 additionally:2
 gratifications:2
 received:2
-college:2
 external:2
 taraszow:2
 job:2
@@ -1073,7 +1071,7 @@ diffused:1
 society—74:1
 71%:1
 heaviest:1
-between 18 and 29 years of age:1
+between 18 and 29 years:1
 elevated:1
 mixed:1
 unwarranted:1
@@ -1088,6 +1086,7 @@ strangers:1
 friends:1
 discrepant:1
 inquire:1
+5 years:1
 posed:1
 accessibility:1
 mobile:1
@@ -1099,7 +1098,6 @@ watches:1
 146:1
 frequency:1
 vary:1
-year to year:1
 prior:1
 associations:1
 primarily:1
@@ -1108,8 +1106,7 @@ sectional:1
 look:1
 media’s:1
 analy-:1
-sis:1
-5 years:1
+sis across 5 years:1
 elucidate:1
 perspectives:1
 allow:1
@@ -1128,7 +1125,8 @@ web-:1
 administered:1
 annually:1
 march:1
-the consecutive years:1
+the 
+consecutive years:1
 undergraduate:1
 equivalent:1
 introductory:1
@@ -1150,7 +1148,6 @@ total:1
 ranged:1
 18 to 25 years:1
 males:1
-71:1
 0%:1
 females:1
 african:1
@@ -1171,6 +1168,7 @@ adapting:1
 hours and minutes:1
 consume:1
 face-:1
+the weekend:1
 morning:1
 afternoon:1
 evening:1
@@ -1180,6 +1178,8 @@ combined:1
 weighting:1
 five:1
 the average day:1
+the 
+weekend:1
 construct:1
 a regular week:1
 17 hours:1
@@ -1208,7 +1208,6 @@ someone:1
 stealing:1
 worries:1
 11:1
-70:1
 measured:1
 favor:1
 intervention:1
@@ -1245,63 +1244,41 @@ bias-corrected:1
 confi-:1
 dence:1
 played:1
-87 4:1
 98:1
-81 4:1
-65:1
-80:1
-79 4:1
-89 4:1
-78 5:1
-68 4:1
-82 4:1
-72 5:1
-65 4:1
-70 5:1
-72 4:1
-87 149 2015 4:1
-71 5:1
-67 4:1
+149:1
 88:1
 ences:1
 gradually:1
 ratings:1
 150:1
 58:1
-71 4:1
-74 4:1
-69 4:1
-74:1
-79 3:1
 95:1
-83 3:1
-80 3:1
-5 , 2778:1
+2778:1
 consecu-:1
 2-year:1
 beyond:1
-6 ( year:1
+×:1
 conducted:1
 split:1
 each year:1
 dichotomize:1
 151:1
 55:1
-69:1
 main:1
 primary:1
-× year 2:1
+earlier:1
 152:1
-67:1
 except:1
 between 2013 and 2015:1
+the 
+earlier years:1
 between 2010 and 2012:1
 govern-:1
 mental:1
 2010 to 2011:1
+the earlier years of 2010:1
 153:1
 60:1
-72:1
 61:1
 regressions:1
 performed:1
@@ -1322,11 +1299,13 @@ ture:1
 confirming:1
 socialization:1
 aforementioned:1
+the previous 5 years:1
 divergent:1
 fluctuation:1
 ceptions:1
 comparable:1
 gap:1
+the earlier years:1
 155:1
 subsided:1
 groups:1
@@ -1432,7 +1411,6 @@ weight:1
 present:1
 atti-:1
 tudes:1
-previous:1
 stud-:1
 ies:1
 directly:1
@@ -1493,6 +1471,8 @@ worth:1
 noting:1
 progressive:1
 steady:1
+the past 
+5 years:1
 remains:1
 popular:1
 growth:1
@@ -1570,7 +1550,6 @@ tunities:1
 bosses:1
 seeing:1
 old:1
-their college years:1
 longer:1
 diversifies:1
 making:1
@@ -1607,6 +1586,7 @@ invaluably:1
 literature:1
 comprehen-:1
 sive:1
+the past 5 years:1
 acces-:1
 sibility:1
 continue:1
@@ -1695,7 +1675,7 @@ myspace:1
 thirteenth:1
 americas:1
 keystone:1
-december:1
+31 december:1
 newsroom:1
 statistics:1
 http://newsroom:1
@@ -1804,7 +1784,6 @@ cyberpsychology:1
 wood:1
 molema:1
 406–418:1
-petronio:1
 dialectics:1
 albany:1
 ny:1
@@ -1910,6 +1889,1966 @@ entertainment:1
 dean:1
 school:1
 environmental:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:226
+privacy:226
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+perceptions -> dobj
+cultivating -> acl
+media -> nmod
+behaviors -> nsubj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+attitudes -> pobj
+analysis -> appos
+media -> nmod
+behaviors -> nsubj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+use -> pobj
+effects -> dobj
+examines -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> dobj
+cultivating -> pcomp
+support -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+concerns -> pobj
+relationship -> nsubj
+weakened -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> pobj
+use -> pobj
+impact -> pobj
+implications -> nsubjpass
+discussed -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> compound
+  -> compound
+self-disclosure -> conj
+Ancestors:
+facebook -> conj
+cultivation -> dobj
+keywords -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+questions -> dobj
+raises -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+attitudes -> pobj
+factors -> nsubj
+impact -> ccomp
+shows -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+man- -> compound
+
+ -> compound
+agement -> pobj
+implications -> dobj
+have -> ccomp
+shared -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+by -> agent
+regulated -> advcl
+see -> xcomp
+leading -> conj
+have -> ccomp
+shared -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> pobj
+snss -> pobj
+effects -> dobj
+examine -> advcl
+applies -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+attitudes -> pobj
+snss -> pobj
+effects -> pobj
+provide -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+threats -> dobj
+cultivates -> dobj
+investigate -> advcl
+uses -> conj
+provide -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+perceptions -> nsubj
+  -> dep
+collected -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+support -> conj
+gov- -> nmod
+
+ -> nmod
+ernmental -> amod
+privacy -> compound
+protection -> pobj
+  -> appos
+  -> conj
+and -> cc
+offline -> conj
+and -> cc
+online -> amod
+self-disclosure -> conj
+Ancestors:
+threat -> appos
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+  -> conj
+privacy -> pobj
+threat -> appos
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+usage -> pobj
+impact -> pobj
+identifies -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+domain -> pobj
+related -> acl
+perceptions -> dobj
+ 
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+related -> acl
+issues -> nsubj
+generated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+precaution -> nsubj
+been -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> conj
+encouraged -> relcl
+platforms -> pobj
+serve -> advcl
+  -> conj
+  -> nsubjpass
+employed -> ccomp
+debatin -> advmod
+become -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+boundaries -> appos
+debatin -> advmod
+become -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> dobj
+vating -> acl
+
+ -> attr
+are -> ccomp
+suggest -> xcomp
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+information -> compound
+Ancestors:
+area -> pobj
+research -> appos
+  -> nsubj
+focuses -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+safeguarding -> pcomp
+attitudes -> pobj
+focuses -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+threats -> pobj
+safeguarding -> pcomp
+attitudes -> pobj
+focuses -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+  -> pobj
+desire -> pobj
+associated -> conj
+focuses -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+support -> conj
+privacy -> compound
+protection -> pobj
+Ancestors:
+perceived -> nsubjpass
+mitigated -> relcl
+culture -> dobj
+promote -> xcomp
+likely -> acomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+privacy -> pobj
+perceived -> nsubjpass
+mitigated -> relcl
+culture -> dobj
+promote -> xcomp
+likely -> acomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+associated -> ccomp
+decreased -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> nsubj
+decreased -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+  -> conj
+c -> appos
+Ancestors:
+threat -> dobj
+decreased -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+threat -> dobj
+decreased -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> pobj
+
+
+ -> dep
+driven -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> pobj
+relationship -> dobj
+  -> conj
+  -> dep
+explained -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+control -> compound
+mechanisms -> pobj
+regulate -> acl
+notion -> pobj
+by -> agent
+explained -> ccomp
+ 
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> pobj
+relation -> pobj
+adjusted -> relcl
+one -> conj
+  -> attr
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+concept -> dobj
+  -> nsubj
+considers -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+strategies -> dobj
+constructing -> advcl
+draw -> ccomp
+considers -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> pobj
+role -> dobj
+corroborated -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+issue -> pobj
+applying -> acl
+  -> dep
+predict -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+those -> nsubj
+have -> ccomp
+predict -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+associated -> acl
+attitudes -> appos
+  -> nsubj
+lead -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+attitudes -> nsubj
+impact -> ccomp
+expects -> conj
+lampe -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> dep
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+  -> conj
+c -> appos
+Ancestors:
+threat -> conj
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+  -> conj
+c -> appos
+Ancestors:
+threat -> conj
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+trends -> pobj
+
+
+ -> nsubj
+takes -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+trends -> nsubj
+are -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+  -> pobj
+concerns -> dobj
+elevated -> advcl
+
+
+ -> dep
+shows -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+threats -> pobj
+research -> pobj
+body -> appos
+  -> conj
+
+
+ -> dep
+shows -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+aware -> acomp
+being -> ccomp
+report -> advcl
+  -> nsubj
+do -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+settings -> pobj
+familiarity -> dobj
+reporting -> pcomp
+accept -> ccomp
+found -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+patterns -> pobj
+found -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+changes -> attr
+are -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> attr
+are -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+  -> conj
+c -> appos
+Ancestors:
+threat -> attr
+are -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+threat -> attr
+are -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+perceptions -> conj
+use -> conj
+  -> pobj
+relationships -> nsubj
+proposed -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+frequency -> conj
+self-disclosure -> pobj
+Ancestors:
+
+
+ -> attr
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> pobj
+impact -> pobj
+look -> dobj
+offers -> conj
+relied -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+self-disclosure -> compound
+practices -> conj
+Ancestors:
+perspectives -> pobj
+impact -> pobj
+changes -> pobj
+understanding -> dobj
+elucidate -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> conj
+use -> pobj
+relationships -> dobj
+do -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> dep
+differ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+  -> conj
+c -> appos
+Ancestors:
+threat -> conj
+threat -> dep
+differ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+threat -> dep
+differ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+relationships -> dobj
+do -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> dobj
+ 
+ -> conj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+perceptions -> pobj
+dimensions -> dobj
+  -> nsubjpass
+assessed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> nmod
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+support -> conj
+governmental -> amod
+privacy -> nmod
+protection -> pobj
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+protection -> pobj
+privacy -> pobj
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+assess -> xcomp
+used -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+information -> compound
+Ancestors:
+measures -> pobj
+adapted -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+  -> appos
+Ancestors:
+safeguarding -> pcomp
+pay -> conj
+include -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+measure -> relcl
+  -> dep
+adapted -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+information -> compound
+Ancestors:
+scale -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+dangers -> pobj
+related -> amod
+attitudes -> pobj
+tapped -> relcl
+scale -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+problems -> dobj
+causes -> ccomp
+am -> ccomp
+worries -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+information -> compound
+Ancestors:
+scale -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+people’s -> poss
+Ancestors:
+protects -> relcl
+intervention -> pobj
+favor -> pobj
+attitude -> relcl
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> conj
+analysis -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> dobj
+predicted -> ccomp
+determine -> advcl
+employed -> ccomp
+results -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> conj
+results -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+vacy -> conj
+threat -> conj
+threat -> conj
+results -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perception -> compound
+domains -> nsubjpass
+associated -> advcl
+examined -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+  -> appos
+Ancestors:
+threat -> pobj
+associated -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> appos
+β -> appos
+= -> compound
+− -> pobj
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+support -> conj
+governmental -> amod
+privacy -> compound
+protection -> pobj
+Ancestors:
+threat -> conj
+threat -> conj
+  -> nsubj
+were -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+privacy -> pobj
+threat -> conj
+threat -> conj
+  -> nsubj
+were -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> nsubj
+played -> ccomp
+revealed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+  -> appos
+Ancestors:
+threat -> conj
+ 
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+
+  -> appos
+β -> appos
+= -> compound
+− -> pobj
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+  -> conj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+trends -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> nsubj
+
+
+ -> nsubj
+
+
+ -> nsubj
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+general -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> dobj
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> compound
+
+
+ 
+
+ -> pobj
+support -> ccomp
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+trends -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+  -> appos
+Ancestors:
+threat -> dobj
+ 
+ -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> appos
+β -> appos
+= -> compound
+− -> pobj
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+ 
+ -> conj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+trends -> pobj
+
+
+ -> nsubj
+showed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+ences -> dobj
+showed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> conj
+  -> appos
+05 -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perception -> compound
+domain -> pobj
+ratings -> nsubj
+were -> ccomp
+indicated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> conj
+use -> pobj
+relationships -> pobj
+changes -> pobj
+
+
+ -> dep
+series -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+domains -> pobj
+each -> pobj
+conducted -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> conj
+use -> pobj
+relationships -> nsubj
+changed -> ccomp
+determine -> advcl
+conducted -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> nsubj
+use -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> nsubj
+use -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> dobj
+indicated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+vacy -> conj
+threat -> nsubj
+increased -> ccomp
+indicated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> conj
+  -> conj
+protection -> pobj
+vacy -> conj
+threat -> nsubj
+increased -> ccomp
+indicated -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+change -> attr
+was -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> pobj
+trend -> attr
+was -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> nsubj
+use -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> nsubj
+use -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+
+ -> compound
+Ancestors:
+threat -> pobj
+change -> attr
+was -> ccomp
+illustrates -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> pobj
+trend -> attr
+was -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> pobj
+difference -> dobj
+  -> nsubj
+was -> ccomp
+was -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+mental -> amod
+Ancestors:
+protection -> pobj
+support -> pobj
+change -> attr
+was -> ccomp
+illustrates -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> pobj
+trend -> attr
+was -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+  -> nsubj
+was -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> nsubj
+use -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> nsubj
+use -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+relationships -> pobj
+changes -> pobj
+
+
+ -> dep
+series -> nsubjpass
+performed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+relationships -> nsubj
+changed -> ccomp
+determine -> advcl
+performed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+general -> amod
+Ancestors:
+× year -> pobj
+threat -> dobj
+revealed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> nsubj
+became -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perception -> compound
+domains -> dobj
+emerged -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> nsubj
+became -> ccomp
+indicated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> nsubj
+became -> ccomp
+revealed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+general -> amod
+Ancestors:
+× year -> pobj
+threat -> dobj
+yielded -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+threat -> nsubj
+became -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+Ancestors:
+threat -> nsubj
+became -> ccomp
+indicated -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+support -> nsubj
+became -> ccomp
+revealed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> conj
+use -> pobj
+relationship -> dobj
+supports -> conj
+using -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+perceptions -> dobj
+cultivate -> xcomp
+appears -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+cerned -> advcl
+are -> advcl
+cultivate -> xcomp
+appears -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+safeguards -> pobj
+pay -> conj
+cerned -> advcl
+are -> advcl
+cultivate -> xcomp
+appears -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+self-expression -> conj
+Ancestors:
+issues -> pobj
+pertaining -> advcl
+impact -> acl
+snss -> pobj
+potential -> dobj
+confirming -> pcomp
+contributes -> relcl
+  -> appos
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+and -> cc
+online -> conj
+and -> cc
+support -> conj
+governmental -> amod
+privacy -> compound
+protection -> pobj
+Ancestors:
+threats -> nsubj
+remained -> ccomp
+revealed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+privacy -> pobj
+threats -> nsubj
+remained -> ccomp
+revealed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+views -> pobj
+influence -> dobj
+has -> ccomp
+suggests -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> conj
+  -> nsubj
+increased -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+levels -> pobj
+mainstreamed -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+sensitivity -> conj
+isolation -> dobj
+yielded -> ROOT
+
+KEYWORD: privacy -> nsubjpass
+Descendants:
+Ancestors:
+abused -> relcl
+instances -> pobj
+exposes -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+invasion -> pobj
+cases -> nsubj
+come -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+support -> conj
+privacy -> compound
+safeguards -> pobj
+escalated -> acl
+Ancestors:
+threat -> dobj
+explains -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+safeguards -> pobj
+support -> conj
+privacy -> pobj
+threat -> dobj
+explains -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+levels -> dobj
+reported -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitude -> nmod
+trends -> dobj
+predict -> conj
+explain -> acl
+order -> pobj
+examining -> ccomp
+consider -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+environment -> appos
+familiarity -> nsubj
+contributed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+threat -> pobj
+increase -> dobj
+contributed -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+attitudes -> pobj
+changes -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+more -> advmod
+relaxed -> amod
+Ancestors:
+attitudes -> pobj
+individuals -> nsubj
+had -> ccomp
+found -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+control -> nmod
+mechanisms -> pobj
+by -> agent
+regulated -> acl
+notion -> conj
+ 
+ -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+relationships -> dobj
+show -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+and -> cc
+online -> conj
+and -> cc
+support -> conj
+governmental -> amod
+privacy -> compound
+protection -> pobj
+Ancestors:
+threats -> appos
+  -> nsubj
+became -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+privacy -> pobj
+threats -> appos
+  -> nsubj
+became -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+threat -> pobj
+levels -> pobj
+streamed -> advcl
+explained -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risk -> compound
+perceptions -> pobj
+outside -> advmod
+factors -> attr
+are -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+atti- -> pobj
+role -> dobj
+supports -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+support -> conj
+privacy -> compound
+safeguards -> pobj
+Ancestors:
+threat -> ccomp
+supports -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+safeguards -> pobj
+privacy -> pobj
+threat -> ccomp
+supports -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+
+ -> compound
+Ancestors:
+controls -> dobj
+deploy -> ccomp
+suggest -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+goals -> dobj
+achieve -> advcl
+smuggling -> pobj
+strategies -> pobj
+use -> dobj
+entails -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+manage -> xcomp
+use -> ccomp
+found -> ROOT
+
+KEYWORD: privacy -> nsubjpass
+Descendants:
+Ancestors:
+valued -> conj
+treated -> ccomp
+demonstrates -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+general -> amod
+Ancestors:
+increase -> conj
+disclosure -> conj
+offline -> conj
+use -> pobj
+decline -> dep
+are -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+online -> amod
+  -> conj
+and -> cc
+support -> conj
+governmental -> amod
+privacy -> compound
+protection -> pobj
+Ancestors:
+threat -> appos
+decline -> dep
+are -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+protection -> pobj
+privacy -> pobj
+threat -> appos
+decline -> dep
+are -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> nsubj
+impact -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+tiny -> ccomp
+made -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+threat -> ccomp
+is -> advcl
+  -> dep
+have -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+more -> advmod
+relaxed -> amod
+Ancestors:
+have -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> conj
+usage -> pobj
+establish -> advcl
+follows -> relcl
+design -> dobj
+employing -> xcomp
+consider -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+risks -> pobj
+aware -> acomp
+are -> ccomp
+shown -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+attitudes -> pobj
+change -> dobj
+explaining -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+aware -> ccomp
+making -> advcl
+are -> ccomp
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+support -> conj
+privacy -> compound
+safeguards -> pobj
+Ancestors:
+aside -> advmod
+factors -> nsubj
+mediate -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+safeguards -> pobj
+support -> conj
+privacy -> pobj
+aside -> advmod
+factors -> nsubj
+mediate -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+self-expression -> conj
+Ancestors:
+ciated -> acl
+conclusion -> nsubj
+has -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+use -> pobj
+effects -> pobj
+forecast -> ccomp
+allows -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+threats -> pobj
+use -> pobj
+effect -> pobj
+points -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+concerns -> pobj
+relationships -> dobj
+explain -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+perceptions -> pobj
+trends -> pobj
+perspective -> dobj
+offers -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+boundary -> amod
+regulations -> nsubj
+become -> conj
+continue -> ROOT
+
+KEYWORD: privacy -> npadvmod
+Descendants:
+Ancestors:
+enhancing -> amod
+technologies -> pobj
+workshop -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+networked -> amod
+publics -> pobj
+Ancestors:
+steganography -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+conceptions -> dobj
+tweens -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+online -> amod
+Ancestors:
+facebook -> appos
+  -> dobj
+horn -> conj
+jp -> dobj
+debatin -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+and -> cc
+self-disclosure -> conj
+Ancestors:
+derlega -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+trust -> nmod
+concern -> appos
+sr -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+trust -> conj
+taking -> appos
+communities -> dobj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> compound
+  -> conj
+and -> cc
+new -> amod
+technology -> conj
+Ancestors:
+surveillance -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+  -> conj
+surveillance -> conj
+computers -> appos
+  -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+boundaries -> pobj
+  -> ROOT
+
+KEYWORD: privacy -> ROOT
+Descendants:
+information -> compound
+measuring -> acl
+individuals -> poss
+’ -> case
+concerns -> dobj
+
+
+ -> dobj
+organizational -> amod
+practices -> pobj
+Ancestors:
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+erosion -> conj
+expectations -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+  -> nmod
+personal -> amod
+  -> conj
+and -> cc
+moral -> amod
+responsibility -> conj
+Ancestors:
+cyberstalking -> advcl
+tavani -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+collapse -> pobj
+impact -> dobj
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+tensions -> conj
+audience -> dobj
+balancing -> acl
+   -> ROOT

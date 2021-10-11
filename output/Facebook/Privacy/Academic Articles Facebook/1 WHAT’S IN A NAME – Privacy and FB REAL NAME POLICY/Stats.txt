@@ -3,9 +3,9 @@
 
 
 With stop word removal 
-Size of original corpus: 13324 
-Size of filtered corpus: 7006
-Size of Lexicon: 2769
+Size of original corpus: 16170 
+Size of filtered corpus: 7078
+Size of Lexicon: 2718
 
 Tokens that appear in the file, alongside with their frequencies:
 facebook:165
@@ -14,41 +14,42 @@ see:127
 policy:100
 users:93
 https://perma:76
-data:71
+data:73
 names:64
+8:61
 social:60
 may:60
-8:59
 facebook’s:46
 https://www:45
 media:44
-6:40
-9:37
+6:41
+9:39
 use:35
+2018:35
 information:35
+5:32
 people:30
 note:30
-5:28
+4:28
 privacy:27
-4:26
 g:26
+2:24
 identity:22
 google+:22
 new:21
-2:21
 >:20
+3:20
 online:20
 german:20
 service:19
 <:19
 supra:19
-3:18
 platform:18
 user:17
 +:17
 even:17
 nevertheless:15
-2018:14
+2014:15
 pol’y:14
 court:14
 control:14
@@ -58,22 +59,27 @@ services:13
 pub:13
 vol:13
 xxviii:13
+2015:13
 gdpr:13
 still:13
 accounts:13
 right:13
 already:13
+1:12
 law:12
-7:12
+2011:12
+2017:12
 account:12
-data protection:12
 life:11
 given:11
 consent:11
 individuals:11
+7:11
+13:11
 policies:11
 different:11
 provide:11
+data protection:11
 friends:11
 public:11
 without:10
@@ -92,12 +98,10 @@ google:10
 post:10
 zuckerberg’s:10
 regulators:10
-1:9
 based:9
 behavior:9
 subscribers:9
 change:9
-13:9
 pseudonymous:9
 boyd:9
 r:9
@@ -107,36 +111,41 @@ collection:9
 processing:9
 found:8
 us:8
-2014:8
+2016:8
 html:8
 claims:8
 challenge:8
+2012:8
 generally:8
 company:8
 general:8
 model:8
 http://www:8
+first:8
+26:8
 https://:8
 political:8
 internet:8
 feb:8
 paper:7
 comments:7
-2017:7
 surveillance:7
 share:7
 website:7
+11:7
 allow:7
 context:7
+15:7
+19:7
 danah:7
 oor’s:7
 response:7
 pseudonyms:7
 case:7
+2013:7
 collect:7
 allows:7
 germany:7
-first:7
 fake:7
 mark:7
 zuckerberg:7
@@ -166,11 +175,15 @@ hence:6
 enforcement:6
 order:6
 many:6
+21:6
+20:6
 behavioral:6
 legal:6
 including:6
 meet:6
 choose:6
+29:6
+30:6
 okcupid:6
 b:6
 difficult:6
@@ -194,22 +207,20 @@ others:5
 one’s:5
 research:5
 led:5
-2011:5
 government:5
 allowing:5
 username:5
 reason:5
 guardian:5
 theguardian:5
-2016:5
+june:5
 yet:5
 position:5
+14:5
 collapse:5
-15:5
 speech:5
 communities:5
-19:5
-2012:5
+18:5
 dec:5
 o%:5
 cc/4:5
@@ -222,14 +233,17 @@ person’s:5
 contains:5
 requiring:5
 since:5
+protection:5
+23:5
 pseudonymity:5
 anonymous:5
 used:5
 purposes:5
+25:5
 allowed:5
-26:5
 scholars:5
 authentic:5
+28:5
 early:5
 www:5
 full:5
@@ -257,6 +271,7 @@ collective:4
 strong:4
 10:4
 networking:4
+july:4
 requires:4
 another:4
 12:4
@@ -264,7 +279,10 @@ usernames:4
 caused:4
 separate:4
 contexts:4
+16:4
 marginalized:4
+31:4
+35:4
 b-&al:4
 criticism:4
 higher:4
@@ -278,7 +296,6 @@ knowledge:4
 consider:4
 impact:4
 especially:4
-protection:4
 regulatory:4
 challenged:4
 similar:4
@@ -294,7 +311,6 @@ party:4
 later:4
 =:4
 decide:4
-30:4
 deter:4
 although:4
 required:4
@@ -314,7 +330,6 @@ stage:4
 changed:4
 rushdie:4
 44:4
-2013:4
 45:4
 48:4
 register:4
@@ -346,7 +361,6 @@ long:4
 better:4
 administrative:4
 seeing:4
-11 , 2018:4
 tools:4
 collects:4
 turn:4
@@ -381,6 +395,7 @@ market:3
 must:3
 w:3
 really:3
+27:3
 sites:3
 terms:3
 explaining:3
@@ -389,15 +404,12 @@ create:3
 only one:3
 remains:3
 demanding:3
-14:3
 several:3
 interact:3
 finding:3
 able:3
-16:3
 free:3
 expose:3
-18:3
 etc:3
 registration:3
 systems:3
@@ -405,8 +417,6 @@ courts:3
 private:3
 south:3
 korea:3
-35:3
-2015:3
 revised:3
 moreover:3
 criticized:3
@@ -415,9 +425,7 @@ number:3
 keep:3
 54:3
 68:3
-2018 5:3
 criticisms:3
-20:3
 lot:3
 sensitive:3
 gender:3
@@ -426,6 +434,7 @@ religion:3
 operators:3
 interaction:3
 lead:3
+22:3
 past:3
 differently:3
 debates:3
@@ -439,14 +448,13 @@ popular:3
 enforcing:3
 abrams:3
 24:3
-25:3
 attempted:3
 groups:3
 pointed:3
 less:3
-28:3
 michael:3
 culture:3
+2007:3
 actions:3
 n’t:3
 friendster’s:3
@@ -458,7 +466,6 @@ option:3
 record:3
 55:3
 78:3
-21 , 2017:3
 64:3
 everyone:3
 integrity:3
@@ -527,7 +534,6 @@ microtargeting:3
 difference:3
 violated:3
 never:3
-82:3
 choice:3
 89:3
 cc/jd:3
@@ -607,14 +613,12 @@ slate:2
 cc:2
 top:2
 suggesting:2
-june:2
 active:2
 php:2
 someone:2
 else:2
 appears:2
 safety:2
-11:2
 addresses:2
 repeatedly:2
 unable:2
@@ -642,7 +646,6 @@ grounds:2
 derive:2
 possible:2
 cultures:2
-21:2
 emphasi:2
 giving:2
 generation/age:2
@@ -651,8 +654,6 @@ deduce:2
 awareness:2
 carefully:2
 european:2
-22:2
-23:2
 discusses:2
 regime:2
 rationales:2
@@ -666,6 +667,7 @@ brazilgovnews:2
 controversies:2
 revolt:2
 inception:2
+2004:2
 provider:2
 require:2
 fallout:2
@@ -675,20 +677,17 @@ architecture:2
 system:2
 connecting:2
 beach:2
-27:2
 fakester:2
 anderson:2
 sfweekly:2
+2003:2
 cc/yz:2
 customer:2
 participation:2
 digital:2
 joe:2
-2007:2
 151:2
-29:2
 gets:2
-31:2
 32:2
 round:2
 performed:2
@@ -725,6 +724,7 @@ participate:2
 presentation:2
 ra:2
 convergence:2
+2008:2
 manage:2
 audience:2
 reserved:2
@@ -746,7 +746,6 @@ parenting:2
 usual:2
 youbemom:2
 discuss:2
-july:2
 protalinski:2
 penname:2
 eventually:2
@@ -787,7 +786,6 @@ posted:2
 fights:2
 inside:2
 attempt:2
-2 , 2015:2
 lapse:2
 usage:2
 engadget:2
@@ -850,8 +848,8 @@ nyu:2
 wired:2
 emily:2
 practices:2
+monday:2
 center:2
-20 , 2015:2
 brandom:2
 violating:2
 unfamiliar:2
@@ -868,7 +866,6 @@ procedure:2
 narrow:2
 chris:2
 press:2
-23 , 2014:2
 getting:2
 wordpress:2
 cc/k:2
@@ -890,6 +887,7 @@ haimson:2
 add:2
 offering:2
 81:2
+82:2
 congress:2
 83:2
 question:2
@@ -897,7 +895,7 @@ question:2
 something:2
 85:2
 cnn:2
-10 , 2018:2
+10 ,  2018:2
 noredirect:2
 on&utm_term=:2
 appearance:2
@@ -1123,7 +1121,8 @@ resource:1
 mobilization:1
 theory:1
 comm:1
-1207:1
+1207
+ :1
 occupymedia:1
 crisis:1
 capitalism:1
@@ -1179,7 +1178,6 @@ rethinking:1
 converging:1
 oremus:1
 product:1
-27 , 2018:1
 https://slate:1
 com/technology/2018/04/are-you-:1
 really-facebooks-product-the-history-of-a-dangerous-idea:1
@@ -1188,10 +1186,8 @@ b-bngz:1
 priit:1
 kallas:1
 statistics:1
-june 2018:1
 dream:1
 grow:1
-july 2 , 2018:1
 dreamgrow:1
 com/top-10-social-:1
 networking-sites-market-share-of-visits/:1
@@ -1238,7 +1234,6 @@ hilary:1
 mclauchlin:1
 chat:1
 pol:1
-31 , 2017:1
 http://harvardpolitics:1
 com/world/wechat-the-people-technology-and-social-:1
 control-in-china:1
@@ -1246,7 +1241,6 @@ cc/tq:1
 67-dp:1
 /oo&r:1
 soc:1
-4 , 2011:1
 https://socialmediacollective:1
 org/2011/08/04/real-:1
 names-policies-are-an-abuse-of-power:1
@@ -1259,7 +1253,6 @@ hassinee:1
 /ro:1
 electric:1
 frontier:1
-18 , 2015:1
 eff:1
 org/deeplinks/2015/12/changes-facebooks-real-:1
 names-policy-still-dont-fix-problem:1
@@ -1284,7 +1277,6 @@ backstage:1
 responsible:1
 yale:1
 affairs:1
-21 , 2013:1
 http://yale:1
 149:1
 assumed:1
@@ -1326,7 +1318,7 @@ doc:1
 cesar:1
 itiberê:1
 regulates:1
-16 , 2018:1
+16 ,  2018:1
 gov:1
 br/news/2018/:1
 08/new-law-regulates-use-of-personal-data:1
@@ -1343,7 +1335,6 @@ analyzing:1
 exploring:1
 highlighting:1
 predecessor:1
-2004:1
 dating:1
 experienced:1
 unsatisfied:1
@@ -1387,7 +1378,6 @@ defend:1
 lessley:1
 attack:1
 smartasses:1
-2003:1
 https://archives:1
 com/sanfrancisco/attack-of-the-smartasses/content:1
 oid:1
@@ -1447,11 +1437,9 @@ unpopular:1
 backtracked:1
 clarified:1
 real/legal:1
-35 29:1
 katherine:1
 mieszkowski:1
 faking:1
-14 , 2003:1
 com/2003/08/14/fakesters/:1
 cc/h:1
 lg-funx:1
@@ -1479,7 +1467,6 @@ sheffield:1
 lun’&rq:1
 car:1
 @ou:1
-1 , 2018:1
 com/2018/01/:1
 01/okcupids-big-blunder-dating-site-wont-make-you-use-your-real-name-after-all/:1
 t-3:1
@@ -1488,7 +1475,6 @@ christina:1
 bonnington:1
 mind:1
 dot:1
-3 , 2018:1
 dailydot:1
 152:1
 aving:1
@@ -1531,7 +1517,7 @@ h’&n:1
 @ours&l%:1
 pma:1
 6&#r:1
-14 , 2010:1
+14 ,  2010:1
 org/2010/05/14/facebooks-zuckerberg-having-two-:1
 identities-for-yourself-is-an-example-of-a-lack-of-integrity/:1
 cc/:1
@@ -1555,7 +1541,6 @@ rq:1
 pm:1
 osur:1
 techs:1
-2008:1
 153:1
 pain:1
 posts:1
@@ -1605,7 +1590,7 @@ large:1
 fifth:1
 barcelona:1
 spain:1
-july 17-21 , 2011:1
+july 17-21:1
 wish:1
 vent:1
 stress:1
@@ -1633,7 +1618,6 @@ seventh:1
 emil:1
 battle:1
 victory:1
-15 , 2011:1
 com/article/facebook-name-:1
 battle-ahmed-salman-rushdie-claims-victory/:1
 cc/klx:1
@@ -1673,14 +1657,13 @@ somini:1
 sengupta:1
 lady:1
 gaga:1
-16 , 2012:1
 com/2012/02/17/technology/new-facebook-policy-on-made-up-names-lets-gaga-:1
 be-gaga:1
 cc/2:1
 mmq-uafu:1
 parr:1
 responds:1
-july 25 , 2011:1
+july 25:1
 com/2011/07/25/google-plus-:1
 common-names/#3:1
 xj_sq:1
@@ -1694,10 +1677,8 @@ beckland:1
 creating:1
 boring:1
 network:1
-19 , 2011:1
 com/2011/09/19/google-plus-real-name-boring/#pyrznkxsjsq:1
 mdg-xxuq:1
-23 , 2012:1
 com/article/pseudonyms-on-google-plus-wrong/:1
 cc/tg:1
 e-cmdx:1
@@ -1732,7 +1713,6 @@ stuart:1
 dredge:1
 spam:1
 sticks:1
-26 , 2013:1
 com/technology/2013/nov/26/youtube-spam-comments-google-:1
 cc/b:1
 mh-eus:1
@@ -1754,14 +1734,12 @@ shut:1
 low:1
 shutting:1
 consumers:1
-8 , 2018:1
 com/2018/10/8/17951890/google-plus-shut-down-security-:1
 api-change-gmail-android:1
 cc/ydr:1
 3-zbm:1
 colucci:1
 gnoo:1
-30 , 2014:1
 com/2014/09/:1
 30/facebook-drag-queens-explainer/:1
 c-47:1
@@ -1776,7 +1754,6 @@ ak:1
 bnar:1
 true:1
 activist:1
-20 , 2014:1
 trueactivist:1
 com/native-:1
 americans-get-facebook-pages-removed-on-columbus-day-for-fake-names/:1
@@ -1784,7 +1761,6 @@ cc/vsg:1
 5-nc:1
 townhall:1
 q&a:1
-july 1 , 2015:1
 com/zuck/posts/10102213601037571:1
 comment_id=101022:1
 156:1
@@ -1828,7 +1804,6 @@ com/help/linkedin:1
 lang:1
 cc/xuh:1
 2-:1
-28 , 2008:1
 https://web:1
 archive:1
 org/web/:1
@@ -1839,7 +1814,6 @@ t-js:1
 tabak:1
 hundreds:1
 crimson:1
-9 , 2004:1
 thecrimson:1
 com/article/2004/2/9/hundreds-:1
 register-for-new-facebook-website/:1
@@ -1857,7 +1831,6 @@ institutional:1
 shea:1
 uncool:1
 ie:1
-4 , 2013:1
 ie/lifestyle/unlike-this-:1
 157:1
 confined:1
@@ -1908,7 +1881,6 @@ g-epzg:1
 pam:1
 ramsden:1
 turns:1
-28 , 2017:1
 internet-trolls-psychology-behavior-anonymity-invisibility-cloak-562150:1
 cc/jrb:1
 3-438:1
@@ -1921,7 +1893,6 @@ rubin:1
 study:1
 leave:1
 high-quality:1
-13 , 2012:1
 158:1
 enables:1
 reputation:1
@@ -1957,7 +1928,6 @@ donath:1
 alter:1
 ego:1
 ever:1
-25 , 2014:1
 com/2014/04/why-we-need-online-alter-egos-now-more-than-:1
 ever/:1
 cc/83:1
@@ -1967,7 +1937,6 @@ jordan:1
 frith:1
 examining:1
 r/gonewild:1
-monday:1
 firstmonday:1
 org/article:1
 /view/5615/4346:1
@@ -2004,7 +1973,6 @@ b-:1
 rf:1
 russell:1
 enforces:1
-15 , 2015:1
 1:00 pm:1
 159:1
 marginali:1
@@ -2049,24 +2017,22 @@ hou:1
 houstonpress:1
 com/arts/facebooks-new-real-name-policy-is-unfair-and-dangerous-6376305:1
 cc/ah:1
-3 y-7 l:1
+3 y-7 l 7:1
 rebel:1
 siren:1
 tag:1
 insists:1
 harassed:1
 fakes:1
-8 , 2014:1
 https://rebelsiren:1
 com/tag/facebook-allows-harassment-but-insists-you-:1
 use-your-real-name-while-getting-harassed-by-fakes/:1
 cc/au:1
-3 k-:1
+k-:1
 mynameiscampaign:1
 org/:1
 4-hx:1
 cox:1
-1 , 2014:1
 com/chris:1
 cox/posts/10101301777354543:1
 au-:1
@@ -2145,8 +2111,6 @@ hoffmann:1
 constructing:1
 bauthentic:1
 non-normative:1
-first monday:1
-6 , 2016:1
 http://firstmonday:1
 org/ojs/index:1
 161:1
@@ -2176,7 +2140,6 @@ php/fm/article/view/6791/5521#p:1
 lf-q:1
 267:1
 cashmore:1
-29 , 2011:1
 http://edition:1
 com/2011/tech/social:1
 media/08/29/google:1
@@ -2187,7 +2150,6 @@ handing:1
 double-edged:1
 sword:1
 gigaom:1
-18 , 2011:1
 3:09 pm:1
 https://gigaom:1
 com/2011/08/18/:1
@@ -2208,6 +2170,8 @@ zuckerbergs-appearance-before-house-committee/:1
 cc/hh:1
 v-2:1
 gzh:1
+82
+ :1
 grassley:1
 blunt:1
 curbin:1
@@ -2238,12 +2202,14 @@ economy:1
 sage:1
 television:1
 news:1
-media 139 , 139–59:1
+media 139:1
+139–59:1
 vindu:1
 goel:1
 please:1
 message:1
-com/2014:1
+com/2014
+:1
 /05/23/technology/facebook-offers-privacy-checkup-to-all-1-28-billion-:1
 r=0:1
 cc/f:1
@@ -2261,7 +2227,6 @@ releases:1
 damage:1
 senators:1
 u&s:1
-june 11 , 2018:1
 7:59 pm:1
 com/2018/6/11/17451360/facebook-senate-questions-:1
 zuckerberg-answers:1
@@ -2295,14 +2260,12 @@ behaviors:1
 com/privacy/explanation:1
 cc/x:1
 8-engv:1
-19 , 2018:1
 roughly:1
 describes:1
 about/privacy/previous:1
 cc/cr:1
 v-7:1
 mey:1
-29 , 2016:1
 showing:1
 settings:1
 tracking:1
@@ -2322,7 +2285,6 @@ powerful:1
 bought:1
 got:1
 wildly:1
-5 , 2018:1
 04:08 pm:1
 164:1
 industry:1
@@ -2376,7 +2338,6 @@ nicholas:1
 fandos:1
 kevin:1
 roose:1
-31 , 2018:1
 com/2018/07/31/us/politics/facebook-political-campaign-midterms:1
 qr-3:1
 xhq:1
@@ -2385,7 +2346,6 @@ solon:1
 removes:1
 652:1
 meant:1
-22 , 2018:1
 com/technology/2018/aug/21/facebook-:1
 pages-accounts-removed-russia-iran:1
 cc/54:1
@@ -2457,7 +2417,6 @@ live:1
 leanings:1
 job:1
 washington:1
-26 , 2015:1
 166:1
 decipherable:1
 technical:1
@@ -2542,7 +2501,6 @@ schleswig-holstein:1
 melissa:1
 anthony:1
 threatening:1
-9 , 2015:1
 /blog/does-the-native-american-threatening-to-sue-facebook-have-a-good-case:1
 2-dskf:1
 federica:1
@@ -2554,7 +2512,6 @@ l&r:1
 n’s:1
 naul:1
 4&%aul:1
-13 , 2018:1
 com/2018/02/13/german-court-finds-fault-with-facebooks-:1
 default-privacy-settings/:1
 cc/rr:1
@@ -2586,7 +2543,6 @@ re$uirement:1
 violation:1
 telemediengesetz:1
 tmg:1
-26 , 2007:1
 bgbl:1
 ger:1
 sandra:1
@@ -2600,7 +2556,6 @@ jipitec:1
 195–196:1
 alex:1
 hern:1
-29 , 2015:1
 com/technology/2015/jul/29/germany-fights-facebook-:1
 over-real-names-policy:1
 cc/3:1
@@ -2652,7 +2607,6 @@ piltz:1
 wins:1
 nd:1
 legitimacy:1
-june 30 , 2016:1
 http://germanitlaw:1
 com/germany-facebook-wins-2:1
 nd-round-in-fight-over-:1
@@ -2678,11 +2632,10 @@ jsp:1
 id=17674:1
 visited:1
 sep:1
-14 , 2018:1
 jy:1
 5-swdj:1
 20309:1
-data minimization:1
+minimization:1
 processed”9:1
 revealing:1
 trade:1
@@ -2748,7 +2701,6 @@ complaints:1
 bnor:1
 ’ 5:1
 ons&n:1
-25 , 2018:1
 172:1
 made:1
 adjustments:1
@@ -2777,10 +2729,453 @@ permission:1
 print:1
 download:1
 articles:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:27
-data protection:12
+privacy:27
 consent:11
+data protection:11
 SOC:1
-data minimization:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> conj
+Descendants:
+user -> compound
+Ancestors:
+policy -> appos
+  -> nsubj
+
+
+ -> ROOT
+
+KEYWORD: privacy -> nsubj
+Descendants:
+8 -> nummod
+cp -> quantmod
+9 -> nummod
+
+
+ -> nmod
+147 -> nummod
+
+
+ -> appos
+media -> compound
+users -> poss
+’ -> case
+Ancestors:
+is -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+their -> poss
+
+ -> compound
+Ancestors:
+amounts -> dobj
+access -> ccomp
+allowing -> pcomp
+warned -> ROOT
+
+KEYWORD: soc -> appos
+Descendants:
+  -> compound
+Ancestors:
+/oo&r -> conj
+us -> conj
+r -> attr
+s -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+and -> cc
+Ancestors:
+data protection -> nsubj
+derive -> ROOT
+
+KEYWORD: data protection -> nsubj
+Descendants:
+20 -> nummod
+
+
+ -> nmod
+privacy -> nmod
+and -> cc
+Ancestors:
+derive -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+
+ -> compound
+Ancestors:
+awareness -> pobj
+  -> dep
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+concerns -> nsubj
+lead -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+regime -> compound
+
+ -> nsubj
+handle -> ccomp
+discusses -> relcl
+23 -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+contextual -> amod
+integrity -> pobj
+Ancestors:
+nissenbaum -> dobj
+see -> conj
+chapter -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+and -> cc
+online -> amod
+identity -> conj
+Ancestors:
+debates -> conj
+nymwars -> pobj
+led -> ROOT
+
+KEYWORD: privacy -> appos
+Descendants:
+  -> compound
+identity -> conj
+and -> cc
+
+ -> compound
+anonymity -> conj
+web -> compound
+  -> pobj
+2012 -> appos
+  -> appos
+Ancestors:
+strycker -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+Ancestors:
+accountability -> dobj
+provide -> xcomp
+is -> conj
+enables -> ccomp
+pseudonym -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+
+ -> nsubjpass
+violated -> ccomp
+microtargeting -> pcomp
+are -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+users -> poss
+’ -> case
+
+ -> compound
+Ancestors:
+threaten -> advcl
+was -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+user -> nmod
+Ancestors:
+reducing -> xcomp
+facebook -> csubj
+is -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+change -> ccomp
+is -> ccomp
+decide -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+Ancestors:
+economy -> dobj
+  -> dative
+give -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+  -> appos
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> dobj
+noting -> advcl
+see -> advcl
+is -> ROOT
+
+KEYWORD: privacy -> attr
+Descendants:
+but -> cc
+mere -> amod
+adequate -> amod
+site -> compound
+architecture -> conj
+Ancestors:
+is -> ROOT
+
+KEYWORD: privacy -> nmod
+Descendants:
+Ancestors:
+concerns -> dobj
+alleviate -> relcl
+  -> nsubj
+collects -> ROOT
+
+KEYWORD: privacy -> ROOT
+Descendants:
+  -> compound
+data -> compound
+  -> nsubj
+facebook -> conj
+https://www -> appos
+Ancestors:
+
+KEYWORD: privacy -> conj
+Descendants:
+  -> compound
+data -> compound
+  -> compound
+facebook -> conj
+Ancestors:
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+practices -> dobj
+improving -> pcomp
+provide -> xcomp
+induce -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+regulation -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+laws -> dep
+is -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+
+ -> compound
+Ancestors:
+regulation -> pobj
+implementation -> pobj
+occurred -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+user -> compound
+Ancestors:
+model -> appos
+gdpr -> pobj
+whether -> mark
+allow -> ccomp
+discusses -> conj
+challenged -> ccomp
+reviews -> ROOT
+
+KEYWORD: privacy -> conj
+Descendants:
+information -> compound
+Ancestors:
+copyright -> conj
+  -> appos
+  -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+setting -> pobj
+6 -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+their -> poss
+Ancestors:
+protecting -> pcomp
+outweigh -> advcl
+considers -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+law -> nsubj
+applied -> ccomp
+finding -> advcl
+decided -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+authority -> nsubj
+determined -> conj
+applied -> ccomp
+finding -> advcl
+decided -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+Ancestors:
+directive -> pobj
+changes -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+
+ -> compound
+democracy -> pobj
+Ancestors:
+importance -> dobj
+reassessing -> advcl
+poullet -> ROOT
+
+KEYWORD: data protection -> dobj
+Descendants:
+Ancestors:
+reinventing -> pcomp
+  -> dobj
+reassessing -> advcl
+poullet -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+explicit -> amod
+data -> compound
+
+ -> compound
+subjects -> pobj
+Ancestors:
+requires -> ROOT
+
+KEYWORD: consent -> nsubjpass
+Descendants:
+127 -> nummod
+such -> amod
+  -> appos
+and -> cc
+  -> conj
+gdpr -> pobj
+Ancestors:
+given -> ROOT
+
+KEYWORD: consent -> nsubj
+Descendants:
+  -> compound
+Ancestors:
+is -> conj
+given -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+general -> amod
+Ancestors:
+regulation -> dobj
+see -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+explicit -> amod
+processing -> pobj
+personal -> amod
+data -> pobj
+one -> nummod
+or -> cc
+more -> conj
+specified -> amod
+purposes -> pobj
+Ancestors:
+given -> advcl
+prohibited -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+Ancestors:
+given -> advcl
+provide -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+Ancestors:
+ensure -> acl
+order -> pobj
+provide -> ROOT
+
+KEYWORD: consent -> nsubj
+Descendants:
+  -> compound
+Ancestors:
+provide -> ROOT
+
+KEYWORD: consent -> nsubjpass
+Descendants:
+Ancestors:
+given -> ccomp
+unlikely -> acomp
+is -> conj
+provide -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+explicit -> amod
+Ancestors:
+given -> ccomp
+establish -> xcomp
+be -> ROOT
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+practice -> pobj
+record -> pobj
+conclusion -> nsubj
+is -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+their -> poss
+Ancestors:
+giving -> pcomp
+provide -> relcl
+those -> dobj
+seeing -> acl
+  -> dep
+note -> ROOT
+
+KEYWORD: data protection -> compound
+Descendants:
+general -> amod
+Ancestors:
+regulation -> attr
+is -> ccomp
+see -> ROOT

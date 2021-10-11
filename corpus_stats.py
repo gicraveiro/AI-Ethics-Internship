@@ -48,7 +48,7 @@ def compute_stats(tokens, filename, output_file, gen_path):
         for keyword in keywords:
             if (keyword.lower() == key.lower()):
                 keywords_present.append(str(keyword) + ':' + str(val))
-
+    print("----------------------------------------------------------------------------------------", file=output_file)
     print("\nKeywords that appear in the file, alongside with their frequencies:", file=output_file)
     for keyword in keywords_present:
         print(keyword, file=output_file)
@@ -61,23 +61,28 @@ def string_search(document, index,keyword):
         counter += string_search(document,index,keyword)
     return counter
 
-def parser(corpus):
+def parser(corpus, output_file):
     for token in corpus:
         for keyword in keywords:
-            if(token.text == keyword):
-                print("NEW FOUND:\n",token.text, token.dep_)
+            if(token.text == keyword.lower()):
+                print("\nKEYWORD:",token.text,"->", token.dep_, file=output_file)
+                print("Descendants:", file=output_file)
                 for descendant in token.subtree:
-                    print(descendant.text, descendant.dep_,"\n")
+                    if(descendant != token and descendant.dep_ != "det" and descendant.dep_ != "punct" and descendant.dep_ != "prep" and descendant.dep_ != "aux" and descendant.dep_ != "auxpass"):
+                        print(descendant.text, "->", descendant.dep_, file=output_file)
+                print("Ancestors:",file=output_file)
+                for ancestor in token.ancestors:
+                    if(ancestor != token and ancestor.dep_ != "det" and ancestor.dep_ != "punct" and ancestor.dep_ != "prep" and ancestor.dep_ != "aux" and ancestor.dep_ != "auxpass"):
+                        print(ancestor.text, "->", ancestor.dep_, file=output_file)
+
 # reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
     i = 0
     while i < len(corpus):
         if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
-            #print("reconstruction 1:", corpus[i-1]," ->", corpus[i-1:i+2] )
             with corpus.retokenize() as retokenizer:
                 retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word            
         elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
-            #print("reconstruction 2:", corpus[i-1]," ->",corpus[i-1:i+1] )
             with corpus.retokenize() as retokenizer:
                 retokenizer.merge(corpus[i-1:i+1])           
         else: 
@@ -102,8 +107,7 @@ def reconstruct_noun_chunks(corpus,keywords):
                     counter -=1
                     token = corpus[i].text
             if(i != counter):
-                if(token == kw_lower): #str(corpus[i:counter+1])
-                    #print("reconstruction", token) #str(corpus[i:counter+1]))
+                if(token == kw_lower): 
                     with corpus.retokenize() as retokenizer:
                         retokenizer.merge(corpus[i:counter+1])
                     break 
@@ -124,8 +128,7 @@ def process_document(title, source_path,source,keywords):
     print("\n"+title+"\n", file=output_file)
     
     # READING AND MANIPULATING INPUT FILE
-    #path = 'data/'+file_input_path_general+source+title+'.pdf'
-    path = 'data/'+source_path+'/'+title+'.pdf' #'data/'+file_input_path_general+title+'.pdf'
+    path = 'data/'+source_path+'/'+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
     input_file = input_file.get_text()
 
@@ -150,14 +153,15 @@ def process_document(title, source_path,source,keywords):
     doc = nlp(input_file)
     doc = reconstruct_hyphenated_words(doc)
     doc = reconstruct_noun_chunks(doc,keywords)
-    tokens = [token.text for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()] # token for parser, token.text for frequency test
-    #nlp.add_pipe("merge_noun_chunks") # NOT NEEDED WITH THE NEW LOGIC THAT PUTS TOKETHER KEYWORDS
-    #print(tokens)
+    tokens = [token for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()] # token for parser, token.text for frequency test
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
 
-    compute_stats(tokens,title, output_file, source_path) #source+title
-    #parser(tokens)
+    compute_stats([token.text for token in tokens],title, output_file, source_path) 
+    
+    print("---------------------------------------------------------------------------------------", file=output_file)
+    print("Dependency relations of keywords that appear in the file:", file=output_file)
+    parser(tokens, output_file)
 
     output_file.close()
 
@@ -175,7 +179,6 @@ def analyse_folder(source):
 #####
 
 nlp = spacy.load('en_core_web_sm')
-#nlp.add_pipe("merge_noun_chunks")
 nlp.add_pipe("merge_entities")
 
 # KEYWORDS 
@@ -194,7 +197,7 @@ output_file.close()
 #### PERFORM DESCRIPTIVE STATISTICS ON ALL DATA
 
 folder = int(input("Choose which folder to analyze\n1 for Facebook-Sourced\n2 for Academic Articles\n3 for Guidelines\n"))
-path = ''#'data/'
+path = ''
 if(folder == 1): 
     path+='Facebook/Privacy/TargetCompanySourced'
     source='TargetCompanySourced'
@@ -205,7 +208,7 @@ elif(folder == 3):
     path+='Guidelines'
     source='Guidelines'
 
-for filename in os.listdir('data/'+path):#'data/'+folder):
+for filename in os.listdir('data/'+path):
     print(filename)
     file_name, file_extension = os.path.splitext(filename)
     process_document(file_name, path, source, keywords)

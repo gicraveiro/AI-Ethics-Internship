@@ -2,7 +2,7 @@
 SASB-Privacy-Software_IT_Services_Standard_2018
 Keywords found by String Search
 
-Privacy:25
+privacy:25
 cybersecurity:17
 data security:13
 encryption:2
@@ -16,4 +16,6 @@ ISACA’s COBIT 5:1
 ISO/IEC 27000-series:1
 NIST:1
 National Institute of Standards and Technology:1
-Data breach:14
+National Institute of Standards and Technology’s:1
+data breach:14
+data breaches:11

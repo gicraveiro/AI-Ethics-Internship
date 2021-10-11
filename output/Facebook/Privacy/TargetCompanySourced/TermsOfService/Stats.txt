@@ -3,9 +3,9 @@ TermsOfService
 
 
 With stop word removal 
-Size of original corpus: 4806 
-Size of filtered corpus: 2174
-Size of Lexicon: 769
+Size of original corpus: 5508 
+Size of filtered corpus: 2176
+Size of Lexicon: 770
 
 Tokens that appear in the file, alongside with their frequencies:
 facebook:79
@@ -95,6 +95,7 @@ provisions:5
 know:5
 deleted:5
 page:5
+5:5
 commercial:5
 outline:5
 email:4
@@ -138,7 +139,6 @@ post:4
 download:4
 longer:4
 changes:4
-5:4
 supplemental:4
 music:4
 advertising:4
@@ -747,7 +747,8 @@ date:1
 last:1
 revision:1
 december:1
-20 , 2020 5:1
+20:1
+2020:1
 english:1
 italiano:1
 română:1
@@ -777,7 +778,69 @@ careers:1
 cookies:1
 ©:1
 2021:1
+----------------------------------------------------------------------------------------
 
 Keywords that appear in the file, alongside with their frequencies:
-Privacy:4
+privacy:4
 consent:2
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+KEYWORD: privacy -> compound
+Descendants:
+Ancestors:
+choices -> dobj
+review -> relcl
+time -> pobj
+go -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+people -> poss
+'s -> case
+Ancestors:
+protecting -> pcomp
+
+
+ -> nsubj
+is -> ROOT
+
+KEYWORD: privacy -> pobj
+Descendants:
+your -> poss
+and -> cc
+application -> compound
+settings -> conj
+  -> appos
+Ancestors:
+create -> conj
+translate -> conj
+perform -> ROOT
+
+KEYWORD: consent -> pobj
+Descendants:
+our -> poss
+Ancestors:
+transfer -> ROOT
+
+KEYWORD: consent -> dobj
+Descendants:
+clear -> amod
+Ancestors:
+expressing -> acl
+document -> conj
+will -> pobj
+identiﬁed -> relcl
+person -> conj
+
+
+ -> appos
+  -> nsubj
+be -> ROOT
+
+KEYWORD: privacy -> dobj
+Descendants:
+Ancestors:
+careers -> advcl
+facebook -> advcl
+sign -> ROOT
