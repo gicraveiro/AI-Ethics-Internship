@@ -65,15 +65,19 @@ def parser(corpus, output_file):
     for token in corpus:
         for keyword in keywords:
             if(token.text == keyword.lower()):
-                print("\nKEYWORD:",token.text,"->", token.dep_, file=output_file)
-                print("Descendants:", file=output_file)
+                print("\n\nKEYWORD:",token.text,"->", token.dep_, file=output_file)
+                print("\nDescendants:", file=output_file)
                 for descendant in token.subtree:
                     if(descendant != token and descendant.dep_ != "det" and descendant.dep_ != "punct" and descendant.dep_ != "prep" and descendant.dep_ != "aux" and descendant.dep_ != "auxpass"):
                         print(descendant.text, "->", descendant.dep_, file=output_file)
-                print("Ancestors:",file=output_file)
+                print("\nAncestors:",file=output_file)
                 for ancestor in token.ancestors:
                     if(ancestor != token and ancestor.dep_ != "det" and ancestor.dep_ != "punct" and ancestor.dep_ != "prep" and ancestor.dep_ != "aux" and ancestor.dep_ != "auxpass"):
                         print(ancestor.text, "->", ancestor.dep_, file=output_file)
+                print("\nImmediate children:", file=output_file)
+                for child in token.children:
+                    if(child != token and child.dep_ != "det" and child.dep_ != "punct" and child.dep_ != "prep" and child.dep_ != "aux" and child.dep_ != "auxpass"):
+                        print(child.text, "->", child.dep_, file=output_file)
 
 # reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
@@ -120,8 +124,13 @@ def reconstruct_noun_chunks(corpus,keywords):
 def process_document(title, source_path,source,keywords):
     
     # CREATING OUTPUT FILES
-    stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
-    keyword_guide_path = 'output/'+source_path+'/'+title+'/KeywordGuide.txt'
+    if(len(keywords) > 1):
+        stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
+        keyword_guide_path = 'output/'+source_path+'/'+title+'/KeywordGuide.txt'
+    else:
+        stats_path = 'output/'+source_path+'/'+title+'/PrivacyOnlyStats.txt'
+        keyword_guide_path = 'output/'+source_path+'/'+title+'/PrivacyOnlyKeywordGuide.txt'
+    
     os.makedirs(os.path.dirname(stats_path), exist_ok=True)
     os.makedirs(os.path.dirname(keyword_guide_path), exist_ok=True)
     output_file = open(stats_path, 'w')
@@ -181,18 +190,30 @@ def analyse_folder(source):
 nlp = spacy.load('en_core_web_sm')
 nlp.add_pipe("merge_entities")
 
-# KEYWORDS 
-output_file = open('output/Facebook/Privacy/Keywords.txt', 'w')
-keywords_file = open('data/Utils/PrivacyKeyWords2.txt', "r", encoding='utf-8-sig')
-keywords = keywords_file.read()
-keywords = keywords.split(", ")
-keywords_file.close()
+kw_opt = int(input("Enter the preferred option:\nFor 'privacy' as the only keyword, enter 1\nFor the keywords list, enter 2\n"))
 
-print("Descriptive Statistics of Facebook Sourced Files on Privacy", file=output_file)
-print("\nKeywords:\n",file=output_file)
-for keyword in keywords:
-    print(keyword, file=output_file)
-output_file.close()
+
+# PRIVACY AS ONLY KEYWORD
+if(kw_opt == 1):
+    keywords = ['privacy']
+
+# KEYWORDS 
+elif (kw_opt == 2):
+    output_file = open('output/Facebook/Privacy/Keywords.txt', 'w')
+    keywords_file = open('data/Utils/PrivacyKeyWords2.txt', "r", encoding='utf-8-sig')
+    keywords = keywords_file.read()
+    keywords = keywords.split(", ")
+    keywords_file.close()
+
+    print("Descriptive Statistics of Facebook Sourced Files on Privacy", file=output_file)
+    print("\nKeywords:\n",file=output_file)
+    for keyword in keywords:
+        print(keyword, file=output_file)
+    output_file.close()
+else:
+    print("This was not a valid option, bye bye")
+    quit()
+
 
 #### PERFORM DESCRIPTIVE STATISTICS ON ALL DATA
 
