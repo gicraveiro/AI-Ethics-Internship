@@ -1,0 +1,428 @@
+Privacy Policy | Facebook Open Source
+
+https://opensource.fb.com/legal/privacy/
+
+Open Source
+
+Get Involved
+
+Projects
+
+Blog
+
+Showcase
+
+Media
+
+About
+
+Careers
+
+Facebook Open Source - Privacy
+Policy
+
+TABLE OF CONTENTS
+
+Collection of Information
+
+
+How We Use Information
+
+How We Share Information
+
+Your California Privacy Rights
+
+Children's Information
+
+Cookies
+
+Questions
+
+Changes To This Policy
+
+Effective Date: March 15, 2020
+
+This policy describes our practices for handling your information on this website (the
+
+"Services").
+
+
+Collection of Information
+
+1 of 7
+
+20/09/2021, 14:40
+
+Privacy Policy | Facebook Open Source
+
+https://opensource.fb.com/legal/privacy/
+
+
+When you interact with us through our Services, we may collect or receive the following
+
+types of information:
+
+types of information:
+
+Information you provide directly to us.
+For certain activities, we may collect the following
+
+• Contact information, such as name and email address; and
+
+• Information you provide us when you send us correspondence, comment on posts,
+
+subscribe to a service, or otherwise participate on the Services.
+
+
+Information we collect automatically.
+We may also collect certain information
+
+automatically when you use our Services, such as your Internet protocol (IP) address,
+
+mobile device identifier, browser type, operating system, Internet service provider, pages
+
+that you visit before and after using the Services, the date and time of your visit,
+
+information about the links you click and pages you view within the Services, and other
+
+standard server log information.
+
+
+Integrations with Social Networking and Other Services.
+Our Services allow you to enable
+
+or log in via various online services, such as Facebook, Twitter or Youtube (collectively,
+
+"platforms").
+Our Services may enable you to access these platforms directly or indirectly
+
+through our Services.
+By these platforms, we aim to make your online experiences richer
+
+and more personalized.
+When you add a platform account to our Services or log into our
+
+Services using your platform account, we may collect relevant information necessary to
+
+enable our Services to access that platform and your data that platform holds.
+We may also
+
+share your information with that platform to facilitate or enhance the delivery of that
+
+platform or our Services.
+
+
+
+As part of an integration with a platform, that platform may provide us with access to
+
+certain information that you have provided to the platform, and we will use, store, and
+
+disclose such information in accordance with this Privacy Policy.
+However, please
+
+remember that the manner in which platforms use, store, and disclose your information is
+
+governed by the policies that apply to those platforms.
+
+
+Information we obtain from other sources.
+We may receive information about you from
+
+2 of 7
+
+20/09/2021, 14:40
+
+
+Privacy Policy | Facebook Open Source
+
+https://opensource.fb.com/legal/privacy/
+
+other sources, including through third-party services and organizations, which we may
+
+combine with other information we receive about you.
+
+
+
+How We Use Information
+
+• Meet our legitimate interests,including to fulfill your requests for resources, services,
+
+and information; analyze the use of the Services and user data to understand, improve and
+
+operate the Services; and customize the content you see when you use the Services;
+
+• Meet our legal obligations,including to prevent potentially prohibited or illegal activities
+
+and otherwise in accordance with our Terms of Use and comply with legal requirements;
+
+•
+For any other purposes disclosed to you at the time we collect your information or
+
+and
+
+pursuant to your consent.
+
+
+How We Share Information
+
+
+There are certain circumstances in which we may share your information with certain third
+
+parties without further notice to you, as set forth below:
+
+• Authorized third-party vendors and service providers.
+We share your information with
+
+third-party vendors and service providers that help us with specialized services, including
+
+email deployment, business analytics, marketing, and data processing.
+These services
+
+providers are limited from using your information for any purpose other than to perform
+
+services for us.
+
+
+•
+Affiliates.
+We may share your information with our affiliates, which are companies that
+
+control, are controlled by, or are under common control with us.
+
+
+• Legal purposes.
+We may disclose information to respond to subpoenas, court orders,
+
+legal process, law enforcement requests, legal claims or government inquiries, detect fraud,
+
+and to protect and defend the rights, interests, safety, and security of Facebook, our
+
+affiliates, owner, users, or the public.
+
+
+• Business transfers.
+We may share your information in connection with a substantial
+
+corporate transaction, such as the sale of a website, a merger, consolidation, asset sale, or
+
+3 of 7
+
+20/09/2021, 14:40
+
+
+Privacy Policy | Facebook Open Source
+
+https://opensource.fb.com/legal/privacy/
+
+in the unlikely event of bankruptcy.
+
+
+•
+With your consent.
+We may share information for any other purposes disclosed to you at
+
+the time we collect the information or pursuant to your consent.
+If you choose to engage in
+
+public activities on the website, you should be aware that any information you share there
+
+can be read, collected, or used by other users of these areas.
+You should use caution in
+
+disclosing personal information while participating in these areas.
+We are not responsible
+
+for the information you choose to submit in these public areas.
+
+
+How We Protect InformationWe take measures to help protect information from loss,
+
+theft, misuse and unauthorized access, disclosure, alteration, and destruction.
+However, no
+
+data storage system or transmission of data over the Internet or any other public network
+
+can be guaranteed to be 100 percent secure.
+
+
+Please note that information collected by third parties may not have the same security
+
+protections as information you submit to us, and we are not responsible for protecting the
+
+security of such information.
+
+
+
+Your California Privacy Rights
+
+We do not share personal information with third parties for their own direct marketing
+
+purposes.
+
+
+Do-Not-Track Signals and Similar Mechanisms.
+Some web browsers transmit "do-not-
+
+track" signals to websites.
+Because of differences in how web browsers incorporate and
+
+activate this feature, it is not always clear whether users intend for these signals to be
+
+transmitted, or whether they even are aware of them.
+We currently do not take action in
+
+response to these signals.
+
+
+Children's Information
+
+Facebook does not knowingly collect or store information from children under the age of 13,
+
+unless permitted by law.
+We will delete any information we may have inadvertently received
+
+4 of 7
+
+20/09/2021, 14:40
+
+
+Privacy Policy | Facebook Open Source
+
+https://opensource.fb.com/legal/privacy/
+
+from a child under 13 upon notice.
+If you have reason to believe that a child under the age of
+
+13 has provided personal information to Facebook through our Services please contact us
+
+
+and we will endeavor to delete that information from our databases.
+
+
+Cookies
+
+
+
+We may use cookies, pixel tags, and similar technologies to automatically collect this
+
+information.
+Cookies are small bits of information that are stored by your computer’s web
+
+browser.
+Pixel tags are very small images or small pieces of data embedded in images, also
+
+known as "web beacons" or "clear GIFs," that can recognize cookies, the time and date a
+
+page is viewed, a description of the page where the pixel tag is placed, and similar
+
+information from your computer or device.
+By using the Services, you consent to our use of
+
+cookies and similar technologies.
+You may be able to refuse or disable cookies by adjusting
+
+your web browser settings.
+Because each web browser is different, please consult the
+
+instructions provided by your web browser (typically in the "help" section).
+For EU visitors,
+
+we provide a tool allows you to manage cookies you would like to receive and their relevant
+
+usage.
+
+
+Changes To This Policy
+
+
+We may update or modify this Privacy Policy at any time without prior notice.
+When we
+
+update the Privacy Policy, we will revise the "Effective Date" date above and post the new
+
+Privacy Policy.
+We recommend that you review the Privacy Policy each time you visit the
+
+Services to stay informed of our privacy practices.
+Any changes will be effective when we
+
+post the revised policy.
+Your continued use of our Services after any changes or revisions to
+
+this Privacy Policy shall indicate your agreement with the terms of such revised Privacy
+
+Policy.
+
+
+Questions
+
+
+If you have any questions about this Privacy Policy or our practices, please contact us at
+
+5 of 7
+
+20/09/2021, 14:40
+
+
+Privacy Policy | Facebook Open Source
+
+https://opensource.fb.com/legal/privacy/
+
+opensource@fb.com
+
+Site Map
+
+Projects
+
+FAQ
+
+About
+
+Get Involved
+
+Information
+
+Blog
+
+Linux
+
+Careers
+
+Connect
+
+GitHub
+
+Follow Us
+
+FB for Developers
+
+6 of 7
+
+20/09/2021, 14:40
+
+
+
+Privacy Policy | Facebook Open Source
+
+https://opensource.fb.com/legal/privacy/
+
+Code of Conduct
+
+Privacy Policy
+
+Cookies
+
+Data Policy
+
+Terms of Use
+
+Trademark Policy
+
+© 202 1  
+Faceb ook
+
+7 of 7
+
+20/09/2021, 14:40
+
+
