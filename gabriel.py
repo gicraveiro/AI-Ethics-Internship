@@ -1,4 +1,4 @@
-
+#author: gabriel roccabruna
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
@@ -19,3 +19,4 @@ sheet = service.spreadsheets()
 result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='DataPolicy!1:1000').execute()
 print(result.get('values', []))
 
+# author: giovana
