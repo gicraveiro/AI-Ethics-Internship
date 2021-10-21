@@ -2,41 +2,10 @@ import spacy
 import os
 import pdfx
 import re
-
-#author: gabriel roccabruna
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-SERVICE_ACCOUNT_FILE = 'google_key.json'
-
-creds = service_account.Credentials.from_service_account_file(
-        SERVICE_ACCOUNT_FILE, scopes=SCOPES)
-# If modifying these scopes, delete the file token.json.
-
-# The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = '12mT4Fl9t3UVW8Jx8NjA8SJPVWDNH0lnkUgb6cM3ZiyQ'
-service = build('sheets', 'v4', credentials=creds)
-sheet = service.spreadsheets()
-
-result = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='DataPolicy!A1:A1000').execute()
-values = result.get('values')
-
-#for row in values:
-#    print(row)
-#print(type(values))
-datatest = [['linha1'],['linha2']]
-#print(type(datatest))
-
-value_input_option = 'USER_ENTERED'
-sentences = {
-    'values': datatest
-}
-
-sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Teste!A1:A1000',valueInputOption=value_input_option, body=sentences).execute()
-
-
-def process_document(title, source_path,source):
+def process_document(title, source_path,source, sheet, SAMPLE_SPREADSHEET_ID):
 
     # READING AND MANIPULATING INPUT FILE
     path = 'data/'+source_path+'/'+title+'.pdf'
@@ -49,30 +18,38 @@ def process_document(title, source_path,source):
 
     for span in doc.sents:
         sentence = []
-        #print(span, file=output_file)
-        sent = re.sub("\n", " ", str(span))
-        print(sent)
+        sent = re.sub("\n", " ", str(span)) # to get DATAPOLICY3  format comment this line, and add str casting to append
         sentence.append(sent)
         values.append(sentence)
-        #print(sentence)
 
     value_input_option = 'USER_ENTERED'
     sentences = {
         'values': values
     }
 
-    sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='DataPolicy2!A1:A1000',valueInputOption=value_input_option, body=sentences).execute()
+    sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='DataPolicy2!B1:B1000',valueInputOption=value_input_option, body=sentences).execute()
 
-    
 
-    #output_file.close()
+# If modifying these scopes, delete the file token.json.
+SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+SERVICE_ACCOUNT_FILE = 'google_key.json'
+
+creds = service_account.Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+
+# The ID and range of a sample spreadsheet.
+SAMPLE_SPREADSHEET_ID = '12mT4Fl9t3UVW8Jx8NjA8SJPVWDNH0lnkUgb6cM3ZiyQ'
+service = build('sheets', 'v4', credentials=creds)
+sheet = service.spreadsheets()
 
 nlp = spacy.load('en_core_web_sm')
 
-path='Facebook/Privacy/TargetCompanySourced'
+path='Facebook/Privacy/TargetCompanySourced' # TO ADD DIFFERENT DOCUMENTS, REMOVE PART AFTER LAST /
 source='TargetCompanySourced'
 
-for filename in os.listdir('data/'+path):
-    print(filename)
-    file_name, file_extension = os.path.splitext(filename)
-    if(filename == 'DataPolicy.pdf'): process_document(file_name, path, source)
+process_document('DataPolicy', path, source, sheet, SAMPLE_SPREADSHEET_ID)
+
+#for filename in os.listdir('data/'+path):
+#    print(filename)
+#    file_name, file_extension = os.path.splitext(filename)
+#    if(filename == 'DataPolicy.pdf'): process_document(file_name, path, source, sheet, SAMPLE_SPREADSHEET_ID)
