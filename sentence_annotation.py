@@ -1,6 +1,7 @@
 import spacy
 import os
 import pdfx
+import re
 
 #author: gabriel roccabruna
 from googleapiclient.discovery import build
@@ -36,14 +37,7 @@ sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Teste!A1:A1000
 
 
 def process_document(title, source_path,source):
-    
-    # CREATING OUTPUT FILES
-    #sentences_path = 'output/'+source_path+'/'+title+'/Sentences.txt'
-    
-    #os.makedirs(os.path.dirname(sentences_path), exist_ok=True)
-    #output_file = open(sentences_path, 'w')
-    #print("\n"+title+"\n", file=output_file)
-    
+
     # READING AND MANIPULATING INPUT FILE
     path = 'data/'+source_path+'/'+title+'.pdf'
     input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
@@ -56,7 +50,9 @@ def process_document(title, source_path,source):
     for span in doc.sents:
         sentence = []
         #print(span, file=output_file)
-        sentence.append(str(span))
+        sent = re.sub("\n", " ", str(span))
+        print(sent)
+        sentence.append(sent)
         values.append(sentence)
         #print(sentence)
 
@@ -65,7 +61,7 @@ def process_document(title, source_path,source):
         'values': values
     }
 
-    sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Teste!A1:A1000',valueInputOption=value_input_option, body=sentences).execute()
+    sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='DataPolicy2!A1:A1000',valueInputOption=value_input_option, body=sentences).execute()
 
     
 
