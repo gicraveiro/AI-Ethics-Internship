@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ai-ethics-internship",
+  "private_key_id": "f10a56adeb5161ff29c818a7b617f1bc70df13a8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5pQCddKlP0y7M\nq1wwvT+IBNQFjDvK5oOwzUsR/r/sVlvOps5/9SEwkzlsiOcd0hVVpZUzOi0IgS2w\n5kgd2wfEabkOmlhvga0mknbo31Pu0T8+gbYm0cIIHQsL9G0XaAGjbDB1Xv8ftAtt\n0IQWy18eO8HQEm7Offse2p8VJMDw0UsgCFBY+6aD+3k/qEMJEBe4e1qYA1mr+j6l\nAYS16nRN/68aHQYf5OMooDfT/5uF2fw6MvxQZPdQ8K9Wi4/AHdqs3daajZ0JsGr5\n9LQVQeLk14dEVYiFED/vINJ0X93VJOXA9z6pBCDam5jTDgKUU7zZIAndAHLX6ynZ\nC8vXqbmrAgMBAAECggEAWC076A4H947m3TcNcGcLXJdyf3oW0m6AIYO5QwBd96sj\nKzpGvjdX/uMG9Prnz92/3XDrN6xLxIza/3m5yliFTXEsAXglRj1xWW9bBIxDKR2B\nbTaeJr0d7M2iuBhukp4HnTBfqfgntM7HWO8gNlV9xfX7PlHrCLCFDSgpRJky/Y6S\ndrjXkQY1MQrNtbBe6gSzLl66FkABvkmQ69Bqs194ejTFKY2Bi2R2dteVN5eNJX4y\n2dwDFMs6JhhsCkQqzt7W4/TKh5E0Wfet4Wneu+HFKwxxsMik4PL9kcKLdkveso5D\n6DEtwv/IFtk79CvSBmfQSmjLDFjsF8x6cBoLy1/DYQKBgQD7E+nIwjoYoHelNWL2\nwCGWQtfRJDzMHS7+zLCmD2DuJDRzIdY39XNJ9CSPJ5nX0EVjlo0VpgjyDZl3mTuD\n5Jk5nRfDVgLeTEcx6uf+Q1/L1Zv0bx6WCHqHav2cGRBEBvRlyOJR2ulAEr/Ro4aJ\n5Z70yPYToKL6R0U1xytsHzLtCwKBgQC9SLLa2XmUkqDKgjNEHYMizhvmNe0qIbI+\nII1xe60yYUui4cp1QdptMSCU/Odmsh6TRL2KlU21CzL7VkO69Tu1iXEcALVtnPJW\nnn1681izL1egsDqKLVb2pW9716Rylf3BD+sQu/NBFAjWvwbt1+wFM9OU6YE0YeHN\nKmihK/YJ4QKBgQDMRf9G3v71Wlj9iNnjd53b6rY76ges6XF6zH5MHOb32Wzy3uyy\nynfqC0BTWBzKgSBzTeGrY1KT3IynyXuqaypevXi/7BKZWeXyrvPg4l/mLvybemyg\nFHXcBygfACVDs4TT6wR3JGvxPU/i9/BV8QPKlFXg0ijHB4U/o7OoXBnK0QKBgB/O\nyKd4JjMuVLDTIlRO9UtzAUM1Sq5qzS4dgEdSti8iJHixorkDoPX6bHQ875HVWsf6\npDNWlaFXyXBs9aLENQ1zlDtVbyeFWT/vED0KCZzK1tnc42l25wc5k7tm6G6NAABi\ncWj1fJIyEK4tmbd8MmBJbkO23Yx06mH0v3JeFdFhAoGBAL1g3FwWR8jkynlElcuk\nayH7jjWtuNsCIRyr6l9JnVCSH41B7DSKh4ZVdDn0HD8pZ7Wa0WRpTi32aCio9Azg\nVYXL0pJZleUNdXmeoEwd7sfcR+1PbjYMIwj5tHCXH6yG74ttzJtQUSLglrylOqfs\nunGP58oM6GWiRscKjRbpnKZH\n-----END PRIVATE KEY-----\n",
+  "client_email": "ai-ethics-internship@ai-ethics-internship.iam.gserviceaccount.com",
+  "client_id": "108341794935764815334",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ai-ethics-internship%40ai-ethics-internship.iam.gserviceaccount.com"
+}
