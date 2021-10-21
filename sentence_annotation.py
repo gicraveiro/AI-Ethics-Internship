@@ -23,9 +23,9 @@ values = result.get('values')
 
 #for row in values:
 #    print(row)
-print(type(values))
+#print(type(values))
 datatest = [['linha1'],['linha2']]
-print(type(datatest))
+#print(type(datatest))
 
 value_input_option = 'USER_ENTERED'
 sentences = {
@@ -38,10 +38,10 @@ sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Teste!A1:A1000
 def process_document(title, source_path,source):
     
     # CREATING OUTPUT FILES
-    sentences_path = 'output/'+source_path+'/'+title+'/Sentences.txt'
+    #sentences_path = 'output/'+source_path+'/'+title+'/Sentences.txt'
     
-    os.makedirs(os.path.dirname(sentences_path), exist_ok=True)
-    output_file = open(sentences_path, 'w')
+    #os.makedirs(os.path.dirname(sentences_path), exist_ok=True)
+    #output_file = open(sentences_path, 'w')
     #print("\n"+title+"\n", file=output_file)
     
     # READING AND MANIPULATING INPUT FILE
@@ -51,17 +51,32 @@ def process_document(title, source_path,source):
 
     doc = nlp(input_file)
 
-    for span in doc.sents:
-        print(span, file=output_file)
+    values = []
 
-    output_file.close()
+    for span in doc.sents:
+        sentence = []
+        #print(span, file=output_file)
+        sentence.append(str(span))
+        values.append(sentence)
+        #print(sentence)
+
+    value_input_option = 'USER_ENTERED'
+    sentences = {
+        'values': values
+    }
+
+    sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Teste!A1:A1000',valueInputOption=value_input_option, body=sentences).execute()
+
+    
+
+    #output_file.close()
 
 nlp = spacy.load('en_core_web_sm')
 
-#path='Facebook/Privacy/TargetCompanySourced'
-#source='TargetCompanySourced'
+path='Facebook/Privacy/TargetCompanySourced'
+source='TargetCompanySourced'
 
-#for filename in os.listdir('data/'+path):
-#    print(filename)
-#    file_name, file_extension = os.path.splitext(filename)
-#    process_document(file_name, path, source)
+for filename in os.listdir('data/'+path):
+    print(filename)
+    file_name, file_extension = os.path.splitext(filename)
+    if(filename == 'DataPolicy.pdf'): process_document(file_name, path, source)
