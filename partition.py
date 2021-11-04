@@ -4,6 +4,7 @@ import re
 from sklearn.model_selection import train_test_split
 import os
 import json
+from collections import Counter
 annotation = pd.read_csv("data/Facebook/Privacy/Annotated/fbAnnotation.csv")
 sents = annotation['Sentences'].values
 labels = annotation['Labels'].values
@@ -39,3 +40,43 @@ path = 'output/partition/fbdata_test.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open('output/partition/fbdata_test.txt', 'w') as test_file:
     test_file.write(json.dumps(test_dict, indent=4, ensure_ascii=False))
+
+with open('output/partition/fbdata_train.txt', 'r') as train_file:
+    json_obj_train = json.loads(train_file.read())
+    train_count = []
+    for i in json_obj_train:
+        item = i['label']
+        train_count.append(item)
+    print(Counter(train_count))
+with open('output/partition/fbdata_test.txt', 'r') as test_file:
+    json_obj_test = json.loads(test_file.read())
+    test_count = []
+    for i in json_obj_test:
+        item = i['label']
+        test_count.append(item)
+    print(Counter(test_count))
+with open('output/partition/fbdata_dev.txt', 'r') as dev_file:
+    json_obj_dev = json.loads(dev_file.read())
+    dev_count = []
+    for i in json_obj_dev:
+        item = i['label']
+        dev_count.append(item)
+    print(Counter(dev_count))
+    
+sum = Counter(train_count)+Counter(test_count)+Counter(dev_count)
+print(sum)
+
+i=0
+
+for item, sum_item in zip(Counter(train_count).items(), Counter(sum).items()):
+    print(sum_item)
+    print(float(item[1])/float(sum_item[1])*100,'\n')
+
+for item, sum_item in zip(Counter(dev_count).items(), Counter(sum).items()):
+    print(sum_item)
+    print(float(item[1])/float(sum_item[1])*100,'\n')
+
+for item, sum_item in zip(Counter(test_count).items(), Counter(sum).items()):
+    print(sum_item)
+    print(float(item[1])/float(sum_item[1])*100,'\n')
+    
