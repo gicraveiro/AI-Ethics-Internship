@@ -19,6 +19,7 @@ def process_document(title, source_path,source, sheet, SAMPLE_SPREADSHEET_ID):
     for span in doc.sents:
         sentence = []
         #sent = re.sub("\n", " ", str(span)) # to get DATAPOLICY3  format comment this line, and add str casting to append
+        #span = re.sub("\n\n", " ", str(span))
         sentence.append(str(span))
         values.append(sentence)
 
@@ -27,7 +28,7 @@ def process_document(title, source_path,source, sheet, SAMPLE_SPREADSHEET_ID):
         'values': values
     }
 
-    sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range=title+'!A1:A1000',valueInputOption=value_input_option, body=sentences).execute()
+    sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!A2:A2000',valueInputOption=value_input_option, body=sentences).execute()#title
 
 
 # If modifying these scopes, delete the file token.json.
@@ -48,9 +49,9 @@ nlp = spacy.load('en_core_web_sm')
 path='Facebook/Privacy/TargetCompanySourced' # TO ADD DIFFERENT DOCUMENTS, REMOVE PART AFTER LAST /
 source='TargetCompanySourced'
 
-#process_document('DataPolicy', path, source, sheet, SAMPLE_SPREADSHEET_ID)
+process_document('DataPolicy', path, source, sheet, SAMPLE_SPREADSHEET_ID)
 
-for filename in os.listdir('data/'+path):
-    print(filename)
-    file_name, file_extension = os.path.splitext(filename)
-    if(filename != 'DataPolicy.pdf'):  process_document(file_name, path, source, sheet, SAMPLE_SPREADSHEET_ID)
+#for filename in os.listdir('data/'+path):
+#    print(filename)
+#    file_name, file_extension = os.path.splitext(filename)
+#    process_document(file_name, path, source, sheet, SAMPLE_SPREADSHEET_ID)
