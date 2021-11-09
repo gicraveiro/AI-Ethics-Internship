@@ -67,16 +67,18 @@ sum = Counter(train_count)+Counter(test_count)+Counter(dev_count)
 print(sum)
 
 i=0
-
+print(" Train set")
 for item, sum_item in zip(Counter(train_count).items(), Counter(sum).items()):
-    print(sum_item)
-    print(float(item[1])/float(sum_item[1])*100,'\n')
+    print(item, sum_item)
+    print(round(float(item[1])/float(sum_item[1])*100, 2),'\n')
 
+print("Dev set")
 for item, sum_item in zip(Counter(dev_count).items(), Counter(sum).items()):
-    print(sum_item)
-    print(float(item[1])/float(sum_item[1])*100,'\n')
+    print(item, sum_item)
+    print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
 
+print("Test set")
 for item, sum_item in zip(Counter(test_count).items(), Counter(sum).items()):
-    print(sum_item)
-    print(float(item[1])/float(sum_item[1])*100,'\n')
+    print(item, sum_item)
+    print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
     
