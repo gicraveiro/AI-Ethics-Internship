@@ -1,7 +1,9 @@
 import json
 import os
 import re # regular expressions
-from sklearn.metrics import precision_score, confusion_matrix, f1_score
+from sklearn.metrics import precision_score, confusion_matrix, f1_score, ConfusionMatrixDisplay, recall_score
+import matplotlib.pyplot as plt
+import collections
 #from sklearn.metrics import a
 
 # Read input sentences
@@ -13,7 +15,32 @@ with open(path) as file:
     document = file.read()
     json_sentences_ref = json.loads(document)
 
+
 ref_array = [sent['label'] for sent in json_sentences_ref]
+counter = collections.Counter(ref_array)
+tot_sents = len(ref_array)
+distr_violation = round (ref_array.count('Violate privacy')/tot_sents, 2)
+distr_commit = round( ref_array.count('Commit to privacy')/tot_sents, 2)
+distr_related = round (ref_array.count('Related to privacy')/tot_sents, 2)
+distr_opinion = round(ref_array.count('Declare opinion about privacy')/tot_sents, 2)
+distr_notApp = round(ref_array.count('Not applicable')/tot_sents, 2)
+count_violation = ref_array.count('Violate privacy')
+count_commit = ref_array.count('Commit to privacy')
+count_related = ref_array.count('Related to privacy')
+count_opinion = ref_array.count('Declare opinion about privacy')
+count_notApp = ref_array.count('Not applicable')
+
+#ref_array.value_counts()[:20].plot(kind='barh')
+#plt.plot(dict(counter))
+plt.xticks(rotation=45, ha="right")
+plt.bar(counter.keys(), counter.values())
+plt.subplots_adjust(bottom=0.4)
+plt.savefig('output/Simple Classifier/distribution.jpg')
+
+
+print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n')
+
+#print('Distribution of labels\nViolate privacy:', count_violation,'\nCommit to privacy:', count_commit,'\nOpinion about privacy:',count_opinion, '\nRelated to privacy:', count_related, '\nNot applicable:', count_notApp,'\n')
 
 # DEBUG PRINTS
 #for sentence in json_sentences:
@@ -55,17 +82,42 @@ with open(path) as file:
 
 pred_array = [sent['label'] for sent in json_sentences_predicted]
 
-confusion_matr = confusion_matrix(ref_array,pred_array)
-precision = precision_score(ref_array, pred_array, average=None)
+#confusion_matr = confusion_matrix(ref_array,pred_array, normalize="true")
+ConfusionMatrixDisplay.from_predictions(ref_array,pred_array, normalize="true")
+plt.xticks(rotation=45, ha="right")
+plt.subplots_adjust(bottom=0.4)
+#plt.show()
+plt.savefig('output/Simple Classifier/confusion_matrix.jpg')
+tmp = sorted(list(set(ref_array)))
+print(tmp)
+precision = precision_score(ref_array, pred_array,labels=tmp, average=None) # ['Violate privacy', 'Commit to privacy', 'Opinion about privacy', 'Related to privacy', 'Not applicable']
+precision_micro = precision_score(ref_array, pred_array, average='micro')
+#precision_macro = precision_score(ref_array, pred_array, average='macro')
+recall = recall_score(ref_array, pred_array, average=None)
+recall_micro = recall_score(ref_array, pred_array, average='micro')
+f1score = f1_score(ref_array, pred_array, average=None)
 f1score_global = f1_score(ref_array, pred_array, average='micro')
 f1score_individual = f1_score(ref_array, pred_array, average='macro')
-f1score_weighted = f1_score(ref_array, pred_array, average='weighted')
+#f1score_weighted = f1_score(ref_array, pred_array, average='weighted')
 
-print(confusion_matr)
-print(precision)
-print(f1score_global)
-print(f1score_individual)
-print(f1score_weighted)
+
+#print('Confusion matrix:\n',confusion_matr)
+print('Precision:',precision)
+print('Precision:',precision_micro)
+print('Recall:',recall)
+print('Recall micro:',recall_micro)
+print('F1 Score:', f1score)
+print('F1 Score micro:', f1score_global)
+print('F1 Score macro:', f1score_individual)
+#print('F1 Score weighted:', f1score_weighted)
+
+
+# TO DO:
+
+# MAKE LABELS READABLE
+# salvare csv direttamente? con tutti gli statistiche
+
+
 '''
 total_tp = 0
 violate_tp = 0
