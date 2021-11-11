@@ -1,0 +1,31 @@
+Results statistics
+
+Recall
+
+Violate privacy
+ 34 / 79 
+ Commit to privacy
+ 59 / 139 
+ Opinion about privacy
+ 0 / 10 
+ Related to privacy
+ 74 / 128 
+ Not applicable
+ 244 / 342 
+Total
+ 411 / 698 
+
+Precision
+
+Violate privacy
+ 34 / 91 
+ Commit to privacy
+ 59 / 105 
+ Opinion about privacy
+ 0 / 5 
+ Related to privacy
+ 74 / 200 
+ Not applicable
+ 244 / 297 
+Total
+ 411 / 698

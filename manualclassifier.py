@@ -1,6 +1,8 @@
 import json
 import os
 import re # regular expressions
+from sklearn.metrics import precision_score, confusion_matrix, f1_score
+#from sklearn.metrics import a
 
 # Read input sentences
 path = 'output/partition/fbdata_complete.json'
@@ -10,6 +12,8 @@ json_sentences = []
 with open(path) as file:
     document = file.read()
     json_sentences_ref = json.loads(document)
+
+ref_array = [sent['label'] for sent in json_sentences_ref]
 
 # DEBUG PRINTS
 #for sentence in json_sentences:
@@ -47,8 +51,22 @@ with open('output/Simple Classifier/fbdata_complete.json', 'w') as train_file:
 
 with open(path) as file:
     document = file.read()
-    json_sentences_result = json.loads(document)
+    json_sentences_predicted = json.loads(document)
 
+pred_array = [sent['label'] for sent in json_sentences_predicted]
+
+confusion_matr = confusion_matrix(ref_array,pred_array)
+precision = precision_score(ref_array, pred_array, average=None)
+f1score_global = f1_score(ref_array, pred_array, average='micro')
+f1score_individual = f1_score(ref_array, pred_array, average='macro')
+f1score_weighted = f1_score(ref_array, pred_array, average='weighted')
+
+print(confusion_matr)
+print(precision)
+print(f1score_global)
+print(f1score_individual)
+print(f1score_weighted)
+'''
 total_tp = 0
 violate_tp = 0
 commit_tp = 0
@@ -68,8 +86,8 @@ opinion_fn = 0
 related_fn = 0
 nonAp_fn = 0
 
-for sent_ref, sent_result in zip(json_sentences_ref, json_sentences_result):
-    if sent_ref['label'] == sent_result['label']:
+for sent_ref, sent_predicted in zip(json_sentences_ref, json_sentences_predicted):
+    if sent_ref['label'] == sent_predicted['label']:
         total_tp += 1
         if sent_ref['label'] == 'Violate privacy':
             violate_tp += 1
@@ -95,21 +113,23 @@ for sent_ref, sent_result in zip(json_sentences_ref, json_sentences_result):
         else:
             nonAp_fn += 1
         
-        if sent_result['label'] == 'Violate privacy':
+        if sent_predicted['label'] == 'Violate privacy':
             violate_fp += 1
-        elif sent_result['label'] == 'Commit to privacy':
+        elif sent_predicted['label'] == 'Commit to privacy':
             commit_fp += 1
-        elif sent_result['label'] == 'Declare opinion about privacy':
+        elif sent_predicted['label'] == 'Declare opinion about privacy':
             opinion_fp += 1
-        elif sent_result['label'] == 'Related to privacy':
+        elif sent_predicted['label'] == 'Related to privacy':
             related_fp += 1
         else:
             nonAp_fp += 1
 
+
 path = 'output/Simple Classifier/StatsWholeDataset.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open('output/Simple Classifier/StatsWholeDataset.txt', 'w') as stats_output:
-    print('Results statistics\n', file=stats_output)
+    print('Resulted statistics\n', file=stats_output)
 #print('Recall\n\nViolate privacy\n',violate_tp,'/79\n','Commit to privacy\n',commit_tp,'/139\n','Opinion about privacy\n',opinion_tp,'/14\n','Related to privacy\n',related_tp,'/128\n','Not applicable\n',nonAp_tp,'/338\n','Total\n',total_tp,'/698\n')
     print('Recall\n\nViolate privacy\n',violate_tp,'/',violate_fn+violate_tp,'\n','Commit to privacy\n',commit_tp,'/',commit_fn+commit_tp,'\n','Opinion about privacy\n',opinion_tp,'/',opinion_fn+opinion_tp,'\n','Related to privacy\n',related_tp,'/',related_fn+related_tp,'\n','Not applicable\n',nonAp_tp,'/',nonAp_fn+nonAp_tp,'\nTotal\n',total_tp,'/',total_fn+total_tp,'\n', file=stats_output)
     print('Precision\n\nViolate privacy\n',violate_tp,'/',violate_fp+violate_tp,'\n','Commit to privacy\n',commit_tp,'/',commit_fp+commit_tp,'\n','Opinion about privacy\n',opinion_tp,'/',opinion_fp+opinion_tp,'\n','Related to privacy\n',related_tp,'/',related_fp+related_tp,'\n','Not applicable\n',nonAp_tp,'/',nonAp_fp+nonAp_tp,'\nTotal\n',total_tp,'/',total_fp+total_tp, file=stats_output)
+    '''
