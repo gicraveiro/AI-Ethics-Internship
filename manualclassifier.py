@@ -136,6 +136,7 @@ sheet = service.spreadsheets()
 value_input_option = 'USER_ENTERED'
 
 values = [] # list, TO DO: ADD STUFF IN IT? CHANGE TO CSV APPROACH OF WRITING MAYBE?
+values.append(['Testing 1,2,3'])
 sentences = {
         'values': values
     }
