@@ -136,12 +136,12 @@ sheet = service.spreadsheets()
 value_input_option = 'USER_ENTERED'
 
 values = [] # list, TO DO: ADD STUFF IN IT? CHANGE TO CSV APPROACH OF WRITING MAYBE?
-values.append(['Testing 1,2,3'])
+values.append(precision)
 sentences = {
         'values': values
     }
 
-sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!A2:A2000',valueInputOption=value_input_option, body=sentences).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!A2:F500',valueInputOption=value_input_option, body=sentences).execute()
 
 
 #print('Confusion matrix:\n',confusion_matr)
