@@ -4,10 +4,13 @@ import re # regular expressions
 from sklearn.metrics import precision_score, confusion_matrix, f1_score, ConfusionMatrixDisplay, recall_score
 import matplotlib.pyplot as plt
 import collections
+import csv
+from googleapiclient.discovery import build
+from google.oauth2 import service_account
 #from sklearn.metrics import a
 
 # Read input sentences
-path = 'output/partition/fbdata_complete.json'
+path = 'output/partition/fbdata_test.json'
 
 json_sentences = []
 
@@ -71,9 +74,9 @@ for sentence in json_sentences_ref:
 #print(output_dict)
 
 # WRITE OUTPUT
-path = 'output/Simple Classifier/fbdata_complete.json'
+path = 'output/Simple Classifier/fbdata_test.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/Simple Classifier/fbdata_complete.json', 'w') as train_file:
+with open('output/Simple Classifier/fbdata_test.json', 'w') as train_file:
     train_file.write(json.dumps(output_dict, indent=4, ensure_ascii=False))
 
 with open(path) as file:
@@ -88,9 +91,9 @@ plt.xticks(rotation=45, ha="right")
 plt.subplots_adjust(bottom=0.4)
 #plt.show()
 plt.savefig('output/Simple Classifier/confusion_matrix.jpg')
-tmp = sorted(list(set(ref_array)))
-print(tmp)
-precision = precision_score(ref_array, pred_array,labels=tmp, average=None) # ['Violate privacy', 'Commit to privacy', 'Opinion about privacy', 'Related to privacy', 'Not applicable']
+labels = sorted(list(set(ref_array)))
+#print(labels)
+precision = precision_score(ref_array, pred_array,labels=labels, average=None) # 
 precision_micro = precision_score(ref_array, pred_array, average='micro')
 #precision_macro = precision_score(ref_array, pred_array, average='macro')
 recall = recall_score(ref_array, pred_array, average=None)
@@ -99,6 +102,45 @@ f1score = f1_score(ref_array, pred_array, average=None)
 f1score_global = f1_score(ref_array, pred_array, average='micro')
 f1score_individual = f1_score(ref_array, pred_array, average='macro')
 #f1score_weighted = f1_score(ref_array, pred_array, average='weighted')
+
+precision = precision.tolist()
+recall = recall.tolist()
+f1score = f1score.tolist()
+#print(type(labels))
+#print(precision.tolist())
+
+with open('output/Simple Classifier/SimpleClassifierStats.csv', 'w') as csvfile:
+    filewriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    labels.insert(0, 'Classes')
+    precision.insert(0, 'Precision')
+    recall.insert(0, 'Recall')
+    f1score.insert(0, 'F1 Score')
+    #print(type(labels), labels)
+    filewriter.writerow(labels)
+    filewriter.writerow(precision)
+    filewriter.writerow(recall)
+    filewriter.writerow(f1score)
+
+# If modifying these scopes, delete the file token.json.
+SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+SERVICE_ACCOUNT_FILE = 'google_key.json'
+
+creds = service_account.Credentials.from_service_account_file(
+        SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+
+# The ID and range of a sample spreadsheet.
+#SAMPLE_SPREADSHEET_ID = '12mT4Fl9t3UVW8Jx8NjA8SJPVWDNH0lnkUgb6cM3ZiyQ'
+SAMPLE_SPREADSHEET_ID = '1trg0bot87WtOALsxiiEIVYX6VW6mIBr90GrsY-t2jRw'
+service = build('sheets', 'v4', credentials=creds)
+sheet = service.spreadsheets()
+value_input_option = 'USER_ENTERED'
+
+values = [] # list, TO DO: ADD STUFF IN IT? CHANGE TO CSV APPROACH OF WRITING MAYBE?
+sentences = {
+        'values': values
+    }
+
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!A2:A2000',valueInputOption=value_input_option, body=sentences).execute()
 
 
 #print('Confusion matrix:\n',confusion_matr)
@@ -114,8 +156,9 @@ print('F1 Score macro:', f1score_individual)
 
 # TO DO:
 
-# MAKE LABELS READABLE
+# MAKE LABELS READABLE - DONE
 # salvare csv direttamente? con tutti gli statistiche
+# CHANGE TO TEST SET!! - DONE
 
 
 '''
@@ -185,3 +228,5 @@ with open('output/Simple Classifier/StatsWholeDataset.txt', 'w') as stats_output
     print('Recall\n\nViolate privacy\n',violate_tp,'/',violate_fn+violate_tp,'\n','Commit to privacy\n',commit_tp,'/',commit_fn+commit_tp,'\n','Opinion about privacy\n',opinion_tp,'/',opinion_fn+opinion_tp,'\n','Related to privacy\n',related_tp,'/',related_fn+related_tp,'\n','Not applicable\n',nonAp_tp,'/',nonAp_fn+nonAp_tp,'\nTotal\n',total_tp,'/',total_fn+total_tp,'\n', file=stats_output)
     print('Precision\n\nViolate privacy\n',violate_tp,'/',violate_fp+violate_tp,'\n','Commit to privacy\n',commit_tp,'/',commit_fp+commit_tp,'\n','Opinion about privacy\n',opinion_tp,'/',opinion_fp+opinion_tp,'\n','Related to privacy\n',related_tp,'/',related_fp+related_tp,'\n','Not applicable\n',nonAp_tp,'/',nonAp_fp+nonAp_tp,'\nTotal\n',total_tp,'/',total_fp+total_tp, file=stats_output)
     '''
+
+    ## ADABOOST  CLASSIFIER SKLEARN LIBRARY
