@@ -5,9 +5,20 @@ from sklearn.model_selection import train_test_split
 import os
 import json
 from collections import Counter
-annotation = pd.read_csv("data/Facebook/Privacy/Annotated/fbAnnotation.csv")
+import math
+#annotation = pd.read_csv("data/Facebook/Privacy/Annotated/fbAnnotation.csv")
+annotation = pd.read_csv("data/Facebook/Privacy/Annotated/AnnotatedMultiLabelDataset.csv")
 sents = annotation['Sentences'].values
-labels = annotation['Labels'].values
+labels1 = annotation['Primary Label'].values
+labels2 = annotation['Secondary Label'].values
+labels = []
+for l1,l2 in zip(labels1,labels2):
+    row_labels = []
+    row_labels.append(l1)
+    if (type(l2) == str):
+        row_labels.append(l2)
+    labels.append(row_labels)
+
 sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels)
 
 # save a json, separate labels and sents, use a dictionary in python
@@ -15,6 +26,7 @@ train_dict = []
 for row_id,row in enumerate(sents_train):
     row = re.sub("\n", " ", row)
     train_dict.append({"text":row.strip(), "label":labels_train[row_id]})
+    #print(train_dict[row_id])
 
 sents_dev, sents_test, labels_dev, labels_test = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test)
 
@@ -27,6 +39,7 @@ for row_id,row in enumerate(sents_test):
     row = re.sub("\n", " ", row)
     test_dict.append({"text":row.strip(), "label":labels_test[row_id]})
 
+'''
 # create output files
 path = 'output/partition/fbdata_train.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -82,3 +95,4 @@ for item, sum_item in zip(Counter(test_count).items(), Counter(sum).items()):
     print(item, sum_item)
     print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
     
+'''
