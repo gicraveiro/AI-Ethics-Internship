@@ -1,0 +1,424 @@
+[
+    {
+        "text": "We may place cookies on your computer or device and receive information stored in cookies when you use or visit:  ▪",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "You are free to share your content with anyone else, wherever you want.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "6.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Log",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We   also   conﬁrm   which  Facebook ads led you to make a purchase or take an action with an advertiser.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "Information collected by these third-party services is subject to their own terms and policies, not this one.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "• Not share your password, give access to your Facebook account to others, or transfer your account to anyone else (without our  permission).",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "• Create only one account (your own) and use your timeline for personal purposes.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "The types of information we collect depend on how you use our Products.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "•",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Children's Information  Facebook does not knowingly collect or store information from children under the age of 13,  unless permitted by law.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "Sardu Deutsch Español Shqip  ﺍﻟﻌﺮﺑﻴﺔ  Português (Brasil)  िह�दी",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Protecting Privacy and Security | About Facebook  https://about.facebook.com/actions/protecting-privacy-...",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We share data with other Facebook Companies when we detect misuse or harmful conduct by someone using one of our Products.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "We collaborate with partners across the  industry to help establish best practices for data security and portability.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "We’ve  dramatically  decreased the  amount of  information  other apps can  request from  remain private.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "Secure Data Storage  Bug Bounty Program",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "people’s privacy  hood look at the  Data for",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "For example, when you play a game with your Facebook friends or use a  Facebook Comment or Share button on a website, the game developer or website can receive information about your activities in the game or receive a comment or link that you share from the website on Facebook.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "If we introduce  face-recognition technology to your Instagram experience, we will let you know ﬁrst, and you will have control over whether we use this technology for you.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "T T E R  D",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "•",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Developer Payment Terms: These terms apply to developers of applications that use Facebook Payments.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "• Device signals: Bluetooth signals, and information about nearby Wi-Fi access points, beacons, and cell towers.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "VIII.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Update  We’re providing  an under-the-  work we’re  doing to build a  global privacy  program and  sharing our  ongoing privacy  efforts through  investments to  our COVID-19  support us now  initiatives.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "5 of 10  20/09/2021, 14:41  \fProtecting Privacy and Security | About Facebook",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "• We've previously disabled your account for breaches of our Terms or Policies.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Because each web browser is different, please consult the  instructions provided by your web browser (typically in the \"help\" section).",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "Unlike cookies that are set on Facebook's own domains, these cookies aren’t accessible by Facebook when you're on a site other than the one on which they were set, including when you are on one of our domains.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "Learn more about how we select and personalize ads, and your choices over the data we use to select ads and other sponsored content for you in the Facebook Settings and Instagram Settings.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "You therefore agree not to engage in the conduct described  below (or to facilitate or support others in doing so):  1.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "For example, we can suggest that you join a group on Facebook that includes people you follow  on Instagram or communicate with using Messenger.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "A T A",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Personalized Advertising and Privacy Are Not at Odds",
+        "label": [
+            "Declare opinion about privacy"
+        ]
+    },
+    {
+        "text": "We use cookies if you have a Facebook account, use the Facebook Products, including our website and apps, or visit other websites and apps that use the Facebook Products (including the Like button or other Facebook Technologies).",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "that",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "L I T Y",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "For example, other companies’ cookies help tailor ads oﬀ of Facebook, measure their performance and eﬀectiveness and support marketing and analytics.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "G I V I N G   Y",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "For example: Cookies can help us identify and impose additional security measures when someone may be attempting to access a Facebook account without authorisation, for instance, by rapidly guessing diﬀerent passwords.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "Facebook  https://www.facebook.com/about/privacy/update/printable  Sign Up  Email or Phone  Password  Forgot account?",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We also partner to improve  security standards across the industry.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "We also provide information and content to research partners and academics to conduct research that advances scholarship and innovation that support our business or mission, and enhances discovery and innovation on topics of general social  welfare, technological advancement, public interest, health and well-being.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "We share information about you with companies that aggregate it to provide analytics and measurement reports to our  Partners oﬀering goods and services in our Products.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "You have controls over the types of ads and advertisers you see, and the types of information we use to determine which ads we show you.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "When you delete your account, we delete things you have posted, such as your photos and status updates, and you won't be able to recover that information later.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "ensure your  messages  Restricted Partner App",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We use the information we have to deliver our Products, including to personalize features and content (including your News  Feed, Instagram Feed, Instagram Stories and ads) and make suggestions for you (such as groups or events you may be  interested in or topics you may want to follow) on and oﬀ our Products.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "Digital Advertising Alliance of Canada ▪ European Interactive Digital Advertising Alliance  Browser cookie controls:",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "F E A T",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "If we determine that you have clearly, seriously or repeatedly breached our Terms or Policies, including in particular our  Community Standards, we may suspend or permanently disable access to your account.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Privacy",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We collect and use your personal data in order to provide the services described above to you.",
+        "label": [
+            "Violate privacy",
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "There are certain circumstances in which we may share your information with certain third  parties without further notice to you, as set forth below:  • Authorized third-party vendors and service providers.",
+        "label": [
+            "Commit to privacy",
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "Where do we use cookies?",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We allow advertisers to tell us things like their business goal,  and the kind of audience they want to see their ads (for example, people between the age of 18-35 who like cycling).",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "These Terms do not confer any third-party beneﬁciary rights.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Our bottom line is getting this right for people.",
+        "label": [
+            "Declare opinion about privacy"
+        ]
+    },
+    {
+        "text": "Learn more about these legal bases and how they relate to the ways in which we process data.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "II.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "3.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Facebook Platform Policy: These guidelines outline the policies that apply to your use of our Platform (for example, for developers or  operators of a Platform application or website or if you use social plugins).",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "For example, when you search for something on Facebook, you can access and  delete that query from within your search history at any time, but the log of that search is deleted after 6 months.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "Sardu Deutsch Español Shqip  ﺍﻟﻌﺮﺑﻴﺔ  Português (Brasil)  िह�दी",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "How do we use this information?",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "You also have the right to lodge a complaint with Facebook Ireland's lead supervisory authority, the Irish Data Protection Commissioner,  or your local supervisory authority.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "Cookies enable Facebook to oﬀer the Facebook Products to you and to understand the information that we receive about you, including information about your use of other websites and apps, whether or not you are registered or logged in.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "If you post or share content containing music, you must comply with our Music Guidelines.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "• Pages, Groups and Events Policy: These guidelines apply if you create or administer a Facebook Page, group, or event, or if you use  Facebook to communicate or administer a promotion.",
+        "label": [
+            "Not applicable"
+        ]
+    }
+]

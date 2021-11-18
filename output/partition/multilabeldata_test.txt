@@ -1,0 +1,425 @@
+[
+    {
+        "text": "countries,  bringing our  payout total to  date to over  $9.8 million to  strengthen the  security of our  users and the  internet at  large.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "For example, we log when you're using and have last used our Products, and what posts, videos  and other content you view on our Products.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "Provide accurate information about yourself.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "Ad Choices  Terms  Help  Facebook © 2021  7 of 7  20/09/2021, 14:35",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Information we obtain from other sources.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "More information about online advertising:",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Here's how:  Provide, personalize and improve our Products.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "You must obtain our written permission (or permission under an open source license) to modify, create derivative works of, decompile, or otherwise attempt to extract source code from us.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Location-related information: We use location-related information-such   as   your   current   location,   where   you   live,   the places   you   like   to   go,   and   the   businesses  and   people   you're   near-to   provide,   personalize   and   improve   our   Products,  including ads, for you and others.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "We store data until it is no longer necessary to provide our services and Facebook Products, or until your account is deleted - whichever comes ﬁrst.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "https://about.facebook.com/actions/protecting-privacy-...",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Our Services may enable you to access these platforms directly or indirectly  through our Services.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "▪ To show you better ads, we use data that advertisers and other partners provide us about your activity oﬀ Facebook Company Products, including websites and apps.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "Google Chrome ▪ Internet Explorer",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "For example: We use cookies to count the number of times that an ad is shown and to calculate the cost of those ads.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "Limits on liability  by our negligence, or to aﬀect your statutory rights.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "The services we provide  Our mission is to give people the power to build community and bring the world closer together.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Advertisers.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "•",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We also use cookies to combat activity that violates our policies or otherwise degrades our ability to provide the Facebook Products.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "They supersede any prior agreements.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Please be aware that these controls are distinct from the controls that Facebook oﬀers you.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "Our \"csrf\" cookie, for example, helps us prevent cross-site request forgery attacks.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "We give you this  We built end-  option in  to-end  addition to your  encryption in  password to  protect your  WhatsApp and  offer the option  account from  in Messenger to  improper  access.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "How We Protect InformationWe take measures to help protect information from loss,  theft, misuse and unauthorized access, disclosure, alteration, and destruction.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "Center  Messenger Help  Center  Instagram Help Center  WhatsApp Help  Center  Oculus Support",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "•",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Advertisers, app developers, and publishers can send us information through Facebook Business Tools they use, including our social plug-ins (such as the Like button), Facebook Login, our APIs and SDKs, or the Facebook pixel.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "•",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Cookies are used to store and receive identiﬁers and other information on computers, phones and other devices.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "5.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Privacy Policy | Facebook Open Source  https://opensource.fb.com/legal/privacy/",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We have also developed, and continue to explore, new ways for people to use technology,  such as augmented reality and 360 video to create and share more expressive and engaging content on Facebook.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "IX.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Sign Up",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Sign Up",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "With Facebook",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We also collect contact information if you choose to upload, sync or import it from a device (such as an address book or call log or SMS log history), which we use for things like helping you and others ﬁnd people you may  know and for the other purposes listed below.",
+        "label": [
+            "Violate privacy",
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "As of 23 June 2021, you may ﬁnd additional information about the controls oﬀered by popular browsers at the links below.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Account suspension or termination",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "But apps  and websites you use will not be able to receive any other information about your Facebook friends from you, or information about any of your Instagram followers (although your friends and followers may, of course, choose to share this information  themselves).",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "When you interact with us through our Services, we may collect or receive the following  types of information:  types of information:  Information you provide directly to us.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "Do other Companies use cookies in connection with the Facebook Products?",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We’re investing  $7.5 million in  an AI ethics  research center  to tackle critical  questions about  AI, privacy and  safety, in  partnership  with the  German  government  and Technical  University of  Munich.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "Cookies also allow us to limit the number of times that you see an ad so you don’t see the same ad over and over again.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "Use the same name that you use in everyday life.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "If you submit a copy of your government-issued ID for account veriﬁcation purposes, we delete that copy 30 days after review, unless otherwise stated.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "As  a result, we may need to update these Terms from time to time to accurately reﬂect our services and practices.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "Learn more about how to delete your account.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "But you should know that we  may use them without any restriction or obligation to compensate you, and we are under no obligation to keep them  conﬁdential.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "The cookies that we use include session cookies, which are deleted when you close your browser, and persistent cookies, which stay in your browser until they expire or you delete them.",
+        "label": [
+            "Commit to privacy",
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "Section 2 below explains this in more detail.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We can also respond to legal requests when we have a good-faith belief that the response is required by law in that jurisdiction, aﬀects users in that jurisdiction, and is  consistent with internationally recognized standards.",
+        "label": [
+            "Commit to privacy",
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "For example: We can use cookies to prevent you from seeing the same ad over and over again across the diﬀerent devices that you use.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "Our Data Policy explains how we use data to support this research for the purposes of developing and improving our services.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We are not responsible  for the information you choose to submit in these public areas.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "We use cookies to help personalise and improve content and services, provide a safer experience and to show you useful and relevant ads on and oﬀ Facebook.",
+        "label": [
+            "Related to privacy"
+        ]
+    },
+    {
+        "text": "We made our privacy tools easier to find  across our services.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "Designing for",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "How can you control your Information?",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We don’t sell your personal data to advertisers, and we don’t share information that directly identiﬁes you (such as your name, email address or other contact information) with advertisers unless you give us speciﬁc permission.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "4.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "data.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "This is solely for the purposes of providing and improving our Products and services as described in Section 1 above.",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "If you have any questions about this Privacy Policy or our practices, please contact us at  5 of 7  20/09/2021, 14:40",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "For example, a game developer could use our API to tell us what games you play, or a business could tell us about a purchase you made in its store.",
+        "label": [
+            "Violate privacy"
+        ]
+    },
+    {
+        "text": "Content others share or reshare about you  You should consider who you choose to share with, because people who can see your activity on our Products can choose  to share it with others on and oﬀ our Products, including people and businesses outside the audience you shared with.",
+        "label": [
+            "Declare opinion about privacy"
+        ]
+    },
+    {
+        "text": "If you have a Facebook account:  ▪ You can use your ad preferences to learn why you’re seeing a particular ad and control how we use information that we collect to show you ads.",
+        "label": [
+            "Commit to privacy"
+        ]
+    },
+    {
+        "text": "How do the Facebook Companies work together?",
+        "label": [
+            "Not applicable"
+        ]
+    },
+    {
+        "text": "We use the information we have (subject to choices you make) as described below and to provide and support the Facebook Products and related services described in the Facebook Terms and Instagram Terms.",
+        "label": [
+            "Commit to privacy"
+        ]
+    }
+]
