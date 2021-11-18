@@ -61,42 +61,47 @@ with open('output/partition/multilabeldata_train.txt', 'r') as train_file:
     train_count = []
     for i in json_obj_train:
         item = i['label']
-        print(item, type(item))
+    #    print(item, type(item))
         item = str(item)
         train_count.append(item)
-    print(type(train_count), type(Counter(train_count)))
-    print(Counter(train_count))
+   # print(type(train_count), type(Counter(train_count)))
+    print(Counter(train_count), "\n")
 with open('output/partition/multilabeldata_test.txt', 'r') as test_file:
     json_obj_test = json.loads(test_file.read())
     test_count = []
     for i in json_obj_test:
         item = i['label']
+        item = str(item)
         test_count.append(item)
-    print(Counter(test_count))
+    print(Counter(test_count),"\n")
 with open('output/partition/multilabeldata_dev.txt', 'r') as dev_file:
     json_obj_dev = json.loads(dev_file.read())
     dev_count = []
     for i in json_obj_dev:
         item = i['label']
+        item = str(item)
         dev_count.append(item)
-    print(Counter(dev_count))
+    print(Counter(dev_count),"\n")
     
 sum = Counter(train_count)+Counter(test_count)+Counter(dev_count)
 print(sum)
 
 i=0
-print(" Train set")
+print("\nTrain set")
 for item, sum_item in zip(Counter(train_count).items(), Counter(sum).items()):
-    print(item, sum_item)
+    print(item[0])
+    print(item[1],"out of", sum_item[1], "samples in the whole dataset")
     print(round(float(item[1])/float(sum_item[1])*100, 2),'\n')
 
 print("Dev set")
 for item, sum_item in zip(Counter(dev_count).items(), Counter(sum).items()):
-    print(item, sum_item)
+    print(item[0])
+    print(item[1],"out of", sum_item[1], "samples in the whole dataset")
     print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
 
 print("Test set")
 for item, sum_item in zip(Counter(test_count).items(), Counter(sum).items()):
-    print(item, sum_item)
+    print(item[0])
+    print(item[1],"out of", sum_item[1], "samples in the whole dataset")
     print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
     
