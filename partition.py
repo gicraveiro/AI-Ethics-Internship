@@ -55,13 +55,16 @@ os.makedirs(os.path.dirname(path), exist_ok=True)
 with open('output/partition/multilabeldata_test.txt', 'w') as test_file:
     test_file.write(json.dumps(test_dict, indent=4, ensure_ascii=False))
 
-'''
+
 with open('output/partition/multilabeldata_train.txt', 'r') as train_file:
     json_obj_train = json.loads(train_file.read())
     train_count = []
     for i in json_obj_train:
         item = i['label']
+        print(item, type(item))
+        item = str(item)
         train_count.append(item)
+    print(type(train_count), type(Counter(train_count)))
     print(Counter(train_count))
 with open('output/partition/multilabeldata_test.txt', 'r') as test_file:
     json_obj_test = json.loads(test_file.read())
@@ -97,4 +100,3 @@ for item, sum_item in zip(Counter(test_count).items(), Counter(sum).items()):
     print(item, sum_item)
     print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
     
-'''
