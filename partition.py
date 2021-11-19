@@ -5,8 +5,7 @@ from sklearn.model_selection import train_test_split
 import os
 import json
 from collections import Counter
-#import math
-#annotation = pd.read_csv("data/Facebook/Privacy/Annotated/fbAnnotation.csv")
+
 annotation = pd.read_csv("data/Facebook/Privacy/Annotated/AnnotatedMultiLabelDataset.csv")
 sents = annotation['Sentences'].values
 labels1 = annotation['Primary Label'].values
@@ -26,7 +25,6 @@ train_dict = []
 for row_id,row in enumerate(sents_train):
     row = re.sub("\n", " ", row)
     train_dict.append({"text":row.strip(), "label":labels_train[row_id]})
-    #print(train_dict[row_id])
 
 sents_dev, sents_test, labels_dev, labels_test = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test)
 
@@ -39,9 +37,7 @@ for row_id,row in enumerate(sents_test):
     row = re.sub("\n", " ", row)
     test_dict.append({"text":row.strip(), "label":labels_test[row_id]})
 
-#print("DEBUG TEST")
-
-# create output files
+# create output files and write sentences with labels
 path = 'output/partition/multilabeldata_train.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open('output/partition/multilabeldata_train.txt', 'w') as train_file:
@@ -55,7 +51,9 @@ os.makedirs(os.path.dirname(path), exist_ok=True)
 with open('output/partition/multilabeldata_test.txt', 'w') as test_file:
     test_file.write(json.dumps(test_dict, indent=4, ensure_ascii=False))
 
+# COUNTING DISTRIBUTION TO ENSURE IT IS BEING PERFORMED CORRECTLY
 
+# creating list of labels
 with open('output/partition/multilabeldata_train.txt', 'r') as train_file:
     json_obj_train = json.loads(train_file.read())
     train_count = []
@@ -80,21 +78,11 @@ with open('output/partition/multilabeldata_dev.txt', 'r') as dev_file:
         item = str(item)
         dev_count.append(item)
     print(Counter(dev_count),"\n")
-    
-#print("sorting experiment")
-#print(Counter(test_count))
-#print(Counter(test_count).sorted())
-#print("\n\n")    
-#for i in sorted(Counter(test_count)):
-#    print(i, Counter(test_count)[i])
 
 sum = Counter(train_count)+Counter(test_count)+Counter(dev_count)
 print(sum)
-#print(sorted(sum))
-#print("train count",train_count)
 
-
-
+# printing the proportion of occurrence of each label in comparison to the total number of sentences with that label
 i=0
 print("\nTrain set")
 for item, sum_item in zip(sorted(Counter(train_count)), sorted(Counter(sum))):
@@ -106,9 +94,6 @@ for item, sum_item in zip(sorted(Counter(train_count)), sorted(Counter(sum))):
 
 print("Dev set")
 for item, sum_item in zip(sorted(Counter(dev_count)), sorted(Counter(sum))):
-    #print(item[0])
-    #print(item[1],"out of", sum_item[1], "samples in the whole dataset")
-    #print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
     distr_value = Counter(dev_count)[item]
     total_value = Counter(sum)[sum_item]
     print(item,  sum_item)
@@ -122,5 +107,3 @@ for item, sum_item in zip(sorted(Counter(test_count)), sorted(Counter(sum))):
     print(item,  sum_item)
     print(distr_value, "out of", total_value, "samples in the whole dataset")
     print(round(float(distr_value)/float(total_value)*100,2),'\n')
-#stats = Counter(test_count).items()
-#print(stats)
