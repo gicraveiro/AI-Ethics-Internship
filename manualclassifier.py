@@ -1,7 +1,8 @@
 import json
 import os
 import re # regular expressions
-from sklearn.metrics import precision_score, confusion_matrix, f1_score, ConfusionMatrixDisplay, recall_score
+from sklearn.metrics import precision_score, confusion_matrix, multilabel_confusion_matrix, f1_score, ConfusionMatrixDisplay, recall_score
+from sklearn.preprocessing import MultiLabelBinarizer
 import matplotlib.pyplot as plt
 from collections import Counter
 import csv
@@ -88,16 +89,36 @@ with open(path) as file:
     json_sentences_predicted = json.loads(document)
 
 pred_array = [sent['label'] for sent in json_sentences_predicted]
+pred_labels = sorted(list(pred_array))
+print(pred_labels)
 
+labels = ['Commit to privacy','Violate privacy','Declare opinion about privacy','Related to privacy','Not applicable']
+
+
+# TO DO: INDICATE LABELS SO THAT THEY WILL CONSIDER ALL LABELS, DECLARE OPINION IS BEING IGNORE ON PREDICTED ARRAY BECAUSE IT DOESNT OCCUR
+
+#ref_array_preprocessed = MultiLabelBinarizer(classes=[('Commit to privacy',),('Violate privacy',),('Declare opinion about privacy',),('Related to privacy',),('Not applicable',)]).fit_transform(ref_array)
+mlb = MultiLabelBinarizer(classes=labels)
+ref_array_preprocessed = mlb.fit_transform(ref_array)
+#print(mlb.classes_)
+#pred_array_preprocessed = MultiLabelBinarizer(classes=list(counter.keys())).fit_transform(ref_array)
+#pred_array_preprocessed = MultiLabelBinarizer(classes=pred_labels).fit_transform(ref_array)
+pred_array_preprocessed = mlb.fit_transform(pred_array)
+print(ref_array_preprocessed)
+print("PRED:\n",pred_array_preprocessed)
 #confusion_matr = confusion_matrix(ref_array,pred_array, normalize="true")
-ConfusionMatrixDisplay.from_predictions(ref_array,pred_array, normalize="true")
-plt.xticks(rotation=45, ha="right")
-plt.subplots_adjust(bottom=0.4)
+#confusion_matr = multilabel_confusion_matrix(ref_array, pred_array)
+#print(confusion_matr)
+#ConfusionMatrixDisplay.from_predictions(ref_array_preprocessed,pred_array_preprocessed, normalize="true")
+#plt.xticks(rotation=45, ha="right")
+#plt.subplots_adjust(bottom=0.4)
 #plt.show()
-plt.savefig('output/Simple Classifier/multilabel_confusion_matrix.jpg')
-labels = sorted(list(set(ref_array)))
+#plt.savefig('output/Simple Classifier/multilabel_confusion_matrix.jpg')
+
+ref_labels = sorted(list(ref_array)) # sorted(list(set))
+print(ref_labels)
 #print(labels)
-precision = precision_score(ref_array, pred_array,labels=labels, average=None) # 
+precision = precision_score(ref_array, pred_array,labels=ref_labels, average=None) # 
 precision_micro = precision_score(ref_array, pred_array, average='micro')
 #precision_macro = precision_score(ref_array, pred_array, average='macro')
 recall = recall_score(ref_array, pred_array, average=None)
@@ -115,12 +136,12 @@ f1score = f1score.tolist()
 
 with open('output/Simple Classifier/SimpleClassifierMultiLabelStats.csv', 'w') as csvfile:
     filewriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    labels.insert(0, 'Classes')
+    ref_labels.insert(0, 'Classes')
     precision.insert(0, 'Precision')
     recall.insert(0, 'Recall')
     f1score.insert(0, 'F1 Score')
     #print(type(labels), labels)
-    filewriter.writerow(labels)
+    filewriter.writerow(ref_labels)
     filewriter.writerow(precision)
     filewriter.writerow(recall)
     filewriter.writerow(f1score)
