@@ -3,10 +3,11 @@ import os
 import re # regular expressions
 from sklearn.metrics import precision_score, confusion_matrix, f1_score, ConfusionMatrixDisplay, recall_score
 import matplotlib.pyplot as plt
-import collections
+from collections import Counter
 import csv
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
+import numpy
 #from sklearn.metrics import a
 
 # Read input sentences
@@ -19,29 +20,25 @@ with open(path) as file:
     document = file.read()
     json_sentences_ref = json.loads(document)
 
-
 ref_array = [sent['label'] for sent in json_sentences_ref]
-print(ref_array)
-counter = collections.Counter(ref_array)
+counter = Counter(tuple(item) for item in ref_array)
 tot_sents = len(ref_array)
-distr_violation = round (ref_array.count('Violate privacy')/tot_sents, 2)
-distr_commit = round( ref_array.count('Commit to privacy')/tot_sents, 2)
-distr_related = round (ref_array.count('Related to privacy')/tot_sents, 2)
-distr_opinion = round(ref_array.count('Declare opinion about privacy')/tot_sents, 2)
-distr_notApp = round(ref_array.count('Not applicable')/tot_sents, 2)
-count_violation = ref_array.count('Violate privacy')
-count_commit = ref_array.count('Commit to privacy')
-count_related = ref_array.count('Related to privacy')
-count_opinion = ref_array.count('Declare opinion about privacy')
-count_notApp = ref_array.count('Not applicable')
+distr_violation = round (ref_array.count(['Violate privacy'])/tot_sents, 2)
+distr_commit = round( ref_array.count(['Commit to privacy'])/tot_sents, 2)
+distr_related = round (ref_array.count(['Related to privacy'])/tot_sents, 2)
+distr_opinion = round(ref_array.count(['Declare opinion about privacy'])/tot_sents, 2)
+distr_notApp = round(ref_array.count(['Not applicable'])/tot_sents, 2)
+count_violation = ref_array.count(['Violate privacy'])
+count_commit = ref_array.count(['Commit to privacy'])
+count_related = ref_array.count(['Related to privacy'])
+count_opinion = ref_array.count(['Declare opinion about privacy'])
+count_notApp = ref_array.count(['Not applicable'])
 
-#ref_array.value_counts()[:20].plot(kind='barh')
-#plt.plot(dict(counter))
-plt.xticks(rotation=45, ha="right")
-plt.bar(counter.keys(), counter.values())
-plt.subplots_adjust(bottom=0.4)
+x_pos = numpy.arange(7) # sets number of bars
+plt.bar(x_pos, counter.values(),align='center')
+plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
+plt.subplots_adjust(bottom=0.4) # creates space for complete label names
 plt.savefig('output/Simple Classifier/multilabel_distribution.jpg')
-
 
 print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n')
 
