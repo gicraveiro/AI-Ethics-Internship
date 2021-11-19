@@ -61,11 +61,9 @@ with open('output/partition/multilabeldata_train.txt', 'r') as train_file:
     train_count = []
     for i in json_obj_train:
         item = i['label']
-    #    print(item, type(item))
         item = str(item)
         train_count.append(item)
-   # print(type(train_count), type(Counter(train_count)))
-    print(Counter(train_count), "\n")
+    print("\n",Counter(train_count), "\n")
 with open('output/partition/multilabeldata_test.txt', 'r') as test_file:
     json_obj_test = json.loads(test_file.read())
     test_count = []
@@ -83,25 +81,46 @@ with open('output/partition/multilabeldata_dev.txt', 'r') as dev_file:
         dev_count.append(item)
     print(Counter(dev_count),"\n")
     
+#print("sorting experiment")
+#print(Counter(test_count))
+#print(Counter(test_count).sorted())
+#print("\n\n")    
+#for i in sorted(Counter(test_count)):
+#    print(i, Counter(test_count)[i])
+
 sum = Counter(train_count)+Counter(test_count)+Counter(dev_count)
 print(sum)
+#print(sorted(sum))
+#print("train count",train_count)
+
+
 
 i=0
 print("\nTrain set")
-for item, sum_item in zip(Counter(train_count).items(), Counter(sum).items()):
-    print(item[0])
-    print(item[1],"out of", sum_item[1], "samples in the whole dataset")
-    print(round(float(item[1])/float(sum_item[1])*100, 2),'\n')
+for item, sum_item in zip(sorted(Counter(train_count)), sorted(Counter(sum))):
+    distr_value = Counter(train_count)[item]
+    total_value = Counter(sum)[sum_item]
+    print(item,  sum_item)
+    print(distr_value, "out of", total_value, "samples in the whole dataset")
+    print(round(float(distr_value)/float(total_value)*100,2),'\n')
 
 print("Dev set")
-for item, sum_item in zip(Counter(dev_count).items(), Counter(sum).items()):
-    print(item[0])
-    print(item[1],"out of", sum_item[1], "samples in the whole dataset")
-    print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
+for item, sum_item in zip(sorted(Counter(dev_count)), sorted(Counter(sum))):
+    #print(item[0])
+    #print(item[1],"out of", sum_item[1], "samples in the whole dataset")
+    #print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
+    distr_value = Counter(dev_count)[item]
+    total_value = Counter(sum)[sum_item]
+    print(item,  sum_item)
+    print(distr_value, "out of", total_value, "samples in the whole dataset")
+    print(round(float(distr_value)/float(total_value)*100,2),'\n')
 
 print("Test set")
-for item, sum_item in zip(Counter(test_count).items(), Counter(sum).items()):
-    print(item[0])
-    print(item[1],"out of", sum_item[1], "samples in the whole dataset")
-    print(round(float(item[1])/float(sum_item[1])*100,2),'\n')
-    
+for item, sum_item in zip(sorted(Counter(test_count)), sorted(Counter(sum))):
+    distr_value = Counter(test_count)[item]
+    total_value = Counter(sum)[sum_item]
+    print(item,  sum_item)
+    print(distr_value, "out of", total_value, "samples in the whole dataset")
+    print(round(float(distr_value)/float(total_value)*100,2),'\n')
+#stats = Counter(test_count).items()
+#print(stats)
