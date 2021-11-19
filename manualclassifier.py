@@ -10,7 +10,8 @@ from google.oauth2 import service_account
 #from sklearn.metrics import a
 
 # Read input sentences
-path = 'output/partition/fbdata_test.json'
+#path = 'output/partition/fbdata_test.json'
+path = 'output/partition/multilabeldata_test.json'
 
 json_sentences = []
 
@@ -20,6 +21,7 @@ with open(path) as file:
 
 
 ref_array = [sent['label'] for sent in json_sentences_ref]
+print(ref_array)
 counter = collections.Counter(ref_array)
 tot_sents = len(ref_array)
 distr_violation = round (ref_array.count('Violate privacy')/tot_sents, 2)
@@ -38,7 +40,7 @@ count_notApp = ref_array.count('Not applicable')
 plt.xticks(rotation=45, ha="right")
 plt.bar(counter.keys(), counter.values())
 plt.subplots_adjust(bottom=0.4)
-plt.savefig('output/Simple Classifier/distribution.jpg')
+plt.savefig('output/Simple Classifier/multilabel_distribution.jpg')
 
 
 print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n')
@@ -51,32 +53,37 @@ print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to p
 #    print(sentence['text'])
 #    print(sentence['label'],'\n\n')
 output_dict = []
-label = ''
+#label = [] # = ''
 # SIMPLE CLASSIFIER
 for sentence in json_sentences_ref:
-    label = 'Not applicable'
+    label = [] # label = 'Not applicable'
     related = re.search(r".*data.*|.*information.*|.*cookies.*|.*personalize.*|.*content.*", sentence['text'], re.IGNORECASE)
     violate = re.search(r".*collect.*|.*share.*|.*connect.*|.*off facebook.*|.*receive information about you.*|.*\bsee\b.*", sentence['text'], re.IGNORECASE) # |.*see.*
     commit = re.search(r".*[instagram|facebook] settings.*|.*learn.*|.*choose.*|.*control.*|.*manage.*|.*opt out.*|.*delete.*|.*your consent.*|.*allow.*|.*change.*|.*choices.*|.*select.*|.*require.*|.*protection.*|.*reduce.*|.*don't sell.*", sentence['text'], re.IGNORECASE) # if 1/2 if you choose, protection(YES)law?(NO), you will have control, report(no...), will not be able, restrict, reduce, remove, don't sell, impose []restrictions, permission, you [can/will have] control, preferences(not ueful in this case), you own
     opinion = re.search(r".*should.*|.*believe.*", sentence['text'], re.IGNORECASE)
 
+# TO DO: add weight to decide primary and secondary labels
     if violate:
-        label = 'Violate privacy'
+        #label = 'Violate privacy'
+        label.append('Violate privacy')
     if commit:
         label = 'Commit to privacy'
-    if (related and label == 'Not applicable') or (violate and commit):
-        label = 'Related to privacy'
+        label.append('Commit to privacy')
     if opinion:
-        label = 'Declare opinion about privacy'
+        label.insert(0,'Declare opinion about privacy') # opinion related terms are stronger than commit and violate related terms
+    if (related and label == []): # for single label rule, add condition: or violate and commit
+        label.append('Related to privacy') # related is only activated if none of the other categories were detected
+    if label == []:
+        label = ['Not applicable']
 
     output_dict.append({"text":sentence['text'], "label":label})
 
 #print(output_dict)
 
 # WRITE OUTPUT
-path = 'output/Simple Classifier/fbdata_test.json'
+path = 'output/Simple Classifier/multilabeldata_test.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/Simple Classifier/fbdata_test.json', 'w') as train_file:
+with open('output/Simple Classifier/multilabeldata_test.json', 'w') as train_file:
     train_file.write(json.dumps(output_dict, indent=4, ensure_ascii=False))
 
 with open(path) as file:
@@ -90,7 +97,7 @@ ConfusionMatrixDisplay.from_predictions(ref_array,pred_array, normalize="true")
 plt.xticks(rotation=45, ha="right")
 plt.subplots_adjust(bottom=0.4)
 #plt.show()
-plt.savefig('output/Simple Classifier/confusion_matrix.jpg')
+plt.savefig('output/Simple Classifier/multilabel_confusion_matrix.jpg')
 labels = sorted(list(set(ref_array)))
 #print(labels)
 precision = precision_score(ref_array, pred_array,labels=labels, average=None) # 
@@ -109,7 +116,7 @@ f1score = f1score.tolist()
 #print(type(labels))
 #print(precision.tolist())
 
-with open('output/Simple Classifier/SimpleClassifierStats.csv', 'w') as csvfile:
+with open('output/Simple Classifier/SimpleClassifierMultiLabelStats.csv', 'w') as csvfile:
     filewriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     labels.insert(0, 'Classes')
     precision.insert(0, 'Precision')
@@ -137,6 +144,8 @@ value_input_option = 'USER_ENTERED'
 
 values = [] # list, TO DO: ADD STUFF IN IT? CHANGE TO CSV APPROACH OF WRITING MAYBE?
 values.append(precision)
+values.append(recall)
+values.apo
 sentences = {
         'values': values
     }
@@ -145,6 +154,7 @@ sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!A2:F50
 
 
 #print('Confusion matrix:\n',confusion_matr)
+print()
 print('Precision:',precision)
 print('Precision:',precision_micro)
 print('Recall:',recall)
