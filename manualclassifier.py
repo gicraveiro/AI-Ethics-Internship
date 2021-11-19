@@ -64,7 +64,7 @@ for sentence in json_sentences_ref:
         #label = 'Violate privacy'
         label.append('Violate privacy')
     if commit:
-        label = 'Commit to privacy'
+        #label = 'Commit to privacy'
         label.append('Commit to privacy')
     if opinion:
         label.insert(0,'Declare opinion about privacy') # opinion related terms are stronger than commit and violate related terms
