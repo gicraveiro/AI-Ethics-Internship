@@ -38,23 +38,23 @@ for row_id,row in enumerate(sents_test):
     test_dict.append({"text":row.strip(), "label":labels_test[row_id]})
 
 # create output files and write sentences with labels
-path = 'output/partition/multilabeldata_train.txt'
+path = 'output/partition/multilabeldata_train.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/partition/multilabeldata_train.txt', 'w') as train_file:
+with open('output/partition/multilabeldata_train.json', 'w') as train_file:
     train_file.write(json.dumps(train_dict, indent=4, ensure_ascii=False))
-path = 'output/partition/multilabeldata_dev.txt'
+path = 'output/partition/multilabeldata_dev.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/partition/multilabeldata_dev.txt', 'w') as dev_file:
+with open('output/partition/multilabeldata_dev.json', 'w') as dev_file:
     dev_file.write(json.dumps(dev_dict, indent=4, ensure_ascii=False))
-path = 'output/partition/multilabeldata_test.txt'
+path = 'output/partition/multilabeldata_test.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/partition/multilabeldata_test.txt', 'w') as test_file:
+with open('output/partition/multilabeldata_test.json', 'w') as test_file:
     test_file.write(json.dumps(test_dict, indent=4, ensure_ascii=False))
 
 # COUNTING DISTRIBUTION TO ENSURE IT IS BEING PERFORMED CORRECTLY
 
 # creating list of labels
-with open('output/partition/multilabeldata_train.txt', 'r') as train_file:
+with open('output/partition/multilabeldata_train.json', 'r') as train_file:
     json_obj_train = json.loads(train_file.read())
     train_count = []
     for i in json_obj_train:
@@ -62,7 +62,7 @@ with open('output/partition/multilabeldata_train.txt', 'r') as train_file:
         item = str(item)
         train_count.append(item)
     print("\n",Counter(train_count), "\n")
-with open('output/partition/multilabeldata_test.txt', 'r') as test_file:
+with open('output/partition/multilabeldata_test.json', 'r') as test_file:
     json_obj_test = json.loads(test_file.read())
     test_count = []
     for i in json_obj_test:
@@ -70,7 +70,7 @@ with open('output/partition/multilabeldata_test.txt', 'r') as test_file:
         item = str(item)
         test_count.append(item)
     print(Counter(test_count),"\n")
-with open('output/partition/multilabeldata_dev.txt', 'r') as dev_file:
+with open('output/partition/multilabeldata_dev.json', 'r') as dev_file:
     json_obj_dev = json.loads(dev_file.read())
     dev_count = []
     for i in json_obj_dev:
