@@ -12,6 +12,9 @@ import numpy
 import copy
 #from sklearn.metrics import a
 
+MAX_N_SENTENCES = 100
+
+
 # Read input sentences
 #path = 'output/partition/fbdata_test.json'
 path = 'output/partition/multilabeldata_test.json'
@@ -119,6 +122,7 @@ for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
 
 
 print("DONE")
+print()
 #print(pred_labels)
 
 #labels = ['Commit to privacy','Violate privacy','Declare opinion about privacy','Related to privacy','Not applicable']
@@ -202,9 +206,9 @@ predicted_values = {
         'values': pred_1label_array #values
     }
 
-#sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!A2:A100',valueInputOption=value_input_option, body=sentences).execute()
-#sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!B2:C100',valueInputOption=value_input_option, body=ref_values).execute()
-sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!D2:E100',valueInputOption=value_input_option, body=predicted_values).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!A2:A'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=sentences).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!B2:C'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=ref_values).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!D2:E'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=predicted_values).execute()
 
 
 #print('Confusion matrix:\n',confusion_matr)
