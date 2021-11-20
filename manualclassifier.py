@@ -136,18 +136,17 @@ plt.subplots_adjust(bottom=0.4)
 #plt.show()
 plt.savefig('output/Simple Classifier/remainingLabel_confusion_matrix.jpg')
 
-#ref_labels = sorted(list(ref_array)) # sorted(list(set))
-#print(ref_labels)
-#print(labels)
-#precision = precision_score(ref_array_preprocessed, pred_array_preprocessed,labels=ref_labels, average=None) # 
-#precision_micro = precision_score(ref_array, pred_array, average='micro')
-#precision_macro = precision_score(ref_array, pred_array, average='macro')
-#recall = recall_score(ref_array, pred_array, average=None)
-#recall_micro = recall_score(ref_array, pred_array, average='micro')
-#f1score = f1_score(ref_array, pred_array, average=None)
-#f1score_global = f1_score(ref_array, pred_array, average='micro')
-#f1score_individual = f1_score(ref_array, pred_array, average='macro')
-#f1score_weighted = f1_score(ref_array, pred_array, average='weighted')
+labels = sorted(list(set(ref_1label_str_list))) # sorted(list(set))
+
+precision = precision_score(ref_1label_str_list,pred_1label_str_list,labels=labels, average=None) # 
+precision_micro = precision_score(ref_1label_str_list,pred_1label_str_list, average='micro')
+precision_macro = precision_score(ref_1label_str_list,pred_1label_str_list, average='macro')
+recall = recall_score(ref_1label_str_list,pred_1label_str_list, average=None)
+recall_micro = recall_score(ref_1label_str_list,pred_1label_str_list, average='micro')
+f1score = f1_score(ref_1label_str_list,pred_1label_str_list, average=None)
+f1score_global = f1_score(ref_1label_str_list,pred_1label_str_list, average='micro')
+f1score_individual = f1_score(ref_1label_str_list,pred_1label_str_list, average='macro')
+f1score_weighted = f1_score(ref_1label_str_list,pred_1label_str_list, average='weighted')
 
 #precision = precision.tolist()
 #recall = recall.tolist()
@@ -204,6 +203,7 @@ refs_1label = {
         'values': ref_1label_array
 }
 
+# WRITING RESULTS IN GOOGLE SHEETS
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!A2:A'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=sentences).execute()
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!B2:C'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=ref_values).execute()
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!D2:E'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=predicted_values).execute()
@@ -211,85 +211,26 @@ sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!B2:B'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=refs_1label).execute()
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!C2:C'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=predictions_1label).execute()
 
-
-#print('Confusion matrix:\n',confusion_matr)
-#print()
-#print('Precision:',precision)
-#print('Precision:',precision_micro)
-#print('Recall:',recall)
-#print('Recall micro:',recall_micro)
-#print('F1 Score:', f1score)
-#print('F1 Score micro:', f1score_global)
-#print('F1 Score macro:', f1score_individual)
-#print('F1 Score weighted:', f1score_weighted)
-
+# PRINTING RESULTS IN THE TERMINAL
+print("\nClassification Statistics\n")
+print('Precision:',precision)
+print('Precision:',precision_micro)
+print('Recall:',recall)
+print('Recall micro:',recall_micro)
+print('F1 Score:', f1score)
+print('F1 Score micro:', f1score_global)
+print('F1 Score macro:', f1score_individual)
+print('F1 Score weighted:', f1score_weighted)
 
 # TO DO:
 
 # MAKE LABELS READABLE - DONE
 # salvare csv direttamente? con tutti gli statistiche
-# CHANGE TO TEST SET!! - DONE
+# CHANGE TO TEST SET!! - DONE    ## ADABOOST  CLASSIFIER SKLEARN LIBRARY
 
+# ADABOOST  CLASSIFIER SKLEARN LIBRARY
 
 '''
-total_tp = 0
-violate_tp = 0
-commit_tp = 0
-opinion_tp = 0
-related_tp = 0
-nonAp_tp = 0
-total_fp = 0
-violate_fp = 0
-commit_fp = 0
-opinion_fp = 0
-related_fp = 0
-nonAp_fp = 0
-total_fn = 0
-violate_fn = 0
-commit_fn = 0
-opinion_fn = 0
-related_fn = 0
-nonAp_fn = 0
-
-for sent_ref, sent_predicted in zip(json_sentences_ref, json_sentences_predicted):
-    if sent_ref['label'] == sent_predicted['label']:
-        total_tp += 1
-        if sent_ref['label'] == 'Violate privacy':
-            violate_tp += 1
-        elif sent_ref['label'] == 'Commit to privacy':
-            commit_tp += 1
-        elif sent_ref['label'] == 'Opinion about privacy':
-            opinion_tp += 1
-        elif sent_ref['label'] == 'Related to privacy':
-            related_tp += 1
-        else:
-            nonAp_tp += 1
-    else:
-        total_fp += 1
-        total_fn += 1
-        if sent_ref['label'] == 'Violate privacy':
-            violate_fn += 1
-        elif sent_ref['label'] == 'Commit to privacy':
-            commit_fn += 1
-        elif sent_ref['label'] == 'Declare opinion about privacy':
-            opinion_fn += 1
-        elif sent_ref['label'] == 'Related to privacy':
-            related_fn += 1
-        else:
-            nonAp_fn += 1
-        
-        if sent_predicted['label'] == 'Violate privacy':
-            violate_fp += 1
-        elif sent_predicted['label'] == 'Commit to privacy':
-            commit_fp += 1
-        elif sent_predicted['label'] == 'Declare opinion about privacy':
-            opinion_fp += 1
-        elif sent_predicted['label'] == 'Related to privacy':
-            related_fp += 1
-        else:
-            nonAp_fp += 1
-
-
 path = 'output/Simple Classifier/StatsWholeDataset.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open('output/Simple Classifier/StatsWholeDataset.txt', 'w') as stats_output:
@@ -299,4 +240,3 @@ with open('output/Simple Classifier/StatsWholeDataset.txt', 'w') as stats_output
     print('Precision\n\nViolate privacy\n',violate_tp,'/',violate_fp+violate_tp,'\n','Commit to privacy\n',commit_tp,'/',commit_fp+commit_tp,'\n','Opinion about privacy\n',opinion_tp,'/',opinion_fp+opinion_tp,'\n','Related to privacy\n',related_tp,'/',related_fp+related_tp,'\n','Not applicable\n',nonAp_tp,'/',nonAp_fp+nonAp_tp,'\nTotal\n',total_tp,'/',total_fp+total_tp, file=stats_output)
     '''
 
-    ## ADABOOST  CLASSIFIER SKLEARN LIBRARY
