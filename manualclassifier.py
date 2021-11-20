@@ -9,6 +9,7 @@ import csv
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 import numpy
+import copy
 #from sklearn.metrics import a
 
 # Read input sentences
@@ -22,6 +23,7 @@ with open(path) as file:
     json_sentences_ref = json.loads(document)
 
 ref_array = [sent['label'] for sent in json_sentences_ref]
+ref_sent = [[sent['text']] for sent in json_sentences_ref]
 counter = Counter(tuple(item) for item in ref_array)
 tot_sents = len(ref_array)
 distr_violation = round (ref_array.count(['Violate privacy'])/tot_sents, 2)
@@ -90,24 +92,47 @@ with open(path) as file:
 
 pred_array = [sent['label'] for sent in json_sentences_predicted]
 pred_labels = sorted(list(pred_array))
-print(pred_labels)
 
-labels = ['Commit to privacy','Violate privacy','Declare opinion about privacy','Related to privacy','Not applicable']
+pred_1label_array = copy.deepcopy(pred_array)
+ref_1label_array = copy.deepcopy(ref_array)
+for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
+    if(len(pred_label) > 1):
+        if(pred_label[1] == ref_label[0]):
+            print("predicted")
+            print(pred_label, pred_1label_array[i])
+            pred_1label_array[i][0] = pred_label[1]
+            print(pred_label, pred_1label_array[i])
+            pred_1label_array[i][1] = pred_label[0]
+            print(pred_label, pred_1label_array[i])
+            print("Result", ref_1label_array[i], pred_1label_array[i])
+    elif(len(ref_label) > 1):
+        if(ref_label[1] == pred_label[0]):
+            print("reference")
+            print(ref_label, ref_1label_array[i])
+            ref_1label_array[i][0] = ref_label[1]
+            print(ref_label, ref_1label_array[i])
+            ref_1label_array[i][1] = ref_label[0]
+            print(ref_label, ref_1label_array[i])
+            print("Result", ref_1label_array[i], pred_1label_array[i])
+    
 
 
-# TO DO: INDICATE LABELS SO THAT THEY WILL CONSIDER ALL LABELS, DECLARE OPINION IS BEING IGNORE ON PREDICTED ARRAY BECAUSE IT DOESNT OCCUR
 
-#ref_array_preprocessed = MultiLabelBinarizer(classes=[('Commit to privacy',),('Violate privacy',),('Declare opinion about privacy',),('Related to privacy',),('Not applicable',)]).fit_transform(ref_array)
-mlb = MultiLabelBinarizer(classes=labels)
-ref_array_preprocessed = mlb.fit_transform(ref_array)
-#print(mlb.classes_)
-#pred_array_preprocessed = MultiLabelBinarizer(classes=list(counter.keys())).fit_transform(ref_array)
-#pred_array_preprocessed = MultiLabelBinarizer(classes=pred_labels).fit_transform(ref_array)
-pred_array_preprocessed = mlb.fit_transform(pred_array)
-print(ref_array_preprocessed)
-print("PRED:\n",pred_array_preprocessed)
+print("DONE")
+#print(pred_labels)
+
+#labels = ['Commit to privacy','Violate privacy','Declare opinion about privacy','Related to privacy','Not applicable']
+
+#mlb = MultiLabelBinarizer(classes=labels)
+#ref_array_preprocessed = mlb.fit_transform(ref_array)
+#pred_array_preprocessed = mlb.fit_transform(pred_array)
+
+# TO DO:
+
+# INSTEAD OF MULTI LABEL CONFUSION MATRIX, APPLY MY RULES AND ALIGN RESULTS TO DROP THE "EXTRA LABEL"
+
 #confusion_matr = confusion_matrix(ref_array,pred_array, normalize="true")
-#confusion_matr = multilabel_confusion_matrix(ref_array, pred_array)
+#confusion_matr = multilabel_confusion_matrix(ref_array_preprocessed, pred_array_preprocessed)
 #print(confusion_matr)
 #ConfusionMatrixDisplay.from_predictions(ref_array_preprocessed,pred_array_preprocessed, normalize="true")
 #plt.xticks(rotation=45, ha="right")
@@ -115,36 +140,36 @@ print("PRED:\n",pred_array_preprocessed)
 #plt.show()
 #plt.savefig('output/Simple Classifier/multilabel_confusion_matrix.jpg')
 
-ref_labels = sorted(list(ref_array)) # sorted(list(set))
-print(ref_labels)
+#ref_labels = sorted(list(ref_array)) # sorted(list(set))
+#print(ref_labels)
 #print(labels)
-precision = precision_score(ref_array, pred_array,labels=ref_labels, average=None) # 
-precision_micro = precision_score(ref_array, pred_array, average='micro')
+#precision = precision_score(ref_array_preprocessed, pred_array_preprocessed,labels=ref_labels, average=None) # 
+#precision_micro = precision_score(ref_array, pred_array, average='micro')
 #precision_macro = precision_score(ref_array, pred_array, average='macro')
-recall = recall_score(ref_array, pred_array, average=None)
-recall_micro = recall_score(ref_array, pred_array, average='micro')
-f1score = f1_score(ref_array, pred_array, average=None)
-f1score_global = f1_score(ref_array, pred_array, average='micro')
-f1score_individual = f1_score(ref_array, pred_array, average='macro')
+#recall = recall_score(ref_array, pred_array, average=None)
+#recall_micro = recall_score(ref_array, pred_array, average='micro')
+#f1score = f1_score(ref_array, pred_array, average=None)
+#f1score_global = f1_score(ref_array, pred_array, average='micro')
+#f1score_individual = f1_score(ref_array, pred_array, average='macro')
 #f1score_weighted = f1_score(ref_array, pred_array, average='weighted')
 
-precision = precision.tolist()
-recall = recall.tolist()
-f1score = f1score.tolist()
+#precision = precision.tolist()
+#recall = recall.tolist()
+#f1score = f1score.tolist()
 #print(type(labels))
 #print(precision.tolist())
 
-with open('output/Simple Classifier/SimpleClassifierMultiLabelStats.csv', 'w') as csvfile:
-    filewriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    ref_labels.insert(0, 'Classes')
-    precision.insert(0, 'Precision')
-    recall.insert(0, 'Recall')
-    f1score.insert(0, 'F1 Score')
+#with open('output/Simple Classifier/SimpleClassifierMultiLabelStats.csv', 'w') as csvfile:
+    #filewriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    #ref_labels.insert(0, 'Classes')
+    #precision.insert(0, 'Precision')
+    #recall.insert(0, 'Recall')
+    #f1score.insert(0, 'F1 Score')
     #print(type(labels), labels)
-    filewriter.writerow(ref_labels)
-    filewriter.writerow(precision)
-    filewriter.writerow(recall)
-    filewriter.writerow(f1score)
+    #filewriter.writerow(ref_labels)
+    #filewriter.writerow(precision)
+    #filewriter.writerow(recall)
+    #filewriter.writerow(f1score)
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -160,26 +185,37 @@ service = build('sheets', 'v4', credentials=creds)
 sheet = service.spreadsheets()
 value_input_option = 'USER_ENTERED'
 
-values = [] # list, TO DO: ADD STUFF IN IT? CHANGE TO CSV APPROACH OF WRITING MAYBE?
-values.append(precision)
-values.append(recall)
-values.apo
+#values = [] # list, TO DO: ADD STUFF IN IT? CHANGE TO CSV APPROACH OF WRITING MAYBE?
+#values.append(precision)
+#values.append(recall)
+#values.apo
+#ref_sent.insert(0,'Sentences')
+#ref_array.insert(0,'Correct label')
+#pred_array.insert(0,'Predicted label')
 sentences = {
-        'values': values
+        'values': ref_sent #values
+    }
+ref_values = {
+        'values': ref_array #values
+    }
+predicted_values = {
+        'values': pred_1label_array #values
     }
 
-sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!A2:F500',valueInputOption=value_input_option, body=sentences).execute()
+#sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!A2:A100',valueInputOption=value_input_option, body=sentences).execute()
+#sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='Test'+'!B2:C100',valueInputOption=value_input_option, body=ref_values).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!D2:E100',valueInputOption=value_input_option, body=predicted_values).execute()
 
 
 #print('Confusion matrix:\n',confusion_matr)
-print()
-print('Precision:',precision)
-print('Precision:',precision_micro)
-print('Recall:',recall)
-print('Recall micro:',recall_micro)
-print('F1 Score:', f1score)
-print('F1 Score micro:', f1score_global)
-print('F1 Score macro:', f1score_individual)
+#print()
+#print('Precision:',precision)
+#print('Precision:',precision_micro)
+#print('Recall:',recall)
+#print('Recall micro:',recall_micro)
+#print('F1 Score:', f1score)
+#print('F1 Score micro:', f1score_global)
+#print('F1 Score macro:', f1score_individual)
 #print('F1 Score weighted:', f1score_weighted)
 
 
