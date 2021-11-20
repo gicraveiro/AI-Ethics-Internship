@@ -96,34 +96,26 @@ with open(path) as file:
 pred_array = [sent['label'] for sent in json_sentences_predicted]
 pred_labels = sorted(list(pred_array))
 
+pred_array_ordered = copy.deepcopy(pred_array)
 pred_1label_array = copy.deepcopy(pred_array)
 ref_1label_array = copy.deepcopy(ref_array)
 for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
     if(len(pred_label) > 1):
+        pred_1label_array[i] = [pred_label[0]]
+        ref_1label_array[i] = [ref_label[0]]
         if(pred_label[1] == ref_label[0]):
-            print("predicted")
-            print(pred_label, pred_1label_array[i])
-            pred_1label_array[i][0] = pred_label[1]
-            print(pred_label, pred_1label_array[i])
-            pred_1label_array[i][1] = pred_label[0]
-            print(pred_label, pred_1label_array[i])
-            print("Result", ref_1label_array[i], pred_1label_array[i])
+            pred_array_ordered[i][0] = pred_label[1]
+            pred_1label_array[i] = [pred_label[1]]
+            pred_array_ordered[i][1] = pred_label[0]
     elif(len(ref_label) > 1):
+        ref_1label_array[i] = [ref_label[0]]
+        pred_1label_array[i] = [pred_label[0]]
         if(ref_label[1] == pred_label[0]):
-            print("reference")
-            print(ref_label, ref_1label_array[i])
-            ref_1label_array[i][0] = ref_label[1]
-            print(ref_label, ref_1label_array[i])
-            ref_1label_array[i][1] = ref_label[0]
-            print(ref_label, ref_1label_array[i])
-            print("Result", ref_1label_array[i], pred_1label_array[i])
+            #ref_1label_array[i][0] = ref_label[1]
+            ref_1label_array[i] = [ref_label[1]]
+            #ref_1label_array[i][1] = ref_label[0]
+        
     
-
-
-
-print("DONE")
-print()
-#print(pred_labels)
 
 #labels = ['Commit to privacy','Violate privacy','Declare opinion about privacy','Related to privacy','Not applicable']
 
@@ -203,12 +195,21 @@ ref_values = {
         'values': ref_array #values
     }
 predicted_values = {
-        'values': pred_1label_array #values
+        'values': pred_array_ordered #values
     }
+predictions_1label = {
+        'values': pred_1label_array
+}
+refs_1label = {
+        'values': ref_1label_array
+}
 
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!A2:A'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=sentences).execute()
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!B2:C'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=ref_values).execute()
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!D2:E'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=predicted_values).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!A2:A'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=sentences).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!B2:B'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=refs_1label).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!C2:C'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=predictions_1label).execute()
 
 
 #print('Confusion matrix:\n',confusion_matr)
