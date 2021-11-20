@@ -1,7 +1,7 @@
 import json
 import os
 import re # regular expressions
-from sklearn.metrics import precision_score, confusion_matrix, multilabel_confusion_matrix, f1_score, ConfusionMatrixDisplay, recall_score
+from sklearn.metrics import precision_score, f1_score, ConfusionMatrixDisplay, recall_score # confusion_matrix, multilabel_confusion_matrix,
 from sklearn.preprocessing import MultiLabelBinarizer
 import matplotlib.pyplot as plt
 from collections import Counter
@@ -10,10 +10,8 @@ from googleapiclient.discovery import build
 from google.oauth2 import service_account
 import numpy
 import copy
-#from sklearn.metrics import a
 
 MAX_N_SENTENCES = 100
-
 
 # Read input sentences
 #path = 'output/partition/fbdata_test.json'
@@ -48,15 +46,8 @@ plt.savefig('output/Simple Classifier/multilabel_distribution.jpg')
 
 print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n')
 
-#print('Distribution of labels\nViolate privacy:', count_violation,'\nCommit to privacy:', count_commit,'\nOpinion about privacy:',count_opinion, '\nRelated to privacy:', count_related, '\nNot applicable:', count_notApp,'\n')
-
-# DEBUG PRINTS
-#for sentence in json_sentences:
-#    print(sentence)
-#    print(sentence['text'])
-#    print(sentence['label'],'\n\n')
 output_dict = []
-#label = [] # = ''
+
 # SIMPLE CLASSIFIER
 for sentence in json_sentences_ref:
     label = [] # label = 'Not applicable'
@@ -81,8 +72,6 @@ for sentence in json_sentences_ref:
 
     output_dict.append({"text":sentence['text'], "label":label})
 
-#print(output_dict)
-
 # WRITE OUTPUT
 path = 'output/Simple Classifier/multilabeldata_test.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -94,7 +83,6 @@ with open(path) as file:
     json_sentences_predicted = json.loads(document)
 
 pred_array = [sent['label'] for sent in json_sentences_predicted]
-#pred_labels = sorted(list(pred_array))
 
 pred_array_ordered = copy.deepcopy(pred_array)
 pred_1label_array = copy.deepcopy(pred_array)
@@ -115,15 +103,13 @@ for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
             ref_1label_array[i] = [ref_label[1]]
             #ref_1label_array[i][1] = ref_label[0]
         
-#labels = ['Commit to privacy','Violate privacy','Declare opinion about privacy','Related to privacy','Not applicable']
+# CONVERTING MULTILABEL ARRAYS INTO ACCEPTED FORMAT FOR MULTILABEL DISTRIBUTION MATRIX
+# IMPLEMENTATION PAUSED
 
 #mlb = MultiLabelBinarizer(classes=labels)
 #ref_array_preprocessed = mlb.fit_transform(ref_array)
 #pred_array_preprocessed = mlb.fit_transform(pred_array)
 
-# TO DO:
-
-# INSTEAD OF MULTI LABEL CONFUSION MATRIX, APPLY MY RULES AND ALIGN RESULTS TO DROP THE "EXTRA LABEL"
 ref_1label_str_list = [label[0] for label in ref_1label_array]
 pred_1label_str_list = [label[0] for label in pred_1label_array]
 
@@ -154,6 +140,8 @@ f1score_weighted = f1_score(ref_1label_str_list,pred_1label_str_list, average='w
 #print(type(labels))
 #print(precision.tolist())
 
+# CSV FILE WITH OUTPUT STATS IN IMPLEMENTATION- IS IT NECESSARY?
+
 #with open('output/Simple Classifier/SimpleClassifierMultiLabelStats.csv', 'w') as csvfile:
     #filewriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     #ref_labels.insert(0, 'Classes')
@@ -165,6 +153,14 @@ f1score_weighted = f1_score(ref_1label_str_list,pred_1label_str_list, average='w
     #filewriter.writerow(precision)
     #filewriter.writerow(recall)
     #filewriter.writerow(f1score)
+
+#values = [] # list, TO DO: ADD STUFF IN IT? CHANGE TO CSV APPROACH OF WRITING MAYBE?
+#values.append(precision)
+#values.append(recall)
+#values.apo
+#ref_sent.insert(0,'Sentences')
+#ref_array.insert(0,'Correct label')
+#pred_array.insert(0,'Predicted label')
 
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
@@ -180,19 +176,12 @@ service = build('sheets', 'v4', credentials=creds)
 sheet = service.spreadsheets()
 value_input_option = 'USER_ENTERED'
 
-#values = [] # list, TO DO: ADD STUFF IN IT? CHANGE TO CSV APPROACH OF WRITING MAYBE?
-#values.append(precision)
-#values.append(recall)
-#values.apo
-#ref_sent.insert(0,'Sentences')
-#ref_array.insert(0,'Correct label')
-#pred_array.insert(0,'Predicted label')
-
 stats_values = []
 labels.insert(0,'Classes')
 stats_titles = [['Classification Statistics'],labels,['Precision:'],['Precision micro:'],['Recall:'],['Recall micro:'],['F1 Score:'],['F1 Score micro:'],['F1 Score macro:'],['F1 Score weighted:']]
 stats_values.extend([precision.tolist(), [precision_micro.tolist()], recall.tolist(), [recall_micro.tolist()], f1score.tolist(), [f1score_global.tolist()], [f1score_individual.tolist()], [f1score_weighted.tolist()]])
 
+# CONVERTING TO FORMAT GOOGLE SHEETS ACCEPT
 sentences = {
         'values': ref_sent #values
     }
@@ -237,6 +226,12 @@ print('F1 Score micro:', f1score_global)
 print('F1 Score macro:', f1score_individual)
 print('F1 Score weighted:', f1score_weighted)
 
+'''
+path = 'output/Simple Classifier/StatsWholeDataset.txt'
+os.makedirs(os.path.dirname(path), exist_ok=True)
+with open('output/Simple Classifier/StatsWholeDataset.txt', 'w') as stats_output:
+    '''
+
 # TO DO:
 
 # MAKE LABELS READABLE - DONE
@@ -245,13 +240,5 @@ print('F1 Score weighted:', f1score_weighted)
 
 # ADABOOST  CLASSIFIER SKLEARN LIBRARY
 
-'''
-path = 'output/Simple Classifier/StatsWholeDataset.txt'
-os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/Simple Classifier/StatsWholeDataset.txt', 'w') as stats_output:
-    print('Resulted statistics\n', file=stats_output)
-#print('Recall\n\nViolate privacy\n',violate_tp,'/79\n','Commit to privacy\n',commit_tp,'/139\n','Opinion about privacy\n',opinion_tp,'/14\n','Related to privacy\n',related_tp,'/128\n','Not applicable\n',nonAp_tp,'/338\n','Total\n',total_tp,'/698\n')
-    print('Recall\n\nViolate privacy\n',violate_tp,'/',violate_fn+violate_tp,'\n','Commit to privacy\n',commit_tp,'/',commit_fn+commit_tp,'\n','Opinion about privacy\n',opinion_tp,'/',opinion_fn+opinion_tp,'\n','Related to privacy\n',related_tp,'/',related_fn+related_tp,'\n','Not applicable\n',nonAp_tp,'/',nonAp_fn+nonAp_tp,'\nTotal\n',total_tp,'/',total_fn+total_tp,'\n', file=stats_output)
-    print('Precision\n\nViolate privacy\n',violate_tp,'/',violate_fp+violate_tp,'\n','Commit to privacy\n',commit_tp,'/',commit_fp+commit_tp,'\n','Opinion about privacy\n',opinion_tp,'/',opinion_fp+opinion_tp,'\n','Related to privacy\n',related_tp,'/',related_fp+related_tp,'\n','Not applicable\n',nonAp_tp,'/',nonAp_fp+nonAp_tp,'\nTotal\n',total_tp,'/',total_fp+total_tp, file=stats_output)
-    '''
+
 
