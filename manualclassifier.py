@@ -94,7 +94,7 @@ with open(path) as file:
     json_sentences_predicted = json.loads(document)
 
 pred_array = [sent['label'] for sent in json_sentences_predicted]
-pred_labels = sorted(list(pred_array))
+#pred_labels = sorted(list(pred_array))
 
 pred_array_ordered = copy.deepcopy(pred_array)
 pred_1label_array = copy.deepcopy(pred_array)
@@ -115,8 +115,6 @@ for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
             ref_1label_array[i] = [ref_label[1]]
             #ref_1label_array[i][1] = ref_label[0]
         
-    
-
 #labels = ['Commit to privacy','Violate privacy','Declare opinion about privacy','Related to privacy','Not applicable']
 
 #mlb = MultiLabelBinarizer(classes=labels)
@@ -126,15 +124,17 @@ for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
 # TO DO:
 
 # INSTEAD OF MULTI LABEL CONFUSION MATRIX, APPLY MY RULES AND ALIGN RESULTS TO DROP THE "EXTRA LABEL"
+ref_1label_str_list = [label[0] for label in ref_1label_array]
+pred_1label_str_list = [label[0] for label in pred_1label_array]
 
 #confusion_matr = confusion_matrix(ref_array,pred_array, normalize="true")
 #confusion_matr = multilabel_confusion_matrix(ref_array_preprocessed, pred_array_preprocessed)
 #print(confusion_matr)
-#ConfusionMatrixDisplay.from_predictions(ref_array_preprocessed,pred_array_preprocessed, normalize="true")
-#plt.xticks(rotation=45, ha="right")
-#plt.subplots_adjust(bottom=0.4)
+ConfusionMatrixDisplay.from_predictions(ref_1label_str_list,pred_1label_str_list, normalize="true")
+plt.xticks(rotation=45, ha="right")
+plt.subplots_adjust(bottom=0.4)
 #plt.show()
-#plt.savefig('output/Simple Classifier/multilabel_confusion_matrix.jpg')
+plt.savefig('output/Simple Classifier/remainingLabel_confusion_matrix.jpg')
 
 #ref_labels = sorted(list(ref_array)) # sorted(list(set))
 #print(ref_labels)
