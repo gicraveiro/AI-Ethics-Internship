@@ -187,6 +187,12 @@ value_input_option = 'USER_ENTERED'
 #ref_sent.insert(0,'Sentences')
 #ref_array.insert(0,'Correct label')
 #pred_array.insert(0,'Predicted label')
+
+stats_values = []
+labels.insert(0,'Classes')
+stats_titles = [['Classification Statistics'],labels,['Precision:'],['Precision micro:'],['Recall:'],['Recall micro:'],['F1 Score:'],['F1 Score micro:'],['F1 Score macro:'],['F1 Score weighted:']]
+stats_values.extend([precision.tolist(), [precision_micro.tolist()], recall.tolist(), [recall_micro.tolist()], f1score.tolist(), [f1score_global.tolist()], [f1score_individual.tolist()], [f1score_weighted.tolist()]])
+
 sentences = {
         'values': ref_sent #values
     }
@@ -202,6 +208,12 @@ predictions_1label = {
 refs_1label = {
         'values': ref_1label_array
 }
+stats_titles_json = {
+        'values': stats_titles
+}
+stats_values_json = {
+        'values': stats_values
+}
 
 # WRITING RESULTS IN GOOGLE SHEETS
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifierPredictions'+'!A2:A'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=sentences).execute()
@@ -210,6 +222,9 @@ sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='ManualClassifi
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!A2:A'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=sentences).execute()
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!B2:B'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=refs_1label).execute()
 sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!C2:C'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=predictions_1label).execute()
+
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!E1:K'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=stats_titles_json).execute()
+sheet.values().update(spreadsheetId=SAMPLE_SPREADSHEET_ID, range='1labelResults'+'!F3:K'+str(MAX_N_SENTENCES),valueInputOption=value_input_option, body=stats_values_json).execute()
 
 # PRINTING RESULTS IN THE TERMINAL
 print("\nClassification Statistics\n")
