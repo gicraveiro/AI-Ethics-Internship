@@ -1,10 +1,11 @@
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
 from partition import sents_train, labels_train, sents_test
-from sklearn import datasets
 import re
+from sent2vec.vectorizer import Vectorizer
 
-#print(sents_train, type(sents_train))
+# Preprocessing input
+# Removing \n 
 for row_id,row in enumerate(sents_train):
     row = re.sub("\n", " ", row)
     sents_train[row_id] = row
@@ -12,20 +13,31 @@ for row_id,row in enumerate(sents_test):
     row = re.sub("\n", " ", row)
     sents_test[row_id] = row
 
-#print(sents_train, type(sents_train))
-#print(type(iris))
-#print(type(X))
-#print(type(y))
 
+#y=y.astype('int') #  for warning/error: specify because it is of type object... 
+# ValueError: Unknown label type: 'unknown'
+
+#print(labels_train, type(labels_train))
+#vectorizer = Vectorizer()
+#vectorizer.bert(sents_train)
+#sent_vectors = vectorizer.vectors
+# Reshaping needed... create word embeddings
+#sents_train = sents_train.reshape(-1,1)
+#print(sent_vectors)
+# Configurations
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 
-
-#print(partition.sents_train)
 # Training
-model = adaclassifier.fit(sents_train, labels_train)
+#model = adaclassifier.fit(sent_vectors, labels_train)
 
-# Predict
 
+# Predicting
 #predictions = model.predict(sents_test)
 
 #print(predictions)
+
+# Measuring results
+# print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+
+# CAREFUL
+# ADABOOST IS HIGHLY AFFECTED TO OUTLIERS - declare opinion about privacy is a very rare category...
