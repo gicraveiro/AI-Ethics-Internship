@@ -18,7 +18,7 @@ for l1,l2 in zip(labels1,labels2):
         row_labels.append(l2)
     labels.append(row_labels)
 
-sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels)
+sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=11)
 
 # save a json, separate labels and sents, use a dictionary in python
 train_dict = []
@@ -37,6 +37,7 @@ for row_id,row in enumerate(sents_test):
     row = re.sub("\n", " ", row)
     test_dict.append({"text":row.strip(), "label":labels_test[row_id]})
 
+'''
 # create output files and write sentences with labels
 path = 'output/partition/multilabeldata_train.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -50,6 +51,7 @@ path = 'output/partition/multilabeldata_test.json'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open('output/partition/multilabeldata_test.json', 'w') as test_file:
     test_file.write(json.dumps(test_dict, indent=4, ensure_ascii=False))
+
 
 # COUNTING DISTRIBUTION TO ENSURE IT IS BEING PERFORMED CORRECTLY
 
@@ -107,3 +109,4 @@ for item, sum_item in zip(sorted(Counter(test_count)), sorted(Counter(sum))):
     print(item,  sum_item)
     print(distr_value, "out of", total_value, "samples in the whole dataset")
     print(round(float(distr_value)/float(total_value)*100,2),'\n')
+    '''
