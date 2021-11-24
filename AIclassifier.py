@@ -33,6 +33,9 @@ vectors_list = []
 
 matrix_list = []
 
+# SOLUTION IDEA: MAYBE FIRST CREATE THE LEXICON AND AFTERWARDS CREATE THE SPARSE MATRIXES...
+# WAIT, PAUSE, it seems they were be as long as the sentence anyways if I don't do anything about it... study better
+
 for sent in sents_train:
     sent_doc = nlp(sent)
     sent_tokens_list = []
@@ -46,7 +49,7 @@ for sent in sents_train:
             number_representation += 1
         sent_vector.append(words_to_numbers[token.text])
         data_array_ofmatrix.append(1)
-        #sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
+        sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
     indptr.append(len(sent_vector))
     dataset_tokens.append(sent_tokens_list)
     vectors_list.append(sent_vector) # numpy.asarray()
@@ -54,6 +57,19 @@ for sent in sents_train:
     mat = csr_matrix((data_array_ofmatrix, sent_vector, indptr), dtype=int).toarray()
     print(mat)
     matrix_list.append(mat)
+    print(type(mat), len(mat))
+    
+# PAUSE
+#for entry in vectors_list:
+#    data_array_ofmatrix = []
+#    indptr = [0]
+#    for token in entry:
+#        data_array_ofmatrix.append(1)
+        
+#    mat = csr_matrix((data_array_ofmatrix, sent_vector, indptr), dtype=int).toarray()
+#    print(mat)
+#    matrix_list.append(mat)
+#    print(type(mat), len(mat))
     #corpus.extend(sent_tokens_list)
 
 #freq = nltk.FreqDist(corpus)
@@ -90,8 +106,11 @@ for label in labels_train:
         labels_primary.append(4)
     if label[0] == 'Not applicable':
         labels_primary.append(5)
+  
 
-print(labels_primary)
+print(type(matrix_list), len(matrix_list))
+print(type(labels_primary), len(labels_primary))
+
 
 
 
