@@ -36,6 +36,10 @@ matrix_list = []
 # SOLUTION IDEA: MAYBE FIRST CREATE THE LEXICON AND AFTERWARDS CREATE THE SPARSE MATRIXES...
 # WAIT, PAUSE, it seems they were be as long as the sentence anyways if I don't do anything about it... study better
 
+# help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
+# https://blog.paperspace.com/adaboost-optimizer/
+# https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier.fit
+
 for sent in sents_train:
     sent_doc = nlp(sent)
     sent_tokens_list = []
@@ -47,17 +51,18 @@ for sent in sents_train:
         if token.text not in words_to_numbers:
             words_to_numbers[token.text] = number_representation
             number_representation += 1
-        sent_vector.append(words_to_numbers[token.text])
+        #sent_vector.append(words_to_numbers[token.text])
+        numpy.append(sent_vector, words_to_numbers[token.text])
         data_array_ofmatrix.append(1)
         sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
     indptr.append(len(sent_vector))
     dataset_tokens.append(sent_tokens_list)
     vectors_list.append(sent_vector) # numpy.asarray()
-    print(sent_vector)
+    #print(sent_vector)
     mat = csr_matrix((data_array_ofmatrix, sent_vector, indptr), dtype=int).toarray()
-    print(mat)
-    matrix_list.append(mat)
-    print(type(mat), len(mat))
+    #print(mat[0])
+    matrix_list.append(mat[0])
+    print("NEW",type(mat), len(mat), type(mat[0]), len(mat[0]))
     
 # PAUSE
 #for entry in vectors_list:
