@@ -32,6 +32,8 @@ number_representation = 0
 vectors_list = []
 
 matrix_list = []
+indexes = []
+total_tokens = []
 
 # SOLUTION IDEA: MAYBE FIRST CREATE THE LEXICON AND AFTERWARDS CREATE THE SPARSE MATRIXES...
 # WAIT, PAUSE, it seems they were be as long as the sentence anyways if I don't do anything about it... study better
@@ -55,15 +57,23 @@ for sent in sents_train:
         numpy.append(sent_vector, words_to_numbers[token.text])
         data_array_ofmatrix.append(1)
         sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
-    indptr.append(len(sent_vector))
+    #indptr.append(len(sent_vector))
     dataset_tokens.append(sent_tokens_list)
     vectors_list.append(sent_vector) # numpy.asarray()
     #print(sent_vector)
-    mat = csr_matrix((data_array_ofmatrix, sent_vector, indptr), dtype=int).toarray()
+    #mat = csr_matrix((data_array_ofmatrix, sent_vector, indptr), dtype=int).toarray()
     #print(mat[0])
-    matrix_list.append(mat[0])
-    print("NEW",type(mat), len(mat), type(mat[0]), len(mat[0]))
-    
+    #matrix_list.append(mat[0])
+    total_tokens.append(data_array_ofmatrix)
+    #indexes.append(indptr)
+    #matrix_list = numpy.append(matrix_list, mat[0])
+    #print("NEW",type(mat), len(mat), type(mat[0]), len(mat[0]), numpy.shape(mat[0]))
+for elem in total_tokens:
+    indexes.append(len(words_to_numbers))
+
+mat = csr_matrix((total_tokens, vectors_list, indexes), shape=(len(indexes), len(words_to_numbers)), dtype=int).toarray()
+print(mat)
+print(type(mat), len(mat), numpy.shape(mat))
 # PAUSE
 #for entry in vectors_list:
 #    data_array_ofmatrix = []
@@ -112,21 +122,18 @@ for label in labels_train:
     if label[0] == 'Not applicable':
         labels_primary.append(5)
   
-
+print(matrix_list)
+print(labels_primary)
+#print(labels_train)
 print(type(matrix_list), len(matrix_list))
 print(type(labels_primary), len(labels_primary))
-
-
-
-
-#print(matrix_list)
-#print(labels_train)
+print(numpy.shape(matrix_list), numpy.shape(labels_primary))
+#, matrix_list.ndim)
 # Configurations
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 
 # Training
-model = adaclassifier.fit(matrix_list, labels_primary)
-
+#model = adaclassifier.fit(matrix_list, labels_primary)
 
 # Predicting
 #predictions = model.predict(sents_test)
