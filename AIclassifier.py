@@ -47,44 +47,15 @@ for sent in sents_train:
     sent_doc = nlp(sent)
     sent_tokens_list = []
     sent_vector = []
-    data_array_ofmatrix = []
     indptr = [0]
     for token in sent_doc:
         sent_tokens_list.append(token.text)
         if token.text not in words_to_numbers:
             words_to_numbers[token.text] = number_representation
             number_representation += 1
-        #sent_vector.append(words_to_numbers[token.text])
-        #numpy.append(sent_vector, words_to_numbers[token.text])
-        #data_array_ofmatrix.append(1)
         sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
         sent_vector = sent_vector.astype(int)
-    #indptr.append(len(sent_vector))
-    #dataset_tokens.append(sent_tokens_list)
     vectors_list.append(sent_vector) # numpy.asarray()
-    #print(sent_vector)
-    #mat = csr_matrix((data_array_ofmatrix, sent_vector, indptr), dtype=int).toarray()
-    #print(mat)
-    #matrix_list.append(mat[0])
-    #matrix_list = numpy.concatenate((matrix_list, mat), axis=0)
-    #total_tokens.append(data_array_ofmatrix)
-    #indexes.append(indptr)
-    #matrix_list = numpy.append(matrix_list, mat[0])
-    #print("NEW",type(mat), len(mat), type(mat[0]), len(mat[0]), numpy.shape(mat[0]))
-#i=0
-#for elem in total_tokens:
-#    indexes.append(len(words_to_numbers))
-#    print(indexes[i])
-#    i+=1
-#print(len(indexes))    
-#print(len(total_tokens[0]))
-#print(len(vectors_list[0]))
-#for item in matrix_list:
- #   print(item)
-#sparse_vector = [0] * len(words_to_numbers)
-#for index in sent_vector:
-#    sparse_vector[index] = 1
-#matrix_array = sparse_vector
 
 for i, sent_vector in enumerate(vectors_list): 
     sparse_vector = [0] * len(words_to_numbers)
@@ -94,46 +65,7 @@ for i, sent_vector in enumerate(vectors_list):
         matrix_array = [sparse_vector]
     else:
         matrix_array = numpy.concatenate((matrix_array, [sparse_vector]), axis=0)
-    #print(sparse_vector)
-#print(matrix_list)
-#print(matrix_array)
 
-
-
-#mat = csr_matrix((total_tokens, vectors_list, indexes), shape=(len(indexes), len(words_to_numbers)), dtype=int).toarray()
-#print(mat)
-#print(type(mat), len(mat), numpy.shape(mat))
-
-
-# Load data
-
-# PAUSE
-#for entry in vectors_list:
-#    data_array_ofmatrix = []
-#    indptr = [0]
-#    for token in entry:
-#        data_array_ofmatrix.append(1)
-        
-#    mat = csr_matrix((data_array_ofmatrix, sent_vector, indptr), dtype=int).toarray()
-#    print(mat)
-#    matrix_list.append(mat)
-#    print(type(mat), len(mat))
-    #corpus.extend(sent_tokens_list)
-
-#freq = nltk.FreqDist(corpus)
-
-#print(vectors_list)
-#print(dataset_tokens)
-#print(number_representation)
-#print (freq)
-
-#print(labels_train, type(labels_train))
-#vectorizer = Vectorizer()
-#vectorizer.bert(sents_train)
-#sent_vectors = vectorizer.vectors
-# Reshaping needed... create word embeddings
-#sents_train = sents_train.reshape(-1,1)
-#print(sent_vectors)
 
 # PRE-PROCESS LABELS VECTOR
 # MULTI-LABEL PROBLEM...
@@ -156,24 +88,16 @@ for label in labels_train:
         labels_primary = numpy.append(labels_primary,5)
 labels_primary = labels_primary.astype(int)
 
-iris = datasets.load_iris()
-X = iris.data
-y = iris.target
-print(X)
-print(y)
-print(matrix_array)
-print(labels_primary)
-print(len(X), type(X), len(y), type(y))
-print(len(matrix_array), type(matrix_array), len(labels_primary), type(labels_primary))
+#iris = datasets.load_iris()
+#X = iris.data
+#y = iris.target
+#print(X)
+#print(y)
+#print(matrix_array)
 #print(labels_primary)
-#print(len(labels_primary), type(labels_primary))
-#print(matrix_list)
-#print(labels_primary)
-#print(labels_train)
-#print(type(matrix_list), len(matrix_list))
-#print(type(labels_primary), len(labels_primary))
-#print(numpy.shape(matrix_list), numpy.shape(labels_primary))
-#, matrix_list.ndim)
+#print(len(X), type(X), len(y), type(y))
+#print(len(matrix_array), type(matrix_array), len(labels_primary), type(labels_primary))
+
 # Configurations
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 
