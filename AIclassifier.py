@@ -32,7 +32,7 @@ words_to_numbers = {}
 number_representation = 0
 vectors_list = []
 
-matrix_list = []
+matrix_list = [[]]
 indexes = []
 total_tokens = []
 
@@ -55,39 +55,56 @@ for sent in sents_train:
             words_to_numbers[token.text] = number_representation
             number_representation += 1
         #sent_vector.append(words_to_numbers[token.text])
-        numpy.append(sent_vector, words_to_numbers[token.text])
-        data_array_ofmatrix.append(1)
+        #numpy.append(sent_vector, words_to_numbers[token.text])
+        #data_array_ofmatrix.append(1)
         sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
+        sent_vector = sent_vector.astype(int)
     #indptr.append(len(sent_vector))
-    dataset_tokens.append(sent_tokens_list)
+    #dataset_tokens.append(sent_tokens_list)
     vectors_list.append(sent_vector) # numpy.asarray()
     #print(sent_vector)
     #mat = csr_matrix((data_array_ofmatrix, sent_vector, indptr), dtype=int).toarray()
-    #print(mat[0])
+    #print(mat)
     #matrix_list.append(mat[0])
-    total_tokens.append(data_array_ofmatrix)
+    #matrix_list = numpy.concatenate((matrix_list, mat), axis=0)
+    #total_tokens.append(data_array_ofmatrix)
     #indexes.append(indptr)
     #matrix_list = numpy.append(matrix_list, mat[0])
     #print("NEW",type(mat), len(mat), type(mat[0]), len(mat[0]), numpy.shape(mat[0]))
-i=0
-for elem in total_tokens:
-    indexes.append(len(words_to_numbers))
-    print(indexes[i])
-    i+=1
-print(len(indexes))    
-print(len(total_tokens[0]))
-print(len(vectors_list[0]))
+#i=0
+#for elem in total_tokens:
+#    indexes.append(len(words_to_numbers))
+#    print(indexes[i])
+#    i+=1
+#print(len(indexes))    
+#print(len(total_tokens[0]))
+#print(len(vectors_list[0]))
+#for item in matrix_list:
+ #   print(item)
+#sparse_vector = [0] * len(words_to_numbers)
+#for index in sent_vector:
+#    sparse_vector[index] = 1
+#matrix_array = sparse_vector
 
+for i, sent_vector in enumerate(vectors_list): 
+    sparse_vector = [0] * len(words_to_numbers)
+    for index in sent_vector:
+        sparse_vector[index] = 1
+    if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
+        matrix_array = [sparse_vector]
+    else:
+        matrix_array = numpy.concatenate((matrix_array, [sparse_vector]), axis=0)
+    print(sparse_vector)
+#print(matrix_list)
+print(matrix_array)
 iris = datasets.load_iris()
 X = iris.data
 y = iris.target
 print(X)
-i=0
-for item in X:
-    print(i)
-    i+=1
-print(y)
+#print(y)
 print(len(X), type(X), len(y), type(y))
+print(len(matrix_array), type(matrix_array))
+
 
 #mat = csr_matrix((total_tokens, vectors_list, indexes), shape=(len(indexes), len(words_to_numbers)), dtype=int).toarray()
 #print(mat)
@@ -144,8 +161,8 @@ for label in labels_train:
     if label[0] == 'Not applicable':
         labels_primary = numpy.append(labels_primary,5)
 labels_primary = labels_primary.astype(int)
-print(labels_primary)
-print(len(labels_primary), type(labels_primary))
+#print(labels_primary)
+#print(len(labels_primary), type(labels_primary))
 #print(matrix_list)
 #print(labels_primary)
 #print(labels_train)
