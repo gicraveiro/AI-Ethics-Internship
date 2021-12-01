@@ -94,16 +94,10 @@ for i, sent_vector in enumerate(vectors_list):
         matrix_array = [sparse_vector]
     else:
         matrix_array = numpy.concatenate((matrix_array, [sparse_vector]), axis=0)
-    print(sparse_vector)
+    #print(sparse_vector)
 #print(matrix_list)
-print(matrix_array)
-iris = datasets.load_iris()
-X = iris.data
-y = iris.target
-print(X)
-#print(y)
-print(len(X), type(X), len(y), type(y))
-print(len(matrix_array), type(matrix_array))
+#print(matrix_array)
+
 
 
 #mat = csr_matrix((total_tokens, vectors_list, indexes), shape=(len(indexes), len(words_to_numbers)), dtype=int).toarray()
@@ -161,6 +155,16 @@ for label in labels_train:
     if label[0] == 'Not applicable':
         labels_primary = numpy.append(labels_primary,5)
 labels_primary = labels_primary.astype(int)
+
+iris = datasets.load_iris()
+X = iris.data
+y = iris.target
+print(X)
+print(y)
+print(matrix_array)
+print(labels_primary)
+print(len(X), type(X), len(y), type(y))
+print(len(matrix_array), type(matrix_array), len(labels_primary), type(labels_primary))
 #print(labels_primary)
 #print(len(labels_primary), type(labels_primary))
 #print(matrix_list)
@@ -171,10 +175,11 @@ labels_primary = labels_primary.astype(int)
 #print(numpy.shape(matrix_list), numpy.shape(labels_primary))
 #, matrix_list.ndim)
 # Configurations
-#adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
+adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 
 # Training
-#model = adaclassifier.fit(matrix_list, labels_primary)
+model = adaclassifier.fit(matrix_array, labels_primary)
+#model = adaclassifier.fit(X, y)
 
 # Predicting
 #predictions = model.predict(sents_test)
