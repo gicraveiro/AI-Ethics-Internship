@@ -1,7 +1,7 @@
 from scipy.sparse import data
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
-from partition import sents_train, labels_train, sents_test
+from partition import sents_train, labels_train, sents_test, labels_test
 import re
 from sent2vec.vectorizer import Vectorizer
 import spacy
@@ -87,20 +87,35 @@ for i, sent_vector in enumerate(test_vectors_list):
 # APPROACH 2: DUPLICATE RESULTS
 # APPROACH 3? : ALIGN RIGHT LABEL FIRST
 
-labels_primary = []
+train_labels_primary = []
 
 for label in labels_train:
     if label[0] == 'Commit to privacy':
-        labels_primary = numpy.append(labels_primary,1)
+        train_labels_primary = numpy.append(train_labels_primary,1)
     if label[0] == 'Violate privacy':
-        labels_primary = numpy.append(labels_primary,2)
+        train_labels_primary = numpy.append(train_labels_primary,2)
     if label[0] == 'Declare opinion about privacy':
-        labels_primary = numpy.append(labels_primary,3)
+        train_labels_primary = numpy.append(train_labels_primary,3)
     if label[0] == 'Related to privacy':
-        labels_primary = numpy.append(labels_primary,4)
+        train_labels_primary = numpy.append(train_labels_primary,4)
     if label[0] == 'Not applicable':
-        labels_primary = numpy.append(labels_primary,5)
-labels_primary = labels_primary.astype(int)
+        train_labels_primary = numpy.append(train_labels_primary,5)
+train_labels_primary = train_labels_primary.astype(int)
+
+test_labels_primary = []
+
+for label in labels_test:
+    if label[0] == 'Commit to privacy':
+        test_labels_primary = numpy.append(test_labels_primary,1)
+    if label[0] == 'Violate privacy':
+        test_labels_primary = numpy.append(test_labels_primary,2)
+    if label[0] == 'Declare opinion about privacy':
+        test_labels_primary = numpy.append(test_labels_primary,3)
+    if label[0] == 'Related to privacy':
+        test_labels_primary = numpy.append(test_labels_primary,4)
+    if label[0] == 'Not applicable':
+        test_labels_primary = numpy.append(test_labels_primary,5)
+test_labels_primary = test_labels_primary.astype(int)
 
 #iris = datasets.load_iris()
 #X = iris.data
@@ -116,8 +131,7 @@ labels_primary = labels_primary.astype(int)
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 
 # Training
-model = adaclassifier.fit(train_matrix_array, labels_primary)
-#model = adaclassifier.fit(X, y)
+model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 
 # Predicting
 predictions = model.predict(test_matrix_array)
@@ -125,7 +139,7 @@ predictions = model.predict(test_matrix_array)
 print(predictions)
 
 # Measuring results
-# print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+print("Accuracy:",metrics.accuracy_score(test_labels_primary, predictions))
 
 # CAREFUL
 # ADABOOST IS HIGHLY AFFECTED TO OUTLIERS - declare opinion about privacy is a very rare category...
