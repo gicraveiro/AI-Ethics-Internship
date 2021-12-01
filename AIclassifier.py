@@ -19,52 +19,66 @@ for row_id,row in enumerate(sents_test):
     row = re.sub("\n", " ", row)
     sents_test[row_id] = row
 
-
-#y=y.astype('int') #  for warning/error: specify because it is of type object... 
-# ValueError: Unknown label type: 'unknown'
-
-
 # TOKENIZE, PREPROCESS, CONVERT WORD TOKENS INTO NUMBERS FROM 1 TO N, N IS THE VOACABULARY SIZE
 nlp = spacy.load('en_core_web_sm')
-dataset_tokens = []
-#corpus = []
+
+#
+# REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 3 OR 4 WITH UNK
+#
+
 words_to_numbers = {}
 number_representation = 0
-vectors_list = []
-
-matrix_list = [[]]
-indexes = []
-total_tokens = []
-
-# SOLUTION IDEA: MAYBE FIRST CREATE THE LEXICON AND AFTERWARDS CREATE THE SPARSE MATRIXES...
-# WAIT, PAUSE, it seems they were be as long as the sentence anyways if I don't do anything about it... study better
-
-# help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
-# https://blog.paperspace.com/adaboost-optimizer/
-# https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier.fit
+train_vectors_list = []
 
 for sent in sents_train:
     sent_doc = nlp(sent)
-    sent_tokens_list = []
+    #sent_tokens_list = []
     sent_vector = []
-    indptr = [0]
     for token in sent_doc:
-        sent_tokens_list.append(token.text)
+        #sent_tokens_list.append(token.text)
         if token.text not in words_to_numbers:
             words_to_numbers[token.text] = number_representation
             number_representation += 1
         sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
         sent_vector = sent_vector.astype(int)
-    vectors_list.append(sent_vector) # numpy.asarray()
+    train_vectors_list.append(sent_vector) 
 
-for i, sent_vector in enumerate(vectors_list): 
+test_vectors_list = []
+
+for sent in sents_test:
+    sent_doc = nlp(sent)
+    #sent_tokens_list = []
+    sent_vector = []
+    for token in sent_doc:
+        #sent_tokens_list.append(token.text)
+        # HELP HOW TO DEAL WITH UNKNOWN VALUES WHEN CREATING THE DICTIONARY
+        if token.text not in words_to_numbers:
+        #    words_to_numbers[token.text] = number_representation
+        #    number_representation += 1
+            #sent_vector = numpy.append(sent_vector, len(words_to_numbers)) # REFERENT TO UNKNOWN THAT WILL BE IMPLEMTNED SOON
+            pass
+        else:
+            sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
+            sent_vector = sent_vector.astype(int)
+    test_vectors_list.append(sent_vector) 
+
+for i, sent_vector in enumerate(train_vectors_list): 
     sparse_vector = [0] * len(words_to_numbers)
     for index in sent_vector:
         sparse_vector[index] = 1
     if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
-        matrix_array = [sparse_vector]
+        train_matrix_array = [sparse_vector]
     else:
-        matrix_array = numpy.concatenate((matrix_array, [sparse_vector]), axis=0)
+        train_matrix_array = numpy.concatenate((train_matrix_array, [sparse_vector]), axis=0)
+
+for i, sent_vector in enumerate(test_vectors_list): 
+    sparse_vector = [0] * len(words_to_numbers)
+    for index in sent_vector:
+        sparse_vector[index] = 1 # USE FREQUENCY IN THE SENTENCE AS VALUE
+    if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
+        test_matrix_array = [sparse_vector]
+    else:
+        test_matrix_array = numpy.concatenate((test_matrix_array, [sparse_vector]), axis=0)
 
 
 # PRE-PROCESS LABELS VECTOR
@@ -102,16 +116,21 @@ labels_primary = labels_primary.astype(int)
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 
 # Training
-model = adaclassifier.fit(matrix_array, labels_primary)
+model = adaclassifier.fit(train_matrix_array, labels_primary)
 #model = adaclassifier.fit(X, y)
 
 # Predicting
-#predictions = model.predict(sents_test)
+predictions = model.predict(test_matrix_array)
 
-#print(predictions)
+print(predictions)
 
 # Measuring results
 # print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
 # CAREFUL
 # ADABOOST IS HIGHLY AFFECTED TO OUTLIERS - declare opinion about privacy is a very rare category...
+
+
+# help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
+# https://blog.paperspace.com/adaboost-optimizer/
+# https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier.fit
