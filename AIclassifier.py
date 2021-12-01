@@ -140,3 +140,7 @@ print("Accuracy:",metrics.accuracy_score(test_labels_primary, predictions))
 # help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
 # https://blog.paperspace.com/adaboost-optimizer/
 # https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier.fit
+
+
+# First accuracy without weight: 0.47
+# First accuracy weighted: 0.43
