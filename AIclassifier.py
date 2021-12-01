@@ -8,6 +8,7 @@ import spacy
 import numpy
 import nltk
 from scipy.sparse import csr_matrix
+from sklearn import datasets
 
 # Preprocessing input
 # Removing \n 
@@ -68,12 +69,33 @@ for sent in sents_train:
     #indexes.append(indptr)
     #matrix_list = numpy.append(matrix_list, mat[0])
     #print("NEW",type(mat), len(mat), type(mat[0]), len(mat[0]), numpy.shape(mat[0]))
+i=0
 for elem in total_tokens:
     indexes.append(len(words_to_numbers))
+    print(indexes[i])
+    i+=1
+print(len(indexes))    
+print(len(total_tokens[0]))
+print(len(vectors_list[0]))
 
-mat = csr_matrix((total_tokens, vectors_list, indexes), shape=(len(indexes), len(words_to_numbers)), dtype=int).toarray()
-print(mat)
-print(type(mat), len(mat), numpy.shape(mat))
+iris = datasets.load_iris()
+X = iris.data
+y = iris.target
+print(X)
+i=0
+for item in X:
+    print(i)
+    i+=1
+print(y)
+print(len(X), type(X), len(y), type(y))
+
+#mat = csr_matrix((total_tokens, vectors_list, indexes), shape=(len(indexes), len(words_to_numbers)), dtype=int).toarray()
+#print(mat)
+#print(type(mat), len(mat), numpy.shape(mat))
+
+
+# Load data
+
 # PAUSE
 #for entry in vectors_list:
 #    data_array_ofmatrix = []
@@ -112,25 +134,27 @@ labels_primary = []
 
 for label in labels_train:
     if label[0] == 'Commit to privacy':
-        labels_primary.append(1)
+        labels_primary = numpy.append(labels_primary,1)
     if label[0] == 'Violate privacy':
-        labels_primary.append(2)
+        labels_primary = numpy.append(labels_primary,2)
     if label[0] == 'Declare opinion about privacy':
-        labels_primary.append(3)
+        labels_primary = numpy.append(labels_primary,3)
     if label[0] == 'Related to privacy':
-        labels_primary.append(4)
+        labels_primary = numpy.append(labels_primary,4)
     if label[0] == 'Not applicable':
-        labels_primary.append(5)
-  
-print(matrix_list)
+        labels_primary = numpy.append(labels_primary,5)
+labels_primary = labels_primary.astype(int)
 print(labels_primary)
+print(len(labels_primary), type(labels_primary))
+#print(matrix_list)
+#print(labels_primary)
 #print(labels_train)
-print(type(matrix_list), len(matrix_list))
-print(type(labels_primary), len(labels_primary))
-print(numpy.shape(matrix_list), numpy.shape(labels_primary))
+#print(type(matrix_list), len(matrix_list))
+#print(type(labels_primary), len(labels_primary))
+#print(numpy.shape(matrix_list), numpy.shape(labels_primary))
 #, matrix_list.ndim)
 # Configurations
-adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
+#adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 
 # Training
 #model = adaclassifier.fit(matrix_list, labels_primary)
