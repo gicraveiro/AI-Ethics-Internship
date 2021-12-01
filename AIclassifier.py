@@ -53,8 +53,6 @@ for sent in sents_test:
         #sent_tokens_list.append(token.text)
         # HELP HOW TO DEAL WITH UNKNOWN VALUES WHEN CREATING THE DICTIONARY
         if token.text not in words_to_numbers:
-        #    words_to_numbers[token.text] = number_representation
-        #    number_representation += 1
             #sent_vector = numpy.append(sent_vector, len(words_to_numbers)) # REFERENT TO UNKNOWN THAT WILL BE IMPLEMTNED SOON
             pass
         else:
@@ -65,7 +63,9 @@ for sent in sents_test:
 for i, sent_vector in enumerate(train_vectors_list): 
     sparse_vector = [0] * len(words_to_numbers)
     for index in sent_vector:
-        sparse_vector[index] = 1
+        auxList = sent_vector.tolist()
+        freq = auxList.count(index)
+        sparse_vector[index] = freq/len(sent_vector) # 1
     if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
         train_matrix_array = [sparse_vector]
     else:
@@ -74,7 +74,9 @@ for i, sent_vector in enumerate(train_vectors_list):
 for i, sent_vector in enumerate(test_vectors_list): 
     sparse_vector = [0] * len(words_to_numbers)
     for index in sent_vector:
-        sparse_vector[index] = 1 # USE FREQUENCY IN THE SENTENCE AS VALUE
+        auxList = sent_vector.tolist()
+        freq = auxList.count(index)
+        sparse_vector[index] = freq/len(sent_vector) # 1
     if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
         test_matrix_array = [sparse_vector]
     else:
@@ -83,7 +85,7 @@ for i, sent_vector in enumerate(test_vectors_list):
 
 # PRE-PROCESS LABELS VECTOR
 # MULTI-LABEL PROBLEM...
-# APPROACH 1: CHOOSE PRIMARY LABEL
+# APPROACH 1: CHOOSE PRIMARY LABEL ----- ADOPTED
 # APPROACH 2: DUPLICATE RESULTS
 # APPROACH 3? : ALIGN RIGHT LABEL FIRST
 
@@ -116,16 +118,6 @@ for label in labels_test:
     if label[0] == 'Not applicable':
         test_labels_primary = numpy.append(test_labels_primary,5)
 test_labels_primary = test_labels_primary.astype(int)
-
-#iris = datasets.load_iris()
-#X = iris.data
-#y = iris.target
-#print(X)
-#print(y)
-#print(matrix_array)
-#print(labels_primary)
-#print(len(X), type(X), len(y), type(y))
-#print(len(matrix_array), type(matrix_array), len(labels_primary), type(labels_primary))
 
 # Configurations
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
