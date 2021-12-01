@@ -132,7 +132,11 @@ print(predictions)
 
 # Measuring results
 print("Accuracy:",metrics.accuracy_score(test_labels_primary, predictions))
-
+print("Recall micro:",metrics.recall_score(test_labels_primary, predictions, average="micro"))
+print("Recall macro:",metrics.recall_score(test_labels_primary, predictions, average="macro"))
+print("F1 Score micro:",metrics.f1_score(test_labels_primary, predictions, average="micro"))
+print("F1 Score macro:",metrics.f1_score(test_labels_primary, predictions, average="macro"))
+print("F1 Score weighted:",metrics.f1_score(test_labels_primary, predictions, average="weighted"))
 # CAREFUL
 # ADABOOST IS HIGHLY AFFECTED TO OUTLIERS - declare opinion about privacy is a very rare category...
 
