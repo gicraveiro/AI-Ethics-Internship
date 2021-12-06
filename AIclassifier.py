@@ -37,10 +37,10 @@ word_freq = Counter(tokens)
 # REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK
 #
 
-for word in word_freq.items():
-    print(word[0], word[1])
+#for word in word_freq.items():
+#    print(word[0], word[1])
 corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
-print(corpus_with_unk)
+#print(corpus_with_unk)
 
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION
@@ -79,8 +79,6 @@ for sent in sents_train:
 
 #print(train_vectors_list)
 
-# FLAG - CHECK IF SENTENCE REPRESENATIONS WERE DONE CORRECTLY
-
 test_vectors_list = []
 
 for sent in sents_test:
@@ -96,21 +94,25 @@ for sent in sents_test:
     sent_vector = sent_vector.astype(int)
     test_vectors_list.append(sent_vector) 
 
-print(test_vectors_list)
-print(len(sents_test))
 
-'''
+# FLAG - CHECK IF SENTENCE REPRESENATIONS WERE DONE CORRECTLY
+
+#print(test_vectors_list)
+#print(len(sents_test))
+
+
 for i, sent_vector in enumerate(train_vectors_list): 
-    sparse_vector = [0] * len(words_to_numbers)
+    sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
     for index in sent_vector:
         auxList = sent_vector.tolist()
         freq = auxList.count(index)
-        sparse_vector[index] = freq/len(sent_vector) # 1
+        sparse_vector[index] = freq/len(sent_vector) # 1 # LATER TEST AND DOCUMENT PERFORMANCE IN WEIGHTED AND SIMPLE 1
     if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
         train_matrix_array = [sparse_vector]
     else:
         train_matrix_array = numpy.concatenate((train_matrix_array, [sparse_vector]), axis=0)
 
+# TO DO: OPTIMIZE - INSERT IN FUNCTION
 for i, sent_vector in enumerate(test_vectors_list): 
     sparse_vector = [0] * len(words_to_numbers)
     for index in sent_vector:
@@ -170,7 +172,14 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 # Predicting
 predictions = model.predict(test_matrix_array)
 
-print(predictions)
+for sent, pred in zip(sents_train,predictions):
+    print(sent, pred, "\n")
+
+print("Predictions:\n", predictions)
+
+# TO DO: CREATE CONFUSION MATRIX
+
+# UPLOAD RESULTS IN A DOCUMENT THAT GABRIEL CAN CHECK
 
 # Measuring results
 print("Accuracy:",metrics.accuracy_score(test_labels_primary, predictions))
@@ -194,4 +203,3 @@ print("F1 Score weighted:",metrics.f1_score(test_labels_primary, predictions, av
 
 # USE THE DEV SET TO MAKE EXPERIMENTS ON PERFORMANCE OF THE ALGORITHM
 # TEST DIFFERENT WAYS TO REPRESENT THE SENTENCE - AND THEN MAYBE START DOING OTHER THINGS
-'''
