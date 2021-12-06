@@ -58,21 +58,22 @@ def create_vectors_list(sents):
         print(sent, sent_vector) 
     return vectors_list
 
-# TOKENIZE, PREPROCESS, CONVERT WORD TOKENS INTO NUMBERS FROM 1 TO N, N IS THE VOACABULARY SIZE
-nlp = spacy.load('en_core_web_lg') # FIND ALL THE OTHER SPACY.LOAD AND CHANGE TO LG
+# MAIN
+
+nlp = spacy.load('en_core_web_lg') 
 
 # Preprocessing input 
-# Removing \n 
 
 corpus = '\n'.join(sents_train)
 corpus = clean_corpus(corpus)
-corpus = re.sub("\n", " ", corpus)
+corpus = re.sub("\n", " ", corpus) # Removing \n 
 corpus = re.sub("  ", " ", corpus)
 train_doc = nlp(corpus)
 train_doc = reconstruct_hyphenated_words(train_doc)
 tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
 
 # FLAG: SHOULD I REMOVE STOPWORDS, LITTLE SQUARE, SMTH ELSE AS WELL? 
+# I THINK SO, BUT LET'S COUNT IT AN EXPERIMENT, SO REPORT THE MEASURES BEFORE MAKING THESE CHANGES
 
 word_freq = Counter(tokens)
 
