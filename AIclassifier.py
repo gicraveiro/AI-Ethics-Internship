@@ -186,7 +186,7 @@ print(test_list)
 print(pred_list)
 #print(type(test_list), type(pred_list))
 
-metrics.ConfusionMatrixDisplay.from_predictions(test_list,pred_list, normalize="true")
+metrics.ConfusionMatrixDisplay.from_predictions(test_list,pred_list, normalize="true", labels=[1,2,3,4,5],display_labels=['Commit to privacy', 'Violate privacy', 'Declare opinion about privacy', 'Related to privacy', 'Not applicable'])
 plt.xticks(rotation=45, ha="right")
 plt.subplots_adjust(bottom=0.4)
 #plt.show()
