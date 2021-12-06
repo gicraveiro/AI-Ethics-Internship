@@ -31,19 +31,23 @@ tokens = [token.text for token in train_doc if not token.is_space if not token.i
 # FLAG: SHOULD I REMOVE STOPWORDS, LITTLE SQUARE, SMTH ELSE AS WELL? 
 
 word_freq = Counter(tokens)
-print(word_freq)
+#print(word_freq)
 
 for word in word_freq.items():
     print(word[0], word[1])
-corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) >= 2] # < 2 or <= 2
+corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
 print(corpus_with_unk)
 
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE CALCULATED WITHOUT SPACY TOKENIZATION
 
-# calculte frequency before and after removing unknown words
-# use counter from collections, already creates a dictionary , then remove words, add unk row
-''' 
+for word in corpus_with_unk:
+    words_to_numbers[word] = number_representation
+    number_representation += 1
+words_to_numbers["unk"] = number_representation
+
+print(words_to_numbers)
+'''
 for row_id,row in enumerate(sents_train):
     row = re.sub("\n", " ", row)
     sents_train[row_id] = row
@@ -52,6 +56,11 @@ for row_id,row in enumerate(sents_train):
         if token.text not in words_to_numbers:
             words_to_numbers[token.text] = number_representation
             number_representation += 1
+'''
+# count frequency before and after removing unknown words
+# use counter from collections, already creates a dictionary , then remove words, add unk row
+''' 
+
 
 
 for row_id,row in enumerate(sents_test):
