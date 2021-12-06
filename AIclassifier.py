@@ -182,8 +182,8 @@ print("Predictions:\n", predictions)
 test_list = test_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
 
-print(test_list)
-print(pred_list)
+#print(test_list)
+#print(pred_list)
 #print(type(test_list), type(pred_list))
 
 metrics.ConfusionMatrixDisplay.from_predictions(test_list,pred_list, normalize="true", labels=[1,2,3,4,5],display_labels=['Commit to privacy', 'Violate privacy', 'Declare opinion about privacy', 'Related to privacy', 'Not applicable'])
@@ -195,15 +195,16 @@ plt.savefig('output/AI Classifier/1Label_confusion_matrix.jpg')
 # HELP - Predictions are changing... - confusion matrix, and measures
 
 # Measuring results
-print("Accuracy:",metrics.accuracy_score(test_labels_primary, predictions))
-print("Precision micro:",metrics.precision_score(test_labels_primary, predictions, average="micro"))
-print("Precision macro:",metrics.precision_score(test_labels_primary, predictions, average="macro"))
-print("Recall micro:",metrics.recall_score(test_labels_primary, predictions, average="micro"))
-print("Recall macro:",metrics.recall_score(test_labels_primary, predictions, average="macro"))
-print("F1 Score micro:",metrics.f1_score(test_labels_primary, predictions, average="micro"))
-print("F1 Score macro:",metrics.f1_score(test_labels_primary, predictions, average="macro"))
-print("F1 Score weighted:",metrics.f1_score(test_labels_primary, predictions, average="weighted"))
+print("Accuracy:",round(metrics.accuracy_score(test_labels_primary, predictions), 2))
+print("Precision micro:",round(metrics.precision_score(test_labels_primary, predictions, average="micro"), 2))
+print("Precision macro:",round(metrics.precision_score(test_labels_primary, predictions, average="macro"),2))
+print("Recall micro:",round(metrics.recall_score(test_labels_primary, predictions, average="micro"),2))
+print("Recall macro:",round(metrics.recall_score(test_labels_primary, predictions, average="macro"),2))
+print("F1 Score micro:",round(metrics.f1_score(test_labels_primary, predictions, average="micro"),2))
+print("F1 Score macro:",round(metrics.f1_score(test_labels_primary, predictions, average="macro"),2))
+print("F1 Score weighted:",round(metrics.f1_score(test_labels_primary, predictions, average="weighted"),2))
 
+# FLAG - CHECK IF THESE ARE THE RIGHT MEASURES, CALCULATED CORRECTLY AND ROUNDED CORRECTLY
 # UPLOAD RESULTS IN A DOCUMENT THAT GABRIEL CAN CHECK
 
 # CAREFUL
