@@ -33,13 +33,14 @@ tokens = [token.text for token in train_doc if not token.is_space if not token.i
 word_freq = Counter(tokens)
 print(word_freq)
 
+for word in word_freq.items():
+    print(word[0], word[1])
+corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) >= 2] # < 2 or <= 2
+print(corpus_with_unk)
 
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE CALCULATED WITHOUT SPACY TOKENIZATION
-#for item in word_freq.items():
-#    if item[1] == 1:
-#        print(item)
-#print(word_freq)
+
 # calculte frequency before and after removing unknown words
 # use counter from collections, already creates a dictionary , then remove words, add unk row
 ''' 
