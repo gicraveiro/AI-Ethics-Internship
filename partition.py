@@ -6,6 +6,19 @@ import os
 import json
 from collections import Counter
 
+# Functions
+
+# Creates dictionary of a set, associating sentence with label
+def create_sent_label_dict(sents, labels):
+    sents_dict = []
+    for row_id,row in enumerate(sents):
+        row = re.sub("\n", " ", row)
+        sents_dict.append({"text":row.strip(), "label":labels[row_id]})
+    return sents_dict
+
+# MAIN
+
+# Reads annotation table from file .csv saved locally and creates labels and senences list
 annotation = pd.read_csv("data/Facebook/Privacy/Annotated/AnnotatedMultiLabelDataset.csv")
 sents = annotation['Sentences'].values
 labels1 = annotation['Primary Label'].values
@@ -18,27 +31,20 @@ for l1,l2 in zip(labels1,labels2):
         row_labels.append(l2)
     labels.append(row_labels)
 
-# FLAG - CHECK IF LABELS LIST ARE BEING BUILT CORRECTLY
+# FLAG - 
+#  CHECK IF CORRECT AND UPDATED FILE IS BEING USED
+#  CHECK IF LABELS LIST ARE BEING BUILT CORRECTLY
 
+# Partitions data into 80% trainset and remaining 20%
 sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=1111111)
 
-# save a json, separate labels and sents, use a dictionary in python
-
-
-def create_sent_label_dict(sents, labels):
-    sents_dict = []
-    for row_id,row in enumerate(sents):
-        row = re.sub("\n", " ", row)
-        sents_dict.append({"text":row.strip(), "label":labels[row_id]})
-    return sents_dict
-
-train_dict = create_sent_label_dict(sents_train, labels_train)
-
+# Partitions remaining 20% into dev set (10%) and test set (10%)
 sents_test, sents_dev, labels_test, labels_dev = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test, random_state=1111111)
 
+# save a json, separate labels and sents, use a dictionary in python
+train_dict = create_sent_label_dict(sents_train, labels_train)
 dev_dict = create_sent_label_dict(sents_dev, labels_dev)
 test_dict = create_sent_label_dict(sents_test, labels_test)
-
 #print(train_dict, dev_dict, test_dict)
 
 '''
