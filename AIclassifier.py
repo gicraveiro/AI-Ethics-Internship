@@ -25,120 +25,91 @@ def create_labels_array(labels_list):
     labels_array = labels_array.astype(int)
     return labels_array
 
+# Create sparse matrixes that represent words present in each sentence, which is the appropriate format to feed the AI classifier
+def format_sentVector_to_SparseMatrix(vectors_list):
+    for i, sent_vector in enumerate(vectors_list): 
+        sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
+        for index in sent_vector:
+            auxList = sent_vector.tolist()
+            freq = auxList.count(index)
+            sparse_vector[index] = freq/len(sent_vector) # 1 # LATER TEST AND DOCUMENT PERFORMANCE IN WEIGHTED AND SIMPLE 1
+        if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
+            matrix_array = [sparse_vector]
+        else:
+            matrix_array = numpy.concatenate((matrix_array, [sparse_vector]), axis=0)
+    return matrix_array
+
+# Create sentences representation in numeric format, according to dictionary
+def create_vectors_list(sents):
+    vectors_list = []
+    for sent in sents:
+        sent_doc = nlp(sent)
+        sent_doc = sent_doc
+        sent_tokens_list = []
+        sent_vector = []
+        for token in sent_doc:  
+            if token.text.lower() not in words_to_numbers:
+                sent_tokens_list.append("unk")
+            else:
+                sent_tokens_list.append(token.text.lower())
+            sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
+        sent_vector = sent_vector.astype(int)
+        vectors_list.append(sent_vector)
+        print(sent, sent_vector) 
+    return vectors_list
+
 # TOKENIZE, PREPROCESS, CONVERT WORD TOKENS INTO NUMBERS FROM 1 TO N, N IS THE VOACABULARY SIZE
 nlp = spacy.load('en_core_web_lg') # FIND ALL THE OTHER SPACY.LOAD AND CHANGE TO LG
-# Preprocessing input and create lexicon
+
+# Preprocessing input 
 # Removing \n 
 
-words_to_numbers = {}
-number_representation = 0
-
-#print(sents_train)
 corpus = '\n'.join(sents_train)
-#print(corpus)
 corpus = clean_corpus(corpus)
 corpus = re.sub("\n", " ", corpus)
 corpus = re.sub("  ", " ", corpus)
 train_doc = nlp(corpus)
 train_doc = reconstruct_hyphenated_words(train_doc)
 tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
+
 # FLAG: SHOULD I REMOVE STOPWORDS, LITTLE SQUARE, SMTH ELSE AS WELL? 
 
 word_freq = Counter(tokens)
-#print(word_freq)
 
-#
-# REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK
-#
-
-#for word in word_freq.items():
-#    print(word[0], word[1])
+# Remove words less frequent than  2 (or equal?)
 corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
-#print(corpus_with_unk)
-
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION
 
+# Creating dictionary
+words_to_numbers = {}
+number_representation = 0
 for word in corpus_with_unk:
     words_to_numbers[word] = number_representation
     number_representation += 1
 words_to_numbers["unk"] = number_representation
 
-# REVIEW DICTIONARY
-
+# FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
+#               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS
 # TO DO: count frequency again?
-
 # count frequency before and after removing unknown words - ???
 
-# use counter from collections, already creates a dictionary , then remove words, add unk row
-
-
-#for row_id,row in enumerate(sents_test):
+#for row_id,row in enumerate(sents_test): # CAN I DELETE THIS?
 #    row = re.sub("\n", " ", row)
 #    sents_test[row_id] = row
-train_vectors_list = []
 
-for sent in sents_train:
-    sent_doc = nlp(sent)
-    sent_tokens_list = []
-    sent_vector = []
-    for token in sent_doc:  
-        if token.text not in words_to_numbers:
-            sent_tokens_list.append("unk")
-        else:
-            sent_tokens_list.append(token.text)
-        sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
-    sent_vector = sent_vector.astype(int)
-    train_vectors_list.append(sent_vector) 
+train_vectors_list = create_vectors_list(sents_train)
+test_vectors_list = create_vectors_list(sents_test)
 
-#print(train_vectors_list)
-
-test_vectors_list = []
-
-for sent in sents_test:
-    sent_doc = nlp(sent)
-    sent_tokens_list = []
-    sent_vector = []
-    for token in sent_doc:  
-        if token.text not in words_to_numbers:
-            sent_tokens_list.append("unk")
-        else:
-            sent_tokens_list.append(token.text)
-        sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
-    sent_vector = sent_vector.astype(int)
-    test_vectors_list.append(sent_vector) 
-
+print(words_to_numbers)
+# COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
 # FLAG - CHECK IF SENTENCE REPRESENATIONS WERE DONE CORRECTLY
 
-#print(test_vectors_list)
-#print(len(sents_test))
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list)
 
-
-for i, sent_vector in enumerate(train_vectors_list): 
-    sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
-    for index in sent_vector:
-        auxList = sent_vector.tolist()
-        freq = auxList.count(index)
-        sparse_vector[index] = freq/len(sent_vector) # 1 # LATER TEST AND DOCUMENT PERFORMANCE IN WEIGHTED AND SIMPLE 1
-    if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
-        train_matrix_array = [sparse_vector]
-    else:
-        train_matrix_array = numpy.concatenate((train_matrix_array, [sparse_vector]), axis=0)
-
-# TO DO: OPTIMIZE - INSERT IN FUNCTION
-for i, sent_vector in enumerate(test_vectors_list): 
-    sparse_vector = [0] * len(words_to_numbers)
-    for index in sent_vector:
-        auxList = sent_vector.tolist()
-        freq = auxList.count(index)
-        sparse_vector[index] = freq/len(sent_vector) # 1
-    if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
-        test_matrix_array = [sparse_vector]
-    else:
-        test_matrix_array = numpy.concatenate((test_matrix_array, [sparse_vector]), axis=0)
-
-
+# FLAG?
 
 train_labels_primary = create_labels_array(labels_train)
 test_labels_primary = create_labels_array(labels_test)
@@ -201,6 +172,11 @@ print("F1 Score weighted:",round(metrics.f1_score(test_labels_primary, predictio
 # HELP - Predictions are changing... - confusion matrix, and measures
 
 # LESS OR EQUAL THAN 2 TIMES
+# REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK
+#
+# use counter from collections, already creates a dictionary , then remove words, add unk row
+
+
 
 # help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
 # https://blog.paperspace.com/adaboost-optimizer/
