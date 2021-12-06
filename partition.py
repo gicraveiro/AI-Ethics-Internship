@@ -16,6 +16,35 @@ def create_sent_label_dict(sents, labels):
         sents_dict.append({"text":row.strip(), "label":labels[row_id]})
     return sents_dict
 
+# Writes json of partition set, each entry is the sentence associated with its labels
+def write_partition_file(partition_dict, name):
+    path = 'output/partition/multilabeldata_'+name+'.json'
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open('output/partition/multilabeldata_'+name+'.json', 'w') as file:
+        file.write(json.dumps(partition_dict, indent=4, ensure_ascii=False))
+
+# creating list of labels and count its distribution
+def create_label_list(name):
+    with open('output/partition/multilabeldata_'+name+'.json', 'r') as file:
+        json_obj = json.loads(file.read())
+        count = []
+        for i in json_obj:
+            item = i['label']
+            item = str(item)
+            count.append(item)
+        print("\n",Counter(count), "\n")
+    return count
+
+# Prints distribution of labels in one partition
+def print_partition_distribution(name, count, sum):
+    print("\n",name," set")
+    for item, sum_item in zip(sorted(Counter(count)), sorted(Counter(sum))):
+        distr_value = Counter(count)[item]
+        total_value = Counter(sum)[sum_item]
+        print(item,  sum_item)
+        print(distr_value, "out of", total_value, "samples in the whole dataset")
+        print(round(float(distr_value)/float(total_value)*100,2),'\n')
+
 # MAIN
 
 # Reads annotation table from file .csv saved locally and creates labels and senences list
@@ -47,84 +76,33 @@ dev_dict = create_sent_label_dict(sents_dev, labels_dev)
 test_dict = create_sent_label_dict(sents_test, labels_test)
 #print(train_dict, dev_dict, test_dict)
 
-'''
+# FLAG - CHECK IF EACH SENTENCE WAS ASSOCIATED WITH THE RIGHT LABEL
+
 # create output files and write sentences with labels
-path = 'output/partition/multilabeldata_train.json'
-os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/partition/multilabeldata_train.json', 'w') as train_file:
-    train_file.write(json.dumps(train_dict, indent=4, ensure_ascii=False))
-path = 'output/partition/multilabeldata_dev.json'
-os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/partition/multilabeldata_dev.json', 'w') as dev_file:
-    dev_file.write(json.dumps(dev_dict, indent=4, ensure_ascii=False))
-path = 'output/partition/multilabeldata_test.json'
-os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/partition/multilabeldata_test.json', 'w') as test_file:
-    test_file.write(json.dumps(test_dict, indent=4, ensure_ascii=False))
+write_partition_file(train_dict, 'train')
+write_partition_file(dev_dict, 'dev')
+write_partition_file(test_dict, 'test')
 
-# FLAG - in theory checked, but RECHECK
+# FLAG - Check if files were written correctly
+
 # COUNTING DISTRIBUTION TO ENSURE IT IS BEING PERFORMED CORRECTLY
-
-# creating list of labels
-with open('output/partition/multilabeldata_train.json', 'r') as train_file:
-    json_obj_train = json.loads(train_file.read())
-    train_count = []
-    for i in json_obj_train:
-        item = i['label']
-        item = str(item)
-        train_count.append(item)
-    print("\n",Counter(train_count), "\n")
-with open('output/partition/multilabeldata_test.json', 'r') as test_file:
-    json_obj_test = json.loads(test_file.read())
-    test_count = []
-    for i in json_obj_test:
-        item = i['label']
-        item = str(item)
-        test_count.append(item)
-    print(Counter(test_count),"\n")
-with open('output/partition/multilabeldata_dev.json', 'r') as dev_file:
-    json_obj_dev = json.loads(dev_file.read())
-    dev_count = []
-    for i in json_obj_dev:
-        item = i['label']
-        item = str(item)
-        dev_count.append(item)
-    print(Counter(dev_count),"\n")
+train_count = create_label_list('train')
+dev_count = create_label_list('dev')
+test_count = create_label_list('test')
 
 sum = Counter(train_count)+Counter(test_count)+Counter(dev_count)
 print(sum)
 
+# FLAG - Check if counter worked properly
+
 # printing the proportion of occurrence of each label in comparison to the total number of sentences with that label
-i=0
-print("\nTrain set")
-for item, sum_item in zip(sorted(Counter(train_count)), sorted(Counter(sum))):
-    distr_value = Counter(train_count)[item]
-    total_value = Counter(sum)[sum_item]
-    print(item,  sum_item)
-    print(distr_value, "out of", total_value, "samples in the whole dataset")
-    print(round(float(distr_value)/float(total_value)*100,2),'\n')
+print_partition_distribution("Train", train_count, sum)
+print_partition_distribution("Dev", dev_count, sum)
+print_partition_distribution("Test", test_count, sum)
 
-print("Dev set")
-for item, sum_item in zip(sorted(Counter(dev_count)), sorted(Counter(sum))):
-    distr_value = Counter(dev_count)[item]
-    total_value = Counter(sum)[sum_item]
-    print(item,  sum_item)
-    print(distr_value, "out of", total_value, "samples in the whole dataset")
-    print(round(float(distr_value)/float(total_value)*100,2),'\n')
+# TO DO: PLOT DISTRIBUTION TRAINSET, TESTSET 
 
-print("Test set")
-for item, sum_item in zip(sorted(Counter(test_count)), sorted(Counter(sum))):
-    distr_value = Counter(test_count)[item]
-    total_value = Counter(sum)[sum_item]
-    print(item,  sum_item)
-    print(distr_value, "out of", total_value, "samples in the whole dataset")
-    print(round(float(distr_value)/float(total_value)*100,2),'\n')
-    '''
+# FLAG - in theory checked, but RECHECK
 
-
-    ##
-    #
-    #
-    # REDO PARTITION
-    # PLOT DISTRIBUTION TRAINSET, TESTSET 
-    #
+######
+# REDO PARTITION  -- ?? dont remember why...
