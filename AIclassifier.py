@@ -192,10 +192,12 @@ plt.subplots_adjust(bottom=0.4)
 #plt.show()
 plt.savefig('output/AI Classifier/1Label_confusion_matrix.jpg')
 
-
+# HELP - Predictions are changing... - confusion matrix, and measures
 
 # Measuring results
 print("Accuracy:",metrics.accuracy_score(test_labels_primary, predictions))
+print("Precision micro:",metrics.precision_score(test_labels_primary, predictions, average="micro"))
+print("Precision macro:",metrics.precision_score(test_labels_primary, predictions, average="macro"))
 print("Recall micro:",metrics.recall_score(test_labels_primary, predictions, average="micro"))
 print("Recall macro:",metrics.recall_score(test_labels_primary, predictions, average="macro"))
 print("F1 Score micro:",metrics.f1_score(test_labels_primary, predictions, average="micro"))
