@@ -1,17 +1,30 @@
-#from scipy.sparse import data
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words
 from partition import sents_train, labels_train, sents_test, labels_test
 import re
-#from sent2vec.vectorizer import Vectorizer
 import spacy
 import numpy
-#import nltk
-#from scipy.sparse import csr_matrix
-#from sklearn import datasets
 from collections import Counter 
 import matplotlib.pyplot as plt
+
+# TRANSFORM LABELS LIST WITH NAMES IN LABEL ARRAY WITH NUMBER REPRESENTATIONS
+def create_labels_array(labels_list):
+    labels_array = []
+    for label in labels_list:
+        if label[0] == 'Commit to privacy':
+            labels_array = numpy.append(labels_array,1)
+        if label[0] == 'Violate privacy':
+            labels_array = numpy.append(labels_array,2)
+        if label[0] == 'Declare opinion about privacy':
+            labels_array = numpy.append(labels_array,3)
+        if label[0] == 'Related to privacy':
+            labels_array = numpy.append(labels_array,4)
+        if label[0] == 'Not applicable':
+            labels_array = numpy.append(labels_array,5)
+    labels_array = labels_array.astype(int)
+    return labels_array
+
 # TOKENIZE, PREPROCESS, CONVERT WORD TOKENS INTO NUMBERS FROM 1 TO N, N IS THE VOACABULARY SIZE
 nlp = spacy.load('en_core_web_lg') # FIND ALL THE OTHER SPACY.LOAD AND CHANGE TO LG
 # Preprocessing input and create lexicon
@@ -126,46 +139,16 @@ for i, sent_vector in enumerate(test_vectors_list):
         test_matrix_array = numpy.concatenate((test_matrix_array, [sparse_vector]), axis=0)
 
 
-# PRE-PROCESS LABELS VECTOR
-# MULTI-LABEL PROBLEM...
-# APPROACH 1: CHOOSE PRIMARY LABEL ----- ADOPTED
-# APPROACH 2: DUPLICATE RESULTS
-# APPROACH 3? : ALIGN RIGHT LABEL FIRST
 
-# LESS OR EQUAL THAN 2 TIMES
+train_labels_primary = create_labels_array(labels_train)
+test_labels_primary = create_labels_array(labels_test)
 
-train_labels_primary = []
-
-for label in labels_train:
-    if label[0] == 'Commit to privacy':
-        train_labels_primary = numpy.append(train_labels_primary,1)
-    if label[0] == 'Violate privacy':
-        train_labels_primary = numpy.append(train_labels_primary,2)
-    if label[0] == 'Declare opinion about privacy':
-        train_labels_primary = numpy.append(train_labels_primary,3)
-    if label[0] == 'Related to privacy':
-        train_labels_primary = numpy.append(train_labels_primary,4)
-    if label[0] == 'Not applicable':
-        train_labels_primary = numpy.append(train_labels_primary,5)
-train_labels_primary = train_labels_primary.astype(int)
-
-test_labels_primary = []
-
-for label in labels_test:
-    if label[0] == 'Commit to privacy':
-        test_labels_primary = numpy.append(test_labels_primary,1)
-    if label[0] == 'Violate privacy':
-        test_labels_primary = numpy.append(test_labels_primary,2)
-    if label[0] == 'Declare opinion about privacy':
-        test_labels_primary = numpy.append(test_labels_primary,3)
-    if label[0] == 'Related to privacy':
-        test_labels_primary = numpy.append(test_labels_primary,4)
-    if label[0] == 'Not applicable':
-        test_labels_primary = numpy.append(test_labels_primary,5)
-test_labels_primary = test_labels_primary.astype(int)
+# FLAG - ENSURE THAT LABELS LIST ARE CORRECTLY MADE + MOVE IT TO FUNCTION
 
 # Configurations
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
+
+# FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE
 
 # Training
 model = adaclassifier.fit(train_matrix_array, train_labels_primary)
@@ -173,19 +156,14 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 # Predicting
 predictions = model.predict(test_matrix_array)
 
-for sent, pred in zip(sents_train,predictions):
-    print(sent, pred, "\n")
+# casually printing results
+#for sent, pred in zip(sents_train,predictions):
+#    print(sent, pred, "\n")
+#print("Predictions:\n", predictions)
 
-print("Predictions:\n", predictions)
-
-# TO DO: CREATE CONFUSION MATRIX
+# Confusion matrix
 test_list = test_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
-
-#print(test_list)
-#print(pred_list)
-#print(type(test_list), type(pred_list))
-
 metrics.ConfusionMatrixDisplay.from_predictions(test_list,pred_list, normalize="true", labels=[1,2,3,4,5],display_labels=['Commit to privacy', 'Violate privacy', 'Declare opinion about privacy', 'Related to privacy', 'Not applicable'])
 plt.xticks(rotation=45, ha="right")
 plt.subplots_adjust(bottom=0.4)
@@ -211,6 +189,19 @@ print("F1 Score weighted:",round(metrics.f1_score(test_labels_primary, predictio
 # ADABOOST IS HIGHLY AFFECTED by OUTLIERS - declare opinion about privacy is a very rare category...
 
 
+# USE THE DEV SET TO MAKE EXPERIMENTS ON PERFORMANCE OF THE ALGORITHM
+# TEST DIFFERENT WAYS TO REPRESENT THE SENTENCE - AND THEN MAYBE START DOING OTHER THINGS
+
+# PRE-PROCESS LABELS VECTOR
+# MULTI-LABEL PROBLEM...
+# APPROACH 1: CHOOSE PRIMARY LABEL ----- ADOPTED
+# APPROACH 2: DUPLICATE RESULTS
+# APPROACH 3? : ALIGN RIGHT LABEL FIRST
+
+# HELP - Predictions are changing... - confusion matrix, and measures
+
+# LESS OR EQUAL THAN 2 TIMES
+
 # help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
 # https://blog.paperspace.com/adaboost-optimizer/
 # https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier.fit
@@ -218,7 +209,3 @@ print("F1 Score weighted:",round(metrics.f1_score(test_labels_primary, predictio
 
 # First accuracy without weight: 0.47
 # First accuracy weighted: 0.43
-
-
-# USE THE DEV SET TO MAKE EXPERIMENTS ON PERFORMANCE OF THE ALGORITHM
-# TEST DIFFERENT WAYS TO REPRESENT THE SENTENCE - AND THEN MAYBE START DOING OTHER THINGS
