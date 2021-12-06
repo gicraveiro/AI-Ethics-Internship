@@ -33,77 +33,73 @@ tokens = [token.text for token in train_doc if not token.is_space if not token.i
 word_freq = Counter(tokens)
 #print(word_freq)
 
+#
+# REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK
+#
+
 for word in word_freq.items():
     print(word[0], word[1])
 corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
 print(corpus_with_unk)
 
 
-#### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE CALCULATED WITHOUT SPACY TOKENIZATION
+#### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION
 
 for word in corpus_with_unk:
     words_to_numbers[word] = number_representation
     number_representation += 1
 words_to_numbers["unk"] = number_representation
 
-print(words_to_numbers)
-'''
-for row_id,row in enumerate(sents_train):
-    row = re.sub("\n", " ", row)
-    sents_train[row_id] = row
-    sent_doc = nlp(sents_train[row_id])
-    for token in sent_doc:
-        if token.text not in words_to_numbers:
-            words_to_numbers[token.text] = number_representation
-            number_representation += 1
-'''
-# count frequency before and after removing unknown words
+# REVIEW DICTIONARY
+
+# TO DO: count frequency again?
+
+# count frequency before and after removing unknown words - ???
+
 # use counter from collections, already creates a dictionary , then remove words, add unk row
-''' 
 
 
-
-for row_id,row in enumerate(sents_test):
-    row = re.sub("\n", " ", row)
-    sents_test[row_id] = row
-
-#
-# REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK
-#
-
+#for row_id,row in enumerate(sents_test):
+#    row = re.sub("\n", " ", row)
+#    sents_test[row_id] = row
 train_vectors_list = []
 
 for sent in sents_train:
-    #sent_doc = nlp(sent)
-    #sent_tokens_list = []
-    #sent_vector = []
-    #for token in sent_doc:
-        #sent_tokens_list.append(token.text)
-        #if token.text not in words_to_numbers:
-        #    words_to_numbers[token.text] = number_representation
-        #    number_representation += 1
-    sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
+    sent_doc = nlp(sent)
+    sent_tokens_list = []
+    sent_vector = []
+    for token in sent_doc:  
+        if token.text not in words_to_numbers:
+            sent_tokens_list.append("unk")
+        else:
+            sent_tokens_list.append(token.text)
+        sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
     sent_vector = sent_vector.astype(int)
     train_vectors_list.append(sent_vector) 
+
+#print(train_vectors_list)
+
+# FLAG - CHECK IF SENTENCE REPRESENATIONS WERE DONE CORRECTLY
 
 test_vectors_list = []
 
 for sent in sents_test:
     sent_doc = nlp(sent)
-    #sent_tokens_list = []
+    sent_tokens_list = []
     sent_vector = []
-    for token in sent_doc:
-        #sent_tokens_list.append(token.text)
-        # HELP HOW TO DEAL WITH UNKNOWN VALUES WHEN CREATING THE DICTIONARY
+    for token in sent_doc:  
         if token.text not in words_to_numbers:
-            #sent_vector = numpy.append(sent_vector, len(words_to_numbers)) # REFERENT TO UNKNOWN THAT WILL BE IMPLEMTNED SOON
-            pass
+            sent_tokens_list.append("unk")
         else:
-            sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
-            sent_vector = sent_vector.astype(int)
+            sent_tokens_list.append(token.text)
+        sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
+    sent_vector = sent_vector.astype(int)
     test_vectors_list.append(sent_vector) 
 
+print(test_vectors_list)
 print(len(sents_test))
+
+'''
 for i, sent_vector in enumerate(train_vectors_list): 
     sparse_vector = [0] * len(words_to_numbers)
     for index in sent_vector:
