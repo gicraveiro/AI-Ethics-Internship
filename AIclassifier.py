@@ -1,6 +1,7 @@
 from scipy.sparse import data
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
+from utils import clean_corpus, reconstruct_hyphenated_words
 from partition import sents_train, labels_train, sents_test, labels_test
 import re
 from sent2vec.vectorizer import Vectorizer
@@ -9,38 +10,70 @@ import numpy
 import nltk
 from scipy.sparse import csr_matrix
 from sklearn import datasets
-
-# Preprocessing input
+from collections import Counter 
+# TOKENIZE, PREPROCESS, CONVERT WORD TOKENS INTO NUMBERS FROM 1 TO N, N IS THE VOACABULARY SIZE
+nlp = spacy.load('en_core_web_lg') # FIND ALL THE OTHER SPACY.LOAD AND CHANGE TO LG
+# Preprocessing input and create lexicon
 # Removing \n 
+
+words_to_numbers = {}
+number_representation = 0
+
+#print(sents_train)
+corpus = '\n'.join(sents_train)
+#print(corpus)
+corpus = clean_corpus(corpus)
+corpus = re.sub("\n", " ", corpus)
+corpus = re.sub("  ", " ", corpus)
+train_doc = nlp(corpus)
+train_doc = reconstruct_hyphenated_words(train_doc)
+tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
+# FLAG: SHOULD I REMOVE STOPWORDS, LITTLE SQUARE, SMTH ELSE AS WELL? 
+
+word_freq = Counter(tokens)
+print(word_freq)
+
+
+
+#### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE CALCULATED WITHOUT SPACY TOKENIZATION
+#for item in word_freq.items():
+#    if item[1] == 1:
+#        print(item)
+#print(word_freq)
+# calculte frequency before and after removing unknown words
+# use counter from collections, already creates a dictionary , then remove words, add unk row
+''' 
 for row_id,row in enumerate(sents_train):
     row = re.sub("\n", " ", row)
     sents_train[row_id] = row
+    sent_doc = nlp(sents_train[row_id])
+    for token in sent_doc:
+        if token.text not in words_to_numbers:
+            words_to_numbers[token.text] = number_representation
+            number_representation += 1
+
+
 for row_id,row in enumerate(sents_test):
     row = re.sub("\n", " ", row)
     sents_test[row_id] = row
 
-# TOKENIZE, PREPROCESS, CONVERT WORD TOKENS INTO NUMBERS FROM 1 TO N, N IS THE VOACABULARY SIZE
-nlp = spacy.load('en_core_web_sm')
-
 #
-# REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 3 OR 4 WITH UNK
+# REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK
 #
 
-words_to_numbers = {}
-number_representation = 0
 train_vectors_list = []
 
 for sent in sents_train:
-    sent_doc = nlp(sent)
+    #sent_doc = nlp(sent)
     #sent_tokens_list = []
-    sent_vector = []
-    for token in sent_doc:
+    #sent_vector = []
+    #for token in sent_doc:
         #sent_tokens_list.append(token.text)
-        if token.text not in words_to_numbers:
-            words_to_numbers[token.text] = number_representation
-            number_representation += 1
-        sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
-        sent_vector = sent_vector.astype(int)
+        #if token.text not in words_to_numbers:
+        #    words_to_numbers[token.text] = number_representation
+        #    number_representation += 1
+    sent_vector = numpy.append(sent_vector, words_to_numbers[token.text])
+    sent_vector = sent_vector.astype(int)
     train_vectors_list.append(sent_vector) 
 
 test_vectors_list = []
@@ -60,6 +93,7 @@ for sent in sents_test:
             sent_vector = sent_vector.astype(int)
     test_vectors_list.append(sent_vector) 
 
+print(len(sents_test))
 for i, sent_vector in enumerate(train_vectors_list): 
     sparse_vector = [0] * len(words_to_numbers)
     for index in sent_vector:
@@ -88,6 +122,8 @@ for i, sent_vector in enumerate(test_vectors_list):
 # APPROACH 1: CHOOSE PRIMARY LABEL ----- ADOPTED
 # APPROACH 2: DUPLICATE RESULTS
 # APPROACH 3? : ALIGN RIGHT LABEL FIRST
+
+# LESS OR EQUAL THAN 2 TIMES
 
 train_labels_primary = []
 
@@ -138,7 +174,7 @@ print("F1 Score micro:",metrics.f1_score(test_labels_primary, predictions, avera
 print("F1 Score macro:",metrics.f1_score(test_labels_primary, predictions, average="macro"))
 print("F1 Score weighted:",metrics.f1_score(test_labels_primary, predictions, average="weighted"))
 # CAREFUL
-# ADABOOST IS HIGHLY AFFECTED TO OUTLIERS - declare opinion about privacy is a very rare category...
+# ADABOOST IS HIGHLY AFFECTED by OUTLIERS - declare opinion about privacy is a very rare category...
 
 
 # help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
@@ -148,3 +184,8 @@ print("F1 Score weighted:",metrics.f1_score(test_labels_primary, predictions, av
 
 # First accuracy without weight: 0.47
 # First accuracy weighted: 0.43
+
+
+# USE THE DEV SET TO MAKE EXPERIMENTS ON PERFORMANCE OF THE ALGORITHM
+# TEST DIFFERENT WAYS TO REPRESENT THE SENTENCE - AND THEN MAYBE START DOING OTHER THINGS
+'''
