@@ -1,16 +1,17 @@
-from scipy.sparse import data
+#from scipy.sparse import data
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words
 from partition import sents_train, labels_train, sents_test, labels_test
 import re
-from sent2vec.vectorizer import Vectorizer
+#from sent2vec.vectorizer import Vectorizer
 import spacy
 import numpy
-import nltk
-from scipy.sparse import csr_matrix
-from sklearn import datasets
+#import nltk
+#from scipy.sparse import csr_matrix
+#from sklearn import datasets
 from collections import Counter 
+import matplotlib.pyplot as plt
 # TOKENIZE, PREPROCESS, CONVERT WORD TOKENS INTO NUMBERS FROM 1 TO N, N IS THE VOACABULARY SIZE
 nlp = spacy.load('en_core_web_lg') # FIND ALL THE OTHER SPACY.LOAD AND CHANGE TO LG
 # Preprocessing input and create lexicon
@@ -178,8 +179,20 @@ for sent, pred in zip(sents_train,predictions):
 print("Predictions:\n", predictions)
 
 # TO DO: CREATE CONFUSION MATRIX
+test_list = test_labels_primary.tolist()
+pred_list = [pred for pred in predictions]
 
-# UPLOAD RESULTS IN A DOCUMENT THAT GABRIEL CAN CHECK
+print(test_list)
+print(pred_list)
+#print(type(test_list), type(pred_list))
+
+metrics.ConfusionMatrixDisplay.from_predictions(test_list,pred_list, normalize="true")
+plt.xticks(rotation=45, ha="right")
+plt.subplots_adjust(bottom=0.4)
+#plt.show()
+plt.savefig('output/AI Classifier/1Label_confusion_matrix.jpg')
+
+
 
 # Measuring results
 print("Accuracy:",metrics.accuracy_score(test_labels_primary, predictions))
@@ -188,6 +201,9 @@ print("Recall macro:",metrics.recall_score(test_labels_primary, predictions, ave
 print("F1 Score micro:",metrics.f1_score(test_labels_primary, predictions, average="micro"))
 print("F1 Score macro:",metrics.f1_score(test_labels_primary, predictions, average="macro"))
 print("F1 Score weighted:",metrics.f1_score(test_labels_primary, predictions, average="weighted"))
+
+# UPLOAD RESULTS IN A DOCUMENT THAT GABRIEL CAN CHECK
+
 # CAREFUL
 # ADABOOST IS HIGHLY AFFECTED by OUTLIERS - declare opinion about privacy is a very rare category...
 
