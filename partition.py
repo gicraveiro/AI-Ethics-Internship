@@ -18,24 +18,28 @@ for l1,l2 in zip(labels1,labels2):
         row_labels.append(l2)
     labels.append(row_labels)
 
-sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=11)
+# FLAG - CHECK IF LABELS LIST ARE BEING BUILT CORRECTLY
+
+sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=1111111)
 
 # save a json, separate labels and sents, use a dictionary in python
-train_dict = []
-for row_id,row in enumerate(sents_train):
-    row = re.sub("\n", " ", row)
-    train_dict.append({"text":row.strip(), "label":labels_train[row_id]})
 
-sents_dev, sents_test, labels_dev, labels_test = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test)
 
-dev_dict = []
-for row_id,row in enumerate(sents_dev):
-    row = re.sub("\n", " ", row)
-    dev_dict.append({"text":row.strip(), "label":labels_dev[row_id]})
-test_dict = []
-for row_id,row in enumerate(sents_test):
-    row = re.sub("\n", " ", row)
-    test_dict.append({"text":row.strip(), "label":labels_test[row_id]})
+def create_sent_label_dict(sents, labels):
+    sents_dict = []
+    for row_id,row in enumerate(sents):
+        row = re.sub("\n", " ", row)
+        sents_dict.append({"text":row.strip(), "label":labels[row_id]})
+    return sents_dict
+
+train_dict = create_sent_label_dict(sents_train, labels_train)
+
+sents_test, sents_dev, labels_test, labels_dev = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test, random_state=1111111)
+
+dev_dict = create_sent_label_dict(sents_dev, labels_dev)
+test_dict = create_sent_label_dict(sents_test, labels_test)
+
+#print(train_dict, dev_dict, test_dict)
 
 '''
 # create output files and write sentences with labels
@@ -52,7 +56,7 @@ os.makedirs(os.path.dirname(path), exist_ok=True)
 with open('output/partition/multilabeldata_test.json', 'w') as test_file:
     test_file.write(json.dumps(test_dict, indent=4, ensure_ascii=False))
 
-
+# FLAG - in theory checked, but RECHECK
 # COUNTING DISTRIBUTION TO ENSURE IT IS BEING PERFORMED CORRECTLY
 
 # creating list of labels
@@ -110,3 +114,11 @@ for item, sum_item in zip(sorted(Counter(test_count)), sorted(Counter(sum))):
     print(distr_value, "out of", total_value, "samples in the whole dataset")
     print(round(float(distr_value)/float(total_value)*100,2),'\n')
     '''
+
+
+    ##
+    #
+    #
+    # REDO PARTITION
+    # PLOT DISTRIBUTION TRAINSET, TESTSET 
+    #
