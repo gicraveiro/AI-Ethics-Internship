@@ -1,19 +1,17 @@
 import json
 import os
 import re # regular expressions
-from sklearn.metrics import precision_score, f1_score, ConfusionMatrixDisplay, recall_score, accuracy_score # confusion_matrix, multilabel_confusion_matrix,
-#from sklearn.preprocessing import MultiLabelBinarizer
+from sklearn.metrics import precision_score, f1_score, ConfusionMatrixDisplay, recall_score, accuracy_score 
 import matplotlib.pyplot as plt
 from collections import Counter
-#import csv
-from googleapiclient.discovery import build
-from google.oauth2 import service_account
 import numpy
-import copy
 
 MAX_N_SENTENCES = 100
 
 # SIMPLE CLASSIFIER
+# TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING
+# remove the words that are not in the train set even though they make sense
+# verbs - infinitive, noun root form
 def simple_classifier(json_sentences_ref):
     output_dict = []
     for sentence in json_sentences_ref:
@@ -55,10 +53,13 @@ def write_output_stats_file(name, ref_labels, pred_labels):
         print("F1 Score macro:",round( f1_score( ref_labels, pred_labels, average="macro"),2), file=file)
         print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted"),2), file=file)
 
-
-
+# WRITE OUTPUT PREDICTIONS IN JSON FORMAT
+def write_predictions_file(name, pred_dict):
+    path = 'output/Simple Classifier/multilabelPredictions_'+name+'.json'
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open('output/Simple Classifier/multilabelPredictions_'+name+'.json', 'w') as file:
+        file.write(json.dumps(pred_dict, indent=4, ensure_ascii=False))
 # Read input sentences
-#path = 'output/partition/fbdata_dev.json'
 path = 'output/partition/multilabeldata_dev.json'
 
 # FLAG - CHECK IF RIGHT AND UPDATED FILE IS BEING PICKED 
@@ -99,19 +100,11 @@ print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to p
 
 # FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
 
-
-
-# TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING
-# remove the words that are not in the train set even though they make sense
-# verbs - infinitive, noun root form
-
 output_dict = simple_classifier(json_sentences_ref)
 
-# WRITE OUTPUT
-path = 'output/Simple Classifier/multilabelPredictions_dev.json'
-os.makedirs(os.path.dirname(path), exist_ok=True)
-with open('output/Simple Classifier/multilabelPredictions_dev.json', 'w') as train_file:
-    train_file.write(json.dumps(output_dict, indent=4, ensure_ascii=False))
+#write_predictions_file("Train", output_dict)
+write_predictions_file("Dev", output_dict)
+#write_predictions_file("Test", output_dict)
 
 # FLAG - CHECK IF OUTPUT WAS CORRECTLY WRITTEN IN FILE
 
