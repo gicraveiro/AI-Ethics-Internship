@@ -100,22 +100,17 @@ print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to p
 
 # FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
 
-output_dict = simple_classifier(json_sentences_ref)
+dev_pred_dict = simple_classifier(json_sentences_ref)
 
 #write_predictions_file("Train", output_dict)
-write_predictions_file("Dev", output_dict)
+write_predictions_file("Dev", dev_pred_dict)
 #write_predictions_file("Test", output_dict)
 
 # FLAG - CHECK IF OUTPUT WAS CORRECTLY WRITTEN IN FILE
 
-with open(path) as file:
-    document = file.read()
-    json_sentences_predicted = json.loads(document)
-
-pred_array = [sent['label'] for sent in json_sentences_predicted]
-
-ref_primary_label = [label[0] for label in ref_array]
+pred_array = [sent['label'] for sent in dev_pred_dict]
 pred_first_label = [label[0] for label in pred_array]
+ref_primary_label = [label[0] for label in ref_array]
 
 # FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL -- CHECKED
 
