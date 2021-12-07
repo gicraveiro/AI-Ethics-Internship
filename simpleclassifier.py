@@ -40,10 +40,10 @@ def simple_classifier(json_sentences_ref):
 
 # WRITE OUTPUT STATISTICS FILE
 def write_output_stats_file(name, ref_labels, pred_labels):
-    path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open('output/Simple Classifier/1labelPredictionsStats_'+name+'.txt', 'w') as file:
-        print(name,"set statistics:\n", file=file)
+    #path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
+    #os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open('output/Simple Classifier/1labelPredictionsStats_'+name+'.txt', 'a') as file:
+        print("Performance in",name,"set:\n", file=file)
         print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 2), file=file)
         print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 2), file=file)
         print("Precision macro:",round( precision_score( ref_labels, pred_labels, average="macro"),2), file=file)
@@ -60,57 +60,70 @@ def write_predictions_file(name, pred_dict):
     with open('output/Simple Classifier/multilabelPredictions_'+name+'.json', 'w') as file:
         file.write(json.dumps(pred_dict, indent=4, ensure_ascii=False))
 # Read input sentences
-path = 'output/partition/multilabeldata_dev.json'
+dev_path = 'output/partition/multilabeldata_dev.json'
+train_path = 'output/partition/multilabeldata_train.json'
+test_path = 'output/partition/multilabeldata_test.json'
 
 # FLAG - CHECK IF RIGHT AND UPDATED FILE IS BEING PICKED 
 
 json_sentences = []
 
-with open(path) as file:
+with open(dev_path) as file:
     document = file.read()
     json_sentences_ref = json.loads(document)
 
-ref_array = [sent['label'] for sent in json_sentences_ref]
+dev_ref_array = [sent['label'] for sent in json_sentences_ref]
 ref_sent = [[sent['text']] for sent in json_sentences_ref]
 
-counter = Counter(tuple(item) for item in ref_array)
-tot_sents = len(ref_array)
-# TO DO: CREATE FUNCTION TO CALCULATE THIS MAYBE?
-distr_violation = round (ref_array.count(['Violate privacy'])/tot_sents, 2)
-distr_commit = round (ref_array.count(['Commit to privacy'])/tot_sents, 2)
-distr_related = round (ref_array.count(['Related to privacy'])/tot_sents, 2)
-distr_opinion = round(ref_array.count(['Declare opinion about privacy'])/tot_sents, 2)
-distr_notApp = round(ref_array.count(['Not applicable'])/tot_sents, 2)
-count_violation = ref_array.count(['Violate privacy'])
-count_commit = ref_array.count(['Commit to privacy'])
-count_related = ref_array.count(['Related to privacy'])
-count_opinion = ref_array.count(['Declare opinion about privacy'])
-count_notApp = ref_array.count(['Not applicable'])
 
 # FLAG - THERE IS PROBABLY A PYTHON FUNCTION THAT CALCULATES THIS
 
-# Multilabel distribution chart
-x_pos = numpy.arange(7) # sets number of bars
-plt.bar(x_pos, counter.values(),align='center')
-plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
-plt.subplots_adjust(bottom=0.4) # creates space for complete label names
-plt.savefig('output/Simple Classifier/multilabel_distribution.jpg')
+    
+def measure_distribution(ref_array, name):
+    counter = Counter(tuple(item) for item in ref_array)
+    tot_sents = len(ref_array)
+    # TO DO: CREATE FUNCTION TO CALCULATE THIS MAYBE?
+    distr_violation = round (ref_array.count(['Violate privacy'])/tot_sents, 2)
+    distr_commit = round (ref_array.count(['Commit to privacy'])/tot_sents, 2)
+    distr_related = round (ref_array.count(['Related to privacy'])/tot_sents, 2)
+    distr_opinion = round(ref_array.count(['Declare opinion about privacy'])/tot_sents, 2)
+    distr_notApp = round(ref_array.count(['Not applicable'])/tot_sents, 2)
+    count_violation = ref_array.count(['Violate privacy'])
+    count_commit = ref_array.count(['Commit to privacy'])
+    count_related = ref_array.count(['Related to privacy'])
+    count_opinion = ref_array.count(['Declare opinion about privacy'])
+    count_notApp = ref_array.count(['Not applicable'])
 
-print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n')
+    x_pos = numpy.arange(7) # sets number of bars
+    plt.bar(x_pos, counter.values(),align='center')
+    plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
+    plt.subplots_adjust(bottom=0.4) # creates space for complete label names
+    plt.savefig('output/Simple Classifier/multilabel_distribution_'+name+'.jpg')
+
+    path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+   
+    print("yup, im in")
+    with open(path, 'w') as file:
+        print(name+"set statistics:\n", file=file)
+        print('Distribution of labels\n\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n', file=file)
+
+# Count distribution + Multilabel distribution chart
+measure_distribution(dev_ref_array, "Dev")
 
 # FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
 
 dev_pred_dict = simple_classifier(json_sentences_ref)
 
 #write_predictions_file("Train", output_dict)
-write_predictions_file("Dev", dev_pred_dict)
+#write_predictions_file("Dev", dev_pred_dict)
 #write_predictions_file("Test", output_dict)
 
 # FLAG - CHECK IF OUTPUT WAS CORRECTLY WRITTEN IN FILE
 
-pred_array = [sent['label'] for sent in dev_pred_dict]
-pred_first_label = [label[0] for label in pred_array]
-ref_primary_label = [label[0] for label in ref_array]
+dev_pred_array = [sent['label'] for sent in dev_pred_dict]
+dev_pred_first_label = [label[0] for label in dev_pred_array]
+dev_ref_primary_label = [label[0] for label in dev_ref_array]
 
 # FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL -- CHECKED
 
@@ -127,7 +140,7 @@ ref_primary_label = [label[0] for label in ref_array]
 # FLAG - CHECK IF PREDICTIONS ARE CORRECTLY CALCULATED - ASK GABRIEL IF THERE IS AN AUTOMATED WAY TO DO IT
 
 #ConfusionMatrixDisplay.from_predictions(ref_1label_str_list,pred_1label_str_list, normalize="true")
-ConfusionMatrixDisplay.from_predictions(ref_primary_label,pred_first_label, normalize="true")
+ConfusionMatrixDisplay.from_predictions(dev_ref_primary_label,dev_pred_first_label, normalize="true")
 plt.xticks(rotation=45, ha="right")
 plt.subplots_adjust(bottom=0.4)
 #plt.show()
@@ -135,10 +148,10 @@ plt.savefig('output/Simple Classifier/1Label_confusion_matrix.jpg')
 
 # FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT 
 #labels = sorted(list(set(ref_1label_str_list))) # sorted(list(set))
-labels = sorted(list(set(ref_primary_label)))
+labels = sorted(list(set(dev_ref_primary_label)))
 
 #write_output_stats_file("Train", ref_primary_label, pred_first_label)
-write_output_stats_file("Dev", ref_primary_label, pred_first_label)
+write_output_stats_file("Dev", dev_ref_primary_label, dev_pred_first_label)
 #write_output_stats_file("Test", ref_primary_label, pred_first_label)
 
 
