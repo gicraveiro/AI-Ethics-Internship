@@ -1,14 +1,14 @@
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words
-from partition import sents_train, labels_train, sents_test, labels_test
+from partition import sents_train, labels_train, sents_dev, labels_dev
 import re
 import spacy
 import numpy
 from collections import Counter 
 import matplotlib.pyplot as plt
 
-# TRANSFORM LABELS LIST WITH NAMES IN LABEL ARRAY WITH NUMBER REPRESENTATIONS
+# Transform labels list with names in label array with number representations
 def create_labels_array(labels_list):
     labels_array = []
     for label in labels_list:
@@ -41,6 +41,10 @@ def format_sentVector_to_SparseMatrix(vectors_list):
 
 # Create sentences representation in numeric format, according to dictionary
 def create_vectors_list(sents):
+
+#for row_id,row in enumerate(sents_dev): # CAN I DELETE THIS? TEST IF THIS REPLACEMENT MAKES SENSE POSSIBLY
+#    row = re.sub("\n", " ", row)
+#    sents_dev[row_id] = row
     vectors_list = []
     for sent in sents:
         sent_doc = nlp(sent)
@@ -81,6 +85,7 @@ word_freq = Counter(tokens)
 corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION
+# COUNTING REJOINED TRAIN CORPUS x ORIGINAL SENTENCE TRAIN
 
 # Creating dictionary
 words_to_numbers = {}
@@ -95,27 +100,27 @@ words_to_numbers["unk"] = number_representation
 # TO DO: count frequency again?
 # count frequency before and after removing unknown words - ???
 
-#for row_id,row in enumerate(sents_test): # CAN I DELETE THIS?
-#    row = re.sub("\n", " ", row)
-#    sents_test[row_id] = row
 
 train_vectors_list = create_vectors_list(sents_train)
-test_vectors_list = create_vectors_list(sents_test)
+dev_vectors_list = create_vectors_list(sents_dev)
 
 print(words_to_numbers)
+
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
-# FLAG - CHECK IF SENTENCE REPRESENATIONS WERE DONE CORRECTLY
+# FLAG - CHECK IF SENTENCE REPRESENTATIONS WERE DONE CORRECTLY
 
 train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list)
 
-# FLAG?
+# FLAG - CHECK IF SPARSE MATRIX REPRESENTATION WAS DONE CORRECTLY
 
 train_labels_primary = create_labels_array(labels_train)
-test_labels_primary = create_labels_array(labels_test)
+dev_labels_primary = create_labels_array(labels_dev)
 
-# FLAG - ENSURE THAT LABELS LIST ARE CORRECTLY MADE + MOVE IT TO FUNCTION
+# FLAG - ENSURE THAT LABELS LIST ARE CORRECTLY MADE
+
+# CLASSIFIER
 
 # Configurations
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
@@ -126,7 +131,7 @@ adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 
 # Predicting
-predictions = model.predict(test_matrix_array)
+predictions = model.predict(dev_matrix_array)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
@@ -134,28 +139,58 @@ predictions = model.predict(test_matrix_array)
 #print("Predictions:\n", predictions)
 
 # Confusion matrix
-test_list = test_labels_primary.tolist()
+dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
-metrics.ConfusionMatrixDisplay.from_predictions(test_list,pred_list, normalize="true", labels=[1,2,3,4,5],display_labels=['Commit to privacy', 'Violate privacy', 'Declare opinion about privacy', 'Related to privacy', 'Not applicable'])
+metrics.ConfusionMatrixDisplay.from_predictions(dev_list,pred_list, normalize="true", labels=[1,2,3,4,5],display_labels=['Commit to privacy', 'Violate privacy', 'Declare opinion about privacy', 'Related to privacy', 'Not applicable'])
 plt.xticks(rotation=45, ha="right")
 plt.subplots_adjust(bottom=0.4)
 #plt.show()
 plt.savefig('output/AI Classifier/1Label_confusion_matrix.jpg')
 
+# FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
+
 # HELP - Predictions are changing... - confusion matrix, and measures
 
 # Measuring results
-print("Accuracy:",round(metrics.accuracy_score(test_labels_primary, predictions), 2))
-print("Precision micro:",round(metrics.precision_score(test_labels_primary, predictions, average="micro"), 2))
-print("Precision macro:",round(metrics.precision_score(test_labels_primary, predictions, average="macro"),2))
-print("Recall micro:",round(metrics.recall_score(test_labels_primary, predictions, average="micro"),2))
-print("Recall macro:",round(metrics.recall_score(test_labels_primary, predictions, average="macro"),2))
-print("F1 Score micro:",round(metrics.f1_score(test_labels_primary, predictions, average="micro"),2))
-print("F1 Score macro:",round(metrics.f1_score(test_labels_primary, predictions, average="macro"),2))
-print("F1 Score weighted:",round(metrics.f1_score(test_labels_primary, predictions, average="weighted"),2))
+print("Accuracy:",round(metrics.accuracy_score(dev_labels_primary, predictions), 2))
+print("Precision micro:",round(metrics.precision_score(dev_labels_primary, predictions, average="micro"), 2))
+print("Precision macro:",round(metrics.precision_score(dev_labels_primary, predictions, average="macro"),2))
+print("Recall micro:",round(metrics.recall_score(dev_labels_primary, predictions, average="micro"),2))
+print("Recall macro:",round(metrics.recall_score(dev_labels_primary, predictions, average="macro"),2))
+print("F1 Score micro:",round(metrics.f1_score(dev_labels_primary, predictions, average="micro"),2))
+print("F1 Score macro:",round(metrics.f1_score(dev_labels_primary, predictions, average="macro"),2))
+print("F1 Score weighted:",round(metrics.f1_score(dev_labels_primary, predictions, average="weighted"),2))
 
 # FLAG - CHECK IF THESE ARE THE RIGHT MEASURES, CALCULATED CORRECTLY AND ROUNDED CORRECTLY
 # UPLOAD RESULTS IN A DOCUMENT THAT GABRIEL CAN CHECK
+
+# MAKE SURE THAT RESULTS MAKE SENSE, OTHERWISE MAYBE THERE'S A LOST MISTAKE
+
+# EXPERIMENTS
+
+# INITIAL SETTINGS
+
+# STOPWORDS INCLUDED
+# PUNCTUATION IS INCLUDED IN VECTORS LIST AND SEEN AS UNKNOWN I THINK
+# INCLUDES LITTLE SQUARE AND OTHER WEIRD CHARACTERS
+# EXCLUDE WORDS WITH FREQUENCY < 2 (TURN THEM INTO UNKNOWN)
+# WEIGHTED VALUES TO EACH WORD ACCORDING TO THEIR FREQUENCY IN THE SENTENCE
+# N_ESTIMATORS: 50
+# LEARNING RATE: 1
+# ALL OTHER PARAMETERs: DEFAULT
+# MULTILABEL IS BEING TACKLED BY CONSIDERING ONLY PRIMARY LABEL
+
+# CHANGES
+
+# REMOVE STOP WORDS
+# REMOVE PUNCTUATION FROM VECTORS LIST
+# REMOVE LITTLE SQUARE AND OTHER ODD CHARACTERS
+# INCLUDE WORDS WITH FREQUENCY >= 2  
+# TRY WITH 1 INSTEAD OF WEIGHTED VALUE + TRY OTHER WAYS TO REPRESENT THE SENTENCE MAYBE
+# DIFFERENT CONFIGURATIONS FOR THE CLASSIFIER (N_ESTIMATORS, LEARNING RATE, ETC?)
+# MAKE AVERAGE OF RESULTS SINCE THEY DIFFER?
+# WHAT TO DO ABOUT DECLARE OPINION TO PRIVACY? EXPERIMENT WITHOUT IT?
+# DIFFERENT WAYS TO TACKLE MULTI-LABEL: DUPLICATE RESULTS, ALIGN RIGHT LABEL FIRST
 
 # CAREFUL
 # ADABOOST IS HIGHLY AFFECTED by OUTLIERS - declare opinion about privacy is a very rare category...
@@ -176,8 +211,6 @@ print("F1 Score weighted:",round(metrics.f1_score(test_labels_primary, predictio
 # REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK
 #
 # use counter from collections, already creates a dictionary , then remove words, add unk row
-
-
 
 # help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
 # https://blog.paperspace.com/adaboost-optimizer/
