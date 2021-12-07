@@ -99,65 +99,93 @@ def create_confusion_matrix(refs, preds,name):
     #plt.show()
     plt.savefig('output/Simple Classifier/1Label_confusion_matrix_'+name+'.jpg')
 
+def plot_distribution():
+    # Multilabel distribution chart
+    #x_pos = numpy.arange(5) # sets number of bars
+    #plt.bar(x_pos, counter.values(),align='center')
+    #plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
+    #plt.subplots_adjust(bottom=0.4) # creates space for complete label names
+    #plt.savefig('output/Simple Classifier/First_label_distribution.jpg')
+    return 
+
 #####
 # MAIN
 
 # Read input sentences
-dev_path = 'output/partition/multilabeldata_dev.json'
 train_path = 'output/partition/multilabeldata_train.json'
+dev_path = 'output/partition/multilabeldata_dev.json'
 test_path = 'output/partition/multilabeldata_test.json'
 
 # FLAG - CHECK IF RIGHT AND UPDATED FILE IS BEING PICKED 
 
+with open(train_path) as file:
+    document = file.read()
+    train_sents_ref_json = json.loads(document)
 with open(dev_path) as file:
     document = file.read()
     dev_sents_ref_json = json.loads(document)
+with open(test_path) as file:
+    document = file.read()
+    test_sents_ref_json = json.loads(document)
 
+train_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
 dev_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
+#test_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
 
 # Count distribution + Multilabel distribution chart
+measure_distribution(train_labels_ref_list, "Train")
 measure_distribution(dev_labels_ref_list, "Dev")
+#measure_distribution(test_labels_ref_list, "Test")
 # FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
 
+train_pred_dict = simple_classifier(train_sents_ref_json)
 dev_pred_dict = simple_classifier(dev_sents_ref_json)
+#test_pred_dict = simple_classifier(test_sents_ref_json)
 
-#write_predictions_file("Train", output_dict)
+write_predictions_file("Train", train_pred_dict)
 write_predictions_file("Dev", dev_pred_dict)
-#write_predictions_file("Test", output_dict)
-# FLAG - CHECK IF OUTPUT WAS CORRECTLY WRITTEN IN FILE
+#write_predictions_file("Test", test_pred_dict)
+# FLAG - CHECK IF predictions Were CORRECTLY WRITTEN IN FILE
+
+train_pred_array = [sent['label'] for sent in train_pred_dict]
+train_pred_first_label = [label[0] for label in train_pred_array]
+train_ref_primary_label = [label[0] for label in train_labels_ref_list]
 
 dev_pred_array = [sent['label'] for sent in dev_pred_dict]
 dev_pred_first_label = [label[0] for label in dev_pred_array]
 dev_ref_primary_label = [label[0] for label in dev_labels_ref_list]
+
+#test_pred_array = [sent['label'] for sent in test_pred_dict]
+#test_pred_first_label = [label[0] for label in test_pred_array]
+#test_ref_primary_label = [label[0] for label in test_labels_ref_list]
+
 # FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL -- CHECKED
 
 ### OTHER APPROACHES FOR CHOOSING THE LABEL FOR EVALUATION -- check start of implementation at the end of the code
 
 # CREATE DISTRIBUTION CHART OF ONLY 1 LABEL
+plot_distribution()
+plot_distribution()
+#plot_distribution()
 
-# Multilabel distribution chart
-#x_pos = numpy.arange(5) # sets number of bars
-#plt.bar(x_pos, counter.values(),align='center')
-#plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
-#plt.subplots_adjust(bottom=0.4) # creates space for complete label names
-#plt.savefig('output/Simple Classifier/First_label_distribution.jpg')
 # FLAG - CHECK IF PREDICTIONS ARE CORRECTLY CALCULATED - ASK GABRIEL IF THERE IS AN AUTOMATED WAY TO DO IT
 
+create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "Dev")
 create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "Dev")
+#create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "Dev")
+
 # FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT 
 
-#labels = sorted(list(set(dev_ref_primary_label)))
-
-#write_output_stats_file("Train", ref_primary_label, pred_first_label)
+write_output_stats_file("Train", train_ref_primary_label, train_pred_first_label)
 write_output_stats_file("Dev", dev_ref_primary_label, dev_pred_first_label)
-#write_output_stats_file("Test", ref_primary_label, pred_first_label)
+#write_output_stats_file("Test", test_ref_primary_label, test_pred_first_label)
 
+# FLAG - CHECK IF STATS WERE CALCULATED AND WRITTEN CORRECTLY
 
 
 ###############
 # TO DO:
 
-# salvare csv direttamente? con tutti gli statistiche
 # evaluation for -> trainset, dev set and dev set
 # report results -> on an online document
 
