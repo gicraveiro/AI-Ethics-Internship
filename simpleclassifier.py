@@ -78,6 +78,7 @@ def measure_distribution(ref_array, name):
     count_opinion = ref_array.count(['Declare opinion about privacy'])
     count_notApp = ref_array.count(['Not applicable'])
 
+    plt.clf() # cleans previous graph
     x_pos = numpy.arange(7) # sets number of bars
     plt.bar(x_pos, counter.values(),align='center')
     plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
@@ -128,9 +129,9 @@ with open(test_path) as file:
     document = file.read()
     test_sents_ref_json = json.loads(document)
 
-train_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
+train_labels_ref_list = [sent['label'] for sent in train_sents_ref_json]
 dev_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
-#test_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
+#test_labels_ref_list = [sent['label'] for sent in test_sents_ref_json]
 
 # Count distribution + Multilabel distribution chart
 measure_distribution(train_labels_ref_list, "Train")
@@ -170,7 +171,7 @@ plot_distribution()
 
 # FLAG - CHECK IF PREDICTIONS ARE CORRECTLY CALCULATED - ASK GABRIEL IF THERE IS AN AUTOMATED WAY TO DO IT
 
-create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "Dev")
+create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "Train")
 create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "Dev")
 #create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "Dev")
 
