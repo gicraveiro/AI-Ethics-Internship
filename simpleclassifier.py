@@ -1,10 +1,11 @@
 import json
 import os
 import re # regular expressions
-from sklearn.metrics import precision_score, f1_score, ConfusionMatrixDisplay, recall_score, accuracy_score 
+from sklearn.metrics import ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 from collections import Counter
 import numpy
+from utils import write_output_stats_file
 
 MAX_N_SENTENCES = 100
 
@@ -40,20 +41,6 @@ def simple_classifier(sents_ref_json):
         output_dict.append({"text":sentence['text'], "label":label})
     return output_dict
 
-# WRITE OUTPUT STATISTICS FILE
-def write_output_stats_file(name, ref_labels, pred_labels):
-    #path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
-    #os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open('output/Simple Classifier/1labelPredictionsStats_'+name+'.txt', 'a') as file:
-        print("Performance in",name,"set:\n", file=file)
-        print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 2), file=file)
-        print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 2), file=file)
-        print("Precision macro:",round( precision_score( ref_labels, pred_labels, average="macro"),2), file=file)
-        print("Recall micro:",round( recall_score( ref_labels, pred_labels, average="micro"),2), file=file)
-        print("Recall macro:",round( recall_score( ref_labels, pred_labels, average="macro"),2), file=file)
-        print("F1 Score micro:",round( f1_score( ref_labels, pred_labels, average="micro"),2), file=file)
-        print("F1 Score macro:",round( f1_score( ref_labels, pred_labels, average="macro"),2), file=file)
-        print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted"),2), file=file)
 
 # WRITE OUTPUT PREDICTIONS IN JSON FORMAT
 def write_predictions_file(name, pred_dict):
@@ -177,9 +164,9 @@ create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "Dev")
 
 # FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT 
 
-write_output_stats_file("Train", train_ref_primary_label, train_pred_first_label)
-write_output_stats_file("Dev", dev_ref_primary_label, dev_pred_first_label)
-#write_output_stats_file("Test", test_ref_primary_label, test_pred_first_label)
+write_output_stats_file('output/Simple Classifier/1labelPredictionsStats_Train.txt', "Train", train_ref_primary_label, train_pred_first_label)
+write_output_stats_file('output/Simple Classifier/1labelPredictionsStats_Dev.txt', "Dev", dev_ref_primary_label, dev_pred_first_label)
+#write_output_stats_file('output/Simple Classifier/1labelPredictionsStats_Test.txt', "Test", test_ref_primary_label, test_pred_first_label)
 
 # FLAG - CHECK IF STATS WERE CALCULATED AND WRITTEN CORRECTLY
 

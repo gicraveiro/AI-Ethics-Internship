@@ -1,4 +1,5 @@
 import re
+from sklearn.metrics import precision_score, f1_score, recall_score, accuracy_score
 
 # reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
@@ -52,3 +53,20 @@ def clean_corpus(corpus):
     corpus = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", corpus)
     
     return corpus
+
+# For both classifiers
+
+# WRITE OUTPUT STATISTICS FILE
+def write_output_stats_file(path, name, ref_labels, pred_labels):
+    #path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
+    #os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'a') as file:
+        print("Performance in",name,"set:\n", file=file)
+        print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 2), file=file)
+        print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 2), file=file)
+        print("Precision macro:",round( precision_score( ref_labels, pred_labels, average="macro"),2), file=file)
+        print("Recall micro:",round( recall_score( ref_labels, pred_labels, average="micro"),2), file=file)
+        print("Recall macro:",round( recall_score( ref_labels, pred_labels, average="macro"),2), file=file)
+        print("F1 Score micro:",round( f1_score( ref_labels, pred_labels, average="micro"),2), file=file)
+        print("F1 Score macro:",round( f1_score( ref_labels, pred_labels, average="macro"),2), file=file)
+        print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted"),2), file=file)

@@ -1,6 +1,6 @@
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
-from utils import clean_corpus, reconstruct_hyphenated_words
+from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file
 from partition import sents_train, labels_train, sents_dev, labels_dev
 import re
 import spacy
@@ -59,7 +59,7 @@ def create_vectors_list(sents):
             sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
         sent_vector = sent_vector.astype(int)
         vectors_list.append(sent_vector)
-        print(sent, sent_vector) 
+        #print(sent, sent_vector) 
     return vectors_list
 
 # MAIN
@@ -104,7 +104,7 @@ words_to_numbers["unk"] = number_representation
 train_vectors_list = create_vectors_list(sents_train)
 dev_vectors_list = create_vectors_list(sents_dev)
 
-print(words_to_numbers)
+#print(words_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
@@ -151,15 +151,8 @@ plt.savefig('output/AI Classifier/1Label_confusion_matrix.jpg')
 
 # HELP - Predictions are changing... - confusion matrix, and measures
 
-# Measuring results
-print("Accuracy:",round(metrics.accuracy_score(dev_labels_primary, predictions), 2))
-print("Precision micro:",round(metrics.precision_score(dev_labels_primary, predictions, average="micro"), 2))
-print("Precision macro:",round(metrics.precision_score(dev_labels_primary, predictions, average="macro"),2))
-print("Recall micro:",round(metrics.recall_score(dev_labels_primary, predictions, average="micro"),2))
-print("Recall macro:",round(metrics.recall_score(dev_labels_primary, predictions, average="macro"),2))
-print("F1 Score micro:",round(metrics.f1_score(dev_labels_primary, predictions, average="micro"),2))
-print("F1 Score macro:",round(metrics.f1_score(dev_labels_primary, predictions, average="macro"),2))
-print("F1 Score weighted:",round(metrics.f1_score(dev_labels_primary, predictions, average="weighted"),2))
+write_output_stats_file('output/AI Classifier/1labelPredictionsStats_Dev.txt', "Dev", dev_labels_primary, predictions)
+#write_output_stats_file('output/Simple Classifier/1labelPredictionsStats_Test.txt', "Test", test_ref_primary_label, test_pred_first_label)
 
 # FLAG - CHECK IF THESE ARE THE RIGHT MEASURES, CALCULATED CORRECTLY AND ROUNDED CORRECTLY
 # UPLOAD RESULTS IN A DOCUMENT THAT GABRIEL CAN CHECK
