@@ -8,13 +8,15 @@ import numpy
 
 MAX_N_SENTENCES = 100
 
+# FUNCTIONS
+
 # SIMPLE CLASSIFIER
 # TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING
 # remove the words that are not in the train set even though they make sense
 # verbs - infinitive, noun root form
-def simple_classifier(json_sentences_ref):
+def simple_classifier(sents_ref_json):
     output_dict = []
-    for sentence in json_sentences_ref:
+    for sentence in sents_ref_json:
         label = [] # label = 'Not applicable'
         related = re.search(r".*data.*|.*information.*|.*cookies.*|.*personalize.*|.*content.*", sentence['text'], re.IGNORECASE)
         violate = re.search(r".*collect.*|.*share.*|.*connect.*|.*off facebook.*|.*receive information about you.*|.*\bsee\b.*", sentence['text'], re.IGNORECASE) # |.*see.*
@@ -59,26 +61,8 @@ def write_predictions_file(name, pred_dict):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open('output/Simple Classifier/multilabelPredictions_'+name+'.json', 'w') as file:
         file.write(json.dumps(pred_dict, indent=4, ensure_ascii=False))
-# Read input sentences
-dev_path = 'output/partition/multilabeldata_dev.json'
-train_path = 'output/partition/multilabeldata_train.json'
-test_path = 'output/partition/multilabeldata_test.json'
-
-# FLAG - CHECK IF RIGHT AND UPDATED FILE IS BEING PICKED 
-
-json_sentences = []
-
-with open(dev_path) as file:
-    document = file.read()
-    json_sentences_ref = json.loads(document)
-
-dev_ref_array = [sent['label'] for sent in json_sentences_ref]
-ref_sent = [[sent['text']] for sent in json_sentences_ref]
-
 
 # FLAG - THERE IS PROBABLY A PYTHON FUNCTION THAT CALCULATES THIS
-
-    
 def measure_distribution(ref_array, name):
     counter = Counter(tuple(item) for item in ref_array)
     tot_sents = len(ref_array)
@@ -103,28 +87,48 @@ def measure_distribution(ref_array, name):
     path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
     os.makedirs(os.path.dirname(path), exist_ok=True)
    
-    print("yup, im in")
     with open(path, 'w') as file:
         print(name+"set statistics:\n", file=file)
         print('Distribution of labels\n\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n', file=file)
 
-# Count distribution + Multilabel distribution chart
-measure_distribution(dev_ref_array, "Dev")
+def create_confusion_matrix(refs, preds,name):
+    #ConfusionMatrixDisplay.from_predictions(ref_1label_str_list,pred_1label_str_list, normalize="true")
+    ConfusionMatrixDisplay.from_predictions(refs,preds, normalize="true")
+    plt.xticks(rotation=45, ha="right")
+    plt.subplots_adjust(bottom=0.4)
+    #plt.show()
+    plt.savefig('output/Simple Classifier/1Label_confusion_matrix_'+name+'.jpg')
 
+#####
+# MAIN
+
+# Read input sentences
+dev_path = 'output/partition/multilabeldata_dev.json'
+train_path = 'output/partition/multilabeldata_train.json'
+test_path = 'output/partition/multilabeldata_test.json'
+
+# FLAG - CHECK IF RIGHT AND UPDATED FILE IS BEING PICKED 
+
+with open(dev_path) as file:
+    document = file.read()
+    dev_sents_ref_json = json.loads(document)
+
+dev_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
+
+# Count distribution + Multilabel distribution chart
+measure_distribution(dev_labels_ref_list, "Dev")
 # FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
 
-dev_pred_dict = simple_classifier(json_sentences_ref)
+dev_pred_dict = simple_classifier(dev_sents_ref_json)
 
 #write_predictions_file("Train", output_dict)
-#write_predictions_file("Dev", dev_pred_dict)
+write_predictions_file("Dev", dev_pred_dict)
 #write_predictions_file("Test", output_dict)
-
 # FLAG - CHECK IF OUTPUT WAS CORRECTLY WRITTEN IN FILE
 
 dev_pred_array = [sent['label'] for sent in dev_pred_dict]
 dev_pred_first_label = [label[0] for label in dev_pred_array]
-dev_ref_primary_label = [label[0] for label in dev_ref_array]
-
+dev_ref_primary_label = [label[0] for label in dev_labels_ref_list]
 # FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL -- CHECKED
 
 ### OTHER APPROACHES FOR CHOOSING THE LABEL FOR EVALUATION -- check start of implementation at the end of the code
@@ -139,16 +143,10 @@ dev_ref_primary_label = [label[0] for label in dev_ref_array]
 #plt.savefig('output/Simple Classifier/First_label_distribution.jpg')
 # FLAG - CHECK IF PREDICTIONS ARE CORRECTLY CALCULATED - ASK GABRIEL IF THERE IS AN AUTOMATED WAY TO DO IT
 
-#ConfusionMatrixDisplay.from_predictions(ref_1label_str_list,pred_1label_str_list, normalize="true")
-ConfusionMatrixDisplay.from_predictions(dev_ref_primary_label,dev_pred_first_label, normalize="true")
-plt.xticks(rotation=45, ha="right")
-plt.subplots_adjust(bottom=0.4)
-#plt.show()
-plt.savefig('output/Simple Classifier/1Label_confusion_matrix.jpg')
-
+create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "Dev")
 # FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT 
-#labels = sorted(list(set(ref_1label_str_list))) # sorted(list(set))
-labels = sorted(list(set(dev_ref_primary_label)))
+
+#labels = sorted(list(set(dev_ref_primary_label)))
 
 #write_output_stats_file("Train", ref_primary_label, pred_first_label)
 write_output_stats_file("Dev", dev_ref_primary_label, dev_pred_first_label)

@@ -1,4 +1,14 @@
-Dev set statistics:
+Devset statistics:
+
+Distribution of labels
+
+Violate privacy: 0.11 
+Commit to privacy: 0.17 
+Opinion about privacy: 0.03 
+Related to privacy: 0.16 
+Not applicable: 0.5 
+
+Performance in Dev set:
 
 Accuracy: 0.63
 Precision micro: 0.63
