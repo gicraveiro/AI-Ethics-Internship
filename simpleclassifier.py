@@ -1,0 +1,192 @@
+import json
+import os
+import re # regular expressions
+from sklearn.metrics import precision_score, f1_score, ConfusionMatrixDisplay, recall_score, accuracy_score # confusion_matrix, multilabel_confusion_matrix,
+#from sklearn.preprocessing import MultiLabelBinarizer
+import matplotlib.pyplot as plt
+from collections import Counter
+#import csv
+from googleapiclient.discovery import build
+from google.oauth2 import service_account
+import numpy
+import copy
+
+MAX_N_SENTENCES = 100
+
+# SIMPLE CLASSIFIER
+def simple_classifier(json_sentences_ref):
+    output_dict = []
+    for sentence in json_sentences_ref:
+        label = [] # label = 'Not applicable'
+        related = re.search(r".*data.*|.*information.*|.*cookies.*|.*personalize.*|.*content.*", sentence['text'], re.IGNORECASE)
+        violate = re.search(r".*collect.*|.*share.*|.*connect.*|.*off facebook.*|.*receive information about you.*|.*\bsee\b.*", sentence['text'], re.IGNORECASE) # |.*see.*
+        commit = re.search(r".*[instagram|facebook] settings.*|.*learn.*|.*choose.*|.*control.*|.*manage.*|.*opt out.*|.*delete.*|.*your consent.*|.*allow.*|.*change.*|.*choices.*|.*select.*|.*require.*|.*protection.*|.*reduce.*|.*don't sell.*", sentence['text'], re.IGNORECASE) # if 1/2 if you choose, protection(YES)law?(NO), you will have control, report(no...), will not be able, restrict, reduce, remove, don't sell, impose []restrictions, permission, you [can/will have] control, preferences(not ueful in this case), you own
+        opinion = re.search(r".*should.*|.*believe.*", sentence['text'], re.IGNORECASE)
+
+    # FLAG - CHECK IF RULES DO WHAT I INTENDED
+
+    # TO DO: add weight to decide primary and secondary labels
+        if violate:
+            label.append('Violate privacy')
+        if commit:
+            label.append('Commit to privacy')
+        if opinion:
+            label.insert(0,'Declare opinion about privacy') # opinion related terms are stronger than commit and violate related terms
+        if (related and label == []): # for single label rule, add condition: or violate and commit
+            label.append('Related to privacy') # related is only activated if none of the other categories were detected
+        if label == []:
+            label = ['Not applicable']
+
+        output_dict.append({"text":sentence['text'], "label":label})
+    return output_dict
+
+# WRITE OUTPUT STATISTICS FILE
+def write_output_stats_file(name, ref_labels, pred_labels):
+    path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open('output/Simple Classifier/1labelPredictionsStats_'+name+'.txt', 'w') as file:
+        print(name,"set statistics:\n", file=file)
+        print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 2), file=file)
+        print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 2), file=file)
+        print("Precision macro:",round( precision_score( ref_labels, pred_labels, average="macro"),2), file=file)
+        print("Recall micro:",round( recall_score( ref_labels, pred_labels, average="micro"),2), file=file)
+        print("Recall macro:",round( recall_score( ref_labels, pred_labels, average="macro"),2), file=file)
+        print("F1 Score micro:",round( f1_score( ref_labels, pred_labels, average="micro"),2), file=file)
+        print("F1 Score macro:",round( f1_score( ref_labels, pred_labels, average="macro"),2), file=file)
+        print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted"),2), file=file)
+
+
+
+# Read input sentences
+#path = 'output/partition/fbdata_dev.json'
+path = 'output/partition/multilabeldata_dev.json'
+
+# FLAG - CHECK IF RIGHT AND UPDATED FILE IS BEING PICKED 
+
+json_sentences = []
+
+with open(path) as file:
+    document = file.read()
+    json_sentences_ref = json.loads(document)
+
+ref_array = [sent['label'] for sent in json_sentences_ref]
+ref_sent = [[sent['text']] for sent in json_sentences_ref]
+
+counter = Counter(tuple(item) for item in ref_array)
+tot_sents = len(ref_array)
+# TO DO: CREATE FUNCTION TO CALCULATE THIS MAYBE?
+distr_violation = round (ref_array.count(['Violate privacy'])/tot_sents, 2)
+distr_commit = round (ref_array.count(['Commit to privacy'])/tot_sents, 2)
+distr_related = round (ref_array.count(['Related to privacy'])/tot_sents, 2)
+distr_opinion = round(ref_array.count(['Declare opinion about privacy'])/tot_sents, 2)
+distr_notApp = round(ref_array.count(['Not applicable'])/tot_sents, 2)
+count_violation = ref_array.count(['Violate privacy'])
+count_commit = ref_array.count(['Commit to privacy'])
+count_related = ref_array.count(['Related to privacy'])
+count_opinion = ref_array.count(['Declare opinion about privacy'])
+count_notApp = ref_array.count(['Not applicable'])
+
+# FLAG - THERE IS PROBABLY A PYTHON FUNCTION THAT CALCULATES THIS
+
+# Multilabel distribution chart
+x_pos = numpy.arange(7) # sets number of bars
+plt.bar(x_pos, counter.values(),align='center')
+plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
+plt.subplots_adjust(bottom=0.4) # creates space for complete label names
+plt.savefig('output/Simple Classifier/multilabel_distribution.jpg')
+
+print('Distribution of labels\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n')
+
+# FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
+
+
+
+# TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING
+# remove the words that are not in the train set even though they make sense
+# verbs - infinitive, noun root form
+
+output_dict = simple_classifier(json_sentences_ref)
+
+# WRITE OUTPUT
+path = 'output/Simple Classifier/multilabelPredictions_dev.json'
+os.makedirs(os.path.dirname(path), exist_ok=True)
+with open('output/Simple Classifier/multilabelPredictions_dev.json', 'w') as train_file:
+    train_file.write(json.dumps(output_dict, indent=4, ensure_ascii=False))
+
+# FLAG - CHECK IF OUTPUT WAS CORRECTLY WRITTEN IN FILE
+
+with open(path) as file:
+    document = file.read()
+    json_sentences_predicted = json.loads(document)
+
+pred_array = [sent['label'] for sent in json_sentences_predicted]
+
+ref_primary_label = [label[0] for label in ref_array]
+pred_first_label = [label[0] for label in pred_array]
+
+# FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL -- CHECKED
+
+### OTHER APPROACHES FOR CHOOSING THE LABEL FOR EVALUATION -- check start of implementation at the end of the code
+
+# CREATE DISTRIBUTION CHART OF ONLY 1 LABEL
+
+# Multilabel distribution chart
+#x_pos = numpy.arange(5) # sets number of bars
+#plt.bar(x_pos, counter.values(),align='center')
+#plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
+#plt.subplots_adjust(bottom=0.4) # creates space for complete label names
+#plt.savefig('output/Simple Classifier/First_label_distribution.jpg')
+# FLAG - CHECK IF PREDICTIONS ARE CORRECTLY CALCULATED - ASK GABRIEL IF THERE IS AN AUTOMATED WAY TO DO IT
+
+#ConfusionMatrixDisplay.from_predictions(ref_1label_str_list,pred_1label_str_list, normalize="true")
+ConfusionMatrixDisplay.from_predictions(ref_primary_label,pred_first_label, normalize="true")
+plt.xticks(rotation=45, ha="right")
+plt.subplots_adjust(bottom=0.4)
+#plt.show()
+plt.savefig('output/Simple Classifier/1Label_confusion_matrix.jpg')
+
+# FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT 
+#labels = sorted(list(set(ref_1label_str_list))) # sorted(list(set))
+labels = sorted(list(set(ref_primary_label)))
+
+#write_output_stats_file("Train", ref_primary_label, pred_first_label)
+write_output_stats_file("Dev", ref_primary_label, pred_first_label)
+#write_output_stats_file("Test", ref_primary_label, pred_first_label)
+
+
+
+###############
+# TO DO:
+
+# salvare csv direttamente? con tutti gli statistiche
+# evaluation for -> trainset, dev set and dev set
+# report results -> on an online document
+
+
+# APPENDIX
+'''
+#pred_1label_simple = copy.deepcopy(pred_array)
+pred_array_ordered = copy.deepcopy(pred_array) # vector of predictions that orders the prediction labels in order to align with primary label from reference with first
+pred_1label_array = copy.deepcopy(pred_array) # vector of predictions that contains only first label
+ref_1label_array = copy.deepcopy(ref_array) # vector of references of labels that contains only primary label
+for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
+    if(len(pred_label) > 1):
+        pred_1label_array[i] = [pred_label[0]]
+        ref_1label_array[i] = [ref_label[0]]
+        #pred_1label_simple[i] = [pred_label[0]]
+        if(pred_label[1] == ref_label[0]):
+            pred_array_ordered[i][0] = pred_label[1]
+            pred_1label_array[i] = [pred_label[1]]
+            pred_array_ordered[i][1] = pred_label[0]
+    elif(len(ref_label) > 1):
+        ref_1label_array[i] = [ref_label[0]]
+        pred_1label_array[i] = [pred_label[0]]
+        #pred_1label_simple[i] = [pred_label[0]]
+        if(ref_label[1] == pred_label[0]):
+            #ref_1label_array[i][0] = ref_label[1]
+            ref_1label_array[i] = [ref_label[1]]
+            #ref_1label_array[i][1] = ref_label[0]
+        
+ref_1label_str_list = [label[0] for label in ref_1label_array]
+pred_1label_str_list = [label[0] for label in pred_1label_array]
+'''

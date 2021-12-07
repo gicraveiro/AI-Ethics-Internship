@@ -1,0 +1,10 @@
+Dev set statistics:
+
+Accuracy: 0.63
+Precision micro: 0.63
+Precision macro: 0.46
+Recall micro: 0.63
+Recall macro: 0.47
+F1 Score micro: 0.63
+F1 Score macro: 0.46
+F1 Score weighted: 0.63
