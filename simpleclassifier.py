@@ -88,23 +88,18 @@ def create_confusion_matrix(refs, preds,name):
     plt.savefig('output/Simple Classifier/1Label_confusion_matrix_'+name+'.jpg')
 
 # CREATE DISTRIBUTION CHART OF ONLY 1 LABEL
-def plot_distribution(labels, name):
-    #counter = Counter(tuple(item) for item in ref_array)
-    counter = Counter(labels)
-
     # Multilabel distribution chart
+def plot_distribution(counter, name):    
     plt.clf() # cleans previous graphs
     x_pos = numpy.arange(len(counter)) # sets number of bars
     plt.bar(x_pos, counter.values(),align='center')
     plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
-    plt.subplots_adjust(bottom=0.4, left=0.2) # creates space for complete label names
+    plt.subplots_adjust(bottom=0.4, left=0.3) # creates space for complete label names
     for i, value in enumerate(counter.values()):
         plt.text(i,value,str(value))
-    #print(counter.most_common()[0][1])
-    #print(counter['Not applicable'])
-    plt.ylim((0,counter.most_common()[0][1]+5))
-    plt.show()
-   # plt.savefig('output/Simple Classifier/First_label_distribution_'+name+'.jpg')
+    plt.ylim((0,counter.most_common()[0][1]+counter.most_common()[2][1]))
+    #plt.show()
+    plt.savefig('output/Simple Classifier/First_label_distribution_'+name+'.jpg')
     return 
 
 #####
@@ -132,8 +127,10 @@ dev_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
 #test_labels_ref_list = [sent['label'] for sent in test_sents_ref_json]
 
 # Count distribution + Multilabel distribution chart
-measure_distribution(train_labels_ref_list, "Train")
-measure_distribution(dev_labels_ref_list, "Dev")
+counter = Counter(tuple(item) for item in dev_labels_ref_list)
+plot_distribution(counter, "Dev")
+#measure_distribution(train_labels_ref_list, "Train")
+#measure_distribution(dev_labels_ref_list, "Dev")
 #measure_distribution(test_labels_ref_list, "Test")
 # FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
 
@@ -161,12 +158,12 @@ dev_ref_primary_label = [label[0] for label in dev_labels_ref_list]
 # FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL -- CHECKED
 
 ### OTHER APPROACHES FOR CHOOSING THE LABEL FOR EVALUATION -- check start of implementation at the end of the code
-
-
-plot_distribution(dev_ref_primary_label,"Dev")
-#plot_distribution()
-#plot_distribution()
-#plot_distribution()
+counter = Counter(train_ref_primary_label)
+plot_distribution(counter, "Train")
+counter = Counter(dev_ref_primary_label)
+plot_distribution(counter,"Dev")
+#counter = Counter(test_ref_primary_label)
+#plot_distribution(counter,"Test")
 
 # FLAG - CHECK IF PREDICTIONS ARE CORRECTLY CALCULATED - ASK GABRIEL IF THERE IS AN AUTOMATED WAY TO DO IT
 
