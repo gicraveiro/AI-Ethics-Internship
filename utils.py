@@ -61,7 +61,7 @@ def clean_corpus(corpus):
 def write_output_stats_file(path, name, ref_labels, pred_labels):
     #path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'w') as file:
+    with open(path, 'a') as file:
         print("Performance in",name,"set:\n", file=file)
         print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 2), file=file)
         print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 2), file=file)

@@ -1,0 +1,11 @@
+Distribution of labels
+
+('Declare opinion about privacy',) 0.03
+('Not applicable',) 0.5
+('Related to privacy',) 0.16
+('Commit to privacy',) 0.17
+('Violate privacy',) 0.11
+('Commit to privacy', 'Violate privacy') 0.01
+('Violate privacy', 'Commit to privacy') 0.01
+
+

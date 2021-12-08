@@ -1,3 +1,12 @@
+Distribution of labels
+
+Not applicable 0.49
+Related to privacy 0.15
+Commit to privacy 0.19
+Violate privacy 0.14
+Declare opinion about privacy 0.03
+
+
 Performance in Train set:
 
 Accuracy: 0.58

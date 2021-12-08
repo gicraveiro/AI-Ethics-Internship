@@ -1,3 +1,12 @@
+Distribution of labels
+
+Declare opinion about privacy 0.03
+Not applicable 0.5
+Related to privacy 0.16
+Commit to privacy 0.19
+Violate privacy 0.13
+
+
 Performance in Dev set:
 
 Accuracy: 0.63

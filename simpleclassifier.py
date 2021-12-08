@@ -104,6 +104,20 @@ def plot_distribution(counter, name, type):
     plt.savefig('output/Simple Classifier/'+type+'_distribution_'+name+'.jpg')
     return 
 
+def calculate_distribution(label_count, total):
+    return round(label_count/total, 2)
+
+def write_distribution(path,counter):
+    total = sum(counter.values())
+
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w') as file:
+        print('Distribution of labels\n', file=file)
+        for item in counter.items():
+            print(item[0], calculate_distribution(item[1], total), file=file)
+        print('\n',file=file)
+
+    
 #####
 # MAIN
 
@@ -131,10 +145,13 @@ dev_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
 # Multilabel distribution chart
 counter = Counter(tuple(item) for item in train_labels_ref_list)
 plot_distribution(counter, "Train", "multilabel")
+write_distribution('output/Simple Classifier/multilabelPredictionsStats_Train.txt', counter)
 counter = Counter(tuple(item) for item in dev_labels_ref_list)
 plot_distribution(counter, "Dev", "multilabel")
+write_distribution('output/Simple Classifier/multilabelPredictionsStats_Dev.txt', counter)
 #counter = Counter(tuple(item) for item in test_labels_ref_list)
 #plot_distribution(counter, "Test", "multilabel")
+#write_distribution('output/Simple Classifier/multilabelPredictionsStats_Test.txt', counter)
 
 # Count distribution ---- PAUSED FOR NOW
 #measure_distribution(train_labels_ref_list, "Train")
@@ -168,10 +185,13 @@ dev_ref_primary_label = [label[0] for label in dev_labels_ref_list]
 ### OTHER APPROACHES FOR CHOOSING THE LABEL FOR EVALUATION -- check start of implementation at the end of the code
 counter = Counter(train_ref_primary_label)
 plot_distribution(counter, "Train", "First_label")
+write_distribution('output/Simple Classifier/1labelPredictionsStats_Train.txt', counter)
 counter = Counter(dev_ref_primary_label)
 plot_distribution(counter,"Dev", "First_label")
+write_distribution('output/Simple Classifier/1labelPredictionsStats_Dev.txt', counter)
 #counter = Counter(test_ref_primary_label)
 #plot_distribution(counter,"Test")
+#write_distribution('output/Simple Classifier/1labelPredictionsStats_Test.txt', counter)
 
 # FLAG - CHECK IF PREDICTIONS ARE CORRECTLY CALCULATED - ASK GABRIEL IF THERE IS AN AUTOMATED WAY TO DO IT
 
