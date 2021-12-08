@@ -1,13 +1,3 @@
-Trainset statistics:
-
-Distribution of labels
-
-Violate privacy: 0.12 
-Commit to privacy: 0.17 
-Opinion about privacy: 0.03 
-Related to privacy: 0.15 
-Not applicable: 0.49 
-
 Performance in Train set:
 
 Accuracy: 0.58

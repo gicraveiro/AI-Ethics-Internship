@@ -1,4 +1,5 @@
 import re
+import os
 from sklearn.metrics import precision_score, f1_score, recall_score, accuracy_score
 
 # reconstructs hyphen, slash and apostrophes
@@ -59,8 +60,8 @@ def clean_corpus(corpus):
 # WRITE OUTPUT STATISTICS FILE
 def write_output_stats_file(path, name, ref_labels, pred_labels):
     #path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
-    #os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'a') as file:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w') as file:
         print("Performance in",name,"set:\n", file=file)
         print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 2), file=file)
         print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 2), file=file)

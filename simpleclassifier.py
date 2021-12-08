@@ -49,6 +49,7 @@ def write_predictions_file(name, pred_dict):
     with open('output/Simple Classifier/multilabelPredictions_'+name+'.json', 'w') as file:
         file.write(json.dumps(pred_dict, indent=4, ensure_ascii=False))
 
+'''
 # FLAG - THERE IS PROBABLY A PYTHON FUNCTION THAT CALCULATES THIS
 def measure_distribution(ref_array, name):
     counter = Counter(tuple(item) for item in ref_array)
@@ -69,7 +70,7 @@ def measure_distribution(ref_array, name):
     x_pos = numpy.arange(7) # sets number of bars
     plt.bar(x_pos, counter.values(),align='center')
     plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
-    plt.subplots_adjust(bottom=0.6) # creates space for complete label names
+    plt.subplots_adjust(bottom=0.4) # creates space for complete label names
     plt.savefig('output/Simple Classifier/multilabel_distribution_'+name+'.jpg')
 
     path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
@@ -78,6 +79,7 @@ def measure_distribution(ref_array, name):
     with open(path, 'w') as file:
         print(name+"set statistics:\n", file=file)
         print('Distribution of labels\n\nViolate privacy:', distr_violation,'\nCommit to privacy:', distr_commit,'\nOpinion about privacy:',distr_opinion, '\nRelated to privacy:', distr_related, '\nNot applicable:', distr_notApp,'\n', file=file)
+'''
 
 def create_confusion_matrix(refs, preds,name):
     #ConfusionMatrixDisplay.from_predictions(ref_1label_str_list,pred_1label_str_list, normalize="true")
@@ -94,7 +96,7 @@ def plot_distribution(counter, name, type):
     x_pos = numpy.arange(len(counter)) # sets number of bars
     plt.bar(x_pos, counter.values(),align='center')
     plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
-    plt.subplots_adjust(bottom=0.4, left=0.3) # creates space for complete label names
+    plt.subplots_adjust(bottom=0.45, left=0.25) # creates space for complete label names
     for i, value in enumerate(counter.values()):
         plt.text(i,value,str(value))
     plt.ylim((0,counter.most_common()[0][1]+counter.most_common()[2][1]))
@@ -126,9 +128,15 @@ train_labels_ref_list = [sent['label'] for sent in train_sents_ref_json]
 dev_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
 #test_labels_ref_list = [sent['label'] for sent in test_sents_ref_json]
 
-# Count distribution + Multilabel distribution chart
+# Multilabel distribution chart
+counter = Counter(tuple(item) for item in train_labels_ref_list)
+plot_distribution(counter, "Train", "multilabel")
 counter = Counter(tuple(item) for item in dev_labels_ref_list)
 plot_distribution(counter, "Dev", "multilabel")
+#counter = Counter(tuple(item) for item in test_labels_ref_list)
+#plot_distribution(counter, "Test", "multilabel")
+
+# Count distribution ---- PAUSED FOR NOW
 #measure_distribution(train_labels_ref_list, "Train")
 #measure_distribution(dev_labels_ref_list, "Dev")
 #measure_distribution(test_labels_ref_list, "Test")
