@@ -62,6 +62,7 @@ def create_vectors_list(sents):
         #print(sent, sent_vector) 
     return vectors_list
 
+####
 # MAIN
 
 nlp = spacy.load('en_core_web_lg') 
@@ -149,7 +150,7 @@ plt.savefig('output/AI Classifier/1Label_confusion_matrix.jpg')
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 
-# HELP - Predictions are changing... - confusion matrix, and measures
+# HELP - Predictions are changing... - confusion matrix, and measures - NOT ANYMORE :D
 
 write_output_stats_file('output/AI Classifier/1labelPredictionsStats_Dev.txt', "Dev", dev_labels_primary, predictions)
 #write_output_stats_file('output/Simple Classifier/1labelPredictionsStats_Test.txt', "Test", test_ref_primary_label, test_pred_first_label)

@@ -75,10 +75,11 @@ def write_distribution(path,counter,name):
 # MAIN
 
 # Reads annotation table from file .csv saved locally and creates labels and senences list
-annotation = pd.read_csv("data/Facebook/Privacy/Annotated/AnnotatedMultiLabelDataset.csv")
+annotation = pd.read_csv("data/Privacy/Facebook/Annotated/AnnotatedMultiLabelDataset.csv")
 sents = annotation['Sentences'].values
 labels1 = annotation['Primary Label'].values
 labels2 = annotation['Secondary Label'].values
+
 labels = []
 for l1,l2 in zip(labels1,labels2):
     row_labels = []
@@ -88,8 +89,8 @@ for l1,l2 in zip(labels1,labels2):
     labels.append(row_labels)
 
 # FLAG - 
-#  CHECK IF CORRECT AND UPDATED FILE IS BEING USED
-#  CHECK IF LABELS LIST ARE BEING BUILT CORRECTLY
+#  CHECK IF CORRECT AND UPDATED FILE IS BEING USED - CHECKED
+#  CHECK IF LABELS LIST ARE BEING BUILT CORRECTLY - CHECKED
 
 # Partitions data into 80% trainset and remaining 20%
 sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=1111111)
@@ -103,14 +104,14 @@ dev_dict = create_sent_label_dict(sents_dev, labels_dev)
 test_dict = create_sent_label_dict(sents_test, labels_test)
 total_dict = train_dict + dev_dict + test_dict
 
-# FLAG - CHECK IF EACH SENTENCE WAS ASSOCIATED WITH THE RIGHT LABEL
+# FLAG - CHECK IF EACH SENTENCE WAS ASSOCIATED WITH THE RIGHT LABEL - TOO HARD
 
 # create output files and write sentences with labels
 write_partition_file(train_dict, 'train')
 write_partition_file(dev_dict, 'dev')
 write_partition_file(test_dict, 'test')
 
-# FLAG - Check if files were written correctly
+# FLAG - Check if files were written correctly - CHECKED
 
 total_labels_ref_list = [sent['label'] for sent in total_dict]
 train_labels_ref_list = [sent['label'] for sent in train_dict]
@@ -135,7 +136,7 @@ counter = Counter(tuple(item) for item in test_labels_ref_list)
 plot_distribution(counter, "Test", "multilabel")
 write_distribution(path, counter, "Test")
 
-# FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
+# FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY - Checked, total distribution is the same as the spreadsheet ones 
 
 # Single label distribution count + chart
 total_ref_primary_label = [label[0] for label in total_labels_ref_list]
@@ -161,10 +162,5 @@ counter = Counter(test_ref_primary_label)
 plot_distribution(counter,"Test", "1label")
 write_distribution(path, counter, "Test")
 
-# FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
-
-
-# FLAG - in theory checked, but RECHECK
-
-######
-# REDO PARTITION  -- ?? dont remember why...
+# FLAG - CHECK IF DISTRIBUTION IS BEING DONE AND MEASURED CORRECTLY
+# FLAG - in theory checked, but RECHECK rechecked

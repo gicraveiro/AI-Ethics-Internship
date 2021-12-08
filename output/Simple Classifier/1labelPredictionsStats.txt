@@ -2,25 +2,37 @@ Performance measures
 
 Train set:
 
-Accuracy: 0.58
-Precision micro: 0.58
-Precision macro: 0.52
-Recall micro: 0.58
-Recall macro: 0.48
-F1 Score micro: 0.58
-F1 Score macro: 0.49
-F1 Score weighted: 0.6
+Accuracy: 0.54
+Precision micro: 0.54
+Precision macro: 0.48
+Recall micro: 0.54
+Recall macro: 0.53
+F1 Score micro: 0.54
+F1 Score macro: 0.48
+F1 Score weighted: 0.56
 
 
 Dev set:
 
-Accuracy: 0.63
-Precision micro: 0.63
-Precision macro: 0.46
-Recall micro: 0.63
-Recall macro: 0.47
-F1 Score micro: 0.63
-F1 Score macro: 0.46
-F1 Score weighted: 0.63
+Accuracy: 0.56
+Precision micro: 0.56
+Precision macro: 0.4
+Recall micro: 0.56
+Recall macro: 0.44
+F1 Score micro: 0.56
+F1 Score macro: 0.4
+F1 Score weighted: 0.57
+
+
+Test set:
+
+Accuracy: 0.59
+Precision micro: 0.59
+Precision macro: 0.42
+Recall micro: 0.59
+Recall macro: 0.44
+F1 Score micro: 0.59
+F1 Score macro: 0.42
+F1 Score weighted: 0.6
 
 
