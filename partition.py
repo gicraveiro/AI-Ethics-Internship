@@ -5,6 +5,8 @@ from sklearn.model_selection import train_test_split
 import os
 import json
 from collections import Counter
+import matplotlib.pyplot as plt
+import numpy
 
 # Functions
 
@@ -45,6 +47,31 @@ def print_partition_distribution(name, count, sum):
         print(distr_value, "out of", total_value, "samples in the whole dataset")
         print(round(float(distr_value)/float(total_value)*100,2),'\n')
 
+def plot_distribution(counter, name, type):    
+    plt.clf() # cleans previous graphs
+    x_pos = numpy.arange(len(counter)) # sets number of bars
+    plt.bar(x_pos, counter.values(),align='center')
+    plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
+    plt.subplots_adjust(bottom=0.45, left=0.25) # creates space for complete label names
+    for i, value in enumerate(counter.values()):
+        plt.text(i,value,str(value))
+    plt.ylim((0,counter.most_common()[0][1]+counter.most_common()[2][1]))
+    #plt.show()
+    plt.savefig('output/partition/'+type+'_distribution_'+name+'.jpg')
+    return 
+
+def calculate_distribution(label_count, total):
+    return round(label_count/total, 2)
+
+def write_distribution(path,counter,name):
+    total = sum(counter.values())
+    with open(path, 'a') as file:
+        print(name,"set\n", file=file)
+        for item in counter.items():
+            print(item[0], calculate_distribution(item[1], total), " ("+str(item[1])+"/"+str(total)+")", file=file)
+        print("\n",file=file)
+    # TO DO: ALSO PRINT NUMBER ? 
+
 # MAIN
 
 # Reads annotation table from file .csv saved locally and creates labels and senences list
@@ -74,7 +101,7 @@ sents_test, sents_dev, labels_test, labels_dev = train_test_split(sents_test,lab
 train_dict = create_sent_label_dict(sents_train, labels_train)
 dev_dict = create_sent_label_dict(sents_dev, labels_dev)
 test_dict = create_sent_label_dict(sents_test, labels_test)
-#print(train_dict, dev_dict, test_dict)
+total_dict = train_dict + dev_dict + test_dict
 
 # FLAG - CHECK IF EACH SENTENCE WAS ASSOCIATED WITH THE RIGHT LABEL
 
@@ -85,22 +112,57 @@ write_partition_file(test_dict, 'test')
 
 # FLAG - Check if files were written correctly
 
-# COUNTING DISTRIBUTION TO ENSURE IT IS BEING PERFORMED CORRECTLY
-train_count = create_label_list('train')
-dev_count = create_label_list('dev')
-test_count = create_label_list('test')
+total_labels_ref_list = [sent['label'] for sent in total_dict]
+train_labels_ref_list = [sent['label'] for sent in train_dict]
+dev_labels_ref_list = [sent['label'] for sent in dev_dict]
+test_labels_ref_list = [sent['label'] for sent in test_dict]
 
-sum = Counter(train_count)+Counter(test_count)+Counter(dev_count)
-print(sum)
+# Multilabel distribution count + chart
+path= 'output/partition/multilabelDistribution.txt'
+os.makedirs(os.path.dirname(path), exist_ok=True)
+with open(path, 'w') as file:
+    print("Distribution of labels\n", file=file)
+counter = Counter(tuple(item) for item in total_labels_ref_list)
+plot_distribution(counter, "Total", "multilabel")
+write_distribution(path, counter, "Total")
+counter = Counter(tuple(item) for item in train_labels_ref_list)
+plot_distribution(counter, "Train", "multilabel")
+write_distribution(path, counter, "Train")
+counter = Counter(tuple(item) for item in dev_labels_ref_list)
+plot_distribution(counter, "Dev", "multilabel")
+write_distribution(path, counter, "Dev")
+counter = Counter(tuple(item) for item in test_labels_ref_list)
+plot_distribution(counter, "Test", "multilabel")
+write_distribution(path, counter, "Test")
 
-# FLAG - Check if counter worked properly
+# FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
 
-# printing the proportion of occurrence of each label in comparison to the total number of sentences with that label
-print_partition_distribution("Train", train_count, sum)
-print_partition_distribution("Dev", dev_count, sum)
-print_partition_distribution("Test", test_count, sum)
+# Single label distribution count + chart
+total_ref_primary_label = [label[0] for label in total_labels_ref_list]
+train_ref_primary_label = [label[0] for label in train_labels_ref_list]
+dev_ref_primary_label = [label[0] for label in dev_labels_ref_list]
+test_ref_primary_label = [label[0] for label in test_labels_ref_list]
 
-# TO DO: PLOT DISTRIBUTION TRAINSET, TESTSET 
+### OTHER APPROACHES FOR CHOOSING THE LABEL FOR EVALUATION -- check start of implementation at the end of the code
+path= 'output/partition/1labelDistribution.txt'
+os.makedirs(os.path.dirname(path), exist_ok=True)
+with open(path, 'w') as file:
+    print("Distribution of labels\n", file=file)
+counter = Counter(total_ref_primary_label)
+plot_distribution(counter, "Total", "1label")
+write_distribution(path, counter, "Total")
+counter = Counter(train_ref_primary_label)
+plot_distribution(counter, "Train", "1label")
+write_distribution(path, counter, "Train")
+counter = Counter(dev_ref_primary_label)
+plot_distribution(counter,"Dev", "1label")
+write_distribution(path, counter, "Dev")
+counter = Counter(test_ref_primary_label)
+plot_distribution(counter,"Test", "1label")
+write_distribution(path, counter, "Test")
+
+# FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
+
 
 # FLAG - in theory checked, but RECHECK
 
