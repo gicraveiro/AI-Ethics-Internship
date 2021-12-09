@@ -143,7 +143,7 @@ predictions = model.predict(dev_matrix_array)
 # Confusion matrix
 dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
-metrics.ConfusionMatrixDisplay.from_predictions(dev_list,pred_list, normalize="true", labels=[1,2,3,4,5],display_labels=['Commit to privacy', 'Violate privacy', 'Declare opinion about privacy', 'Related to privacy', 'Not applicable'])
+metrics.ConfusionMatrixDisplay.from_predictions(dev_list,pred_list, normalize="true", labels=[1,3,5,4,2],display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']) # alphabetical order
 plt.xticks(rotation=45, ha="right")
 plt.subplots_adjust(bottom=0.4)
 #plt.show()
