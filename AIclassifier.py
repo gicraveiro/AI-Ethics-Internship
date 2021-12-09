@@ -1,6 +1,6 @@
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
-from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file
+from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file
 from partition import sents_train, labels_train, sents_dev, labels_dev
 import re
 import spacy
@@ -160,6 +160,9 @@ with open(path, 'w') as file:
 write_output_stats_file(path, "Dev", dev_labels_primary, predictions)
 #write_output_stats_file('output/Simple Classifier/1labelPredictionsStats_Test.txt', "Test", test_ref_primary_label, test_pred_first_label)
 
+# TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
+#write_predictions_file("Dev", dev_pred_dict)
+#write_predictions_file("Test", test_pred_dict)
 # FLAG - CHECK IF THESE ARE THE RIGHT MEASURES, CALCULATED CORRECTLY AND ROUNDED CORRECTLY
 # UPLOAD RESULTS IN A DOCUMENT THAT GABRIEL CAN CHECK
 

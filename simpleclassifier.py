@@ -3,7 +3,7 @@ import os
 import re # regular expressions
 from sklearn.metrics import ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
-from utils import write_output_stats_file
+from utils import write_output_stats_file, write_predictions_file
 
 MAX_N_SENTENCES = 100
 
@@ -48,12 +48,6 @@ def simple_classifier(sents_ref_json):
     return output_dict
 
 
-# WRITE OUTPUT PREDICTIONS IN JSON FORMAT
-def write_predictions_file(name, pred_dict):
-    path = 'output/Simple Classifier/multilabelPredictions_'+name+'.json'
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open('output/Simple Classifier/multilabelPredictions_'+name+'.json', 'w') as file:
-        file.write(json.dumps(pred_dict, indent=4, ensure_ascii=False))
 
 def create_confusion_matrix(refs, preds,name):
     ConfusionMatrixDisplay.from_predictions(refs,preds, normalize="true")
