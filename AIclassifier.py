@@ -7,6 +7,7 @@ import spacy
 import numpy
 from collections import Counter 
 import matplotlib.pyplot as plt
+import os
 
 # Transform labels list with names in label array with number representations
 def create_labels_array(labels_list):
@@ -99,7 +100,7 @@ words_to_numbers["unk"] = number_representation
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
 #               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS
 # TO DO: count frequency again?
-# count frequency before and after removing unknown words - ???
+# count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 
 
 train_vectors_list = create_vectors_list(sents_train)
@@ -152,7 +153,11 @@ plt.savefig('output/AI Classifier/1Label_confusion_matrix.jpg')
 
 # HELP - Predictions are changing... - confusion matrix, and measures - NOT ANYMORE :D
 
-write_output_stats_file('output/AI Classifier/1labelPredictionsStats_Dev.txt', "Dev", dev_labels_primary, predictions)
+path='output/AI Classifier/1labelPredictionsStats.txt'
+os.makedirs(os.path.dirname(path), exist_ok=True)
+with open(path, 'w') as file:
+    print("Performance measures\n", file=file)
+write_output_stats_file(path, "Dev", dev_labels_primary, predictions)
 #write_output_stats_file('output/Simple Classifier/1labelPredictionsStats_Test.txt', "Test", test_ref_primary_label, test_pred_first_label)
 
 # FLAG - CHECK IF THESE ARE THE RIGHT MEASURES, CALCULATED CORRECTLY AND ROUNDED CORRECTLY

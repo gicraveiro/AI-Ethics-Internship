@@ -3,8 +3,6 @@ import os
 import re # regular expressions
 from sklearn.metrics import ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
-#from collections import Counter
-#import numpy
 from utils import write_output_stats_file
 
 MAX_N_SENTENCES = 100
@@ -12,9 +10,9 @@ MAX_N_SENTENCES = 100
 # FUNCTIONS
 
 # SIMPLE CLASSIFIER
-# TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING
-# remove the words that are not in the train set even though they make sense
-# verbs - infinitive, noun root form
+# TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING DONE
+# remove the words that are not in the train set even though they make sense DONE
+# verbs - infinitive, noun root form DONE
 def simple_classifier(sents_ref_json):
     output_dict = []
     for sentence in sents_ref_json:
