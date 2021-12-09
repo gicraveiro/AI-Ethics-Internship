@@ -10,9 +10,6 @@ MAX_N_SENTENCES = 100
 # FUNCTIONS
 
 # SIMPLE CLASSIFIER
-# TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING DONE
-# remove the words that are not in the train set even though they make sense DONE
-# verbs - infinitive, noun root form DONE
 def simple_classifier(sents_ref_json):
     output_dict = []
     for sentence in sents_ref_json:
@@ -45,6 +42,9 @@ def simple_classifier(sents_ref_json):
             label = ['Not applicable']
 
         output_dict.append({"text":sentence['text'], "label":label})
+        # DEBUG PRINTS
+        #print("\n",{"text":sentence['text'], "label":label}, "\n", "violate", violate, len(violate), "\n", "commit", commit, len(commit), "\n", "opinion", opinion, len(opinion), "\n", "related", related, len(related) )
+        #print(output_dict, {"text":sentence['text'], "label":label})
     return output_dict
 
 
@@ -65,35 +65,45 @@ train_path = 'output/partition/multilabeldata_train.json'
 dev_path = 'output/partition/multilabeldata_dev.json'
 test_path = 'output/partition/multilabeldata_test.json'
 
-# FLAG - CHECK IF RIGHT AND UPDATED FILE IS BEING PICKED 
+# FLAG - CHECK IF RIGHT AND UPDATED FILE IS BEING PICKED - CHECKED
 
 with open(train_path) as file:
     document = file.read()
     train_sents_ref_json = json.loads(document)
+    #print(train_sents_ref_json)
 with open(dev_path) as file:
     document = file.read()
     dev_sents_ref_json = json.loads(document)
+    #print(dev_sents_ref_json)
 with open(test_path) as file:
     document = file.read()
     test_sents_ref_json = json.loads(document)
+    #print(test_sents_ref_json)
 
 train_labels_ref_list = [sent['label'] for sent in train_sents_ref_json]
 dev_labels_ref_list = [sent['label'] for sent in dev_sents_ref_json]
 test_labels_ref_list = [sent['label'] for sent in test_sents_ref_json]
+
+# FLAG - CHECKED
 
 # Single label distribution count + chart
 train_ref_primary_label = [label[0] for label in train_labels_ref_list]
 dev_ref_primary_label = [label[0] for label in dev_labels_ref_list]
 test_ref_primary_label = [label[0] for label in test_labels_ref_list]
 
+# FLAG - CHECKED
+
 train_pred_dict = simple_classifier(train_sents_ref_json)
 dev_pred_dict = simple_classifier(dev_sents_ref_json)
 test_pred_dict = simple_classifier(test_sents_ref_json)
 
+# FLAG - CHECKED
+
 write_predictions_file("Train", train_pred_dict)
 write_predictions_file("Dev", dev_pred_dict)
 write_predictions_file("Test", test_pred_dict)
-# FLAG - CHECK IF predictions Were CORRECTLY WRITTEN IN FILE
+
+# FLAG - CHECK IF predictions Were CORRECTLY WRITTEN IN FILE - CHECKED
 
 train_pred_array = [sent['label'] for sent in train_pred_dict]
 train_pred_first_label = [label[0] for label in train_pred_array]
@@ -104,14 +114,13 @@ dev_pred_first_label = [label[0] for label in dev_pred_array]
 test_pred_array = [sent['label'] for sent in test_pred_dict]
 test_pred_first_label = [label[0] for label in test_pred_array]
 
-# FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL -- CHECKED
-# FLAG - CHECK IF PREDICTIONS ARE CORRECTLY CALCULATED - ASK GABRIEL IF THERE IS AN AUTOMATED WAY TO DO IT
+# FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL and aligned with the ones before -- CHECKED
 
 create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "Train")
 create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "Dev")
 create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "Test")
 
-# FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT 
+# FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT - CHECKED
 
 path='output/Simple Classifier/1labelPredictionsStats.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -121,7 +130,7 @@ write_output_stats_file(path, "Train", train_ref_primary_label, train_pred_first
 write_output_stats_file(path, "Dev", dev_ref_primary_label, dev_pred_first_label)
 write_output_stats_file(path, "Test", test_ref_primary_label, test_pred_first_label)
 
-# FLAG - CHECK IF STATS WERE CALCULATED AND WRITTEN CORRECTLY
+# FLAG - CHECK IF STATS WERE CALCULATED AND WRITTEN CORRECTLY - checked
 
 '''
 # Multilabel distribution count + chart
@@ -152,11 +161,6 @@ write_distribution('output/Simple Classifier/1labelPredictionsStats_Dev.txt', co
 # FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
 
 ###############
-# TO DO:
-
-# evaluation for -> trainset, dev set and dev set
-# report results -> on an online document
-
 
 # APPENDIX
 '''
@@ -185,3 +189,8 @@ for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
 ref_1label_str_list = [label[0] for label in ref_1label_array]
 pred_1label_str_list = [label[0] for label in pred_1label_array]
 '''
+######
+# TO REMEMBER DOCUMENTATION
+# TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING DONE
+# remove the words that are not in the train set even though they make sense DONE
+# verbs - infinitive, noun root form DONE
