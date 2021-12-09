@@ -28,65 +28,74 @@ def create_labels_array(labels_list):
 
 # Create sparse matrixes that represent words present in each sentence, which is the appropriate format to feed the AI classifier
 def format_sentVector_to_SparseMatrix(vectors_list):
+    print(vectors_list)
     for i, sent_vector in enumerate(vectors_list): 
         sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
+        # counts = Counter(sent_vector)
+        # for index, freq in counts.items():
+        #     sparse_vector[index] = freq/len(sent_vector)
+        print(sent_vector)
         for index in sent_vector:
+            print(index)
             auxList = sent_vector.tolist()
             freq = auxList.count(index)
             sparse_vector[index] = freq/len(sent_vector) # 1 # LATER TEST AND DOCUMENT PERFORMANCE IN WEIGHTED AND SIMPLE 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
-            matrix_array = numpy.concatenate((matrix_array, [sparse_vector]), axis=0)
+            #matrix_array = numpy.concatenate((matrix_array, [sparse_vector]), axis=0)
+            matrix_array.append(sparse_vector)
+    matrix_array = numpy.asarray(matrix_array)
     return matrix_array
 
 # Create sentences representation in numeric format, according to dictionary
 def create_vectors_list(sents):
-
-#for row_id,row in enumerate(sents_dev): # CAN I DELETE THIS? TEST IF THIS REPLACEMENT MAKES SENSE POSSIBLY
-#    row = re.sub("\n", " ", row)
-#    sents_dev[row_id] = row
     vectors_list = []
     for sent in sents:
-        sent_doc = nlp(sent)
-        sent_doc = sent_doc
+        sent_doc = clean_corpus(sent) 
+        sent_doc = nlp(sent_doc)
+        sent_doc = reconstruct_hyphenated_words(sent_doc)
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
         sent_tokens_list = []
         sent_vector = []
         for token in sent_doc:  
-            if token.text.lower() not in words_to_numbers:
+            if token.lower() not in words_to_numbers: 
                 sent_tokens_list.append("unk")
             else:
-                sent_tokens_list.append(token.text.lower())
+                sent_tokens_list.append(token.lower())
             sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
-        sent_vector = sent_vector.astype(int)
+        if len(sent_vector) > 0:
+            sent_vector = sent_vector.astype(int)
         vectors_list.append(sent_vector)
-        #print(sent, sent_vector) 
     return vectors_list
 
 ####
 # MAIN
 
-nlp = spacy.load('en_core_web_lg') 
+nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner', 'attribute_ruler', 'lemmatizer']) 
 
 # Preprocessing input 
 
-corpus = '\n'.join(sents_train)
-corpus = clean_corpus(corpus)
-corpus = re.sub("\n", " ", corpus) # Removing \n 
-corpus = re.sub("  ", " ", corpus)
+#print(sents_train)
+corpus = ' '.join(sents_train)
+corpus = clean_corpus(corpus) 
 train_doc = nlp(corpus)
 train_doc = reconstruct_hyphenated_words(train_doc)
 tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
-
 # FLAG: SHOULD I REMOVE STOPWORDS, LITTLE SQUARE, SMTH ELSE AS WELL? 
 # I THINK SO, BUT LET'S COUNT IT AN EXPERIMENT, SO REPORT THE MEASURES BEFORE MAKING THESE CHANGES
 
 word_freq = Counter(tokens)
+#print(word_freq)
+
+# FLAG - checked
 
 # Remove words less frequent than  2 (or equal?)
 corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
+#print(corpus_with_unk)
 
-#### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION
+#### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION 
+#  FLAG exclusion of all less or equal to 2 correctly - checked
 # COUNTING REJOINED TRAIN CORPUS x ORIGINAL SENTENCE TRAIN
 
 # Creating dictionary
@@ -97,20 +106,28 @@ for word in corpus_with_unk:
     number_representation += 1
 words_to_numbers["unk"] = number_representation
 
+#for i in words_to_numbers:
+#    print(i, words_to_numbers[i])
+print(len(words_to_numbers))
+
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
-#               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS
+#               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS -NOPE, FIXED
 # TO DO: count frequency again?
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
+# checked that it seems ok
 
-
+print(sents_train)
 train_vectors_list = create_vectors_list(sents_train)
 dev_vectors_list = create_vectors_list(sents_dev)
-
-#print(words_to_numbers)
+#quit()
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
 # FLAG - CHECK IF SENTENCE REPRESENTATIONS WERE DONE CORRECTLY
+
+#for sent in train_vectors_list:
+#    print(sent)
+#print(train_vectors_list)
 
 train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list)
 dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list)
@@ -125,7 +142,7 @@ dev_labels_primary = create_labels_array(labels_dev)
 # CLASSIFIER
 
 # Configurations
-adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
+adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) # provare 200, 300
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE
 

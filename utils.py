@@ -48,12 +48,13 @@ def reconstruct_noun_chunks(corpus,keywords):
 def clean_corpus(corpus):
     corpus = corpus.lower()
 
-    corpus = re.sub(" +", " ", corpus)
+    corpus = re.sub("\n", " ", corpus) # Removing \n 
     corpus = re.sub("(\s+\-)", r" - ", corpus)
     corpus = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", corpus)
     corpus = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", corpus)
-    corpus = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", corpus)
-    
+    corpus = re.sub("([()!,;:\.\?\[\]\|])", r" \1 ", corpus) # including : afterwards didnt change result
+    corpus = re.sub(" +", " ", corpus)
+
     return corpus
 
 # For both classifiers
@@ -64,14 +65,14 @@ def write_output_stats_file(path, name, ref_labels, pred_labels):
     #os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'a') as file:
         print(name,"set:\n", file=file)
-        print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 2), file=file)
-        print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 2), file=file)
-        print("Precision macro:",round( precision_score( ref_labels, pred_labels, average="macro"),2), file=file)
-        print("Recall micro:",round( recall_score( ref_labels, pred_labels, average="micro"),2), file=file)
-        print("Recall macro:",round( recall_score( ref_labels, pred_labels, average="macro"),2), file=file)
-        print("F1 Score micro:",round( f1_score( ref_labels, pred_labels, average="micro"),2), file=file)
-        print("F1 Score macro:",round( f1_score( ref_labels, pred_labels, average="macro"),2), file=file)
-        print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted"),2), file=file)
+        print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 3), file=file)
+        print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 3), file=file)
+        print("Precision macro:",round( precision_score( ref_labels, pred_labels, average="macro"),3), file=file)
+        print("Recall micro:",round( recall_score( ref_labels, pred_labels, average="micro"),3), file=file)
+        print("Recall macro:",round( recall_score( ref_labels, pred_labels, average="macro"),3), file=file)
+        print("F1 Score micro:",round( f1_score( ref_labels, pred_labels, average="micro"),3), file=file)
+        print("F1 Score macro:",round( f1_score( ref_labels, pred_labels, average="macro"),3), file=file)
+        print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted"),3), file=file)
         print("\n", file=file)
 
 # WRITE OUTPUT PREDICTIONS IN JSON FORMAT
