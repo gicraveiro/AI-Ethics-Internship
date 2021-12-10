@@ -50,6 +50,7 @@ def format_sentVector_to_SparseMatrix(vectors_list):
 
 # Create sentences representation in numeric format, according to dictionary
 def create_vectors_list(sents):
+    unk_count = 0
     vectors_list = []
     for sent in sents:
         sent_doc = clean_corpus(sent) 
@@ -61,12 +62,14 @@ def create_vectors_list(sents):
         for token in sent_doc:  
             if token.lower() not in words_to_numbers: 
                 sent_tokens_list.append("unk")
+                unk_count += 1
             else:
                 sent_tokens_list.append(token.lower())
             sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
         if len(sent_vector) > 0:
             sent_vector = sent_vector.astype(int)
         vectors_list.append(sent_vector)
+    print("Unk count:", unk_count)
     return vectors_list
 
 ####
@@ -108,7 +111,7 @@ words_to_numbers["unk"] = number_representation
 
 #for i in words_to_numbers:
 #    print(i, words_to_numbers[i])
-print(len(words_to_numbers))
+print("Length of the dictionary of word representations:",len(words_to_numbers))
 
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
 #               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS -NOPE, FIXED
@@ -119,7 +122,6 @@ print(len(words_to_numbers))
 #print(sents_train)
 train_vectors_list = create_vectors_list(sents_train)
 dev_vectors_list = create_vectors_list(sents_dev)
-#quit()
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
@@ -144,7 +146,7 @@ dev_labels_primary = create_labels_array(labels_dev)
 # Configurations
 adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) # provare 200, 300
 
-# FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE
+# FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
 # Training
 model = adaclassifier.fit(train_matrix_array, train_labels_primary)
