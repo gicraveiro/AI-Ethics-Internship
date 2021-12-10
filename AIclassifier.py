@@ -1,6 +1,6 @@
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn import metrics
-from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file
+from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
 from partition import sents_train, labels_train, sents_dev, labels_dev
 import re
 import spacy
@@ -160,11 +160,12 @@ predictions = model.predict(dev_matrix_array)
 # Confusion matrix
 dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
-metrics.ConfusionMatrixDisplay.from_predictions(dev_list,pred_list, normalize="true", labels=[1,3,5,4,2],display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']) # alphabetical order
-plt.xticks(rotation=45, ha="right")
-plt.subplots_adjust(bottom=0.4)
-#plt.show()
-plt.savefig('output/AI Classifier/1Label_confusion_matrix.jpg')
+labels=[1,3,5,4,2]
+path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
+display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
+create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
+create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 

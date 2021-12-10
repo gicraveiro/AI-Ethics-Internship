@@ -87,8 +87,8 @@ def write_predictions_file(name, pred_dict):
     with open('output/Simple Classifier/multilabelPredictions_'+name+'.json', 'w') as file:
         file.write(json.dumps(pred_dict, indent=4, ensure_ascii=False))
 
-def create_confusion_matrix(refs, preds, normalize, path):
-    ConfusionMatrixDisplay.from_predictions(refs,preds, normalize=normalize)
+def create_confusion_matrix(refs, preds, normalize, path, labels, display_labels):
+    ConfusionMatrixDisplay.from_predictions(refs,preds, normalize=normalize, labels=labels, display_labels=display_labels)
     plt.xticks(rotation=45, ha="right")
     plt.subplots_adjust(bottom=0.4)
     #plt.show()
