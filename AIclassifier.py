@@ -8,6 +8,7 @@ import numpy
 from collections import Counter 
 import matplotlib.pyplot as plt
 import os
+from nltk.corpus import stopwords
 
 # Transform labels list with names in label array with number representations
 def create_labels_array(labels_list):
@@ -48,7 +49,7 @@ def create_vectors_list(sents):
         sent_doc = clean_corpus(sent) 
         sent_doc = nlp(sent_doc)
         sent_doc = reconstruct_hyphenated_words(sent_doc)
-        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
         sent_tokens_list = []
         sent_vector = []
         for token in sent_doc:  
@@ -76,7 +77,7 @@ corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
 train_doc = nlp(corpus)
 train_doc = reconstruct_hyphenated_words(train_doc)
-tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
+tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()] 
 # FLAG: SHOULD I REMOVE STOPWORDS, LITTLE SQUARE, SMTH ELSE AS WELL? 
 # I THINK SO, BUT LET'S COUNT IT AN EXPERIMENT, SO REPORT THE MEASURES BEFORE MAKING THESE CHANGES
 
