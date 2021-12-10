@@ -1,9 +1,8 @@
 import json
 import os
 import re # regular expressions
-from sklearn.metrics import ConfusionMatrixDisplay
-import matplotlib.pyplot as plt
-from utils import write_output_stats_file, write_predictions_file
+
+from utils import write_output_stats_file, write_predictions_file, create_confusion_matrix
 
 MAX_N_SENTENCES = 100
 
@@ -49,12 +48,6 @@ def simple_classifier(sents_ref_json):
 
 
 
-def create_confusion_matrix(refs, preds,name, normalize):
-    ConfusionMatrixDisplay.from_predictions(refs,preds, normalize=normalize)
-    plt.xticks(rotation=45, ha="right")
-    plt.subplots_adjust(bottom=0.4)
-    #plt.show()
-    plt.savefig('output/Simple Classifier/1Label_confusion_matrix_'+name+'.jpg')
 
 
 #####
@@ -116,12 +109,18 @@ test_pred_first_label = [label[0] for label in test_pred_array]
 
 # FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL and aligned with the ones before -- CHECKED
 
-create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "TrainNormTrue", "true")
-create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "DevNormTrue", "true")
-create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "TestNormTrue", "true")
-create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "TrainNonNorm", None)
-create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "DevNonNorm", None)
-create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "TestNonNorm", None)
+path='output/Simple Classifier/1Label_confusion_matrix_TrainNormTrue.jpg'
+create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "true", path)
+path='output/Simple Classifier/1Label_confusion_matrix_DevNormTrue.jpg'
+create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "true", path)
+path='output/Simple Classifier/1Label_confusion_matrix_TestNormTrue.jpg'
+create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "true", path)
+path='output/Simple Classifier/1Label_confusion_matrix_TrainNonNorm.jpg'
+create_confusion_matrix(train_ref_primary_label, train_pred_first_label, None, path)
+path='output/Simple Classifier/1Label_confusion_matrix_DevNonNorm.jpg'
+create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, None, path)
+path='output/Simple Classifier/1Label_confusion_matrix_TestNonNorm.jpg'
+create_confusion_matrix(test_ref_primary_label, test_pred_first_label, None, path)
 
 # FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT - CHECKED
 

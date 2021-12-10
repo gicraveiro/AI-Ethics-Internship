@@ -3,6 +3,8 @@ import os
 from sklearn.metrics import precision_score, f1_score, recall_score, accuracy_score
 import json
 import numpy
+from sklearn.metrics import ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
 # reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
     i = 0
@@ -84,3 +86,10 @@ def write_predictions_file(name, pred_dict):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open('output/Simple Classifier/multilabelPredictions_'+name+'.json', 'w') as file:
         file.write(json.dumps(pred_dict, indent=4, ensure_ascii=False))
+
+def create_confusion_matrix(refs, preds, normalize, path):
+    ConfusionMatrixDisplay.from_predictions(refs,preds, normalize=normalize)
+    plt.xticks(rotation=45, ha="right")
+    plt.subplots_adjust(bottom=0.4)
+    #plt.show()
+    plt.savefig(path)
