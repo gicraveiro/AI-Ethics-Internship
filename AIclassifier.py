@@ -141,7 +141,7 @@ adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) # n_est 25,
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
 # Training
-model = adaclassifier.fit(train_matrix_array, train_labels_primary)
+model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 
 # Predicting
 predictions = model.predict(dev_matrix_array)
