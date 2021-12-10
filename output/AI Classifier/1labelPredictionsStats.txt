@@ -2,10 +2,7 @@ Performance measures
 
 Dev set:
 
-Accuracy: 0.429
-Precision micro: 0.429
 Precision macro: 0.403
-Recall micro: 0.429
 Recall macro: 0.308
 F1 Score micro: 0.429
 F1 Score macro: 0.326

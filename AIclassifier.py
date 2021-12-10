@@ -28,7 +28,7 @@ def create_labels_array(labels_list):
 
 # Create sparse matrixes that represent words present in each sentence, which is the appropriate format to feed the AI classifier
 def format_sentVector_to_SparseMatrix(vectors_list):
-    print(vectors_list)
+    #print(vectors_list)
     for i, sent_vector in enumerate(vectors_list): 
         sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
         counts = Counter(sent_vector)
@@ -116,7 +116,7 @@ print(len(words_to_numbers))
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-print(sents_train)
+#print(sents_train)
 train_vectors_list = create_vectors_list(sents_train)
 dev_vectors_list = create_vectors_list(sents_dev)
 #quit()

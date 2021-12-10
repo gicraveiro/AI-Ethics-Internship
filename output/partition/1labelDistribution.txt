@@ -2,37 +2,37 @@ Distribution of labels
 
 Total set
 
-Not applicable 0.49  (345/698)
-Related to privacy 0.15  (107/698)
-Commit to privacy 0.19  (134/698)
-Violate privacy 0.14  (95/698)
-Declare opinion about privacy 0.02  (17/698)
+Not applicable 0.494  (345/698)
+Related to privacy 0.153  (107/698)
+Commit to privacy 0.192  (134/698)
+Violate privacy 0.136  (95/698)
+Declare opinion about privacy 0.024  (17/698)
 
 
 Train set
 
-Not applicable 0.49  (276/558)
-Related to privacy 0.15  (85/558)
-Commit to privacy 0.19  (107/558)
-Violate privacy 0.14  (76/558)
-Declare opinion about privacy 0.03  (14/558)
+Not applicable 0.495  (276/558)
+Related to privacy 0.152  (85/558)
+Commit to privacy 0.192  (107/558)
+Violate privacy 0.136  (76/558)
+Declare opinion about privacy 0.025  (14/558)
 
 
 Dev set
 
-Declare opinion about privacy 0.03  (2/70)
+Declare opinion about privacy 0.029  (2/70)
 Not applicable 0.5  (35/70)
-Related to privacy 0.16  (11/70)
-Commit to privacy 0.19  (13/70)
-Violate privacy 0.13  (9/70)
+Related to privacy 0.157  (11/70)
+Commit to privacy 0.186  (13/70)
+Violate privacy 0.129  (9/70)
 
 
 Test set
 
-Violate privacy 0.14  (10/70)
-Not applicable 0.49  (34/70)
+Violate privacy 0.143  (10/70)
+Not applicable 0.486  (34/70)
 Commit to privacy 0.2  (14/70)
-Related to privacy 0.16  (11/70)
-Declare opinion about privacy 0.01  (1/70)
+Related to privacy 0.157  (11/70)
+Declare opinion about privacy 0.014  (1/70)
 
 

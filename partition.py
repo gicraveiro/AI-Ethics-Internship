@@ -48,20 +48,24 @@ def print_partition_distribution(name, count, sum):
         print(round(float(distr_value)/float(total_value)*100,2),'\n')
 
 def plot_distribution(counter, name, type):    
+    total = sum(counter.values())
+    counter = counter.most_common()
+    values = [float(item[1]) for item in counter]
+    keys = [str(item[0]) for item in counter]
     plt.clf() # cleans previous graphs
     x_pos = numpy.arange(len(counter)) # sets number of bars
-    plt.bar(x_pos, counter.values(),align='center')
-    plt.xticks(x_pos, counter.keys(), rotation=45, ha="right") # sets labels of bars and their positions
+    plt.bar(x_pos, values,align='center')
+    plt.xticks(x_pos, keys, rotation=45, ha="right") # sets labels of bars and their positions
     plt.subplots_adjust(bottom=0.45, left=0.25) # creates space for complete label names
-    for i, value in enumerate(counter.values()):
-        plt.text(i,value,str(value))
-    plt.ylim((0,counter.most_common()[0][1]+counter.most_common()[2][1]))
+    for i, item in enumerate(values):
+        plt.text(i,item,str(round((item*100/total),1)))
+    plt.ylim((0,values[0]+values[2]))
     #plt.show()
     plt.savefig('output/partition/'+type+'_distribution_'+name+'.jpg')
     return 
 
 def calculate_distribution(label_count, total):
-    return round(label_count/total, 2)
+    return round(label_count/total, 3)
 
 def write_distribution(path,counter,name):
     total = sum(counter.values())
