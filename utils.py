@@ -2,7 +2,7 @@ import re
 import os
 from sklearn.metrics import precision_score, f1_score, recall_score, accuracy_score
 import json
-
+import numpy
 # reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
     i = 0
@@ -68,11 +68,14 @@ def write_output_stats_file(path, name, ref_labels, pred_labels):
         #print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 3), file=file)
         #print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 3), file=file)
         print("Precision macro:",round( precision_score( ref_labels, pred_labels, average="macro"),3), file=file)
+        print("Precision Individually:", numpy.round (precision_score( ref_labels, pred_labels, average=None),3), file=file)
         #print("Recall micro:",round( recall_score( ref_labels, pred_labels, average="micro"),3), file=file)
         print("Recall macro:",round( recall_score( ref_labels, pred_labels, average="macro"),3), file=file)
+        print("Recall Individually:", numpy.round(recall_score( ref_labels, pred_labels, average=None),3), file=file)
         print("F1 Score micro:",round( f1_score( ref_labels, pred_labels, average="micro"),3), file=file)
         print("F1 Score macro:",round( f1_score( ref_labels, pred_labels, average="macro"),3), file=file)
         print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted"),3), file=file)
+        print("F1 Score Individually:", numpy.round(f1_score(ref_labels, pred_labels, average=None),3), file=file)
         print("\n", file=file)
 
 # WRITE OUTPUT PREDICTIONS IN JSON FORMAT
