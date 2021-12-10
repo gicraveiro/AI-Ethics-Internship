@@ -147,6 +147,7 @@ adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) # n_est 25,
 model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 
 # Predicting
+#predictions = model.predict(dev_matrix_array)
 predictions = model.predict(test_matrix_array)
 
 # casually printing results
@@ -156,24 +157,28 @@ predictions = model.predict(test_matrix_array)
 
 # Confusion matrix
 test_list = test_labels_primary.tolist()
+#dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
+#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
 create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
+#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
 create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 
 # HELP - Predictions are changing... - confusion matrix, and measures - NOT ANYMORE :D
 
+#path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures\n", file=file)
-write_output_stats_file(path, "Test", test_labels_primary, predictions, display_labels)
-#write_output_stats_file('output/Simple Classifier/1labelPredictionsStats_Test.txt', "Test", test_ref_primary_label, test_pred_first_label)
+#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
