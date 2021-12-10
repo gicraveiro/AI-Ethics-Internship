@@ -49,7 +49,7 @@ def create_vectors_list(sents):
         sent_doc = clean_corpus(sent) 
         sent_doc = nlp(sent_doc)
         sent_doc = reconstruct_hyphenated_words(sent_doc)
-        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()]
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()]
         sent_tokens_list = []
         sent_vector = []
         for token in sent_doc:  
@@ -77,9 +77,8 @@ corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
 train_doc = nlp(corpus)
 train_doc = reconstruct_hyphenated_words(train_doc)
-tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()] 
-# FLAG: SHOULD I REMOVE STOPWORDS, LITTLE SQUARE, SMTH ELSE AS WELL? 
-# I THINK SO, BUT LET'S COUNT IT AN EXPERIMENT, SO REPORT THE MEASURES BEFORE MAKING THESE CHANGES
+tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
+# FLAG: As extra parameters think of removing  LITTLE SQUARE, SMTH ELSE AS WELL? 
 
 word_freq = Counter(tokens)
 #print(word_freq)
@@ -137,7 +136,7 @@ dev_labels_primary = create_labels_array(labels_dev)
 # CLASSIFIER
 
 # Configurations
-adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) # provare 200, 300
+adaclassifier = AdaBoostClassifier(n_estimators=200, learning_rate=1) # provare 200, 300
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
