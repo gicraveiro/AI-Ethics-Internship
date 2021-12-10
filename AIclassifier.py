@@ -28,22 +28,14 @@ def create_labels_array(labels_list):
 
 # Create sparse matrixes that represent words present in each sentence, which is the appropriate format to feed the AI classifier
 def format_sentVector_to_SparseMatrix(vectors_list):
-    #print(vectors_list)
     for i, sent_vector in enumerate(vectors_list): 
         sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
         counts = Counter(sent_vector)
         for index, freq in counts.items():
-            sparse_vector[index] = freq/len(sent_vector)
-        # print(sent_vector)
-        # for index in sent_vector:
-        #     print(index)
-        #     auxList = sent_vector.tolist()
-        #     freq = auxList.count(index)
-        #     sparse_vector[index] = freq/len(sent_vector) # 1 # LATER TEST AND DOCUMENT PERFORMANCE IN WEIGHTED AND SIMPLE 1
+            sparse_vector[index] = 1 # freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
-            #matrix_array = numpy.concatenate((matrix_array, [sparse_vector]), axis=0)
             matrix_array.append(sparse_vector)
     matrix_array = numpy.asarray(matrix_array)
     return matrix_array
