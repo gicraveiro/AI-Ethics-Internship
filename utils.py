@@ -63,7 +63,7 @@ def clean_corpus(corpus):
 # For both classifiers
 
 # WRITE OUTPUT STATISTICS FILE
-def write_output_stats_file(path, name, ref_labels, pred_labels):
+def write_output_stats_file(path, name, ref_labels, pred_labels, labels):
     #path = 'output/Simple Classifier/1labelPredictionsStats_'+name+'.txt'
     #os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'a') as file:
@@ -71,14 +71,14 @@ def write_output_stats_file(path, name, ref_labels, pred_labels):
         #print("Accuracy:",round( accuracy_score( ref_labels, pred_labels), 3), file=file)
         #print("Precision micro:",round( precision_score( ref_labels, pred_labels, average="micro"), 3), file=file)
         print("Precision macro:",round( precision_score( ref_labels, pred_labels, average="macro"),3), file=file)
-        print("Precision Individually:", numpy.round (precision_score( ref_labels, pred_labels, average=None),3), file=file)
+        print("Precision Individually:", numpy.round (precision_score( ref_labels, pred_labels, average=None, labels=labels),3), file=file)
         #print("Recall micro:",round( recall_score( ref_labels, pred_labels, average="micro"),3), file=file)
         print("Recall macro:",round( recall_score( ref_labels, pred_labels, average="macro"),3), file=file)
-        print("Recall Individually:", numpy.round(recall_score( ref_labels, pred_labels, average=None),3), file=file)
+        print("Recall Individually:", numpy.round(recall_score( ref_labels, pred_labels, average=None, labels=labels),3), file=file)
         print("F1 Score micro:",round( f1_score( ref_labels, pred_labels, average="micro"),3), file=file)
         print("F1 Score macro:",round( f1_score( ref_labels, pred_labels, average="macro"),3), file=file)
-        print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted"),3), file=file)
-        print("F1 Score Individually:", numpy.round(f1_score(ref_labels, pred_labels, average=None),3), file=file)
+        print("F1 Score weighted:",round( f1_score(ref_labels, pred_labels, average="weighted", ),3), file=file)
+        print("F1 Score Individually:", numpy.round(f1_score(ref_labels, pred_labels, average=None, labels=labels),3), file=file)
         print("\n", file=file)
 
 # WRITE OUTPUT PREDICTIONS IN JSON FORMAT
