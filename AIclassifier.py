@@ -136,7 +136,7 @@ dev_labels_primary = create_labels_array(labels_dev)
 # CLASSIFIER
 
 # Configurations
-adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
+adaclassifier = AdaBoostClassifier(n_estimators=300, learning_rate=0.9) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
