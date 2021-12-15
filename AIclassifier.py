@@ -148,20 +148,21 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
 # Choosing best hyperparameters
-#params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learning_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
-#classifier = GridSearchCV(adaclassifier, params)
+params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learning_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
+classifier = GridSearchCV(adaclassifier, params)
 
 
 # Training
-model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
-#classifier.fit(train_matrix_array, train_labels_primary) 
+#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+classifier.fit(train_matrix_array, train_labels_primary) 
 #print(classifier.best_params_)
 # DECISION TREE, WRONG FUNCTION, DELETE IT
 #decision = adaclassifier.decision_function(train_matrix_array)
 #print(decision)
 
 # Predicting
-predictions = model.predict(test_matrix_array)
+#predictions = model.predict(dev_matrix_array)
+predictions = classifier.predict(dev_matrix_array)
 #predictions = classifier.predict(test_matrix_array)
 
 # casually printing results
@@ -176,21 +177,21 @@ pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 
-#path='output/AI Classifier/1labelPredictionsStatsDev.txt'
-path='output/AI Classifier/1labelPredictionsStatsTest.txt'
+path='output/AI Classifier/1labelPredictionsStatsDev.txt'
+#path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures\n", file=file)
-#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
@@ -261,7 +262,7 @@ write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 # TEST 2
 #"for loop"
 
-# gridsearchCV
+# gridsearchCV  ---- lr 0.5, n estimators 1
 # TEST 3
 
 # features importance
