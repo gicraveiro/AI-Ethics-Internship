@@ -50,15 +50,18 @@ def create_vectors_list(sents):
         sent_doc = nlp(sent_doc)
         sent_doc = reconstruct_hyphenated_words(sent_doc)
         sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()]
+        # token i and token i+1
         sent_tokens_list = []
         sent_vector = []
         for token in sent_doc:  
             if token.lower() not in words_to_numbers: 
-                sent_tokens_list.append("unk")
+                #sent_tokens_list.append("unk")
                 unk_count += 1
+                #print(token.lower())
             else:
                 sent_tokens_list.append(token.lower())
-            sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
+                #print(token.lower())
+                sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
         if len(sent_vector) > 0:
             sent_vector = sent_vector.astype(int)
         vectors_list.append(sent_vector)
@@ -146,9 +149,13 @@ adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) # n_est 25,
 # Training
 model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 
+# DECISION TREE, WRONG FUNCTION, DELETE IT
+#decision = adaclassifier.decision_function(train_matrix_array)
+#print(decision)
+
 # Predicting
-#predictions = model.predict(dev_matrix_array)
-predictions = model.predict(test_matrix_array)
+predictions = model.predict(dev_matrix_array)
+#predictions = model.predict(test_matrix_array)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
@@ -157,16 +164,16 @@ predictions = model.predict(test_matrix_array)
 
 # Confusion matrix
 test_list = test_labels_primary.tolist()
-#dev_list = dev_labels_primary.tolist()
+dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 
@@ -177,14 +184,14 @@ path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures\n", file=file)
-#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
 #write_predictions_file("Test", test_pred_dict)
 # FLAG - CHECK IF THESE ARE THE RIGHT MEASURES, CALCULATED CORRECTLY AND ROUNDED CORRECTLY
-# UPLOAD RESULTS IN A DOCUMENT THAT GABRIEL CAN CHECK
+
 
 # MAKE SURE THAT RESULTS MAKE SENSE, OTHERWISE MAYBE THERE'S A LOST MISTAKE
 
@@ -241,3 +248,32 @@ write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # First accuracy without weight: 0.47
 # First accuracy weighted: 0.43
+
+
+# TEST 1
+# discard unknown
+
+# TEST 2
+#"for loop"
+
+# gridsearchCV
+# TEST 3
+
+# features importance
+# order from highest
+# 10 % from the greater than zero
+# save them
+
+# evaluate
+# ----
+ # TEST 4
+# remake it with bigrams (sets of 2 adjacent tokens)
+# decrease frequency to 1
+
+# TEST 5
+# create a joint model with 2 - 10% best
+
+# TEST 6
+# INSTEAD OF ADABOOST , LINEAR REGRESSION, NAIVE BAYES
+
+
