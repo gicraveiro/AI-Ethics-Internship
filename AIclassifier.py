@@ -1,12 +1,12 @@
 from sklearn.ensemble import AdaBoostClassifier
-from sklearn import metrics
+from sklearn.model_selection import GridSearchCV
+#from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
 from partition import sents_train, labels_train, sents_dev, labels_dev, sents_test, labels_test
-import re
 import spacy
 import numpy
 from collections import Counter 
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import os
 from nltk.corpus import stopwords
 
@@ -55,16 +55,17 @@ def create_vectors_list(sents):
         sent_vector = []
         for token in sent_doc:  
             if token.lower() not in words_to_numbers: 
-                #sent_tokens_list.append("unk")
+                sent_tokens_list.append("unk")
                 unk_count += 1
                 #print(token.lower())
             else:
                 sent_tokens_list.append(token.lower())
                 #print(token.lower())
-                sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
+            sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
         if len(sent_vector) > 0:
             sent_vector = sent_vector.astype(int)
         vectors_list.append(sent_vector)
+        print(sent_vector)
     print("Unk count:", unk_count)
     return vectors_list
 
@@ -142,20 +143,26 @@ test_labels_primary = create_labels_array(labels_test)
 # CLASSIFIER
 
 # Configurations
-adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
+adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
+# Choosing best hyperparameters
+#params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learning_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
+#classifier = GridSearchCV(adaclassifier, params)
+
+
 # Training
 model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
-
+#classifier.fit(train_matrix_array, train_labels_primary) 
+#print(classifier.best_params_)
 # DECISION TREE, WRONG FUNCTION, DELETE IT
 #decision = adaclassifier.decision_function(train_matrix_array)
 #print(decision)
 
 # Predicting
-predictions = model.predict(dev_matrix_array)
-#predictions = model.predict(test_matrix_array)
+predictions = model.predict(test_matrix_array)
+#predictions = classifier.predict(test_matrix_array)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
@@ -169,23 +176,21 @@ pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-
-# HELP - Predictions are changing... - confusion matrix, and measures - NOT ANYMORE :D
 
 #path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures\n", file=file)
-write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
@@ -251,7 +256,7 @@ write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 
 
 # TEST 1
-# discard unknown
+# discard unknown - no difference
 
 # TEST 2
 #"for loop"
