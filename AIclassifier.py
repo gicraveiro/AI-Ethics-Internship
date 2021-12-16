@@ -47,6 +47,7 @@ def create_vectors_list(sents, conversion_dict):
     unk_count = 0
     vectors_list = []
     sent_bigrams_vector = []
+    sent_mixed_vector = []
     
     for sent in sents:
         sent_doc = clean_corpus(sent) 
@@ -57,33 +58,40 @@ def create_vectors_list(sents, conversion_dict):
         sent_bigram = []
         for i in range(0, (len(sent_doc)-1)):
             sent_bigram.append(sent_doc[i].lower()+" "+sent_doc[i+1].lower())
-        print(sent_bigram)
+        #print(sent_bigram)
         sent_tokens_list = []
         sent_bigrams_list = []
         sent_vector = []
-        #for token in sent_doc:  
-        #    if token.lower() not in conversion_dict: 
-        #        sent_tokens_list.append("unk")
-        #        unk_count += 1
-        #    else:
-        #        sent_tokens_list.append(token.lower())
-        #    sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]])
-        #    if len(sent_vector) > 0:
-        #        sent_vector = sent_vector.astype(int)
+        #print(sent_doc)
+        #print(sent_bigram)
+        for token in sent_doc:  
+            if token.lower() not in conversion_dict: 
+                #sent_tokens_list.append("unk")
+                #unk_count += 1
+                pass
+            else:
+                print(token)
+                sent_tokens_list.append(token.lower())
+                sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # remove one tab to go back to considering unk 
+            if len(sent_vector) > 0:
+                sent_vector = sent_vector.astype(int)
+        #print("sent vector token:",sent_vector)
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
                 #sent_bigrams_list.append("unk")
                 #sent_bigrams_list = numpy.append(sent_bigrams_vector, "unk")
                 pass
             else:
+                print(bigram)
                 sent_bigrams_list = numpy.append(sent_bigrams_list, conversion_dict[bigram])
                 sent_bigrams_list = sent_bigrams_list.astype(int)
                 #sent_bigrams_list.append(bigram)
             #sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
             #if len(sent_bigrams_list) > 0:
             #    sent_bigrams_list = sent_bigrams_list.astype(int)
-        #vectors_list.append(sent_vector)
-        print(sent_bigrams_vector)
+        #print("bigram", sent_bigrams_list)
+        vectors_list.append(sent_vector)
+        #print(sent_bigrams_vector)
         #print(sent_vector)
         #print(sent_bigram)
          
@@ -91,9 +99,18 @@ def create_vectors_list(sents, conversion_dict):
 	        #sent_bigram.append(element) #for bigram in sent_bigram:  
         #print(sent_bigram)
         sent_bigrams_vector.append(sent_bigrams_list)
+        if(len(sent_vector) > 0 and len(sent_bigrams_list) > 0):
+            sent_mixed_vector.append(numpy.concatenate([sent_vector,sent_bigrams_list]))
+        elif(len(sent_vector) > 0):
+            sent_mixed_vector.append(sent_vector)
+        else:
+            sent_mixed_vector.append(sent_bigrams_list)
+        
     #print("Unk count:", unk_count)
     #return vectors_list
-    return sent_bigrams_vector
+    #return sent_bigrams_vector
+    #print(sent_mixed_vector)
+    return sent_mixed_vector
 
 ####
 # MAIN
@@ -143,6 +160,22 @@ for bigram in bigrams_corpus_list:
 
 print(bigrams_to_numbers)
 
+# Mixed dictionary
+mixed_to_numbers = {}
+number_representation = 0
+mixed_corpus_list = []
+with open('features.txt', 'r') as file:
+    features_list = file.read()
+features_list = features_list.split('\n')
+print(features_list)
+
+for mixed in features_list:
+    mixed_to_numbers[mixed] = number_representation
+    number_representation += 1
+
+print(mixed_to_numbers)
+
+
 #for i in words_to_numbers:
 #    print(i, words_to_numbers[i])
 print("Length of the dictionary of word representations:",len(words_to_numbers))
@@ -157,9 +190,13 @@ print("Length of the dictionary of word representations:",len(words_to_numbers))
 #dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
 #test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
-train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
+#train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
+
+train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
@@ -189,7 +226,7 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
 # Choosing best hyperparameters
-#params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learning_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
+#params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learnsent_mixed.append()ing_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
 #classifier = GridSearchCV(adaclassifier, params)
 
 #print(train_vectors_list)
@@ -216,14 +253,14 @@ importances = model.feature_importances_
 #print(sorted(importances))
 
 features = {}
-for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
+for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
     if (value != 0):
 	    #print('Feature:',token,'Score:',value)
         features[token] = value
 features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
 #print(features)
-for feature in features:
-    print('Feature:',feature[1],'Score:',feature[0])
+#for feature in features:
+#    print('Feature:',feature[1],'Score:',feature[0])
 
 
 # DECISION TREE, WRONG FUNCTION, DELETE IT
@@ -245,23 +282,24 @@ test_list = test_labels_primary.tolist()
 dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
-#path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
-#display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
+display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
+create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
 #create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
-#path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
+create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
 #create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 
+path='output/AI Classifier/1labelPredictionsStatsMixed.txt'
 #path='output/AI Classifier/1labelPredictionsStatsBigram.txt'
 #path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsTest.txt'
-#os.makedirs(os.path.dirname(path), exist_ok=True)
-#with open(path, 'w') as file:
-#    print("Performance measures\n", file=file)
-#write_output_stats_file(path, "Bigram", dev_labels_primary, predictions, labels)
+os.makedirs(os.path.dirname(path), exist_ok=True)
+with open(path, 'w') as file:
+    print("Performance measures\n", file=file)
+write_output_stats_file(path, "Mixed", dev_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 

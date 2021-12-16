@@ -1,105 +1,23 @@
-
-Tokens
-Important features
-
-Feature: we Score: 0.01
-Feature: cookies Score: 0.01
-Feature: you Score: 0.01
-Feature: the Score: 0.01
-Feature: right Score: 0.07
-Feature: your Score: 0.01
-Feature: data Score: 0.01
-Feature: or Score: 0.01
-Feature: is Score: 0.01
-Feature: information Score: 0.01
-Feature: privacy Score: 0.14
-Feature: they Score: 0.01
-Feature: learn Score: 0.01
-Feature: people Score: 0.04
-Feature: safe Score: 0.02
-Feature: secure Score: 0.14
-Feature: community Score: 0.12
-Feature: possible Score: 0.1
-Feature: should Score: 0.09
-Feature: believe Score: 0.09
-Feature: express Score: 0.08
-
-
-Feature: use cookies Score: 0.08
-Feature: things like Score: 0.03
-Feature: for example Score: 0.03
-Feature: cookies to Score: 0.03
-Feature: these terms Score: 0.02
-Feature: service providers Score: 0.02
-Feature: public interest Score: 0.02
-Feature: of your Score: 0.02
-Feature: learn more Score: 0.02
-Feature: law enforcement Score: 0.02
-Feature: how we Score: 0.02
-Feature: can use Score: 0.02
-Feature: by using Score: 0.02
-Feature: ▪ internet Score: 0.01
-Feature: िह � Score: 0.01
-Feature: your data Score: 0.01
-Feature: while participating Score: 0.01
-Feature: websites apps Score: 0.01
-Feature: web browser Score: 0.01
-Feature: video calling Score: 0.01
-Feature: united states Score: 0.01
-Feature: tool allows Score: 0.01
-Feature: to prevent Score: 0.01
-Feature: this includes Score: 0.01
-Feature: they even Score: 0.01
-Feature: the same Score: 0.01
-Feature: that a Score: 0.01
-Feature: technical limitations Score: 0.01
-Feature: similar technologies Score: 0.01
-Feature: sign up Score: 0.01
-Feature: share content Score: 0.01
-Feature: safety integrity Score: 0.01
-Feature: prior permission Score: 0.01
-Feature: pixel tags Score: 0.01
-Feature: pay us Score: 0.01
-Feature: pages videos Score: 0.01
-Feature: p r Score: 0.01
-Feature: other 1 Score: 0.01
-Feature: operating system Score: 0.01
-Feature: no longer Score: 0.01
-Feature: n g Score: 0.01
-Feature: messages restricted Score: 0.01
-Feature: local fundraisers Score: 0.01
-Feature: lite watch Score: 0.01
-Feature: like give Score: 0.01
-Feature: legitimate interests Score: 0.01
-Feature: italiano română Score: 0.01
-Feature: ireland ltd Score: 0.01
-Feature: ios 13 Score: 0.01
-Feature: https //about Score: 0.01
-Feature: help center Score: 0.01
-Feature: have about Score: 0.01
-Feature: good-faith belief Score: 0.01
-Feature: globally both Score: 0.01
-Feature: face recognition Score: 0.01
-Feature: express themselves Score: 0.01
-Feature: e l Score: 0.01
-Feature: diﬀerent devices Score: 0.01
-Feature: covid-19 support Score: 0.01
-Feature: consistent experience Score: 0.01
-Feature: conducting surveys Score: 0.01
-Feature: competent court Score: 0.01
-Feature: camera so Score: 0.01
-Feature: brand resources Score: 0.01
-Feature: best practices Score: 0.01
-Feature: automatically process Score: 0.01
-Feature: assets changes Score: 0.01
-Feature: as described Score: 0.01
-Feature: are performing Score: 0.01
-Feature: apply when Score: 0.01
-Feature: ai ethics Score: 0.01
-Feature: advertisers who Score: 0.01
-Feature: active status Score: 0.01
-Feature: a b Score: 0.01
-Feature: 23 june Score: 0.01
-Feature: 20/09/2021 14 Score: 0.01
-Feature: //opensource fb Score: 0.01
-Feature: 're visiting Score: 0.01
+right
+privacy
+people
+safe
+secure
+community
+possible
+should
+believe
+express
+use cookies
+things like
+for example
+cookies to
+these terms
+service providers
+public interest
+of your
+learn more
+law enforcement
+how we
+can use
+by using
