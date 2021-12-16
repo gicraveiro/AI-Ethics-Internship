@@ -164,7 +164,8 @@ print(bigrams_to_numbers)
 mixed_to_numbers = {}
 number_representation = 0
 mixed_corpus_list = []
-with open('features.txt', 'r') as file:
+with open('aux.txt', 'r') as file:
+#with open('features.txt', 'r') as file:
     features_list = file.read()
 features_list = features_list.split('\n')
 print(features_list)
@@ -393,3 +394,5 @@ write_output_stats_file(path, "Mixed", dev_labels_primary, predictions, labels)
 # INSTEAD OF ADABOOST , LINEAR REGRESSION, NAIVE BAYES
 
 
+
+# SUGGEST DIFFERENT PARTITION PERCENTAGE!!

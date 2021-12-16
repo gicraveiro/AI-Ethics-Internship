@@ -2,13 +2,13 @@ Performance measures
 
 Mixed set:
 
-Precision macro: 0.194
-Precision Individually: [0.    0.    0.54  0.    0.429]
-Recall macro: 0.261
-Recall Individually: [0.    0.    0.971 0.    0.333]
-F1 Score micro: 0.529
-F1 Score macro: 0.214
-F1 Score weighted: 0.395
-F1 Score Individually: [0.    0.    0.694 0.    0.375]
+Precision macro: 0.346
+Precision Individually: [0.5   0.    0.696 0.2   0.333]
+Recall macro: 0.345
+Recall Individually: [0.385 0.    0.914 0.091 0.333]
+F1 Score micro: 0.586
+F1 Score macro: 0.337
+F1 Score weighted: 0.538
+F1 Score Individually: [0.435 0.    0.79  0.125 0.333]
 
 
