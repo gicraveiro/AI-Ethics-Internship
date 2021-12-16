@@ -1,5 +1,6 @@
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
+
 #from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
 from partition import sents_train, labels_train, sents_dev, labels_dev, sents_test, labels_test
@@ -42,32 +43,57 @@ def format_sentVector_to_SparseMatrix(vectors_list):
     return matrix_array
 
 # Create sentences representation in numeric format, according to dictionary
-def create_vectors_list(sents):
+def create_vectors_list(sents, conversion_dict):
     unk_count = 0
     vectors_list = []
+    sent_bigrams_vector = []
+    
     for sent in sents:
         sent_doc = clean_corpus(sent) 
         sent_doc = nlp(sent_doc)
         sent_doc = reconstruct_hyphenated_words(sent_doc)
-        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()]
-        # token i and token i+1
+        #sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()]
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+        sent_bigram = []
+        for i in range(0, (len(sent_doc)-1)):
+            sent_bigram.append(sent_doc[i].lower()+" "+sent_doc[i+1].lower())
+        print(sent_bigram)
         sent_tokens_list = []
+        sent_bigrams_list = []
         sent_vector = []
-        for token in sent_doc:  
-            if token.lower() not in words_to_numbers: 
-                sent_tokens_list.append("unk")
-                unk_count += 1
-                #print(token.lower())
+        #for token in sent_doc:  
+        #    if token.lower() not in conversion_dict: 
+        #        sent_tokens_list.append("unk")
+        #        unk_count += 1
+        #    else:
+        #        sent_tokens_list.append(token.lower())
+        #    sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]])
+        #    if len(sent_vector) > 0:
+        #        sent_vector = sent_vector.astype(int)
+        for bigram in sent_bigram:
+            if bigram not in conversion_dict:
+                #sent_bigrams_list.append("unk")
+                #sent_bigrams_list = numpy.append(sent_bigrams_vector, "unk")
+                pass
             else:
-                sent_tokens_list.append(token.lower())
-                #print(token.lower())
-            sent_vector = numpy.append(sent_vector, words_to_numbers[sent_tokens_list[-1]])
-        if len(sent_vector) > 0:
-            sent_vector = sent_vector.astype(int)
-        vectors_list.append(sent_vector)
-        print(sent_vector)
-    print("Unk count:", unk_count)
-    return vectors_list
+                sent_bigrams_list = numpy.append(sent_bigrams_list, conversion_dict[bigram])
+                sent_bigrams_list = sent_bigrams_list.astype(int)
+                #sent_bigrams_list.append(bigram)
+            #sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
+            #if len(sent_bigrams_list) > 0:
+            #    sent_bigrams_list = sent_bigrams_list.astype(int)
+        #vectors_list.append(sent_vector)
+        print(sent_bigrams_vector)
+        #print(sent_vector)
+        #print(sent_bigram)
+         
+            #element = (sent_tokens_list[i], sent_tokens_list[i+1])
+	        #sent_bigram.append(element) #for bigram in sent_bigram:  
+        #print(sent_bigram)
+        sent_bigrams_vector.append(sent_bigrams_list)
+    #print("Unk count:", unk_count)
+    #return vectors_list
+    return sent_bigrams_vector
 
 ####
 # MAIN
@@ -90,7 +116,7 @@ word_freq = Counter(tokens)
 # FLAG - checked
 
 # Remove words less frequent than  2 (or equal?)
-corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
+corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 1] # < 2 or <= 2
 #print(corpus_with_unk)
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION 
@@ -100,10 +126,22 @@ corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # 
 # Creating dictionary
 words_to_numbers = {}
 number_representation = 0
-for word in corpus_with_unk:
-    words_to_numbers[word] = number_representation
+for token in corpus_with_unk:
+    words_to_numbers[token] = number_representation
     number_representation += 1
 words_to_numbers["unk"] = number_representation
+
+# Bigram disctionary
+bigrams_to_numbers = {}
+number_representation = 0
+bigrams_corpus_list = []
+for i in range(0,len(corpus_with_unk)-1):
+    bigrams_corpus_list.append(corpus_with_unk[i]+" "+corpus_with_unk[i+1]) 
+for bigram in bigrams_corpus_list:
+    bigrams_to_numbers[bigram] = number_representation
+    number_representation += 1
+
+print(bigrams_to_numbers)
 
 #for i in words_to_numbers:
 #    print(i, words_to_numbers[i])
@@ -115,10 +153,13 @@ print("Length of the dictionary of word representations:",len(words_to_numbers))
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-#print(sents_train)
-train_vectors_list = create_vectors_list(sents_train)
-dev_vectors_list = create_vectors_list(sents_dev)
-test_vectors_list = create_vectors_list(sents_test)
+#train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+
+train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
@@ -148,21 +189,50 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
 # Choosing best hyperparameters
-params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learning_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
-classifier = GridSearchCV(adaclassifier, params)
+#params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learning_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
+#classifier = GridSearchCV(adaclassifier, params)
 
+#print(train_vectors_list)
+#print(train_labels_primary)
+#print(type(train_vectors_list))
+#print(type(train_labels_primary))
+#print(train_labels_primary.shape)
+#print(train_vectors_list.shape)
 
 # Training
-#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
-classifier.fit(train_matrix_array, train_labels_primary) 
+model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+#model_b = adaclassifier.fit(train_vectors_list, train_labels_primary) 
+#classifier.fit(train_matrix_array, train_labels_primary) 
 #print(classifier.best_params_)
+
+importances = model.feature_importances_
+#importances = model_b.feature_importances_
+
+#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+#    if (value != 0):
+#	    print('Feature:',token,'Score:',value)
+
+#print(type(importances))
+#print(sorted(importances))
+
+features = {}
+for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
+    if (value != 0):
+	    #print('Feature:',token,'Score:',value)
+        features[token] = value
+features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
+#print(features)
+for feature in features:
+    print('Feature:',feature[1],'Score:',feature[0])
+
+
 # DECISION TREE, WRONG FUNCTION, DELETE IT
 #decision = adaclassifier.decision_function(train_matrix_array)
 #print(decision)
 
 # Predicting
-#predictions = model.predict(dev_matrix_array)
-predictions = classifier.predict(dev_matrix_array)
+predictions = model.predict(dev_matrix_array)
+#predictions = classifier.predict(dev_matrix_array)
 #predictions = classifier.predict(test_matrix_array)
 
 # casually printing results
@@ -175,22 +245,24 @@ test_list = test_labels_primary.tolist()
 dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
-path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
-display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+#path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
+#display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
+#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
 #create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
-path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+#path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
+#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
 #create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 
-path='output/AI Classifier/1labelPredictionsStatsDev.txt'
+#path='output/AI Classifier/1labelPredictionsStatsBigram.txt'
+#path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsTest.txt'
-os.makedirs(os.path.dirname(path), exist_ok=True)
-with open(path, 'w') as file:
-    print("Performance measures\n", file=file)
-write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+#os.makedirs(os.path.dirname(path), exist_ok=True)
+#with open(path, 'w') as file:
+#    print("Performance measures\n", file=file)
+#write_output_stats_file(path, "Bigram", dev_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))

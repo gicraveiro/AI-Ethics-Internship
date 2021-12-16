@@ -44,9 +44,12 @@ SAMPLE_SPREADSHEET_ID = '1trg0bot87WtOALsxiiEIVYX6VW6mIBr90GrsY-t2jRw'
 service = build('sheets', 'v4', credentials=creds)
 sheet = service.spreadsheets()
 
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_lg') # TRY REPRODUCING WITH SM
+print ("Pipeline:", nlp. pipe_names) 
+nlp.enable_pipe("parser")
+print ("Pipeline:", nlp. pipe_names) 
 
-path='Facebook/Privacy/TargetCompanySourced' # TO ADD DIFFERENT DOCUMENTS, REMOVE PART AFTER LAST /
+path='Privacy/Facebook/TargetCompanySourced' # TO ADD DIFFERENT DOCUMENTS, REMOVE PART AFTER LAST /
 source='TargetCompanySourced'
 
 process_document('DataPolicy', path, source, sheet, SAMPLE_SPREADSHEET_ID)
