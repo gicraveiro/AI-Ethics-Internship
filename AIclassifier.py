@@ -269,9 +269,9 @@ features = sorted([(value, key) for (key, value) in features.items()], reverse=T
 #print(decision)
 
 # Predicting
-predictions = model.predict(dev_matrix_array)
+#predictions = model.predict(dev_matrix_array)
 #predictions = classifier.predict(dev_matrix_array)
-#predictions = classifier.predict(test_matrix_array)
+predictions = model.predict(test_matrix_array)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
@@ -285,11 +285,11 @@ pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 
@@ -300,7 +300,7 @@ path='output/AI Classifier/1labelPredictionsStatsMixed.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures\n", file=file)
-write_output_stats_file(path, "Mixed", dev_labels_primary, predictions, labels)
+write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
