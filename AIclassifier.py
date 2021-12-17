@@ -40,7 +40,7 @@ def format_sentVector_to_SparseMatrix(vectors_list):
         sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
         counts = Counter(sent_vector)
         for index, freq in counts.items():
-            sparse_vector[index] = 1 # freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES
+            sparse_vector[index] = freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
@@ -69,13 +69,13 @@ def create_vectors_list(sents, conversion_dict):
         sent_vector = []
         for token in sent_doc:  
             if token.lower() not in conversion_dict: 
-                sent_tokens_list.append("unk")
-                unk_count += 1
-                #pass
+                #sent_tokens_list.append("unk")
+                #unk_count += 1
+                pass
             else:
                 print(token)
                 sent_tokens_list.append(token.lower())
-            sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
+                sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
             if len(sent_vector) > 0:
                 sent_vector = sent_vector.astype(int)
         for bigram in sent_bigram:
@@ -96,8 +96,8 @@ def create_vectors_list(sents, conversion_dict):
         
     #print("Unk count:", unk_count)
     #print(vectors_list)
-    return vectors_list
-    #return sent_bigrams_vector
+    #return vectors_list
+    return sent_bigrams_vector
     #return sent_mixed_vector
 
 ####
@@ -115,39 +115,68 @@ train_doc = reconstruct_hyphenated_words(train_doc)
 tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
 # FLAG: As extra parameters think of removing  LITTLE SQUARE, SMTH ELSE AS WELL? 
 
-word_freq = Counter(tokens)
-#print(word_freq)
+corpus_in_bigrams = []
+for i in range(0,len(tokens)-1):
+    corpus_in_bigrams.append(tokens[i]+" "+tokens[i+1])
 
+token_freq = Counter(tokens)
+bigram_freq = Counter(corpus_in_bigrams)
+#print(word_freq)
+print(bigram_freq)
 # FLAG - checked
 
 # Remove words less frequent than  2 (or equal?)
-corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
-#print(corpus_with_unk)
+corpus_without_unk = [token[0] for token in token_freq.items() if int(token[1]) > 2] # < 2 or <= 2
+bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) > 1]
+
+print(bigrams_filtered_lexicon)
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION 
 #  FLAG exclusion of all less or equal to 2 correctly - checked
 # COUNTING REJOINED TRAIN CORPUS x ORIGINAL SENTENCE TRAIN
 
 # Creating dictionary
-words_to_numbers = {}
-number_representation = 0
-for token in corpus_with_unk:
-    words_to_numbers[token] = number_representation
-    number_representation += 1
-words_to_numbers["unk"] = number_representation
+def create_dict(lexicon):
+    tokens_to_numbers = {}
+    number_representation = 0
+    for token in lexicon:
+        tokens_to_numbers[token] = number_representation
+        number_representation += 1
+    tokens_to_numbers["unk"] = number_representation
+    return tokens_to_numbers
 
-# Bigram disctionary
-bigrams_to_numbers = {}
-number_representation = 0
-bigrams_corpus_list = []
-for i in range(0,len(corpus_with_unk)-1):
-    bigrams_corpus_list.append(corpus_with_unk[i]+" "+corpus_with_unk[i+1]) 
-for bigram in bigrams_corpus_list:
-    bigrams_to_numbers[bigram] = number_representation
-    number_representation += 1
 
+# Unigram dictionary
+words_to_numbers = create_dict(corpus_without_unk)
+# Bigram dictionary
+bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
 print(bigrams_to_numbers)
 
+#print(corpus_in_bigrams)
+#bigrams_corpus_list = []
+#for i in range(0,len(tokens)-1):
+#    if(tokens[i] in words_to_numbers and tokens[i+1] in words_to_numbers):
+#        bigrams_corpus_list.append(tokens[i]+" "+tokens[i+1]) 
+#    elif(tokens[i] in words_to_numbers):
+#        bigrams_corpus_list.append(tokens[i]+" unk") 
+#    elif(tokens[i+1] in words_to_numbers):
+#        bigrams_corpus_list.append("unk "+tokens[i+1]) 
+#    else: 
+#        pass
+#print(bigrams_corpus_list)
+
+
+#bigrams_to_numbers = {}
+#number_representation = 0
+#bigrams_corpus_list = []
+#print(bigrams_corpus_list)
+#for bigram in bigrams_corpus_list:
+#    bigrams_to_numbers[bigram] = number_representation
+#    number_representation += 1
+
+#print(bigrams_to_numbers)
+
+'''
 # Mixed dictionary
 mixed_to_numbers = {}
 number_representation = 0
@@ -175,13 +204,13 @@ print("Length of the dictionary of word representations:",len(words_to_numbers))
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+#train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
-#train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
-#dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
-#test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
 #train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
 #dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
@@ -211,12 +240,12 @@ test_labels_primary = create_labels_array(labels_test)
 
 # Configurations
 # ADABOOST
-#adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
+adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
 # LINEAR REGRESSION
 #lin_reg = LinearRegression() # it is not discrete!!
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
-sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
+#sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -244,18 +273,18 @@ sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol
 
 
 # Training
-#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
-model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
+#model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 
 
-#importances = model.feature_importances_
+importances = model.feature_importances_
 #importances = model_b.feature_importances_
 
-#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
-#    if (value != 0):
-#	    print('Feature:',token,'Score:',value)
+for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+    if (value != 0):
+	    print('Feature:',token,'Score:',value)
 
 #print(type(importances))
 #print(sorted(importances))
@@ -276,8 +305,8 @@ model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 #print(decision)
 
 # Predicting
-#predictions = model.predict(dev_matrix_array)
-predictions = model.predict(test_matrix_array)
+predictions = model.predict(dev_matrix_array)
+#predictions = model.predict(test_matrix_array)
 
 # casually printing results
 for sent, pred in zip(sents_train,predictions):
@@ -291,26 +320,26 @@ pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-path='output/AI Classifier/1labelSGDPredictionsStatsTest.txt'
+#path='output/AI Classifier/1labelSGDPredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsBigram.txt'
-#path='output/AI Classifier/1labelPredictionsStatsDev.txt'
+path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     #print("Performance measures - Unigram Dictionary \n", file=file)
-    print("Performance measures - Unigram Dictionary\n", file=file)
+    print("Performance measures - Bigram Dictionary\n", file=file)
     #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
-#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
@@ -379,3 +408,4 @@ write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # REFERENCE
 #Synthetic Minority Oversampling TEchnique, or SMOTE for short. This technique was described by Nitesh Chawla, et al. in their 2002 paper named for the technique titled “SMOTE: Synthetic Minority Over-sampling Technique.”
+'''

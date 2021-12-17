@@ -1,14 +1,14 @@
-Performance measures - Mixed Dictionary
+Performance measures - Unigram Dictionary
 
 Dev set:
 
-Precision macro: 0.507
-Precision Individually: [0.429 1.    0.707 0.    0.4  ]
-Recall macro: 0.447
-Recall Individually: [0.462 0.5   0.829 0.    0.444]
-F1 Score micro: 0.571
-F1 Score macro: 0.459
-F1 Score weighted: 0.537
-F1 Score Individually: [0.444 0.667 0.763 0.    0.421]
+Precision macro: 0.472
+Precision Individually: [0.778 0.    0.696 0.333 0.556]
+Recall macro: 0.438
+Recall Individually: [0.538 0.    0.914 0.182 0.556]
+F1 Score micro: 0.657
+F1 Score macro: 0.443
+F1 Score weighted: 0.622
+F1 Score Individually: [0.636 0.    0.79  0.235 0.556]
 
 
