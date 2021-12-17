@@ -1,5 +1,8 @@
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
+from imblearn.over_sampling import SMOTE
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import RidgeClassifier
 
 #from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
@@ -222,7 +225,12 @@ test_labels_primary = create_labels_array(labels_test)
 # CLASSIFIER
 
 # Configurations
+# ADABOOST
 adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
+# LINEAR REGRESSION
+#lin_reg = LinearRegression() # it is not discrete!!
+# RIDGE REGRESSION CLASSIFIER
+ridge_classifier = RidgeClassifier()
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -237,13 +245,25 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 #print(train_labels_primary.shape)
 #print(train_vectors_list.shape)
 
-# Training
-model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
-#model_b = adaclassifier.fit(train_vectors_list, train_labels_primary) 
-#classifier.fit(train_matrix_array, train_labels_primary) 
-#print(classifier.best_params_)
+# SMOTE DOESNT HAVE ENOUGH EXAMPLES
 
-importances = model.feature_importances_
+# print(dev_matrix_array)
+#print(dev_labels_primary)
+#oversample = SMOTE()
+#X, y = oversample.fit_resample(dev_matrix_array, dev_labels_primary)
+#counter = Counter(y)
+#print(X)
+#print(y)
+#print(counter)
+
+
+# Training
+#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+#model = lin_reg.fit(train_matrix_array, train_labels_primary)
+model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
+
+
+#importances = model.feature_importances_
 #importances = model_b.feature_importances_
 
 #for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
@@ -253,12 +273,12 @@ importances = model.feature_importances_
 #print(type(importances))
 #print(sorted(importances))
 
-features = {}
-for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
-    if (value != 0):
-	    #print('Feature:',token,'Score:',value)
-        features[token] = value
-features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
+#features = {}
+#for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
+#    if (value != 0):
+#	    #print('Feature:',token,'Score:',value)
+#        features[token] = value
+#features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
 #print(features)
 #for feature in features:
 #    print('Feature:',feature[1],'Score:',feature[0])
@@ -274,9 +294,9 @@ features = sorted([(value, key) for (key, value) in features.items()], reverse=T
 predictions = model.predict(test_matrix_array)
 
 # casually printing results
-#for sent, pred in zip(sents_train,predictions):
-#    print(sent, pred, "\n")
-#print("Predictions:\n", predictions)
+for sent, pred in zip(sents_train,predictions):
+    print(sent, pred, "\n")
+print("Predictions:\n", predictions)
 
 # Confusion matrix
 test_list = test_labels_primary.tolist()
@@ -285,23 +305,23 @@ pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-
-path='output/AI Classifier/1labelPredictionsStatsMixed.txt'
+path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
+#path='output/AI Classifier/1labelPredictionsStatsMixed.txt'
 #path='output/AI Classifier/1labelPredictionsStatsBigram.txt'
 #path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures\n", file=file)
-write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
-#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
+write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
@@ -311,32 +331,6 @@ write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 
 
 # MAKE SURE THAT RESULTS MAKE SENSE, OTHERWISE MAYBE THERE'S A LOST MISTAKE
-
-# EXPERIMENTS
-
-# INITIAL SETTINGS
-
-# STOPWORDS INCLUDED
-# PUNCTUATION IS INCLUDED IN VECTORS LIST AND SEEN AS UNKNOWN I THINK
-# INCLUDES LITTLE SQUARE AND OTHER WEIRD CHARACTERS
-# EXCLUDE WORDS WITH FREQUENCY < 2 (TURN THEM INTO UNKNOWN)
-# WEIGHTED VALUES TO EACH WORD ACCORDING TO THEIR FREQUENCY IN THE SENTENCE
-# N_ESTIMATORS: 50
-# LEARNING RATE: 1
-# ALL OTHER PARAMETERs: DEFAULT
-# MULTILABEL IS BEING TACKLED BY CONSIDERING ONLY PRIMARY LABEL
-
-# CHANGES
-
-# REMOVE STOP WORDS
-# REMOVE PUNCTUATION FROM VECTORS LIST
-# REMOVE LITTLE SQUARE AND OTHER ODD CHARACTERS
-# INCLUDE WORDS WITH FREQUENCY >= 2  
-# TRY WITH 1 INSTEAD OF WEIGHTED VALUE + TRY OTHER WAYS TO REPRESENT THE SENTENCE MAYBE
-# DIFFERENT CONFIGURATIONS FOR THE CLASSIFIER (N_ESTIMATORS, LEARNING RATE, ETC?)
-# MAKE AVERAGE OF RESULTS SINCE THEY DIFFER?
-# WHAT TO DO ABOUT DECLARE OPINION TO PRIVACY? EXPERIMENT WITHOUT IT?
-# DIFFERENT WAYS TO TACKLE MULTI-LABEL: DUPLICATE RESULTS, ALIGN RIGHT LABEL FIRST
 
 # CAREFUL
 # ADABOOST IS HIGHLY AFFECTED by OUTLIERS - declare opinion about privacy is a very rare category...
@@ -350,8 +344,6 @@ write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 # APPROACH 1: CHOOSE PRIMARY LABEL ----- ADOPTED
 # APPROACH 2: DUPLICATE RESULTS
 # APPROACH 3? : ALIGN RIGHT LABEL FIRST
-
-# HELP - Predictions are changing... - confusion matrix, and measures
 
 # LESS OR EQUAL THAN 2 TIMES
 # REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK

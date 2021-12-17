@@ -7,6 +7,7 @@ import json
 from collections import Counter
 import matplotlib.pyplot as plt
 import numpy
+from imblearn.over_sampling import SMOTE
 
 # Functions
 
@@ -168,3 +169,21 @@ write_distribution(path, counter, "Test")
 
 # FLAG - CHECK IF DISTRIBUTION IS BEING DONE AND MEASURED CORRECTLY
 # FLAG - in theory checked, but RECHECK rechecked
+
+# SMOTE TECHNIQUE
+
+total_sents_ref_list = [sent['text'] for sent in total_dict]
+train_sents_ref_list = [sent['text'] for sent in train_dict]
+dev_sents_ref_list = [sent['text'] for sent in dev_dict]
+test_sents_ref_list = [sent['text'] for sent in test_dict]
+
+
+#print(dev_sents_ref_list)
+#print(dev_ref_primary_label)
+#oversample = SMOTE()
+#X, y = oversample.fit_resample(dev_sents_ref_list, dev_ref_primary_label)
+# summarize the new class distribution
+#counter = Counter(y)
+#print(X)
+#print(y)
+#print(counter)
