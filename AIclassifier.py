@@ -56,51 +56,33 @@ def create_vectors_list(sents, conversion_dict):
         sent_doc = clean_corpus(sent) 
         sent_doc = nlp(sent_doc)
         sent_doc = reconstruct_hyphenated_words(sent_doc)
-        #sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()]
-        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()]
         sent_bigram = []
         for i in range(0, (len(sent_doc)-1)):
             sent_bigram.append(sent_doc[i].lower()+" "+sent_doc[i+1].lower())
-        #print(sent_bigram)
+        print(sent_bigram)
         sent_tokens_list = []
         sent_bigrams_list = []
         sent_vector = []
-        #print(sent_doc)
-        #print(sent_bigram)
         for token in sent_doc:  
             if token.lower() not in conversion_dict: 
-                #sent_tokens_list.append("unk")
-                #unk_count += 1
-                pass
+                sent_tokens_list.append("unk")
+                unk_count += 1
+                #pass
             else:
                 print(token)
                 sent_tokens_list.append(token.lower())
-                sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # remove one tab to go back to considering unk 
+            sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
             if len(sent_vector) > 0:
                 sent_vector = sent_vector.astype(int)
-        #print("sent vector token:",sent_vector)
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
-                #sent_bigrams_list.append("unk")
-                #sent_bigrams_list = numpy.append(sent_bigrams_vector, "unk")
                 pass
             else:
                 print(bigram)
                 sent_bigrams_list = numpy.append(sent_bigrams_list, conversion_dict[bigram])
                 sent_bigrams_list = sent_bigrams_list.astype(int)
-                #sent_bigrams_list.append(bigram)
-            #sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
-            #if len(sent_bigrams_list) > 0:
-            #    sent_bigrams_list = sent_bigrams_list.astype(int)
-        #print("bigram", sent_bigrams_list)
         vectors_list.append(sent_vector)
-        #print(sent_bigrams_vector)
-        #print(sent_vector)
-        #print(sent_bigram)
-         
-            #element = (sent_tokens_list[i], sent_tokens_list[i+1])
-	        #sent_bigram.append(element) #for bigram in sent_bigram:  
-        #print(sent_bigram)
         sent_bigrams_vector.append(sent_bigrams_list)
         if(len(sent_vector) > 0 and len(sent_bigrams_list) > 0):
             sent_mixed_vector.append(numpy.concatenate([sent_vector,sent_bigrams_list]))
@@ -109,11 +91,11 @@ def create_vectors_list(sents, conversion_dict):
         else:
             sent_mixed_vector.append(sent_bigrams_list)
         
-    #print("Unk count:", unk_count)
-    #return vectors_list
+    print("Unk count:", unk_count)
+    print(vectors_list)
+    return vectors_list
     #return sent_bigrams_vector
-    #print(sent_mixed_vector)
-    return sent_mixed_vector
+    #return sent_mixed_vector
 
 ####
 # MAIN
@@ -171,13 +153,13 @@ with open('aux.txt', 'r') as file:
 #with open('features.txt', 'r') as file:
     features_list = file.read()
 features_list = features_list.split('\n')
-print(features_list)
+#print(features_list)
 
 for mixed in features_list:
     mixed_to_numbers[mixed] = number_representation
     number_representation += 1
 
-print(mixed_to_numbers)
+#print(mixed_to_numbers)
 
 
 #for i in words_to_numbers:
@@ -190,17 +172,17 @@ print("Length of the dictionary of word representations:",len(words_to_numbers))
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-#train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
-#dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
-#test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
 #train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
 #dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
 #test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
-train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
+#train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
