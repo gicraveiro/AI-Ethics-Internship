@@ -118,7 +118,7 @@ word_freq = Counter(tokens)
 # FLAG - checked
 
 # Remove words less frequent than  2 (or equal?)
-corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 1] # < 2 or <= 2
+corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 2] # < 2 or <= 2
 #print(corpus_with_unk)
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION 
