@@ -216,7 +216,7 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 #lin_reg = LinearRegression() # it is not discrete!!
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
-#sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
+sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -244,10 +244,10 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 
 
 # Training
-model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
-#model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
+model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 
 
 #importances = model.feature_importances_
@@ -298,11 +298,11 @@ path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
 create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-#path='output/AI Classifier/1labelSGDPredictionsStatsTest.txt'
+path='output/AI Classifier/1labelSGDPredictionsStatsTest.txt'
 #path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsBigram.txt'
 #path='output/AI Classifier/1labelPredictionsStatsDev.txt'
-path='output/AI Classifier/1labelPredictionsStatsTest.txt'
+#path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     #print("Performance measures - Unigram Dictionary \n", file=file)
