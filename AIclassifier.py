@@ -396,3 +396,6 @@ write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 
 
 # SUGGEST DIFFERENT PARTITION PERCENTAGE!!
+
+# REFERENCE
+#Synthetic Minority Oversampling TEchnique, or SMOTE for short. This technique was described by Nitesh Chawla, et al. in their 2002 paper named for the technique titled “SMOTE: Synthetic Minority Over-sampling Technique.”
