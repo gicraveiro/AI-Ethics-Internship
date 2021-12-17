@@ -1,0 +1,46 @@
+Distribution of labels
+
+Total set
+
+('Not applicable',) 0.494  (345/698)
+('Related to privacy',) 0.153  (107/698)
+('Commit to privacy',) 0.173  (121/698)
+('Violate privacy',) 0.12  (84/698)
+('Commit to privacy', 'Violate privacy') 0.019  (13/698)
+('Declare opinion about privacy',) 0.024  (17/698)
+('Violate privacy', 'Commit to privacy') 0.016  (11/698)
+
+
+Train set
+
+('Not applicable',) 0.495  (276/558)
+('Related to privacy',) 0.152  (85/558)
+('Commit to privacy',) 0.174  (97/558)
+('Violate privacy',) 0.12  (67/558)
+('Commit to privacy', 'Violate privacy') 0.018  (10/558)
+('Declare opinion about privacy',) 0.025  (14/558)
+('Violate privacy', 'Commit to privacy') 0.016  (9/558)
+
+
+Dev set
+
+('Declare opinion about privacy',) 0.029  (2/70)
+('Not applicable',) 0.5  (35/70)
+('Related to privacy',) 0.157  (11/70)
+('Commit to privacy',) 0.171  (12/70)
+('Violate privacy',) 0.114  (8/70)
+('Commit to privacy', 'Violate privacy') 0.014  (1/70)
+('Violate privacy', 'Commit to privacy') 0.014  (1/70)
+
+
+Test set
+
+('Violate privacy',) 0.129  (9/70)
+('Not applicable',) 0.486  (34/70)
+('Commit to privacy',) 0.171  (12/70)
+('Violate privacy', 'Commit to privacy') 0.014  (1/70)
+('Related to privacy',) 0.157  (11/70)
+('Commit to privacy', 'Violate privacy') 0.029  (2/70)
+('Declare opinion about privacy',) 0.014  (1/70)
+
+

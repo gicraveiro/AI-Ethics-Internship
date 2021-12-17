@@ -6,6 +6,7 @@ import nltk
 import re
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
+from utils import clean_corpus, reconstruct_hyphenated_words, reconstruct_noun_chunks
 #nltk.download('stopwords')
 
 file_input_path_general = 'Facebook/Privacy/' # global
@@ -78,7 +79,7 @@ def parser(corpus, output_file):
                 for child in token.children:
                     if(child != token and child.dep_ != "det" and child.dep_ != "punct" and child.dep_ != "prep" and child.dep_ != "aux" and child.dep_ != "auxpass"):
                         print(child.text, "->", child.dep_, file=output_file)
-
+'''
 # reconstructs hyphen, slash and apostrophes
 def reconstruct_hyphenated_words(corpus):
     i = 0
@@ -120,6 +121,7 @@ def reconstruct_noun_chunks(corpus,keywords):
         if(i == counter):
             i += 1
     return corpus
+'''
 
 def process_document(title, source_path,source,keywords):
     
@@ -143,7 +145,8 @@ def process_document(title, source_path,source,keywords):
 
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
     # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
-
+    input_file = clean_corpus(input_file)
+    '''
     input_file = input_file.lower()
 
     input_file = re.sub(" +", " ", input_file)
@@ -151,7 +154,7 @@ def process_document(title, source_path,source,keywords):
     input_file = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", input_file)
     input_file = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", input_file)
     input_file = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", input_file)
-    
+    '''    
     with open(keyword_guide_path,'w') as keyword_guide_file:
         print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
         for keyword in keywords:
@@ -187,7 +190,7 @@ def analyse_folder(source):
 #  MAIN 
 #####
 
-nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_lg')
 nlp.add_pipe("merge_entities")
 
 kw_opt = int(input("Enter the preferred option:\nFor 'privacy' as the only keyword, enter 1\nFor the keywords list, enter 2\n"))
@@ -237,84 +240,14 @@ for filename in os.listdir('data/'+path):
 # IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
 #plt.savefig('output/JointGraph.png', bbox_inches='tight')
 
-#################
-## COMMENTS ON PROJECT PROGRESS
+# TO DO:
+# FIX THIS CODE AND OUTPUTS!!!
+# CLEAN OUTPUT AND INPUT FILES, KEEP NECESSARY ONLY
 
-# SOLVE PROBLEM - KEYWORDS ARE NOT APPEARING
-
-# A - CORPUS PRE-PROCESSING
-
-# LEMMATIZATION, STEMMING - I THINK IT'S A GOOD IDEA BUT WE SHOULD CHECK THE KEYWORDS
-# EXPANDING ABBREVIATIONS?
-# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN check
-# CURRENTLY EVALUATING WORDS INSIDE NOUN CHUNKS ONLY AS THE NOUN CHUNK SET, SO MAYBE WE ARE MISSING KEYWORDS INSIDE OF NOUN CHUNKS? now evaluating noun chunks separately
-
-# B - TEST WITH DIFFERENT FILES -> DONE, NOT MUCH HELP...
-
-# ACADEMIC PAPERS check
-# NEWS check
-# EVALUATIONS FROM OTHER SOURCES check
-
-# C - IMPROVE KEYWORDS LIST
-
-# CONSIDER MORE THAN ONE-WORD TOKENS!!! check
+######
+# COMMENTS THAT MIGHT STILL BE USEFUL AT THIS POINT
 # PREPROCESSING LIKE LEMMATIZATION AND STEMMING
-# INCLUDING MORE RELEVANT TERMS BY:
-        # FREQUENCY ANALYSIS AT DIFFERENT DOCUMENTS
-        # MANUALLY READING SOURCES AND REPORTING
-
-
-# EXTRAS TO-DOS TO MAKE STATS PRETTIER/MORE COMPLETE
-
-# TO DO: PLOT ALL OF THE GRAPHS TOGETHER TOO BUT READABLY and with no stop words!!!! check
-# TO DO: TITLE TO THE GRAPHS check
 # TO DO: N GRAMS
-# TO DO: MODIFY GRAPH SO THAT THE FULL WORDS CAN BE READ check
-
-# MEETING: ASK WHAT KINDS OF INFO/DESCRIPTIVE STATISTICS WE WANT TO OBTAIN THAT WE DONT ALREADY HAVE
-# COULD APPLY FREQUENCY CUT-OFF - IS IT WORTH IT? GIVEN THAT PRIVACY IS SAID ONCE MAYBE, I COULD SAY NO BUT TITLE MAYBE SHOULDNT COUNT, BUT ALSO HOW TO RULE OUT/MAKE SURE IT IS THE TITLE THAT IS BEING CUT OFF
-
-
-# LOWERCASING? probably not needed
-# NUMBERS TO WORDS? REMOVE NUMBERS? probably not needed
-# EXPANDING ABBREVIATIONS? 
-# READING OUT DATES? probably not needed
-# TO DO: FIGURE OUT HOW TO DEAL WITH THE COMMAS ',' AND PUNCTUATION THAT ARE BEING SEEING AS PART OF A TOKEN!!!! check
-# TO DO: FIND A WAY TO CHECK MEMORY LEAKS - ASK PROF RICCARDI? find a debugger
-# AFTER ORGANIZING THIS ALL -> MOVE ON TO DEPENDENCY PARSING
-
-# I realized I should sent an email warning you whenever I update the output in the folders, from now on I will, and where to find the changes
-
-# PREPARE MEETING
-# NON CODING TASKS - friday pre-meeting tasks
-#
-# READ FACEBOOK SOURCED FILES CAREFULLY
-# EXAMINE 2 FILES WITH ESG APPROACHES ---- do not follow this angle yet
-# Take a look at stats, come up with an opinion in new keywords --- do not follow this angle yet
-
 
 # To debug f5, import gc gc.collect() but I'm not yet satisfied with the results
 
-# BRAINSTORMING
-
-# Should we have a DPIA to analyze as input??
-
-
-### NEXT STEPS:
-
-# SEARCH STRING OF ALL TERMS check but search string misses some terms...
-# CLEANING check but cleaning misses some terms...
-# FILTERING
-# TOKENIZATION
-# TESTING WITH SPACY DEPENDENCY PARSER
-# DEPENDENCY PARSING
-# VERSION WITH LEMMATIZATION TOO
-
-# include plural forms! e.g. data breaches
-# NIST 's () --- how to deal
-
-#
-# Apostrophe held specifically in english
-
-#
-# NEXT STEP: TAKE CARE OF WEIRDLY TOGETHER CASES "5 3", "1 THIRD"
