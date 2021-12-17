@@ -3,6 +3,9 @@ from sklearn.model_selection import GridSearchCV
 from imblearn.over_sampling import SMOTE
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import RidgeClassifier
+from sklearn.linear_model import SGDClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import make_pipeline
 
 #from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
@@ -208,11 +211,12 @@ test_labels_primary = create_labels_array(labels_test)
 
 # Configurations
 # ADABOOST
-adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
+#adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
 # LINEAR REGRESSION
 #lin_reg = LinearRegression() # it is not discrete!!
 # RIDGE REGRESSION CLASSIFIER
-ridge_classifier = RidgeClassifier()
+#ridge_classifier = RidgeClassifier()
+sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -242,7 +246,8 @@ ridge_classifier = RidgeClassifier()
 # Training
 #model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
-model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
+#model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
+model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 
 
 #importances = model.feature_importances_
@@ -271,9 +276,8 @@ model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
 #print(decision)
 
 # Predicting
-#predictions = model.predict(dev_matrix_array)
-#predictions = classifier.predict(dev_matrix_array)
-predictions = model.predict(test_matrix_array)
+predictions = model.predict(dev_matrix_array)
+#predictions = model.predict(test_matrix_array)
 
 # casually printing results
 for sent, pred in zip(sents_train,predictions):
@@ -294,7 +298,8 @@ create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
 #create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
+path='output/AI Classifier/1labelSGDPredictionsStatsDev.txt'
+#path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsMixed.txt'
 #path='output/AI Classifier/1labelPredictionsStatsBigram.txt'
 #path='output/AI Classifier/1labelPredictionsStatsDev.txt'
