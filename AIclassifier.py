@@ -69,13 +69,13 @@ def create_vectors_list(sents, conversion_dict):
         sent_vector = []
         for token in sent_doc:  
             if token.lower() not in conversion_dict: 
-                sent_tokens_list.append("unk")
-                unk_count += 1
-                #pass
+                #sent_tokens_list.append("unk")
+                #unk_count += 1
+                pass
             else:
                 print(token)
                 sent_tokens_list.append(token.lower())
-            sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
+                sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
             if len(sent_vector) > 0:
                 sent_vector = sent_vector.astype(int)
         for bigram in sent_bigram:
@@ -94,11 +94,11 @@ def create_vectors_list(sents, conversion_dict):
         else:
             sent_mixed_vector.append(sent_bigrams_list)
         
-    print("Unk count:", unk_count)
-    print(vectors_list)
-    return vectors_list
+    #print("Unk count:", unk_count)
+    #print(vectors_list)
+    #return vectors_list
     #return sent_bigrams_vector
-    #return sent_mixed_vector
+    return sent_mixed_vector
 
 ####
 # MAIN
@@ -175,17 +175,17 @@ print("Length of the dictionary of word representations:",len(words_to_numbers))
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+#train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
 #train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
 #dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
 #test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
-#train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
-#dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
-#test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
@@ -211,12 +211,12 @@ test_labels_primary = create_labels_array(labels_test)
 
 # Configurations
 # ADABOOST
-#adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
+adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
 # LINEAR REGRESSION
 #lin_reg = LinearRegression() # it is not discrete!!
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
-sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
+#sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -244,10 +244,10 @@ sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol
 
 
 # Training
-#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
-model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
+#model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 
 
 #importances = model.feature_importances_
@@ -276,8 +276,8 @@ model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 #print(decision)
 
 # Predicting
-predictions = model.predict(dev_matrix_array)
-#predictions = model.predict(test_matrix_array)
+#predictions = model.predict(dev_matrix_array)
+predictions = model.predict(test_matrix_array)
 
 # casually printing results
 for sent, pred in zip(sents_train,predictions):
@@ -291,25 +291,26 @@ pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-path='output/AI Classifier/1labelSGDPredictionsStatsDev.txt'
+#path='output/AI Classifier/1labelSGDPredictionsStatsTest.txt'
 #path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
-#path='output/AI Classifier/1labelPredictionsStatsMixed.txt'
 #path='output/AI Classifier/1labelPredictionsStatsBigram.txt'
 #path='output/AI Classifier/1labelPredictionsStatsDev.txt'
-#path='output/AI Classifier/1labelPredictionsStatsTest.txt'
+path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    print("Performance measures\n", file=file)
+    #print("Performance measures - Unigram Dictionary \n", file=file)
+    print("Performance measures - Mixed Dictionary\n", file=file)
+    #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
-write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)

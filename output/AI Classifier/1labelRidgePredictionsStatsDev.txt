@@ -1,14 +1,14 @@
 Performance measures
 
-Dev set:
+Test set:
 
-Precision macro: 0.199
-Precision Individually: [0.222 0.    0.489 0.286 0.   ]
-Recall macro: 0.193
-Recall Individually: [0.154 0.    0.629 0.182 0.   ]
-F1 Score micro: 0.371
-F1 Score macro: 0.191
-F1 Score weighted: 0.344
-F1 Score Individually: [0.182 0.    0.55  0.222 0.   ]
+Precision macro: 0.436
+Precision Individually: [0.667 0.    0.611 0.4   0.5  ]
+Recall macro: 0.328
+Recall Individually: [0.286 0.    0.971 0.182 0.2  ]
+F1 Score micro: 0.586
+F1 Score macro: 0.337
+F1 Score weighted: 0.524
+F1 Score Individually: [0.4   0.    0.75  0.25  0.286]
 
 
