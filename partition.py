@@ -21,9 +21,9 @@ def create_sent_label_dict(sents, labels):
 
 # Writes json of partition set, each entry is the sentence associated with its labels
 def write_partition_file(partition_dict, name):
-    path = 'output/partition/multilabeldata_'+name+'.json'
+    path = 'output/partition/multilabeldata_70'+name+'.json'
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open('output/partition/multilabeldata_'+name+'.json', 'w') as file:
+    with open('output/partition/multilabeldata_70'+name+'.json', 'w') as file:
         file.write(json.dumps(partition_dict, indent=4, ensure_ascii=False))
 
 # creating list of labels and count its distribution
@@ -98,7 +98,8 @@ for l1,l2 in zip(labels1,labels2):
 #  CHECK IF LABELS LIST ARE BEING BUILT CORRECTLY - CHECKED
 
 # Partitions data into 80% trainset and remaining 20%
-sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=1111111)
+#sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=1111111)
+sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.3, stratify=labels, random_state=1111111)
 
 # Partitions remaining 20% into dev set (10%) and test set (10%)
 sents_test, sents_dev, labels_test, labels_dev = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test, random_state=1111111)
@@ -124,7 +125,7 @@ dev_labels_ref_list = [sent['label'] for sent in dev_dict]
 test_labels_ref_list = [sent['label'] for sent in test_dict]
 
 # Multilabel distribution count + chart
-path= 'output/partition/multilabelDistribution.txt'
+path= 'output/partition/multilabelDistribution70.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Distribution of labels\n", file=file)
@@ -150,7 +151,7 @@ dev_ref_primary_label = [label[0] for label in dev_labels_ref_list]
 test_ref_primary_label = [label[0] for label in test_labels_ref_list]
 
 ### OTHER APPROACHES FOR CHOOSING THE LABEL FOR EVALUATION -- check start of implementation at the end of the code
-path= 'output/partition/1labelDistribution.txt'
+path= 'output/partition/1labelDistribution70.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Distribution of labels\n", file=file)
@@ -169,13 +170,6 @@ write_distribution(path, counter, "Test")
 
 # FLAG - CHECK IF DISTRIBUTION IS BEING DONE AND MEASURED CORRECTLY
 # FLAG - in theory checked, but RECHECK rechecked
-
-# SMOTE TECHNIQUE
-
-total_sents_ref_list = [sent['text'] for sent in total_dict]
-train_sents_ref_list = [sent['text'] for sent in train_dict]
-dev_sents_ref_list = [sent['text'] for sent in dev_dict]
-test_sents_ref_list = [sent['text'] for sent in test_dict]
 
 
 #print(dev_sents_ref_list)

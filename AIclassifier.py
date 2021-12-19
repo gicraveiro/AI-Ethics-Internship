@@ -1,6 +1,7 @@
 from scipy import sparse
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
+from imblearn.under_sampling import RandomUnderSampler 
 from imblearn.over_sampling import SMOTE
 from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import RidgeClassifier
@@ -129,9 +130,9 @@ def create_vectors_list(sents, conversion_dict):
         #print(sent_mixed_vector)
     #print("Unk count:", unk_count)
     #print(vectors_list)
-    #return vectors_list
+    return vectors_list
     #return bigrams_vector
-    return mixed_vector
+    #return mixed_vector
 
 ####
 # MAIN
@@ -192,33 +193,33 @@ print("Length of the dictionary of word representations:",len(mixed_to_numbers))
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-#train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
-#dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
-#test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
 #train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
 #dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
 #test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
-train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
+#train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
 # FLAG - CHECK IF SENTENCE REPRESENTATIONS WERE DONE CORRECTLY
 
-#train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
-#dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
-#test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
 
 #train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
 #dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
 #test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
 
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
+#train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
+#dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
+#test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
 
 # FLAG - CHECK IF SPARSE MATRIX REPRESENTATION WAS DONE CORRECTLY
 
@@ -256,25 +257,28 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 
 # print(dev_matrix_array)
 #print(dev_labels_primary)
-oversample = SMOTE()
-oversampled_sents, oversampled_labels = oversample.fit_resample(train_matrix_array, train_labels_primary)
-counter = Counter(oversampled_labels)
-print(oversampled_sents)
-print(oversampled_labels)
-print(counter)
+#strategy = {1:107, 2:76, 3:14, 4:85, 5:150}
+#oversample = SMOTE()
+#over = SMOTE(sampling_strategy=0.1)
+#undersample = RandomUnderSampler(sampling_strategy=strategy)
+#oversampled_sents, oversampled_labels = oversample.fit_resample(train_matrix_array, train_labels_primary)
+#counter = Counter(oversampled_labels)
+#print(oversampled_sents)
+#print(oversampled_labels)
+#print(counter)
 
 
 # Training
-model = adaclassifier.fit(oversampled_sents, oversampled_labels) 
-#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+#model = adaclassifier.fit(oversampled_sents, oversampled_labels) 
+model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
 #model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 
 importances = model.feature_importances_
 
-#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
-for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
+for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
     if (value != 0):
 	    print('Feature:',token,'Score:',value)
@@ -321,8 +325,8 @@ create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels
 path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    #print("Performance measures - Unigram Dictionary \n", file=file)
-    print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
+    print("Performance measures - Unigram Dictionary \n", file=file)
+    #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
     #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
