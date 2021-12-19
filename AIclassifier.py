@@ -1,3 +1,4 @@
+from scipy import sparse
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
 from imblearn.over_sampling import SMOTE
@@ -19,12 +20,15 @@ from nltk.corpus import stopwords
 
 # Creating dictionary
 def create_dict(lexicon):
+    print(lexicon)
     tokens_to_numbers = {}
     number_representation = 0
     for token in lexicon:
+        print(token, number_representation)
         tokens_to_numbers[token] = number_representation
         number_representation += 1
     tokens_to_numbers["unk"] = number_representation
+    print(tokens_to_numbers)
     return tokens_to_numbers
 
 # Transform labels list with names in label array with number representations
@@ -48,9 +52,13 @@ def create_labels_array(labels_list):
 def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
     for i, sent_vector in enumerate(vectors_list): 
         sparse_vector = [0] * len(dictionary) # vocabulary size cause each word present is a feature
+        #print(sparse_vector)
         counts = Counter(sent_vector)
+        #print(counts)
         for index, freq in counts.items():
-            sparse_vector[index] = 1 #freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
+            if len(counts.items()) > 0:
+                print(len(counts.items()), counts)
+                sparse_vector[index] = 1 #freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
@@ -63,7 +71,7 @@ def create_vectors_list(sents, conversion_dict):
     unk_count = 0
     vectors_list = []
     bigrams_vector = []
-    sent_mixed_vector = []
+    mixed_vector = []
     
     for sent in sents:
         sent_doc = clean_corpus(sent) 
@@ -76,45 +84,54 @@ def create_vectors_list(sents, conversion_dict):
         #print(sent_bigram)
         sent_tokens_list = []
         sent_bigrams_list = []
+        mixed_tokens_list = []
         sent_vector = []
+        sent_mixed_vector = []
         sent_bigrams_vector = []
         for token in sent_doc:  
             if token.lower() not in conversion_dict: 
-                sent_tokens_list.append("unk")
-                unk_count += 1
-                #pass
+                #sent_tokens_list.append("unk")
+                #mixed_tokens_list.append("unk")
+                #unk_count += 1
+                pass
             else:
                 #print(token)
                 sent_tokens_list.append(token.lower())
-            sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
+                mixed_tokens_list.append(token.lower())
+                sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
+                sent_mixed_vector = numpy.append(sent_mixed_vector, conversion_dict[token])
             if len(sent_vector) > 0:
                 sent_vector = sent_vector.astype(int)
+            if len(sent_mixed_vector) > 0:
+                sent_mixed_vector = sent_mixed_vector.astype(int)
+            
+            
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
                 sent_bigrams_list.append("unk")
+
                 #unk_count += 1
                 #pass
             else:
                 #print(bigram)
                 sent_bigrams_list.append(bigram)
-            sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
+                mixed_tokens_list.append(bigram)
+                sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
+                sent_mixed_vector = numpy.append(sent_mixed_vector, conversion_dict[bigram])
             if len(sent_bigrams_vector) > 0:
                 sent_bigrams_vector = sent_bigrams_vector.astype(int)
+            if len(sent_mixed_vector) > 0:
+                sent_mixed_vector = sent_mixed_vector.astype(int)
         vectors_list.append(sent_vector)
         bigrams_vector.append(sent_bigrams_vector)
+        mixed_vector.append(sent_mixed_vector)
 
-        #if(len(sent_vector) > 0 and len(sent_bigrams_list) > 0):
-        #    sent_mixed_vector.append(numpy.concatenate([sent_vector,sent_bigrams_list]))
-        #elif(len(sent_vector) > 0):
-        #    sent_mixed_vector.append(sent_vector)
-        #else:
-        #    sent_mixed_vector.append(sent_bigrams_list)
-        
-    print("Unk count:", unk_count)
+        #print(sent_mixed_vector)
+    #print("Unk count:", unk_count)
     #print(vectors_list)
-    return vectors_list
+    #return vectors_list
     #return bigrams_vector
-    #return sent_mixed_vector
+    return mixed_vector
 
 ####
 # MAIN
@@ -156,25 +173,18 @@ bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(b
 words_to_numbers = create_dict(corpus_without_unk)
 # Bigram dictionary
 bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
-#print(bigrams_to_numbers)
-
-
 
 # Mixed dictionary
-#mixed_to_numbers = {}
-#number_representation = 0
-#mixed_corpus_list = []
-#with open('aux.txt', 'r') as file:
-#with open('features.txt', 'r') as file:
-#    features_list = file.read()
-#features_list = features_list.split('\n')
-#print(features_list)
-#for mixed in features_list:
-#    mixed_to_numbers[mixed] = number_representation
-#    number_representation += 1
-#print(mixed_to_numbers)
+with open('features.txt', 'r') as file:
+    features_list = file.read()
+features_list = features_list.split('\n')
+mixed_to_numbers = create_dict(features_list)
+
+print(mixed_to_numbers)
 
 #print("Length of the dictionary of word representations:",len(words_to_numbers))
+#print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
+print("Length of the dictionary of word representations:",len(mixed_to_numbers))
 
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
 #               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS -NOPE, FIXED
@@ -182,29 +192,33 @@ bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+#train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
 #train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
 #dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
 #test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
-#train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
-#dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
-#test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
 # FLAG - CHECK IF SENTENCE REPRESENTATIONS WERE DONE CORRECTLY
 
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
+#train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
+#dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
+#test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
 
 #train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
 #dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
 #test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
+
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
 
 # FLAG - CHECK IF SPARSE MATRIX REPRESENTATION WAS DONE CORRECTLY
 
@@ -258,7 +272,8 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 
 importances = model.feature_importances_
 
-for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
     if (value != 0):
 	    print('Feature:',token,'Score:',value)
@@ -307,7 +322,7 @@ path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     #print("Performance measures - Unigram Dictionary \n", file=file)
-    print("Performance measures - Unigram Dictionary\n", file=file)
+    print("Performance measures - Mixed Dictionary\n", file=file)
     #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
