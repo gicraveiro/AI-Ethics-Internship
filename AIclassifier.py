@@ -183,9 +183,9 @@ mixed_to_numbers = create_dict(features_list)
 
 print(mixed_to_numbers)
 
-#print("Length of the dictionary of word representations:",len(words_to_numbers))
+print("Length of the dictionary of word representations:",len(words_to_numbers))
 #print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
-print("Length of the dictionary of word representations:",len(mixed_to_numbers))
+#print("Length of the dictionary of word representations:",len(mixed_to_numbers))
 
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
 #               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS -NOPE, FIXED
@@ -233,12 +233,12 @@ test_labels_primary = create_labels_array(labels_test)
 
 # Configurations
 # ADABOOST
-adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
+#adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
 # LINEAR REGRESSION
 #lin_reg = LinearRegression() # it is not discrete!!
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
-#sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
+sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -270,18 +270,18 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 
 # Training
 #model = adaclassifier.fit(oversampled_sents, oversampled_labels) 
-model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
-#model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
+model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 
-importances = model.feature_importances_
+#importances = model.feature_importances_
 
-for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
-    if (value != 0):
-	    print('Feature:',token,'Score:',value)
+#    if (value != 0):
+#	    print('Feature:',token,'Score:',value)
 
 #print(type(importances))
 #print(sorted(importances))
@@ -325,7 +325,7 @@ path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    print("Performance measures - Unigram Dictionary \n", file=file)
+    print("Performance measures - Unigram Dictionary - SGD\n", file=file)
     #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
     #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
