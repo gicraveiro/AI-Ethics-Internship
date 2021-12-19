@@ -20,11 +20,11 @@ from nltk.corpus import stopwords
 
 # Creating dictionary
 def create_dict(lexicon):
-    print(lexicon)
+    #print(lexicon)
     tokens_to_numbers = {}
     number_representation = 0
     for token in lexicon:
-        print(token, number_representation)
+        #print(token, number_representation)
         tokens_to_numbers[token] = number_representation
         number_representation += 1
     tokens_to_numbers["unk"] = number_representation
@@ -57,7 +57,7 @@ def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
         #print(counts)
         for index, freq in counts.items():
             if len(counts.items()) > 0:
-                print(len(counts.items()), counts)
+                #print(len(counts.items()), counts)
                 sparse_vector[index] = 1 #freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
@@ -256,16 +256,17 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 
 # print(dev_matrix_array)
 #print(dev_labels_primary)
-#oversample = SMOTE()
-#X, y = oversample.fit_resample(dev_matrix_array, dev_labels_primary)
-#counter = Counter(y)
-#print(X)
-#print(y)
-#print(counter)
+oversample = SMOTE()
+oversampled_sents, oversampled_labels = oversample.fit_resample(train_matrix_array, train_labels_primary)
+counter = Counter(oversampled_labels)
+print(oversampled_sents)
+print(oversampled_labels)
+print(counter)
 
 
 # Training
-model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+model = adaclassifier.fit(oversampled_sents, oversampled_labels) 
+#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
 #model = sgd_classifier.fit(train_matrix_array, train_labels_primary)

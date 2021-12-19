@@ -2,13 +2,13 @@ Performance measures - Mixed Dictionary - Adaboost
 
 Test set:
 
-Precision macro: 0.468
-Precision Individually: [0.667 0.    0.607 0.4   0.667]
-Recall macro: 0.334
-Recall Individually: [0.286 0.    1.    0.182 0.2  ]
-F1 Score micro: 0.6
-F1 Score macro: 0.343
-F1 Score weighted: 0.53
-F1 Score Individually: [0.4   0.    0.756 0.25  0.308]
+Precision macro: 0.302
+Precision Individually: [0.545 0.    0.5   0.2   0.267]
+Recall macro: 0.243
+Recall Individually: [0.429 0.    0.206 0.182 0.4  ]
+F1 Score micro: 0.271
+F1 Score macro: 0.256
+F1 Score weighted: 0.313
+F1 Score Individually: [0.48  0.    0.292 0.19  0.32 ]
 
 
