@@ -1,14 +1,14 @@
-Performance measures - Unigram Dictionary 
+Performance measures - Unigram Dictionary - SGD
 
 Test set:
 
-Precision macro: 0.384
-Precision Individually: [0.636 0.    0.662 0.333 0.286]
-Recall macro: 0.329
-Recall Individually: [0.333 0.    0.981 0.188 0.143]
-F1 Score micro: 0.6
-F1 Score macro: 0.332
-F1 Score weighted: 0.541
-F1 Score Individually: [0.437 0.    0.791 0.24  0.19 ]
+Precision macro: 0.447
+Precision Individually: [0.889 0.    0.702 0.2   0.444]
+Recall macro: 0.407
+Recall Individually: [0.571 0.    0.971 0.091 0.4  ]
+F1 Score micro: 0.657
+F1 Score macro: 0.411
+F1 Score weighted: 0.615
+F1 Score Individually: [0.696 0.    0.815 0.125 0.421]
 
 
