@@ -2,13 +2,13 @@ Performance measures - Mixed Dictionary
 
 Dev set:
 
-Precision macro: 0.379
-Precision Individually: [0.5   0.    0.702 0.25  0.444]
-Recall macro: 0.373
-Recall Individually: [0.385 0.    0.943 0.091 0.444]
-F1 Score micro: 0.614
-F1 Score macro: 0.363
-F1 Score weighted: 0.561
-F1 Score Individually: [0.435 0.    0.805 0.133 0.444]
+Precision macro: 0.459
+Precision Individually: [0.625 0.    0.717 0.5   0.455]
+Recall macro: 0.413
+Recall Individually: [0.385 0.    0.943 0.182 0.556]
+F1 Score micro: 0.643
+F1 Score macro: 0.412
+F1 Score weighted: 0.602
+F1 Score Individually: [0.476 0.    0.815 0.267 0.5  ]
 
 
