@@ -17,6 +17,16 @@ from collections import Counter
 import os
 from nltk.corpus import stopwords
 
+# Creating dictionary
+def create_dict(lexicon):
+    tokens_to_numbers = {}
+    number_representation = 0
+    for token in lexicon:
+        tokens_to_numbers[token] = number_representation
+        number_representation += 1
+    tokens_to_numbers["unk"] = number_representation
+    return tokens_to_numbers
+
 # Transform labels list with names in label array with number representations
 def create_labels_array(labels_list):
     labels_array = []
@@ -40,7 +50,7 @@ def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
         sparse_vector = [0] * len(dictionary) # vocabulary size cause each word present is a feature
         counts = Counter(sent_vector)
         for index, freq in counts.items():
-            sparse_vector[index] = 1 # freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
+            sparse_vector[index] = 1 #freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
@@ -63,7 +73,7 @@ def create_vectors_list(sents, conversion_dict):
         sent_bigram = []
         for i in range(0, (len(sent_doc)-1)):
             sent_bigram.append(sent_doc[i].lower()+" "+sent_doc[i+1].lower())
-        print(sent_bigram)
+        #print(sent_bigram)
         sent_tokens_list = []
         sent_bigrams_list = []
         sent_vector = []
@@ -71,7 +81,7 @@ def create_vectors_list(sents, conversion_dict):
         for token in sent_doc:  
             if token.lower() not in conversion_dict: 
                 sent_tokens_list.append("unk")
-                #unk_count += 1
+                unk_count += 1
                 #pass
             else:
                 #print(token)
@@ -82,7 +92,7 @@ def create_vectors_list(sents, conversion_dict):
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
                 sent_bigrams_list.append("unk")
-                unk_count += 1
+                #unk_count += 1
                 #pass
             else:
                 #print(bigram)
@@ -102,8 +112,8 @@ def create_vectors_list(sents, conversion_dict):
         
     print("Unk count:", unk_count)
     #print(vectors_list)
-    #return vectors_list
-    return bigrams_vector
+    return vectors_list
+    #return bigrams_vector
     #return sent_mixed_vector
 
 ####
@@ -141,22 +151,12 @@ bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(b
 #  FLAG exclusion of all less or equal to 2 correctly - checked
 # COUNTING REJOINED TRAIN CORPUS x ORIGINAL SENTENCE TRAIN
 
-# Creating dictionary
-def create_dict(lexicon):
-    tokens_to_numbers = {}
-    number_representation = 0
-    for token in lexicon:
-        tokens_to_numbers[token] = number_representation
-        number_representation += 1
-    tokens_to_numbers["unk"] = number_representation
-    return tokens_to_numbers
-
 
 # Unigram dictionary
 words_to_numbers = create_dict(corpus_without_unk)
 # Bigram dictionary
 bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
-print(bigrams_to_numbers)
+#print(bigrams_to_numbers)
 
 
 
@@ -182,15 +182,14 @@ print(bigrams_to_numbers)
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-#train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
-#dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
-#test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
-train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
+#train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
-print(dev_vectors_list)
 #train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
 #dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
 #test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
@@ -199,17 +198,13 @@ print(dev_vectors_list)
 
 # FLAG - CHECK IF SENTENCE REPRESENTATIONS WERE DONE CORRECTLY
 
-#for sent in train_vectors_list:
-#    print(sent)
-#print(train_vectors_list)
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
 
-#train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
-#dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
-#test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
-
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
+#train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
+#dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
+#test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
 
 # FLAG - CHECK IF SPARSE MATRIX REPRESENTATION WAS DONE CORRECTLY
 
@@ -243,7 +238,7 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 
 #print(train_labels_primary.shape)
 #print(train_vectors_list.shape)
 
-# SMOTE DOESNT HAVE ENOUGH EXAMPLES
+# SMOTE DOESNT HAVE ENOUGH EXAMPLES - its because im supposed to do in the trainset
 
 # print(dev_matrix_array)
 #print(dev_labels_primary)
@@ -261,12 +256,10 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
 #model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 
-
 importances = model.feature_importances_
-#importances = model_b.feature_importances_
 
-#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
-for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
+for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
     if (value != 0):
 	    print('Feature:',token,'Score:',value)
 
@@ -283,18 +276,13 @@ for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
 #for feature in features:
 #    print('Feature:',feature[1],'Score:',feature[0])
 
-
-# DECISION TREE, WRONG FUNCTION, DELETE IT
-#decision = adaclassifier.decision_function(train_matrix_array)
-#print(decision)
-
 # Predicting
 predictions = model.predict(dev_matrix_array)
 #predictions = model.predict(test_matrix_array)
 
 # casually printing results
-for sent, pred in zip(sents_train,predictions):
-    print(sent, pred, "\n")
+#for sent, pred in zip(sents_train,predictions):
+    #print(sent, pred, "\n")
 print("Predictions:\n", predictions)
 
 # Confusion matrix
@@ -319,7 +307,7 @@ path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     #print("Performance measures - Unigram Dictionary \n", file=file)
-    print("Performance measures - Bigram Dictionary\n", file=file)
+    print("Performance measures - Unigram Dictionary\n", file=file)
     #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
