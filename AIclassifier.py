@@ -35,12 +35,12 @@ def create_labels_array(labels_list):
     return labels_array
 
 # Create sparse matrixes that represent words present in each sentence, which is the appropriate format to feed the AI classifier
-def format_sentVector_to_SparseMatrix(vectors_list):
+def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
     for i, sent_vector in enumerate(vectors_list): 
-        sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
+        sparse_vector = [0] * len(dictionary) # vocabulary size cause each word present is a feature
         counts = Counter(sent_vector)
         for index, freq in counts.items():
-            sparse_vector[index] = freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
+            sparse_vector[index] = 1 # freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
@@ -52,7 +52,7 @@ def format_sentVector_to_SparseMatrix(vectors_list):
 def create_vectors_list(sents, conversion_dict):
     unk_count = 0
     vectors_list = []
-    sent_bigrams_vector = []
+    bigrams_vector = []
     sent_mixed_vector = []
     
     for sent in sents:
@@ -67,37 +67,43 @@ def create_vectors_list(sents, conversion_dict):
         sent_tokens_list = []
         sent_bigrams_list = []
         sent_vector = []
+        sent_bigrams_vector = []
         for token in sent_doc:  
             if token.lower() not in conversion_dict: 
-                #sent_tokens_list.append("unk")
+                sent_tokens_list.append("unk")
                 #unk_count += 1
-                pass
+                #pass
             else:
-                print(token)
+                #print(token)
                 sent_tokens_list.append(token.lower())
-                sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
+            sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
             if len(sent_vector) > 0:
                 sent_vector = sent_vector.astype(int)
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
-                pass
+                sent_bigrams_list.append("unk")
+                unk_count += 1
+                #pass
             else:
-                print(bigram)
-                sent_bigrams_list = numpy.append(sent_bigrams_list, conversion_dict[bigram])
-                sent_bigrams_list = sent_bigrams_list.astype(int)
+                #print(bigram)
+                sent_bigrams_list.append(bigram)
+            sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
+            if len(sent_bigrams_vector) > 0:
+                sent_bigrams_vector = sent_bigrams_vector.astype(int)
         vectors_list.append(sent_vector)
-        sent_bigrams_vector.append(sent_bigrams_list)
-        if(len(sent_vector) > 0 and len(sent_bigrams_list) > 0):
-            sent_mixed_vector.append(numpy.concatenate([sent_vector,sent_bigrams_list]))
-        elif(len(sent_vector) > 0):
-            sent_mixed_vector.append(sent_vector)
-        else:
-            sent_mixed_vector.append(sent_bigrams_list)
+        bigrams_vector.append(sent_bigrams_vector)
+
+        #if(len(sent_vector) > 0 and len(sent_bigrams_list) > 0):
+        #    sent_mixed_vector.append(numpy.concatenate([sent_vector,sent_bigrams_list]))
+        #elif(len(sent_vector) > 0):
+        #    sent_mixed_vector.append(sent_vector)
+        #else:
+        #    sent_mixed_vector.append(sent_bigrams_list)
         
-    #print("Unk count:", unk_count)
+    print("Unk count:", unk_count)
     #print(vectors_list)
     #return vectors_list
-    return sent_bigrams_vector
+    return bigrams_vector
     #return sent_mixed_vector
 
 ####
@@ -122,14 +128,14 @@ for i in range(0,len(tokens)-1):
 token_freq = Counter(tokens)
 bigram_freq = Counter(corpus_in_bigrams)
 #print(word_freq)
-print(bigram_freq)
+#print(bigram_freq)
 # FLAG - checked
 
 # Remove words less frequent than  2 (or equal?)
 corpus_without_unk = [token[0] for token in token_freq.items() if int(token[1]) > 2] # < 2 or <= 2
 bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) > 1]
 
-print(bigrams_filtered_lexicon)
+#print(bigrams_filtered_lexicon)
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION 
 #  FLAG exclusion of all less or equal to 2 correctly - checked
@@ -152,51 +158,23 @@ words_to_numbers = create_dict(corpus_without_unk)
 bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
 print(bigrams_to_numbers)
 
-#print(corpus_in_bigrams)
-#bigrams_corpus_list = []
-#for i in range(0,len(tokens)-1):
-#    if(tokens[i] in words_to_numbers and tokens[i+1] in words_to_numbers):
-#        bigrams_corpus_list.append(tokens[i]+" "+tokens[i+1]) 
-#    elif(tokens[i] in words_to_numbers):
-#        bigrams_corpus_list.append(tokens[i]+" unk") 
-#    elif(tokens[i+1] in words_to_numbers):
-#        bigrams_corpus_list.append("unk "+tokens[i+1]) 
-#    else: 
-#        pass
-#print(bigrams_corpus_list)
 
 
-#bigrams_to_numbers = {}
-#number_representation = 0
-#bigrams_corpus_list = []
-#print(bigrams_corpus_list)
-#for bigram in bigrams_corpus_list:
-#    bigrams_to_numbers[bigram] = number_representation
-#    number_representation += 1
-
-#print(bigrams_to_numbers)
-
-'''
 # Mixed dictionary
-mixed_to_numbers = {}
-number_representation = 0
-mixed_corpus_list = []
-with open('aux.txt', 'r') as file:
+#mixed_to_numbers = {}
+#number_representation = 0
+#mixed_corpus_list = []
+#with open('aux.txt', 'r') as file:
 #with open('features.txt', 'r') as file:
-    features_list = file.read()
-features_list = features_list.split('\n')
+#    features_list = file.read()
+#features_list = features_list.split('\n')
 #print(features_list)
-
-for mixed in features_list:
-    mixed_to_numbers[mixed] = number_representation
-    number_representation += 1
-
+#for mixed in features_list:
+#    mixed_to_numbers[mixed] = number_representation
+#    number_representation += 1
 #print(mixed_to_numbers)
 
-
-#for i in words_to_numbers:
-#    print(i, words_to_numbers[i])
-print("Length of the dictionary of word representations:",len(words_to_numbers))
+#print("Length of the dictionary of word representations:",len(words_to_numbers))
 
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
 #               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS -NOPE, FIXED
@@ -212,6 +190,7 @@ train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
 dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
 test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
+print(dev_vectors_list)
 #train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
 #dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
 #test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
@@ -224,9 +203,13 @@ test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 #    print(sent)
 #print(train_vectors_list)
 
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list)
+#train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
+#dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
+#test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
+
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
 
 # FLAG - CHECK IF SPARSE MATRIX REPRESENTATION WAS DONE CORRECTLY
 
@@ -282,7 +265,8 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 importances = model.feature_importances_
 #importances = model_b.feature_importances_
 
-for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
     if (value != 0):
 	    print('Feature:',token,'Score:',value)
 
@@ -408,4 +392,3 @@ write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 
 # REFERENCE
 #Synthetic Minority Oversampling TEchnique, or SMOTE for short. This technique was described by Nitesh Chawla, et al. in their 2002 paper named for the technique titled “SMOTE: Synthetic Minority Over-sampling Technique.”
-'''
