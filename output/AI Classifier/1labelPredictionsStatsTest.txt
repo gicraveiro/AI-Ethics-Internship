@@ -2,13 +2,13 @@ Performance measures - Unigram Dictionary - SVC
 
 Test set:
 
-Precision macro: 0.61
-Precision Individually: [0.818 0.5   0.775 0.333 0.625]
-Recall macro: 0.665
-Recall Individually: [0.643 1.    0.912 0.273 0.5  ]
-F1 Score micro: 0.7
-F1 Score macro: 0.616
-F1 Score weighted: 0.687
-F1 Score Individually: [0.72  0.667 0.838 0.3   0.556]
+Precision macro: 0.566
+Precision Individually: [0.778 0.25  0.816 0.364 0.625]
+Recall macro: 0.655
+Recall Individually: [0.5   1.    0.912 0.364 0.5  ]
+F1 Score micro: 0.686
+F1 Score macro: 0.558
+F1 Score weighted: 0.682
+F1 Score Individually: [0.609 0.4   0.861 0.364 0.556]
 
 
