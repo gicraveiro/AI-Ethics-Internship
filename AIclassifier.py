@@ -238,7 +238,7 @@ test_labels_primary = create_labels_array(labels_test)
 #lin_reg = LinearRegression() # it is not discrete!!
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
-sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3, random_state=1111111))
+sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
