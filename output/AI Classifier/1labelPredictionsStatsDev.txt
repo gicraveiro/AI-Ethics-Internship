@@ -1,14 +1,14 @@
-Performance measures - Unigram Dictionary - SGD
+Performance measures - Unigram Dictionary - SVC - ONE vs Rest
 
 Dev set:
 
 Precision macro: 0.51
-Precision Individually: [0.667 0.    0.727 0.6   0.556]
-Recall macro: 0.472
-Recall Individually: [0.615 0.    0.914 0.273 0.556]
-F1 Score micro: 0.686
-F1 Score macro: 0.476
-F1 Score weighted: 0.654
-F1 Score Individually: [0.64  0.    0.81  0.375 0.556]
+Precision Individually: [0.583 0.    0.842 0.625 0.5  ]
+Recall macro: 0.493
+Recall Individually: [0.538 0.    0.914 0.455 0.556]
+F1 Score micro: 0.7
+F1 Score macro: 0.498
+F1 Score weighted: 0.693
+F1 Score Individually: [0.56  0.    0.877 0.526 0.526]
 
 

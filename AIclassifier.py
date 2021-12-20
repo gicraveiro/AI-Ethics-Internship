@@ -4,6 +4,7 @@ from sklearn.model_selection import GridSearchCV
 from imblearn.under_sampling import RandomUnderSampler 
 from imblearn.over_sampling import SMOTE
 from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
+from sklearn.multiclass import OneVsRestClassifier
 from sklearn.svm import LinearSVC
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
@@ -238,7 +239,8 @@ test_labels_primary = create_labels_array(labels_test)
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
 #sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
-svc_classifier = make_pipeline(StandardScaler(), LinearSVC(dual=False,random_state=None, tol=1e-5))
+#svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
+svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -297,8 +299,8 @@ model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 #    print('Feature:',feature[1],'Score:',feature[0])
 
 # Predicting
-#predictions = model.predict(dev_matrix_array)
-predictions = model.predict(test_matrix_array)
+predictions = model.predict(dev_matrix_array)
+#predictions = model.predict(test_matrix_array)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
@@ -312,25 +314,25 @@ pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
-#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 #path='output/AI Classifier/1labelSGDPredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
-#path='output/AI Classifier/1labelPredictionsStatsDev.txt'
-path='output/AI Classifier/1labelPredictionsStatsTest.txt'
+path='output/AI Classifier/1labelPredictionsStatsDev.txt'
+#path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures - Unigram Dictionary - SVC\n", file=file)
     #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
     #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
-#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
