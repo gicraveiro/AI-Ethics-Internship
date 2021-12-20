@@ -1,24 +1,25 @@
-from scipy import sparse
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.model_selection import GridSearchCV
-from imblearn.under_sampling import RandomUnderSampler 
-from imblearn.over_sampling import SMOTE
-from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
-from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
-from sklearn.svm import LinearSVC
-from sklearn.preprocessing import StandardScaler
-from sklearn.pipeline import make_pipeline
-from gensim.models import FastText  
-
+#from scipy import sparse
+#from sklearn.ensemble import AdaBoostClassifier
+#from sklearn.model_selection import GridSearchCV
+#from imblearn.under_sampling import RandomUnderSampler 
+#from imblearn.over_sampling import SMOTE
+#from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
+#from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
+#from sklearn.svm import LinearSVC
+#from sklearn.preprocessing import StandardScaler
+#from sklearn.pipeline import make_pipeline
+#from gensim.models import FastText  
+import fasttext.util
 #from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
 from partition import sents_train, labels_train, sents_dev, labels_dev, sents_test, labels_test
 import spacy
 import numpy
 from collections import Counter 
+from sklearn.neural_network import MLPClassifier
 #import matplotlib.pyplot as plt
 import os
-from nltk.corpus import stopwords
+#from nltk.corpus import stopwords
 
 # Creating dictionary
 def create_dict(lexicon):
@@ -184,22 +185,41 @@ mixed_to_numbers = create_dict(features_list)
 
 #print(mixed_to_numbers)
 
+ft = fasttext.load_model('cc.en.300.bin')
+
 #print(sents_train)
-tokens_list_of_lists = []
+word_embbeding_features = []
+we_list = []
 for sent in sents_train:
     sent_doc = clean_corpus(sent) 
     sent_doc = nlp(sent_doc)
     sent_doc = reconstruct_hyphenated_words(sent_doc)
     sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
-    tokens_list_of_lists.append(sent_doc)
-#print(tokens_list_of_lists)
-# WORD EMBEDDINGS FOR NN APPROACH
-model_FastText = FastText() #size=4, window=3, min_count=1
-model_FastText.build_vocab(corpus_iterable=tokens_list_of_lists)
-model_FastText.train(corpus_iterable=tokens_list_of_lists, total_examples=len(tokens_list_of_lists), epochs=10) #epochs=10
-print([model_FastText.get_word_vector(x) for x in tokens_list_of_lists])
+    sentence_embbeding = []
+    for token in sent_doc:
+        token_word_embbeding = ft.get_word_vector(token)
+        #print(token_word_embbeding)    
+        sentence_embbeding.append(token_word_embbeding)
+    we_mean = numpy.asarray(sentence_embbeding).mean(axis=0)
+    #print(we_mean)
+    #we_mean = numpy.asarray(we_mean)
+    we_list.tolist().append(we_mean)
+    we_list = numpy.asarray(we_list)
+    #print(we_list)
+   # print(we_list)
+    #print(we_mean)
+    #word_embbeding_features = numpy.append(word_embbeding_features, we_mean)
+    #print(word_embbeding_features)
+    #tokens_list_of_lists.append(sent_doc)
+#print(word_embbeding_features)
 
-'''
+#print(we_list)
+we_list = numpy.asarray(we_list)
+print(we_list)
+
+#print(numpy.asarray(word_embbeding_features))
+# WORD EMBEDDINGS FOR NN APPROACH
+
 #print("Length of the dictionary of word representations:",len(words_to_numbers))
 #print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
 #print("Length of the dictionary of word representations:",len(mixed_to_numbers))
@@ -230,6 +250,8 @@ train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words
 dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
 test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
 
+print(train_matrix_array)
+
 #train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
 #dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
 #test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
@@ -257,7 +279,8 @@ test_labels_primary = create_labels_array(labels_test)
 #ridge_classifier = RidgeClassifier()
 #sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
-svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
+#svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
+#mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300)
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -293,7 +316,8 @@ svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(du
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
 #model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
-model = svc_classifier.fit(train_matrix_array, train_labels_primary)
+#model = svc_classifier.fit(train_matrix_array, train_labels_primary)
+#model = mlp_classifier.fit(word_embbeding_features, train_labels_primary)
 #importances = model.feature_importances_
 
 
@@ -319,25 +343,25 @@ model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 
 # Predicting
 #predictions = model.predict(dev_matrix_array)
-predictions = model.predict(test_matrix_array)
+#predictions = model.predict(test_matrix_array)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
     #print(sent, pred, "\n")
-print("Predictions:\n", predictions)
+#print("Predictions:\n", predictions)
 
 # Confusion matrix
 test_list = test_labels_primary.tolist()
 dev_list = dev_labels_primary.tolist()
-pred_list = [pred for pred in predictions]
+#pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
 #create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
 #create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
 #path='output/AI Classifier/1labelSGDPredictionsStatsDev.txt'
@@ -346,12 +370,12 @@ create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels
 path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    print("Performance measures - Unigram Dictionary - SVC\n", file=file)
+    print("Performance measures - Unigram Dictionary - MLP\n", file=file)
     #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
     #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
@@ -420,4 +444,3 @@ write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # REFERENCE
 #Synthetic Minority Oversampling TEchnique, or SMOTE for short. This technique was described by Nitesh Chawla, et al. in their 2002 paper named for the technique titled “SMOTE: Synthetic Minority Over-sampling Technique.”
-'''
