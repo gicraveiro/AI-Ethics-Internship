@@ -8,6 +8,7 @@ from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
 from sklearn.svm import LinearSVC
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
+from gensim.models import FastText  
 
 #from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
@@ -29,7 +30,7 @@ def create_dict(lexicon):
         tokens_to_numbers[token] = number_representation
         number_representation += 1
     tokens_to_numbers["unk"] = number_representation
-    print(tokens_to_numbers)
+    #print(tokens_to_numbers)
     return tokens_to_numbers
 
 # Transform labels list with names in label array with number representations
@@ -181,9 +182,25 @@ with open('features.txt', 'r') as file:
 features_list = features_list.split('\n')
 mixed_to_numbers = create_dict(features_list)
 
-print(mixed_to_numbers)
+#print(mixed_to_numbers)
 
-print("Length of the dictionary of word representations:",len(words_to_numbers))
+#print(sents_train)
+tokens_list_of_lists = []
+for sent in sents_train:
+    sent_doc = clean_corpus(sent) 
+    sent_doc = nlp(sent_doc)
+    sent_doc = reconstruct_hyphenated_words(sent_doc)
+    sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+    tokens_list_of_lists.append(sent_doc)
+#print(tokens_list_of_lists)
+# WORD EMBEDDINGS FOR NN APPROACH
+model_FastText = FastText() #size=4, window=3, min_count=1
+model_FastText.build_vocab(corpus_iterable=tokens_list_of_lists)
+model_FastText.train(corpus_iterable=tokens_list_of_lists, total_examples=len(tokens_list_of_lists), epochs=10) #epochs=10
+print([model_FastText.get_word_vector(x) for x in tokens_list_of_lists])
+
+'''
+#print("Length of the dictionary of word representations:",len(words_to_numbers))
 #print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
 #print("Length of the dictionary of word representations:",len(mixed_to_numbers))
 
@@ -278,6 +295,8 @@ svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(du
 #model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 #importances = model.feature_importances_
+
+
 
 #for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
@@ -401,3 +420,4 @@ write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # REFERENCE
 #Synthetic Minority Oversampling TEchnique, or SMOTE for short. This technique was described by Nitesh Chawla, et al. in their 2002 paper named for the technique titled “SMOTE: Synthetic Minority Over-sampling Technique.”
+'''
