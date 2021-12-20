@@ -3,9 +3,8 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
 from imblearn.under_sampling import RandomUnderSampler 
 from imblearn.over_sampling import SMOTE
-from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import RidgeClassifier
-from sklearn.linear_model import SGDClassifier
+from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
+from sklearn.svm import LinearSVC
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 
@@ -238,7 +237,8 @@ test_labels_primary = create_labels_array(labels_test)
 #lin_reg = LinearRegression() # it is not discrete!!
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
-sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
+#sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
+svc_classifier = make_pipeline(StandardScaler(), LinearSVC(dual=False,random_state=None, tol=1e-5))
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -273,8 +273,8 @@ sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol
 #model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
-model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
-
+#model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
+model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 #importances = model.feature_importances_
 
 #for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
@@ -325,7 +325,7 @@ create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels
 path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    print("Performance measures - Unigram Dictionary - SGD\n", file=file)
+    print("Performance measures - Unigram Dictionary - SVC\n", file=file)
     #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
     #print("Performance measures - Bigram Dictionary\n", file=file)
 #write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
