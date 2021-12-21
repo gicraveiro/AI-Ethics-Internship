@@ -39,16 +39,21 @@ def create_labels_array(labels_list):
     labels_array = []
     for label in labels_list:
         if label[0] == 'Commit to privacy':
-            labels_array = numpy.append(labels_array,1)
+            #labels_array = numpy.append(labels_array,1)
+            labels_array.append(1)
         if label[0] == 'Violate privacy':
-            labels_array = numpy.append(labels_array,2)
+            #labels_array = numpy.append(labels_array,2)
+            labels_array.append(2)
         if label[0] == 'Declare opinion about privacy':
-            labels_array = numpy.append(labels_array,3)
+            #labels_array = numpy.append(labels_array,3)
+            labels_array.append(3)
         if label[0] == 'Related to privacy':
-            labels_array = numpy.append(labels_array,4)
+            #labels_array = numpy.append(labels_array,4)
+            labels_array.append(4)
         if label[0] == 'Not applicable':
-            labels_array = numpy.append(labels_array,5)
-    labels_array = labels_array.astype(int)
+            #labels_array = numpy.append(labels_array,5)
+            labels_array.append(5)
+    #labels_array = labels_array.astype(int)
     return labels_array
 
 # Create sparse matrixes that represent words present in each sentence, which is the appropriate format to feed the AI classifier
@@ -136,12 +141,55 @@ def create_vectors_list(sents, conversion_dict):
     #return bigrams_vector
     #return mixed_vector
 
+def create_word_embbeding(partition):
+
+    word_embbeding_features = []
+    for sent in partition:
+        sent_doc = clean_corpus(sent) 
+        sent_doc = nlp(sent_doc)
+        sent_doc = reconstruct_hyphenated_words(sent_doc)
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+        sentence_embbeding = []
+        print(sent_doc)
+        for token in sent_doc:
+            token_word_embbeding = ft.get_word_vector(token)
+            sentence_embbeding.append(token_word_embbeding)
+            print(token, "I exist!")
+        print(sentence_embbeding)
+        we_mean = numpy.asarray(sentence_embbeding).mean(axis=0)
+        if isinstance(we_mean, float):
+            we_mean = numpy.zeros(300, dtype=float)
+        word_embbeding_features.append(we_mean)
+        #word_embbeding_features = numpy.asarray(word_embbeding_features)
+        #word_embbeding_features = numpy.append(word_embbeding_features, we_mean)
+        #tokens_list_of_lists.append(sent_doc)
+    #word_embbeding_features = numpy.asarray(word_embbeding_features)
+    word_embbeding_features = word_embbeding_features
+    return word_embbeding_features
+
 ####
 # MAIN
 
 nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner', 'attribute_ruler', 'lemmatizer']) 
 
 # Preprocessing input 
+
+for sent, label in zip(sents_train, labels_train):
+    
+    cleared_sent = clean_corpus(sent)
+    cleared_sent = nlp(cleared_sent)
+    cleared_sent = reconstruct_hyphenated_words(cleared_sent)
+    cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
+    if (label == ['Not applicable'] and len(cleared_sent) == 0):
+        print("identified!")
+        print(sent, label)
+    elif(len(cleared_sent) == 0):
+        print("something is wrong")
+        print("<<",sent, label, ">>")
+        
+
+
+'''
 
 #print(sents_train)
 corpus = ' '.join(sents_train)
@@ -185,49 +233,13 @@ mixed_to_numbers = create_dict(features_list)
 
 #print(mixed_to_numbers)
 
+# WORD EMBEDDINGS FOR NN APPROACH
 ft = fasttext.load_model('cc.en.300.bin')
 
-#print(sents_train)
-word_embbeding_features = []
-we_list = []
-for sent in sents_train:
-    sent_doc = clean_corpus(sent) 
-    sent_doc = nlp(sent_doc)
-    sent_doc = reconstruct_hyphenated_words(sent_doc)
-    sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
-    sentence_embbeding = []
-    for token in sent_doc:
-        token_word_embbeding = ft.get_word_vector(token)
-        #print(token_word_embbeding)    
-        sentence_embbeding.append(token_word_embbeding)
-    we_mean = numpy.asarray(sentence_embbeding).mean(axis=0)
-    if isinstance(we_mean, float):
-        we_mean = numpy.zeros(300, dtype=float)
-        print(we_mean)
-    print(type(we_mean))
-    #print(we_mean)
-    #we_mean = numpy.asarray(we_mean)
-    we_list.append(we_mean)
-    #print(we_list.shape)
-    print(we_mean.shape)
-    #we_list = numpy.asarray(we_list)
 
-    #print(word_embbeding_array)
-   # print(we_list)
-    #print(we_mean)
-    #word_embbeding_features = numpy.append(word_embbeding_features, we_mean)
-    #print(word_embbeding_features)
-    #tokens_list_of_lists.append(sent_doc)
-#print(word_embbeding_features)
-
-#print(we_list)
-we_list = numpy.asarray(we_list)
-#print(we_list)
-print(we_list.shape)
-
-#print(numpy.asarray(word_embbeding_features))
-# WORD EMBEDDINGS FOR NN APPROACH
-
+train_word_embbeding_features = create_word_embbeding(sents_train)
+dev_word_embbeding_features = create_word_embbeding(sents_dev)
+test_word_embbeding_features = numpy.asarray(create_word_embbeding(sents_test))
 #print("Length of the dictionary of word representations:",len(words_to_numbers))
 #print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
 #print("Length of the dictionary of word representations:",len(mixed_to_numbers))
@@ -258,9 +270,6 @@ train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words
 dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
 test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
 
-print(train_matrix_array)
-
-
 #train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
 #dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
 #test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
@@ -273,7 +282,7 @@ print(train_matrix_array)
 
 train_labels_primary = create_labels_array(labels_train)
 dev_labels_primary = create_labels_array(labels_dev)
-test_labels_primary = create_labels_array(labels_test)
+test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 
 # FLAG - ENSURE THAT LABELS LIST ARE CORRECTLY MADE
 
@@ -289,7 +298,7 @@ test_labels_primary = create_labels_array(labels_test)
 #sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
-mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300)
+mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32)
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -326,7 +335,9 @@ mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
 #model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 #model = svc_classifier.fit(train_matrix_array, train_labels_primary)
-model = mlp_classifier.fit(we_list, train_labels_primary)
+new_train_features = numpy.asarray(train_word_embbeding_features + dev_word_embbeding_features)
+new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
+model = mlp_classifier.fit(new_train_features, new_train_labels)
 #importances = model.feature_importances_
 
 
@@ -353,16 +364,18 @@ model = mlp_classifier.fit(we_list, train_labels_primary)
 # Predicting
 #predictions = model.predict(dev_matrix_array)
 #predictions = model.predict(test_matrix_array)
+#predictions = model.predict(dev_word_embbeding_features)
+predictions = model.predict(test_word_embbeding_features)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
     #print(sent, pred, "\n")
-#print("Predictions:\n", predictions)
+print("Predictions:\n", predictions)
 
 # Confusion matrix
 test_list = test_labels_primary.tolist()
-dev_list = dev_labels_primary.tolist()
-#pred_list = [pred for pred in predictions]
+#dev_list = dev_labels_primary.tolist()
+pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
@@ -381,10 +394,8 @@ os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures - Unigram Dictionary - MLP\n", file=file)
     #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
-    #print("Performance measures - Bigram Dictionary\n", file=file)
-#write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
@@ -453,3 +464,4 @@ with open(path, 'w') as file:
 
 # REFERENCE
 #Synthetic Minority Oversampling TEchnique, or SMOTE for short. This technique was described by Nitesh Chawla, et al. in their 2002 paper named for the technique titled “SMOTE: Synthetic Minority Over-sampling Technique.”
+'''
