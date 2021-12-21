@@ -1,13 +1,13 @@
-#from scipy import sparse
-#from sklearn.ensemble import AdaBoostClassifier
-#from sklearn.model_selection import GridSearchCV
-#from imblearn.under_sampling import RandomUnderSampler 
+from scipy import sparse
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.model_selection import GridSearchCV
+from imblearn.under_sampling import RandomUnderSampler 
 #from imblearn.over_sampling import SMOTE
-#from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
-#from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
-#from sklearn.svm import LinearSVC
-#from sklearn.preprocessing import StandardScaler
-#from sklearn.pipeline import make_pipeline
+from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
+from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
+from sklearn.svm import LinearSVC
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import make_pipeline
 #from gensim.models import FastText  
 import fasttext.util
 #from sklearn import metrics
@@ -305,9 +305,9 @@ test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
 #sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
-#svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
+svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
-mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32)
+#mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32)
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -343,13 +343,12 @@ mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300, early_stoppin
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
 #model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
-#model = svc_classifier.fit(train_matrix_array, train_labels_primary)
+model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 new_train_features = numpy.asarray(train_word_embbeding_features + dev_word_embbeding_features)
 new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
-model = mlp_classifier.fit(new_train_features, new_train_labels)
+#model = mlp_classifier.fit(new_train_features, new_train_labels)
+
 #importances = model.feature_importances_
-
-
 
 #for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
@@ -372,9 +371,9 @@ model = mlp_classifier.fit(new_train_features, new_train_labels)
 
 # Predicting
 #predictions = model.predict(dev_matrix_array)
-#predictions = model.predict(test_matrix_array)
+predictions = model.predict(test_matrix_array)
 #predictions = model.predict(dev_word_embbeding_features)
-predictions = model.predict(test_word_embbeding_features)
+#predictions = model.predict(test_word_embbeding_features)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
@@ -401,7 +400,7 @@ path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
 path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    print("Performance measures - Unigram Dictionary - MLP\n", file=file)
+    print("Performance measures - Unigram Dictionary - SVC\n", file=file)
     #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
