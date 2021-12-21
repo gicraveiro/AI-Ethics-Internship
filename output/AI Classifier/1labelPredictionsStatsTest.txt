@@ -1,14 +1,14 @@
-Performance measures - Unigram Dictionary - SVC
+Performance measures - Unigram Dictionary - SGD Seed
 
 Test set:
 
-Precision macro: 0.599
-Precision Individually: [0.833 0.5   0.757 0.333 0.571]
-Recall macro: 0.658
-Recall Individually: [0.714 1.    0.903 0.273 0.4  ]
-F1 Score micro: 0.687
-F1 Score macro: 0.606
-F1 Score weighted: 0.671
-F1 Score Individually: [0.769 0.667 0.824 0.3   0.471]
+Precision macro: 0.473
+Precision Individually: [0.875 0.    0.659 0.333 0.5  ]
+Recall macro: 0.403
+Recall Individually: [0.5   0.    0.935 0.182 0.4  ]
+F1 Score micro: 0.627
+F1 Score macro: 0.418
+F1 Score weighted: 0.596
+F1 Score Individually: [0.636 0.    0.773 0.235 0.444]
 
 

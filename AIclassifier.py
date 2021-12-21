@@ -304,8 +304,8 @@ test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 #lin_reg = LinearRegression() # it is not discrete!!
 # RIDGE REGRESSION CLASSIFIER
 #ridge_classifier = RidgeClassifier()
-#sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
-svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
+sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3, random_state=1111111))
+#svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
 #mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32)
 
@@ -342,10 +342,10 @@ svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(d
 #model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = lin_reg.fit(train_matrix_array, train_labels_primary)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
-#model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
-model = svc_classifier.fit(train_matrix_array, train_labels_primary)
-new_train_features = numpy.asarray(train_word_embbeding_features + dev_word_embbeding_features)
-new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
+model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
+#model = svc_classifier.fit(train_matrix_array, train_labels_primary)
+#new_train_features = numpy.asarray(train_word_embbeding_features + dev_word_embbeding_features)
+#new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
 #model = mlp_classifier.fit(new_train_features, new_train_labels)
 
 #importances = model.feature_importances_
@@ -400,7 +400,7 @@ path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
 path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    print("Performance measures - Unigram Dictionary - SVC\n", file=file)
+    print("Performance measures - Unigram Dictionary - SGD Seed\n", file=file)
     #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
