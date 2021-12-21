@@ -201,11 +201,18 @@ for sent in sents_train:
         #print(token_word_embbeding)    
         sentence_embbeding.append(token_word_embbeding)
     we_mean = numpy.asarray(sentence_embbeding).mean(axis=0)
+    if isinstance(we_mean, float):
+        we_mean = numpy.zeros(300, dtype=float)
+        print(we_mean)
+    print(type(we_mean))
     #print(we_mean)
     #we_mean = numpy.asarray(we_mean)
-    we_list.tolist().append(we_mean)
-    we_list = numpy.asarray(we_list)
-    #print(we_list)
+    we_list.append(we_mean)
+    #print(we_list.shape)
+    print(we_mean.shape)
+    #we_list = numpy.asarray(we_list)
+
+    #print(word_embbeding_array)
    # print(we_list)
     #print(we_mean)
     #word_embbeding_features = numpy.append(word_embbeding_features, we_mean)
@@ -215,7 +222,8 @@ for sent in sents_train:
 
 #print(we_list)
 we_list = numpy.asarray(we_list)
-print(we_list)
+#print(we_list)
+print(we_list.shape)
 
 #print(numpy.asarray(word_embbeding_features))
 # WORD EMBEDDINGS FOR NN APPROACH
@@ -252,6 +260,7 @@ test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_t
 
 print(train_matrix_array)
 
+
 #train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
 #dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
 #test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
@@ -280,7 +289,7 @@ test_labels_primary = create_labels_array(labels_test)
 #sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3))#, random_state=1111111))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
-#mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300)
+mlp_classifier = MLPClassifier(random_state=1111111, max_iter=300)
 
 # FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
 
@@ -317,7 +326,7 @@ test_labels_primary = create_labels_array(labels_test)
 #model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
 #model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 #model = svc_classifier.fit(train_matrix_array, train_labels_primary)
-#model = mlp_classifier.fit(word_embbeding_features, train_labels_primary)
+model = mlp_classifier.fit(we_list, train_labels_primary)
 #importances = model.feature_importances_
 
 
