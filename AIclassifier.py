@@ -17,6 +17,7 @@ import spacy
 import numpy
 from collections import Counter 
 from sklearn.neural_network import MLPClassifier
+import copy
 #import matplotlib.pyplot as plt
 import os
 #from nltk.corpus import stopwords
@@ -150,15 +151,16 @@ def create_word_embbeding(partition):
         sent_doc = reconstruct_hyphenated_words(sent_doc)
         sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
         sentence_embbeding = []
-        print(sent_doc)
+        #print(sent_doc)
         for token in sent_doc:
             token_word_embbeding = ft.get_word_vector(token)
             sentence_embbeding.append(token_word_embbeding)
-            print(token, "I exist!")
-        print(sentence_embbeding)
+            #print(token, "I exist!")
+        #print(sentence_embbeding)
         we_mean = numpy.asarray(sentence_embbeding).mean(axis=0)
-        if isinstance(we_mean, float):
-            we_mean = numpy.zeros(300, dtype=float)
+        #if isinstance(we_mean, float):
+        #    print("THERE IS A ZERO")
+        #    we_mean = numpy.zeros(300, dtype=float)
         word_embbeding_features.append(we_mean)
         #word_embbeding_features = numpy.asarray(word_embbeding_features)
         #word_embbeding_features = numpy.append(word_embbeding_features, we_mean)
@@ -174,24 +176,31 @@ nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner',
 
 # Preprocessing input 
 
-for sent, label in zip(sents_train, labels_train):
-    
-    cleared_sent = clean_corpus(sent)
-    cleared_sent = nlp(cleared_sent)
-    cleared_sent = reconstruct_hyphenated_words(cleared_sent)
-    cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
-    if (label == ['Not applicable'] and len(cleared_sent) == 0):
-        print("identified!")
-        print(sent, label)
-    elif(len(cleared_sent) == 0):
-        print("something is wrong")
-        print("<<",sent, label, ">>")
-        
+def remove_empty_sentences(sents, labels):
+    for i, (sent, label) in enumerate(zip(sents, labels)):
+        cleared_sent = clean_corpus(sent)
+        cleared_sent = nlp(cleared_sent)
+        cleared_sent = reconstruct_hyphenated_words(cleared_sent)
+        cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
+        if (label == ['Not applicable'] and len(cleared_sent) == 0):
+            #print(sent, label)
+            #print(cleared_sent)
+            sents[i] = "REMOVE THIS ITEM"
+            labels[i] = "REMOVE THIS ITEM"
+    sents = [sent for sent in sents if sent != "REMOVE THIS ITEM"]
+    labels = [label for label in labels if label != "REMOVE THIS ITEM"]
+    #print(sents, labels)
+    return sents, labels
 
+sents_train, labels_train = remove_empty_sentences(sents_train, labels_train)
+#print(sents_train, labels_train)
+sents_dev, labels_dev = remove_empty_sentences(sents_dev, labels_dev)
+sents_test, labels_test = remove_empty_sentences(sents_test, labels_test)
 
-'''
-
+#print(sents_dev, labels_dev)
+#print(sents_test, labels_test)
 #print(sents_train)
+
 corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
 train_doc = nlp(corpus)
@@ -464,4 +473,3 @@ write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # REFERENCE
 #Synthetic Minority Oversampling TEchnique, or SMOTE for short. This technique was described by Nitesh Chawla, et al. in their 2002 paper named for the technique titled “SMOTE: Synthetic Minority Over-sampling Technique.”
-'''
