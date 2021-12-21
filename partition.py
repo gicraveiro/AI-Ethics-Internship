@@ -62,7 +62,7 @@ def plot_distribution(counter, name, type):
         plt.text(i,item,str(round((item*100/total),1)))
     plt.ylim((0,values[0]+values[2]))
     #plt.show()
-    plt.savefig('output/partition/'+type+'_distribution_'+name+'.jpg')
+    plt.savefig('output/partition/'+type+'_distribution_'+name+'.png')
     return 
 
 def calculate_distribution(label_count, total):

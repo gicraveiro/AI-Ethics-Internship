@@ -1,14 +1,14 @@
-Performance measures - Unigram Dictionary - SGD Seed
+Performance measures - Unigram Dictionary - MLP Word Embeddings
 
 Test set:
 
-Precision macro: 0.473
-Precision Individually: [0.875 0.    0.659 0.333 0.5  ]
-Recall macro: 0.403
-Recall Individually: [0.5   0.    0.935 0.182 0.4  ]
-F1 Score micro: 0.627
-F1 Score macro: 0.418
-F1 Score weighted: 0.596
-F1 Score Individually: [0.636 0.    0.773 0.235 0.444]
+Precision macro: 0.534
+Precision Individually: [0.778 0.    0.73  0.75  0.412]
+Recall macro: 0.469
+Recall Individually: [0.5   0.    0.871 0.273 0.7  ]
+F1 Score micro: 0.657
+F1 Score macro: 0.464
+F1 Score weighted: 0.638
+F1 Score Individually: [0.609 0.    0.794 0.4   0.519]
 
 
