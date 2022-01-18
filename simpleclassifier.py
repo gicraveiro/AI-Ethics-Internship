@@ -109,17 +109,17 @@ test_pred_first_label = [label[0] for label in test_pred_array]
 
 # FLAG - CHECK IF PREDICTIONS WERE CORRECTLY FILTERED TO PRIMARY LABEL and aligned with the ones before -- CHECKED
 
-path='output/Simple Classifier/1Label_confusion_matrix_TrainNormTrue.jpg'
+path='output/Simple Classifier/1Label_confusion_matrix_TrainNormTrue.png'
 create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "true", path, None, None)
-path='output/Simple Classifier/1Label_confusion_matrix_DevNormTrue.jpg'
+path='output/Simple Classifier/1Label_confusion_matrix_DevNormTrue.png'
 create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "true", path, None, None)
-path='output/Simple Classifier/1Label_confusion_matrix_TestNormTrue.jpg'
+path='output/Simple Classifier/1Label_confusion_matrix_TestNormTrue.png'
 create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "true", path, None, None)
-path='output/Simple Classifier/1Label_confusion_matrix_TrainNonNorm.jpg'
+path='output/Simple Classifier/1Label_confusion_matrix_TrainNonNorm.png'
 create_confusion_matrix(train_ref_primary_label, train_pred_first_label, None, path, None, None)
-path='output/Simple Classifier/1Label_confusion_matrix_DevNonNorm.jpg'
+path='output/Simple Classifier/1Label_confusion_matrix_DevNonNorm.png'
 create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, None, path, None, None)
-path='output/Simple Classifier/1Label_confusion_matrix_TestNonNorm.jpg'
+path='output/Simple Classifier/1Label_confusion_matrix_TestNonNorm.png'
 create_confusion_matrix(test_ref_primary_label, test_pred_first_label, None, path, None, None)
 
 # FLAG  - CHECK IF CONFUSION MATRIX IS CORRECT - CHECKED

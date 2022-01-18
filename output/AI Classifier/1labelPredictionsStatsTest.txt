@@ -1,14 +1,14 @@
-Performance measures
+Performance measures - Unigram Dictionary - MLP Word Embeddings
 
 Test set:
 
-Precision macro: 0.339
-Precision Individually: [0.5   0.    0.596 0.    0.6  ]
-Recall macro: 0.303
-Recall Individually: [0.214 0.    1.    0.    0.3  ]
-F1 Score micro: 0.571
-F1 Score macro: 0.289
-F1 Score weighted: 0.48
-F1 Score Individually: [0.3   0.    0.747 0.    0.4  ]
+Precision macro: 0.534
+Precision Individually: [0.778 0.    0.73  0.75  0.412]
+Recall macro: 0.469
+Recall Individually: [0.5   0.    0.871 0.273 0.7  ]
+F1 Score micro: 0.657
+F1 Score macro: 0.464
+F1 Score weighted: 0.638
+F1 Score Individually: [0.609 0.    0.794 0.4   0.519]
 
 

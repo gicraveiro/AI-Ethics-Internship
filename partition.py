@@ -7,6 +7,7 @@ import json
 from collections import Counter
 import matplotlib.pyplot as plt
 import numpy
+from imblearn.over_sampling import SMOTE
 
 # Functions
 
@@ -61,7 +62,7 @@ def plot_distribution(counter, name, type):
         plt.text(i,item,str(round((item*100/total),1)))
     plt.ylim((0,values[0]+values[2]))
     #plt.show()
-    plt.savefig('output/partition/'+type+'_distribution_'+name+'.jpg')
+    plt.savefig('output/partition/'+type+'_distribution_'+name+'.png')
     return 
 
 def calculate_distribution(label_count, total):
@@ -98,6 +99,7 @@ for l1,l2 in zip(labels1,labels2):
 
 # Partitions data into 80% trainset and remaining 20%
 sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=1111111)
+#sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.3, stratify=labels, random_state=1111111)
 
 # Partitions remaining 20% into dev set (10%) and test set (10%)
 sents_test, sents_dev, labels_test, labels_dev = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test, random_state=1111111)
@@ -168,3 +170,14 @@ write_distribution(path, counter, "Test")
 
 # FLAG - CHECK IF DISTRIBUTION IS BEING DONE AND MEASURED CORRECTLY
 # FLAG - in theory checked, but RECHECK rechecked
+
+
+#print(dev_sents_ref_list)
+#print(dev_ref_primary_label)
+#oversample = SMOTE()
+#X, y = oversample.fit_resample(dev_sents_ref_list, dev_ref_primary_label)
+# summarize the new class distribution
+#counter = Counter(y)
+#print(X)
+#print(y)
+#print(counter)

@@ -1,40 +1,73 @@
+from scipy import sparse
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
-
-#from sklearn import metrics
+from imblearn.under_sampling import RandomUnderSampler 
+#from imblearn.over_sampling import SMOTE
+from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
+from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
+from sklearn.svm import LinearSVC
+from sklearn.preprocessing import StandardScaler
+from sklearn.pipeline import make_pipeline
+#from gensim.models import FastText  
+import fasttext.util
+from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
 from partition import sents_train, labels_train, sents_dev, labels_dev, sents_test, labels_test
 import spacy
 import numpy
 from collections import Counter 
+from sklearn.neural_network import MLPClassifier
+import copy
 #import matplotlib.pyplot as plt
 import os
-from nltk.corpus import stopwords
+#from nltk.corpus import stopwords
+
+# Creating dictionary
+def create_dict(lexicon):
+    #print(lexicon)
+    tokens_to_numbers = {}
+    number_representation = 0
+    for token in lexicon:
+        #print(token, number_representation)
+        tokens_to_numbers[token] = number_representation
+        number_representation += 1
+    tokens_to_numbers["unk"] = number_representation
+    #print(tokens_to_numbers)
+    return tokens_to_numbers
 
 # Transform labels list with names in label array with number representations
 def create_labels_array(labels_list):
     labels_array = []
     for label in labels_list:
         if label[0] == 'Commit to privacy':
-            labels_array = numpy.append(labels_array,1)
+            #labels_array = numpy.append(labels_array,1)
+            labels_array.append(1)
         if label[0] == 'Violate privacy':
-            labels_array = numpy.append(labels_array,2)
+            #labels_array = numpy.append(labels_array,2)
+            labels_array.append(2)
         if label[0] == 'Declare opinion about privacy':
-            labels_array = numpy.append(labels_array,3)
+            #labels_array = numpy.append(labels_array,3)
+            labels_array.append(3)
         if label[0] == 'Related to privacy':
-            labels_array = numpy.append(labels_array,4)
+            #labels_array = numpy.append(labels_array,4)
+            labels_array.append(4)
         if label[0] == 'Not applicable':
-            labels_array = numpy.append(labels_array,5)
-    labels_array = labels_array.astype(int)
+            #labels_array = numpy.append(labels_array,5)
+            labels_array.append(5)
+    #labels_array = labels_array.astype(int)
     return labels_array
 
 # Create sparse matrixes that represent words present in each sentence, which is the appropriate format to feed the AI classifier
-def format_sentVector_to_SparseMatrix(vectors_list):
+def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
     for i, sent_vector in enumerate(vectors_list): 
-        sparse_vector = [0] * len(words_to_numbers) # vocabulary size cause each word present is a feature
+        sparse_vector = [0] * len(dictionary) # vocabulary size cause each word present is a feature
+        #print(sparse_vector)
         counts = Counter(sent_vector)
+        #print(counts)
         for index, freq in counts.items():
-            sparse_vector[index] = 1 # freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES
+            if len(counts.items()) > 0:
+                #print(len(counts.items()), counts)
+                sparse_vector[index] = 1 #freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
@@ -46,71 +79,95 @@ def format_sentVector_to_SparseMatrix(vectors_list):
 def create_vectors_list(sents, conversion_dict):
     unk_count = 0
     vectors_list = []
-    sent_bigrams_vector = []
-    sent_mixed_vector = []
+    bigrams_vector = []
+    mixed_vector = []
     
     for sent in sents:
         sent_doc = clean_corpus(sent) 
         sent_doc = nlp(sent_doc)
         sent_doc = reconstruct_hyphenated_words(sent_doc)
-        #sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()]
-        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()]
         sent_bigram = []
         for i in range(0, (len(sent_doc)-1)):
             sent_bigram.append(sent_doc[i].lower()+" "+sent_doc[i+1].lower())
         #print(sent_bigram)
         sent_tokens_list = []
         sent_bigrams_list = []
+        mixed_tokens_list = []
         sent_vector = []
-        #print(sent_doc)
-        #print(sent_bigram)
+        sent_mixed_vector = []
+        sent_bigrams_vector = []
         for token in sent_doc:  
             if token.lower() not in conversion_dict: 
                 #sent_tokens_list.append("unk")
+                #mixed_tokens_list.append("unk")
                 #unk_count += 1
                 pass
             else:
-                print(token)
+                #print(token)
                 sent_tokens_list.append(token.lower())
-                sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # remove one tab to go back to considering unk 
+                mixed_tokens_list.append(token.lower())
+                sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
+                sent_mixed_vector = numpy.append(sent_mixed_vector, conversion_dict[token])
             if len(sent_vector) > 0:
                 sent_vector = sent_vector.astype(int)
-        #print("sent vector token:",sent_vector)
+            if len(sent_mixed_vector) > 0:
+                sent_mixed_vector = sent_mixed_vector.astype(int)
+            
+            
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
-                #sent_bigrams_list.append("unk")
-                #sent_bigrams_list = numpy.append(sent_bigrams_vector, "unk")
-                pass
+                sent_bigrams_list.append("unk")
+
+                #unk_count += 1
+                #pass
             else:
-                print(bigram)
-                sent_bigrams_list = numpy.append(sent_bigrams_list, conversion_dict[bigram])
-                sent_bigrams_list = sent_bigrams_list.astype(int)
-                #sent_bigrams_list.append(bigram)
-            #sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
-            #if len(sent_bigrams_list) > 0:
-            #    sent_bigrams_list = sent_bigrams_list.astype(int)
-        #print("bigram", sent_bigrams_list)
+                #print(bigram)
+                sent_bigrams_list.append(bigram)
+                mixed_tokens_list.append(bigram)
+                sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
+                sent_mixed_vector = numpy.append(sent_mixed_vector, conversion_dict[bigram])
+            if len(sent_bigrams_vector) > 0:
+                sent_bigrams_vector = sent_bigrams_vector.astype(int)
+            if len(sent_mixed_vector) > 0:
+                sent_mixed_vector = sent_mixed_vector.astype(int)
         vectors_list.append(sent_vector)
-        #print(sent_bigrams_vector)
-        #print(sent_vector)
-        #print(sent_bigram)
-         
-            #element = (sent_tokens_list[i], sent_tokens_list[i+1])
-	        #sent_bigram.append(element) #for bigram in sent_bigram:  
-        #print(sent_bigram)
-        sent_bigrams_vector.append(sent_bigrams_list)
-        if(len(sent_vector) > 0 and len(sent_bigrams_list) > 0):
-            sent_mixed_vector.append(numpy.concatenate([sent_vector,sent_bigrams_list]))
-        elif(len(sent_vector) > 0):
-            sent_mixed_vector.append(sent_vector)
-        else:
-            sent_mixed_vector.append(sent_bigrams_list)
-        
+        bigrams_vector.append(sent_bigrams_vector)
+        mixed_vector.append(sent_mixed_vector)
+
+        #print(sent_mixed_vector)
     #print("Unk count:", unk_count)
-    #return vectors_list
-    #return sent_bigrams_vector
-    #print(sent_mixed_vector)
-    return sent_mixed_vector
+    #print(vectors_list)
+    return vectors_list
+    #return bigrams_vector
+    #return mixed_vector
+
+def create_word_embedding(partition):
+
+    word_embedding_features = []
+    for sent in partition:
+        sent_doc = clean_corpus(sent) 
+        sent_doc = nlp(sent_doc)
+        sent_doc = reconstruct_hyphenated_words(sent_doc)
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+        sentence_embedding = []
+        #print(sent_doc)
+        for token in sent_doc:
+            token_word_embedding = ft.get_word_vector(token)
+            sentence_embedding.append(token_word_embedding)
+            #print(token, "I exist!")
+        #print(sentence_embedding)
+        we_mean = numpy.asarray(sentence_embedding).mean(axis=0)
+        #if isinstance(we_mean, float):
+        #    print("THERE IS A ZERO")
+        #    we_mean = numpy.zeros(300, dtype=float)
+        word_embedding_features.append(we_mean)
+        #word_embedding_features = numpy.asarray(word_embedding_features)
+        #word_embedding_features = numpy.append(word_embedding_features, we_mean)
+        #tokens_list_of_lists.append(sent_doc)
+    #word_embedding_features = numpy.asarray(word_embedding_features)
+    word_embedding_features = word_embedding_features
+    return word_embedding_features
 
 ####
 # MAIN
@@ -119,7 +176,31 @@ nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner',
 
 # Preprocessing input 
 
+def remove_empty_sentences(sents, labels):
+    for i, (sent, label) in enumerate(zip(sents, labels)):
+        cleared_sent = clean_corpus(sent)
+        cleared_sent = nlp(cleared_sent)
+        cleared_sent = reconstruct_hyphenated_words(cleared_sent)
+        cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
+        if (label == ['Not applicable'] and len(cleared_sent) == 0):
+            #print(sent, label)
+            #print(cleared_sent)
+            sents[i] = "REMOVE THIS ITEM"
+            labels[i] = "REMOVE THIS ITEM"
+    sents = [sent for sent in sents if sent != "REMOVE THIS ITEM"]
+    labels = [label for label in labels if label != "REMOVE THIS ITEM"]
+    #print(sents, labels)
+    return sents, labels
+
+sents_train, labels_train = remove_empty_sentences(sents_train, labels_train)
+#print(sents_train, labels_train)
+sents_dev, labels_dev = remove_empty_sentences(sents_dev, labels_dev)
+sents_test, labels_test = remove_empty_sentences(sents_test, labels_test)
+
+#print(sents_dev, labels_dev)
+#print(sents_test, labels_test)
 #print(sents_train)
+
 corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
 train_doc = nlp(corpus)
@@ -127,59 +208,51 @@ train_doc = reconstruct_hyphenated_words(train_doc)
 tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
 # FLAG: As extra parameters think of removing  LITTLE SQUARE, SMTH ELSE AS WELL? 
 
-word_freq = Counter(tokens)
-#print(word_freq)
+corpus_in_bigrams = []
+for i in range(0,len(tokens)-1):
+    corpus_in_bigrams.append(tokens[i]+" "+tokens[i+1])
 
+token_freq = Counter(tokens)
+bigram_freq = Counter(corpus_in_bigrams)
+#print(word_freq)
+#print(bigram_freq)
 # FLAG - checked
 
 # Remove words less frequent than  2 (or equal?)
-corpus_with_unk = [word[0] for word in word_freq.items() if int(word[1]) > 1] # < 2 or <= 2
-#print(corpus_with_unk)
+corpus_without_unk = [token[0] for token in token_freq.items() if int(token[1]) > 2] # < 2 or <= 2
+bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) > 1]
+
+#print(bigrams_filtered_lexicon)
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION 
 #  FLAG exclusion of all less or equal to 2 correctly - checked
 # COUNTING REJOINED TRAIN CORPUS x ORIGINAL SENTENCE TRAIN
 
-# Creating dictionary
-words_to_numbers = {}
-number_representation = 0
-for token in corpus_with_unk:
-    words_to_numbers[token] = number_representation
-    number_representation += 1
-words_to_numbers["unk"] = number_representation
 
-# Bigram disctionary
-bigrams_to_numbers = {}
-number_representation = 0
-bigrams_corpus_list = []
-for i in range(0,len(corpus_with_unk)-1):
-    bigrams_corpus_list.append(corpus_with_unk[i]+" "+corpus_with_unk[i+1]) 
-for bigram in bigrams_corpus_list:
-    bigrams_to_numbers[bigram] = number_representation
-    number_representation += 1
-
-print(bigrams_to_numbers)
+# Unigram dictionary
+words_to_numbers = create_dict(corpus_without_unk)
+# Bigram dictionary
+bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
 
 # Mixed dictionary
-mixed_to_numbers = {}
-number_representation = 0
-mixed_corpus_list = []
-with open('aux.txt', 'r') as file:
-#with open('features.txt', 'r') as file:
+with open('features.txt', 'r') as file:
     features_list = file.read()
 features_list = features_list.split('\n')
-print(features_list)
+mixed_to_numbers = create_dict(features_list)
 
-for mixed in features_list:
-    mixed_to_numbers[mixed] = number_representation
-    number_representation += 1
+#print(mixed_to_numbers)
+#print(features_list)
 
-print(mixed_to_numbers)
+# WORD EMBEDDINGS FOR NN APPROACH
+ft = fasttext.load_model('cc.en.300.bin')
 
 
-#for i in words_to_numbers:
-#    print(i, words_to_numbers[i])
-print("Length of the dictionary of word representations:",len(words_to_numbers))
+train_word_embedding_features = create_word_embedding(sents_train)
+dev_word_embedding_features = create_word_embedding(sents_dev)
+test_word_embedding_features = numpy.asarray(create_word_embedding(sents_test))
+#print("Length of the dictionary of word representations:",len(words_to_numbers))
+#print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
+#print("Length of the dictionary of word representations:",len(mixed_to_numbers))
 
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
 #               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS -NOPE, FIXED
@@ -187,122 +260,156 @@ print("Length of the dictionary of word representations:",len(words_to_numbers))
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-#train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
-#dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
-#test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
 #train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
 #dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
 #test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
-train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
+#train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+#dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+#test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
 # FLAG - CHECK IF SENTENCE REPRESENTATIONS WERE DONE CORRECTLY
 
-#for sent in train_vectors_list:
-#    print(sent)
-#print(train_vectors_list)
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
 
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list)
+#train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
+#dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
+#test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
+
+#train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
+#dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
+#test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
 
 # FLAG - CHECK IF SPARSE MATRIX REPRESENTATION WAS DONE CORRECTLY
 
 train_labels_primary = create_labels_array(labels_train)
 dev_labels_primary = create_labels_array(labels_dev)
-test_labels_primary = create_labels_array(labels_test)
+test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 
 # FLAG - ENSURE THAT LABELS LIST ARE CORRECTLY MADE
 
-# CLASSIFIER
+# CLASSIFIER Configurations
 
-# Configurations
-adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
-
-# FLAG - CHECK WHICH CONFIGURATIONS SHOULD BE HERE - checked
-
+# ADABOOST
 # Choosing best hyperparameters
-#params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learnsent_mixed.append()ing_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
+#adaclassifier = AdaBoostClassifier() # n_est 25, 50, 75, 100,200, 300 lr 0.5, 1
+#params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learning_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
 #classifier = GridSearchCV(adaclassifier, params)
 
-#print(train_vectors_list)
-#print(train_labels_primary)
-#print(type(train_vectors_list))
-#print(type(train_labels_primary))
-#print(train_labels_primary.shape)
-#print(train_vectors_list.shape)
+parameter_space = {
+    'activation': ['tanh', 'relu'], # 'identity', 'logistic',
+    'solver': ['adam'], #, 'lbfgs'],
+    'learning_rate_init': [0.001], # [0.0001, 0.001, 0.01, 0.05], # 0.1
+    'learning_rate': ['adaptive', 'constant'],
+    'hidden_layer_sizes': [(200,200,200),(200, 250, 200), (250, 200, 250), (250, 250, 250)], # (50,) ,(400,400,400) (150, 150, 150), (200,150,200), (150, 200, 150),
+    'max_iter': [5200],
+#    'early_stopping': ['True', 'False']
+}
+
+#params = {'activation': 'relu', 'hidden_layer_sizes': (200, 250, 200), 'learning_rate': 'adaptive', 'learning_rate_init': 0.001, 'max_iter': 5200, 'solver': 'adam'}
+
+
+#adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5)
+# LINEAR REGRESSION
+#lin_reg = LinearRegression() # it is not discrete!!
+# RIDGE REGRESSION CLASSIFIER
+#ridge_classifier = RidgeClassifier()
+#sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3, random_state=1111111))
+#svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
+#svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
+#mlp_classifier = MLPClassifier( max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32) # random_state=1111111,
+mlp_classifier = MLPClassifier(random_state=1111111, early_stopping=True, batch_size=32, hidden_layer_sizes=(200,250,200), learning_rate='adaptive', learning_rate_init=0.001, max_iter=1000)
+#opt_mlp = GridSearchCV(mlp_classifier, parameter_space, n_jobs=-1, cv=10)
+# SMOTE 
+
+#strategy = {1:107, 2:76, 3:14, 4:85, 5:150}
+#oversample = SMOTE()
+#over = SMOTE(sampling_strategy=0.1)
+#undersample = RandomUnderSampler(sampling_strategy=strategy)
+#oversampled_sents, oversampled_labels = oversample.fit_resample(train_matrix_array, train_labels_primary)
+#counter = Counter(oversampled_labels)
 
 # Training
-model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
-#model_b = adaclassifier.fit(train_vectors_list, train_labels_primary) 
-#classifier.fit(train_matrix_array, train_labels_primary) 
+#model = adaclassifier.fit(oversampled_sents, oversampled_labels) 
+#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+#model = classifier.fit(train_matrix_array, train_labels_primary) 
 #print(classifier.best_params_)
+#model = lin_reg.fit(train_matrix_array, train_labels_primary)
+#model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
+#model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
+#model = svc_classifier.fit(train_matrix_array, train_labels_primary)
+new_train_features = numpy.asarray(train_word_embedding_features + dev_word_embedding_features)
+new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
+model = mlp_classifier.fit(new_train_features, new_train_labels)
+#model = opt_mlp.fit(new_train_features, new_train_labels)
+#print(model.best_params_)
 
-importances = model.feature_importances_
-#importances = model_b.feature_importances_
+#importances = model.feature_importances_
 
 #for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
+    #print('Feature:',token,'Score:',value)
 #    if (value != 0):
 #	    print('Feature:',token,'Score:',value)
+    
 
 #print(type(importances))
 #print(sorted(importances))
 
-features = {}
-for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
-    if (value != 0):
-	    #print('Feature:',token,'Score:',value)
-        features[token] = value
-features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
+#features = {}
+#for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
+#    if (value != 0):
+#	    #print('Feature:',token,'Score:',value)
+#        features[token] = value
+#features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
 #print(features)
 #for feature in features:
 #    print('Feature:',feature[1],'Score:',feature[0])
 
-
-# DECISION TREE, WRONG FUNCTION, DELETE IT
-#decision = adaclassifier.decision_function(train_matrix_array)
-#print(decision)
-
 # Predicting
 #predictions = model.predict(dev_matrix_array)
-#predictions = classifier.predict(dev_matrix_array)
-predictions = model.predict(test_matrix_array)
+#predictions = model.predict(test_matrix_array)
+#predictions = model.predict(dev_word_embedding_features)
+predictions = model.predict(test_word_embedding_features)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
-#    print(sent, pred, "\n")
-#print("Predictions:\n", predictions)
+    #print(sent, pred, "\n")
+print("Predictions:\n", predictions)
 
 # Confusion matrix
 test_list = test_labels_primary.tolist()
-dev_list = dev_labels_primary.tolist()
+#dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
-path='output/AI Classifier/1Label_confusion_matrix_NormTrue.jpg'
+path='output/AI Classifier/1Label_confusion_matrix_NormTrue.png'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
 #create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
 create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
-path='output/AI Classifier/1Label_confusion_matrix_NonNorm.jpg'
+path='output/AI Classifier/1Label_confusion_matrix_NonNorm.png'
 #create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
 create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-
-path='output/AI Classifier/1labelPredictionsStatsMixed.txt'
-#path='output/AI Classifier/1labelPredictionsStatsBigram.txt'
+#path='output/AI Classifier/1labelSGDPredictionsStatsDev.txt'
+#path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsDev.txt'
-#path='output/AI Classifier/1labelPredictionsStatsTest.txt'
+path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    print("Performance measures\n", file=file)
-write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
+    print("Performance measures - Unigram Dictionary - MLP Word Embeddings\n", file=file)
+    #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
@@ -311,32 +418,6 @@ write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 
 
 # MAKE SURE THAT RESULTS MAKE SENSE, OTHERWISE MAYBE THERE'S A LOST MISTAKE
-
-# EXPERIMENTS
-
-# INITIAL SETTINGS
-
-# STOPWORDS INCLUDED
-# PUNCTUATION IS INCLUDED IN VECTORS LIST AND SEEN AS UNKNOWN I THINK
-# INCLUDES LITTLE SQUARE AND OTHER WEIRD CHARACTERS
-# EXCLUDE WORDS WITH FREQUENCY < 2 (TURN THEM INTO UNKNOWN)
-# WEIGHTED VALUES TO EACH WORD ACCORDING TO THEIR FREQUENCY IN THE SENTENCE
-# N_ESTIMATORS: 50
-# LEARNING RATE: 1
-# ALL OTHER PARAMETERs: DEFAULT
-# MULTILABEL IS BEING TACKLED BY CONSIDERING ONLY PRIMARY LABEL
-
-# CHANGES
-
-# REMOVE STOP WORDS
-# REMOVE PUNCTUATION FROM VECTORS LIST
-# REMOVE LITTLE SQUARE AND OTHER ODD CHARACTERS
-# INCLUDE WORDS WITH FREQUENCY >= 2  
-# TRY WITH 1 INSTEAD OF WEIGHTED VALUE + TRY OTHER WAYS TO REPRESENT THE SENTENCE MAYBE
-# DIFFERENT CONFIGURATIONS FOR THE CLASSIFIER (N_ESTIMATORS, LEARNING RATE, ETC?)
-# MAKE AVERAGE OF RESULTS SINCE THEY DIFFER?
-# WHAT TO DO ABOUT DECLARE OPINION TO PRIVACY? EXPERIMENT WITHOUT IT?
-# DIFFERENT WAYS TO TACKLE MULTI-LABEL: DUPLICATE RESULTS, ALIGN RIGHT LABEL FIRST
 
 # CAREFUL
 # ADABOOST IS HIGHLY AFFECTED by OUTLIERS - declare opinion about privacy is a very rare category...
@@ -350,8 +431,6 @@ write_output_stats_file(path, "Mixed", test_labels_primary, predictions, labels)
 # APPROACH 1: CHOOSE PRIMARY LABEL ----- ADOPTED
 # APPROACH 2: DUPLICATE RESULTS
 # APPROACH 3? : ALIGN RIGHT LABEL FIRST
-
-# HELP - Predictions are changing... - confusion matrix, and measures
 
 # LESS OR EQUAL THAN 2 TIMES
 # REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK

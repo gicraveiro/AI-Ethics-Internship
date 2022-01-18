@@ -97,3 +97,33 @@ a b
 20/09/2021 14
 //opensource fb
 're visiting
+
+
+
+Feature: we Score: 0.01
+Feature: use Score: 0.01
+Feature: cookies Score: 0.01
+Feature: you Score: 0.01
+Feature: data Score: 0.01
+Feature: or Score: 0.02
+Feature: content Score: 0.01
+Feature: with Score: 0.01
+Feature: information Score: 0.01
+Feature: privacy Score: 0.13
+Feature: they Score: 0.01
+Feature: learn Score: 0.01
+Feature: more Score: 0.01
+Feature: provide Score: 0.01
+Feature: people Score: 0.14
+Feature: device Score: 0.01
+Feature: system Score: 0.1
+Feature: safe Score: 0.11
+Feature: secure Score: 0.01
+Feature: understand Score: 0.01
+Feature: who Score: 0.02
+Feature: possible Score: 0.05
+Feature: days Score: 0.01
+Feature: should Score: 0.12
+Feature: experience Score: 0.05
+Feature: collect Score: 0.01
+Feature: safer Score: 0.08
