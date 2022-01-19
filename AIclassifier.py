@@ -2,13 +2,11 @@ from scipy import sparse
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
 from imblearn.under_sampling import RandomUnderSampler 
-#from imblearn.over_sampling import SMOTE
 from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
 from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
 from sklearn.svm import LinearSVC
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
-#from gensim.models import FastText  
 import fasttext.util
 from sklearn import metrics
 from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
@@ -18,9 +16,7 @@ import numpy
 from collections import Counter 
 from sklearn.neural_network import MLPClassifier
 import copy
-#import matplotlib.pyplot as plt
 import os
-#from nltk.corpus import stopwords
 
 # Creating dictionary
 def create_dict(lexicon):
@@ -61,12 +57,9 @@ def create_labels_array(labels_list):
 def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
     for i, sent_vector in enumerate(vectors_list): 
         sparse_vector = [0] * len(dictionary) # vocabulary size cause each word present is a feature
-        #print(sparse_vector)
         counts = Counter(sent_vector)
-        #print(counts)
         for index, freq in counts.items():
             if len(counts.items()) > 0:
-                #print(len(counts.items()), counts)
                 sparse_vector[index] = 1 #freq/len(sent_vector) # DIFFERENT CONFIGURATION POSSIBILITIES # 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
@@ -90,7 +83,6 @@ def create_vectors_list(sents, conversion_dict):
         sent_bigram = []
         for i in range(0, (len(sent_doc)-1)):
             sent_bigram.append(sent_doc[i].lower()+" "+sent_doc[i+1].lower())
-        #print(sent_bigram)
         sent_tokens_list = []
         sent_bigrams_list = []
         mixed_tokens_list = []
@@ -104,7 +96,6 @@ def create_vectors_list(sents, conversion_dict):
                 #unk_count += 1
                 pass
             else:
-                #print(token)
                 sent_tokens_list.append(token.lower())
                 mixed_tokens_list.append(token.lower())
                 sent_vector = numpy.append(sent_vector, conversion_dict[sent_tokens_list[-1]]) # outside else to go back to considering unk 
@@ -118,11 +109,9 @@ def create_vectors_list(sents, conversion_dict):
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
                 sent_bigrams_list.append("unk")
-
                 #unk_count += 1
                 #pass
             else:
-                #print(bigram)
                 sent_bigrams_list.append(bigram)
                 mixed_tokens_list.append(bigram)
                 sent_bigrams_vector = numpy.append(sent_bigrams_vector, conversion_dict[sent_bigrams_list[-1]])
@@ -135,9 +124,6 @@ def create_vectors_list(sents, conversion_dict):
         bigrams_vector.append(sent_bigrams_vector)
         mixed_vector.append(sent_mixed_vector)
 
-        #print(sent_mixed_vector)
-    #print("Unk count:", unk_count)
-    #print(vectors_list)
     return vectors_list
     #return bigrams_vector
     #return mixed_vector
@@ -151,15 +137,11 @@ def create_word_embedding(partition):
         sent_doc = reconstruct_hyphenated_words(sent_doc)
         sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
         sentence_embedding = []
-        #print(sent_doc)
         for token in sent_doc:
             token_word_embedding = ft.get_word_vector(token)
             sentence_embedding.append(token_word_embedding)
-            #print(token, "I exist!")
-        #print(sentence_embedding)
         we_mean = numpy.asarray(sentence_embedding).mean(axis=0)
         #if isinstance(we_mean, float):
-        #    print("THERE IS A ZERO")
         #    we_mean = numpy.zeros(300, dtype=float)
         word_embedding_features.append(we_mean)
         #word_embedding_features = numpy.asarray(word_embedding_features)
@@ -183,23 +165,15 @@ def remove_empty_sentences(sents, labels):
         cleared_sent = reconstruct_hyphenated_words(cleared_sent)
         cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
         if (label == ['Not applicable'] and len(cleared_sent) == 0):
-            #print(sent, label)
-            #print(cleared_sent)
             sents[i] = "REMOVE THIS ITEM"
             labels[i] = "REMOVE THIS ITEM"
     sents = [sent for sent in sents if sent != "REMOVE THIS ITEM"]
     labels = [label for label in labels if label != "REMOVE THIS ITEM"]
-    #print(sents, labels)
     return sents, labels
 
 sents_train, labels_train = remove_empty_sentences(sents_train, labels_train)
-#print(sents_train, labels_train)
 sents_dev, labels_dev = remove_empty_sentences(sents_dev, labels_dev)
 sents_test, labels_test = remove_empty_sentences(sents_test, labels_test)
-
-#print(sents_dev, labels_dev)
-#print(sents_test, labels_test)
-#print(sents_train)
 
 corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
@@ -214,20 +188,16 @@ for i in range(0,len(tokens)-1):
 
 token_freq = Counter(tokens)
 bigram_freq = Counter(corpus_in_bigrams)
-#print(word_freq)
-#print(bigram_freq)
+
 # FLAG - checked
 
 # Remove words less frequent than  2 (or equal?)
 corpus_without_unk = [token[0] for token in token_freq.items() if int(token[1]) > 2] # < 2 or <= 2
 bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) > 1]
 
-#print(bigrams_filtered_lexicon)
-
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION 
 #  FLAG exclusion of all less or equal to 2 correctly - checked
 # COUNTING REJOINED TRAIN CORPUS x ORIGINAL SENTENCE TRAIN
-
 
 # Unigram dictionary
 words_to_numbers = create_dict(corpus_without_unk)
@@ -239,9 +209,6 @@ with open('features.txt', 'r') as file:
     features_list = file.read()
 features_list = features_list.split('\n')
 mixed_to_numbers = create_dict(features_list)
-
-#print(mixed_to_numbers)
-#print(features_list)
 
 # WORD EMBEDDINGS FOR NN APPROACH
 ft = fasttext.load_model('cc.en.300.bin')
@@ -328,14 +295,6 @@ parameter_space = {
 #mlp_classifier = MLPClassifier( max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32) # random_state=1111111,
 mlp_classifier = MLPClassifier(random_state=1111111, early_stopping=True, batch_size=32, hidden_layer_sizes=(200,250,200), learning_rate='adaptive', learning_rate_init=0.001, max_iter=1000)
 #opt_mlp = GridSearchCV(mlp_classifier, parameter_space, n_jobs=-1, cv=10)
-# SMOTE 
-
-#strategy = {1:107, 2:76, 3:14, 4:85, 5:150}
-#oversample = SMOTE()
-#over = SMOTE(sampling_strategy=0.1)
-#undersample = RandomUnderSampler(sampling_strategy=strategy)
-#oversampled_sents, oversampled_labels = oversample.fit_resample(train_matrix_array, train_labels_primary)
-#counter = Counter(oversampled_labels)
 
 # Training
 #model = adaclassifier.fit(oversampled_sents, oversampled_labels) 
@@ -414,67 +373,7 @@ write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
 #write_predictions_file("Test", test_pred_dict)
-# FLAG - CHECK IF THESE ARE THE RIGHT MEASURES, CALCULATED CORRECTLY AND ROUNDED CORRECTLY
-
-
-# MAKE SURE THAT RESULTS MAKE SENSE, OTHERWISE MAYBE THERE'S A LOST MISTAKE
-
-# CAREFUL
-# ADABOOST IS HIGHLY AFFECTED by OUTLIERS - declare opinion about privacy is a very rare category...
-
-
-# USE THE DEV SET TO MAKE EXPERIMENTS ON PERFORMANCE OF THE ALGORITHM
-# TEST DIFFERENT WAYS TO REPRESENT THE SENTENCE - AND THEN MAYBE START DOING OTHER THINGS
-
-# PRE-PROCESS LABELS VECTOR
-# MULTI-LABEL PROBLEM...
-# APPROACH 1: CHOOSE PRIMARY LABEL ----- ADOPTED
-# APPROACH 2: DUPLICATE RESULTS
-# APPROACH 3? : ALIGN RIGHT LABEL FIRST
-
-# LESS OR EQUAL THAN 2 TIMES
-# REPLACE EVERY WORD THAT IS LESS FREQUENT THAN 2 WITH UNK
-#
-# use counter from collections, already creates a dictionary , then remove words, add unk row
 
 # help reference: https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
 # https://blog.paperspace.com/adaboost-optimizer/
 # https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier.fit
-
-
-# First accuracy without weight: 0.47
-# First accuracy weighted: 0.43
-
-
-# TEST 1
-# discard unknown - no difference
-
-# TEST 2
-#"for loop"
-
-# gridsearchCV  ---- lr 0.5, n estimators 1
-# TEST 3
-
-# features importance
-# order from highest
-# 10 % from the greater than zero
-# save them
-
-# evaluate
-# ----
- # TEST 4
-# remake it with bigrams (sets of 2 adjacent tokens)
-# decrease frequency to 1
-
-# TEST 5
-# create a joint model with 2 - 10% best
-
-# TEST 6
-# INSTEAD OF ADABOOST , LINEAR REGRESSION, NAIVE BAYES
-
-
-
-# SUGGEST DIFFERENT PARTITION PERCENTAGE!!
-
-# REFERENCE
-#Synthetic Minority Oversampling TEchnique, or SMOTE for short. This technique was described by Nitesh Chawla, et al. in their 2002 paper named for the technique titled “SMOTE: Synthetic Minority Over-sampling Technique.”
