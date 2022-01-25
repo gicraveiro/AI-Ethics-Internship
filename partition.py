@@ -1,4 +1,3 @@
-# importing the dataset
 import pandas as pd
 import re
 from sklearn.model_selection import train_test_split
@@ -8,7 +7,6 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import numpy
 import spacy
-#from imblearn.over_sampling import SMOTE
 from utils import clean_corpus, reconstruct_hyphenated_words
 
 # Functions
@@ -79,7 +77,7 @@ def write_distribution(path,counter,name):
         for item in counter.items():
             print(item[0], calculate_distribution(item[1], total), " ("+str(item[1])+"/"+str(total)+")", file=file)
         print("\n",file=file)
-    # TO DO: ALSO PRINT NUMBER ? 
+    
 def remove_empty_sentences(sents, labels):
     for i, (sent, label) in enumerate(zip(sents, labels)):
         cleared_sent = clean_corpus(sent)
@@ -191,14 +189,3 @@ write_distribution(path, counter, "Test")
 
 # FLAG - CHECK IF DISTRIBUTION IS BEING DONE AND MEASURED CORRECTLY
 # FLAG - in theory checked, but RECHECK rechecked
-
-
-#print(dev_sents_ref_list)
-#print(dev_ref_primary_label)
-#oversample = SMOTE()
-#X, y = oversample.fit_resample(dev_sents_ref_list, dev_ref_primary_label)
-# summarize the new class distribution
-#counter = Counter(y)
-#print(X)
-#print(y)
-#print(counter)
