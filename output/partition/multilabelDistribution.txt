@@ -2,45 +2,45 @@ Distribution of labels
 
 Total set
 
-('Not applicable',) 0.494  (345/698)
-('Related to privacy',) 0.153  (107/698)
-('Commit to privacy',) 0.173  (121/698)
-('Violate privacy',) 0.12  (84/698)
-('Commit to privacy', 'Violate privacy') 0.019  (13/698)
-('Declare opinion about privacy',) 0.024  (17/698)
-('Violate privacy', 'Commit to privacy') 0.016  (11/698)
+('Not applicable',) 0.472  (316/669)
+('Related to privacy',) 0.16  (107/669)
+('Commit to privacy',) 0.181  (121/669)
+('Violate privacy',) 0.126  (84/669)
+('Commit to privacy', 'Violate privacy') 0.019  (13/669)
+('Declare opinion about privacy',) 0.025  (17/669)
+('Violate privacy', 'Commit to privacy') 0.016  (11/669)
 
 
 Train set
 
-('Not applicable',) 0.495  (276/558)
-('Related to privacy',) 0.152  (85/558)
-('Commit to privacy',) 0.174  (97/558)
-('Violate privacy',) 0.12  (67/558)
-('Commit to privacy', 'Violate privacy') 0.018  (10/558)
-('Declare opinion about privacy',) 0.025  (14/558)
-('Violate privacy', 'Commit to privacy') 0.016  (9/558)
+('Not applicable',) 0.471  (251/533)
+('Related to privacy',) 0.159  (85/533)
+('Commit to privacy',) 0.182  (97/533)
+('Violate privacy',) 0.126  (67/533)
+('Commit to privacy', 'Violate privacy') 0.019  (10/533)
+('Declare opinion about privacy',) 0.026  (14/533)
+('Violate privacy', 'Commit to privacy') 0.017  (9/533)
 
 
 Dev set
 
-('Declare opinion about privacy',) 0.029  (2/70)
-('Not applicable',) 0.5  (35/70)
-('Related to privacy',) 0.157  (11/70)
-('Commit to privacy',) 0.171  (12/70)
-('Violate privacy',) 0.114  (8/70)
-('Commit to privacy', 'Violate privacy') 0.014  (1/70)
-('Violate privacy', 'Commit to privacy') 0.014  (1/70)
+('Declare opinion about privacy',) 0.029  (2/69)
+('Not applicable',) 0.493  (34/69)
+('Related to privacy',) 0.159  (11/69)
+('Commit to privacy',) 0.174  (12/69)
+('Violate privacy',) 0.116  (8/69)
+('Commit to privacy', 'Violate privacy') 0.014  (1/69)
+('Violate privacy', 'Commit to privacy') 0.014  (1/69)
 
 
 Test set
 
-('Violate privacy',) 0.129  (9/70)
-('Not applicable',) 0.486  (34/70)
-('Commit to privacy',) 0.171  (12/70)
-('Violate privacy', 'Commit to privacy') 0.014  (1/70)
-('Related to privacy',) 0.157  (11/70)
-('Commit to privacy', 'Violate privacy') 0.029  (2/70)
-('Declare opinion about privacy',) 0.014  (1/70)
+('Violate privacy',) 0.134  (9/67)
+('Not applicable',) 0.463  (31/67)
+('Commit to privacy',) 0.179  (12/67)
+('Violate privacy', 'Commit to privacy') 0.015  (1/67)
+('Related to privacy',) 0.164  (11/67)
+('Commit to privacy', 'Violate privacy') 0.03  (2/67)
+('Declare opinion about privacy',) 0.015  (1/67)
 
 

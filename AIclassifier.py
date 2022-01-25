@@ -158,22 +158,22 @@ nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner',
 
 # Preprocessing input 
 
-def remove_empty_sentences(sents, labels):
-    for i, (sent, label) in enumerate(zip(sents, labels)):
-        cleared_sent = clean_corpus(sent)
-        cleared_sent = nlp(cleared_sent)
-        cleared_sent = reconstruct_hyphenated_words(cleared_sent)
-        cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
-        if (label == ['Not applicable'] and len(cleared_sent) == 0):
-            sents[i] = "REMOVE THIS ITEM"
-            labels[i] = "REMOVE THIS ITEM"
-    sents = [sent for sent in sents if sent != "REMOVE THIS ITEM"]
-    labels = [label for label in labels if label != "REMOVE THIS ITEM"]
-    return sents, labels
+# def remove_empty_sentences(sents, labels):
+#     for i, (sent, label) in enumerate(zip(sents, labels)):
+#         cleared_sent = clean_corpus(sent)
+#         cleared_sent = nlp(cleared_sent)
+#         cleared_sent = reconstruct_hyphenated_words(cleared_sent)
+#         cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
+#         if (label == ['Not applicable'] and len(cleared_sent) == 0):
+#             sents[i] = "REMOVE THIS ITEM"
+#             labels[i] = "REMOVE THIS ITEM"
+#     sents = [sent for sent in sents if sent != "REMOVE THIS ITEM"]
+#     labels = [label for label in labels if label != "REMOVE THIS ITEM"]
+#     return sents, labels
 
-sents_train, labels_train = remove_empty_sentences(sents_train, labels_train)
-sents_dev, labels_dev = remove_empty_sentences(sents_dev, labels_dev)
-sents_test, labels_test = remove_empty_sentences(sents_test, labels_test)
+# sents_train, labels_train = remove_empty_sentences(sents_train, labels_train)
+# sents_dev, labels_dev = remove_empty_sentences(sents_dev, labels_dev)
+# sents_test, labels_test = remove_empty_sentences(sents_test, labels_test)
 
 corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
