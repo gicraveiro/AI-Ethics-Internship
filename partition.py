@@ -57,9 +57,10 @@ def plot_distribution(counter, name, type):
     x_pos = numpy.arange(len(counter)) # sets number of bars
     plt.bar(x_pos, values,align='center')
     plt.xticks(x_pos, keys, rotation=45, ha="right") # sets labels of bars and their positions
-    plt.subplots_adjust(bottom=0.45, left=0.25) # creates space for complete label names
-    plt.xlabel('Labels')
-    plt.ylabel('Frequency')
+    plt.subplots_adjust(bottom=0.5, left=0.2) # creates space for complete label names
+    # TO DO: adding a title might be a good idea -> plt.title('Distribution ...')
+    plt.xlabel('Labels',labelpad=10.0)
+    plt.ylabel('Frequency (%)',labelpad=10.0)
     for i, item in enumerate(values):
         plt.text(i,item,str(round((item*100/total),1)))
     plt.ylim((0,values[0]+values[2]))
