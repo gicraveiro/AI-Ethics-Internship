@@ -3,6 +3,7 @@ import os
 from sklearn.metrics import precision_score, f1_score, recall_score, accuracy_score
 import json
 import numpy
+import sklearn
 from sklearn.metrics import ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 
@@ -91,6 +92,7 @@ def write_predictions_file(name, pred_dict):
 
 # Creates a confusion matrix
 def create_confusion_matrix(refs, preds, normalize, path, labels, display_labels):
+    print(sklearn.__version__)
     ConfusionMatrixDisplay.from_predictions(refs,preds, normalize=normalize, labels=labels, display_labels=display_labels)
     plt.xticks(rotation=45, ha="right")
     plt.subplots_adjust(bottom=0.4)
