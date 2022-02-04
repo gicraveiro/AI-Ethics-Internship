@@ -1,21 +1,18 @@
-from scipy import sparse
+# CODE FOR ARTIFICIAL INTELLIGENCE CLASSIFIERS
+
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
-from imblearn.under_sampling import RandomUnderSampler 
-from sklearn.linear_model import LinearRegression,SGDClassifier, RidgeClassifier
 from sklearn.multiclass import OneVsRestClassifier, OneVsOneClassifier
 from sklearn.svm import LinearSVC
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 import fasttext.util
-from sklearn import metrics
-from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, write_predictions_file, create_confusion_matrix
+from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, create_confusion_matrix # write_predictions_file
 from partition import sents_train, labels_train, sents_dev, labels_dev, sents_test, labels_test
 import spacy
 import numpy
 from collections import Counter 
 from sklearn.neural_network import MLPClassifier
-import copy
 import os
 
 # Creating dictionary
@@ -158,29 +155,12 @@ nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner',
 
 # Preprocessing input 
 
-# def remove_empty_sentences(sents, labels):
-#     for i, (sent, label) in enumerate(zip(sents, labels)):
-#         cleared_sent = clean_corpus(sent)
-#         cleared_sent = nlp(cleared_sent)
-#         cleared_sent = reconstruct_hyphenated_words(cleared_sent)
-#         cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
-#         if (label == ['Not applicable'] and len(cleared_sent) == 0):
-#             sents[i] = "REMOVE THIS ITEM"
-#             labels[i] = "REMOVE THIS ITEM"
-#     sents = [sent for sent in sents if sent != "REMOVE THIS ITEM"]
-#     labels = [label for label in labels if label != "REMOVE THIS ITEM"]
-#     return sents, labels
-
-# sents_train, labels_train = remove_empty_sentences(sents_train, labels_train)
-# sents_dev, labels_dev = remove_empty_sentences(sents_dev, labels_dev)
-# sents_test, labels_test = remove_empty_sentences(sents_test, labels_test)
-
 corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
 train_doc = nlp(corpus)
 train_doc = reconstruct_hyphenated_words(train_doc)
 tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
-# FLAG: As extra parameters think of removing  LITTLE SQUARE, SMTH ELSE AS WELL? 
+# OBS: MAYBE ENHANCING PREPROCESSING BY REMOVING LITTLE SQUARES COULD BE AN OPTION
 
 corpus_in_bigrams = []
 for i in range(0,len(tokens)-1):
@@ -189,15 +169,13 @@ for i in range(0,len(tokens)-1):
 token_freq = Counter(tokens)
 bigram_freq = Counter(corpus_in_bigrams)
 
-# FLAG - checked
+# 
 
 # Remove words less frequent than  2 (or equal?)
 corpus_without_unk = [token[0] for token in token_freq.items() if int(token[1]) > 2] # < 2 or <= 2
 bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) > 1]
 
 #### FLAG - REVIEW IF WORD FREQUENCY SHOULD BE COUNTED WITHOUT SPACY TOKENIZATION 
-#  FLAG exclusion of all less or equal to 2 correctly - checked
-# COUNTING REJOINED TRAIN CORPUS x ORIGINAL SENTENCE TRAIN
 
 # Unigram dictionary
 words_to_numbers = create_dict(corpus_without_unk)
@@ -285,11 +263,6 @@ parameter_space = {
 
 
 #adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5)
-# LINEAR REGRESSION
-#lin_reg = LinearRegression() # it is not discrete!!
-# RIDGE REGRESSION CLASSIFIER
-#ridge_classifier = RidgeClassifier()
-#sgd_classifier = make_pipeline(StandardScaler(),SGDClassifier(max_iter=1000, tol=1e-3, random_state=1111111))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
 #mlp_classifier = MLPClassifier( max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32) # random_state=1111111,
@@ -301,9 +274,6 @@ mlp_classifier = MLPClassifier(random_state=1111111, early_stopping=True, batch_
 #model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = classifier.fit(train_matrix_array, train_labels_primary) 
 #print(classifier.best_params_)
-#model = lin_reg.fit(train_matrix_array, train_labels_primary)
-#model = ridge_classifier.fit(train_matrix_array, train_labels_primary)
-#model = sgd_classifier.fit(train_matrix_array, train_labels_primary)
 #model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 new_train_features = numpy.asarray(train_word_embedding_features + dev_word_embedding_features)
 new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
@@ -359,8 +329,6 @@ path='output/AI Classifier/1Label_confusion_matrix_NonNorm.png'
 create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-#path='output/AI Classifier/1labelSGDPredictionsStatsDev.txt'
-#path='output/AI Classifier/1labelRidgePredictionsStatsDev.txt'
 #path='output/AI Classifier/1labelPredictionsStatsDev.txt'
 path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)

@@ -1,25 +1,25 @@
 import re
 import os
-from sklearn.metrics import precision_score, f1_score, recall_score, accuracy_score
+from sklearn.metrics import precision_score, f1_score, recall_score # ,accuracy_score
 import json
 import numpy
-import sklearn
+#import sklearn
 from sklearn.metrics import ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 
 # reconstructs hyphen, slash and apostrophes
-def reconstruct_hyphenated_words(corpus):
-    i = 0
-    while i < len(corpus):
-        if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
-            with corpus.retokenize() as retokenizer:
-                retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word            
-        elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
-            with corpus.retokenize() as retokenizer:
-                retokenizer.merge(corpus[i-1:i+1])           
-        else: 
-            i += 1
-    return corpus
+# def reconstruct_hyphenated_words(corpus):
+#     i = 0
+#     while i < len(corpus):
+#         if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
+#             with corpus.retokenize() as retokenizer:
+#                 retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word            
+#         elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
+#             with corpus.retokenize() as retokenizer:
+#                 retokenizer.merge(corpus[i-1:i+1])           
+#         else: 
+#             i += 1
+#     return corpus
 
 # noun chunks that correspond to keywords
 def reconstruct_noun_chunks(corpus,keywords):
@@ -92,7 +92,7 @@ def write_predictions_file(name, pred_dict):
 
 # Creates a confusion matrix
 def create_confusion_matrix(refs, preds, normalize, path, labels, display_labels):
-    print(sklearn.__version__)
+    #print(sklearn.__version__)
     ConfusionMatrixDisplay.from_predictions(refs,preds, normalize=normalize, labels=labels, display_labels=display_labels)
     plt.xticks(rotation=45, ha="right")
     plt.subplots_adjust(bottom=0.4)
