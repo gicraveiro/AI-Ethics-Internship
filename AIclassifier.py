@@ -121,8 +121,8 @@ def create_vectors_list(sents, conversion_dict):
         bigrams_vector.append(sent_bigrams_vector)
         mixed_vector.append(sent_mixed_vector)
 
-    return vectors_list
-    #return bigrams_vector
+    #return vectors_list
+    return bigrams_vector
     #return mixed_vector
 
 # def create_word_embedding(partition):
@@ -282,26 +282,16 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 
 importances = model.feature_importances_
 
+features = {}
 # for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
-for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
-    #print('Feature:',token,'Score:',value)
-    if (value != 0):
-	    print('Feature:',token,'Score:',value)
-    
-
-#print(type(importances))
-#print(sorted(importances))
-
-#features = {}
-#for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
-#    if (value != 0):
-#	    #print('Feature:',token,'Score:',value)
-#        features[token] = value
-#features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
-#print(features)
-#for feature in features:
-#    print('Feature:',feature[1],'Score:',feature[0])
+for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
+   if (value != 0):
+       features[token] = value
+features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
+print(features)
+for feature in features:
+   print('Feature:',feature[1],'Score:',feature[0])
 
 # Predicting
 predictions = model.predict(dev_matrix_array)
