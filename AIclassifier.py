@@ -57,7 +57,7 @@ def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
         counts = Counter(sent_vector)
         for index, freq in counts.items():
             if len(counts.items()) > 0:
-                sparse_vector[index] = 1 #freq/len(sent_vector) # 1 DIFFERENT CONFIGURATION POSSIBILITIES # 1
+                sparse_vector[index] = 1 #freq/len(sent_vector) # 1 DIFFERENT CONFIGURATION POSSIBILITIES
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
@@ -105,9 +105,9 @@ def create_vectors_list(sents, conversion_dict):
             
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
-                sent_bigrams_list.append("unk")
+                #sent_bigrams_list.append("unk")
                 #unk_count += 1
-                #pass
+                pass
             else:
                 sent_bigrams_list.append(bigram)
                 mixed_tokens_list.append(bigram)
@@ -119,11 +119,13 @@ def create_vectors_list(sents, conversion_dict):
                 sent_mixed_vector = sent_mixed_vector.astype(int)
         vectors_list.append(sent_vector)
         bigrams_vector.append(sent_bigrams_vector)
+        print(sent_mixed_vector)
         mixed_vector.append(sent_mixed_vector)
 
     #return vectors_list # unigrams
-    return bigrams_vector
-    #return mixed_vector
+    #return bigrams_vector
+    print(mixed_vector)
+    return mixed_vector
 
 # def create_word_embedding(partition):
 
@@ -187,6 +189,7 @@ with open('features.txt', 'r') as file:
     features_list = file.read()
 features_list = features_list.split('\n')
 mixed_to_numbers = create_dict(features_list)
+print(mixed_to_numbers)
 
 # WORD EMBEDDINGS FOR NN APPROACH
 #ft = fasttext.load_model('cc.en.300.bin')
@@ -196,8 +199,8 @@ mixed_to_numbers = create_dict(features_list)
 #dev_word_embedding_features = create_word_embedding(sents_dev)
 #test_word_embedding_features = numpy.asarray(create_word_embedding(sents_test))
 #print("Length of the dictionary of word representations:",len(words_to_numbers))
-print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
-#print("Length of the dictionary of word representations:",len(mixed_to_numbers))
+#print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
+print("Length of the dictionary of word representations:",len(mixed_to_numbers))
 
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
 #               SHOULD PUNCTUATION BE UNKNOWN? BECAUSE RIGHT NOW IT IS -NOPE, FIXED
@@ -209,13 +212,13 @@ print("Length of the dictionary of word representations:",len(bigrams_to_numbers
 # dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
 # test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
-train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
+# train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
+# dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
+# test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
-# train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
-# dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
-# test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # COUNT STATISTICS - HOW MANY WORDS WERE CONSIDERED UNK, AND HOW MANY OF EACH WORD
 
@@ -225,13 +228,13 @@ test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 # dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
 # test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
 
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
+# train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
+# dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
+# test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
 
-# train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
-# dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
-# test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
 
 # FLAG - CHECK IF SPARSE MATRIX REPRESENTATION WAS DONE CORRECTLY
 
@@ -284,8 +287,8 @@ importances = model.feature_importances_
 
 features = {}
 #for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
-#for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
-for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
+for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
    if (value != 0):
        features[token] = value
 features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
@@ -324,7 +327,7 @@ path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     #print("Performance measures - Unigram Dictionary - MLP Word Embeddings\n", file=file)
-    print("Performance measures - Bigram Dictionary - Adaboost\n", file=file)
+    print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
