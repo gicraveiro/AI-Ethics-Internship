@@ -265,7 +265,7 @@ test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 #params = {'activation': 'relu', 'hidden_layer_sizes': (200, 250, 200), 'learning_rate': 'adaptive', 'learning_rate_init': 0.001, 'max_iter': 5200, 'solver': 'adam'}
 
 
-adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
+adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5)
 #svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
 #mlp_classifier = MLPClassifier( max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32) # random_state=1111111,
