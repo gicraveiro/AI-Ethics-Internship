@@ -125,28 +125,28 @@ def create_vectors_list(sents, conversion_dict):
     #return bigrams_vector
     #return mixed_vector
 
-def create_word_embedding(partition):
+# def create_word_embedding(partition):
 
-    word_embedding_features = []
-    for sent in partition:
-        sent_doc = clean_corpus(sent) 
-        sent_doc = nlp(sent_doc)
-        sent_doc = reconstruct_hyphenated_words(sent_doc)
-        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
-        sentence_embedding = []
-        for token in sent_doc:
-            token_word_embedding = ft.get_word_vector(token)
-            sentence_embedding.append(token_word_embedding)
-        we_mean = numpy.asarray(sentence_embedding).mean(axis=0)
-        #if isinstance(we_mean, float):
-        #    we_mean = numpy.zeros(300, dtype=float)
-        word_embedding_features.append(we_mean)
-        #word_embedding_features = numpy.asarray(word_embedding_features)
-        #word_embedding_features = numpy.append(word_embedding_features, we_mean)
-        #tokens_list_of_lists.append(sent_doc)
-    #word_embedding_features = numpy.asarray(word_embedding_features)
-    word_embedding_features = word_embedding_features
-    return word_embedding_features
+#     word_embedding_features = []
+#     for sent in partition:
+#         sent_doc = clean_corpus(sent) 
+#         sent_doc = nlp(sent_doc)
+#         sent_doc = reconstruct_hyphenated_words(sent_doc)
+#         sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+#         sentence_embedding = []
+#         for token in sent_doc:
+#             token_word_embedding = ft.get_word_vector(token)
+#             sentence_embedding.append(token_word_embedding)
+#         we_mean = numpy.asarray(sentence_embedding).mean(axis=0)
+#         #if isinstance(we_mean, float):
+#         #    we_mean = numpy.zeros(300, dtype=float)
+#         word_embedding_features.append(we_mean)
+#         #word_embedding_features = numpy.asarray(word_embedding_features)
+#         #word_embedding_features = numpy.append(word_embedding_features, we_mean)
+#         #tokens_list_of_lists.append(sent_doc)
+#     #word_embedding_features = numpy.asarray(word_embedding_features)
+#     word_embedding_features = word_embedding_features
+#     return word_embedding_features
 
 ####
 # MAIN
@@ -183,18 +183,18 @@ words_to_numbers = create_dict(corpus_without_unk)
 bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
 
 # Mixed dictionary
-with open('features.txt', 'r') as file:
-    features_list = file.read()
-features_list = features_list.split('\n')
-mixed_to_numbers = create_dict(features_list)
+# with open('features.txt', 'r') as file:
+#     features_list = file.read()
+# features_list = features_list.split('\n')
+# mixed_to_numbers = create_dict(features_list)
 
 # WORD EMBEDDINGS FOR NN APPROACH
-ft = fasttext.load_model('cc.en.300.bin')
+#ft = fasttext.load_model('cc.en.300.bin')
 
 
-train_word_embedding_features = create_word_embedding(sents_train)
-dev_word_embedding_features = create_word_embedding(sents_dev)
-test_word_embedding_features = numpy.asarray(create_word_embedding(sents_test))
+#train_word_embedding_features = create_word_embedding(sents_train)
+#dev_word_embedding_features = create_word_embedding(sents_dev)
+#test_word_embedding_features = numpy.asarray(create_word_embedding(sents_test))
 #print("Length of the dictionary of word representations:",len(words_to_numbers))
 #print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
 #print("Length of the dictionary of word representations:",len(mixed_to_numbers))
@@ -236,7 +236,7 @@ test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_t
 # FLAG - CHECK IF SPARSE MATRIX REPRESENTATION WAS DONE CORRECTLY
 
 train_labels_primary = create_labels_array(labels_train)
-dev_labels_primary = create_labels_array(labels_dev)
+dev_labels_primary = numpy.asarray(create_labels_array(labels_dev)) #dev_labels_primary = create_labels_array(labels_dev)
 test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 
 # FLAG - ENSURE THAT LABELS LIST ARE CORRECTLY MADE
@@ -249,46 +249,45 @@ test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 #params = [{'n_estimators': [25, 50, 75, 100, 200, 300], 'learning_rate': [0.5,0.75,0.9,1,1.1,1.2]}]
 #classifier = GridSearchCV(adaclassifier, params)
 
-parameter_space = {
-    'activation': ['tanh', 'relu'], # 'identity', 'logistic',
-    'solver': ['adam'], #, 'lbfgs'],
-    'learning_rate_init': [0.001], # [0.0001, 0.001, 0.01, 0.05], # 0.1
-    'learning_rate': ['adaptive', 'constant'],
-    'hidden_layer_sizes': [(200,200,200),(200, 250, 200), (250, 200, 250), (250, 250, 250)], # (50,) ,(400,400,400) (150, 150, 150), (200,150,200), (150, 200, 150),
-    'max_iter': [5200],
-#    'early_stopping': ['True', 'False']
-}
+# parameter_space = {
+#     'activation': ['tanh', 'relu'], # 'identity', 'logistic',
+#     'solver': ['adam'], #, 'lbfgs'],
+#     'learning_rate_init': [0.001], # [0.0001, 0.001, 0.01, 0.05], # 0.1
+#     'learning_rate': ['adaptive', 'constant'],
+#     'hidden_layer_sizes': [(200,200,200),(200, 250, 200), (250, 200, 250), (250, 250, 250)], # (50,) ,(400,400,400) (150, 150, 150), (200,150,200), (150, 200, 150),
+#     'max_iter': [5200],
+# #    'early_stopping': ['True', 'False']
+# }
 
 #params = {'activation': 'relu', 'hidden_layer_sizes': (200, 250, 200), 'learning_rate': 'adaptive', 'learning_rate_init': 0.001, 'max_iter': 5200, 'solver': 'adam'}
 
 
-#adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5)
+adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1)
 #svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
 #svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
 #mlp_classifier = MLPClassifier( max_iter=300, early_stopping=True, hidden_layer_sizes=300, batch_size=32) # random_state=1111111,
-mlp_classifier = MLPClassifier(random_state=1111111, early_stopping=True, batch_size=32, hidden_layer_sizes=(200,250,200), learning_rate='adaptive', learning_rate_init=0.001, max_iter=1000)
+#mlp_classifier = MLPClassifier(random_state=1111111, early_stopping=True, batch_size=32, hidden_layer_sizes=(200,250,200), learning_rate='adaptive', learning_rate_init=0.001, max_iter=1000)
 #opt_mlp = GridSearchCV(mlp_classifier, parameter_space, n_jobs=-1, cv=10)
 
 # Training
-#model = adaclassifier.fit(oversampled_sents, oversampled_labels) 
-#model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #model = classifier.fit(train_matrix_array, train_labels_primary) 
 #print(classifier.best_params_)
 #model = svc_classifier.fit(train_matrix_array, train_labels_primary)
-new_train_features = numpy.asarray(train_word_embedding_features + dev_word_embedding_features)
-new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
-model = mlp_classifier.fit(new_train_features, new_train_labels)
+#new_train_features = numpy.asarray(train_word_embedding_features + dev_word_embedding_features)
+#new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
+#model = mlp_classifier.fit(new_train_features, new_train_labels)
 #model = opt_mlp.fit(new_train_features, new_train_labels)
 #print(model.best_params_)
 
-#importances = model.feature_importances_
+importances = model.feature_importances_
 
-#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)):
     #print('Feature:',token,'Score:',value)
-#    if (value != 0):
-#	    print('Feature:',token,'Score:',value)
+    if (value != 0):
+	    print('Feature:',token,'Score:',value)
     
 
 #print(type(importances))
@@ -305,10 +304,10 @@ model = mlp_classifier.fit(new_train_features, new_train_labels)
 #    print('Feature:',feature[1],'Score:',feature[0])
 
 # Predicting
-#predictions = model.predict(dev_matrix_array)
+predictions = model.predict(dev_matrix_array)
 #predictions = model.predict(test_matrix_array)
 #predictions = model.predict(dev_word_embedding_features)
-predictions = model.predict(test_word_embedding_features)
+#predictions = model.predict(test_word_embedding_features)
 
 # casually printing results
 #for sent, pred in zip(sents_train,predictions):
@@ -316,27 +315,29 @@ predictions = model.predict(test_word_embedding_features)
 print("Predictions:\n", predictions)
 
 # Confusion matrix
-test_list = test_labels_primary.tolist()
-#dev_list = dev_labels_primary.tolist()
+#test_list = test_labels_primary.tolist()
+dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
-path='output/AI Classifier/1Label_confusion_matrix_NormTrue.png'
+path='output/AI Classifier/dev_1Label_confusion_matrix_NormTrue.png'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
-#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
-path='output/AI Classifier/1Label_confusion_matrix_NonNorm.png'
-#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+# NORMALIZED CONFUSION MATRIX
+create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+# NON NORMALIZED CONFUSION MATRIX
+path='output/AI Classifier/dev_1Label_confusion_matrix_NonNorm.png'
+create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-#path='output/AI Classifier/1labelPredictionsStatsDev.txt'
-path='output/AI Classifier/1labelPredictionsStatsTest.txt'
+path='output/AI Classifier/1labelPredictionsStatsDev.txt'
+#path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
-    print("Performance measures - Unigram Dictionary - MLP Word Embeddings\n", file=file)
-    #print("Performance measures - Mixed Dictionary - Adaboost\n", file=file)
-#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+    #print("Performance measures - Unigram Dictionary - MLP Word Embeddings\n", file=file)
+    print("Performance measures - Unigram Dictionary - Adaboost\n", file=file)
+write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
