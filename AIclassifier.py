@@ -57,7 +57,7 @@ def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
         counts = Counter(sent_vector)
         for index, freq in counts.items():
             if len(counts.items()) > 0:
-                sparse_vector[index] = freq/len(sent_vector) # 1 DIFFERENT CONFIGURATION POSSIBILITIES # 1
+                sparse_vector[index] = 1 #freq/len(sent_vector) # 1 DIFFERENT CONFIGURATION POSSIBILITIES # 1
         if (i == 0): # TO DO: OPTIMIZE, NO NEED TO CHECK THIS EVERY TURN
             matrix_array = [sparse_vector]
         else:
@@ -324,7 +324,7 @@ path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     #print("Performance measures - Unigram Dictionary - MLP Word Embeddings\n", file=file)
-    print("Performance measures - Unigram Dictionary - Adaboost\n", file=file)
+    print("Performance measures - Bigram Dictionary - Adaboost\n", file=file)
 #write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
 write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 

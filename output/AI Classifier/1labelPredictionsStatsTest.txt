@@ -1,4 +1,4 @@
-Performance measures - Unigram Dictionary - Adaboost
+Performance measures - Bigram Dictionary - Adaboost
 
 Test set:
 
