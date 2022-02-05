@@ -294,8 +294,8 @@ for feature in features:
    print('Feature:',feature[1],'Score:',feature[0])
 
 # Predicting
-predictions = model.predict(dev_matrix_array)
-#predictions = model.predict(test_matrix_array)
+#predictions = model.predict(dev_matrix_array)
+predictions = model.predict(test_matrix_array)
 #predictions = model.predict(dev_word_embedding_features)
 #predictions = model.predict(test_word_embedding_features)
 
@@ -305,29 +305,29 @@ predictions = model.predict(dev_matrix_array)
 print("Predictions:\n", predictions)
 
 # Confusion matrix
-#test_list = test_labels_primary.tolist()
-dev_list = dev_labels_primary.tolist()
+test_list = test_labels_primary.tolist()
+#dev_list = dev_labels_primary.tolist()
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
-path='output/AI Classifier/dev_1Label_confusion_matrix_NormTrue.png'
+path='output/AI Classifier/1Label_confusion_matrix_NormTrue.png'
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
 # NORMALIZED CONFUSION MATRIX
-create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
-#create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
+#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels)
+create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels)
 # NON NORMALIZED CONFUSION MATRIX
-path='output/AI Classifier/dev_1Label_confusion_matrix_NonNorm.png'
-create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
-#create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
+path='output/AI Classifier/1Label_confusion_matrix_NonNorm.png'
+#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels)
+create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels)
 
 # FLAG - CHECK IF CONFUSION MATRIX IS CORRECT FOR EVERY LABEL
-path='output/AI Classifier/1labelPredictionsStatsDev.txt'
-#path='output/AI Classifier/1labelPredictionsStatsTest.txt'
+#path='output/AI Classifier/1labelPredictionsStatsDev.txt'
+path='output/AI Classifier/1labelPredictionsStatsTest.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     #print("Performance measures - Unigram Dictionary - MLP Word Embeddings\n", file=file)
     print("Performance measures - Unigram Dictionary - Adaboost\n", file=file)
-write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
-#write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
+#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels)
+write_output_stats_file(path, "Test", test_labels_primary, predictions, labels)
 
 # TO DO: WRITE PREDICTIONS JSON FILE -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
 #write_predictions_file("Dev", dev_pred_dict)
