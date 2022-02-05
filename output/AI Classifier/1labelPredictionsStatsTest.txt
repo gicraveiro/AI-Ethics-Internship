@@ -1,14 +1,14 @@
-Performance measures - Unigram Dictionary - Adaboost
+Performance measures - Bigram Dictionary - Adaboost
 
 Test set:
 
-Precision macro: 0.346
-Precision Individually: [0.5   0.    0.564 0.    0.667]
-Recall macro: 0.283
-Recall Individually: [0.214 0.    1.    0.    0.2  ]
-F1 Score micro: 0.537
-F1 Score macro: 0.266
-F1 Score weighted: 0.442
-F1 Score Individually: [0.3   0.    0.721 0.    0.308]
+Precision macro: 0.409
+Precision Individually: [0.833 0.    0.545 0.    0.667]
+Recall macro: 0.305
+Recall Individually: [0.357 0.    0.968 0.    0.2  ]
+F1 Score micro: 0.552
+F1 Score macro: 0.301
+F1 Score weighted: 0.473
+F1 Score Individually: [0.5   0.    0.698 0.    0.308]
 
 
