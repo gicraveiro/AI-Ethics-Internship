@@ -121,8 +121,8 @@ def create_vectors_list(sents, conversion_dict):
         bigrams_vector.append(sent_bigrams_vector)
         mixed_vector.append(sent_mixed_vector)
 
-    return vectors_list # unigrams
-    #return bigrams_vector
+    #return vectors_list # unigrams
+    return bigrams_vector
     #return mixed_vector
 
 # def create_word_embedding(partition):
@@ -195,8 +195,8 @@ mixed_to_numbers = create_dict(features_list)
 #train_word_embedding_features = create_word_embedding(sents_train)
 #dev_word_embedding_features = create_word_embedding(sents_dev)
 #test_word_embedding_features = numpy.asarray(create_word_embedding(sents_test))
-print("Length of the dictionary of word representations:",len(words_to_numbers))
-# print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
+#print("Length of the dictionary of word representations:",len(words_to_numbers))
+print("Length of the dictionary of word representations:",len(bigrams_to_numbers))
 #print("Length of the dictionary of word representations:",len(mixed_to_numbers))
 
 # FLAG - CHECK IF DICTIONARY IS BUILT CORRECTLY
@@ -205,13 +205,13 @@ print("Length of the dictionary of word representations:",len(words_to_numbers))
 # count frequency before and after removing unknown words - ??? - ASK GABRIEL!!
 # checked that it seems ok
 
-train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
+# train_vectors_list = create_vectors_list(sents_train, words_to_numbers)
+# dev_vectors_list = create_vectors_list(sents_dev, words_to_numbers)
+# test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
-# train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
-# dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
-# test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, bigrams_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
 # train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
 # dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
@@ -221,13 +221,13 @@ test_vectors_list = create_vectors_list(sents_test, words_to_numbers)
 
 # FLAG - CHECK IF SENTENCE REPRESENTATIONS WERE DONE CORRECTLY
 
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
+# train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, words_to_numbers)
+# dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, words_to_numbers)
+# test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, words_to_numbers)
 
-# train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
-# dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
-# test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, bigrams_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
 
 # train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
 # dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
@@ -283,9 +283,9 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 importances = model.feature_importances_
 
 features = {}
-for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
+#for i,(token,value) in enumerate(zip(words_to_numbers, importances)):
 #for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
-#for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
+for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): # IMPORTANTO TO CHANGE TO ADEQUATE DICT
    if (value != 0):
        features[token] = value
 features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
