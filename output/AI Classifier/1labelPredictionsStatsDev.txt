@@ -1,14 +1,14 @@
-Performance measures - Unigram Dictionary - MLP
+Performance measures - Unigram Dictionary - Adaboost
 
 Dev set:
 
-Precision macro: 0.76
-Precision Individually: [0.65  1.    0.886 0.6   0.667]
-Recall macro: 0.665
-Recall Individually: [1.    0.5   0.886 0.273 0.667]
-F1 Score micro: 0.771
-F1 Score macro: 0.676
-F1 Score weighted: 0.753
-F1 Score Individually: [0.788 0.667 0.886 0.375 0.667]
+Precision macro: 0.388
+Precision Individually: [0.5   0.    0.689 0.25  0.5  ]
+Recall macro: 0.375
+Recall Individually: [0.538 0.    0.912 0.091 0.333]
+F1 Score micro: 0.609
+F1 Score macro: 0.367
+F1 Score weighted: 0.558
+F1 Score Individually: [0.519 0.    0.785 0.133 0.4  ]
 
 
