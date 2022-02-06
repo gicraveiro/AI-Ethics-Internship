@@ -56,7 +56,7 @@ def clean_corpus(corpus):
     corpus = re.sub("(\s+\-)", r" - ", corpus)
     corpus = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", corpus)
     corpus = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", corpus)
-    corpus = re.sub("([()!,;:\.\?\[\]\|])", r" \1 ", corpus) # including : afterwards didnt change result
+    corpus = re.sub("([()!,;:\.\?\[\]\|])", r" \1 ", corpus) 
     corpus = re.sub(" +", " ", corpus)
 
     return corpus
