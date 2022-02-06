@@ -58,7 +58,8 @@ def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
 
 # Create sentences representation in numeric format, according to dictionary
 def create_vectors_list(sents, conversion_dict):
-    unk_count = 0
+    unk_unigrams_count = 0
+    unk_bigrams_count = 0
     unigrams_vector = []
     bigrams_vector = []
     mixed_vector = []
@@ -81,7 +82,7 @@ def create_vectors_list(sents, conversion_dict):
             if token.lower() not in conversion_dict: 
                 #sent_tokens_list.append("unk") # TO CONSIDER UNK TOKENS, UNCOMMENT THESE LINES
                 #mixed_tokens_list.append("unk")
-                #unk_count += 1
+                unk_unigrams_count += 1
                 pass
             else:
                 sent_tokens_list.append(token.lower())
@@ -96,7 +97,7 @@ def create_vectors_list(sents, conversion_dict):
         for bigram in sent_bigram:
             if bigram not in conversion_dict:
                 #sent_bigrams_list.append("unk") TO CONSIDER UNK TOKENS, UNCOMMENT THESE LINES
-                #unk_count += 1
+                unk_bigrams_count += 1
                 pass
             else:
                 sent_bigrams_list.append(bigram)
@@ -111,9 +112,11 @@ def create_vectors_list(sents, conversion_dict):
         bigrams_vector.append(sent_bigrams_vector)
         mixed_vector.append(sent_mixed_vector)
 
-    return unigrams_vector  # TO RUN WITH UNIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
+    print("Unigrams unknown count including repetitions:", unk_unigrams_count)
+    print("Bigrams unknown count including repetitions:", unk_bigrams_count, "\n")
+    #return unigrams_vector  # TO RUN WITH UNIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
     #return bigrams_vector  # TO RUN WITH BIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
-    #return mixed_vector    # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
+    return mixed_vector    # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
 
 # TO USE MLP CLASSIFIER WITH WORD EMBEDDINGS APPROACH, UNCOMMENT THIS FUNCION
 # def create_word_embedding(partition):
@@ -149,43 +152,45 @@ corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
 train_doc = nlp(corpus)
 train_doc = reconstruct_hyphenated_words(train_doc)
-tokens = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
+corpus_in_unigrams = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
 # OBS: MAYBE ENHANCING PREPROCESSING BY REMOVING LITTLE SQUARES COULD BE AN OPTION
 
 corpus_in_bigrams = []
-for i in range(0,len(tokens)-1):
-    corpus_in_bigrams.append(tokens[i]+" "+tokens[i+1])
+for i in range(0,len(corpus_in_unigrams)-1):
+    corpus_in_bigrams.append(corpus_in_unigrams[i]+" "+corpus_in_unigrams[i+1])
 
-token_freq = Counter(tokens)
+unigram_freq = Counter(corpus_in_unigrams)
 bigram_freq = Counter(corpus_in_bigrams)
-print("Unigrams frequency before removing unknown words:", token_freq)
-print("Bigrams frequency before removing unknown words:", bigram_freq)
+# print("Unigrams frequency before removing unknown words:", unigram_freq)
+# print("Bigrams frequency before removing unknown words:", bigram_freq)
 
-# Removing words less frequent than 2 
-corpus_without_unk = [token[0] for token in token_freq.items() if int(token[1]) > 2]
-bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) > 1]
+# Removing less frequent than 2 
+unigrams_filtered_lexicon = [unigram[0] for unigram in unigram_freq.items() if int(unigram[1]) > 2]
+bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) > 1] 
+# print("Unigrams frequency after removing unknown words:", [unigram for unigram in unigram_freq.items() if int(unigram[1]) > 2])
+# print("Bigrams frequency after removing unknown words:", [bigram for bigram in bigram_freq.items() if int(bigram[1]) > 1] )
 
-token_freq = Counter(corpus_without_unk)
-bigram_freq = Counter(bigrams_filtered_lexicon)
-print("Unigrams frequency after removing unknown words:", token_freq)
-print("Bigrams frequency after removing unknown words:", bigram_freq)
+# Counting unknown tokens
+unknown_unigrams = [unigram[0] for unigram in unigram_freq.items() if int(unigram[1]) <= 2]
+unknown_bigrams = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) <= 1]
+print("\n","Unknown unigrams count without repetitions:", len(unknown_unigrams))
+print("Unknown bigrams count without repetitions:", len(unknown_bigrams), "\n")
 
 # Unigram dictionary
-unigrams_to_numbers = create_dict(corpus_without_unk)
+unigrams_to_numbers = create_dict(unigrams_filtered_lexicon)
 
 # Bigram dictionary
 bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
 
 # Mixed dictionary
-with open('featureslr0.5nEst100.txt', 'r') as file:
-#with open('features.txt', 'r') as file:
+with open('features.txt', 'r') as file:
     features_list = file.read()
 features_list = features_list.split('\n')
 mixed_to_numbers = create_dict(features_list)
 
-print("Length of the dictionary of unigrams:",len(unigrams_to_numbers))
-print("Length of the dictionary of bigrams:",len(bigrams_to_numbers))
-print("Length of the dictionary of unigrams and bigrams:",len(mixed_to_numbers))
+print("Length of the dictionary of unigrams(lexicon):",len(unigrams_to_numbers))
+print("Length of the dictionary of bigrams(lexicon):",len(bigrams_to_numbers))
+print("Length of the dictionary of unigrams and bigrams(lexicon):",len(mixed_to_numbers), "\n")
 
 # CREATE SENTENCE REPRESENTATIONS
 #   can either be by word embeddings or with a simple representation according to the presence of a unigram or bigram in the sentence
@@ -202,9 +207,9 @@ print("Length of the dictionary of unigrams and bigrams:",len(mixed_to_numbers))
 # SIMPLE NUMERICAL REPRESENTATIONS OF THE SENTENCES
 
 # TO RUN WITH UNIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
-train_vectors_list = create_vectors_list(sents_train, unigrams_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, unigrams_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, unigrams_to_numbers)
+# train_vectors_list = create_vectors_list(sents_train, unigrams_to_numbers)
+# dev_vectors_list = create_vectors_list(sents_dev, unigrams_to_numbers)
+# test_vectors_list = create_vectors_list(sents_test, unigrams_to_numbers)
 
 # TO RUN WITH BIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
 # train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
@@ -212,16 +217,16 @@ test_vectors_list = create_vectors_list(sents_test, unigrams_to_numbers)
 # test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
 # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
-# train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
-# dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
-# test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # FORMATTING SIMPLE SENTENCE REPRESENTATIONS - MUST BE IN SPARSE MATRIX FORMAT TO FEED THE CLASSIFIERS
 
 # TO RUN WITH UNIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, unigrams_to_numbers)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, unigrams_to_numbers)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, unigrams_to_numbers)
+# train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, unigrams_to_numbers)
+# dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, unigrams_to_numbers)
+# test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, unigrams_to_numbers)
 
 # TO RUN WITH BIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
 # train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
@@ -229,9 +234,9 @@ test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, unigram
 # test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
 
 # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
-# train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
-# dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
-# test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
 
 # CREATE LABELS REPRESENTATIONS
 
@@ -264,8 +269,10 @@ test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 
 # Classifier models
 
-# TO USE ADABOOST CLASSIFIER, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
-adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5)
+# TO USE ADABOOST CLASSIFIER, UNCOMMENT adaclassifier AND COMMENT OTHER MODELS
+#   TO USE UNIGRAMS, PARAMETERS WERE BETTER WITH n_estimators=50, learning_rate=1
+#   TO USE UNIGRAMS + BIGRAMS, PARAMETERS WERE BETTER WITH n_estimators=100, learning_rate=0.5
+adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) 
 # TO USE SVC CLASSIFIER WITH ONE VS REST SCHEME, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
 #svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
 # TO USE SVC CLASSIFIER WITH ONE VS ONE SCHEME, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
@@ -293,18 +300,17 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 #print(model.best_params_)
 
 # TO SEE WHICH FEATURES ADABOOST CHOSE, UNCOMMENT THIS SECTION
-importances = model.feature_importances_
-features = {}
-
+# importances = model.feature_importances_
+# features = {}
 # UNCOMMENT THE LINE YOU NEED FROM THESE 3 AND COMMENT THE OTHER 2
-#for i,(token,value) in enumerate(zip(unigrams_to_numbers, importances)):
-for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
-#for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): 
-   if (value != 0):
-       features[token] = value
-features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
-for feature in features:
-   print('Feature:',feature[1],'Score:',feature[0])
+# for i,(token,value) in enumerate(zip(unigrams_to_numbers, importances)):
+# # for i,(token,value) in enumerate(zip(mixed_to_numbers, importances)):
+# #for i,(token,value) in enumerate(zip(bigrams_to_numbers, importances)): 
+#    if (value != 0):
+#        features[token] = value
+# features = sorted([(value, key) for (key, value) in features.items()], reverse=True)
+# for feature in features:
+#    print('Feature:',feature[1],'Score:',feature[0])
 
 # Predicting
 
