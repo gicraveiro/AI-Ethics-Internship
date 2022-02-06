@@ -65,6 +65,7 @@ def create_vectors_list(sents, conversion_dict):
     mixed_vector = []
     
     for sent in sents:
+        # preprocessing
         sent_doc = clean_corpus(sent) 
         sent_doc = nlp(sent_doc)
         sent_doc = reconstruct_hyphenated_words(sent_doc)
@@ -146,25 +147,26 @@ def create_vectors_list(sents, conversion_dict):
 
 nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner', 'attribute_ruler', 'lemmatizer']) 
 
-# Preprocessing input 
+# Preprocessing 
 
 corpus = ' '.join(sents_train)
 corpus = clean_corpus(corpus) 
 train_doc = nlp(corpus)
 train_doc = reconstruct_hyphenated_words(train_doc)
-corpus_in_unigrams = [token.text for token in train_doc if not token.is_space if not token.is_punct] # if not token.text in stopwords.words()] 
-# OBS: MAYBE ENHANCING PREPROCESSING BY REMOVING LITTLE SQUARES COULD BE AN OPTION
+corpus_in_unigrams = [token.text for token in train_doc if not token.is_space if not token.is_punct] 
 
+# Creating bigram corpus
 corpus_in_bigrams = []
 for i in range(0,len(corpus_in_unigrams)-1):
     corpus_in_bigrams.append(corpus_in_unigrams[i]+" "+corpus_in_unigrams[i+1])
 
+# Counting frequency of unigrams and bigrams
 unigram_freq = Counter(corpus_in_unigrams)
 bigram_freq = Counter(corpus_in_bigrams)
 # print("Unigrams frequency before removing unknown words:", unigram_freq)
 # print("Bigrams frequency before removing unknown words:", bigram_freq)
 
-# Removing less frequent than 2 
+# Removing unigrams less frequent than 3 and bigrams less frequent than 2
 unigrams_filtered_lexicon = [unigram[0] for unigram in unigram_freq.items() if int(unigram[1]) > 2]
 bigrams_filtered_lexicon = [bigram[0] for bigram in bigram_freq.items() if int(bigram[1]) > 1] 
 # print("Unigrams frequency after removing unknown words:", [unigram for unigram in unigram_freq.items() if int(unigram[1]) > 2])
