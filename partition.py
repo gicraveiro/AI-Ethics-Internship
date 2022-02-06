@@ -85,6 +85,7 @@ def remove_empty_sentences(sents, labels):
         cleared_sent = nlp(cleared_sent)
         cleared_sent = reconstruct_hyphenated_words(cleared_sent)
         cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
+        # OBS: MAYBE ENHANCING PREPROCESSING BY REMOVING LITTLE SQUARES COULD BE AN OPTION - but important to change it in the partition file too
         if (label == ['Not applicable'] and len(cleared_sent) == 0):
             sents[i] = "REMOVE THIS ITEM"
             labels[i] = "REMOVE THIS ITEM"
@@ -99,6 +100,7 @@ sents = annotation['Sentences'].values
 labels1 = annotation['Primary Label'].values
 labels2 = annotation['Secondary Label'].values
 
+# Formatting labels (because unfilled secondary labels must be treated accordingly)
 labels = []
 for l1,l2 in zip(labels1,labels2):
     row_labels = []
@@ -107,20 +109,16 @@ for l1,l2 in zip(labels1,labels2):
         row_labels.append(l2)
     labels.append(row_labels)
 
-# FLAG - 
-#  CHECK IF CORRECT AND UPDATED FILE IS BEING USED - CHECKED
-#  CHECK IF LABELS LIST ARE BEING BUILT CORRECTLY - CHECKED
-
 # Partitions data into 80% trainset and remaining 20%
 sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.2, stratify=labels, random_state=1111111)
-#sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labels, test_size=0.3, stratify=labels, random_state=1111111)
 
 # Partitions remaining 20% into dev set (10%) and test set (10%)
 sents_test, sents_dev, labels_test, labels_dev = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test, random_state=1111111)
 
 nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner', 'attribute_ruler', 'lemmatizer']) 
 
-### REMOVING EMPTY SENTENCES - PREPROCESSING THAT WAS INCLUDED ONLY IN WORD EMBEDDING 
+# Preprocessing
+# Removes empty sentences
 sents_train, labels_train = remove_empty_sentences(sents_train, labels_train)
 sents_dev, labels_dev = remove_empty_sentences(sents_dev, labels_dev)
 sents_test, labels_test = remove_empty_sentences(sents_test, labels_test)
@@ -129,8 +127,6 @@ train_dict = create_sent_label_dict(sents_train, labels_train)
 dev_dict = create_sent_label_dict(sents_dev, labels_dev)
 test_dict = create_sent_label_dict(sents_test, labels_test)
 total_dict = train_dict + dev_dict + test_dict
-
-# FLAG - CHECK IF EACH SENTENCE WAS ASSOCIATED WITH THE RIGHT LABEL - TOO HARD
 
 # create output files and write sentences with labels
 write_partition_file(train_dict, 'train')
