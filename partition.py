@@ -1,4 +1,3 @@
-# importing the dataset
 import pandas as pd
 import re
 from sklearn.model_selection import train_test_split
@@ -7,7 +6,8 @@ import json
 from collections import Counter
 import matplotlib.pyplot as plt
 import numpy
-from imblearn.over_sampling import SMOTE
+import spacy
+from utils import clean_corpus, reconstruct_hyphenated_words
 
 # Functions
 
@@ -57,7 +57,10 @@ def plot_distribution(counter, name, type):
     x_pos = numpy.arange(len(counter)) # sets number of bars
     plt.bar(x_pos, values,align='center')
     plt.xticks(x_pos, keys, rotation=45, ha="right") # sets labels of bars and their positions
-    plt.subplots_adjust(bottom=0.45, left=0.25) # creates space for complete label names
+    plt.subplots_adjust(bottom=0.5, left=0.2) # creates space for complete label names
+    # TO DO: adding a title might be a good idea -> plt.title('Distribution ...')
+    plt.xlabel('Labels',labelpad=10.0)
+    plt.ylabel('Frequency (%)',labelpad=10.0)
     for i, item in enumerate(values):
         plt.text(i,item,str(round((item*100/total),1)))
     plt.ylim((0,values[0]+values[2]))
@@ -75,8 +78,19 @@ def write_distribution(path,counter,name):
         for item in counter.items():
             print(item[0], calculate_distribution(item[1], total), " ("+str(item[1])+"/"+str(total)+")", file=file)
         print("\n",file=file)
-    # TO DO: ALSO PRINT NUMBER ? 
-
+    
+def remove_empty_sentences(sents, labels):
+    for i, (sent, label) in enumerate(zip(sents, labels)):
+        cleared_sent = clean_corpus(sent)
+        cleared_sent = nlp(cleared_sent)
+        cleared_sent = reconstruct_hyphenated_words(cleared_sent)
+        cleared_sent = [token.text for token in cleared_sent if not token.is_space if not token.is_punct]
+        if (label == ['Not applicable'] and len(cleared_sent) == 0):
+            sents[i] = "REMOVE THIS ITEM"
+            labels[i] = "REMOVE THIS ITEM"
+    sents = [sent for sent in sents if sent != "REMOVE THIS ITEM"]
+    labels = [label for label in labels if label != "REMOVE THIS ITEM"]
+    return sents, labels
 # MAIN
 
 # Reads annotation table from file .csv saved locally and creates labels and senences list
@@ -104,6 +118,12 @@ sents_train, sents_test, labels_train, labels_test = train_test_split(sents,labe
 # Partitions remaining 20% into dev set (10%) and test set (10%)
 sents_test, sents_dev, labels_test, labels_dev = train_test_split(sents_test,labels_test, test_size=0.5, stratify=labels_test, random_state=1111111)
 
+nlp = spacy.load('en_core_web_lg',disable=['tok2vec', 'tagger', 'parser', 'ner', 'attribute_ruler', 'lemmatizer']) 
+
+### REMOVING EMPTY SENTENCES - PREPROCESSING THAT WAS INCLUDED ONLY IN WORD EMBEDDING 
+sents_train, labels_train = remove_empty_sentences(sents_train, labels_train)
+sents_dev, labels_dev = remove_empty_sentences(sents_dev, labels_dev)
+sents_test, labels_test = remove_empty_sentences(sents_test, labels_test)
 # save a json, separate labels and sents, use a dictionary in python
 train_dict = create_sent_label_dict(sents_train, labels_train)
 dev_dict = create_sent_label_dict(sents_dev, labels_dev)
@@ -170,14 +190,3 @@ write_distribution(path, counter, "Test")
 
 # FLAG - CHECK IF DISTRIBUTION IS BEING DONE AND MEASURED CORRECTLY
 # FLAG - in theory checked, but RECHECK rechecked
-
-
-#print(dev_sents_ref_list)
-#print(dev_ref_primary_label)
-#oversample = SMOTE()
-#X, y = oversample.fit_resample(dev_sents_ref_list, dev_ref_primary_label)
-# summarize the new class distribution
-#counter = Counter(y)
-#print(X)
-#print(y)
-#print(counter)

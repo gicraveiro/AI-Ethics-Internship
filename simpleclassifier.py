@@ -47,9 +47,6 @@ def simple_classifier(sents_ref_json):
     return output_dict
 
 
-
-
-
 #####
 # MAIN
 
@@ -135,6 +132,12 @@ write_output_stats_file(path, "Test", test_ref_primary_label, test_pred_first_la
 # FLAG - CHECK IF STATS WERE CALCULATED AND WRITTEN CORRECTLY - checked
 
 '''
+###############
+
+# APPENDIX
+#
+# SKETCH OF OTHER APPROACHES TO SELECT LABELS (CONSIDERING MULTILABEL OR CHOOSING PRIMARY LABEL DIFFERENTLY)
+
 # Multilabel distribution count + chart
 counter = Counter(tuple(item) for item in train_labels_ref_list)
 plot_distribution(counter, "Train", "multilabel")
@@ -145,9 +148,9 @@ write_distribution('output/Simple Classifier/multilabelPredictionsStats_Dev.txt'
 #counter = Counter(tuple(item) for item in test_labels_ref_list)
 #plot_distribution(counter, "Test", "multilabel")
 #write_distribution('output/Simple Classifier/multilabelPredictionsStats_Test.txt', counter)
-'''
-'''
-### OTHER APPROACHES FOR CHOOSING THE LABEL FOR EVALUATION -- check start of implementation at the end of the code
+
+#####
+
 counter = Counter(train_ref_primary_label)
 plot_distribution(counter, "Train", "First_label")
 write_distribution('output/Simple Classifier/1labelPredictionsStats_Train.txt', counter)
@@ -158,14 +161,8 @@ write_distribution('output/Simple Classifier/1labelPredictionsStats_Dev.txt', co
 #plot_distribution(counter,"Test")
 #write_distribution('output/Simple Classifier/1labelPredictionsStats_Test.txt', counter)
 
-# FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
-'''
-# FLAG - CHECK IF DISTRIBUTION IS BEING MEASURED CORRECTLY
+#######
 
-###############
-
-# APPENDIX
-'''
 #pred_1label_simple = copy.deepcopy(pred_array)
 pred_array_ordered = copy.deepcopy(pred_array) # vector of predictions that orders the prediction labels in order to align with primary label from reference with first
 pred_1label_array = copy.deepcopy(pred_array) # vector of predictions that contains only first label
@@ -191,8 +188,3 @@ for i, (ref_label, pred_label) in enumerate(zip(ref_array, pred_array)):
 ref_1label_str_list = [label[0] for label in ref_1label_array]
 pred_1label_str_list = [label[0] for label in pred_1label_array]
 '''
-######
-# TO REMEMBER DOCUMENTATION
-# TO DO: RECHOOSE RULES, CHOOSE ONLY WORDS WITH SEMANTIC MEANING DONE
-# remove the words that are not in the train set even though they make sense DONE
-# verbs - infinitive, noun root form DONE
