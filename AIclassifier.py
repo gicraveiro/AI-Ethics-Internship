@@ -260,7 +260,8 @@ test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, unigram
 # CREATE LABELS REPRESENTATIONS
 
 train_labels_primary = create_labels_array(labels_train)
-dev_labels_primary = numpy.asarray(create_labels_array(labels_dev)) 
+#dev_labels_primary = numpy.asarray(create_labels_array(labels_dev)) # USE THIS LINE FOR ALL OTHER CLASSIFIERS
+dev_labels_primary = create_labels_array(labels_dev) # USE THIS LINE FOR MLP
 test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 
 # CLASSIFIER Configurations
@@ -344,7 +345,7 @@ predictions = model.predict(test_word_embedding_features) # TEST
 
 # Format labels and predictions
 test_list = test_labels_primary.tolist() # TEST
-dev_list = dev_labels_primary.tolist() # DEV
+#dev_list = dev_labels_primary.tolist() # DEV - ALWAYS COMMENT THIS LINE FOR MLP
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
 
