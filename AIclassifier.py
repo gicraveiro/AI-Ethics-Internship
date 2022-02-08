@@ -137,27 +137,27 @@ def create_vectors_list(sents, conversion_dict):
     #return mixed_vector    # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
 
 # TO USE MLP CLASSIFIER WITH WORD EMBEDDINGS APPROACH, UNCOMMENT THIS FUNCION
-# def create_word_embedding(partition):
-#     word_embedding_features = []
-#     for sent in partition:
-#         sent_doc = clean_corpus(sent) 
-#         sent_doc = nlp(sent_doc)
-#         sent_doc = reconstruct_hyphenated_words(sent_doc)
-#         sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
-#         sentence_embedding = []
-#         for token in sent_doc:
-#             token_word_embedding = ft.get_word_vector(token)
-#             sentence_embedding.append(token_word_embedding)
-#         we_mean = numpy.asarray(sentence_embedding).mean(axis=0)
-#         #if isinstance(we_mean, float):
-#         #    we_mean = numpy.zeros(300, dtype=float)
-#         word_embedding_features.append(we_mean)
-#         #word_embedding_features = numpy.asarray(word_embedding_features)
-#         #word_embedding_features = numpy.append(word_embedding_features, we_mean)
-#         #tokens_list_of_lists.append(sent_doc)
-#     #word_embedding_features = numpy.asarray(word_embedding_features)
-#     word_embedding_features = word_embedding_features
-#     return word_embedding_features
+def create_word_embedding(partition):
+    word_embedding_features = []
+    for sent in partition:
+        sent_doc = clean_corpus(sent) 
+        sent_doc = nlp(sent_doc)
+        sent_doc = reconstruct_hyphenated_words(sent_doc)
+        sent_doc = [token.text for token in sent_doc if not token.is_space if not token.is_punct]
+        sentence_embedding = []
+        for token in sent_doc:
+            token_word_embedding = ft.get_word_vector(token)
+            sentence_embedding.append(token_word_embedding)
+        we_mean = numpy.asarray(sentence_embedding).mean(axis=0)
+        #if isinstance(we_mean, float):
+        #    we_mean = numpy.zeros(300, dtype=float)
+        word_embedding_features.append(we_mean)
+        #word_embedding_features = numpy.asarray(word_embedding_features)
+        #word_embedding_features = numpy.append(word_embedding_features, we_mean)
+        #tokens_list_of_lists.append(sent_doc)
+    #word_embedding_features = numpy.asarray(word_embedding_features)
+    word_embedding_features = word_embedding_features
+    return word_embedding_features
 
 ####
 # MAIN
@@ -217,11 +217,11 @@ print("Length of the dictionary of unigrams and bigrams(lexicon):",len(mixed_to_
 # WORD EMBEDDINGS
 
 # TO USE MLP CLASSIFIER WITH WORD EMBEDDINGS APPROACH, UNCOMMENT THIS LINE
-#ft = fasttext.load_model('cc.en.300.bin')
+ft = fasttext.load_model('cc.en.300.bin')
 
-#train_word_embedding_features = create_word_embedding(sents_train)
-#dev_word_embedding_features = create_word_embedding(sents_dev)
-#test_word_embedding_features = numpy.asarray(create_word_embedding(sents_test))
+train_word_embedding_features = create_word_embedding(sents_train)
+dev_word_embedding_features = create_word_embedding(sents_dev)
+test_word_embedding_features = numpy.asarray(create_word_embedding(sents_test))
 
 # SIMPLE NUMERICAL REPRESENTATIONS OF THE SENTENCES
 
@@ -293,11 +293,11 @@ test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 #   TO USE UNIGRAMS + BIGRAMS, PARAMETERS WERE BETTER WITH n_estimators=100, learning_rate=0.5
 # adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) 
 # TO USE SVC CLASSIFIER WITH ONE VS REST SCHEME, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
-svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
+# svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 # TO USE SVC CLASSIFIER WITH ONE VS ONE SCHEME, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
 # svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 # TO USE MLP CLASSIFIER WITH WORD EMBEDDINGS, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
-#mlp_classifier = MLPClassifier(random_state=1111111, early_stopping=True, batch_size=32, hidden_layer_sizes=(200,250,200), learning_rate='adaptive', learning_rate_init=0.001, max_iter=1000)
+mlp_classifier = MLPClassifier(random_state=1111111, early_stopping=True, batch_size=32, hidden_layer_sizes=(200,250,200), learning_rate='adaptive', learning_rate_init=0.001, max_iter=1000)
 # TO TEST HYPERPARAMETERS FOR MLP CLASSIFIER, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
 #opt_mlp = GridSearchCV(mlp_classifier, parameter_space, n_jobs=-1, cv=10) 
 
@@ -307,12 +307,12 @@ svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(d
 # model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #print(adaclassifier.best_params_) # prints best parameters if you enabled GridSearchCV
 # TO USE SVC CLASSIFIER, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
-model = svc_classifier.fit(train_matrix_array, train_labels_primary)
+# model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 
 # TO USE MLP CLASSIFIER, UNCOMMENT THESE 3 LINES AND COMMENT OTHER MODELS
-#new_train_features = numpy.asarray(train_word_embedding_features + dev_word_embedding_features)
-#new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
-#model = mlp_classifier.fit(new_train_features, new_train_labels)
+new_train_features = numpy.asarray(train_word_embedding_features + dev_word_embedding_features)
+new_train_labels = numpy.asarray(train_labels_primary + dev_labels_primary)
+model = mlp_classifier.fit(new_train_features, new_train_labels)
 
 # TO TEST PARAMETERS FOR MLP CLASSIFIER UNCOMMENT THESE 2 LINES AND COMMENT OTHER MODELS
 #model = opt_mlp.fit(new_train_features, new_train_labels)
@@ -334,12 +334,11 @@ model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 # Predicting
 
 # TO USE ADABOOST OR SVC CLASSIFIERS
-predictions = model.predict(dev_matrix_array) # DEV
+#predictions = model.predict(dev_matrix_array) # DEV
 #predictions = model.predict(test_matrix_array) # TEST
 
 # TO USE MLP CLASSIFIER WITH WORD EMBEDDINGS
-#predictions = model.predict(dev_word_embedding_features) # DEV
-#predictions = model.predict(test_word_embedding_features) # TEST
+predictions = model.predict(test_word_embedding_features) # TEST
 
 # Output of results
 
@@ -353,46 +352,46 @@ labels=[1,3,5,4,2]
 # path = 'output/AI Classifier/Adaboost/Unigrams+Bigrams/'
 # path = 'output/AI Classifier/SVC/One vs Rest/C=1/'
 # path = 'output/AI Classifier/SVC/One vs One/C=1/'
-path = 'output/AI Classifier/SVC/One vs Rest/C=0.05/'
+# path = 'output/AI Classifier/SVC/One vs Rest/C=0.05/'
 # path = 'output/AI Classifier/SVC/One vs One/C=0.05/'
 # path = 'output/AI Classifier/SVC/C=0.05/'
-# path = 'output/AI Classifier/MLP/'
+path = 'output/AI Classifier/MLP/'
 
-aux_path= path + 'confusion_matrix_Normalized_Dev.png' 
-#aux_path= path + 'confusion_matrix_Normalized_Test.png' 
+# aux_path= path + 'confusion_matrix_Normalized_Dev.png' 
+aux_path= path + 'confusion_matrix_Normalized_Test.png' 
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
 
 # NORMALIZED CONFUSION MATRIX
-create_confusion_matrix(dev_list, pred_list, "true", aux_path, labels, display_labels) # DEV
-#create_confusion_matrix(test_list, pred_list, "true", aux_path, labels, display_labels) # TEST
+#create_confusion_matrix(dev_list, pred_list, "true", aux_path, labels, display_labels) # DEV
+create_confusion_matrix(test_list, pred_list, "true", aux_path, labels, display_labels) # TEST
 
 # NON NORMALIZED CONFUSION MATRIX
-aux_path= path + 'confusion_matrix_NonNormalized_Dev.png'
-#aux_path= path + 'confusion_matrix_NonNormalized_Test.png'
-create_confusion_matrix(dev_list, pred_list, None, aux_path, labels, display_labels) # DEV
-#create_confusion_matrix(test_list, pred_list, None, aux_path, labels, display_labels) # TEST
+#aux_path= path + 'confusion_matrix_NonNormalized_Dev.png'
+aux_path= path + 'confusion_matrix_NonNormalized_Test.png'
+#create_confusion_matrix(dev_list, pred_list, None, aux_path, labels, display_labels) # DEV
+create_confusion_matrix(test_list, pred_list, None, aux_path, labels, display_labels) # TEST
 
 # File for performance on predictions
-aux_path = path + 'PredictionsStatsDev.txt' # DEV
-#aux_path = path + 'PredictionsStatsTest.txt' # TEST
+#aux_path = path + 'PredictionsStatsDev.txt' # DEV
+aux_path = path + 'PredictionsStatsTest.txt' # TEST
 
 with open(aux_path, 'w') as file:
-    #print("Performance measures - MLP Word Embeddings\n", file=file) # CHANGE TITLE ACCORDING TO CONTEXT
-    print("Performance measures - SVC\n0ne vs Rest, C = 0.05\n", file=file) # CHANGE TITLE ACCORDING TO CONTEXT
-write_output_stats_file(aux_path, "Dev", dev_labels_primary, predictions, labels) # DEV
-#write_output_stats_file(aux_path, "Test", test_labels_primary, predictions, labels) # TEST
+    print("Performance measures - MLP Word Embeddings\n", file=file) # CHANGE TITLE ACCORDING TO CONTEXT
+    #print("Performance measures - SVC\n0ne vs Rest, C = 0.05\n", file=file) # CHANGE TITLE ACCORDING TO CONTEXT
+#write_output_stats_file(aux_path, "Dev", dev_labels_primary, predictions, labels) # DEV
+write_output_stats_file(aux_path, "Test", test_labels_primary, predictions, labels) # TEST
 
 
 pred_list = converts_to_text(pred_list)
-dev_pred_dict = create_sent_label_dict(sents_dev, pred_list) # DEV
-#test_pred_dict = create_sent_label_dict(sents_test, pred_list) # TEST
+#dev_pred_dict = create_sent_label_dict(sents_dev, pred_list) # DEV
+test_pred_dict = create_sent_label_dict(sents_test, pred_list) # TEST
 
 # Predictions json file
-aux_path = path + 'Predictions_Dev.json'
-#aux_path = path + 'Predictions_Test.json'
+#aux_path = path + 'Predictions_Dev.json'
+aux_path = path + 'Predictions_Test.json'
 
-write_predictions_file(dev_pred_dict, aux_path) # DEV
-#write_predictions_file(test_pred_dict, aux_path) # TEST
+#write_predictions_file(dev_pred_dict, aux_path) # DEV
+write_predictions_file(test_pred_dict, aux_path) # TEST
 
 # References that helped me understand how to implement all this
 # https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
