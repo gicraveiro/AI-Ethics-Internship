@@ -1,15 +1,10 @@
-# MANIPULATING FACEBOOK SOURCED DATASET ON PRIVACY
 import os
 import pdfx
 import spacy
 import nltk
-import re
 import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 from utils import clean_corpus, reconstruct_hyphenated_words, reconstruct_noun_chunks
-#nltk.download('stopwords')
-
-file_input_path_general = 'Facebook/Privacy/' # global
 
 # extracted from the lab, git repository: https://github.com/esrel/NLU.Lab.2021/blob/master/notebooks/corpus.ipynb
 def nbest(d, n=5):
@@ -30,9 +25,10 @@ def plot_graph(tokens,path,title):
     plt.clf() # cleans previous graph
     plt.ioff()
     return freq
+
 def compute_stats(tokens, filename, output_file, gen_path): 
     # GRAPH OF WORD FREQUENCY
-    graph_path='output/'+gen_path+'/'+filename+'/Graph.png'
+    graph_path='output/Corpus Statistics/'+gen_path+'/'+filename+'/Graph.png'
     os.makedirs(os.path.dirname(graph_path), exist_ok=True)
     freq = plot_graph(tokens,graph_path,filename)
 
@@ -56,7 +52,7 @@ def compute_stats(tokens, filename, output_file, gen_path):
 
 def string_search(document, index,keyword):
     counter=0
-    index = document.find(keyword, index+1) #condition to prevent index from reaching the end needed?
+    index = document.find(keyword, index+1) 
     if(index != -1): 
         counter +=1
         counter += string_search(document,index,keyword)
@@ -79,59 +75,16 @@ def parser(corpus, output_file):
                 for child in token.children:
                     if(child != token and child.dep_ != "det" and child.dep_ != "punct" and child.dep_ != "prep" and child.dep_ != "aux" and child.dep_ != "auxpass"):
                         print(child.text, "->", child.dep_, file=output_file)
-'''
-# reconstructs hyphen, slash and apostrophes
-def reconstruct_hyphenated_words(corpus):
-    i = 0
-    while i < len(corpus):
-        if((corpus[i].text == "-" or corpus[i].text == "/") and corpus[i].whitespace_ == ""): # identify hyphen ("-" inside a word)
-            with corpus.retokenize() as retokenizer:
-                retokenizer.merge(corpus[i-1:i+2]) # merge the first part of the word, the hyphen and the second part of the word            
-        elif(corpus[i].text == "’s" and corpus[i-1].whitespace_ == ""):
-            with corpus.retokenize() as retokenizer:
-                retokenizer.merge(corpus[i-1:i+1])           
-        else: 
-            i += 1
-    return corpus
 
-# noun chunks that correspond to keywords
-def reconstruct_noun_chunks(corpus,keywords):
-    i = 0
-    while i < len(corpus):
-        counter = i
-        token = corpus[i].text
-        for keyword in keywords:
-            kw_lower = keyword.lower()
-            index = kw_lower.find(token)
-            aux = index
-            while (aux != -1 and counter < len(corpus)-1 and token != kw_lower):
-                counter += 1
-                token += ' '+corpus[counter].text
-                aux = kw_lower.find(token)
-                if(aux == -1):
-                    counter -=1
-                    token = corpus[i].text
-            if(i != counter):
-                if(token == kw_lower): 
-                    with corpus.retokenize() as retokenizer:
-                        retokenizer.merge(corpus[i:counter+1])
-                    break 
-                else: 
-                    counter = i               
-        if(i == counter):
-            i += 1
-    return corpus
-'''
-
-def process_document(title, source_path,source,keywords):
+def process_document(title, source_path,keywords):
     
     # CREATING OUTPUT FILES
     if(len(keywords) > 1):
-        stats_path = 'output/'+source_path+'/'+title+'/Stats.txt'
-        keyword_guide_path = 'output/'+source_path+'/'+title+'/KeywordGuide.txt'
+        stats_path = 'output/Corpus Statistics/'+source_path+'/'+title+'/Stats.txt'
+        keyword_guide_path = 'output/Corpus Statistics/'+source_path+'/'+title+'/KeywordsFound.txt'
     else:
-        stats_path = 'output/'+source_path+'/'+title+'/PrivacyOnlyStats.txt'
-        keyword_guide_path = 'output/'+source_path+'/'+title+'/PrivacyOnlyKeywordGuide.txt'
+        stats_path = 'output/Corpus Statistics/'+source_path+'/'+title+'/PrivacyOnlyStats.txt'
+        keyword_guide_path = 'output/Corpus Statistics/'+source_path+'/'+title+'/PrivacyOnlyKeywordsFound.txt'
     
     os.makedirs(os.path.dirname(stats_path), exist_ok=True)
     os.makedirs(os.path.dirname(keyword_guide_path), exist_ok=True)
@@ -140,21 +93,12 @@ def process_document(title, source_path,source,keywords):
     
     # READING AND MANIPULATING INPUT FILE
     path = 'data/'+source_path+'/'+title+'.pdf'
-    input_file = pdfx.PDFx(path) # TO DO: OPTIMIZE PATH, GET IT STRAIGHT FROM PARAMETER INSTEAD OF CALCULATING IT AGAIN
+    input_file = pdfx.PDFx(path) 
     input_file = input_file.get_text()
 
     # INPUT FILE PRE-PROCESSING FOR STRING SEARCH
-    # INCLUDES TRANSFORMATION OF DOUBLE SPACES AND NEW LINES TO SINGLE SPACES + LOWERCASING
     input_file = clean_corpus(input_file)
-    '''
-    input_file = input_file.lower()
-
-    input_file = re.sub(" +", " ", input_file)
-    input_file = re.sub("(\s+\-)", r" - ", input_file)
-    input_file = re.sub("([a-zA-Z]+)([0-9]+)", r"\1 \2", input_file)
-    input_file = re.sub("([0-9]+)([a-zA-Z]+)", r"\1 \2", input_file)
-    input_file = re.sub("([()!,;\.\?\[\]\|])", r" \1 ", input_file)
-    '''    
+   
     with open(keyword_guide_path,'w') as keyword_guide_file:
         print("\n"+title+"\n"+'Keywords found by String Search'+"\n", file=keyword_guide_file)
         for keyword in keywords:
@@ -164,7 +108,7 @@ def process_document(title, source_path,source,keywords):
 
     doc = nlp(input_file)
     doc = reconstruct_hyphenated_words(doc)
-    doc = reconstruct_noun_chunks(doc,keywords)
+    doc = reconstruct_noun_chunks(doc,keywords) # ONLY MERGES TO THE SAME TOKEN THE COMPUND KEYWORDS, so if the only keyword is privacy, it doesn't do anything
     tokens = [token for token in doc if not token.is_space if not token.is_punct if not token.text in stopwords.words()] # token for parser, token.text for frequency test
     
     print("\nWith stop word removal","\nSize of original corpus:", len(doc), "\nSize of filtered corpus:",len(tokens), file=output_file)
@@ -173,24 +117,14 @@ def process_document(title, source_path,source,keywords):
     
     print("---------------------------------------------------------------------------------------", file=output_file)
     print("Dependency relations of keywords that appear in the file:", file=output_file)
-    parser(tokens, output_file)
+    parser(tokens, output_file) # dependency relations
 
     output_file.close()
 
-def analyse_folder(source):
-    path='data/'+file_input_path_general
-    for filename in os.listdir(path):
-        if os.path.isdir(path+'/'+filename):
-            analyse_folder(filename+'/')
-        else:
-            file_name, file_extension = os.path.splitext(filename)
-            process_document(file_name, source, keywords)
-    
-#####
+#################
 #  MAIN 
-#####
 
-nlp = spacy.load('en_core_web_lg')
+nlp = spacy.load('en_core_web_lg') # original one was with small version
 nlp.add_pipe("merge_entities")
 
 kw_opt = int(input("Enter the preferred option:\nFor 'privacy' as the only keyword, enter 1\nFor the keywords list, enter 2\n"))
@@ -202,8 +136,9 @@ if(kw_opt == 1):
 
 # KEYWORDS 
 elif (kw_opt == 2):
-    output_file = open('output/Facebook/Privacy/Keywords.txt', 'w')
-    keywords_file = open('data/Utils/PrivacyKeyWords2.txt', "r", encoding='utf-8-sig')
+    output_file = open('output/Corpus Statistics/Keywords.txt', 'w')
+    keywords_file = open('data/Utils/PrivacyKeyWords2.txt', "r", encoding='utf-8-sig') 
+    #keywords_file = open('data/Utils/PrivacyKeyWords.txt', "r", encoding='utf-8-sig') # Original list of keywords( without different spellings)
     keywords = keywords_file.read()
     keywords = keywords.split(", ")
     keywords_file.close()
@@ -220,34 +155,23 @@ else:
 
 #### PERFORM DESCRIPTIVE STATISTICS ON ALL DATA
 
-folder = int(input("Choose which folder to analyze\n1 for Facebook-Sourced\n2 for Academic Articles\n3 for Guidelines\n"))
+folder = int(input("Choose which folder to analyze\n1 for Facebook Privacy Policies\n2 for Academic Articles related to Facebook and Privacy\n3 for AI Ethics Guidelines on Privacy\n"))
 path = ''
 if(folder == 1): 
-    path+='Facebook/Privacy/TargetCompanySourced'
-    source='TargetCompanySourced'
+    path+='Facebook/Policies'
 elif(folder == 2):
-    path+='Facebook/Privacy/Academic Articles Facebook'
-    source='Academic Articles Facebook'
+    path+='Facebook/Academic Articles'
 elif(folder == 3):
     path+='Guidelines'
-    source='Guidelines'
 
+# LOOP THROUGH FILES
 for filename in os.listdir('data/'+path):
     print(filename)
     file_name, file_extension = os.path.splitext(filename)
-    process_document(file_name, path, source, keywords)
+    process_document(file_name, path, keywords)
 
-# IF WE NEED TO RECREATE THE JOINT GRAPH, USE THIS COMMAND TO SAVE IT 
-#plt.savefig('output/JointGraph.png', bbox_inches='tight')
+# TO RECREATE THE GRAPH THAT CONTAINS WORD FREQUENCY FOR ALL DOCUMENTS, USE THIS COMMAND TO SAVE IT 
+#plt.savefig('output/Corpus Statistics/JointGraph.png', bbox_inches='tight')
 
-# TO DO:
-# FIX THIS CODE AND OUTPUTS!!!
-# CLEAN OUTPUT AND INPUT FILES, KEEP NECESSARY ONLY
-
-######
-# COMMENTS THAT MIGHT STILL BE USEFUL AT THIS POINT
-# PREPROCESSING LIKE LEMMATIZATION AND STEMMING
-# TO DO: N GRAMS
-
-# To debug f5, import gc gc.collect() but I'm not yet satisfied with the results
-
+# Note: 
+# Due to alignment in preprocessing and multiple corrections and improvements throughout the internship, original results are no longer reproducible...

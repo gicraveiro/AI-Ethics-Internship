@@ -1,0 +1,1074 @@
+
+1 Consumer Association Succeeds in First Round of Dispute FB ToS Ptivacy
+
+
+With stop word removal 
+Size of original corpus: 3590 
+Size of filtered corpus: 1862
+Size of Lexicon: 889
+
+Tokens that appear in the file, alongside with their frequencies:
+data:41
+facebook:40
+law:20
+users:20
+1:19
+terms:18
+<:18
+>:18
+court:17
+3:17
+accessed:17
+information:16
+use:15
+service:14
+settings:14
+federal:13
+consent:13
+'s:12
+privacy:12
+german:12
+vzbv:12
+berlin:11
+21 february 2018:11
+consumer:10
+personal:10
+content:10
+policy:10
+https:10
+act:10
+gazette:10
+processing:9
+2:9
+4:9
+directive:9
+edpl:8
+us:8
+unfair:8
+//www:8
+version:8
+5:8
+lg:7
+services:7
+protection:7
+european:7
+http:7
+commercial:7
+amended:7
+concerning:6
+ing:6
+case:6
+free:6
+based:6
+default:6
+20 february 2018:6
+agree:6
+con-:6
+time:6
+point:6
+general:5
+com-:5
+provide:5
+cf:5
+ac-:5
+provisions:5
+gesetze-im-internet:5
+informed:5
+parliament:5
+council:5
+|:4
+reports:4
+1 | 2018:4
+first:4
+tion:4
+electronic:4
+advertising:4
+user:4
+transparency:4
+legal:4
+following:4
+7:4
+practices:4
+competition:4
+imprint:4
+united:4
+see:4
+ireland:4
+profile:4
+last:4
+using:4
+cookie:4
+could:4
+decision:4
+proof:4
+burden:4
+uklag:4
+association:3
+dispute:3
+regulation:3
+pro-:3
+platform:3
+contact:3
+claim:3
+declared:3
+injunction:3
+slogan:3
+misleading:3
+appealed:3
+11:3
+16:3
+states:3
+social:3
+sections:3
+face-:3
+book:3
+available:3
+2017:3
+2016:3
+uk:3
+statement:3
+way:3
+make:3
+account:3
+create:3
+without:3
+13:3
+sponsored:3
+picture:3
+pay:3
+9:3
+published:3
+uwg:3
+html:3
+accordance:3
+confirm:3
+view:3
+pre-formulated:3
+judges:3
+stated:3
+relief:3
+company:3
+section:3
+considered:3
+bdsg:3
+clear:3
+hamburg:3
+towards:3
+provision:3
+meaning:3
+oj:3
+//bit:3
+given:3
+cost:3
+christina:2
+etteldorf:2
+like:2
+eu-us:2
+shield:2
+public:2
+likes:2
+providing:2
+associations:2
+important:2
+example:2
+landgericht:2
+hand:2
+ad-:2
+pri-:2
+vacy:2
+inadmissible:2
+tection:2
+inter:2
+alia:2
+action:2
+argued:2
+parties:2
+already:2
+interesting:2
+proceedings:2
+facts:2
+warning:2
+sufficient:2
+link:2
+10:2
+media:2
+schweda:2
+authorities:2
+pdf:2
+english:2
+6:2
+limited:2
+com/privacy/explanation:2
+zeit:2
+12 february 2018:2
+datenschutzrecht:2
+de/:2
+8:2
+click:2
+rights:2
+responsibilities:2
+cess:2
+criticised:2
+names:2
+help:2
+keep:2
+permission:2
+applicable:2
+outside:2
+strive:2
+respect:2
+transferred:2
+processed:2
+served:2
+enhanced:2
+valuable:2
+related:2
+march:2
+article 4 of the act of:2
+telemedia:2
+collect:2
+informa-:2
+accessing:2
+read:2
+including:2
+especially:2
+tions:2
+would:2
+stays:2
+argument:2
+well:2
+0:2
+conjunction:2
+tmg:2
+links:2
+fact:2
+scope:2
+vg:2
+rel-:2
+reference:2
+appeal:2
+kg:2
+requirements:2
+process:2
+provider:2
+offers:2
+opportunity:2
+declarations:2
+poli-:2
+12:2
+civil:2
+code:2
+sense:2
+party:2
+particular:2
+certain:2
+principle:2
+however:2
+allowed:2
+kind:2
+defined:2
+moreover:2
+commerce:2
+market:2
+=:2
+promulgated:2
+15:2
+ly/2:2
+future:2
+insufficient:2
+unfounded:2
+mentioned:2
+consumers:2
+21:2
+annex:2
+paying:2
+reason:2
+injunctive:2
+reasonably:2
+conditions:2
+still:2
+114:1
+succeeds:1
+round:1
+introduction:1
+light:1
+resent:1
+upcoming:1
+developments:1
+entry:1
+force:1
+protec-:1
+gdpr:1
+heated:1
+debate:1
+posed:1
+munications:1
+attention:1
+focuses:1
+big:1
+panies:1
+google:1
+offering:1
+ser:1
+vices:1
+connecting:1
+people:1
+world:1
+act-:1
+generated:1
+wide:1
+range:1
+sensitive:1
+inevitable:1
+espe-:1
+cially:1
+closely:1
+observing:1
+conformity:1
+plat-:1
+forms:1
+determined:1
+enforce:1
+neces-:1
+sary:1
+recent:1
+types:1
+actions:1
+regional:1
+outlined:1
+federation:1
+vice:1
+centres:1
+ver:1
+braucherzentrale:1
+bundesverband:1
+parts:1
+failed:1
+always:1
+although:1
+ruling:1
+announced:1
+findings:1
+argumentation:1
+newsworthy:1
+early:1
+stage:1
+nationwide:1
+as-:1
+sociations:1
+lander:1
+25:1
+organisations:1
+directed:1
+written:1
+february 2016:1
+assum-:1
+hides:1
+friendly:1
+centre:1
+register:1
+attacked:1
+number:1
+comply:1
+mainly:1
+arguing:1
+exclusive:1
+applicability:1
+irish:1
+filed:1
+21552/edpl/2018/1/17:1
+research:1
+associate:1
+institute:1
+emr:1
+correspondence:1
+etteldorf@emr-sb:1
+sebastian klein:1
+annual:1
+review:1
+512-517:1
+lorna:1
+woods:1
+kingdom:1
+cg:1
+interconnection:1
+e-commerce:1
+106-110:1
+nicolas blanc:1
+schrems:1
+jurisdic-:1
+contracts:1
+cjeu:1
+413-417:1
+sebastian:1
+germany:1
+close:1
+scrutiny:1
+courts:1
+investigate:1
+compliance:1
+national:1
+414-421:1
+16 0 341/15:1
+16 january 2018:1
+de/sites/default/files/downloads/201:1
+8/02/12/facebookig:1
+1 2 3 4:1
+cessed:1
+en-gb:1
+com/legal/terms/update:1
+de-de:1
+//en-gb:1
+report:1
+untersagt:1
+klarnamen-zwang:1
+online:1
+de/news/201:1
+8-02/12/landgericht-berlin:1
+untersagt-klarnamen-zwang-bei-facebook-1:1
+80212-99-35613:1
+press:1
+release:1
+verstost:1
+deutsches:1
+pressemitteilung/facebook-verstoesst-gegen-deutsches:1
+//de-de:1
+com/legal/terms:1
+ibid:1
+115:1
+imprint/terms:1
+needs:1
+second:1
+real:1
+need:1
+commitments:1
+relating:1
+registering:1
+maintain-:1
+security:1
+false:1
+anyone:1
+accurate:1
+up-to-:1
+date:1
+special:1
+stateswe:1
+global:1
+community:1
+consistent:1
+standards:1
+everyone:1
+local:1
+laws:1
+apply:1
+non-users:1
+interact:1
+advertisements:1
+goal:1
+deliver:1
+commer:1
+cial:1
+advertisers:1
+order:1
+give:1
+connection:1
+brand:1
+means:1
+permit:1
+business:1
+entity:1
+display:1
+and/or:1
+tent:1
+compensation:1
+2010:1
+254:1
+17 february 2016:1
+233:1
+de/englisch-uwg/englisch:1
+html#p:1
+01 16:1
+26 february 2007:1
+179:1
+article 1 of the act of:1
+28 september:1
+3530:1
+de/tmg/bjn:1
+ro:1
+17910007:1
+selected:1
+specific:1
+audience:1
+choice:1
+cessing:1
+30:1
+january 2015:1
+updated:1
+update:1
+policies:1
+improved:1
+advertisement:1
+visited:1
+websites:1
+apps:1
+clicking:1
+pol-:1
+icy:1
+gets:1
+asked:1
+search:1
+engines:1
+receive:1
+his-:1
+tory:1
+choose:1
+yes:1
+prob-:1
+lematic:1
+features:1
+questions:1
+visibil-:1
+ity:1
+acts:1
+comments:1
+subscrip-:1
+friends:1
+pre-acti-:1
+vated:1
+location:1
+chat:1
+unlawful:1
+even:1
+know:1
+set:1
+finally:1
+called:1
+refrain:1
+actually:1
+pany:1
+judgment:1
+upheld:1
+ma-:1
+jority:1
+disputed:1
+claimant:1
+injunc-:1
+gesetz:1
+unlauteren:1
+wettbewerb:1
+telemediengesetz:1
+tact:1
+via:1
+two:1
+consecutive:1
+implementation:1
+116:1
+ticle:1
+commercel:1
+2 , %:1
+provides:1
+providers:1
+ren-:1
+easily:1
+directly:1
+permanent-:1
+ly:1
+accessible:1
+recipients:1
+petent:1
+easy:1
+access:1
+ensured:1
+expect:1
+logged:1
+irrele-:1
+vant:1
+ground:1
+new:1
+in-:1
+formed:1
+bundesdatenschutzgesetz:1
+sonal:1
+may:1
+subject:1
+enable:1
+scious:1
+companies:1
+must:1
+sup-:1
+ply:1
+plain:1
+nature:1
+purpose:1
+intended:1
+where-:1
+administrative:1
+verwaltungsgericht:1
+concluded:1
+da-:1
+evant:1
+stronger:1
+seat:1
+operator:1
+ltd:1
+1 4:1
+deviated:1
+previous:1
+kammergericht:1
+evance:1
+orientation:1
+activity:1
+subsidiary:1
+ger:1
+many:1
+gmbh:1
+classified:1
+establishment:1
+controller:1
+according:1
+article 4 ( 1:1
+9 5:1
+/46/eg:1
+background:1
+de-:1
+fault:1
+meet:1
+stat-:1
+registration:1
+generally:1
+unsuitable:1
+sent:1
+unless:1
+underlines:1
+actively:1
+start:1
+net-:1
+work:1
+tour:1
+guaranteed:1
+informing:1
+detail:1
+furthermore:1
+held:1
+another:1
+eight:1
+clauses:1
+invalid:1
+therein:1
+contained:1
+pre-formulat-:1
+bywhich:1
+cy:1
+breach:1
+307:1
+309:1
+b:1
+biirgerliches:1
+gesetzbuch:1
+bgb:1
+1 7:1
+prohibit:1
+shifting:1
+modifies:1
+disadvantage:1
+contract:1
+oblig-:1
+interpreted:1
+mulation:1
+covered:1
+due:1
+chosen:1
+formu-:1
+lation:1
+able:1
+identify:1
+base:1
+underlined:1
+least:1
+cerning:1
+concern-:1
+transfer:1
+emphasized:1
+obligation:1
+nation-:1
+implica-:1
+detailed:1
+explanations:1
+concrete:1
+clause:1
+mercial:1
+etc:1
+impossible:1
+applied:1
+agree-:1
+2000/31/ec:1
+8 june 2000:1
+aspects:1
+society:1
+inter-:1
+nal:1
+178/1:1
+//eur-lex:1
+europa:1
+eu/legal-content/en/txt/html/:1
+uri:1
+celex:1
+32000:1
+loo:1
+31:1
+14 january 2003:1
+66:1
+recently:1
+article 10 of the act of:1
+31 october 2017:1
+3618:1
+engl:1
+isch-bdsg/engl:1
+isch-bdsg:1
+htm:1
+14:1
+4482/15:1
+//justiz:1
+de/contentblob/5359296/data/1:1
+5-e-4482-1:1
+5-beschluss:1
+vom-03-03-201:1
+416:1
+5 u 155/14:1
+22 september 2017:1
+ly/:1
+fwztgq:1
+95/46/ec:1
+24 october 1995:1
+individuals:1
+regard:1
+movement:1
+281/0031:1
+hbehug:1
+17:1
+2 january 2002:1
+42:1
+2909:1
+2003 1:1
+738:1
+article 4 para 5:1
+1 october 2013:1
+3719:1
+de/englisch-bgb/engl:1
+isch-bgb:1
+117:1
+ments:1
+cies:1
+constitute:1
+effective:1
+present:1
+basis:1
+never:1
+trough:1
+continued:1
+accusations:1
+applies:1
+particularly:1
+age:1
+contrary:1
+formulation:1
+neither:1
+process-:1
+rather:1
+declaration:1
+obvious:1
+drawbacks:1
+cer:1
+tain:1
+permitted:1
+compa-:1
+ny:1
+slogan'facebook:1
+sidered:1
+cording:1
+article 5:1
+1 8:1
+describing:1
+product:1
+gratis:1
+charge:1
+similar:1
+thing:1
+unavoidable:1
+responding:1
+practice:1
+collecting:1
+delivery:1
+item:1
+referred:1
+obviously:1
+cases:1
+hid-:1
+18:1
+2005/29/ec:1
+11 may 2005:1
+business-to-consumer:1
+internal:1
+amending:1
+coun-:1
+cil:1
+84/450/eec:1
+directives:1
+97/7/ec:1
+98/27/ec:1
+2002/65/ec:1
+ec:1
+2006/2004:1
+149/22:1
+fgb:1
+hl:1
+19:1
+27 august 2002:1
+3422:1
+4346:1
+17 july 2017:1
+2446:1
+de/uklag/_1:1
+20:1
+costs:1
+intangi-:1
+consideration:1
+seen:1
+consequently:1
+average:1
+observant:1
+circumspect:1
+associated:1
+term:1
+actual:1
+economic:1
+unterlassungsklagengesetz:1
+lag:1
+reject:1
+agreement:1
+allows:1
+reviewed:1
+proceeding:1
+removal:1
+illegal:1
+foreseen:1
+instituted:1
+iv:1
+conclusion:1
+includes:1
+statements:1
+obligations:1
+al-:1
+though:1
+inadmis-:1
+sible:1
+final:1
+decide:1
+legiti-:1
+macy:1
+enquiries:1
+part:1
+subject-matter:1
+question:1
+continue:1
+comple-:1
+menting:1
+required:1
+open:1
+emphasis:1
+avoided:1
+confrontation:1
+missibilityof:1
+set-:1
+tings:1
+regrettable:1
+contro-:1
+versial:1
+issues:1
+discussed:1
+heading:1
+design/:1
+opt-in/opt-out:1
+so-:1
+lutions:1
+since:1
+years:1
+possible:1
+decisions:1
+awaited:1
+eagerly:1
+----------------------------------------------------------------------------------------
+
+Keywords that appear in the file, alongside with their frequencies:
+privacy:12
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+
+Ancestors:
+service -> nmod
+settings -> pobj
+terms -> pobj
+round -> pobj
+succeeds -> ccomp
+edpl -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+electronic -> amod
+com- -> conj
+
+Ancestors:
+munications -> pobj
+regulation -> dobj
+posed -> ROOT
+
+Immediate children:
+and -> cc
+com- -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+shield -> poss
+attention -> nsubj
+focuses -> conj
+posed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+settings -> conj
+policy -> conj
+service -> pobj
+terms -> pobj
+court -> pobj
+case -> attr
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> attr
+
+Descendants:
+friendly -> amod
+its -> poss
+privacy -> compound
+centre -> pobj
+
+Ancestors:
+are -> relcl
+settings -> dobj
+hides -> ccomp
+ing -> advcl
+attacked -> ROOT
+
+Immediate children:
+friendly -> amod
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+centre -> pobj
+friendly -> amod
+privacy -> attr
+are -> relcl
+settings -> dobj
+hides -> ccomp
+ing -> advcl
+attacked -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+shield -> pobj
+review -> appos
+sebastian klein -> nsubj
+edpl -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+settings -> dobj
+concerning -> advcl
+criticised -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+settings -> pobj
+asked -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+settings -> pobj
+settings -> nsubj
+meet -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+tour -> nsubj
+offers -> nsubj
+was -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+heading -> pobj
+discussed -> advcl
+is -> ROOT
+
+Immediate children:

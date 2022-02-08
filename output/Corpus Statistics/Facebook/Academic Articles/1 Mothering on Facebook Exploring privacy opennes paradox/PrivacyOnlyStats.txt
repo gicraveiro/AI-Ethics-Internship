@@ -1,0 +1,3082 @@
+
+1 Mothering on Facebook Exploring privacy opennes paradox
+
+
+With stop word removal 
+Size of original corpus: 10418 
+Size of filtered corpus: 5202
+Size of Lexicon: 2148
+
+Tokens that appear in the file, alongside with their frequencies:
+facebook:124
+privacy:68
+social:62
+mothers:57
+children:55
+users:41
+friends:35
+information:32
+survey:30
+research:26
+media:25
+sharing:25
+pictures:25
+issues:24
+use:24
+way:22
+post:21
+family:20
+parents:19
+benefits:19
+respondents:19
+online:18
+data:18
+concerns:18
+groups:18
+people:18
+young:17
+around:17
+parenting:16
+study:16
+2014:16
+society:15
+likely:15
+see:15
+n’t:15
+many:14
+2013:14
+interviewees:14
+advanced-active:14
+10:13
+new:13
+digital:13
+found:13
+using:13
+posting:13
+paradox:12
+group:12
+health:12
+children’s:12
+others:12
+openness:11
+ing:11
+via:11
+retrieved:11
+private:10
+interviews:10
+17:10
+increasingly:10
+communication:10
+2015:10
+life:10
+http:10
+work:10
+may:10
+network:10
+used:10
+asked:10
+day:10
+colleagues:10
+closed-protective:10
+person:10
+r:10
+sns:9
+facebook’s:9
+advice:9
+without:9
+risk:9
+posts:9
+another:9
+journal:9
++:8
+time:8
+article:8
+becoming:8
+snss:8
+popular:8
+chil-:8
+attitudes:8
+baby:8
+university:8
+2011:8
+parent:8
+ellison:8
+gray:8
+lampe:8
+changed:8
+human:8
+responses:8
+former:8
+behavior:8
+analysis:8
+kids:8
+it’s:8
+chalklen:7
+photographs:7
+topics:7
+public:7
+networking:7
+semi-structured:7
+sites:7
+risks:7
+dren:7
+access:7
+share:7
+australia:7
+studies:7
+2:7
+much:7
+schoenebeck:7
+content:7
+however:7
+provide:7
+footprint:7
+support:7
+2010:7
+relationships:7
+particularly:7
+strategies:7
+profile:7
+2012:7
+behaviors:7
+activities:7
+4:7
+fence-sitters:7
+put:7
+proceedings:7
+b:7
+cited:6
+makes:6
+qualitative:6
+still:6
+potential:6
+types:6
+child’s:6
+maintain:6
+ties:6
+posted:6
+several:6
+vitak:6
+subjects:6
+face-to-face:6
+feel:6
+spending:6
+common:6
+become:6
+like:6
+18:6
+1:6
+type:6
+occasionally:6
+user:6
+’m:6
+interests:6
+acm:6
+pdf:6
+anderson:5
+author:5
+range:5
+community:5
+capital:5
+downsides:5
+often:5
+networks:5
+could:5
+factors:5
+experience:5
+south:5
+//www:5
+open:5
+rules:5
+shared:5
+kumar:5
+9:5
+burke:5
+2007:5
+example:5
+link:5
+quantitative:5
+looking:5
+close:5
+personal:5
+greater:5
+negative:5
+ask:5
+sur-:5
+vey:5
+19:5
+agreed:5
+enjoyed:5
+make:5
+results:5
+sometimes:5
+decided:5
+45:5
+would:5
+useful:5
+different:5
+less:5
+never:5
+table:5
+current:5
+respondent:5
+concern:5
+16:5
+46:5
+internet:5
+conference:5
+https:4
+charlotte:4
+even:4
+site:4
+domain:4
+including:4
+australian:4
+need:4
+especially:4
+negotiating:4
+implications:4
+child:4
+keep:4
+1992:4
+noted:4
+whether:4
+control:4
+school:4
+international:4
+3:4
+putting:4
+2016:4
+technology:4
+said:4
+2009:4
+relationship:4
+g:4
+marlow:4
+act:4
+steinfield:4
+considered:4
+women:4
+privacy-protective:4
+madden:4
+students:4
+employing:4
+lack:4
+tended:4
+sample:4
+5:4
+stories:4
+employed:4
+identify:4
+questions:4
+ques-:4
+tions:4
+three:4
+statements:4
+preferred:4
+unlikely:4
+sampling:4
+received:4
+interview:4
+contact:4
+list:4
+since:4
+inter-:4
+manual:4
+able:4
+7:4
+protection:4
+related:4
+followed:4
+42:4
+12:4
+four:4
+least:4
+connected:4
+know:4
+problems:4
+25:4
+29:4
+people’s:4
+interest:4
+love:4
+interviewee:4
+included:4
+someone:4
+wean:4
+computing:4
+pp:4
+management:4
+1177/2056305117707187:3
+exploring:3
+sagepub:3
+worth:3
+commenting:3
+potentially:3
+set:3
+activity:3
+117:3
+findings:3
+show:3
+political:3
+particular:3
+experienced:3
+discuss:3
+limitations:3
+along:3
+threads:3
+events:3
+area:3
+better:3
+morris:3
+photograph:3
+footprints:3
+images:3
+stop:3
+terms:3
+provided:3
+original:3
+pages:3
+rather:3
+making:3
+reported:3
+significant:3
+consent:3
+future:3
+consid-:3
+ity:3
+p:3
+needs:3
+allow:3
+weaker:3
+established:3
+real:3
+overlapping:3
+spheres:3
+ability:3
+impact:3
+subject:3
+everyday:3
+rains:3
+brunner:3
+dis-:3
+willing:3
+despite:3
+concerned:3
+& quan-haase:3
+disclosure:3
+boyd:3
+hargittai:3
+trepte:3
+masur:3
+scharkow:3
+include:3
+settings:3
+order:3
+participate:3
+status:3
+updates:3
+kraut:3
+pri-:3
+active:3
+enjoy:3
+well:3
+discussion:3
+revealing:3
+presented:3
+net-:3
+developed:3
+broader:3
+key:3
+seeking:3
+approach:3
+combining:3
+web-based:3
+frequently:3
+authors:3
+14:3
+interacting:3
+tables:3
+enough:3
+researchers:3
+page:3
+collected:3
+84:3
+conducted:3
+participants:3
+case:3
+15:3
+talk:3
+experiences:3
+accurate:3
+deliberately:3
+first:3
+preferences:3
+view:3
+deemed:3
+thick:3
+individual:3
+=:3
+6:3
+large:3
+acquaintances:3
+discussing:3
+avoided:3
+accessing:3
+judgment:3
+pew:3
+77:3
+76:3
+55:3
+select:3
+regularly:3
+statuses:3
+reporting:3
+68%:3
+strength:3
+seen:3
+11%:3
+tion:3
+platform:3
+changes:3
+described:3
+fence-sitter:3
+changing:3
+following:3
+helped:3
+72:3
+20:3
+40:3
+22:3
+28:3
+34:3
+47:3
+complaints:3
+requests:3
+discussions:3
+whereas:3
+photos:3
+get:3
+pic-:3
+tures:3
+might:3
+training:3
+really:3
+photo:3
+that’s:3
+consideration:3
+ahern:3
+aspect:3
+similar:3
+unwelcome:3
+always:3
+think:3
+mother:3
+effects:3
+great:3
+motherhood:3
+choice:3
+things:3
+’ve:3
+news:3
+highlights:3
+size:3
+publication:3
+systems:3
+journalism:3
+2017:2
+mothering:2
+heather:2
+controversial:2
+breastfeeding:2
+offers:2
+affordances:2
+presents:2
+ethical:2
+upon:2
+mixed-methods:2
+relation:2
+commonly:2
+adept:2
+ways:2
+negotiation:2
+tactics:2
+strong:2
+awareness:2
+rise:2
+poll:2
+fathers:2
+report:2
+compared:2
+evaluation:2
+unit:2
+babies:2
+toddlers:2
+under-researched:2
+demands:2
+professional:2
+house:2
+space:2
+nature:2
+medium:2
+conversations:2
+efficient:2
+essential:2
+modern:2
+fischer:2
+radio:2
+toward:2
+worries:2
+maintaining:2
+embracing:2
+languages:2
+creative:2
+commons:2
+0:2
+sage:2
+focus:2
+rights:2
+younger:2
+available:2
+forums:2
+hiniker:2
+perspectives:2
+over-sharing:2
+older:2
+years:2
+valuable:2
+insights:2
+receiving:2
+within:2
+respect:2
+exist:2
+lopez:2
+2006:2
+microsoft:2
+highlighted:2
+gibson:2
+help:2
+confidence:2
+identity:2
+line:2
+lento:2
+fiore:2
+conduit:2
+empowerment:2
+opportunities:2
+comes:2
+associated:2
+force:2
+sex:2
+alcohol:2
+job-seekers:2
+either:2
+employers:2
+karl:2
+peluchette:2
+self-disclosure:2
+among:2
+female:2
+al-saggaf:2
+hoy:2
+milne:2
+employ:2
+keeping:2
+un-friending:2
+contacts:2
+college:2
+methods:2
+diverse:2
+examine:2
+incorporated:2
+hazards:2
+cussed:2
+taddicken:2
+practices:2
+protective:2
+achieve:2
+levels:2
+dienlin:2
+friending:2
+comments:2
+stutzman:2
+mitigating:2
+evolving:2
+project:2
+examining:2
+exploratory:2
+mitigate:2
+alone:2
+features:2
+wanted:2
+context:2
+ethics:2
+surveymonkey:2
+involved:2
+section:2
+disagreed:2
+neither:2
+perceived:2
+pitfalls:2
+selected:2
+aspects:2
+convenience:2
+criticized:2
+purpose:2
+specifically:2
+techniques:2
+small:2
+indicate:2
+part:2
+agreeing:2
+material:2
+according:2
+com-:2
+known:2
+researcher:2
+colleague:2
+raised:2
+brewis:2
+open-ended:2
+based:2
+themes:2
+identified:2
+advantages:2
+forms:2
+gies:2
+prevent:2
+views:2
+measures:2
+monitoring:2
+computer:2
+usage:2
+effective:2
+picture:2
+actual:2
+estimated:2
+junco:2
+kind:2
+amount:2
+originally:2
+branthwaite:2
+insight:2
+offered:2
+big:2
+wang:2
+helpful:2
+spectrum:2
+disclosures:2
+35%:2
+closed-pro-:2
+tective:2
+24%:2
+communicate:2
+engaged:2
+outspoken:2
+closed-protec-:2
+debate:2
+ally:2
+friend:2
+engage:2
+typically:2
+times:2
+disagreements:2
+passively:2
+demographics:2
+aged:2
+respond:2
+cohort:2
+mums:2
+generally:2
+educated:2
+smith:2
+43:2
+37:2
+11:2
+please:2
+specify:2
+neighbors:2
+photos/comments:2
+reading:2
+26:2
+checking:2
+hr:2
+dunbar:2
+78%:2
+two:2
+regu-:2
+larly:2
+67%:2
+38%:2
+37%:2
+1973:2
+weak:2
+circle:2
+safer:2
+toddler:2
+discipline:2
+change:2
+addictive:2
+privacy-:2
+efficacy:2
+agree:2
+disagree:2
+solve:2
+helps:2
+improved:2
+71:2
+54:2
+30:2
+07:2
+parenthood:2
+whatever:2
+continue:2
+taking:2
+recently:2
+grown:2
+wider:2
+took:2
+’d:2
+leaving:2
+long-term:2
+best:2
+stewardship:2
+toilet:2
+story:2
+general:2
+issue:2
+she’s:2
+policy:2
+birth:2
+going:2
+contentious:2
+matters:2
+patterns:2
+erations:2
+mobile:2
+regard:2
+par-:2
+comfortable:2
+irritating:2
+connect:2
+quite:2
+seek:2
+ness:2
+side:2
+world:2
+gone:2
+natural:2
+valued:2
+judgmental:2
+say:2
+lost:2
+blanky:2
+critical:2
+8:2
+opting:2
+intrusions:2
+judgments:2
+avoiding:2
+went:2
+back:2
+ignore:2
+vaccination:2
+connections:2
+friendships:2
+got:2
+reassuring:2
+confident:2
+sources:2
+interactions:2
+privacy-related:2
+tele-:2
+phone:2
+growing:2
+ongoing:2
+and/or:2
+good:2
+sigchi:2
+york:2
+ny:2
+computers:2
+british:2
+canada:2
+capi-:2
+tal:2
+interaction:2
+centre:2
+computer-mediated:2
+eds:2
+gender:2
+arts:2
+honors:2
+707187:1
+smsxxx:1
+societychalklen:1
+research-article:1
+infancy:1
+privacy/openness:1
+april-june 2017:1
+1 –10:1
+©:1
+reprints:1
+permissions:1
+co:1
+uk/journalspermissions:1
+nav:1
+//doi:1
+org/10:1
+journals:1
+com/home/sms:1
+abstract:1
+vaccinations:1
+forum:1
+unimaginable:1
+pre:1
+dilemmas:1
+surrounding:1
+brings:1
+lives:1
+spaces:1
+builds:1
+creates:1
+tensions:1
+raises:1
+series:1
+contemporary:1
+quandaries:1
+drawing:1
+examines:1
+complex:1
+often-uneasy:1
+balance:1
+protect:1
+enjoying:1
+demonstrate:1
+keywords:1
+introduction:1
+exponential:1
+inspired:1
+scholars:1
+inves-:1
+tigate:1
+ubiquitous:1
+form:1
+considers:1
+enthusiastic:1
+adopters:1
+recent:1
+nationally:1
+representative:1
+united:1
+states:1
+84%:1
+70%:1
+over half:1
+moth-:1
+ers:1
+56%:1
+only 34%:1
+pre-schoolers:1
+per-:1
+tinent:1
+allows:1
+cir-:1
+cumvent:1
+isolation:1
+caring:1
+instant:1
+fam-:1
+ily:1
+entertainment:1
+diversion:1
+leave:1
+auditory:1
+asynchronous:1
+attractive:1
+drop:1
+in-between:1
+tending:1
+updated:1
+tool:1
+constructivists:1
+cars:1
+telephones:1
+television:1
+previous:1
+generations:1
+explored:1
+gorgeous:1
+joy:1
+fully:1
+corresponding:1
+magill:1
+campus:1
+gpo:1
+box:1
+2471:1
+adelaide:1
+5001:1
+email:1
+chalklen@unisa:1
+edu:1
+commercial:1
+cc:1
+by-nc:1
+distributed:1
+attribution-:1
+noncommercial:1
+license:1
+creativecommons:1
+org/licenses/by-nc/3:1
+0/:1
+permits:1
+non-commercial:1
+reproduction:1
+distribution:1
+permission:1
+attributed:1
+specified:1
+//us:1
+com/en-us/nam/open-access-at-sage:1
+tend:1
+regard-:1
+undermined:1
+exception:1
+kientz’s:1
+household:1
+frustration:1
+embarrassing:1
+contrib-:1
+uted:1
+presence:1
+10–17:1
+respon-:1
+dents:1
+similarly:1
+investigate:1
+ered:1
+process:1
+validation:1
+outweighed:1
+creating:1
+involuntary:1
+framed:1
+concept:1
+stewardship—“the:1
+responsibil-:1
+deciding:1
+appropriate:1
+ensuring:1
+integrity:1
+internet-enabled:1
+broadly:1
+empower:1
+cohen & raymond:1
+madge & o’connor:1
+combat:1
+postnatal:1
+depression:1
+notes:1
+improve:1
+aside:1
+obser-:1
+vations:1
+highlighting:1
+propensity:1
+strengthen:1
+burke & kraut:1
+limitless:1
+vulnerable:1
+collapsed:1
+publics:1
+connection:1
+work-:1
+tenuous:1
+jeopardy:1
+looked:1
+profiles:1
+hiring:1
+decisions:1
+drugs:1
+favors:1
+hire:1
+male:1
+candidates:1
+suggested:1
+loneliness:1
+& nielsen:1
+abuse:1
+perceive:1
+relying:1
+us-based:1
+gap:1
+exists:1
+demographically:1
+acknowledging:1
+seeks:1
+transcend:1
+disciplines:1
+debates:1
+thereof:1
+explore:1
+lever-:1
+aging:1
+literature:1
+professing:1
+interrogating:1
+naive:1
+desired:1
+appear:1
+self-censorship:1
+parsimony:1
+pruning:1
+editing:1
+un-:1
+removing:1
+tags:1
+adjusting:1
+paradoxically:1
+reveal:1
+oneself:1
+reap:1
+observation:1
+actively:1
+gain:1
+passive:1
+reaffirms:1
+vacy-savvy:1
+repercussions:1
+relating:1
+sheds:1
+light:1
+sophisticated:1
+inappropriate:1
+audiences:1
+balancing:1
+possibilities:1
+vast:1
+crux:1
+theme:1
+emerged:1
+versus:1
+transparency:1
+information-shar-:1
+fluid:1
+particu-:1
+lar:1
+consider:1
+impacts:1
+shar-:1
+solely:1
+indirectly:1
+relat-:1
+wide:1
+demon-:1
+strating:1
+minimize:1
+reliance:1
+effect:1
+over-emphasis:1
+obsolete:1
+illuminate:1
+rationale:1
+prioritize:1
+perspective:1
+achieved:1
+approved:1
+australia’s:1
+committee:1
+questionnaire:1
+multiple-choice:1
+qualitative/text-based:1
+answers:1
+various:1
+covered:1
+spent:1
+recruitment:1
+strategy:1
+leveraged:1
+network-:1
+capabilities:1
+snowball:1
+readily:1
+time-:1
+cost-effective:1
+strategic:1
+targeted:1
+intro-:1
+duced:1
+snowball-sampling:1
+initially:1
+blurb:1
+image:1
+raising:1
+garnered:1
+initial:1
+required:1
+utilize:1
+targeting:1
+educators:1
+professionals:1
+for-:1
+ward:1
+interested:1
+indi-:1
+viduals:1
+subsequently:1
+at least five:1
+parenting-related:1
+3 months:1
+valid:1
+responded:1
+weblink:1
+33:1
+20-min:1
+emailed:1
+resulting:1
+producing:1
+total:1
+8 hr:1
+recorded:1
+fortable:1
+convenient:1
+nine:1
+con-:1
+ducted:1
+telephone:1
+eight:1
+lead:1
+uni-:1
+versity:1
+acquaintance:1
+frankness:1
+depth:1
+sub-:1
+jects:1
+pressured:1
+more than a decade:1
+prior:1
+influence:1
+revealed:1
+mostly:1
+compiled:1
+encouraged:1
+explain:1
+disadvan-:1
+tages:1
+position:1
+recount:1
+positive:1
+describe:1
+strate-:1
+deal:1
+relies:1
+entirely:1
+self-reporting:1
+obtaining:1
+exam-:1
+ple:1
+145 min:1
+actually:1
+average:1
+26 min:1
+monitor:1
+limi-:1
+tations:1
+emphasis:1
+triangulate:1
+quan-:1
+titative:1
+statistics:1
+recommended:1
+larger:1
+intended:1
+conduct:1
+combination:1
+computer-derived:1
+statis-:1
+tics:1
+in-built:1
+utilized:1
+demo-:1
+graphics:1
+trends:1
+relative:1
+importance:1
+meanwhile:1
+transcripts:1
+sense:1
+text:1
+software:1
+estimate:1
+only 30%:1
+& patterson:1
+describes:1
+unique:1
+interpretation:1
+provides:1
+data’s:1
+contex-:1
+tualize:1
+entailed:1
+reviewing:1
+tran-:1
+scripts:1
+reasoning:1
+comparing:1
+linking:1
+categorized:1
+devised:1
+anal-:1
+ysis:1
+markers:1
+ideas:1
+accept-:1
+non-acceptable:1
+varied:1
+enormously:1
+category:1
+over-simplified:1
+misrepresented:1
+groupings:1
+follows:1
+41%:1
+integrated:1
+extent:1
+method:1
+strangers:1
+administrators:1
+gather:1
+un-friend:1
+closed-:1
+privacy-conscious:1
+look:1
+lot:1
+usu-:1
+restricted:1
+checked:1
+every:1
+refrain:1
+gleaned:1
+links:1
+wary:1
+pragmatic:1
+unlike:1
+constituted:1
+acceptable:1
+bene-:1
+fits:1
+invested:1
+consequences:1
+trolling:1
+slights:1
+burnout:1
+getting:1
+caught:1
+arguments:1
+drama:1
+lurking:1
+serve:1
+risk-free:1
+extra:1
+afforded:1
+misun-:1
+derstandings:1
+conflict:1
+occur:1
+expresses:1
+one’s:1
+opinions:1
+freely:1
+broad:1
+audience:1
+30–34:1
+2–3:1
+largest:1
+part-time:1
+paid:1
+full-time:1
+employment:1
+26%:1
+stay-at-home:1
+chose:1
+details:1
+came:1
+experi-:1
+enced:1
+92%:1
+lon-:1
+ger than 4 years:1
+length:1
+joining:1
+6–8 years:1
+46%:1
+post-secondary:1
+qualification:1
+show-:1
+degree:1
+population:1
+duggan:1
+anderson 5 n:1
+57:1
+27:1
+66:1
+58:1
+41:1
+acquaintances/friends-of-friends:1
+68:1
+14 67:1
+26 50:1
+44 38:1
+05 37:1
+17 23:1
+89 10:1
+62 15:1
+93 10:1
+62 10:1
+62 4:1
+42 1:1
+liking/commenting/sharing:1
+message/chats:1
+running:1
+business:1
+60:1
+55 53:1
+21 50:1
+46 41:1
+28 37:1
+61 33:1
+94 10:1
+09 8:1
+92:1
+regular:1
+114:1
+97%:1
+39%:1
+more than three:1
+quarter:1
+25%:1
+all day every day:1
+86%:1
+more than half:1
+hour:1
+30 min to:1
+34%:1
+third:1
+1–2:1
+19%:1
+more than 2 hr:1
+dunbar’s:1
+number:1
+coined:1
+more than 20 years ago:1
+anthropologist:1
+proposed:1
+humans:1
+comfort-:1
+ably:1
+150:1
+stable:1
+holds:1
+roughly:1
+true:1
+less than 200:1
+between 80 and 200:1
+64%:1
+200–500:1
+21%:1
+20–80:1
+15%:1
+only one:1
+more than 500:1
+50%:1
+granovetter’s:1
+theory:1
+outer-:1
+relevant:1
+liked:1
+almost:1
+only 2%:1
+interact:1
+16%:1
+favored:1
+7%:1
+twelve:1
+interact-:1
+figures:1
+tendency:1
+develop:1
+influenced:1
+let:1
+well-liked:1
+living:1
+bali:1
+rub:1
+noses:1
+risky:1
+parents-in-law:1
+statement:1
+second:1
+85%:1
+only 4%:1
+saw:1
+time-wasting:1
+addic-:1
+extensive:1
+institu-:1
+tional:1
+marketing:1
+cyber:1
+stalking:1
+bullying:1
+confusion:1
+doubt:1
+set-:1
+tings:1
+ownership:1
+abil-:1
+poster:1
+demonstrating:1
+movement:1
+across:1
+possible:1
+relatively:1
+result:1
+circumstances:1
+situations:1
+agree/:1
+isolated:1
+therefore:1
+meet:1
+jealous:1
+professional/work:1
+prospects:1
+85:1
+73:1
+61:1
+05:1
+08:1
+09:1
+94:1
+referrals:1
+drinking:1
+childcare:1
+business/poor:1
+service:1
+’ll:1
+feeling:1
+nothing’s:1
+limits:1
+64 68:1
+22 60:1
+75 49:1
+53 46:1
+73 42:1
+06 40:1
+19 36:1
+45 24:1
+30 22:1
+43 n:1
+82 73:1
+65:1
+53:1
+50:1
+39:1
+24:1
+politi-:1
+cal:1
+played:1
+59%:1
+pre-children:1
+touch:1
+overseas:1
+motivated:1
+became:1
+reassessing:1
+culling:1
+lists:1
+temporarily:1
+shifting:1
+fence-:1
+sitters:1
+affected:1
+the early days:1
+fewer:1
+typi-:1
+cally:1
+encompass:1
+cross:1
+amplifying:1
+vacy:1
+articles:1
+rapidly:1
+expanding:1
+facebook-friendly:1
+prevalent:1
+illuminated:1
+divided:1
+propor-:1
+publish:1
+requested:1
+taken:1
+about a week old:1
+announce:1
+born:1
+plan:1
+mind:1
+we’ve:1
+reflecting:1
+consciousness:1
+refer:1
+naked:1
+bath:1
+worry:1
+affect:1
+later:1
+theft:1
+pedophilia:1
+fears:1
+definite:1
+precise:1
+reasons:1
+limiting:1
+referring:1
+unease:1
+decision:1
+anderson 7:1
+wants:1
+go:1
+infertile:1
+sensitive:1
+reasonable:1
+contrasted:1
+viewee’s:1
+comment:1
+difficulty:1
+viewing:1
+announcements:1
+under-:1
+vitro:1
+fertilization:1
+ivf:1
+interestingly:1
+politics:1
+reli-:1
+gion:1
+articulated:1
+ease:1
+nothing:1
+anymore:1
+kid:1
+removed:1
+request:1
+opinion:1
+published:1
+stay:1
+forever:1
+find-:1
+ings:1
+align:1
+publicly:1
+fear:1
+reservations:1
+noting:1
+pho-:1
+tos/comments:1
+61%:1
+choos-:1
+ticipated:1
+summed:1
+read:1
+expert:1
+saying:1
+assume:1
+innocent:1
+purposes:1
+intention:1
+token:1
+seeing:1
+difficult:1
+directly:1
+comparable:1
+proportion:1
+somewhat:1
+dren’s:1
+reluctant:1
+unwilling:1
+peers:1
+surveyed:1
+advanced-:1
+specific:1
+post-:1
+case-by-case:1
+probably:1
+gauge:1
+acknowledged:1
+value:1
+enting:1
+72%:1
+unorthodox:1
+conceptualization:1
+para-:1
+dox:1
+default:1
+needed:1
+anecdotes:1
+open-:1
+tends:1
+overlooked:1
+approached:1
+vary-:1
+degrees:1
+posing:1
+addressed:1
+solved:1
+ranged:1
+mundane:1
+profound:1
+located:1
+copy:1
+much-loved:1
+toy:1
+spoke:1
+blog:1
+encourage:1
+independence:1
+searching:1
+digestive:1
+complaint:1
+resulted:1
+dietary:1
+overhaul:1
+whole:1
+resolved:1
+myriad:1
+cradle:1
+cap:1
+mas-:1
+titis:1
+cough:1
+remedies:1
+baby-settling:1
+weaning:1
+held:1
+misgivings:1
+unsolicited:1
+there’s:1
+ideal:1
+challenging:1
+who’s:1
+something:1
+rough:1
+night:1
+coffee:1
+be—“oh:1
+sleeping:1
+horrible:1
+tried:1
+sleep:1
+doctor:1
+examples:1
+observed:1
+judg-:1
+mental/unnecessary:1
+ments:1
+anti-abortion:1
+message:1
+cesarean:1
+sections:1
+undergone:1
+surgery:1
+judged:1
+annoyance:1
+pointed:1
+barriers:1
+necessary:1
+invites:1
+businesses:1
+websites:1
+etc:1
+wrote:1
+answer:1
+lay:1
+limit:1
+exposure:1
+non-identifying:1
+limited:1
+start:1
+hide:1
+messaging:1
+almost a third:1
+talked:1
+connecting:1
+plug:1
+holes:1
+petty:1
+disputes:1
+pre-:1
+ferred:1
+traditional:1
+competitive:1
+session:1
+unpleasant:1
+shoved:1
+room:1
+choose:1
+situation:1
+pisses:1
+basically:1
+appealing:1
+setting:1
+vent:1
+part-:1
+ners:1
+question:1
+topic:1
+conten-:1
+tious:1
+felt:1
+place:1
+about three or:1
+pro:1
+offend:1
+taboo:1
+forged:1
+stemmed:1
+fed:1
+real-life:1
+sev-:1
+eral:1
+supportive:1
+death:1
+brother-in-law:1
+bought:1
+groceries:1
+fortnight:1
+providing:1
+practical:1
+sup-:1
+port:1
+longer:1
+moved:1
+interstate:1
+local:1
+confidantes:1
+fly:1
+’re:1
+trouble:1
+families:1
+ring:1
+oh:1
+god:1
+cuppa:1
+facebook-forged-friendships:1
+partic-:1
+ularly:1
+sounding:1
+board:1
+viewee:1
+necessarily:1
+nice:1
+bits:1
+vested:1
+outcome:1
+sort:1
+unbiased:1
+handy:1
+benefit:1
+non-familial:1
+adviser:1
+trying:1
+moment:1
+find:1
+mum:1
+thinks:1
+tells:1
+he’s:1
+garner:1
+pediatric:1
+informa-:1
+argued:1
+specialized:1
+trustworthy:1
+obviously:1
+nurses:1
+naturopaths:1
+midwives:1
+medical:1
+anec-:1
+dotes:1
+long:1
+screen:1
+unwanted:1
+commented:1
+substitute:1
+face-:1
+to-face:1
+opin-:1
+ions:1
+otherwise:1
+translate:1
+emphasizes:1
+extends:1
+beyond:1
+created:1
+recommendations:1
+concluding:1
+remarks:1
+major:1
+digitally:1
+worked:1
+discounted:1
+generation:1
+women’s:1
+curtailed:1
+today:1
+internet-connected:1
+home:1
+expand:1
+works:1
+picking:1
+catch:1
+course:1
+child-rearing:1
+intense:1
+time-consuming:1
+liber-:1
+ated:1
+hand:1
+emancipation:1
+ever-:1
+expectations:1
+bringing:1
+fore:1
+jobs:1
+reputations:1
+damaged:1
+futures:1
+must:1
+pleasure:1
+affor-:1
+dances:1
+derived:1
+photo-:1
+graphs:1
+seem:1
+outweigh:1
+majority:1
+short:1
+term:1
+considering:1
+responsibilities:1
+coming:1
+dramatically:1
+conclu-:1
+sions:1
+manifested:1
+categories:1
+demonstrated:1
+regarding:1
+regardless:1
+strategize:1
+unknown:1
+outside:1
+scope:1
+proj-:1
+ect:1
+concerning:1
+important:1
+warrants:1
+careful:1
+designers:1
+policymakers:1
+yardstick:1
+vacy-related:1
+add:1
+besides:1
+uneasy:1
+nexus:1
+presume:1
+recommend:1
+blanket:1
+design:1
+restrict:1
+responsibility:1
+avoid:1
+empha-:1
+addressing:1
+video-sharing:1
+maximizing:1
+information-sharing:1
+priority:1
+unpopular:1
+option:1
+weighing:1
+ambiguity:1
+hearing:1
+gathering:1
+looser:1
+gener-:1
+feedback:1
+well-versed:1
+though:1
+confusing:1
+trust:1
+remains:1
+understood:1
+practice:1
+perception:1
+meantime:1
+adapt:1
+technolo-:1
+negotiat-:1
+medium’s:1
+declaration:1
+conflicting:1
+declared:1
+conflicts:1
+authorship:1
+financial:1
+author-:1
+ship:1
+funding:1
+references:1
+eckles:1
+king:1
+naaman:1
+nair:1
+over-exposed:1
+357–366:1
+1145/1240624:1
+1240683:1
+nielsen:1
+feelings:1
+loneli-:1
+36:1
+460–468:1
+cares:1
+monday:1
+//journals:1
+uic:1
+edu/ojs/index:1
+php/fm/article/view/3086/2589:1
+patterson:1
+power:1
+qualita-:1
+market:1
+430–440:1
+researching:1
+conve-:1
+nience:1
+organization:1
+849–862:1
+2014 , april 26-may:1
+closer:1
+tie:1
+toronto:1
+ontario:1
+7–12:1
+differentiating:1
+uses:1
+computer-human:1
+vancouver:1
+columbia:1
+cameronmar-:1
+low:1
+com/media/burke-2011-social:1
+activ-:1
+well-being:1
+cameronmarlow:1
+com/media/burke-2010-social-well-being:1
+likes:1
+dislikes:1
+sharenting:1
+mott:1
+hospital:1
+national:1
+23:1
+//mottnpch:1
+org/sites/default/files/docu-:1
+ments/031615_sharenting_0:1
+cohen:1
+& raymond:1
+giving:1
+937–957:1
+relic:1
+past:1
+in-depth:1
+european:1
+psychology:1
+285:1
+297:1
+1002/ejsp:1
+2049 duggan:1
+update:1
+pewinternet:1
+org/2013/12/30/social-media-update-2013/:1
+neocortex:1
+constraint:1
+primates:1
+evolution:1
+469–493:1
+resource:1
+1104–1121:1
+1143–1168:1
+environment:1
+reinecke:1
+19–32:1
+berlin:1
+germany:1
+springer:1
+1007/978-3-642-21521-6_3:1
+america:1
+calling:1
+history:1
+1940:1
+berkeley:1
+california:1
+press:1
+understanding:1
+poten-:1
+tial:1
+//motherhoodandhci:1
+files:1
+wordpress:1
+com/2013/02/gibson:1
+granovetter:1
+american:1
+sociology:1
+78:1
+1360–1380:1
+london:1
+uk:1
+kientz:1
+2016 , february:1
+dinner:1
+th:1
+computer-supported:1
+cooperative:1
+1376–1389:1
+differences:1
+adult:1
+interactive:1
+advertising:1
+28–45:1
+inequalities:1
+2328–2336:1
+follies:1
+suffers:1
+romm:1
+livermore:1
+setzekorn:1
+communities:1
+e-dating:1
+services:1
+concepts:1
+212–224:1
+hershey:1
+igi:1
+global:1
+book:1
+enacting:1
+stewarding:1
+//yardi:1
+umich:1
+edu/pubs/schoenebeck_mothersfacebook:1
+radical:1
+mommy:1
+blogging:1
+redefining:1
+blogosphere:1
+729–747:1
+//pewinternet:1
+org/:1
+reports/2012/privacy-management-on-social-media:1
+aspx:1
+madge:1
+o’connor:1
+wired:1
+cultural:1
+geography:1
+199–220:1
+perceptions:1
+user-directed:1
+advance:1
+1177/2056305116634368:1
+cscw:1
+//research:1
+com/en-us/um/people/merrie/papers/:1
+moms_and_social_networks_cscw:1
+learn:1
+studying:1
+call:1
+recom-:1
+mendations:1
+114–131:1
+f:1
+2012 , june 4-7:1
+weblogs:1
+dublin:1
+ireland:1
+aaai:1
+org/ocs/index:1
+php/icwsm/:1
+icwsm:1
+12/paper/viewfile/4666/5000:1
+web:1
+characteristics:1
+relevance:1
+self-dis-:1
+closure:1
+248–273:1
+1111/jcc:1
+12052:1
+collapse:1
+broadcasting:1
+electronic:1
+56:1
+451–470:1
+ethnography:1
+//ethnographymatters:1
+net/blog/2013/05/13/:1
+big-data-needs-thick-data/:1
+strat-:1
+egies:1
+revisited:1
+479–500:1
+biographies:1
+unisa:1
+teaches:1
+diversity:1
+phd:1
+comm:1
+griffith:1
+senior:1
+lecturer:1
+citizens:1
+alternative:1
+----------------------------------------------------------------------------------------
+
+Keywords that appear in the file, alongside with their frequencies:
+privacy:68
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+need -> pobj
+balance -> conj
+concerns -> dobj
+examines -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+issues -> nsubj
+were -> advcl
+becoming -> ccomp
+show -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+their -> poss
+
+Ancestors:
+protect -> relcl
+ways -> dobj
+negotiating -> pcomp
+adept -> acomp
+becoming -> ccomp
+show -> ROOT
+
+Immediate children:
+their -> poss
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+openness -> conj
+social -> amod
+media -> conj
+social -> amod
+networking -> compound
+sites -> conj
+
+Ancestors:
+mothers -> conj
+children -> conj
+facebook -> nsubj
+introduction -> ROOT
+
+Immediate children:
+openness -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> dobj
+inves- -> xcomp
+inspired -> conj
+introduction -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> pobj
+attitudes -> nsubj
+are -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+online -> compound
+
+Ancestors:
+society -> conj
+media -> appos
+ -> nsubj
+tend -> ROOT
+
+Immediate children:
+online -> compound
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+concerns -> pobj
+focus -> xcomp
+tend -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+rights -> pobj
+putting -> advcl
+tend -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+
+Ancestors:
+ity -> pobj
+concept -> pobj
+framed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+concerns -> dobj
+report -> conj
+perceive -> conj
+are -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+risks -> dobj
+negotiating -> relcl
+ways -> dobj
+explore -> advcl
+transcend -> xcomp
+seeks -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nsubj
+
+Descendants:
+openness -> compound
+paradox -> compound
+literature -> appos
+looking -> acl
+privacy -> pobj
+and -> cc
+social -> amod
+networking -> conj
+
+Ancestors:
+cussed -> ROOT
+
+Immediate children:
+literature -> appos
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+and -> cc
+social -> amod
+networking -> conj
+
+Ancestors:
+looking -> acl
+literature -> appos
+privacy -> nsubj
+cussed -> ROOT
+
+Immediate children:
+and -> cc
+networking -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+paradox -> dobj
+cussed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> pobj
+concerned -> acomp
+be -> xcomp
+professing -> pcomp
+dis- -> xcomp
+willing -> acomp
+are -> relcl
+paradox -> dobj
+cussed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+paradox -> dobj
+interrogating -> advcl
+show -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+boyd -> conj
+& -> cc
+hargittai -> conj
+
+Ancestors:
+levels -> dobj
+achieve -> relcl
+strategies -> dobj
+employing -> conj
+are -> ccomp
+show -> ROOT
+
+Immediate children:
+boyd -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+settings -> dobj
+adjusting -> conj
+profile -> conj
+include -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+relating -> acl
+repercussions -> dobj
+experience -> xcomp
+tended -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+
+Ancestors:
+paradox -> pobj
+crux -> attr
+is -> relcl
+work -> pobj
+by -> agent
+presented -> acl
+possibilities -> dobj
+exploring -> advcl
+employing -> pcomp
+act -> attr
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+concerns -> attr
+was -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> conj
+sharing -> pobj
+range -> pobj
+relat- -> ccomp
+employ -> conj
+share -> ccomp
+found -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+spectrum -> pobj
+markers -> pobj
+devised -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> compound
+strategies -> pobj
+engaged -> advcl
+were -> conj
+were -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> compound
+strategies -> pobj
+engage -> xcomp
+likely -> acomp
+were -> ccomp
+were -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+concerns -> pobj
+by -> agent
+influenced -> ccomp
+be -> ccomp
+risky -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+concerns -> nsubj
+agreed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> nsubj
+are -> ccomp
+agreed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> pobj
+concerned -> acomp
+were -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+both -> preconj
+social -> amod
+and -> cc
+institu- -> conj
+tional -> amod
+concerns -> pobj
+personal -> amod
+data -> pobj
+collected -> acl
+and -> cc
+used -> conj
+marketing -> pobj
+
+Ancestors:
+concerns -> pobj
+range -> dobj
+raised -> ROOT
+
+Immediate children:
+social -> amod
+tional -> amod
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+set- -> compound
+tings -> pobj
+efficacy -> pobj
+doubt -> conj
+confusion -> conj
+worries -> dep
+raised -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> attr
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+and -> cc
+control -> conj
+
+Ancestors:
+footprints -> ROOT
+
+Immediate children:
+and -> cc
+control -> conj
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+
+Ancestors:
+paradox -> nsubjpass
+illuminated -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+stewardship -> pobj
+refer -> pcomp
+consciousness -> dobj
+reflecting -> advcl
+be -> relcl
+footprint -> dobj
+leaving -> pcomp
+cited -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+patterns -> pobj
+study -> pobj
+included -> relcl
+2007 -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> pobj
+concerned -> acomp
+were -> ccomp
+found -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+conceptualization -> dobj
+presents -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+rights -> conj
+footprint -> pobj
+discussions -> pobj
+overlooked -> xcomp
+tends -> relcl
+aspect -> attr
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+intrusions -> dobj
+limit -> xcomp
+used -> relcl
+way -> dobj
+changing -> pcomp
+lay -> pobj
+answer -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+
+Ancestors:
+bringing -> advcl
+comes -> conj
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+stewardship -> pobj
+responsibilities -> dobj
+considering -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+
+Ancestors:
+regarding -> advcl
+demonstrated -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> dobj
+highlights -> conj
+are -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> pobj
+nexus -> dobj
+highlights -> advcl
+provide -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+intrusions -> dobj
+avoiding -> csubj
+was -> acl
+view -> dobj
+took -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+risks -> dobj
+weighing -> conj
+opting -> pcomp
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+issues -> nsubj
+were -> advcl
+enjoyed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+settings -> nsubj
+confusing -> ccomp
+found -> advcl
+enjoyed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+effects -> conj
+facebook -> pobj
+understood -> xcomp
+remains -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+patterns -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+settings -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+paradox -> nsubj
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+attitudes -> pobj
+analysis -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+behaviors -> conj
+attitudes -> pobj
+analysis -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+concerns -> dobj
+negotiating -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> ROOT
+
+Descendants:
+online -> advmod
+pp -> appos
+19–32 -> appos
+
+Ancestors:
+
+Immediate children:
+online -> advmod
+pp -> appos
+19–32 -> appos
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+
+Ancestors:
+stewarding -> conj
+mothering -> dobj
+enacting -> acl
+book -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+management -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+perceptions -> conj
+management -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+strategies -> conj
+perceptions -> conj
+management -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> ROOT
+
+Descendants:
+interaction -> pobj
+exploring -> acl
+disclosure -> dobj
+and -> cc
+social -> amod
+capital -> conj
+facebook -> pobj
+
+Ancestors:
+
+Immediate children:
+exploring -> acl
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+paradox -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+concerns -> pobj
+impact -> appos
+paradox -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+
+Ancestors:
+collapse -> pobj
+impact -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> compound
+strat- -> compound
+egies -> nsubj
+revisited -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+internet -> compound
+
+Ancestors:
+paradox -> nsubj
+revisited -> ROOT
+
+Immediate children:
+internet -> compound

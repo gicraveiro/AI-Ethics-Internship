@@ -1,0 +1,15 @@
+
+1SOCIA~2
+Keywords found by String Search
+
+privacy:217
+cybersecurity:2
+data-security:1
+data security:2
+DPO:3
+data protection:1
+consent:47
+privacy policy:10
+SOC:137
+data breach:4
+hacked:2

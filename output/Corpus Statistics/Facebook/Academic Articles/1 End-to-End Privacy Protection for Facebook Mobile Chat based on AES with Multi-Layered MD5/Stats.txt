@@ -1,0 +1,1597 @@
+
+1 End-to-End Privacy Protection for Facebook Mobile Chat based on AES with Multi-Layered MD5
+
+
+With stop word removal 
+Size of original corpus: 3384 
+Size of filtered corpus: 1893
+Size of Lexicon: 731
+
+Tokens that appear in the file, alongside with their frequencies:
+key:39
+chat:38
+facebook:37
+privacy:32
+process:31
+aes:29
+5:27
+encryption:27
+2:26
+1:24
+user:23
+mobile:21
+based:19
+md:18
+social:18
+users:18
+media:17
+3:17
+protection:16
+data:16
+private:15
+multi-layer:14
+information:14
+application:14
+decryption:13
+end-to-end:12
+performance:12
+time:12
+paper:11
+science:11
+computer:11
+test:10
+4:9
+manipulation:9
+short:8
+used:8
+work:8
+generation:8
+amount:7
+proposed:7
+secure:7
+7:7
+research:7
+https:6
+12:6
+brawijaya:6
+university:6
+malang:6
+indonesia:6
+//www:6
+encrypted:6
+algorithm:6
+distribution:6
+conducted:6
+number:6
+27:6
+result:6
+character:6
+//doi:5
+org/10:5
+system:5
+chatting:5
+increase:5
+http:5
+method:5
+sent:5
+6:5
+vol:5
+tion:5
+chipertext:5
+real:5
+shown:5
+b:5
+results:5
+0:5
+experiment:5
+multimedia:5
+game:5
+group:5
+department:5
+faculty:5
+east:5
+java:5
+company:4
+share:4
+content:4
+use:4
+make:4
+security:4
+i-jim:4
+org:4
+implementation:4
+advanced:4
+related:4
+128:4
+form:4
+ijim:4
+9:4
+able:4
+figure:4
+message:4
++:4
+fig:4
+f:4
+10:4
+2016:4
+technology:4
+multi-layered:3
+personal:3
+another:3
+inc:3
+although:3
+fundamental:3
+case:3
+platform:3
+communication:3
+parties:3
+study:3
+value:3
+times:3
+standard:3
+history:3
+give:3
+section:3
+advantage:3
+plaintext:3
+serve:3
+safely:3
+8:3
+prototype:3
+xmpp:3
+distributed:3
+design:3
+would:3
+recipient:3
+'s:3
+integer:3
+combined:3
+ascii:3
+summation:3
+table:3
+randomize:3
+made:3
+=:3
+50:3
+58:3
+device:3
+ms:3
+graph:3
+1 second:3
+ieee:3
+2015:3
+2012:3
+wibisono:2
+sukmo:2
+wardhono:2
+nurizal:2
+dwi:2
+priandani:2
+mahardeka:2
+ananta:2
+komang:2
+candra:2
+brata:2
+herman:2
+tolle:2
+become:2
+concern:2
+commodity:2
+government:2
+user’s:2
+mechanism:2
+still:2
+undermine:2
+right:2
+violation:2
+provider:2
+favorite:2
+feature:2
+room:2
+cryptography:2
+encrypt:2
+internet:2
+point:2
+situation:2
+must:2
+monthly:2
+active:2
+worldwide:2
+present:2
+obtain:2
+communications:2
+generated:2
+secured:2
+decrypt:2
+next:2
+objective:2
+takes:2
+electronic:2
+converts:2
+called:2
+ciphertext:2
+digital:2
+com-:2
+public:2
+11:2
+mechanisms:2
+implemented:2
+possible:2
+already:2
+app:2
+built:2
+messaging:2
+within:2
+experimental:2
+xo:2
+overlay:2
+service:2
+announcing:2
+main:2
+task:2
+random:2
+ma-:2
+nipulation:2
+pro-:2
+cess:2
+keys:2
+purpose:2
+range:2
+10 to 99:2
+16:2
+obtained:2
+splitting:2
+digit:2
+pair:2
+converted:2
+sequence:2
+aimed:2
+9016:2
+highly:2
+21:2
+67:2
+mergering:2
+34216781901193798477186770402581:2
+81:2
+0^lu&xjoh-^ac:2
+iniidentifiernya:2
+714:2
+fe:2
+bc:2
+6707491:2
+ebea:2
+70:2
+221:2
+cb:2
+28:2
+fc:2
+7876:2
+214:2
+assumed:2
+see:2
+required:2
+read:2
+hash:2
+setup:2
+expansion:2
+25:2
+100:2
+longer:2
+less:2
+deadline:2
+experience:2
+felt:2
+action:2
+given:2
+responded:2
+immediately:2
+swift:2
+manner:2
+millisecond:2
+engineering:2
+2005:2
+statista:2
+online:2
+last:2
+accessed:2
+2017 january:2
+international:2
+conference:2
+2010:2
+samsudin:2
+authors:2
+3991/ijim:1
+7472:1
+wibiwardhono@ub:1
+ac:1
+abstract:1
+environments:1
+interactive:1
+grown:1
+tremendously:1
+matter:1
+increasing:1
+us-:1
+ers:1
+party:1
+frequently:1
+asked:1
+request:1
+formal:1
+valid:1
+legal:1
+need:1
+inside:1
+contents:1
+data protection:1
+methods:1
+hides:1
+unauthorized:1
+ensure:1
+in-:1
+formations:1
+addition:1
+conven-:1
+ience:1
+keywords:1
+introduction:1
+recognized:1
+important:1
+issue:1
+me-:1
+impact:1
+continue:1
+continues:1
+grow:1
+understanding:1
+protecting:1
+becoming:1
+increasingly:1
+critical:1
+widespread:1
+problem:1
+companies:1
+thirsty:1
+ever:1
+infor-:1
+mation:1
+buy:1
+like:1
+defining:1
+necessary:1
+define:1
+access:1
+un-:1
+circumstances:1
+represents:1
+good:1
+example:1
+complexity:1
+restrictions:1
+placed:1
+the third quarter of 2016:1
+79 billion:1
+160:1
+massive:1
+demand:1
+linearly:1
+many:1
+reasons:1
+purposes:1
+governments:1
+requested:1
+60:1
+000:1
+first half of 2016:1
+giving:1
+without:1
+permission:1
+serious:1
+threat:1
+basic:1
+concept:1
+randomly:1
+corresponding:1
+step:1
+facebook’s:1
+data-:1
+base:1
+propose:1
+never:1
+worried:1
+discussed:1
+relationship:1
+mo-:1
+briefly:1
+summarizes:1
+face-:1
+book:1
+due:1
+space:1
+limitations:1
+depth:1
+field:1
+comprehensive:1
+survey:1
+rather:1
+concentrates:1
+specifics:1
+adapting:1
+analyzing:1
+specifies:1
+cryptographic:1
+protect:1
+symmetric:1
+block:1
+cipher:1
+encipher:1
+decipher:1
+unintelligible:1
+decrypting:1
+back:1
+original:1
+ahmad et:1
+intended:1
+applications:1
+preserve:1
+integrity:1
+files:1
+certain:1
+size:1
+pressed:1
+secret:1
+cryp-:1
+tosystem:1
+rsa:1
+developed:1
+multi-:1
+layer:1
+bined:1
+2018161:1
+idea:1
+leaving:1
+previous:1
+providing:1
+con-:1
+venient:1
+instant:1
+focused:1
+usability:1
+evaluation:1
+support:1
+scenarios:1
+utilize:1
+extensible:1
+presence:1
+protocol:1
+standards:1
+developing:1
+fur-:1
+thermore:1
+complete:1
+achieve:1
+taking:1
+standart:1
+protec-:1
+explained:1
+end-users:1
+resulted:1
+server:1
+since:1
+unlock:1
+someone:1
+discover:1
+manipu-:1
+lation:1
+automatically:1
+disassemble:1
+apps:1
+two:1
+owned:1
+decrypted:1
+program:1
+account:1
+summarize:1
+major:1
+tasks:1
+keyfor:1
+randomization:1
+stage:1
+pairs:1
+later:1
+every:1
+asan:1
+early:1
+initialization:1
+conversion:1
+integers:1
+162:1
+utilization:1
+possibility:1
+became:1
+1 34 2:1
+16 81:1
+34:1
+61:1
+48:1
+94:1
+108:1
+translation:1
+^:1
+2018163:1
+plain:1
+text:1
+1234567890123456:1
+header:1
+identifier:1
+output:1
+54180:1
+792:1
+integration:1
+34216781901193798477186770402581541 80:1
+79 2:1
+ready:1
+receiving:1
+mes-:1
+sage:1
+friend:1
+could:1
+incoming:1
+unread:1
+notifi-:1
+cation:1
+details:1
+included:1
+messages:1
+translated:1
+get:1
+val-:1
+ue:1
+processed:1
+ran:1
+received:1
+order:1
+devel-:1
+oped:1
+discussion:1
+experimentation:1
+determine:1
+android-based:1
+created:1
+164:1
+testing:1
+understand:1
+speed:1
+features:1
+tested:1
+measuring:1
+needed:1
+parameter:1
+smartphone:1
+samsung:1
+galaxy:1
+young:1
+gt:1
+5360:1
+low:1
+specification:1
+worst:1
+measurement:1
+started:1
+1 to 1000:1
+characters:1
+perf_01:1
+perf_02:1
+perf_03:1
+perf_04:1
+perf_05:1
+perf_06:1
+perf_07:1
+perf_08:1
+perf_09:1
+perf_10:1
+perf_11:1
+1 2 3:1
+250:1
+500:1
+1000:1
+7 1:1
+9 5:1
+6 6:1
+7 12:1
+7 4:1
+8 10:1
+9 18:1
+9 25:1
+2018165:1
+effect:1
+trendline:1
+ef-:1
+fect:1
+affected:1
+respond:1
+took:1
+aver-:1
+age:1
+allowed:1
+even:1
+100 ms:1
+human-computer:1
+interaction:1
+limit:1
+concluded:1
+conclusion:1
+average:1
+maximum:1
+respectively:1
+stated:1
+conduct:1
+decryp-:1
+quickly:1
+genera-:1
+probability:1
+scheme:1
+mul-:1
+ti-layer:1
+makes:1
+easier:1
+improve:1
+distributions:1
+166:1
+references:1
+earp:1
+julia:1
+brande:1
+examining:1
+policies:1
+context:1
+values:1
+transactions:1
+management:1
+52:1
+227-237:1
+1109/tem:1
+844927:1
+raul:1
+alan charles:1
+state:1
+balancing:1
+springer:1
+business:1
+2002:1
+1007/978-:1
+1-4615-0889-2:1
+hachman:1
+mark:1
+price:1
+free:1
+apple:1
+microsoft:1
+google:1
+sell:1
+advertisers:1
+3 rd quarter:1
+com/statistics/264810/number-of-:1
+monthly-active-facebook-users-worldwide/:1
+millions:1
+tom:1
+brant:1
+requests:1
+27 percent:1
+foxnews:1
+federal:1
+processing:1
+fips:1
+2001:1
+ahmad:1
+rafidah:1
+asrulnizam:1
+abd:1
+manaf:1
+widad:1
+ismail:1
+high-:1
+blowfish:1
+wireless:1
+journal:1
+telecommunica-:1
+jtec:1
+147-151:1
+robison:1
+chris:1
+se-:1
+curity:1
+risk:1
+trust:1
+passat:1
+confernece:1
+computing:1
+socialcom:1
+1109/socialcom-passat:1
+robert:1
+lass:1
+military:1
+nielsen:1
+jakob:1
+2009:1
+powers:1
+scales:1
+nngroup:1
+com/articles/powers-of-10-time-scales-in-ux/:1
+akhavan:1
+parallel:1
+chaotic:1
+func-:1
+shuffle-exchange:1
+network:1
+nonlinear:1
+dynamics:1
+pp:1
+1067-1079:1
+1007/s:1
+11071-015-2049-6 7:1
+technol-:1
+ogy:1
+article:1
+submitted:1
+25 july 2017:1
+published:1
+resubmitted:1
+13 september 2017:1
+2018167:1
+----------------------------------------------------------------------------------------
+
+Keywords that appear in the file, alongside with their frequencies:
+privacy:32
+encryption:27
+data protection:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> appos
+paper -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> pobj
+based -> acl
+paper -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nsubj
+
+Descendants:
+
+Ancestors:
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+information -> compound
+
+Ancestors:
+right -> dobj
+undermine -> ROOT
+
+Immediate children:
+information -> compound
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+violation -> pobj
+protection -> dobj
+need -> ROOT
+
+Immediate children:
+
+
+KEYWORD: data protection -> compound
+
+Descendants:
+
+Ancestors:
+methods -> pobj
+one -> attr
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> dobj
+have -> ccomp
+ensure -> xcomp
+encrypt -> relcl
+system -> dobj
+proposed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nsubjpass
+
+Descendants:
+1 -> nummod
+introduction -> compound
+user’s -> poss
+information -> compound
+
+Ancestors:
+recognized -> ROOT
+
+Immediate children:
+user’s -> poss
+information -> compound
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+personal -> amod
+
+Ancestors:
+protecting -> conj
+understanding -> nsubj
+becoming -> ROOT
+
+Immediate children:
+personal -> amod
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+infor- -> amod
+mation -> compound
+
+Ancestors:
+right -> dobj
+undermine -> ccomp
+is -> ROOT
+
+Immediate children:
+mation -> compound
+
+
+KEYWORD: privacy -> nsubj
+
+Descendants:
+private -> amod
+chatting -> pobj
+facebook -> pobj
+
+Ancestors:
+represents -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+situation -> pobj
+placed -> relcl
+restrictions -> pobj
+complexity -> pobj
+example -> dobj
+represents -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> appos
+paper -> dobj
+ -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+facebook -> compound
+user -> compound
+
+Ancestors:
+threat -> attr
+be -> ROOT
+
+Immediate children:
+user -> compound
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+standard -> nmod
+cryptography -> pobj
+implementation -> dobj
+present -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> nsubj
+
+Descendants:
+
+Ancestors:
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> compound
+mechanism -> dobj
+have -> relcl
+system -> dobj
+propose -> xcomp
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+violation -> pobj
+worried -> advcl
+propose -> xcomp
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+standard -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> nsubj
+
+Descendants:
+
+Ancestors:
+converts -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> appos
+paper -> nsubjpass
+built -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+concern -> dobj
+leaving -> acl
+chat -> acl
+idea -> pobj
+built -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> dobj
+achieve -> advcl
+complete -> ccomp
+fur- -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+standart -> dobj
+announcing -> pcomp
+taking -> pcomp
+achieve -> advcl
+complete -> ccomp
+fur- -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+end-to-end -> nmod
+
+Ancestors:
+tion -> pobj
+design -> conj
+design -> nsubjpass
+explained -> ROOT
+
+Immediate children:
+end-to-end -> nmod
+
+
+KEYWORD: encryption -> dobj
+
+Descendants:
+
+Ancestors:
+unlock -> acl
+key -> attr
+was -> advcl
+was -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+aes -> amod
+
+Ancestors:
+cess -> dobj
+disassemble -> xcomp
+able -> acomp
+be -> ROOT
+
+Immediate children:
+aes -> amod
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+process -> pobj
+sent -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> conj
+
+Descendants:
+and -> cc
+key -> amod
+distribution -> conj
+
+Ancestors:
+generation -> attr
+were -> ROOT
+
+Immediate children:
+and -> cc
+distribution -> conj
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+process -> compound
+purpose -> pobj
+real -> conj
+key -> dobj
+obtain -> advcl
+conducted -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+purpose -> pobj
+key -> pobj
+used -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> appos
+paper -> dobj
+ -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+user -> compound
+
+Ancestors:
+protection -> dobj
+give -> conj
+make -> ROOT
+
+Immediate children:
+user -> compound
+
+
+KEYWORD: encryption -> appos
+
+Descendants:
+2 -> nummod
+key -> amod
+and -> cc
+distribution -> conj
+
+Ancestors:
+process -> nmod
+process -> nsubjpass
+conducted -> ROOT
+
+Immediate children:
+2 -> nummod
+key -> amod
+and -> cc
+distribution -> conj
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+process -> nsubjpass
+conducted -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> nmod
+
+Descendants:
+and -> cc
+distribution -> conj
+
+Ancestors:
+process -> nsubjpass
+shown -> ROOT
+
+Immediate children:
+and -> cc
+distribution -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> appos
+paper -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+2 -> nummod
+
+Ancestors:
+process -> nsubj
+md -> ROOT
+
+Immediate children:
+2 -> nummod
+
+
+KEYWORD: encryption -> nsubj
+
+Descendants:
+and -> cc
+key -> amod
+distribution -> compound
+process -> conj
+
+Ancestors:
+chat -> ccomp
+assumed -> ccomp
+see -> ROOT
+
+Immediate children:
+and -> cc
+process -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> compound
+prototype -> nsubjpass
+created -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> appos
+paper -> dobj
+ -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> pobj
+
+Descendants:
+and -> cc
+distribution -> conj
+
+Ancestors:
+serve -> acl
+application -> pobj
+speed -> dobj
+understand -> xcomp
+aimed -> relcl
+test -> attr
+was -> ROOT
+
+Immediate children:
+and -> cc
+distribution -> conj
+
+
+KEYWORD: encryption -> nmod
+
+Descendants:
+and -> cc
+
+Ancestors:
+process -> dobj
+conducted -> advcl
+needed -> acl
+time -> dobj
+measuring -> pcomp
+by -> agent
+tested -> ROOT
+
+Immediate children:
+and -> cc
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+time -> dep
+perf_06 -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> appos
+paper -> dep
+shown -> ROOT
+
+Immediate children:
+
+
+KEYWORD: encryption -> pobj
+
+Descendants:
+and -> cc
+
+Ancestors:
+effect -> nsubjpass
+shown -> ROOT
+
+Immediate children:
+and -> cc
+
+
+KEYWORD: encryption -> nsubjpass
+
+Descendants:
+a -> appos
+and -> cc
+decryption -> conj
+b -> meta
+process -> compound
+time -> compound
+graph -> appos
+based -> acl
+trendline -> pobj
+encryption -> pobj
+or -> cc
+decryption -> compound
+process -> compound
+time -> compound
+graph -> conj
+
+Ancestors:
+obtained -> ROOT
+
+Immediate children:
+a -> appos
+
+
+KEYWORD: encryption -> pobj
+
+Descendants:
+or -> cc
+decryption -> compound
+process -> compound
+time -> compound
+graph -> conj
+
+Ancestors:
+trendline -> pobj
+based -> acl
+graph -> appos
+decryption -> conj
+a -> appos
+encryption -> nsubjpass
+obtained -> ROOT
+
+Immediate children:
+or -> cc
+graph -> conj
+
+
+KEYWORD: encryption -> pobj
+
+Descendants:
+and -> cc
+decryption -> compound
+process -> conj
+
+Ancestors:
+serve -> xcomp
+able -> acomp
+was -> ccomp
+concluded -> ROOT
+
+Immediate children:
+and -> cc
+process -> conj
+
+
+KEYWORD: encryption -> nmod
+
+Descendants:
+and -> cc
+decryption -> conj
+
+Ancestors:
+process -> pobj
+time -> pobj
+increase -> attr
+was -> ROOT
+
+Immediate children:
+and -> cc
+decryption -> conj
+
+
+KEYWORD: encryption -> pobj
+
+Descendants:
+and -> cc
+decryption -> compound
+process -> conj
+
+Ancestors:
+process -> nsubj
+were -> ROOT
+
+Immediate children:
+and -> cc
+process -> conj
+
+
+KEYWORD: encryption -> nmod
+
+Descendants:
+and -> cc
+decryp- -> conj
+
+Ancestors:
+process -> dobj
+conduct -> xcomp
+able -> acomp
+was -> ccomp
+stated -> ROOT
+
+Immediate children:
+and -> cc
+decryp- -> conj
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+user -> compound
+
+Ancestors:
+protection -> dobj
+give -> conj
+make -> ROOT
+
+Immediate children:
+user -> compound
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> appos
+paper -> dobj
+ -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+internet -> compound
+
+Ancestors:
+policies -> dobj
+examining -> advcl
+ -> ROOT
+
+Immediate children:
+internet -> compound
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+user -> compound
+
+Ancestors:
+values -> pobj
+context -> pobj
+examining -> advcl
+ -> ROOT
+
+Immediate children:
+user -> compound
+
+
+KEYWORD: privacy -> ROOT
+
+Descendants:
+and -> cc
+digital -> amod
+state -> conj
+balancing -> acl
+public -> amod
+information -> dobj
+and -> cc
+personal -> amod
+privacy -> conj
+
+Ancestors:
+
+Immediate children:
+and -> cc
+state -> conj
+balancing -> acl
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+personal -> amod
+
+Ancestors:
+information -> dobj
+balancing -> acl
+privacy -> ROOT
+
+Immediate children:
+personal -> amod
+
+
+KEYWORD: encryption -> compound
+
+Descendants:
+
+Ancestors:
+standard -> dobj
+announcing -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+conference -> nsubj
+se- -> ROOT
+
+Immediate children:

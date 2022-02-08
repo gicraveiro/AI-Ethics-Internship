@@ -1,0 +1,859 @@
+
+General Info ProtectingPrivacyAndSecurity
+
+
+With stop word removal 
+Size of original corpus: 1204 
+Size of filtered corpus: 629
+Size of Lexicon: 289
+
+Tokens that appear in the file, alongside with their frequencies:
+facebook:35
+privacy:32
+r:15
+security:13
+help:13
+data:13
+protecting:12
+10:11
+|:10
+https:10
+//about:10
+com/actions/protecting-privacy-:10
+20/09/2021:10
+14:10
+41:10
+center:9
+information:8
+’re:7
+control:7
+p:6
+g:6
+share:5
+give:5
+secure:5
+protect:4
+build:4
+tools:4
+see:4
+whatsapp:4
+messenger:4
+app:4
+people:3
+across:3
+created:3
+apps:3
+built:3
+services:3
+learn:3
+program:3
+us:3
+transfer:3
+online:2
+keep:2
+partner:2
+improve:2
+standards:2
+industry:2
+tool:2
+account:2
+seeing:2
+activity:2
+websites:2
+2:2
+download:2
+’ve:2
+request:2
+move:2
+easier:2
+b:2
+covid-19:2
+support:2
+read:2
+approach:2
+designing:2
+new:2
+matters:2
+encryption:2
+option:2
+access:2
+2019:2
+countries:2
+$:2
+transparency:2
+community:2
+policies:2
+portability:2
+labs:2
+ethics:2
+research:2
+7:2
+partnership:2
+project:2
+ways:2
+service:2
+accelerator:2
+singapore:2
+company:2
+oculus:2
+policy:2
+instagram:2
+workplace:2
+portal:2
+committed:1
+giving:1
+choices:1
+decision:1
+connect:1
+knowing:1
+manage:1
+important:1
+ever:1
+1:1
+bottom:1
+line:1
+getting:1
+right:1
+that’s:1
+understand:1
+happens:1
+checkup:1
+helps:1
+used:1
+off-:1
+click:1
+adjust:1
+disconnect:1
+settings:1
+businesses:1
+send:1
+export:1
+shortcuts:1
+made:1
+find:1
+3:1
+make:1
+part:1
+everything:1
+continuing:1
+people’s:1
+hood:1
+look:1
+good:1
+balanced:1
+public:1
+interest:1
+priorities:1
+enable:1
+pandemic:1
+response:1
+progress:1
+update:1
+providing:1
+under-the-:1
+work:1
+global:1
+sharing:1
+ongoing:1
+efforts:1
+investments:1
+initiatives:1
+blog:1
+future:1
+ensuring:1
+every:1
+product:1
+feature:1
+mind:1
+products:1
+4:1
+responsibility:1
+safe:1
+two-factor:1
+authentication:1
+end-to-end:1
+end-:1
+to-end:1
+addition:1
+password:1
+offer:1
+improper:1
+ensure:1
+messages:1
+restricted:1
+dramatically:1
+decreased:1
+amount:1
+remain:1
+private:1
+storage:1
+bug:1
+bounty:1
+n’t:1
+store:1
+sensitive:1
+awarded:1
+2 million:1
+weak:1
+records:1
+researchers:1
+human:1
+rights:1
+60:1
+order:1
+improperly:1
+accessed:1
+bringing:1
+payout:1
+total:1
+date:1
+over $9:1
+8 million:1
+strengthen:1
+users:1
+internet:1
+large:1
+5:1
+report:1
+publish:1
+regular:1
+reports:1
+visibility:1
+enforce:1
+respond:1
+requests:1
+intellectual:1
+property:1
+collaborate:1
+partners:1
+6:1
+establish:1
+best:1
+practices:1
+data security:1
+trust:1
+cross-industry:1
+design:1
+solutions:1
+digital:1
+challenges:1
+investing:1
+5 million:1
+tackle:1
+critical:1
+questions:1
+safety:1
+german:1
+government:1
+technical:1
+university:1
+munich:1
+joined:1
+different:1
+providers:1
+singapore’s:1
+data protection:1
+authority:1
+startups:1
+develop:1
+working:1
+privacy-focused:1
+vision:1
+social:1
+networking:1
+responsible:1
+innovation:1
+reality:1
+series:1
+8:1
+f:1
+w:1
+combat:1
+scraping:1
+april 15 , 2021:1
+august:1
+20:1
+personalized:1
+advertising:1
+odds:1
+steps:1
+securely:1
+december:1
+16 , 2020 march:1
+11 , 2021:1
+news:1
+9:1
+follow:1
+info:1
+brand:1
+resources:1
+newsroom:1
+careers:1
+investors:1
+cookie:1
+terms:1
+novi:1
+technologies:1
+© 2021:1
+english:1
+sitemap:1
+----------------------------------------------------------------------------------------
+
+Keywords that appear in the file, alongside with their frequencies:
+privacy:32
+encryption:2
+data security:1
+data protection:1
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+protecting -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+choices -> pobj
+control -> dobj
+giving -> conj
+protecting -> pcomp
+committed -> acomp
+’re -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+your -> poss
+
+Ancestors:
+manage -> xcomp
+knowing -> advcl
+share -> conj
+connect -> advcl
+is -> ROOT
+
+Immediate children:
+your -> poss
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+| -> dobj
+protecting -> acl
+ -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+your -> poss
+
+Ancestors:
+control -> dobj
+give -> relcl
+tools -> dobj
+build -> ccomp
+that’s -> ROOT
+
+Immediate children:
+your -> poss
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+your -> poss
+
+Ancestors:
+control -> dobj
+give -> relcl
+tools -> dobj
+build -> ROOT
+
+Immediate children:
+your -> poss
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+checkup -> npadvmod
+helps -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+protecting -> acl
+2 -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+shortcuts -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+tools -> nsubj
+easier -> ccomp
+made -> relcl
+shortcuts -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+protecting -> advcl
+learn -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+part -> ccomp
+make -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+hood -> nsubj
+look -> ccomp
+balanced -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+progress -> compound
+update -> dobj
+enable -> advcl
+protecting -> xcomp
+balanced -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+program -> dobj
+build -> xcomp
+doing -> relcl
+work -> dobj
+providing -> ccomp
+update -> dobj
+enable -> advcl
+protecting -> xcomp
+balanced -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+efforts -> dobj
+sharing -> conj
+build -> xcomp
+doing -> relcl
+work -> dobj
+providing -> ccomp
+update -> dobj
+enable -> advcl
+protecting -> xcomp
+balanced -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+designing -> advcl
+ensuring -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+built -> ccomp
+ensuring -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+
+Ancestors:
+designing -> pcomp
+more -> dobj
+learn -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+matters -> pobj
+products -> pobj
+designing -> pcomp
+more -> dobj
+learn -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+protecting -> advcl
+learn -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: encryption -> ROOT
+
+Descendants:
+two-factor -> compound
+authentication -> compound
+end-to-end -> nmod
+we -> nsubj
+give -> relcl
+you -> dative
+this -> dobj
+we -> nsubj
+built -> relcl
+end- -> amod
+option -> dobj
+addition -> pobj
+your -> poss
+encryption -> pobj
+password -> pobj
+protect -> acl
+your -> poss
+whatsapp -> dobj
+and -> cc
+offer -> conj
+option -> compound
+account -> dobj
+messenger -> pobj
+improper -> amod
+access -> pobj
+
+Ancestors:
+
+Immediate children:
+authentication -> compound
+end-to-end -> nmod
+give -> relcl
+
+
+KEYWORD: encryption -> pobj
+
+Descendants:
+your -> poss
+password -> pobj
+protect -> acl
+your -> poss
+whatsapp -> dobj
+and -> cc
+offer -> conj
+option -> compound
+account -> dobj
+messenger -> pobj
+improper -> amod
+access -> pobj
+
+Ancestors:
+addition -> pobj
+built -> relcl
+this -> dobj
+give -> relcl
+encryption -> ROOT
+
+Immediate children:
+your -> poss
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+| -> dobj
+protecting -> acl
+ -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+protecting -> advcl
+collaborate -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: data security -> pobj
+
+Descendants:
+and -> cc
+portability -> conj
+
+Ancestors:
+practices -> dobj
+establish -> xcomp
+help -> ROOT
+
+Immediate children:
+and -> cc
+portability -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+challenges -> pobj
+solutions -> dobj
+design -> relcl
+program -> dobj
+created -> relcl
+trust -> nsubj
+ai -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+and -> cc
+safety -> conj
+
+Ancestors:
+questions -> dobj
+tackle -> advcl
+5 million -> ROOT
+
+Immediate children:
+and -> cc
+safety -> conj
+
+
+KEYWORD: data protection -> compound
+
+Descendants:
+
+Ancestors:
+authority -> pobj
+partnership -> pobj
+created -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+protecting -> advcl
+created -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+social -> amod
+networking -> compound
+messenger -> compound
+
+Ancestors:
+vision -> dobj
+read -> pcomp
+ways -> dobj
+develop -> ROOT
+
+Immediate children:
+messenger -> compound
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+
+Ancestors:
+innovation -> conj
+portability -> dobj
+whatsapp -> advcl
+develop -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nsubj
+
+Descendants:
+
+Ancestors:
+matters -> compound
+series -> dobj
+whatsapp -> advcl
+develop -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+protecting -> advcl
+develop -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+
+Ancestors:
+advertising -> dobj
+combat -> ccomp
+share -> relcl
+data -> dobj
+control -> conj
+see -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+and -> cc
+security -> conj
+
+Ancestors:
+protecting -> ccomp
+see -> ROOT
+
+Immediate children:
+and -> cc
+security -> conj
