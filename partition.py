@@ -8,17 +8,11 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import numpy
 import spacy
-from utils import clean_corpus, reconstruct_hyphenated_words
+from utils import clean_corpus, reconstruct_hyphenated_words, create_sent_label_dict
 
 # Functions
 
-# Creates dictionary of a set, associating sentence with label
-def create_sent_label_dict(sents, labels):
-    sents_dict = []
-    for row_id,row in enumerate(sents):
-        row = re.sub("\n", " ", row)
-        sents_dict.append({"text":row.strip(), "label":labels[row_id]})
-    return sents_dict
+
 
 # Writes json of partition set, each entry is the sentence associated with its labels
 def write_partition_file(partition_dict, name):

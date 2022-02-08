@@ -70,9 +70,9 @@ dev_pred_dict = simple_classifier(dev_sents_ref_json)
 test_pred_dict = simple_classifier(test_sents_ref_json)
 
 # Output predictions in separate files
-write_predictions_file("Train", train_pred_dict)
-write_predictions_file("Dev", dev_pred_dict)
-write_predictions_file("Test", test_pred_dict)
+write_predictions_file(train_pred_dict, 'output/Simple Classifier/multilabelPredictions_Train.json')
+write_predictions_file(dev_pred_dict,'output/Simple Classifier/multilabelPredictions_Dev.json')
+write_predictions_file(test_pred_dict, 'output/Simple Classifier/multilabelPredictions_Test.json')
 
 # Formatting predictions to calculate results
 train_pred_array = [sent['label'] for sent in train_pred_dict]
