@@ -2,37 +2,37 @@ Performance measures
 
 Train set:
 
-Precision macro: 0.48
-Precision Individually: [0.563 0.381 0.876 0.28  0.301]
-Recall macro: 0.527
-Recall Individually: [0.542 0.571 0.591 0.271 0.658]
-F1 Score micro: 0.541
-F1 Score macro: 0.481
-F1 Score weighted: 0.565
-F1 Score Individually: [0.552 0.457 0.706 0.275 0.413]
+Precision macro: 0.477
+Precision Individually: [0.563 0.381 0.857 0.28  0.301]
+Recall macro: 0.518
+Recall Individually: [0.542 0.571 0.55  0.271 0.658]
+F1 Score micro: 0.52
+F1 Score macro: 0.474
+F1 Score weighted: 0.541
+F1 Score Individually: [0.552 0.457 0.67  0.275 0.413]
 
 
 Dev set:
 
-Precision macro: 0.399
-Precision Individually: [0.533 0.    0.88  0.25  0.333]
-Recall macro: 0.441
-Recall Individually: [0.615 0.    0.629 0.182 0.778]
-F1 Score micro: 0.557
-F1 Score macro: 0.396
-F1 Score weighted: 0.566
-F1 Score Individually: [0.571 0.    0.733 0.211 0.467]
+Precision macro: 0.398
+Precision Individually: [0.533 0.    0.875 0.25  0.333]
+Recall macro: 0.439
+Recall Individually: [0.615 0.    0.618 0.182 0.778]
+F1 Score micro: 0.551
+F1 Score macro: 0.395
+F1 Score weighted: 0.559
+F1 Score Individually: [0.571 0.    0.724 0.211 0.467]
 
 
 Test set:
 
-Precision macro: 0.424
-Precision Individually: [0.6   0.    0.885 0.333 0.3  ]
-Recall macro: 0.438
-Recall Individually: [0.643 0.    0.676 0.273 0.6  ]
-F1 Score micro: 0.586
-F1 Score macro: 0.417
-F1 Score weighted: 0.601
-F1 Score Individually: [0.621 0.    0.767 0.3   0.4  ]
+Precision macro: 0.421
+Precision Individually: [0.6   0.    0.87  0.333 0.3  ]
+Recall macro: 0.432
+Recall Individually: [0.643 0.    0.645 0.273 0.6  ]
+F1 Score micro: 0.567
+F1 Score macro: 0.412
+F1 Score weighted: 0.581
+F1 Score Individually: [0.621 0.    0.741 0.3   0.4  ]
 
 

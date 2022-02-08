@@ -1,0 +1,3164 @@
+
+1 WHAT’S IN A NAME – Privacy and FB REAL NAME POLICY
+
+
+With stop word removal 
+Size of original corpus: 13608 
+Size of filtered corpus: 7124
+Size of Lexicon: 2767
+
+Tokens that appear in the file, alongside with their frequencies:
+facebook:165
+real:154
+https:144
+see:127
+policy:100
+users:93
+data:84
+//perma:77
+names:64
+8:62
+social:60
+may:60
+//www:54
+facebook’s:46
+media:45
+6:37
+use:35
+information:35
+people:30
+note:30
+privacy:27
+g:26
+9:25
+4:24
+identity:22
+google+:22
+new:21
+2:21
+3:21
+online:20
+german:20
+5:19
+service:19
+<:19
+supra:19
+>:18
+platform:18
+user:17
++:17
+even:17
+protection:16
+nevertheless:15
+http:15
+pol’y:14
+court:14
+control:14
+2018 5:13
+jpaq:13
+cp:13
+services:13
+7:13
+pub:13
+vol:13
+xxviii:13
+gdpr:13
+still:13
+accounts:13
+right:13
+already:13
+law:12
+account:12
+life:11
+given:11
+consent:11
+individuals:11
+policies:11
+different:11
+provide:11
+friends:11
+public:11
+1:10
+without:10
+pseudonym:10
+apr:10
+aa:10
+aug:10
+infra:10
+though:10
+friendster:10
+way:10
+would:10
+certain:10
+profile:10
+google:10
+post:10
+zuckerberg’s:10
+regulators:10
+based:9
+behavior:9
+2014:9
+subscribers:9
+change:9
+pseudonymous:9
+boyd:9
+r:9
+personal:9
+anonymity:9
+collection:9
+processing:9
+found:8
+us:8
+html:8
+claims:8
+13:8
+challenge:8
+generally:8
+company:8
+general:8
+model:8
+first:8
+political:8
+internet:8
+paper:7
+comments:7
+surveillance:7
+share:7
+website:7
+allow:7
+context:7
+danah:7
+oor’s:7
+response:7
+pseudonyms:7
+case:7
+collect:7
+allows:7
+germany:7
+fake:7
+mark:7
+zuckerberg:7
+however:7
+making:7
+wash:7
+established:7
+feb:7
+need:7
+66:7
+likely:7
+transcript:7
+washingtonpost:7
+regulator:7
+telemedia:7
+act:7
+hamburg:7
+concerns:6
+author’s:6
+int’l:6
+providers:6
+sign:6
+world:6
+2016:6
+using:6
+know:6
+hence:6
+/ol:6
+enforcement:6
+order:6
+many:6
+behavioral:6
+legal:6
+including:6
+meet:6
+26:6
+choose:6
+okcupid:6
+b:6
+difficult:6
+problem:6
+argument:6
+relevant:6
+violates:6
+zdnet:6
+native:6
+campaign:6
+often:6
+business:6
+setting:6
+reports:6
+whether:6
+noting:6
+last:6
+irish:6
+connect:5
+others:5
+one’s:5
+research:5
+led:5
+2017:5
+government:5
+allowing:5
+username:5
+reason:5
+guardian:5
+theguardian:5
+yet:5
+position:5
+collapse:5
+speech:5
+communities:5
+19:5
+2012:5
+dec:5
+o%:5
+cc/4:5
+process:5
+vulnerable:5
+accompanying:5
+text:5
+identities:5
+person’s:5
+contains:5
+requiring:5
+since:5
+pseudonymity:5
+anonymous:5
+used:5
+purposes:5
+allowed:5
+scholars:5
+authentic:5
+early:5
+www:5
+full:5
+actually:5
+62:5
+official:5
+instead:5
+sept:5
+easy:5
+advertising:5
+give:5
+freely:5
+collecting:5
+stop:5
+ireland:5
+controller:5
+jurisdiction:5
+society:4
+community:4
+christian:4
+age:4
+developers:4
+danger:4
+collective:4
+strong:4
+10:4
+networking:4
+requires:4
+another:4
+usernames:4
+caused:4
+separate:4
+contexts:4
+15:4
+marginalized:4
+b-&al:4
+criticism:4
+higher:4
+asks:4
+email:4
+caragliano:4
+point:4
+status:4
+individual:4
+knowledge:4
+consider:4
+impact:4
+especially:4
+regulatory:4
+challenged:4
+similar:4
+section:4
+lawsuit:4
+p:4
+raised:4
+began:4
+site:4
+could:4
+like:4
+25:4
+party:4
+later:4
+=:4
+decide:4
+deter:4
+although:4
+required:4
+activities:4
+decision:4
+salon:4
+75:4
+49:4
+f:4
+make:4
+makes:4
+specific:4
+physical:4
+101:4
+stage:4
+changed:4
+44:4
+45:4
+48:4
+register:4
+times:4
+mashable:4
+//mashable:4
+wrong:4
+mynameis:4
+discussed:4
+2013:4
+thus:4
+practice:4
+oct:4
+norm:4
+linkedin:4
+much:4
+willing:4
+adopters:4
+fact:4
+common:4
+associating:4
+effectively:4
+value:4
+demographic:4
+71:4
+subject:4
+false:4
+long:4
+better:4
+administrative:4
+seeing:4
+11 , 2018:4
+tools:4
+collects:4
+turn:4
+advertisement:4
+categories:4
+religious:4
+special:4
+contained:4
+art:4
+regulation:4
+laws:4
+ordered:4
+119:4
+subjects:4
+daily:3
+opinions:3
+content:3
+previous:3
+wylie:3
+well:3
+provided:3
+earlier:3
+2018:3
+conference:3
+author:3
+2011:3
+fuchs:3
+twitter:3
+potential:3
+previously:3
+points:3
+due:3
+market:3
+must:3
+w:3
+really:3
+sites:3
+terms:3
+explaining:3
+everyday:3
+create:3
+only one:3
+12:3
+remains:3
+demanding:3
+14:3
+several:3
+interact:3
+finding:3
+able:3
+16:3
+free:3
+expose:3
+18:3
+etc:3
+registration:3
+systems:3
+courts:3
+private:3
+south:3
+korea:3
+35:3
+2015:3
+revised:3
+moreover:3
+criticized:3
+type:3
+number:3
+keep:3
+54:3
+68:3
+criticisms:3
+20:3
+lot:3
+sensitive:3
+gender:3
+ethnicity:3
+religion:3
+operators:3
+interaction:3
+lead:3
+past:3
+differently:3
+debates:3
+journal:3
+cc/q:3
+106:3
+action:3
+rationale:3
+received:3
+popular:3
+enforcing:3
+abrams:3
+24:3
+attempted:3
+groups:3
+pointed:3
+less:3
+culture:3
+29:3
+actions:3
+n’t:3
+30:3
+friendster’s:3
+controversy:3
+go:3
+changing:3
+problematic:3
+option:3
+record:3
+55:3
+78:3
+21 , 2017:3
+64:3
+everyone:3
+integrity:3
+friend’s:3
+37:3
+davisson:3
+self:3
+39:3
+individual’s:3
+address:3
+org:3
+79:3
+simply:3
+41:3
+43:3
+example:3
+passport:3
+page:3
+rushdie:3
+aaai:3
+nov:3
+time:3
+following:3
+affected:3
+verified:3
+identification:3
+selves:3
+nytimes:3
+suspension:3
+plus:3
+profiles:3
+queens:3
+american:3
+72:3
+fight:3
+back:3
+security:3
+admitted:3
+verge:3
+theverge:3
+56:3
+build:3
+student:3
+directory:3
+parents:3
+trolling:3
+commenters:3
+national:3
+responses:3
+user’s:3
+believe:3
+malicious:3
+reported:3
+ability:3
+domestic:3
+violence:3
+103:3
+concerning:3
+americans:3
+group:3
+q:3
+microtargeting:3
+80:3
+difference:3
+violated:3
+never:3
+82:3
+choice:3
+89:3
+cc/jd:3
+pages:3
+brokers:3
+operations:3
+operation:3
+98:3
+beliefs:3
+easily:3
+country:3
+origin:3
+ethnic:3
+contain:3
+racial:3
+limited:3
+berlin:3
+shuld:3
+implementing:3
+copyright:3
+lomas:3
+112:3
+116:3
+decided:3
+mandatory:3
+authority:3
+122:3
+establish:3
+recital:3
+126:3
+127:3
+residents:3
+necessary:3
+relation:3
+explicit:3
+what’s:2
+shun-ling:2
+media’s:2
+agency:2
+acquired:2
+express:2
+occupy:2
+movement:2
+mass:2
+whistleblowers:2
+snowden:2
+alerted:2
+thanks:2
+technology:2
+project:2
+version:2
+valuable:2
+international:2
+revolution:2
+power:2
+divided:2
+democracy:2
+threat:2
+amounts:2
+continued:2
+failure:2
+products:2
+among:2
+insistence:2
+potentially:2
+files:2
+cambridge:2
+x:2
+visibility:2
+history:2
+dangerous:2
+idea:2
+slate:2
+cc:2
+top:2
+june 2018:2
+suggesting:2
+active:2
+php:2
+someone:2
+else:2
+appears:2
+safety:2
+11:2
+addresses:2
+repeatedly:2
+unable:2
+experience:2
+explore:2
+17:2
+harassment:2
+companies:2
+tool:2
+perspective:2
+china:2
+harv:2
+rev:2
+71–74:2
+on’6:2
+demand:2
+operator:2
+concerned:2
+phone:2
+real-world:2
+david:2
+choosing:2
+amount:2
+grounds:2
+derive:2
+possible:2
+cultures:2
+21:2
+emphasi:2
+giving:2
+generation/age:2
+patterns:2
+deduce:2
+awareness:2
+carefully:2
+european:2
+22:2
+23:2
+discusses:2
+regime:2
+rationales:2
+permitting:2
+bring:2
+class:2
+united:2
+states:2
+iv:2
+brazilgovnews:2
+controversies:2
+revolt:2
+inception:2
+provider:2
+require:2
+fallout:2
+online-dating:2
+2002:2
+architecture:2
+system:2
+connecting:2
+beach:2
+27:2
+28:2
+fakester:2
+anderson:2
+sfweekly:2
+cc/yz:2
+customer:2
+participation:2
+digital:2
+joe:2
+2007:2
+gets:2
+31:2
+32:2
+round:2
+33:2
+performed:2
+34:2
+erase:2
+platform’s:2
+start:2
+upid’s:2
+open:2
+says:2
+changes:2
+two:2
+lack:2
+36:2
+believes:2
+talking:2
+scholar:2
+amber:2
+authenticity:2
+reveal:2
+38:2
+helen:2
+erving:2
+contextual:2
+causing:2
+40:2
+solve:2
+bernie:2
+hogan:2
+hn:2
+michaelzimmer:2
+politics:2
+participate:2
+presentation:2
+ra:2
+convergence:2
+manage:2
+audience:2
+reserved:2
+exploration:2
+42:2
+widely:2
+adopted:2
+persona:2
+help:2
+deactivated:2
+rushdie’s:2
+unilaterally:2
+ahmed salman:2
+tech:2
+chan:2
+weblogs:2
+mothers:2
+release:2
+parenting:2
+usual:2
+youbemom:2
+discuss:2
+protalinski:2
+penname:2
+eventually:2
+reversed:2
+46:2
+harder:2
+released:2
+47:2
+popularity:2
+50:2
+took:2
+approach:2
+providing:2
+enough:2
+standard:2
+rarely:2
+associate:2
+include:2
+strycker:2
+future:2
+web:2
+opinion:2
+violet:2
+blue:2
+51:2
+ing:2
+52:2
+unseat:2
+53:2
+suspended:2
+drag:2
+emphasizes:2
+importance:2
+indeed:2
+claiming:2
+youtube:2
+posted:2
+fights:2
+inside:2
+attempt:2
+2 , 2015:2
+lapse:2
+usage:2
+engadget:2
+john:2
+feature:2
+saw:2
+might:2
+fewer:2
+57:2
+purpose:2
+self-:2
+offered:2
+58:2
+hand:2
+59:2
+character:2
+60:2
+norms:2
+zephoria:2
+cc/t:2
+timeline:2
+surname:2
+unlike:2
+independent:2
+good:2
+reasons:2
+bad:2
+61:2
+necessarily:2
+positive:2
+combat:2
+63:2
+comment:2
+65:2
+confusion:2
+argue:2
+mathew:2
+ingram:2
+trolls:2
+newsweek:2
+com/:2
+perma:2
+inc:2
+effective:2
+67:2
+legitimate:2
+reporting:2
+silencing:2
+69:2
+behaving:2
+provides:2
+administrator:2
+70:2
+victims:2
+stalking:2
+cc/d:2
+nyu:2
+wired:2
+practices:2
+monday:2
+center:2
+20 , 2015:2
+brandom:2
+violating:2
+unfamiliar:2
+naming:2
+73:2
+targeted:2
+silenced:2
+deactivation:2
+74:2
+pressure:2
+mechanism:2
+procedure:2
+76:2
+narrow:2
+press:2
+23 , 2014:2
+getting:2
+wordpress:2
+cc/k:2
+measures:2
+algorithms:2
+appear:2
+rather:2
+beta:2
+testers:2
+campus:2
+77:2
+light:2
+suggest:2
+lists:2
+profiling:2
+haimson:2
+add:2
+offering:2
+81:2
+congress:2
+83:2
+question:2
+84:2
+something:2
+85:2
+cnn:2
+10 , 2018:2
+noredirect:2
+on&utm_term=:2
+appearance:2
+house:2
+committee:2
+utm_term=:2
+&na 6& j&ar:2
+senator:2
+nelson:2
+economic:2
+fundamental:2
+scheme:2
+86:2
+gives:2
+avoid:2
+function:2
+87:2
+88:2
+grouped:2
+together:2
+kind:2
+90:2
+91:2
+adequate:2
+aran:2
+& 7&%or&:2
+jous:2
+39-ybw:2
+92:2
+93:2
+94:2
+argues:2
+show:2
+ads:2
+95:2
+tracks:2
+modified:2
+explanation:2
+acknowledges:2
+neither:2
+com/news/the-:2
+forbes:2
+96:2
+activists:2
+violate:2
+leaders:2
+induce:2
+requests:2
+russian:2
+meddling:2
+insist:2
+97:2
+identifies:2
+influence:2
+jul:2
+guess:2
+doe:2
+male:2
+belief:2
+jurisdictions:2
+99:2
+children:2
+race:2
+chinese:2
+100:2
+generation:2
+significant:2
+particular:2
+102:2
+104:2
+rights:2
+housing:2
+105:2
+2016/679:2
+propublica:2
+challenges:2
+signing:2
+107:2
+prevailed:2
+brought:2
+ation:2
+ruled:2
+unclear:2
+108:2
+classaction:2
+natasha:2
+techcrunch:2
+//techcrunch:2
+109:2
+110:2
+111:2
+shulc:2
+monopoly:2
+compels:2
+considers:2
+113:2
+state:2
+114:2
+agreed:2
+115:2
+117:2
+arguments:2
+118:2
+regarding:2
+179:2
+196:2
+informational:2
+120:2
+121:2
+favor:2
+compliant:2
+directive:2
+123:2
+arrangement:2
+124:2
+cc/7:2
+125:2
+find:2
+gcpr’s:2
+philosophical:2
+clear:2
+imbalance:2
+128:2
+natural:2
+shall:2
+covert:2
+129:2
+130:2
+intermediaries:2
+131:2
+132:2
+kansas:2
+fa:1
+eb:1
+k’s:1
+chen:1
+introduction:1
+integral:1
+part:1
+woven:1
+ture:1
+early days:1
+celebrative:1
+newly:1
+individually:1
+channels:1
+collectively:1
+witnessed:1
+mobilized:1
+citizens:1
+the arab spring:1
+recent years:1
+growing:1
+risks:1
+filter:1
+bubbles––personalized:1
+algorithmically:1
+curated:1
+website––are:1
+replacing:1
+traditional:1
+weakening:1
+imagined:1
+socio-political:1
+2 two:1
+prominent:1
+edward:1
+christopher:1
+:1
+chen:1
+holds:1
+harvard:1
+school:1
+assistant:1
+professor:1
+institutum:1
+iurisprudentiae:1
+academia:1
+sinica:1
+taiwan:1
+ministry:1
+science:1
+funding:1
+106-:1
+2410-h-001-059-:1
+institute:1
+support:1
+grateful:1
+hsiao-yu chung:1
+i-ying:1
+chao:1
+yun-chi:1
+tsai:1
+assistance:1
+presented:1
+toronto:1
+tilman:1
+bayer:1
+bryna:1
+bogoch:1
+janny leung:1
+hui-chie su:1
+ying-chu wu:1
+editors:1
+mistakes:1
+article:1
+licensed:1
+creative:1
+commons:1
+attribution:1
+sharealike:1
+0:1
+//creativecommons:1
+org/licenses/by-sa/4:1
+0/:1
+nahed:1
+eltantawy:1
+arab:1
+spring:1
+|:1
+egyptian:1
+reconsidering:1
+resource:1
+mobilization:1
+theory:1
+comm:1
+1207:1
+occupymedia:1
+crisis:1
+capitalism:1
+zeynep:1
+tufekci:1
+tear:1
+gas:1
+fragility:1
+networked:1
+protest:1
+cass:1
+sunstein:1
+republic:1
+9 147:1
+revealed:1
+cooptation:1
+warned:1
+mistake:1
+access:1
+cessive:1
+furthermore:1
+unveiled:1
+incapability:1
+police:1
+demonstrate:1
+facilitates:1
+voluntarily:1
+surrender:1
+every day:1
+fair:1
+call:1
+naïve:1
+realized:1
+they––as:1
+them––are:1
+customers:1
+major:1
+stands:1
+worry:1
+corporate:1
+nsa:1
+com/us-news/the-:1
+nsa-files:1
+cc/ybe:1
+4-ab:1
+analytica:1
+com/news/series/cambridge-analytica-files:1
+cc/lz:1
+c-r:1
+daniel:1
+trottier:1
+rethinking:1
+converging:1
+oremus:1
+product:1
+27 , 2018:1
+//slate:1
+com/technology/2018/04/are-you-:1
+really-facebooks-product-the-history-of-a-dangerous-idea:1
+/ya:1
+b-bngz:1
+priit:1
+kallas:1
+statistics:1
+dream:1
+grow:1
+july 2 , 2018:1
+dreamgrow:1
+com/top-10-social-:1
+networking-sites-market-share-of-visits/:1
+cc/sej:1
+8-4:1
+lzb:1
+2 billion:1
+monthly:1
+globally:1
+com/terms:1
+cc/j:1
+yz-b:1
+jf:1
+subscriber’s:1
+unrelated:1
+148 kan:1
+encounter:1
+raises:1
+protested:1
+firm:1
+reconsider:1
+existing:1
+literature:1
+problems:1
+clearly:1
+contacts:1
+awkward:1
+communicating:1
+personas:1
+cause:1
+chilling:1
+effect:1
+hinder:1
+abused:1
+imposed:1
+declared:1
+unconstitutional:1
+impose:1
+ekaterina:1
+netchitailova:1
+triplec:1
+683:1
+hilary:1
+mclauchlin:1
+chat:1
+pol:1
+31 , 2017:1
+//harvardpolitics:1
+com/world/wechat-the-people-technology-and-social-:1
+control-in-china:1
+cc/tq:1
+67-dp:1
+/oo&r:1
+soc:1
+4 , 2011:1
+//socialmediacollective:1
+org/2011/08/04/real-:1
+names-policies-are-an-abuse-of-power:1
+yun-pe:1
+eva:1
+galperin:1
+wafa:1
+hassinee:1
+5"an#&s:1
+/ro:1
+electric:1
+frontier:1
+18 , 2015:1
+eff:1
+org/deeplinks/2015/12/changes-facebooks-real-:1
+names-policy-still-dont-fix-problem:1
+8 l-asj:1
+series:1
+putting:1
+risk:1
+detailed:1
+clarify:1
+mainly:1
+re$uires:1
+frontstage:1
+re$uire:1
+cell:1
+institution:1
+linked:1
+backstage:1
+39–40:1
+42–43:1
+67–70:1
+responsible:1
+yale:1
+affairs:1
+21 , 2013:1
+//yale:1
+149:1
+assumed:1
+willingly:1
+accept:1
+hardly:1
+legally:1
+actionable:1
+reflect:1
+variety:1
+expands:1
+immediately:1
+slew:1
+observe:1
+map:1
+rising:1
+important:1
+arguably:1
+largest:1
+refashioned:1
+mechanisms:1
+union’s:1
+cata:1
+regulations:1
+offers:1
+non-eu:1
+countries:1
+handle:1
+opportunities:1
+lay:1
+org/article_post/real-names-and-responsible-speech-the-cases-of-south-:1
+korea-china-and-facebook/:1
+jl-nkf:1
+99–101:1
+eur:1
+parl:1
+doc:1
+679:1
+cesar:1
+itiberê:1
+regulates:1
+16 , 2018:1
+gov:1
+br/news/2018/:1
+08/new-law-regulates-use-of-personal-data:1
+cc/vh:1
+a-a:1
+brazil:1
+passed:1
+gdpr-inspired:1
+legislation:1
+august 2018:1
+150:1
+tracing:1
+analyzing:1
+exploring:1
+highlighting:1
+predecessor:1
+2004:1
+dating:1
+experienced:1
+unsatisfied:1
+random:1
+hook-ups:1
+pre-existing:1
+jonathan:1
+founded:1
+four degrees:1
+connections:1
+functioned:1
+early-day:1
+conform:1
+service’s:1
+design:1
+non-dating:1
+site’s:1
+limiting:1
+beyond:1
+fourth:1
+degree:1
+repurposed:1
+break:1
+circles:1
+colleagues:1
+wanted:1
+designed:1
+virtual:1
+meets:1
+started:1
+clamp:1
+theorized:1
+performing:1
+fakesters:1
+characteri:1
+genocide:1
+called:1
+asking:1
+fellow:1
+defend:1
+lessley:1
+attack:1
+smartasses:1
+13 , 2003:1
+//archives:1
+com/sanfrancisco/attack-of-the-smartasses/content:1
+oid:1
+2149018:1
+t-4:1
+kzp:1
+michael fisher et al:1
+misbehavior:1
+drive:1
+growth:1
+innovation:1
+learning:1
+118-20:1
+none:1
+structure:1
+149-50:1
+karagnais:1
+9 151:1
+exist:1
+form:1
+assume:1
+persuade:1
+commentator:1
+noted:1
+accepted:1
+drove:1
+away:1
+late-comer:1
+myspace:1
+overtook:1
+competition:1
+perience:1
+adopting:1
+far:1
+pleasant:1
+successful:1
+every:1
+repeating:1
+path:1
+notable:1
+examples:1
+trajectories:1
+recently:1
+stirred:1
+abolish:1
+asked:1
+hidden:1
+beneath:1
+layer:1
+mysti$ue:1
+exhibited:1
+acted:1
+beginning:1
+anew:1
+abandon:1
+unpopular:1
+backtracked:1
+clarified:1
+real/legal:1
+35 29:1
+katherine:1
+mieszkowski:1
+faking:1
+14 , 2003:1
+com/2003/08/14/fakesters/:1
+cc/h:1
+lg-funx:1
+kelly:1
+cooper:1
+letter:1
+s&rna:1
+&s> 8’’r&ss&’:1
+ors:1
+6 1 n&s:1
+3&r:1
+&&n:1
+blog:1
+theblog:1
+com/an-open-letter-on-why-were-removing-usernames-addressed-:1
+to-the-worst-ones-we-ve-ever-seen-dd:1
+017:1
+cc/n:1
+dun:1
+matthew:1
+sheffield:1
+’’s:1
+lun’&rq:1
+car:1
+@ou:1
+( jan 1 , 2018:1
+com/2018/01/:1
+01/okcupids-big-blunder-dating-site-wont-make-you-use-your-real-name-after-all/:1
+t-3:1
+xqj:1
+christina:1
+bonnington:1
+mind:1
+dot:1
+( jan 3 , 2018:1
+dailydot:1
+152 kan:1
+aving:1
+ample:1
+meeting:1
+communication:1
+bases:1
+assumption:1
+introductions:1
+occasions:1
+referring:1
+goffman’s:1
+nissenbaum’s:1
+notion:1
+play:1
+roles:1
+according:1
+conte:1
+ts:1
+compartmented:1
+perform:1
+consistently:1
+collapses:1
+flattening:1
+folds:1
+webpage:1
+display:1
+audiences:1
+constant:1
+tension:1
+awkwardness:1
+issue:1
+com/debug/okcupid-real-name-policy-backtrack/:1
+96-6:1
+michael zimmer:1
+r&r<&r#q:1
+bja:1
+oo:1
+h’&n:1
+@ours&l%:1
+pma:1
+6&#r:1
+14 , 2010:1
+org/2010/05/14/facebooks-zuckerberg-having-two-:1
+identities-for-yourself-is-an-example-of-a-lack-of-integrity/:1
+cc/:1
+w-3:1
+ura:1
+6"&n:1
+glen:1
+richardson jr:1
+goffman:1
+1956:1
+6’s 5:1
+6&’q:1
+aetworked:1
+teens:1
+chapter:1
+nissenbaum:1
+118–133:1
+/r:1
+rq:1
+pm:1
+osur:1
+techs:1
+2008:1
+9 153:1
+pain:1
+posts:1
+policies––others:1
+become:1
+guarantee:1
+experiences:1
+interactions:1
+personalities:1
+prime:1
+location:1
+forecloses:1
+opportunity:1
+respond:1
+saying:1
+interested:1
+utilize:1
+prevent:1
+impersonation:1
+stringent:1
+known:1
+offline:1
+pennames:1
+prior:1
+joining:1
+acclaimed:1
+writer:1
+salman:1
+upon:1
+reviewing:1
+photo:1
+ahmed rushdie:1
+policy’s:1
+confuse:1
+intend:1
+distinguishing:1
+performances:1
+exhibitions:1
+bull:1
+sci:1
+soc’y:1
+377:1
+2010:1
+michael:1
+bernstein et al:1
+/b/:1
+analysis:1
+ephemerality:1
+large:1
+fifth:1
+barcelona:1
+spain:1
+july 17-21 , 2011:1
+wish:1
+vent:1
+stress:1
+worrying:1
+image:1
+motherhood:1
+forum:1
+anonymously:1
+sarita:1
+yardi:1
+schoenebeck:1
+secret:1
+moms:1
+disinhibition:1
+//yardi:1
+umich:1
+edu/pubs/schoenebeckyoubemom:1
+pdf:1
+cc/jpu:1
+6-mr 5:1
+proceedings:1
+seventh:1
+july 8–11 2013:1
+555:1
+emil:1
+battle:1
+victory:1
+15 , 2011:1
+com/article/facebook-name-:1
+battle-ahmed-salman-rushdie-claims-victory/:1
+cc/klx:1
+4-6:1
+ykg:1
+154:1
+figures:1
+reclaim:1
+old:1
+publicized:1
+incident:1
+lower:1
+deviate:1
+fighting:1
+alone:1
+holding:1
+enforced:1
+heavy-handedly:1
+nymwars:1
+victim:1
+uninteresting:1
+ways:1
+relaxed:1
+around:1
+well-known:1
+relax:1
+2032:1
+000:1
+attract:1
+high:1
+words:1
+celebrities:1
+forces:1
+disclose:1
+verification:1
+somini:1
+sengupta:1
+lady:1
+gaga:1
+16 , 2012:1
+com/2012/02/17/technology/new-facebook-policy-on-made-up-names-lets-gaga-:1
+be-gaga:1
+cc/2:1
+mmq-uafu:1
+ben parr:1
+responds:1
+july 25 , 2011:1
+com/2011/07/25/google-plus-:1
+common-names/#3:1
+xj_sq:1
+qh:1
+cc/xl:1
+t-vxut:1
+cole:1
+hacking:1
+jamie:1
+beckland:1
+creating:1
+boring:1
+network:1
+19 , 2011:1
+com/2011/09/19/google-plus-real-name-boring/#pyrznkxsjsq:1
+cc/7 mdg-xxuq:1
+jan:1
+23 , 2012:1
+com/article/pseudonyms-on-google-plus-wrong/:1
+cc/tg:1
+e-cmdx:1
+9 155:1
+suddenly:1
+abolished:1
+apologi:1
+unnecessarily:1
+periences:1
+long-awaited:1
+save:1
+issues:1
+failed:1
+wave:1
+deleted:1
+escalating:1
+look:1
+reconnect:1
+loo#l:1
+& - &:1
+3&rs&s:1
+0-&al:1
+apologizes:1
+july 15 , 2014:1
+com/article/google-reverses-real-names-policy-:1
+apologizes/:1
+cc/m:1
+uf-ny:1
+spams:1
+angered:1
+via:1
+signed:1
+stuart:1
+dredge:1
+spam:1
+sticks:1
+com/technology/2013/nov/26/youtube-spam-comments-google-:1
+cc/b:1
+mh-eus:1
+ended:1
+abandoned:1
+requirement:1
+seth:1
+fiegerman:1
+expensive:1
+com/2015/08:1
+/02/google-plus-history/#62:1
+rvcwpp:1
+sqq:1
+cc/79:1
+ax-epr:1
+october 2018:1
+announced:1
+shut:1
+low:1
+shutting:1
+consumers:1
+8 , 2018:1
+com/2018/10/8/17951890/google-plus-shut-down-security-:1
+api-change-gmail-android:1
+cc/ydr:1
+3-zbm:1
+john colucci:1
+gnoo:1
+30 , 2014:1
+com/2014/09/:1
+30/facebook-drag-queens-explainer/:1
+c-47:1
+fy:1
+vibes:1
+ans:1
+l&6:1
+oor:1
+/a#&s:1
+olu:1
+4 ak %:1
+bnar:1
+& na:1
+true:1
+activist:1
+20 , 2014:1
+trueactivist:1
+com/native-:1
+americans-get-facebook-pages-removed-on-columbus-day-for-fake-names/:1
+cc/vsg:1
+5-nc:1
+townhall:1
+q&a:1
+july 1 , 2015:1
+com/zuck/posts/10102213601037571:1
+comment_id=101022:1
+156:1
+included:1
+childhood:1
+contribute:1
+tent:1
+necessitate:1
+obligates:1
+chosen:1
+imposes:1
+stirs:1
+present:1
+professional:1
+campuses:1
+bump:1
+physically:1
+learn:1
+other’s:1
+anyway:1
+became:1
+wider:1
+bigger:1
+13698751751&reply_comment_id=10102213934943421&total_comments=45&co:1
+mment_tracking=%7:1
+b%22:1
+tn%22%3:1
+a%22:1
+9%22%7:1
+r-:1
+8 pm:1
+designing:1
+angry:1
+mobs:1
+5 , 2011:1
+org/thoughts/archives/2011/08/05:1
+/design-social-norms:1
+9 vb-47:1
+fl:1
+com/help/linkedin:1
+/answer/28422/names-allowed-on-profiles:1
+lang:1
+cc/xuh:1
+2-:1
+4 k 6:1
+28 , 2008:1
+//web:1
+archive:1
+org/web/:1
+20080228004941/http:1
+com/press/info:1
+cc/vu:1
+t-js:1
+alan j .:1
+tabak:1
+hundreds:1
+crimson:1
+9 , 2004:1
+thecrimson:1
+com/article/2004/2/9/hundreds-:1
+register-for-new-facebook-website/:1
+cc/xa:1
+f-rw:1
+third-party:1
+harvard-university-wide:1
+outdo:1
+undergrad:1
+residential:1
+houses:1
+students:1
+pictures:1
+institutional:1
+shea:1
+uncool:1
+ie:1
+4 , 2013:1
+ie/lifestyle/unlike-this-:1
+157:1
+confined:1
+serve:1
+registering:1
+feel:1
+reluctant:1
+foreclose:1
+sentiment:1
+abusive:1
+quite:1
+discussion:1
+forums:1
+hostile:1
+great:1
+majority:1
+either:1
+neutral:1
+cyber:1
+defamation:1
+bullying:1
+supposed:1
+underestimates:1
+hosting:1
+disqus:1
+logged:1
+generate:1
+reckon:1
+persistent:1
+why-parents-make-facebook-so-uncool-29802959:1
+cc/xj:1
+t-:1
+552:1
+drastic:1
+expand:1
+expansion:1
+gradual:1
+adapted:1
+leaving:1
+joined:1
+get:1
+worse:1
+fortune:1
+30 , 2017:1
+//fortune:1
+com/2017/03/30/online-abuse-trolls/:1
+cc/bf:1
+g-epzg:1
+pam ramsden:1
+turns:1
+feb 28 , 2017:1
+internet-trolls-psychology-behavior-anonymity-invisibility-cloak-562150:1
+cc/jrb:1
+3-438 l:1
+168:1
+handles:1
+permitted:1
+associated:1
+commenter’s:1
+courtney rubin:1
+study:1
+leave:1
+high-quality:1
+jan 13 , 2012:1
+158:1
+enables:1
+reputation:1
+accountability:1
+insisting:1
+building:1
+technological:1
+solutions:1
+censorship:1
+bully:1
+leads:1
+standards:1
+shunned:1
+sufficient:1
+proof:1
+affect:1
+speak:1
+perpetrators:1
+com/courtney-rubin/should-you-force-people-to-comment-with-real-names:1
+wx-xt:1
+amy:1
+bruckman:1
+studying:1
+amateur:1
+artist:1
+disguising:1
+collected:1
+human:1
+edu/projects/nissenbaum/ethics_bru_full:1
+cc/26:1
+gp-djsk:1
+judith:1
+donath:1
+alter:1
+ego:1
+ever:1
+com/2014/04/why-we-need-online-alter-egos-now-more-than-:1
+ever/:1
+cc/83:1
+zx-hggx:1
+emily van der nagel & jordan:1
+frith:1
+examining:1
+r/gonewild:1
+firstmonday:1
+org/article:1
+/view/5615/4346:1
+cc/94:1
+bn-63:1
+andre:1
+shakti:1
+owes:1
+2 5:1
+rusa’&r:1
+eum:1
+ol:1
+eo:1
+poly:1
+jun:1
+iampoly:1
+net/blog/2017/6/21/facebook-owes-real-names-crusader-:1
+dottie-lux-a-whole-lotta-dough:1
+cc/zcd:1
+5-cghn:1
+com/help/18574758:1
+1553788:1
+cc/zbn:1
+3-9:1
+samantha allen:1
+exposes:1
+survivors:1
+beast:1
+25 am:1
+thedailybeast:1
+com/how-facebook-exposes-domestic-violence-survivors:1
+cc/764:1
+b-:1
+rf:1
+russell:1
+enforces:1
+15 , 2015:1
+00 pm:1
+9 159:1
+marginali:1
+falsely:1
+mainstream:1
+population:1
+transgender:1
+fault:1
+exposing:1
+outspoken:1
+members:1
+various:1
+convince:1
+apologize:1
+adjust:1
+report:1
+hoping:1
+onerous:1
+includes:1
+inquiry:1
+measure:1
+details:1
+acknowledgment:1
+affects:1
+focus:1
+/2015/12/15/10215936/facebook-real-name-policy-changes-appeal-process:1
+cc/fl:1
+96-8:1
+mbl:1
+sputnik:1
+set:1
+breal:1
+//sputniknews:1
+com/science/201502201018507661/:1
+cc/dd:1
+q-qvz:1
+chris:1
+lane:1
+a&o:1
+n%a:1
+hou:1
+00 am:1
+houstonpress:1
+com/arts/facebooks-new-real-name-policy-is-unfair-and-dangerous-6376305:1
+cc/ah:1
+y-7:1
+rebel:1
+siren:1
+tag:1
+insists:1
+harassed:1
+fakes:1
+//rebelsiren:1
+com/tag/facebook-allows-harassment-but-insists-you-:1
+use-your-real-name-while-getting-harassed-by-fakes/:1
+cc/au:1
+k-:1
+mynameiscampaign:1
+org/:1
+4-hx:1
+chris cox:1
+1 , 2014:1
+com/chris:1
+cox/posts/10101301777354543:1
+au-:1
+apologizing:1
+announcing:1
+improve:1
+sara:1
+wachter-boettcher:1
+technically:1
+sexist:1
+apps:1
+biased:1
+threats:1
+toxic:1
+199-200:1
+160:1
+available:1
+invitations:1
+selected:1
+bounds:1
+perhaps:1
+pushback:1
+embraced:1
+google’s:1
+then-:1
+executive:1
+chairman:1
+eric schmidt:1
+primarily:1
+leverage:1
+sheds:1
+less-spoken:1
+browsing:1
+clicks:1
+association:1
+concept:1
+registry:1
+sanctioned:1
+authorities:1
+stryker:1
+negative:1
+feedback:1
+silicon:1
+valley:1
+geeks:1
+accustomed:1
+alternate:1
+ivy:1
+league:1
+pals”9:1
+entails:1
+adopter:1
+photos:1
+walled:1
+garden:1
+resistance:1
+extension:1
+emily:1
+banks:1
+eric:1
+schmidt:1
+28 , 2011:1
+com/2011/08/28:1
+/google-plus-identity-service/#c_fxc:1
+jqqq:1
+cc/jx:1
+62-avz:1
+auerbach:1
+click:1
+unstoppable:1
+nation:1
+thenation:1
+com/article/you-:1
+are-what-you-click-microtargeting/:1
+cc/268:1
+w-2:1
+oliver:1
+anna:1
+lauren:1
+hoffmann:1
+constructing:1
+bauthentic:1
+non-normative:1
+june 6 , 2016:1
+//firstmonday:1
+org/ojs/index:1
+9 161:1
+acknowledged:1
+uni$ue:1
+authentication:1
+application:1
+program:1
+interface:1
+api:1
+log:1
+onto:1
+platforms:1
+appeal:1
+confronted:1
+involves:1
+threaten:1
+answering:1
+best:1
+intentionally:1
+misinterpreting:1
+diverting:1
+studies:1
+reducing:1
+cover:1
+php/fm/article/view/6791/5521#p:1
+lf-q:1
+267:1
+cashmore:1
+29 , 2011:1
+//edition:1
+com/2011/tech/social:1
+media/08/29/google:1
+cashmore/:1
+cc/wuw:1
+4-jbfv:1
+handing:1
+double-edged:1
+sword:1
+gigaom:1
+18 , 2011:1
+09 pm:1
+//gigaom:1
+com/2011/08/18/:1
+handing-comments-over-to-facebook-is-a-double-edged-sword/:1
+cc/ahm:1
+7-n:1
+&na 6&:1
+jearing:1
+com/news/the-switch/wp/2018/04/10:1
+/transcript-of-mark-zuckerbergs-senate-hearing/:1
+617:1
+6314:1
+861:1
+cc/93:1
+kq-wuzc:1
+com/news/the-switch/wp/2018/04/11/transcript-of-:1
+zuckerbergs-appearance-before-house-committee/:1
+663:1
+cc/hh:1
+v-2:1
+gzh:1
+grassley:1
+blunt:1
+curbin:1
+lee:1
+162 kan:1
+commodification:1
+profit:1
+fall:1
+customize:1
+customized:1
+list:1
+results:1
+tending:1
+utilizing:1
+default:1
+prefers:1
+diligent:1
+exercise:1
+concern:1
+surrendering:1
+closest:1
+locations:1
+ironic:1
+prides:1
+seems:1
+doubtful:1
+economy:1
+sage:1
+television:1
+news:1
+139:1
+139–59:1
+vindu:1
+goel:1
+please:1
+message:1
+com/2014:1
+/05/23/technology/facebook-offers-privacy-checkup-to-all-1-28-billion-:1
+r=0:1
+cc/f:1
+fs-k:1
+ls:1
+john cheney-lippold:1
+245:1
+mere:1
+com/news/the-switch/wp/2018:1
+/04/11/transcript-of-zuckerbergs-appearance-before-house-committee/:1
+colin:1
+lecher:1
+releases:1
+500:1
+damage:1
+senators:1
+u&s:1
+june 11 , 2018:1
+59 pm:1
+com/2018/6/11/17451360/facebook-senate-questions-:1
+zuckerberg-answers:1
+cc/8:1
+axe-ujjv:1
+referencing:1
+9 163:1
+third:1
+parties:1
+privacy-conscious:1
+comfort:1
+alleviate:1
+pay:1
+advertisement-free:1
+environment:1
+keeps:1
+permits:1
+subscribe:1
+relies:1
+prefer:1
+microtarget:1
+aggregates:1
+containing:1
+datasets:1
+purchased:1
+numbers:1
+useful:1
+unique:1
+interacting:1
+behaviors:1
+com/privacy/explanation:1
+cc/x:1
+8-engv:1
+19 , 2018:1
+roughly:1
+describes:1
+about/privacy/previous:1
+cc/cr:1
+v-7:1
+mey:1
+showing:1
+settings:1
+tracking:1
+switch/wp/2018/04/10/transcript-of-mark-zuckerbergs-senate-hearing/:1
+cc/s:1
+8-m:1
+com/news/the-switch/:1
+wp/2018/04/11/transcript-of-zuckerbergs-appearance-before-house-committee/:1
+answers:1
+congresswoman:1
+doris matsui:1
+hoffman:1
+kalev:1
+leetaru:1
+powerful:1
+bought:1
+got:1
+wildly:1
+5 , 2018:1
+04:1
+08 pm:1
+164 kan:1
+industry:1
+stopped:1
+march 2018:1
+conducts:1
+company-owned:1
+continue:1
+imposing:1
+badly:1
+supposedly:1
+prove:1
+subsequent:1
+significantly:1
+strategically:1
+suppress:1
+critical:1
+moments:1
+societal:1
+transformations:1
+removing:1
+adjusting:1
+abuse:1
+improving:1
+properly:1
+scrutinizing:1
+denying:1
+overbroad:1
+rid:1
+technologically:1
+speaking:1
+differentiate:1
+suspicious:1
+done:1
+longer:1
+conceptually:1
+com/sites/kalevleetaru/2018/04/05/the-data-brokers-so-powerful-:1
+even-facebook-bought-their-data-but-they-got-me-wildly-wrong/#6:1
+fb:1
+83107:1
+cc/vg:1
+b-6:1
+qdu:1
+switch/wp/2018/04/11/transcript-of-zuckerbergs-appearance-before-house-:1
+committee/:1
+04210:1
+db:1
+39-:1
+ybw:1
+nicholas:1
+fandos:1
+kevin:1
+roose:1
+31 , 2018:1
+com/2018/07/31/us/politics/facebook-political-campaign-midterms:1
+qr-3:1
+xhq:1
+olivia:1
+solon:1
+removes:1
+652:1
+meant:1
+22 , 2018:1
+com/technology/2018/aug/21/facebook-:1
+pages-accounts-removed-russia-iran:1
+cc/54:1
+3-cmn:1
+9 165:1
+scenario:1
+categorically:1
+blamed:1
+understated:1
+jane:1
+describe:1
+female:1
+receive:1
+reflects:1
+parent:1
+clues:1
+upbringing:1
+hero:1
+socio/political:1
+guessed:1
+birthplace:1
+least:1
+possibilities:1
+ethnically:1
+second-generation:1
+immigrant:1
+born:1
+western:1
+familiar:1
+languages:1
+pronounced:1
+dialects:1
+depending:1
+dominant:1
+dialect:1
+region:1
+spelled:1
+documents:1
+singaporeans:1
+tan:1
+*chen:1
+cantonese:1
+rules:1
+self-evident:1
+differ:1
+belongs:1
+short:1
+com/full_data_use_policy:1
+cc/stm:1
+5-xtft:1
+sharma:1
+eao:1
+> - &l !:1
+hsla:1
+denv:1
+151:1
+192:1
+1998:1
+amy franz:1
+peak:1
+hindu:1
+origins:1
+caste-based:1
+surnames:1
+technologies:1
+12 , 2017:1
+ethnictechnologies:1
+com/peak-inside-hindu-name-origins-caste-based-:1
+surnames/:1
+4-by:1
+tells:1
+live:1
+leanings:1
+job:1
+washington:1
+26 , 2015:1
+166:1
+decipherable:1
+technical:1
+analyze:1
+aggregate:1
+misleading:1
+feminine:1
+sounding:1
+identify:1
+french:1
+canadian:1
+muslim:1
+woman:1
+family:1
+marrying:1
+converting:1
+assumptions:1
+always:1
+correct:1
+misconstrued:1
+datafied:1
+decisions:1
+information/advertisement:1
+rectify:1
+incorrect:1
+covertly:1
+difficulties:1
+exercising:1
+categorized:1
+feed:1
+cespite:1
+sharing:1
+race-discrimination:1
+com/news/wonk/wp/2015/05/26/what-your-name-:1
+says-about-your-age-state-job-and-political-leanings/:1
+efc:1
+15796679:1
+cc/uf:1
+67-uz:1
+alan:1
+milove:1
+understanding:1
+org/ocs/index:1
+php/icwsm/icwsm:1
+11/paper/viewfile/2816/323:1
+cc/ga:1
+39-64:1
+wv:1
+chenney-lippold:1
+julia:1
+angwin:1
+letting:1
+advertisers:1
+exclude:1
+org/article/facebook-advertising-discrimination-housing-:1
+race-sex-national-origin:1
+cc/sk:1
+w-fjhs:1
+9 167:1
+frequently:1
+kinds:1
+iii:1
+protests:1
+agree:1
+opponents:1
+early 2015:1
+complaint:1
+disputing:1
+scope:1
+enforce:1
+orders:1
+consumer-protection:1
+organi:1
+district:1
+germany’s:1
+appealed:1
+occurred:1
+a few months:1
+implementation:1
+briefly:1
+reviews:1
+schleswig-holstein:1
+melissa anthony:1
+threatening:1
+9 , 2015:1
+/blog/does-the-native-american-threatening-to-sue-facebook-have-a-good-case:1
+2-dskf:1
+federica:1
+giovanella:1
+conflicting:1
+balance:1
+301:1
+l&r:1
+n’s:1
+naul:1
+4&%aul:1
+13 , 2018:1
+com/2018/02/13/german-court-finds-fault-with-facebooks-:1
+default-privacy-settings/:1
+cc/rr:1
+p-88:1
+168 kan:1
+subscriber:1
+notified:1
+refusal:1
+object:1
+reasonable:1
+competing:1
+interest:1
+models:1
+outweigh:1
+interests:1
+protecting:1
+claim:1
+place:1
+ltd:1
+member:1
+matter:1
+subsidiary:1
+store:1
+clusively:1
+applicable:1
+complying:1
+substantial:1
+issued:1
+re$uirement:1
+violation:1
+telemediengesetz:1
+tmg:1
+26 , 2007:1
+bgbl:1
+ger:1
+sandra schmitz:1
+kq:1
+k&-bye:1
+max:1
+mustermann:1
+jipitec:1
+190:1
+195:1
+195–196:1
+alex:1
+hern:1
+29 , 2015:1
+com/technology/2015/jul/29/germany-fights-facebook-:1
+over-real-names-policy:1
+cc/3:1
+rql-ujzr:1
+9 169:1
+$:1
+uestion:1
+deemed:1
+self-determination:1
+basic:1
+federal:1
+constitutional:1
+developed:1
+recognizes:1
+rejected:1
+applies:1
+branch:1
+fought:1
+applied:1
+determined:1
+irish-law-:1
+whose:1
+headquarters:1
+choice-of-law:1
+elaborated:1
+substantive:1
+headquarter:1
+supervisory:1
+joint:1
+asserting:1
+establishment:1
+substantially:1
+203/:1
+remain:1
+antoinette:1
+rouvroy:1
+yves:1
+poullet:1
+determination:1
+self-development:1
+reassessing:1
+reinventing:1
+serge:1
+gutwirth:1
+eds:1
+2009:1
+schmitz:1
+carlo:1
+piltz:1
+wins:1
+nd:1
+legitimacy:1
+june 30 , 2016:1
+//germanitlaw:1
+com/germany-facebook-wins-2:1
+nd-round-in-fight-over-:1
+legitimacy-of-its-real-name-policy/:1
+e-gwbk:1
+reg:1
+170:1
+unchanged:1
+stand:1
+chance:1
+comply:1
+plausible:1
+principle:1
+minimi:1
+assert:1
+central:1
+bet:1
+invalid:1
+exists:1
+wipo:1
+int/wipolex/en/details:1
+jsp:1
+id=17674:1
+visited:1
+sep:1
+14 , 2018:1
+jy:1
+5-swdj:1
+20309:1
+minimization:1
+processed”9:1
+revealing:1
+trade:1
+union:1
+membership:1
+genetic:1
+biometric:1
+uniquely:1
+identifying:1
+person:1
+health:1
+ual:1
+orientation:1
+prohibited:1
+paragraph:1
+apply:1
+specified:1
+ensure:1
+valid:1
+ground:1
+therefore:1
+unlikely:1
+circumstances:1
+situation:1
+9 171:1
+second:1
+consumer:1
+organization:1
+opined:1
+ploit:1
+merits:1
+searchability:1
+personality/brand:1
+management:1
+explains:1
+transparent:1
+accessible:1
+complies:1
+conclusion:1
+track:1
+recent:1
+analytical:1
+scandal:1
+continues:1
+eu’s:1
+gcpr:1
+opens:1
+level:1
+shakes:1
+strategies:1
+203:1
+spree:1
+lawsuits:1
+mega:1
+begun:1
+108108:1
+takes:1
+questionable:1
+notice:1
+buried:1
+filling:1
+complaints:1
+bnor:1
+ons&n:1
+25 , 2018:1
+172:1
+made:1
+adjustments:1
+taken:1
+surprise:1
+controversial:1
+soon:1
+faces:1
+defendable:1
+com/2018/05/25/facebook-google-face-first-gdpr-complaints-:1
+over-forced-consent/:1
+cc/fz:1
+e-77:1
+ux:1
+com/business/gdpr:1
+g-gcvh:1
+property:1
+copied:1
+emailed:1
+multiple:1
+listserv:1
+holder:1
+'s:1
+written:1
+permission:1
+print:1
+download:1
+articles:1
+----------------------------------------------------------------------------------------
+
+Keywords that appear in the file, alongside with their frequencies:
+privacy:27
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+shun-ling -> conj
+policy -> attr
+k’s -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nsubj
+
+Descendants:
+8 -> nummod
+8 -> quantmod
+cp -> quantmod
+9 147 -> nummod
+media -> compound
+users -> poss
+
+Ancestors:
+is -> ROOT
+
+Immediate children:
+8 -> nummod
+users -> poss
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+data -> conj
+
+Ancestors:
+protection -> nsubj
+derive -> ROOT
+
+Immediate children:
+and -> cc
+data -> conj
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+awareness -> pobj
+allows -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+concerns -> nsubj
+lead -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> appos
+
+Descendants:
+contextual -> amod
+integrity -> pobj
+79 -> nummod
+wash -> conj
+
+Ancestors:
+nissenbaum -> npadvmod
+see -> ROOT
+
+Immediate children:
+wash -> conj
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+and -> cc
+online -> amod
+identity -> conj
+
+Ancestors:
+debates -> conj
+nymwars -> pobj
+led -> acl
+controversy -> dobj
+47 -> ROOT
+
+Immediate children:
+and -> cc
+identity -> conj
+
+
+KEYWORD: privacy -> dep
+
+Descendants:
+identity -> conj
+and -> cc
+anonymity -> conj
+web -> pobj
+2012 -> appos
+
+Ancestors:
+hacking -> advcl
+see -> ROOT
+
+Immediate children:
+identity -> conj
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+
+Ancestors:
+accountability -> dobj
+provide -> relcl
+way -> attr
+is -> conj
+enables -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nsubjpass
+
+Descendants:
+and -> cc
+anonymity -> conj
+
+Ancestors:
+violated -> ccomp
+are -> ROOT
+
+Immediate children:
+and -> cc
+anonymity -> conj
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+users -> poss
+’ -> case
+
+Ancestors:
+threaten -> ccomp
+was -> ROOT
+
+Immediate children:
+users -> poss
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+user -> compound
+
+Ancestors:
+reducing -> advcl
+given -> ROOT
+
+Immediate children:
+user -> compound
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+setting -> dobj
+change -> xcomp
+decide -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+economy -> appos
+fuchs -> dobj
+give -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> appos
+
+Descendants:
+
+Ancestors:
+goel -> conj
+g -> meta
+gets -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+setting -> dobj
+noting -> advcl
+are -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> attr
+
+Descendants:
+but -> cc
+mere -> amod
+adequate -> amod
+site -> compound
+architecture -> conj
+
+Ancestors:
+is -> conj
+are -> ROOT
+
+Immediate children:
+but -> cc
+architecture -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+concerns -> dobj
+alleviate -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> appos
+
+Descendants:
+data -> compound
+facebook -> conj
+https -> appos
+
+Ancestors:
+9 -> ROOT
+
+Immediate children:
+data -> compound
+facebook -> conj
+https -> appos
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+data -> compound
+facebook -> conj
+https -> appos
+
+Ancestors:
+noting -> ROOT
+
+Immediate children:
+data -> compound
+facebook -> conj
+https -> appos
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+practices -> dobj
+improving -> pcomp
+provide -> xcomp
+induce -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+user -> compound
+
+Ancestors:
+model -> appos
+gdpr -> nsubj
+allow -> ccomp
+discusses -> conj
+challenged -> ccomp
+reviews -> ROOT
+
+Immediate children:
+user -> compound
+
+
+KEYWORD: privacy -> conj
+
+Descendants:
+information -> compound
+
+Ancestors:
+copyright -> conj
+giovanella -> npadvmod
+g -> ROOT
+
+Immediate children:
+information -> compound
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+setting -> conj
+na -> dative
+see -> parataxis
+https -> nsubj
+com/2018/02/13/german-court-finds-fault-with-facebooks- -> nmod
+https -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+their -> poss
+
+Ancestors:
+protecting -> pcomp
+outweigh -> advcl
+considers -> ROOT
+
+Immediate children:
+their -> poss
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+importance -> dobj
+reassessing -> acl
+right -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+practice -> pobj
+record -> dobj
+conclusion -> ROOT
+
+Immediate children:

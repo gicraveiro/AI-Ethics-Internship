@@ -1,0 +1,8 @@
+
+TermsOfService
+Keywords found by String Search
+
+privacy:4
+consent:2
+SOC:1
+NIST:3

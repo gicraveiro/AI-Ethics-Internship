@@ -1,0 +1,15 @@
+Performance measures - SVC
+0ne vs Rest, C = 0.05
+
+Dev set:
+
+Precision macro: 0.509
+Precision Individually: [0.583 0.    0.838 0.625 0.5  ]
+Recall macro: 0.492
+Recall Individually: [0.538 0.    0.912 0.455 0.556]
+F1 Score micro: 0.696
+F1 Score macro: 0.497
+F1 Score weighted: 0.688
+F1 Score Individually: [0.56  0.    0.873 0.526 0.526]
+
+

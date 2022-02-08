@@ -1,0 +1,8 @@
+
+CookiesPolicy
+Keywords found by String Search
+
+privacy:1
+SOC:2
+NIST:1
+hacked:1

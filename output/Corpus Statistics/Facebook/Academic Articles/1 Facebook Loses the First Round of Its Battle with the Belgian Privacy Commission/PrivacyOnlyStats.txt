@@ -1,0 +1,1769 @@
+
+1 Facebook Loses the First Round of Its Battle with the Belgian Privacy Commission
+
+
+With stop word removal 
+Size of original corpus: 5822 
+Size of filtered corpus: 3003
+Size of Lexicon: 1212
+
+Tokens that appear in the file, alongside with their frequencies:
+facebook:108
+data:73
+privacy:43
+belgian:42
+commission:35
+protection:34
+'s:31
+court:25
+social:24
+cookie:24
+users:23
+activities:20
+1:19
+case:19
+law:18
+datr:18
+tracking:18
+consent:17
+first:16
+use:16
+processing:16
+non-users:15
+bdpa:15
+service:14
+website:14
+personal:14
+4:13
+establishment:13
+european:12
+edpl:12
+belgium:12
+legal:12
+would:12
+2015:11
+information:11
+plug-ins:11
+directive:11
+art:11
+see:10
+territory:10
+member:10
+smedt:9
+loses:9
+round:9
+battle:9
+terms:9
+judgment:9
+con-:9
+2:8
+face-:8
+book:8
+network:8
+advertising:8
+inc:8
+already:8
+controller:8
+internet:8
+cjeu:8
+th:7
+cookies:7
+3:7
+subject:7
+application:7
+apply:7
+interests:7
+cf:7
+state:7
+29:7
+293:6
+9:6
+6:6
+4 | 2015:6
+reports:6
+|:6
+re-:6
+legislation:6
+even:6
+found:6
+purpose:6
+security:6
+order:6
+company:6
+ireland:6
+must:6
+national:6
+fundamental:6
+opinion:6
+wp:6
+ip:6
+review:5
+conditions:5
+article:5
+scope:5
+report:5
+websites:5
+able:5
+13 may 2015:5
+recommendation:5
+non-compliance:5
+according:5
+in-:5
+valid:5
+clear:5
+accessed:5
+13:5
+95/46/ec:5
+relating:5
+us:5
+irish:5
+international:5
+permanent:5
+place:5
+equipment:5
+ly:5
+purposes:5
+states:5
+necessary:5
+services:5
+group:5
+claim:5
+respect:5
+rights:5
+meaning:5
+cook-:5
+held:5
+heinonline:4
+cid:4
+prot:4
+rev:4
+7:4
+stephanie de:4
+8:4
+https:4
+obtain:4
+revised:4
+ap-:4
+non-:4
+using:4
+ground:4
+could:4
+president:4
+brussels:4
+adequate:4
+addition:4
+non-user:4
+visits:4
+page:4
+subsidiary:4
+ltd:4
+pro-:4
+made:4
+however:4
+5:4
+ment:4
+used:4
+applicable:4
+argued:4
+offered:4
+therefore:4
+limited:4
+following:4
+argument:4
+tion:4
+addresses:4
+identify:4
+address:4
+user:4
+party:4
+prior:4
+plug-in:4
+companies:4
+google:4
+date:3
+12:3
+10:3
+stephanie:3
+eur:3
+293-298:3
+17:3
+pdf:3
+available:3
+search:3
+analysis:3
+track:3
+devices:3
+academic:3
+formal:3
+requested:3
+third-party:3
+large:3
+link:3
+real:3
+free:3
+informed:3
+consequently:3
+relief:3
+instance:3
+plug-:3
+without:3
+<:3
+>:3
+//www:3
+request:3
+sent:3
+visited:3
+certain:3
+linked:3
+additionally:3
+article 129:3
+eca:3
+2002/58/ec:3
+ing:3
+sprl/bvba:3
+bel-:3
+within:3
+en-:3
+territorial:3
+carried:3
+actual:3
+public:3
+on-:3
+troller:3
+several:3
+measures:3
+establishments:3
+cases:3
+main:3
+deemed:3
+promote:3
+working:3
+yet:3
+view:3
+excessive:3
+right:3
+intended:3
+definition:3
+operator:3
+pursuant:3
+arr:3
+cass:3
+vs:3
+decision:3
+always:3
+alleged:3
+computers:3
+visitors:3
+basis:3
+legitimate:3
+fact:3
+obligation:3
+express:3
+unambiguous:3
+never:3
+general:3
+time:3
+since:3
+placing:3
+achieve:3
+placed:3
+actively:3
+relevant:3
+com-:3
+well:3
+provider:3
+broad:3
+owners:3
+downloaded:2
+18:2
+content:2
+21:2
+p:2
+license:2
+text:2
+background:2
+started:2
+concluded:2
+issued:2
+issues:2
+indeed:2
+surfing:2
+behaviour:2
+collection:2
+upon:2
+howev-:2
+sued:2
+proceedings:2
+sufficient:2
+including:2
+media:2
+critical:2
+policies:2
+version:2
+13 december 2015:2
+kuleuven:2
+ber:2
+uniquely:2
+site:2
+logged-out:2
+deactivated:2
+alike:2
+event:2
+implements:2
+communications:2
+act:2
+04/2015:2
+english:2
+privacycommission:2
+nounced:2
+sided:2
+appeal:2
+suspend:2
+territo-:2
+courts:2
+implementing:2
+article 4:2
+di-:2
+rective:2
+9 5/46/ec:2
+context:2
+effective:2
+applies:2
+20:2
+community:2
+pur:2
+equip-:2
+automated:2
+otherwise:2
+situated:2
+gian:2
+unless:2
+transit:2
+makes:2
+established:2
+sure:2
+obligations:2
+located:2
+ac-:2
+jurisdiction:2
+disagreed:2
+serve:2
+commercial:2
+entire:2
+inextricably:2
+injunctive:2
+procedure:2
+merits:2
+extend:2
+submitted:2
+still:2
+implementation:2
+considers:2
+implemented:2
+access:2
+pages:2
+contrary:2
+individual:2
+given:2
+taken:2
+authori-:2
+ties:2
+whether:2
+determining:2
+urgency:2
+violation:2
+interim:2
+demonstrate:2
+moreover:2
+space:2
+recital:2
+19:2
+activity:2
+branch:2
+r:2
+1990-91:2
+11:2
+concept:2
+approach:2
+question:2
+ferred:2
+german:2
+requires:2
+freedoms:2
+concerned:2
+col-:2
+lected:2
+possible:2
+single:2
+based:2
+ternet:2
+confirmed:2
+autho-:2
+rised:2
+necessity:2
+cessing:2
+contested:2
+sub-:2
+iv:2
+placement:2
+ies:2
+accepted:2
+every:2
+actually:2
+ensure:2
+especially:2
+thus:2
+latter:2
+pre-:2
+finally:2
+ie:2
+explicitly:2
+interact:2
+domain:2
+third:2
+subjects:2
+debate:2
+ban-:2
+ner:2
+registered:2
+banner:2
+leaves:2
+commis-:2
+sion:2
+recently:2
+secondly:2
+16:2
+enough:2
+processed:2
+14:2
+15:2
+multiple:2
+laws:2
+may:2
+article 3 bis:2
+spain:2
+provision:2
+engine:2
+comment:2
+weltimmo:2
+only one:2
+representative:2
+suffice:2
+powers:2
+es-:2
+though:2
+implement:2
+gdpr:2
+mechanism:2
+present:2
+likely:2
+choice:2
+specific:2
+types:2
+thu:1
+sep:1
+23:1
+49 2021:1
+source:1
+citations:1
+bluebook:1
+st:1
+1 eur:1
+alwd:1
+chicago:1
+mcgill:1
+guide:1
+aglc:1
+mla:1
+vol:1
+4 , 2015:1
+oscola:1
+provided:1
+pace:1
+library:1
+indicates:1
+acceptance:1
+agreement:1
+//heinonline:1
+org/hol/license:1
+generated:1
+uncorrected:1
+ocr:1
+permission:1
+beyond:1
+please:1
+copyright:1
+stdphanie:1
+february 2015:1
+university:1
+searchers:1
+commissioned:1
+published:1
+containing:1
+policy:1
+plied:1
+30 january 2015:1
+allowed:1
+across:1
+particular:1
+so-:1
+called:1
+monitor:1
+variety:1
+ways:1
+research:1
+violated:1
+criticised:1
+formally:1
+cease:1
+although:1
+recommen-:1
+dations:1
+legally:1
+binding:1
+defacto:1
+obeyed:1
+avoid:1
+intrusive:1
+cas-:1
+so-called:1
+number:1
+identity:1
+interactions:1
+medical:1
+religious:1
+sexual:1
+political:1
+preferences:1
+justify:1
+relies:1
+dividual:1
+particularly:1
+came:1
+several months:1
+negotiations:1
+amicable:1
+solution:1
+summary:1
+sought:1
+injunction:1
+prohibiting:1
+giving:1
+1 2:1
+associate:1
+loyens:1
+loeff:1
+specialising:1
+intellectual:1
+property:1
+technology:1
+correspondence:1
+smedt@loyensloeff:1
+kuleu-:1
+ven:1
+be/icri/en/news/item/icri-cir-advises-belgian-privacy-com-:1
+mission-in-facebook-investigation:1
+technical:1
+written:1
+minds:1
+researchers:1
+//secure-:1
+homes:1
+esat:1
+bet-gacar/fbjracking/:1
+decem-:1
+long-term:1
+lifespan:1
+2 years:1
+identifying:1
+logged-in:1
+fan:1
+etc:1
+opts-out:1
+interest-based:1
+digital:1
+alliance:1
+set:1
+later:1
+sites:1
+include:1
+tracked:1
+proclaimed:1
+integrity:1
+maintenance:1
+8 december 1992:1
+relation:1
+24 october 1995:1
+electronic:1
+13 june 2005:1
+provisions:1
+12 july 2002:1
+concerning:1
+process-:1
+electron-:1
+ic:1
+sector:1
+e-privacy:1
+http:1
+be/sites/privacycommission/files/:1
+documents/recommendation:1
+04201:1
+50:1
+de-:1
+cember:1
+294:1
+spect:1
+ent:1
+together:1
+9 november 2015:1
+long-awaited:1
+ordered:1
+stop:1
+gium:1
+48 hours:1
+penalty:1
+payments:1
+250:1
+000:1
+day:1
+tinued:1
+infringement:1
+an-:1
+peal:1
+penalties:1
+becoming:1
+due:1
+immediately:1
+forceable:1
+officially:1
+served:1
+key:1
+findings:1
+much:1
+debated:1
+issue:1
+rial:1
+ju-:1
+risdiction:1
+3 bis:1
+defines:1
+plication:1
+follows:1
+shall:1
+virtue:1
+ritory:1
+poses:1
+terri-:1
+tory:1
+article 4 ( 1:1
+mem-:1
+complies:1
+laid:1
+headquarters:1
+ire-:1
+land:1
+entity:1
+regarded:1
+far:1
+cerned:1
+tually:1
+offers:1
+cording:1
+meaningful:1
+differ:1
+ences:1
+united:1
+canada:1
+rest:1
+world:1
+mat-:1
+ters:1
+establish-:1
+triggered:1
+finding:1
+net-:1
+5 6:1
+stage:1
+subsequent:1
+introductory:1
+hearing:1
+scheduled:1
+early january 2016:1
+probably:1
+prohibition:1
+unofficial:1
+translation:1
+via:1
+be/en/news/j:1
+udgment-facebook:1
+author:1
+introduced:1
+negotiating:1
+provision-:1
+announced:1
+provisional:1
+meanwhile:1
+blocking:1
+requiring:1
+log:1
+turn:1
+instructions:1
+proceed:1
+different:1
+entities:1
+involved:1
+295:1
+incidentally:1
+ensuring:1
+relations:1
+lobbying:1
+make:1
+prof:1
+itable:1
+foreign:1
+agreed:1
+irrelevant:1
+part:1
+sprl/bv-:1
+country:1
+takes:1
+importance:1
+condition:1
+automatically:1
+claimants:1
+situation:1
+fear:1
+8 9:1
+limited-liability:1
+incorporated:1
+2001:1
+annual:1
+financial:1
+statement:1
+mentioned:1
+consolidating:1
+parent:1
+deed:1
+incorporation:1
+two:1
+members:1
+staff:1
+contact:1
+enterprises:1
+provide:1
+support:1
+marketing:1
+preamble:1
+implies:1
+exercise:1
+stable:1
+arrangements:1
+form:1
+simply:1
+personality:1
+factor:1
+cassation:1
+judgments:1
+march:1
+1985:1
+1984-85 , 1008:1
+21 may 1987:1
+1986-87:1
+1287:1
+11 may 1990:1
+w:1
+987:1
+13 september 1990:1
+42:1
+4/2007:1
+20 june 2007:1
+1/2008:1
+4 april 2008:1
+related:1
+engines:1
+document:1
+21 november 2000:1
+integrated:1
+on-line:1
+c-70/10:1
+scarlet:1
+extended:1
+sabam:1
+24 novem- ber 2011:1
+51:1
+preliminary:1
+reference:1
+currently:1
+pending:1
+c-582/14:1
+breyer:1
+federal:1
+supreme:1
+damage:1
+serious:1
+inconve-:1
+nience:1
+immediate:1
+viola-:1
+basic:1
+defendant:1
+urgent:1
+lated:1
+swathe:1
+population:1
+potentially:1
+highly:1
+sensitive:1
+individu-:1
+constitute:1
+contain:1
+anony-:1
+mous:1
+details:1
+indi-:1
+vidual:1
+non-registered:1
+alone:1
+absence:1
+person-:1
+refuted:1
+identifies:1
+browser:1
+enabling:1
+directly:1
+indirect-:1
+individuals:1
+means:1
+computer:1
+opinions:1
+arti-:1
+cle:1
+line:1
+jurispru-:1
+dence:1
+justice:1
+the eu:1
+expressly:1
+qualifies:1
+the'processing:1
+with-:1
+bpda:1
+9 5:1
+/46/ec:1
+rely:1
+nec-:1
+essary:1
+performance:1
+contract:1
+meet:1
+iii:1
+except:1
+overridden:1
+296:1
+ject:1
+1 4:1
+legal-:1
+ity:1
+systematic:1
+non-technical:1
+plugins:1
+hand:1
+contractual:1
+relationship:1
+created:1
+account:1
+condi-:1
+tions:1
+interest:1
+credible:1
+request-:1
+loading:1
+criminals:1
+easily:1
+circumvent:1
+blocker:1
+software:1
+lack:1
+efficacy:1
+cluded:1
+weighed:1
+affect-:1
+undeniably:1
+vail:1
+alternative:1
+choose:1
+visit:1
+claimed:1
+showed:1
+summons:1
+deploy:1
+throughout:1
+deployed:1
+enhance:1
+granted:1
+inter:1
+stated:1
+senting:1
+merely:1
+fol-:1
+lows:1
+learn:1
+conse-:1
+quently:1
+followed:1
+validly:1
+landed:1
+do-:1
+resulted:1
+failed:1
+show:1
+considered:1
+amount:1
+more-:1
+hard-:1
+qualified:1
+requests:1
+he/she:1
+third-par:1
+ty:1
+rule:1
+strictly:1
+spe-:1
+cific:1
+disputed:1
+kept:1
+period:1
+long:1
+play:1
+crucial:1
+role:1
+whole:1
+series:1
+threats:1
+benefit:1
+complete:1
+wish:1
+generally:1
+seemingly:1
+fairly:1
+lawfully:1
+obtained:1
+specified:1
+explicit:1
+legit-:1
+imate:1
+appear:1
+less:1
+trusive:1
+methods:1
+desired:1
+pose:1
+result:1
+plained:1
+fails:1
+proportionality:1
+test:1
+article 2:1
+95/46/:1
+interpreted:1
+protocol:1
+stores:1
+constitutes:1
+additional:1
+knowledge:1
+required:1
+7 eu:1
+requirements:1
+described:1
+no 15/2011 of:1
+13 july 2011:1
+297 11:1
+comments:1
+ry:1
+judg-:1
+confirms:1
+complied:1
+eu-:1
+ropean:1
+reaching:1
+relied:1
+put:1
+forward:1
+pri-:1
+vacy:1
+alternatively:1
+lied:1
+second:1
+c-131/12:1
+sl:1
+agencia:1
+espatiola:1
+protecci:1
+6 n de datos:1
+mario:1
+costeja:1
+gonzalez:1
+2014:1
+interpret-:1
+sets:1
+mote:1
+sell:1
+orientates:1
+towards:1
+inhabitants:1
+detailed:1
+kranenborg:1
+forgotten:1
+70:1
+c-230/14:1
+nemzeti:1
+adatv:1
+delmi:1
+informici:1
+szabadsd:1
+g:1
+hatdsig:1
+1 october 2015:1
+presence:1
+cir-:1
+cumstances:1
+trigger:1
+applicability:1
+acts:1
+degree:1
+stability:1
+extensive:1
+cole:1
+giurgiu:1
+minimal:1
+triggering:1
+dpas:1
+limitations:1
+sanctioning:1
+310:1
+8/2010:1
+16 december 2010:1
+8/2014:1
+recent:1
+developments:1
+things:1
+applying:1
+term:1
+stored:1
+lo-:1
+cated:1
+current:1
+regime:1
+perfectly:1
+tablishments:1
+uses:1
+regulatory:1
+authorities:1
+offer:1
+level:1
+groups:1
+advised:1
+meets:1
+imposed:1
+legisla-:1
+aim:1
+proposed:1
+regulation:1
+accommodate:1
+un-:1
+certainty:1
+creating:1
+harmonising:1
+stronger:1
+cross-border:1
+cooperation:1
+ongoing:1
+one-stop:1
+shop:1
+ticularly:1
+multinational:1
+like:1
+enables:1
+deal:1
+authority:1
+simplify:1
+risk:1
+assessments:1
+reasoning:1
+proceed-:1
+ings:1
+initiated:1
+principles:1
+subscribed:1
+easy:1
+opt-in:1
+298:1
+jects:1
+dominant:1
+position:1
+market:1
+choices:1
+element:1
+essential:1
+need:1
+mercial:1
+profiling:1
+gen-:1
+eral:1
+rather:1
+vague:1
+gener:1
+ally:1
+worded:1
+thirdly:1
+received:1
+insuf:1
+ficient:1
+give:1
+settings:1
+preconfigured:1
+way:1
+unnecessarily:1
+disclosed:1
+consented:1
+opt-out:1
+proach:1
+arguably:1
+satisfy:1
+requirement:1
+pointed:1
+careful:1
+many:1
+realise:1
+moment:1
+allow-:1
+among:1
+others:1
+share:1
+posting:1
+reac-:1
+liking:1
+collect:1
+warned:1
+webmasters:1
+properly:1
+inform:1
+collecting:1
+informa-:1
+length:1
+storage:1
+ie/plug-in:1
+computer/device:1
+cluding:1
+ob-:1
+tain:1
+activated:1
+generic:1
+room:1
+ambiguity:1
+intentions:1
+cape:1
+liability:1
+outlook:1
+previously:1
+stay:1
+bring:1
+giant:1
+pursue:1
+one-:1
+showcase:1
+initiative:1
+prompted:1
+na-:1
+ture:1
+infringer:1
+beginning:1
+new:1
+active:1
+enforcement:1
+0:1
+largely:1
+depend:1
+government:1
+fur:1
+ther:1
+commitments:1
+budget:1
+human:1
+sources:1
+compliance:1
+monitoring:1
+prosecution:1
+purpos-:1
+simi-:1
+lar:1
+showing:1
+trend:1
+become:1
+marked:1
+adoption:1
+increase:1
+sanctions:1
+ad-:1
+vised:1
+thoroughly:1
+pliance:1
+status:1
+soon:1
+confronted:1
+max:1
+schrems:1
+investigate:1
+transfers:1
+invalidation:1
+eu-us:1
+safe:1
+harbour:1
+framework:1
+----------------------------------------------------------------------------------------
+
+Keywords that appear in the file, alongside with their frequencies:
+privacy:43
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+battle -> pobj
+round -> dobj
+loses -> ccomp
+use -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+by -> agent
+commissioned -> acl
+searchers -> nsubj
+published -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+policy -> conj
+use -> pobj
+terms -> pobj
+published -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+issued -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+dations -> nsubj
+are -> advcl
+obeyed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+are -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+concluded -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+sued -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+and -> cc
+data -> compound
+protection -> conj
+
+Ancestors:
+law -> pobj
+specialising -> advcl
+sought -> ROOT
+
+Immediate children:
+and -> cc
+protection -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> compound
+https -> pobj
+request -> pobj
+written -> acl
+ins -> pobj
+tracking -> pobj
+report -> dobj
+see -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+protection -> pobj
+law -> nsubj
+implements -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+protection -> conj
+process- -> pobj
+implements -> conj
+implements -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+sued -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+sided -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+limited -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+extend -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> poss
+website -> pobj
+available -> acomp
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+judgment -> pobj
+implementation -> dobj
+negotiating -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+announced -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+given -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> poss
+argument -> pobj
+agreed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+7 -> nummod
+
+Ancestors:
+right -> pobj
+violation -> pobj
+cases -> pobj
+met -> xcomp
+deemed -> ROOT
+
+Immediate children:
+7 -> nummod
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+internet -> pobj
+integrated -> amod
+eu -> compound
+approach -> pobj
+on-line -> nmod
+data -> compound
+protection -> pobj
+
+Ancestors:
+see -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+sided -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commis- -> compound
+sion -> poss
+argument -> dobj
+followed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+directive -> pobj
+e -> appos
+14 -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> poss
+recommendation -> conj
+version -> appos
+analysis -> appos
+report -> dobj
+see -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+limited -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+extend -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+pointed -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubj
+warned -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> compound
+pre- -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+
+Ancestors:
+decision -> nsubj
+is -> advcl
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> pobj
+available -> oprd
+made -> conj
+depend -> ccomp
+be -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+commission -> nsubjpass
+confronted -> ROOT
+
+Immediate children:

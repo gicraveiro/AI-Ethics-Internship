@@ -1,0 +1,15 @@
+Performance measures - Unigrams Dictionary - Adaboost
+N_est: 50, Learning rate: 1
+
+Test set:
+
+Precision macro: 0.368
+Precision Individually: [0.556 0.    0.551 0.4   0.333]
+Recall macro: 0.302
+Recall Individually: [0.357 0.    0.871 0.182 0.1  ]
+F1 Score micro: 0.522
+F1 Score macro: 0.303
+F1 Score weighted: 0.467
+F1 Score Individually: [0.435 0.    0.675 0.25  0.154]
+
+

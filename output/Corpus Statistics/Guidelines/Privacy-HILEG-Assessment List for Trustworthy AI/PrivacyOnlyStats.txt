@@ -1,0 +1,430 @@
+
+Privacy-HILEG-Assessment List for Trustworthy AI
+
+
+With stop word removal 
+Size of original corpus: 788 
+Size of filtered corpus: 435
+Size of Lexicon: 232
+
+Tokens that appear in the file, alongside with their frequencies:
+data:28
+privacy:12
+system:11
+protection:10
+assessment:9
+requirement:8
+right:8
+governance:7
+impact:7
+list:6
+trustworthy:6
+altai:6
+use:5
+:5
+10:4
+12:4
+integrity:4
+'s:4
+https:4
+human:3
+oversight:3
+14:3
+21:3
+23:3
+fundamental:3
+access:3
+consider:3
+mechanisms:3
+personal:3
+including:3
+artificial:2
+intelligence:2
+1:2
+agency:2
+safety:2
+general:2
+3:2
+environmental:2
+well-being:2
+management:2
+glossary:2
+15:2
+18:2
+19:2
+closely:2
+prevention:2
+harm:2
+systems:2
+covers:2
+protocols:2
+aggregation:2
+anonymisation:2
+dpia:2
+officer:2
+dpo:2
+encryption:2
+pseudonymisation:2
+standards:2
+case:2
+subsection:2
+helps:2
+self-assess:2
+related:2
+mental:2
+physical:2
+concerning:2
+processing:2
+special:2
+categories:2
+measures:2
+24:2
+development:2
+g:2
+implications:2
+processed:2
+non-personal:2
+iso:2
+25:2
+ieee:2
+26:2
+html:2
+isbn:2
+independent:1
+high-level:1
+expert:1
+group:1
+set:1
+european:1
+commission:1
+self:1
+0:1
+table:1
+contents:1
+introduction:1
+autonomy:1
+2:1
+technical:1
+robustness:1
+resilience:1
+attack:1
+security:1
+accuracy:1
+reliability:1
+fall-back:1
+plans:1
+reproducibility:1
+4:1
+transparency:1
+traceability:1
+explainability:1
+communication:1
+avoidance:1
+unfair:1
+bias:1
+accessibility:1
+universal:1
+design:1
+stakeholder:1
+participation:1
+5:1
+diversity:1
+non-discrimination:1
+fairness:1
+6:1
+societal:1
+work:1
+skills:1
+society:1
+large:1
+democracy:1
+7:1
+accountability:1
+auditability:1
+risk:1
+1 3 4 7 7 8 9 9:1
+9:1
+16:1
+17:1
+20:1
+linked:1
+principle:1
+particularly:1
+affected:1
+necessitates:1
+adequate:1
+quality:1
+used:1
+relevance:1
+light:1
+domain:1
+deployed:1
+capability:1
+process:1
+manner:1
+protects:1
+lifecycle:1
+rights:1
+person:1
+respect:1
+person’s:1
+and/or:1
+depending:1
+establish:1
+allow:1
+flagging:1
+issues:1
+adherence:1
+various:1
+elements:1
+trained:1
+developed:1
+using:1
+put:1
+place:1
+following:1
+mandatory:1
+regulation:1
+gdpr:1
+non-european:1
+equivalent:1
+designate:1
+include:1
+early:1
+state:1
+procurement:1
+phase:1
+limiting:1
+qualified:1
+personnel:1
+logging:1
+making:1
+modifications:1
+achieve:1
+privacy-by-design:1
+default:1
+//gdpr:1
+eu/data-protection-impact-assessment-template/:1
+//ico:1
+org:1
+uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-:1
+gdpr/accountability-and-governance/data-protection-officers/:1
+minimisation:1
+particular:1
+implement:1
+withdraw:1
+consent:1
+object:1
+forgotten:1
+collected:1
+generated:1
+course:1
+life:1
+cycle:1
+training-data:1
+align:1
+relevant:1
+widely:1
+adopted:1
+daily:1
+//www:1
+org/committee/6794475:1
+//standards:1
+org/industry-connections/ec/autonomous-systems:1
+13:1
+book:1
+978-92-76-20009-3:1
+978-92-76-20008-6:1
+pdf:1
+2759/791819 doi:1
+2759/002360:1
+kk-02-20-479-en-c:1
+kk-02-20-479-en-n:1
+----------------------------------------------------------------------------------------
+
+Keywords that appear in the file, alongside with their frequencies:
+privacy:12
+---------------------------------------------------------------------------------------
+Dependency relations of keywords that appear in the file:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+data -> conj
+governance -> conj
+
+Ancestors:
+requirement -> dobj
+use -> acl
+list -> nsubj
+is -> ROOT
+
+Immediate children:
+and -> cc
+data -> conj
+governance -> conj
+
+
+KEYWORD: privacy -> compound
+
+Descendants:
+
+Ancestors:
+governance -> compound
+traceability -> compound
+avoidance -> appos
+requirement -> dobj
+use -> acl
+list -> nsubj
+is -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+data -> conj
+
+Ancestors:
+governance -> dobj
+use -> acl
+list -> nsubj
+is -> ROOT
+
+Immediate children:
+and -> cc
+data -> conj
+
+
+KEYWORD: privacy -> attr
+
+Descendants:
+fundamental -> amod
+right -> appos
+particularly -> advmod
+affected -> acl
+by -> agent
+ai -> nmod
+systems -> pobj
+
+Ancestors:
+is -> ROOT
+
+Immediate children:
+right -> appos
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+prevention -> nsubj
+necessitates -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> dobj
+
+Descendants:
+
+Ancestors:
+protects -> relcl
+manner -> pobj
+process -> acl
+capability -> conj
+protocols -> conj
+relevance -> dobj
+necessitates -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nsubj
+
+Descendants:
+
+Ancestors:
+helps -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+data -> conj
+
+Ancestors:
+protection -> pobj
+impact -> pobj
+impact -> dobj
+self-assess -> xcomp
+helps -> ROOT
+
+Immediate children:
+and -> cc
+data -> conj
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+right -> pobj
+impact -> dobj
+consider -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> pobj
+
+Descendants:
+
+Ancestors:
+related -> ccomp
+allow -> relcl
+mechanisms -> dobj
+establish -> ROOT
+
+Immediate children:
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+data -> conj
+
+Ancestors:
+protection -> compound
+implications -> dobj
+consider -> ROOT
+
+Immediate children:
+and -> cc
+data -> conj
+
+
+KEYWORD: privacy -> nmod
+
+Descendants:
+and -> cc
+data -> conj
+
+Ancestors:
+protection -> compound
+implications -> dobj
+consider -> ROOT
+
+Immediate children:
+and -> cc
+data -> conj
