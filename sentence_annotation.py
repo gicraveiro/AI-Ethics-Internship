@@ -44,7 +44,7 @@ sheet = service.spreadsheets()
 
 nlp = spacy.load('en_core_web_sm') # Obs: splitting for annotation was executed with sm but ideally should have been with large model
 
-path='Privacy/Facebook/TargetCompanySourced' # TO ADD DIFFERENT DOCUMENTS, UPDATE PATH
+path='Facebook/Policies' # TO ADD DIFFERENT DOCUMENTS, UPDATE PATH
 
 # Loops through all the documents in the specified folder
 for filename in os.listdir('data/'+path):
