@@ -61,6 +61,14 @@ def clean_corpus(corpus):
 
     return corpus
 
+# Creates dictionary of a set, associating sentence with label
+def create_sent_label_dict(sents, labels):
+    sents_dict = []
+    for row_id,row in enumerate(sents):
+        row = re.sub("\n", " ", row)
+        sents_dict.append({"text":row.strip(), "label":labels[row_id]})
+    return sents_dict
+
 # For both classifiers
 
 # WRITE OUTPUT STATISTICS FILE
@@ -78,10 +86,9 @@ def write_output_stats_file(path, name, ref_labels, pred_labels, labels):
         print("\n", file=file)
 
 # WRITE OUTPUT PREDICTIONS IN JSON FORMAT
-def write_predictions_file(name, pred_dict):
-    path = 'output/Simple Classifier/multilabelPredictions_'+name+'.json'
+def write_predictions_file(pred_dict, path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open('output/Simple Classifier/multilabelPredictions_'+name+'.json', 'w') as file:
+    with open(path, 'w') as file:
         file.write(json.dumps(pred_dict, indent=4, ensure_ascii=False))
 
 # Creates a confusion matrix

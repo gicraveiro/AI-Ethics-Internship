@@ -7,7 +7,7 @@ from sklearn.svm import LinearSVC
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 import fasttext.util
-from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, create_confusion_matrix # write_predictions_file
+from utils import clean_corpus, reconstruct_hyphenated_words, write_output_stats_file, create_confusion_matrix, create_sent_label_dict, write_predictions_file
 from partition import sents_train, labels_train, sents_dev, labels_dev, sents_test, labels_test
 import spacy
 import numpy
@@ -40,6 +40,23 @@ def create_labels_array(labels_list):
         if label[0] == 'Not applicable':
             labels_array.append(5)
     return labels_array
+
+# Transform label array with number representations in labels list with names
+def converts_to_text(numerical_pred_list):
+    text_pred_list = []
+    for pred in numerical_pred_list:
+        if pred == 1:
+            text_pred_list.append('Commit to privacy')
+        if pred == 2:
+            text_pred_list.append('Violate privacy')
+        if pred == 3:
+            text_pred_list.append('Declare opinion about privacy')
+        if pred == 4:
+            text_pred_list.append('Related to privacy')
+        if pred == 5:
+            text_pred_list.append('Not applicable')
+
+    return text_pred_list
 
 # Create sparse matrixes that represent words present in each sentence, which is the appropriate format to feed the AI classifier
 def format_sentVector_to_SparseMatrix(vectors_list, dictionary):
@@ -115,9 +132,9 @@ def create_vectors_list(sents, conversion_dict):
 
     print("Unigrams unknown count including repetitions:", unk_unigrams_count)
     print("Bigrams unknown count including repetitions:", unk_bigrams_count, "\n")
-    #return unigrams_vector  # TO RUN WITH UNIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
+    return unigrams_vector  # TO RUN WITH UNIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
     #return bigrams_vector  # TO RUN WITH BIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
-    return mixed_vector    # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
+    #return mixed_vector    # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS LINE AND COMMENT THE OTHER TWO RETURNS
 
 # TO USE MLP CLASSIFIER WITH WORD EMBEDDINGS APPROACH, UNCOMMENT THIS FUNCION
 # def create_word_embedding(partition):
@@ -185,7 +202,7 @@ unigrams_to_numbers = create_dict(unigrams_filtered_lexicon)
 bigrams_to_numbers = create_dict(bigrams_filtered_lexicon)
 
 # Mixed dictionary
-with open('features.txt', 'r') as file:
+with open('data/Utils/features.txt', 'r') as file:
     features_list = file.read()
 features_list = features_list.split('\n')
 mixed_to_numbers = create_dict(features_list)
@@ -209,9 +226,9 @@ print("Length of the dictionary of unigrams and bigrams(lexicon):",len(mixed_to_
 # SIMPLE NUMERICAL REPRESENTATIONS OF THE SENTENCES
 
 # TO RUN WITH UNIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
-# train_vectors_list = create_vectors_list(sents_train, unigrams_to_numbers)
-# dev_vectors_list = create_vectors_list(sents_dev, unigrams_to_numbers)
-# test_vectors_list = create_vectors_list(sents_test, unigrams_to_numbers)
+train_vectors_list = create_vectors_list(sents_train, unigrams_to_numbers)
+dev_vectors_list = create_vectors_list(sents_dev, unigrams_to_numbers)
+test_vectors_list = create_vectors_list(sents_test, unigrams_to_numbers)
 
 # TO RUN WITH BIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
 # train_vectors_list = create_vectors_list(sents_train, bigrams_to_numbers)
@@ -219,16 +236,16 @@ print("Length of the dictionary of unigrams and bigrams(lexicon):",len(mixed_to_
 # test_vectors_list = create_vectors_list(sents_test, bigrams_to_numbers)
 
 # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
-train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
-dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
-test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
+# train_vectors_list = create_vectors_list(sents_train, mixed_to_numbers)
+# dev_vectors_list = create_vectors_list(sents_dev, mixed_to_numbers)
+# test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 
 # FORMATTING SIMPLE SENTENCE REPRESENTATIONS - MUST BE IN SPARSE MATRIX FORMAT TO FEED THE CLASSIFIERS
 
 # TO RUN WITH UNIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
-# train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, unigrams_to_numbers)
-# dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, unigrams_to_numbers)
-# test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, unigrams_to_numbers)
+train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, unigrams_to_numbers)
+dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, unigrams_to_numbers)
+test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, unigrams_to_numbers)
 
 # TO RUN WITH BIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
 # train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, bigrams_to_numbers)
@@ -236,9 +253,9 @@ test_vectors_list = create_vectors_list(sents_test, mixed_to_numbers)
 # test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, bigrams_to_numbers)
 
 # TO RUN WITH UNIGRAMS + BIGRAMS, UNCOMMENT THIS 3 LINES AND COMMENT THE OTHER TWO TRIPLETS
-train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
-dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
-test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
+# train_matrix_array = format_sentVector_to_SparseMatrix(train_vectors_list, mixed_to_numbers)
+# dev_matrix_array = format_sentVector_to_SparseMatrix(dev_vectors_list, mixed_to_numbers)
+# test_matrix_array = format_sentVector_to_SparseMatrix(test_vectors_list, mixed_to_numbers)
 
 # CREATE LABELS REPRESENTATIONS
 
@@ -274,11 +291,11 @@ test_labels_primary = numpy.asarray(create_labels_array(labels_test))
 # TO USE ADABOOST CLASSIFIER, UNCOMMENT adaclassifier AND COMMENT OTHER MODELS
 #   TO USE UNIGRAMS, PARAMETERS WERE BETTER WITH n_estimators=50, learning_rate=1
 #   TO USE UNIGRAMS + BIGRAMS, PARAMETERS WERE BETTER WITH n_estimators=100, learning_rate=0.5
-adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5) 
+# adaclassifier = AdaBoostClassifier(n_estimators=50, learning_rate=1) 
 # TO USE SVC CLASSIFIER WITH ONE VS REST SCHEME, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
-#svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
+svc_classifier = make_pipeline(StandardScaler(), OneVsRestClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 # TO USE SVC CLASSIFIER WITH ONE VS ONE SCHEME, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
-#svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=1)))
+# svc_classifier = make_pipeline(StandardScaler(), OneVsOneClassifier(LinearSVC(dual=False,random_state=None, tol=1e-5, C=0.05)))
 # TO USE MLP CLASSIFIER WITH WORD EMBEDDINGS, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
 #mlp_classifier = MLPClassifier(random_state=1111111, early_stopping=True, batch_size=32, hidden_layer_sizes=(200,250,200), learning_rate='adaptive', learning_rate_init=0.001, max_iter=1000)
 # TO TEST HYPERPARAMETERS FOR MLP CLASSIFIER, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
@@ -287,10 +304,10 @@ adaclassifier = AdaBoostClassifier(n_estimators=100, learning_rate=0.5)
 # Training
 
 # TO USE ADABOOST CLASSIFIER, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
-model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
+# model = adaclassifier.fit(train_matrix_array, train_labels_primary) 
 #print(adaclassifier.best_params_) # prints best parameters if you enabled GridSearchCV
 # TO USE SVC CLASSIFIER, UNCOMMENT THIS LINE AND COMMENT OTHER MODELS
-#model = svc_classifier.fit(train_matrix_array, train_labels_primary)
+model = svc_classifier.fit(train_matrix_array, train_labels_primary)
 
 # TO USE MLP CLASSIFIER, UNCOMMENT THESE 3 LINES AND COMMENT OTHER MODELS
 #new_train_features = numpy.asarray(train_word_embedding_features + dev_word_embedding_features)
@@ -317,8 +334,8 @@ model = adaclassifier.fit(train_matrix_array, train_labels_primary)
 # Predicting
 
 # TO USE ADABOOST OR SVC CLASSIFIERS
-#predictions = model.predict(dev_matrix_array) # DEV
-predictions = model.predict(test_matrix_array) # TEST
+predictions = model.predict(dev_matrix_array) # DEV
+#predictions = model.predict(test_matrix_array) # TEST
 
 # TO USE MLP CLASSIFIER WITH WORD EMBEDDINGS
 #predictions = model.predict(dev_word_embedding_features) # DEV
@@ -328,36 +345,54 @@ predictions = model.predict(test_matrix_array) # TEST
 
 # Format labels and predictions
 test_list = test_labels_primary.tolist() # TEST
-#dev_list = dev_labels_primary.tolist() # DEV
+dev_list = dev_labels_primary.tolist() # DEV
 pred_list = [pred for pred in predictions]
 labels=[1,3,5,4,2]
-path='output/AI Classifier/1Label_confusion_matrix_NormTrue.png'
+
+# path = 'output/AI Classifier/Adaboost/Unigrams/' 
+# path = 'output/AI Classifier/Adaboost/Unigrams+Bigrams/'
+# path = 'output/AI Classifier/SVC/One vs Rest/C=1/'
+# path = 'output/AI Classifier/SVC/One vs One/C=1/'
+path = 'output/AI Classifier/SVC/One vs Rest/C=0.05/'
+# path = 'output/AI Classifier/SVC/One vs One/C=0.05/'
+# path = 'output/AI Classifier/SVC/C=0.05/'
+# path = 'output/AI Classifier/MLP/'
+
+aux_path= path + 'confusion_matrix_Normalized_Dev.png' 
+#aux_path= path + 'confusion_matrix_Normalized_Test.png' 
 display_labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
 
 # NORMALIZED CONFUSION MATRIX
-#create_confusion_matrix(dev_list, pred_list, "true", path, labels, display_labels) # DEV
-create_confusion_matrix(test_list, pred_list, "true", path, labels, display_labels) # TEST
+create_confusion_matrix(dev_list, pred_list, "true", aux_path, labels, display_labels) # DEV
+#create_confusion_matrix(test_list, pred_list, "true", aux_path, labels, display_labels) # TEST
 
 # NON NORMALIZED CONFUSION MATRIX
-path='output/AI Classifier/1Label_confusion_matrix_NonNorm.png'
-#create_confusion_matrix(dev_list, pred_list, None, path, labels, display_labels) # DEV
-create_confusion_matrix(test_list, pred_list, None, path, labels, display_labels) # TEST
+aux_path= path + 'confusion_matrix_NonNormalized_Dev.png'
+#aux_path= path + 'confusion_matrix_NonNormalized_Test.png'
+create_confusion_matrix(dev_list, pred_list, None, aux_path, labels, display_labels) # DEV
+#create_confusion_matrix(test_list, pred_list, None, aux_path, labels, display_labels) # TEST
 
 # File for performance on predictions
+aux_path = path + 'PredictionsStatsDev.txt' # DEV
+#aux_path = path + 'PredictionsStatsTest.txt' # TEST
 
-#path='output/AI Classifier/1labelPredictionsStatsDev.txt' # DEV
-path='output/AI Classifier/1labelPredictionsStatsTest.txt' # TEST
-os.makedirs(os.path.dirname(path), exist_ok=True)
-with open(path, 'w') as file:
-    #print("Performance measures - Unigram Dictionary - MLP Word Embeddings\n", file=file) # CHANGE TITLE ACCORDING TO CONTEXT
-    print("Performance measures - Mixed Dictionary - Adaboost\n", file=file) # CHANGE TITLE ACCORDING TO CONTEXT
-#write_output_stats_file(path, "Dev", dev_labels_primary, predictions, labels) # DEV
-write_output_stats_file(path, "Test", test_labels_primary, predictions, labels) # TEST
+with open(aux_path, 'w') as file:
+    #print("Performance measures - MLP Word Embeddings\n", file=file) # CHANGE TITLE ACCORDING TO CONTEXT
+    print("Performance measures - SVC\n0ne vs Rest, C = 0.05\n", file=file) # CHANGE TITLE ACCORDING TO CONTEXT
+write_output_stats_file(aux_path, "Dev", dev_labels_primary, predictions, labels) # DEV
+#write_output_stats_file(aux_path, "Test", test_labels_primary, predictions, labels) # TEST
 
-# TO DO: WRITE PREDICTIONS JSON FILE 
-#      -> LEARN HOW TO TRANSFORM ADABOOST OUTPUT IN DICT ( LIST OF ({"text":sentence['text'], "label":label}))
-# write_predictions_file("Dev", dev_pred_dict) # DEV
-# write_predictions_file("Test", test_pred_dict) # TEST
+
+pred_list = converts_to_text(pred_list)
+dev_pred_dict = create_sent_label_dict(sents_dev, pred_list) # DEV
+#test_pred_dict = create_sent_label_dict(sents_test, pred_list) # TEST
+
+# Predictions json file
+aux_path = path + 'Predictions_Dev.json'
+#aux_path = path + 'Predictions_Test.json'
+
+write_predictions_file(dev_pred_dict, aux_path) # DEV
+#write_predictions_file(test_pred_dict, aux_path) # TEST
 
 # References that helped me understand how to implement all this
 # https://newbedev.com/valueerror-could-not-broadcast-input-array-from-shape-2242243-into-shape-224224
