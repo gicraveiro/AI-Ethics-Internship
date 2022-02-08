@@ -84,20 +84,21 @@ dev_pred_first_label = [label[0] for label in dev_pred_array]
 test_pred_array = [sent['label'] for sent in test_pred_dict]
 test_pred_first_label = [label[0] for label in test_pred_array]
 
+labels=['Commit to privacy', 'Declare opinion about privacy','Not applicable','Related to privacy','Violate privacy']
 # Confusion Matrixes
 
 path='output/Simple Classifier/1Label_confusion_matrix_TrainNormTrue.png'
-create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "true", path, None, None)
+create_confusion_matrix(train_ref_primary_label, train_pred_first_label, "true", path, labels, labels)
 path='output/Simple Classifier/1Label_confusion_matrix_DevNormTrue.png'
-create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "true", path, None, None)
+create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, "true", path, labels, labels)
 path='output/Simple Classifier/1Label_confusion_matrix_TestNormTrue.png'
-create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "true", path, None, None)
+create_confusion_matrix(test_ref_primary_label, test_pred_first_label, "true", path, labels, labels)
 path='output/Simple Classifier/1Label_confusion_matrix_TrainNonNorm.png'
-create_confusion_matrix(train_ref_primary_label, train_pred_first_label, None, path, None, None)
+create_confusion_matrix(train_ref_primary_label, train_pred_first_label, None, path, labels, labels)
 path='output/Simple Classifier/1Label_confusion_matrix_DevNonNorm.png'
-create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, None, path, None, None)
+create_confusion_matrix(dev_ref_primary_label, dev_pred_first_label, None, path, labels, labels)
 path='output/Simple Classifier/1Label_confusion_matrix_TestNonNorm.png'
-create_confusion_matrix(test_ref_primary_label, test_pred_first_label, None, path, None, None)
+create_confusion_matrix(test_ref_primary_label, test_pred_first_label, None, path, labels, labels)
 
 # Performance Measures
 
@@ -105,6 +106,6 @@ path='output/Simple Classifier/1labelPredictionsStats.txt'
 os.makedirs(os.path.dirname(path), exist_ok=True)
 with open(path, 'w') as file:
     print("Performance measures\n", file=file)
-write_output_stats_file(path, "Train", train_ref_primary_label, train_pred_first_label)
-write_output_stats_file(path, "Dev", dev_ref_primary_label, dev_pred_first_label)
-write_output_stats_file(path, "Test", test_ref_primary_label, test_pred_first_label)
+write_output_stats_file(path, "Train", train_ref_primary_label, train_pred_first_label, labels)
+write_output_stats_file(path, "Dev", dev_ref_primary_label, dev_pred_first_label, labels)
+write_output_stats_file(path, "Test", test_ref_primary_label, test_pred_first_label, labels)
